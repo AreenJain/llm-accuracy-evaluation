@@ -1,0 +1,1 @@
+conda activate "D:\MSc AI with NLP\Praticum\Pract_Code\envs\myenv"
