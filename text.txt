@@ -1,1 +1,4 @@
 conda activate "D:\MSc AI with NLP\Praticum\Pract_Code\envs\myenv"
+
+git commit -m "Updates"
+git push -u origin main
