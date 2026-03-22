@@ -2,3 +2,74 @@ conda activate "D:\MSc AI with NLP\Praticum\Pract_Code\envs\myenv"
 
 git commit -m "Updates"
 git push -u origin main
+
+
+
+===============================
+Code Flow:
+===============================
+1. Summary files are present in docs folder and in that we need to swap the summaries with annotate whitespace one present in games.csv['generated text']. 
+
+2. Reference will be given as system input data (Rotowire dataformat) which is present in shared_task.jsonl (1 line per one doc)
+
+3. Need to generate the Token_id list for each doc
+
+4. Also we need to send the swap text doc to LLM + Reference, and need to give the rules : 
+        Split the text by whitespace.
+        Token IDs start from 1.
+        Return error positions using this indexing.
+
+5. Input/output format from hugging face/langchain and model from hugging face/Groq
+
+6. We will get list of error, types with corrections and token_ids, Later need to convert in Tabular(according to gsml.csv) for standard evaluation.
+
+=============================
+Token Format
+=============================
+
+doc_to_sent:
+  S001:                 <- Document number (Doc_token)
+    1:                  <- Token_id at Document Level
+      sentence_id: 1    <- Sentence IDs
+      token_id: 1       <- Token_id at sentence level
+    2:
+      sentence_id: 1
+      token_id: 2
+  .
+  .
+  .
+  .
+
+  based on this you will get how token are mapped in gsml.csv
+
+=============================
+Functions and code
+=============================
+function to fetch data from documents and and swap with annotate whitespace one present in games.csv['generated text']
+function to generate the token_id at sentence and document level as per token_lookup.yaml
+load the model through hugging face/groq and make the prompt with which it contains:
+    "General rule that is present in all docs"
+    {Swapped paras}
+    {Rotowire Reference}
+Define the Output structure, i.e. 
+{
+    doc_level_token_id: {
+        sentence_level_token_id: {
+            number/word/any_error : corrections
+        }
+    },
+    doc_level_token_id: {
+        sentence_level_token_id: {
+            number/word/any_error : corrections
+        }
+    },
+    .
+    .
+    .
+    .
+}
+
+
+This Dictionary then need to convert into Tabular format using python script. so we can compare with gold standards.
+
+==========================
