@@ -43,33 +43,51 @@ doc_to_sent:
   based on this you will get how token are mapped in gsml.csv
 
 =============================
+Create one csv file that contains (This is for INPUT only):
+    Document_id, Text from games.csv["generated text"]
+=============================
+
+
+=============================
 Functions and code
 =============================
 function to fetch data from documents and and swap with annotate whitespace one present in games.csv['generated text']
 function to generate the token_id at sentence and document level as per token_lookup.yaml
 load the model through hugging face/groq and make the prompt with which it contains:
+
+INPUT: 
+
     "General rule that is present in all docs"
+    {dcoument id}
     {Swapped paras}
     {Rotowire Reference}
+
+OUTPUT:
+
 Define the Output structure, i.e. 
-{
-    doc_level_token_id: {
-        sentence_level_token_id: {
-            number/word/any_error : corrections
-        }
-    },
-    doc_level_token_id: {
-        sentence_level_token_id: {
-            number/word/any_error : corrections
-        }
-    },
-    .
-    .
-    .
-    .
+{ S001:
+    {
+        doc_level_token_id: {
+            sentence_level_token_id: {
+                number/word/any_error : corrections
+            }
+        },
+        doc_level_token_id: {
+            sentence_level_token_id: {
+                number/word/any_error : corrections
+            }
+        },
+        .
+        .
+        .
+        .
+    }
 }
 
 
 This Dictionary then need to convert into Tabular format using python script. so we can compare with gold standards.
 
 ==========================
+
+
+confusion at token, will see later, WAIT.
