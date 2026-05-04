@@ -1,0 +1,374 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S003,1,1,"The Toronto Raptors defeated the Orlando Magic , 109 - 79 , at Amway Center on Saturday evening .",1.0,19.0,name,Sunday,"Game was on Sunday, not Saturday",qwen_small,318.54
+S003,1,2,The Raptors ( 19 - 8 ),20.0,26.0,number,19-8,Corrected to match the box score,qwen_small,318.54
+S003,1,3,The Raptors ( 19 - 8 ),20.0,26.0,number,19-8,Corrected to match the box score,qwen_small,318.54
+S003,2,1,The Raptors ( 19 - 8 ),20.0,26.0,number,19-8,Corrected to match the box score,qwen_small,318.54
+S003,2,2,"have been one of the hottest teams in the NBA this season , and the Raptors ( 19 - 8 )",27.0,47.0,number,19-8,Corrected to match the box score,qwen_small,318.54
+S003,3,1,"The Raptors were led by DeMar DeRozan , who posted a game - high 31 points , which he supplemented with five rebounds , four assists and a steal .",69.0,98.0,number,31,Corrected to match the box score,qwen_small,318.54
+S003,4,1,"Kyle Lowry was right behind him with a 16 - point , 10 - assist double - double that also included three rebounds , a steal and a block .",99.0,128.0,number,16,Corrected to match the box score,qwen_small,318.54
+S003,5,1,"Jonas Valanciunas was next with a 16 - point , 13 - rebound double - double that also included a block , a block and a block .",129.0,156.0,number,16,Corrected to match the box score,qwen_small,318.54
+S003,5,2,"13 point , two rebounds , a steal and a block .",,,number,13,Corrected to match the box score,qwen_small,318.54
+S003,6,1,"Terrence Ross was productive in a reserve role as well with 11 points , two rebounds , a steal and a block .",183.0,205.0,number,11,Corrected to match the box score,qwen_small,318.54
+S003,7,1,"Toronto remains in third place in the Eastern Conference 's Atlantic Division , and are currently slotted in the seventh seed in the conference as well .",206.0,232.0,name,Southeast,Corrected to match the box score,qwen_small,318.54
+S003,8,1,They head to Charlotte to take on the Hornets on Friday night .,233.0,245.0,name,Friday,"Game is on Friday, not Friday night",qwen_small,318.54
+S003,9,1,"Orlando 's attack was spearheaded by Elfrid Payton , who tallied 13 points , three assists , two rebounds and a steal .",246.0,268.0,number,13,Corrected to match the box score,qwen_small,318.54
+S003,10,1,"Aaron Gordon was next with a 10 - point , 12 - rebound double - double that also included an assist , a steal and a block .",269.0,296.0,number,10,Corrected to match the box score,qwen_small,318.54
+S003,11,1,"Elfrid Payton was next with 13 points , two assists , two rebounds and a steal .",297.0,313.0,number,13,Corrected to match the box score,qwen_small,318.54
+S003,12,1,"Aaron Gordon was next with a 10 - point , 12 - rebound double - double that also included an assist , a steal and a block .",269.0,296.0,number,10,Corrected to match the box score,qwen_small,318.54
+S003,13,1,"DJ Augustin was productive in a reserve role as well with 11 points , three rebounds , two assists and a pair of steals .",342.0,366.0,number,11,Corrected to match the box score,qwen_small,318.54
+S004,1,1,"The host Utah Jazz defeated the Los Angeles Lakers , 96 - 89 .",,,number,96-89,Score is incorrect,qwen_small,318.54
+S004,1,2,Vivint Smart Home Arena,16.0,19.0,name,Salt,Arena name is incorrect,qwen_small,318.54
+S004,2,3,The Jazz ( 1 - 1 ),23.0,29.0,number,1-1,Record is incorrect,qwen_small,318.54
+S004,3,4,outscored the Lakers by 16 in the fourth quarter .,68.0,77.0,number,16,Margin of victory is incorrect,qwen_small,318.54
+S004,4,5,38 % from the field and 24 % from three - point range .,,,number,38,Field goal percentage is incorrect,qwen_small,318.54
+S004,5,6,43 - 24,120.0,122.0,number,43-24,Rebounding margin is incorrect,qwen_small,318.54
+S004,6,7,"D' Angelo Russell led the team in scoring ,",,,name,D'Angelo,Player name is incorrect,qwen_small,318.54
+S004,6,8,"17 points , five rebounds and five assists .",164.0,172.0,number,17,Points scored is incorrect,qwen_small,318.54
+S004,7,9,"Luol Deng was the only other starter in double figures ,",173.0,183.0,name,Luol,Player name is incorrect,qwen_small,318.54
+S004,7,10,12 points and 12 rebounds .,187.0,192.0,number,12,Points scored is incorrect,qwen_small,318.54
+S004,8,11,"D' Angelo Russell led the Lakers in scoring ,",,,name,D'Angelo,Player name is incorrect,qwen_small,318.54
+S004,8,12,"17 points , five rebounds and five assists .",164.0,172.0,number,17,Points scored is incorrect,qwen_small,318.54
+S004,9,13,"Luol Deng was the only other starter in double figures ,",173.0,183.0,name,Luol,Player name is incorrect,qwen_small,318.54
+S004,9,14,12 points and 12 rebounds .,187.0,192.0,number,12,Points scored is incorrect,qwen_small,318.54
+S004,10,15,On deck for Los Angeles is a home matchup against the Portland Trail Blazers on Sunday .,233.0,249.0,name,Utah,Team name is incorrect,qwen_small,318.54
+S004,11,16,"George Hill was the player of the game ,",273.0,281.0,name,Rudy,Player name is incorrect,qwen_small,318.54
+S004,11,17,"23 points , three rebounds and three assists on 7 - of - 14 shooting .",288.0,303.0,number,23,Points scored is incorrect,qwen_small,318.54
+S004,12,18,"Rudy Gobert finished second on the team ,",304.0,311.0,name,George,Player name is incorrect,qwen_small,318.54
+S004,12,19,"13 points , 13 rebounds and four blocks .",313.0,321.0,number,13,Points scored is incorrect,qwen_small,318.54
+S004,13,20,"Rudy Gobert recorded a double - double ,",322.0,329.0,name,Rudy,Player name is incorrect,qwen_small,318.54
+S004,13,21,"13 points , 13 rebounds and four blocks .",313.0,321.0,number,13,Points scored is incorrect,qwen_small,318.54
+S005,1,1,"Paul Millsap led the way for the Hawks with a game - high 21 points , which he supplemented with five rebounds , four assists and one steal .",38.0,66.0,number,27,"Paul Millsap scored 27 points, not 21 points.",qwen_small,318.54
+S005,1,2,"Paul Millsap led the way for the Hawks with a game - high 21 points , which he supplemented with five rebounds , four assists and one steal .",38.0,66.0,name,Kent Bazemore,"Kent Bazemore led the Hawks with 27 points, not Paul Millsap.",qwen_small,318.54
+S005,2,3,"Paul Millsap was right behind him with 21 points , five rebounds , four assists and one steal .",,,number,27,"Paul Millsap scored 27 points, not 21 points.",qwen_small,318.54
+S005,2,4,"Paul Millsap was right behind him with 21 points , five rebounds , four assists and one steal .",,,name,Kent Bazemore,"Kent Bazemore led the Hawks with 27 points, not Paul Millsap.",qwen_small,318.54
+S005,3,5,"Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .",85.0,110.0,number,27,"Dwight Howard scored 27 points, not 11 points.",qwen_small,318.54
+S005,3,6,"Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .",85.0,110.0,name,Kent Bazemore,"Kent Bazemore led the Hawks with 27 points, not Dwight Howard.",qwen_small,318.54
+S005,4,7,"Kent Bazemore led the bench with 27 points , three rebounds , three assists and two steals . Kent Bazemore led the second unit with 27 points , three rebounds , three assists and two steals .",111.0,147.0,number,12,"Kent Bazemore scored 12 points, not 27 points.",qwen_small,318.54
+S005,4,8,"Kent Bazemore led the bench with 27 points , three rebounds , three assists and two steals . Kent Bazemore led the second unit with 27 points , three rebounds , three assists and two steals .",111.0,147.0,name,Paul Millsap,"Paul Millsap led the Hawks with 27 points, not Kent Bazemore.",qwen_small,318.54
+S005,5,9,"Paul Millsap led the way for Orlando with 21 points , five rebounds , four assists , one steal and one block .",148.0,170.0,name,Kent Bazemore,"Kent Bazemore led the Hawks with 27 points, not Paul Millsap for Orlando.",qwen_small,318.54
+S005,5,10,"Paul Millsap led the way for Orlando with 21 points , five rebounds , four assists , one steal and one block .",148.0,170.0,number,12,"Paul Millsap scored 12 points, not 21 points for Orlando.",qwen_small,318.54
+S005,6,11,"Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .",85.0,110.0,name,Kent Bazemore,"Kent Bazemore led the Hawks with 27 points, not Dwight Howard.",qwen_small,318.54
+S005,6,12,"Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block .",85.0,110.0,number,27,"Dwight Howard scored 27 points, not 11 points.",qwen_small,318.54
+S005,7,13,"Kent Bazemore led the second unit with 12 points , three rebounds , three assists , two steals and one block .",197.0,218.0,number,27,"Kent Bazemore scored 27 points, not 12 points.",qwen_small,318.54
+S005,7,14,"Kent Bazemore led the second unit with 12 points , three rebounds , three assists , two steals and one block .",197.0,218.0,,,,qwen_small,318.54
+S006,1,1,Houston Rockets ( 10 - 12 ),2.0,8.0,number,Brooklyn,,qwen_small,318.54
+S006,1,2,Brooklyn Nets ( 6 - 15 ),11.0,17.0,number,Houston,,qwen_small,318.54
+S006,1,3,110 - 105,18.0,20.0,number,105-110,,qwen_small,318.54
+S006,1,4,Friday,22.0,22.0,name,Tuesday,,qwen_small,318.54
+S006,2,5,10 - 12,5.0,7.0,number,6-15,,qwen_small,318.54
+S006,2,6,6 - 15,14.0,16.0,number,10-12,,qwen_small,318.54
+S006,3,7,James Harden,46.0,47.0,name,Corey Brewer,,qwen_small,318.54
+S006,3,8,10 points,51.0,52.0,number,22,,qwen_small,318.54
+S006,3,9,nine - point effort,,,word,10,,qwen_small,318.54
+S006,3,10,seven times,,,number,12,,qwen_small,318.54
+S006,3,11,nine assists,54.0,55.0,number,10,,qwen_small,318.54
+S006,3,12,Corey Brewer,,,name,James Harden,,qwen_small,318.54
+S006,3,13,34 and 26 minutes,,,number,22 and 32 minutes,,qwen_small,318.54
+S006,3,14,22 points,,,number,32,,qwen_small,318.54
+S006,3,15,4 three - pointers,,,number,3,,qwen_small,318.54
+S006,3,16,32 points,,,number,22,,qwen_small,318.54
+S006,3,17,12 field goals,,,number,10,,qwen_small,318.54
+S006,3,18,67 percent,,,number,56,,qwen_small,318.54
+S006,3,19,Patrick Beverely,,,name,Corey Brewer,,qwen_small,318.54
+S006,3,20,10 points,51.0,52.0,number,22,,qwen_small,318.54
+S006,3,21,eight rebounds,154.0,155.0,number,nine,,qwen_small,318.54
+S006,3,22,five blocks,157.0,158.0,number,three,,qwen_small,318.54
+S006,3,23,Clint Capela,,,name,Corey Brewer,,qwen_small,318.54
+S006,3,24,six points,,,number,22,,qwen_small,318.54
+S006,3,25,nine rebounds,,,number,six,,qwen_small,318.54
+S006,4,26,Houston fell to 10 - 12,,,number,6-15,,qwen_small,318.54
+S006,4,27,fourth place,,,word,sixth,,qwen_small,318.54
+S006,5,28,Wednesday,105.0,105.0,name,Tuesday,,qwen_small,318.54
+S006,6,29,Brook Lopez,117.0,118.0,name,Corey Brewer,,qwen_small,318.54
+S006,6,30,24 points,151.0,152.0,number,32,,qwen_small,318.54
+S006,6,31,eight rebounds,154.0,155.0,number,nine,,qwen_small,318.54
+S006,6,32,five blocks,157.0,158.0,number,three,,qwen_small,318.54
+S006,6,33,Clint Capela,,,,,,qwen_small,318.54
+S007,1,1,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder however as they continue to play at the Sleep Train Arena .,,,word,Russell Westbrook and the Oklahoma City Thunder,,qwen_small,318.54
+S007,1,2,Oklahoma City Thunder Oklahoma City Thunder,,,name,Oklahoma City Thunder,,qwen_small,318.54
+S007,1,3,Sleep Train Arena,26.0,28.0,name,Golden 1 Center,,qwen_small,318.54
+S007,2,1,"Westbrook finished with 36 points , 11 rebounds , seven assists , four steals and one block on 11 - of - 21 shooting , while Westbrook scored 36 points on 11 - of - 21 shooting , to go along with 11 rebounds , seven assists , three steals and one block , in 36 minutes .",30.0,87.0,word,"Westbrook finished with 36 points, 11 rebounds, seven assists, four steals and one block on 11-of-21 shooting, while Westbrook scored 36 points on 11-of-21 shooting, to go along with 11 rebounds, seven assists, three steals and one block, in 36 minutes.",,qwen_small,318.54
+S007,3,1,"Enes Kanter was the only other Thunder player to score in double digits , as he finished with 29 points on 10 - of - 18 shooting , in 32 minutes off the bench .",88.0,122.0,number,"Enes Kanter was the only other Thunder player to score in double digits, as he finished with 29 points on 10-of-18 shooting, in 32 minutes off the bench.",,qwen_small,318.54
+S007,4,1,"The Kings shot 46 percent from the field and 36 percent from long range , while the Kings shot 46 percent from the field and 36 percent from long range .",123.0,153.0,number,"The Kings shot 46 percent from the field and 36 percent from long range, while the Thunder shot 46 percent from the field and 36 percent from long range.",,qwen_small,318.54
+S007,5,1,"DeMarcus Cousins led the way for the Kings , with 31 points on 11 - of - 20 shooting , along with 11 rebounds , seven assists and four steals , in 34 minutes .",154.0,188.0,number,"DeMarcus Cousins led the way for the Kings, with 31 points on 11-of-20 shooting, along with 11 rebounds, seven assists and four steals, in 34 minutes.",,qwen_small,318.54
+S007,6,1,"Enes Kanter followed up with 29 points on 10 - of - 18 shooting , in 32 minutes ,",189.0,207.0,number,"Enes Kanter followed up with 29 points on 10-of-18 shooting, in 32 minutes,",,qwen_small,318.54
+S007,6,2,"Enes Kanter followed up with 29 points on 10 - of - 18 shooting , in 32 minutes .",,,number,"Enes Kanter followed up with 29 points on 10-of-18 shooting, in 32 minutes.",,qwen_small,318.54
+S007,7,1,"Steven Adams chipped in 21 points , four rebounds and one steal , in 27 minutes .",209.0,225.0,number,"Steven Adams chipped in 21 points, four rebounds and one steal, in 27 minutes.",,qwen_small,318.54
+S008,1,1,"The Memphis Grizzlies defeated the Utah Jazz , 102 - 96 , at Vivint Smart Home Arena on Saturday .",1.0,20.0,number,102-96,Score is incorrect,qwen_small,318.54
+S008,1,2,The Grizzlies ( 5 - 5 ),21.0,27.0,number,7-5,Team record is incorrect,qwen_small,318.54
+S008,1,3,The Grizzlies ( 5 - 5 ),21.0,27.0,number,7-5,Team record is incorrect,qwen_small,318.54
+S008,2,4,The Grizzlies ( 5 - 5 ),21.0,27.0,number,7-5,Team record is incorrect,qwen_small,318.54
+S008,3,5,The Jazz ( 7 - 5 ),85.0,91.0,number,5-5,Team record is incorrect,qwen_small,318.54
+S008,4,6,The Jazz ( 7 - 5 ),85.0,91.0,number,5-5,Team record is incorrect,qwen_small,318.54
+S008,5,7,The Jazz ( 7 - 5 ),85.0,91.0,number,5-5,Team record is incorrect,qwen_small,318.54
+S008,6,8,The Jazz ( 7 - 5 ),85.0,91.0,number,5-5,Team record is incorrect,qwen_small,318.54
+S008,7,9,"Marc Gasol scored a game - high 22 points on 9 - of - 17 shooting ,",,,number,20,Points scored is incorrect,qwen_small,318.54
+S008,7,10,"Marc Gasol scored a game - high 22 points on 9 - of - 17 shooting ,",,,number,20,Points scored is incorrect,qwen_small,318.54
+S008,8,11,"Mike Conley followed up with 18 points on 7 - of - 14 shooting ,",131.0,145.0,number,18,Points scored is incorrect,qwen_small,318.54
+S008,8,12,"Mike Conley followed up with 18 points on 7 - of - 14 shooting ,",131.0,145.0,number,18,Points scored is incorrect,qwen_small,318.54
+S008,9,13,"Zach Randolph chipped in 18 points on 7 - of - 13 shooting ,",173.0,186.0,number,18,Points scored is incorrect,qwen_small,318.54
+S008,9,14,"Zach Randolph chipped in 18 points on 7 - of - 13 shooting ,",173.0,186.0,number,18,Points scored is incorrect,qwen_small,318.54
+S008,10,15,"Gordon Hayward led the way for the Grizzlies ,",265.0,273.0,name,Zach,Player name is incorrect,qwen_small,318.54
+S008,10,16,"Gordon Hayward led the way for the Grizzlies ,",265.0,273.0,name,Zach,Player name is incorrect,qwen_small,318.54
+S008,11,17,"Zach Randolph followed up with 18 points while Rudy Gobert chipped in 22 points on 9 - of - 17 shooting ,",,,number,18,Points scored is incorrect,qwen_small,318.54
+S008,11,18,"Zach Randolph followed up with 18 points while Rudy Gobert chipped in 22 points on 9 - of - 17 shooting ,",,,number,18,Points scored is incorrect,qwen_small,318.54
+S008,12,19,"The Jazz shot 48 percent from the field and 29 percent from long range ,",204.0,218.0,number,48,Field goal percentage is incorrect,qwen_small,318.54
+S008,12,20,"The Jazz shot 48 percent from the field and 29 percent from long range ,",204.0,218.0,number,29,Three-point percentage is incorrect,qwen_small,318.54
+S008,13,21,The Grizzlies ( 5 - 5 ),21.0,27.0,number,7-5,Team record is incorrect,qwen_small,318.54
+S008,14,22,The Grizzlies ( 5 - 5 ),21.0,27.0,,,,qwen_small,318.54
+S009,1,1,"Milwaukee Bucks defeated the Los Angeles Lakers , 122 - 122 , at BMO Harris Bradley Center on Tuesday .",2.0,21.0,number,122-114,Incorrect score,qwen_small,318.54
+S009,1,2,Tuesday .,20.0,21.0,name,Friday,Incorrect day of the week,qwen_small,318.54
+S009,2,3,"D' Angelo Russell was the player of the game , as he tallied 41 points , three rebounds and five assists on 11 - of - 20 shooting .",,,number,11-of-20,Incorrect shooting percentage format,qwen_small,318.54
+S009,2,4,"D' Angelo Russell was the only other starter in double - digits , as he accrued 14 points , three rebounds and five assists .",,,number,14,Incorrect points scored by Russell,qwen_small,318.54
+S009,3,5,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday .,188.0,204.0,name,Sunday,Incorrect day of the week,qwen_small,318.54
+S009,4,6,Milwaukee ( 22 - 30 ),205.0,210.0,number,22-30,Incorrect win-loss record,qwen_small,318.54
+S010,1,1,"The Atlanta Hawks defeated the host Orlando Magic , 111 - 92 , at Amway Center on Friday .",1.0,19.0,number,111-92,Score is incorrect,qwen_small,318.54
+S010,1,2,"The Atlanta Hawks defeated the host Orlando Magic , 111 - 92 , at Amway Center on Friday .",1.0,19.0,name,Orlando,Magic is the home team,qwen_small,318.54
+S010,2,3,"In a battle between two struggling teams , the Hawks were able to prevail with a huge road win .",20.0,39.0,name,Magic,Magic is the home team,qwen_small,318.54
+S010,3,4,"In fact , there were 11 ties and 11 lead changes in total , with neither team leading by more than 11 points .",40.0,63.0,number,10,Neither team leading by more than 10 points,qwen_small,318.54
+S010,4,5,"Defense was key for Atlanta , as they held Orlando to 43 % from the field and 53 % from three - point range .",,,number,43,Orlando's field goal percentage is 43%,qwen_small,318.54
+S010,4,6,"Defense was key for Atlanta , as they held Orlando to 43 % from the field and 53 % from three - point range .",,,number,53,Orlando's three-point percentage is 53%,qwen_small,318.54
+S010,5,7,"Rebounding was a huge factor as well , with the Hawks recording 27 assists to 12 turnovers , while the Magic committed 17 turnovers to just 19 assists .",89.0,117.0,number,19,Magic had 19 assists,qwen_small,318.54
+S010,6,8,The Hawks ( 19 - 16 ),118.0,124.0,number,16-19,Hawks' record is 16-19,qwen_small,318.54
+S010,7,9,"Dennis Schroeder was the player of the game , as he tallied 18 points , 6 rebounds and 7 assists on 7 - of - 13 shooting .",,,number,7-13,Schroeder's shooting percentage is 7-13,qwen_small,318.54
+S010,8,10,"Dwight Howard recorded a 13 - point , 12 - rebound double - double against his former team .",,,number,12,Howard's rebounds are 12,qwen_small,318.54
+S010,9,11,"Kent Bazemore was the only other starter in double - figures , as he totaled 17 points and 4 assists .",,,number,4,Bazemore's assists are 4,qwen_small,318.54
+S010,10,12,On deck for Atlanta is a home matchup against the New Orleans Pelicans on Saturday .,204.0,219.0,name,Orlando,Next game is against Orlando,qwen_small,318.54
+S010,11,13,The Magic ( 16 - 21 ),220.0,226.0,number,16-21,Magic's record is 16-21,qwen_small,318.54
+S010,12,14,"have been struggling mightily recently , but this was a huge win .",227.0,239.0,word,struggled,Struggled is the correct past tense,qwen_small,318.54
+S010,13,15,"Nikola Vucevic was the player of the game , as he collected 10 points , 12 rebounds and 6 assists .",,,number,12,Vucevic's rebounds are 12,qwen_small,318.54
+S010,14,16,"Evan Fournier was second on the team , as he accrued 14 points , 1 rebound and 1 assist .",,,number,1,Fournier's rebounds and assists are 1,qwen_small,318.54
+S010,15,17,"Nikola Vucevic recorded a double - double , totaling 10 points and 10 rebounds .",281.0,295.0,,,,qwen_small,318.54
+S011,1,1,The Atlanta Hawks ( 41 - 9 ),1.0,8.0,number,41-0,"The Hawks had 41 wins and 0 losses, not 41-9.",qwen_small,318.54
+S011,1,2,defeated the Washington Wizards ( 31 - 19 ),9.0,17.0,number,31-0,"The Wizards had 31 wins and 0 losses, not 31-19.",qwen_small,318.54
+S011,1,3,105 - 96,18.0,20.0,number,105-92,"The final score was 105-92, not 105-96.",qwen_small,318.54
+S011,1,4,on Tuesday,21.0,22.0,name,on Wednesday,"The game was played on Wednesday, not Tuesday.",qwen_small,318.54
+S011,2,1,"The Hawks got off to a quick start in this one , out - scoring the Wizards 29 - 18 in the first quarter alone .",29.0,54.0,word,out-scoring,"The Hawks out-scored the Wizards, not out-scoring.",qwen_small,318.54
+S011,3,1,"The Hawks were able to out - score the Wizards 28 - 18 in the third quarter , while the Wizards were able to coast to a victory in front of their home crowd .",55.0,89.0,word,out-scored,"The Hawks were out-scored by the Wizards, not out-scoring.",qwen_small,318.54
+S011,4,1,"The Hawks shot 48 % from the field and 44 % from the three - point line , while the Wizards finished at 44 % from the floor and just 25 % from deep .",,,word,from the floor,"The Wizards shot from the floor, not from deep.",qwen_small,318.54
+S011,5,1,"The Hawks were also able to force the Wizards into 14 turnovers , while committing just 12 of their own .",125.0,145.0,number,14,"The Hawks committed 14 turnovers, not 12.",qwen_small,318.54
+S011,6,1,The Hawks were led by the duo of John Wall and Bradley Beal .,146.0,159.0,name,Bradley Beal and John Wall,The correct order is John Wall and Bradley Beal.,qwen_small,318.54
+S011,7,1,"Wall went 9 - for - 15 from the field and 3 - for - 5 from the three - point line to finish with a team - high of 24 points , while also adding nine assists and seven rebounds .",160.0,201.0,number,15,"Wall made 15 shots, not 14.",qwen_small,318.54
+S011,8,1,"It was his second double - double in a row , as he 's combined for 54 points and 14 rebounds over his last two games .",202.0,228.0,number,54,"Wall combined for 54 points, not 52.",qwen_small,318.54
+S011,9,1,"Notching a double - double of his own , Paul Millsap finished with 11 points ( 4 - 7 FG , 2 - 3 3Pt , 1 - 2 FT )",229.0,259.0,number,4-7,"Millsap made 4-7 FG, not 4-6 FG.",qwen_small,318.54
+S011,10,1,and 11 rebounds .,260.0,263.0,number,11,"Millsap had 11 rebounds, not 10.",qwen_small,318.54
+S011,11,1,"It was his second double - double in a row , a stretch where he 's averaging 21 points and 12 rebounds .",264.0,286.0,number,21,"Millsap is averaging 21 points, not 20.",qwen_small,318.54
+S011,12,1,"Notching a double - double of his own , Bradley Beal finished with 23 points ( 8 - 19 FG , 0 - 4 3Pt , 7 - 10 FT )",287.0,317.0,number,19,"Beal made 19 shots, not 18.",qwen_small,318.54
+S011,13,1,and 8 rebounds .,318.0,321.0,number,8,"Beal had 8 rebounds, not 7.",qwen_small,318.54
+S011,14,1,He 's now averaging 16 points and 6 rebounds on the year .,322.0,334.0,,,,qwen_small,318.54
+S012,1,1,"The Denver Nuggets defeated the Phoenix Suns , 123 - 112 , at Talking Stick Resort Arena on Friday evening .",1.0,21.0,name,Saturday,Incorrect day of the week,qwen_small,318.54
+S012,1,2,"The Denver Nuggets defeated the Phoenix Suns , 123 - 112 , at Talking Stick Resort Arena on Friday evening .",1.0,21.0,number,123-112,Incorrect score,qwen_small,318.54
+S012,1,3,"The Denver Nuggets defeated the Phoenix Suns , 123 - 112 , at Talking Stick Resort Arena on Friday evening .",1.0,21.0,name,Denver,Incorrect team name,qwen_small,318.54
+S012,1,4,"The Denver Nuggets defeated the Phoenix Suns , 123 - 112 , at Talking Stick Resort Arena on Friday evening .",1.0,21.0,name,Phoenix,Incorrect team name,qwen_small,318.54
+S012,2,5,"Eric Bledsoe went off for a career - high 41 points but it was not enough to hold off the Nuggets . Denver dominated the middle two quarters , outscoring the Suns 74 - 50 over the second and third quarters . Danilo Gallinari led the way with 32 points to help the Nuggets ( 21 - 25 ) earn their third straight win and hold on to eighth place in the West . Four other players scored in double digits for the Nuggets , including Kenneth Faried , who finished with 21 points and 13 rebounds , in 37 minutes . The rookie Jamal Murray came up big with 18 points off the bench , to give a boost , as Nikola Jokic ( hip ) , Denver 's main weapon was sidelined . The Nuggets hit a whopping 37 - of - 42 free throws , which was really the difference in this one , even though the Suns took their fair share as well , hitting 24 - of - 32 . The Nuggets go on to visit the Lakers on Tuesday . Despite 41 points from Bledsoe , the Suns ( 15 - 32 ) were not able to keep up with the high - scoring Nuggets . Three other players scored in double digits for Phoenix , including Devin Booker , who followed up with 23 points , and Tyson Chandler , who double - doubled with 15 points and 13 rebounds . The Suns outscored the Nuggets 21 - 11 in fast - break points , and had four less turnovers , but committed 11 more personal fouls , which gave the Nugs a huge advantage at the foul line . The Suns go on to host the Grizzlies on Monday .",,,,,,qwen_small,318.54
+S013,1,1,Wednesday,22.0,22.0,name,Saturday,,qwen_small,318.54
+S013,1,2,Quicken Loans Arena,,,name,Cleveland,,qwen_small,318.54
+S013,2,1,31 19,,,number,29,,qwen_small,318.54
+S013,3,1,Kyrie Irving,58.0,59.0,name,LeBron,,qwen_small,318.54
+S013,3,2,13 points,64.0,65.0,number,29,,qwen_small,318.54
+S013,3,3,4 12 FG,,,number,11,,qwen_small,318.54
+S013,3,4,0 4 3Pt,,,number,4,,qwen_small,318.54
+S013,3,5,5 7 FT,,,number,3,,qwen_small,318.54
+S013,4,1,LeBron James,92.0,93.0,name,Kyrie,,qwen_small,318.54
+S013,4,2,29 points,95.0,96.0,number,13,,qwen_small,318.54
+S013,4,3,11 18 FG,,,number,29,,qwen_small,318.54
+S013,4,4,4 7 3Pt,,,number,11,,qwen_small,318.54
+S013,4,5,3 4 FT,,,number,3,,qwen_small,318.54
+S013,5,1,Kevin Love,129.0,130.0,name,Nikola,,qwen_small,318.54
+S013,5,2,10 points,133.0,134.0,number,29,,qwen_small,318.54
+S013,5,3,2 5 FG,,,number,10,,qwen_small,318.54
+S013,5,4,1 2 3Pt,,,number,5,,qwen_small,318.54
+S013,5,5,5 8 FT,,,number,13,,qwen_small,318.54
+S013,6,1,Nikola Vucevic,165.0,166.0,name,Aaron,,qwen_small,318.54
+S013,6,2,4 points,,,number,11,,qwen_small,318.54
+S013,6,3,2 5 FG,,,number,4,,qwen_small,318.54
+S013,6,4,0 4 3Pt,,,number,1,,qwen_small,318.54
+S013,6,5,5 7 FT,,,number,5,,qwen_small,318.54
+S013,7,1,Aaron Gordon,199.0,200.0,name,Nikola,,qwen_small,318.54
+S013,7,2,11 points,203.0,204.0,number,10,,qwen_small,318.54
+S013,7,3,5 10 FG,,,number,11,,qwen_small,318.54
+S013,7,4,1 2 3Pt,,,number,5,,qwen_small,318.54
+S013,8,1,Nikola Vucevic,165.0,166.0,name,Aaron,,qwen_small,318.54
+S013,8,2,4 points,,,number,11,,qwen_small,318.54
+S013,8,3,2 5 FG,,,number,4,,qwen_small,318.54
+S013,8,4,0 4 3Pt,,,number,1,,qwen_small,318.54
+S013,8,5,5 7 FT,,,number,5,,qwen_small,318.54
+S014,1,1,The Portland Trail Blazers ( 7 - 10 ),1.0,9.0,number,7-10,,qwen_small,318.54
+S014,1,2,defeated the Los Angeles Lakers ( 2 - 13 ),10.0,19.0,number,2-13,,qwen_small,318.54
+S014,1,3,108 - 96,20.0,22.0,number,108-96,,qwen_small,318.54
+S014,1,4,Saturday night,,,name,Friday,,qwen_small,318.54
+S014,2,5,34 - 21,50.0,52.0,number,34-21,,qwen_small,318.54
+S014,3,6,Kobe Bryant,247.0,248.0,name,Jordan Clarkson,,qwen_small,318.54
+S014,3,7,21 points,256.0,257.0,number,21,,qwen_small,318.54
+S014,4,8,Julius Randle,,,name,Jordan Clarkson,,qwen_small,318.54
+S014,4,9,16 points,,,number,16,,qwen_small,318.54
+S014,4,10,six rebounds,,,number,6,,qwen_small,318.54
+S014,4,11,four assists,417.0,418.0,number,4,,qwen_small,318.54
+S014,5,12,Jordan Clarkson,322.0,323.0,name,D'Angelo Russell,,qwen_small,318.54
+S014,5,13,19 points,328.0,329.0,number,19,,qwen_small,318.54
+S014,5,14,four assists,417.0,418.0,number,4,,qwen_small,318.54
+S014,5,15,four steals,350.0,351.0,number,4,,qwen_small,318.54
+S014,5,16,three rebounds,,,number,3,,qwen_small,318.54
+S014,6,17,D'Angelo Russell,,,name,Jordan Clarkson,,qwen_small,318.54
+S014,6,18,16 points,,,number,16,,qwen_small,318.54
+S014,6,19,five assists,,,number,5,,qwen_small,318.54
+S014,6,20,four rebounds,,,number,4,,qwen_small,318.54
+S014,7,21,The Blazers,,,name,The Lakers,,qwen_small,318.54
+S014,7,22,57 points,,,number,57,,qwen_small,318.54
+S014,7,23,29 points,147.0,148.0,number,29,,qwen_small,318.54
+S014,7,24,seven assists,153.0,154.0,number,7,,qwen_small,318.54
+S014,7,25,four rebounds,,,number,4,,qwen_small,318.54
+S014,7,26,28 points,207.0,208.0,number,28,,qwen_small,318.54
+S014,7,27,12 - 20,,,number,12-20,,qwen_small,318.54
+S014,7,28,4 - 7,,,number,4-7,,qwen_small,318.54
+S014,8,29,Meyers Leonard,,,name,Jordan Clarkson,,qwen_small,318.54
+S014,8,30,seven points,,,number,7,,qwen_small,318.54
+S014,8,31,six rebounds,,,number,6,,qwen_small,318.54
+S014,8,32,one block,,,number,1,,qwen_small,318.54
+S014,9,33,Portland will be a trip to L.A.,,,,,,qwen_small,318.54
+S015,1,1,108 - 94,18.0,20.0,number,108-94,,qwen_small,318.54
+S015,1,2,Wednesday,22.0,22.0,name,Friday,,qwen_small,318.54
+S015,1,3,American Airlines Arena,24.0,26.0,name,American Airlines Arena,,qwen_small,318.54
+S015,2,1,64 - 52,47.0,49.0,number,58-39,,qwen_small,318.54
+S015,2,2,50 - 38,66.0,68.0,number,39-27,,qwen_small,318.54
+S015,3,1,Kyle Lowry,94.0,95.0,name,DeMar DeRozan,,qwen_small,318.54
+S015,3,2,30 points,132.0,133.0,number,21 points,,qwen_small,318.54
+S015,3,3,10 - 17 FG,135.0,138.0,number,8-16 FG,,qwen_small,318.54
+S015,3,4,10 - 13 FT,145.0,148.0,number,10-13 FT,,qwen_small,318.54
+S015,4,1,DeMar DeRozan,125.0,126.0,name,Kyle Lowry,,qwen_small,318.54
+S015,4,2,21 points,100.0,101.0,number,30 points,,qwen_small,318.54
+S015,4,3,8 - 18 FG,103.0,106.0,number,10-17 FG,,qwen_small,318.54
+S015,4,4,1 - 4 3Pt,108.0,111.0,number,0-1 3Pt,,qwen_small,318.54
+S015,4,5,4 - 4 FT,113.0,116.0,number,10-13 FT,,qwen_small,318.54
+S015,5,1,DeMarre Carroll,160.0,161.0,name,Terrence Ross,,qwen_small,318.54
+S015,5,2,13 points,165.0,166.0,number,20 points,,qwen_small,318.54
+S015,5,3,5 - 9 FG,168.0,171.0,number,9-16 FG,,qwen_small,318.54
+S015,5,4,1 - 2 3Pt,173.0,176.0,number,2-2 3Pt,,qwen_small,318.54
+S015,5,5,2 - 2 FT,178.0,181.0,number,2-2 FT,,qwen_small,318.54
+S015,6,1,Gerald Green,188.0,189.0,name,Terrence Ross,,qwen_small,318.54
+S015,6,2,20 points,196.0,197.0,number,17 points,,qwen_small,318.54
+S015,6,3,7 - 15 FG,199.0,202.0,number,6-9 FG,,qwen_small,318.54
+S015,6,4,5 - 10 3Pt,204.0,207.0,number,5-8 3Pt,,qwen_small,318.54
+S015,6,5,1 - 1 FT,209.0,212.0,number,1-1 FT,,qwen_small,318.54
+S015,7,1,Gerald Green,188.0,189.0,name,Terrence Ross,,qwen_small,318.54
+S015,7,2,20 points,196.0,197.0,number,17 points,,qwen_small,318.54
+S015,7,3,7 - 15 FG,199.0,202.0,number,6-9 FG,,qwen_small,318.54
+S015,7,4,5 - 10 3Pt,204.0,207.0,number,5-8 3Pt,,qwen_small,318.54
+S015,7,5,1 - 1 FT,209.0,212.0,number,1-1 FT,,qwen_small,318.54
+S015,8,1,Cleveland,287.0,287.0,name,Cleveland Cavaliers,,qwen_small,318.54
+S015,9,1,7 - 15 FG,199.0,202.0,number,9-15 FG,,qwen_small,318.54
+S015,9,2,5 - 10 3Pt,204.0,207.0,,,,qwen_small,318.54
+S016,1,1,Oklahoma City Thunder ( 50 - 22 ),2.0,9.0,number,50-22,Incorrect number of wins,qwen_small,318.54
+S016,1,2,Utah Jazz ( 35 - 37 ),13.0,19.0,number,35-37,Incorrect number of wins,qwen_small,318.54
+S016,1,3,113 - 91,20.0,22.0,number,113-91,Incorrect score,qwen_small,318.54
+S016,1,4,Thursday,,,name,Friday,Incorrect day of the week,qwen_small,318.54
+S016,2,5,sixth straight win,,,word,seventh,Incorrect number of wins,qwen_small,318.54
+S016,3,6,21 - point lead,,,number,21-point,Incorrect number of points,qwen_small,318.54
+S016,4,7,27 assists to the Jazz ' 18,,,number,27 assists to the Jazz's 18,Incorrect number of assists,qwen_small,318.54
+S016,5,8,23 percent from three - point range,,,number,23%,Incorrect percentage,qwen_small,318.54
+S016,5,9,70 percent from the free - throw line,,,number,70%,Incorrect percentage,qwen_small,318.54
+S016,6,10,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,7,11,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,8,12,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,9,13,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,10,14,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,11,15,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,12,16,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,13,17,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,14,18,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,15,19,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,16,20,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,17,21,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,18,22,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,19,23,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,20,24,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,21,25,12 minutes,,,number,13 minutes,Incorrect minutes played,qwen_small,318.54
+S016,22,26,13 points and four rebounds,,,number,13 points and 4 rebounds,Incorrect number of rebounds,qwen_small,318.54
+S016,23,27,17 points off the bench,,,number,18 points off the bench,Incorrect points scored,qwen_small,318.54
+S016,24,28,12 minutes,,,,,,qwen_small,318.54
+S017,1,1,"The Cleveland Cavaliers defeated the Detroit Pistons , 128 - 96 , at Quicken Loans Arena on Saturday evening .",1.0,20.0,name,Wednesday,Incorrect day of the week,qwen_small,318.54
+S017,1,2,The Cavaliers ( 44 - 22 ),21.0,27.0,number,44-22,Incorrect team record,qwen_small,318.54
+S017,1,3,The Cavaliers ( 33 - 34 ),75.0,81.0,number,33-34,Incorrect team record,qwen_small,318.54
+S017,1,4,The Cavaliers ( 33 - 34 ),75.0,81.0,number,33-34,Incorrect team record,qwen_small,318.54
+S017,1,5,The Cavaliers ( 33 - 34 ),75.0,81.0,number,33-34,Incorrect team record,qwen_small,318.54
+S017,1,6,The Cavaliers ( 33 - 34 ),75.0,81.0,number,33-34,Incorrect team record,qwen_small,318.54
+S017,2,7,Cleveland posted a 60 percent success rate from the field and 63 percent from behind the arc .,,,word,60,Incorrect success rate from the field,qwen_small,318.54
+S017,2,8,Cleveland posted a 60 percent success rate from the field and 63 percent from behind the arc .,,,word,63,Incorrect success rate from behind the arc,qwen_small,318.54
+S017,3,9,"Andre Drummond led the way for the Cavs with a modest stat line of eight points , 14 rebounds and one assist .",164.0,186.0,name,Reggie,Incorrect player name,qwen_small,318.54
+S017,3,10,"Reggie Jackson followed with a modest six points , five assists , one rebound and one steal .",187.0,204.0,name,Andre,Incorrect player name,qwen_small,318.54
+S017,4,11,"Kentavious Caldwell-Pope led the bench with 11 points , two rebounds , three assists and one steal .",205.0,222.0,name,Marcus,Incorrect player name,qwen_small,318.54
+S017,5,12,"Marcus Morris matched Morris 's point total and added seven boards , an assist and a steal .",223.0,240.0,name,Kentavious,Incorrect player name,qwen_small,318.54
+S017,6,13,"Ish Smith was productive in a reserve role as well with 12 points , three assists , one rebound and one steal .",241.0,263.0,name,Richard,Incorrect player name,qwen_small,318.54
+S017,7,14,"Richard Jefferson and Richard Jefferson were next with a pair of 16 - point efforts , with the former adding one assist , two rebounds and one steal , and the latter registering eight boards , one assist and two steals .",264.0,305.0,name,Ish,Incorrect player name,qwen_small,318.54
+S017,8,15,"Deron Williams was next with 13 points , three assists , two rebounds and a steal .",306.0,322.0,name,Kentavious,Incorrect player name,qwen_small,318.54
+S017,9,16,"Kyle Korver totaled 12 points , five rebounds , one assist and one steal .",,,name,Deron,Incorrect player name,qwen_small,318.54
+S017,10,17,"Richard Jefferson led the bench with 16 points , one assist , two rebounds and two steals .",338.0,355.0,name,Ish,Incorrect player name,qwen_small,318.54
+S018,1,1,114 - 98,20.0,22.0,number,114-98,,qwen_small,318.54
+S018,1,2,Wednesday,24.0,24.0,name,Wednesday,,qwen_small,318.54
+S018,2,1,42,42.0,42.0,number,45,,qwen_small,318.54
+S018,2,2,29,48.0,48.0,number,44,,qwen_small,318.54
+S018,3,1,33,97.0,97.0,number,33,,qwen_small,318.54
+S018,3,2,12,100.0,100.0,number,12,,qwen_small,318.54
+S018,3,3,23,102.0,102.0,number,23,,qwen_small,318.54
+S018,3,4,4,105.0,105.0,number,5,,qwen_small,318.54
+S018,3,5,10,107.0,107.0,number,6,,qwen_small,318.54
+S018,3,6,5,110.0,110.0,number,6,,qwen_small,318.54
+S018,3,7,6,112.0,112.0,number,5,,qwen_small,318.54
+S018,4,1,12,100.0,100.0,number,12,,qwen_small,318.54
+S018,4,2,23,102.0,102.0,number,23,,qwen_small,318.54
+S018,4,3,4,105.0,105.0,number,10,,qwen_small,318.54
+S018,4,4,10,107.0,107.0,number,10,,qwen_small,318.54
+S018,4,5,5,110.0,110.0,number,6,,qwen_small,318.54
+S018,4,6,6,112.0,112.0,number,5,,qwen_small,318.54
+S018,5,1,12,100.0,100.0,number,12,,qwen_small,318.54
+S018,5,2,23,102.0,102.0,number,23,,qwen_small,318.54
+S018,5,3,4,105.0,105.0,number,10,,qwen_small,318.54
+S018,5,4,10,107.0,107.0,number,10,,qwen_small,318.54
+S018,5,5,5,110.0,110.0,number,6,,qwen_small,318.54
+S018,5,6,6,112.0,112.0,number,5,,qwen_small,318.54
+S018,6,1,19,256.0,256.0,number,19,,qwen_small,318.54
+S018,6,2,10,107.0,107.0,number,10,,qwen_small,318.54
+S018,6,3,10,107.0,107.0,number,10,,qwen_small,318.54
+S018,6,4,2,171.0,171.0,number,2,,qwen_small,318.54
+S018,6,5,2,171.0,171.0,number,2,,qwen_small,318.54
+S018,7,1,4,105.0,105.0,number,11,,qwen_small,318.54
+S018,7,2,16,,,number,16,,qwen_small,318.54
+S018,7,3,4,105.0,105.0,number,4,,qwen_small,318.54
+S018,7,4,11,208.0,208.0,number,11,,qwen_small,318.54
+S018,7,5,2,171.0,171.0,number,2,,qwen_small,318.54
+S018,7,6,2,171.0,171.0,number,2,,qwen_small,318.54
+S018,8,1,13,140.0,140.0,number,13,,qwen_small,318.54
+S018,8,2,4,105.0,105.0,number,4,,qwen_small,318.54
+S018,8,3,16,,,,,,qwen_small,318.54
+S019,1,1,"Paul George led the way for Indiana ,",128.0,135.0,name,Myles Turner,,qwen_small,318.54
+S019,1,2,"10 points , five rebounds and one assist .",139.0,147.0,number,18,,qwen_small,318.54
+S019,1,3,"Jeff Teague was second on the team ,",148.0,155.0,name,Glenn Robinson III,,qwen_small,318.54
+S019,1,4,"16 points , three rebounds and six assists .",158.0,166.0,number,16,,qwen_small,318.54
+S019,1,5,"Thaddeus Young was the only other starter in double figures ,",167.0,177.0,name,Myles Turner,,qwen_small,318.54
+S019,1,6,"13 points , five rebounds and four assists .",181.0,189.0,number,13,,qwen_small,318.54
+S019,2,1,On deck for Indiana is a home matchup against the Atlanta Hawks on Friday .,190.0,204.0,name,Miami,,qwen_small,318.54
+S019,3,1,The Heat ( 27 - 32 ),205.0,211.0,name,Indiana,,qwen_small,318.54
+S019,3,2,"have now won four of their last six games ,",212.0,221.0,number,five,,qwen_small,318.54
+S019,4,1,"Goran Dragic was the player of the game ,",228.0,236.0,name,Myles Turner,,qwen_small,318.54
+S019,4,2,"accumulated 21 points , two rebounds and four assists on 8 - of - 12 shooting .",239.0,255.0,number,18,,qwen_small,318.54
+S019,5,1,"Hassan Whiteside recorded a double - double ,",256.0,263.0,word,double,,qwen_small,318.54
+S019,5,2,totaling 22 points and 17 rebounds .,264.0,270.0,number,13,,qwen_small,318.54
+S019,6,1,"Dion Waiters was the only other starter in double figures ,",271.0,281.0,name,Myles Turner,,qwen_small,318.54
+S019,6,2,"accruing 22 points , two rebounds and three assists .",282.0,291.0,number,13,,qwen_small,318.54
+S019,7,1,Miami will look to play better on Thursday in a home matchup against the Toronto Raptors .,292.0,308.0,name,Indiana,,qwen_small,318.54
+S020,1,1,"The Phoenix Suns defeated the host Phoenix Suns , 111 - 106 , at Smoothie King Center on Friday .",1.0,20.0,name,The New Orleans Pelicans,Incorrect team name,qwen_small,318.54
+S020,1,2,111 - 106,10.0,12.0,number,111-106,Corrected number format,qwen_small,318.54
+S020,2,1,The Pelicans ( 16 - 32 ),21.0,27.0,number,The New Orleans Pelicans (16-32),Incorrect team name,qwen_small,318.54
+S020,2,2,( 16 - 32 ),23.0,27.0,number,New Orleans Pelicans (16-32),Incorrect team name,qwen_small,318.54
+S020,3,1,but they were able to pull away in the second half .,47.0,58.0,word,but the Pelicans were able to pull away in the second half,Incorrect team name,qwen_small,318.54
+S020,4,1,"However , the Pelicans were able to pull away in the second half , outscoring the Suns by a 34 - 18 margin over the final 12 minutes .",59.0,87.0,word,"However, the Pelicans were able to pull away in the second half, outscoring the Suns by a 34-18 margin over the final 12 minutes",Incorrect team name,qwen_small,318.54
+S020,5,1,"The Pelicans were led by Eric Bledsoe 's 14 points , which he supplemented with seven rebounds , five assists and a pair of blocks .",113.0,138.0,number,"The Pelicans were led by Eric Bledsoe's 14 points, which he supplemented with seven rebounds, five assists and a pair of blocks",Incorrect player name,qwen_small,318.54
+S020,6,1,"Devin Booker was right behind him with 14 points , five assists , two rebounds and a steal .",139.0,157.0,number,"Devin Booker was right behind him with 14 points, five assists, two rebounds and a steal",Incorrect player name,qwen_small,318.54
+S020,7,1,"Marquese Chriss followed with 12 points , three rebounds , two assists , a steal and a block .",158.0,176.0,number,"Marquese Chriss followed with 12 points, three rebounds, two assists, a steal and a block",Incorrect player name,qwen_small,318.54
+S020,8,1,"PJ Tucker led the bench with 12 points , five rebounds , an assist and a steal .",177.0,194.0,number,"PJ Tucker led the bench with 12 points, five rebounds, an assist and a steal",Incorrect player name,qwen_small,318.54
+S020,9,1,"Phoenix was led by Eric Bledsoe 's 14 points , which he supplemented with seven rebounds , five assists and a steal and a block .",,,number,"Phoenix was led by Eric Bledsoe's 14 points, which he supplemented with seven rebounds, five assists and a steal and a block",Incorrect team name,qwen_small,318.54
+S020,10,1,"Marquese Chriss followed with 12 points , three rebounds , two assists and a block .",221.0,236.0,number,"Marquese Chriss followed with 12 points, three rebounds, two assists and a block",Incorrect player name,qwen_small,318.54
+S020,11,1,"Marquese Chriss was productive in a reserve role as well with 14 points , three rebounds , two assists and a block .",237.0,259.0,number,"Marquese Chriss was productive in a reserve role as well with 14 points, three rebounds, two assists and a block",Incorrect player name,qwen_small,318.54
+S020,12,1,"Phoenix was led by Brandon Knight 's 12 points , six assists , two rebounds and a pair of steals .",260.0,280.0,number,"Phoenix was led by Brandon Knight's 12 points, six assists, two rebounds and a pair of steals",Incorrect team name,qwen_small,318.54
+S020,13,1,"Eric Bledsoe was right behind him with 14 points , seven assists , seven rebounds and a pair of blocks .",281.0,301.0,number,"Eric Bledsoe was right behind him with 14 points, seven assists, seven rebounds and a pair of blocks",Incorrect player name,qwen_small,318.54
+S020,14,1,"Terrence Jones was next with a near double - double of 12 points , nine rebounds , six assists , two steals and a block .",302.0,327.0,,,,qwen_small,318.54

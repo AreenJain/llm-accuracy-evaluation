@@ -65,6 +65,8 @@ INPUT:
 
 OUTPUT:
 
+1 way:
+
 Define the Output structure, i.e. 
 { S001:
     {
@@ -85,9 +87,39 @@ Define the Output structure, i.e.
     }
 }
 
+2 way:
+
+[
+  {
+    "text_ID": "S001",
+    "sentence_id": "1",
+    "ANNOTATION_ID": "1",
+    "tokens": "Wednesday",
+    "doc_token_start": "12",
+    "doc_token_end":"12",
+    "type": "name",
+    "correction": "Friday",
+    "comment": "The game was played on Friday, February 3, 2017, not Wednesday."
+  },
+  {
+    "text_ID": "S001",
+    "sentence_id": "2",
+    "ANNOTATION_ID": "2",
+    "tokens": "32 - 18",
+    "doc_token_start": "23",
+    "doc_token_end":"25",
+    "type": "number",
+    "correction": "31 - 18",
+    "comment": "The Celtics' record entering the game was 31-18 (they became 32-18 after the win)."
+  }
+  .
+  .
+  .
+  .
+]
+
+=============================
 
 This Dictionary then need to convert into Tabular format using python script. so we can compare with gold standards.
 
 ==========================
-
-confusion at token, will see later, WAIT.
