@@ -123,3 +123,15 @@ Define the Output structure, i.e.
 This Dictionary then need to convert into Tabular format using python script. so we can compare with gold standards.
 
 ==========================
+
+++++++++++++++++++++++++++
+Meetings Doubt and info:
+
+1. How to evlaute the comment and do we need to evalaute it ?
+
+
+
+-----------------
+
+All the things are working mostly based on token_lookup.yaml file and categories.
+Lastly we evalaute the recall and precision.

@@ -16,7 +16,7 @@ pp = pprint.PrettyPrinter(indent=4)
   It is possible for a metric to present multiple annotations which map to one annotation in the GSML.
      or vice verse.
   For example, "Miami Heat" could be a 2-token error "Miami Heat".
-     or two 1-token errors "Miami" (wring city) "Heat" (wrong name).
+     or two 1-token errors "Miami" (wrong city) "Heat" (wrong name).
   We award correct recall when at least one submitted mistake matches a GSML mistake.
   We award correct precision when a submitted mistake matches at least one GSML mistake.
   Mistakes are said to match when their ranges of token ids overlap.
