@@ -1,12 +1,14 @@
 import re
 import time
+import json
 import argparse
 import pandas as pd
+import os
 from typing import List, Optional
 from pydantic import BaseModel, RootModel
 from langchain_core.prompts import PromptTemplate
 from langchain_core.output_parsers import PydanticOutputParser
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import torch
 
 # CLI
@@ -158,11 +160,10 @@ model_key = args.model
 model_name = MODELS[model_key]
 
 print(f"Loading {model_name}...")
-from transformers import BitsAndBytesConfig
 
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 
-# 4-bit configuration banaya taaki model chota ho jaye
+# 4-bit configuration for memory efficiency
 bnb_config = BitsAndBytesConfig(
     load_in_4bit=True,
     bnb_4bit_compute_dtype=torch.bfloat16,
@@ -191,12 +192,23 @@ def prompt_fn(text_id, story, game_data):
     with torch.no_grad():
         outputs = llm.generate(**inputs, max_new_tokens=2048, do_sample=False)
     
-    result_text = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
-    result_text = extract_json(result_text)
+    raw_text = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
+    extracted = extract_json(raw_text)
+    
+    # checking if extracted text is valid JSON
+    is_valid_json = False
     try:
-        return parser.parse(result_text)
+        json.loads(extracted)
+        is_valid_json = True
     except Exception:
-        return parser.parse("[]")
+        is_valid_json = False
+    
+    try:
+        parsed = parser.parse(extracted)
+    except Exception:
+        parsed = parser.parse("[]")
+    
+    return parsed, raw_text, is_valid_json
 
 # Load data
 games_df = pd.read_csv(args.games)
@@ -209,6 +221,11 @@ games_df["game_data"] = game_data_lines[:len(games_df)]
 
 # Run
 all_results = []
+raw_outputs_dir = "LLM Raw results"
+os.makedirs(raw_outputs_dir, exist_ok=True)
+existing = [f for f in os.listdir(raw_outputs_dir) if f.startswith(f"raw_outputs_{model_key}_run")]
+run_num = len(existing) + 1
+raw_outputs_path = os.path.join(raw_outputs_dir, f"raw_outputs_{model_key}_run{run_num}.jsonl")
 start_time = time.time()
 
 for i, row in games_df.head(args.rows).iterrows():
@@ -219,7 +236,18 @@ for i, row in games_df.head(args.rows).iterrows():
     print(f"Processing {text_id}...")
     
     try:
-        parsed = prompt_fn(text_id, story, game_data)
+        parsed, raw_text, is_valid_json = prompt_fn(text_id, story, game_data)
+        
+        # raw output dump kar
+        with open(raw_outputs_path, "a") as f:
+            f.write(json.dumps({
+                "text_id": text_id,
+                "is_valid_json": is_valid_json,
+                "raw_output": raw_text
+            }) + "\n")
+        
+        print(f"  JSON valid: {is_valid_json}")
+        
         doc_map = build_doc_token_map(text_id, story)
         
         for ann in parsed.root:
@@ -239,7 +267,7 @@ for i, row in games_df.head(args.rows).iterrows():
     except Exception as e:
         print(f"{text_id} failed: {e}")
         
-    # Agli row process hone se pehle purani memory free kar do
+    #  free memory before processing next row
     import gc
     gc.collect()
     torch.cuda.empty_cache()
@@ -248,5 +276,14 @@ elapsed = round(time.time() - start_time, 2)
 df_result = pd.DataFrame(all_results)
 df_result["MODEL"] = model_key
 df_result["TIME_SECONDS"] = elapsed
-df_result.to_csv(f"results_{model_key}.csv", index=False)
+
+csv_dir = "LLM_results CSV"
+os.makedirs(csv_dir, exist_ok=True)
+existing_csv = [f for f in os.listdir(csv_dir) if f.startswith(f"results_{model_key}_run")]
+csv_run_num = len(existing_csv) + 1
+csv_path = os.path.join(csv_dir, f"results_{model_key}_run{csv_run_num}.csv")
+df_result.to_csv(csv_path, index=False)
+
 print(f"\nDone in {elapsed}s — {len(df_result)} annotations")
+print(f"Raw outputs saved to: {raw_outputs_path}")
+print(f"CSV saved to: {csv_path}")

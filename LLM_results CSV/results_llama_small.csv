@@ -1,0 +1,345 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,1,1,Boston Celtics defeated the Los Angeles Lakers 113 - 107 at TD Garden on Wednesday,,,number,107,The final score was 107-113.,llama_small,772.76
+S001,2,2,The Celtics (,20.0,22.0,name,none,,llama_small,772.76
+S001,2,3,32 - 18 ),23.0,26.0,number,none,,llama_small,772.76
+S001,3,4,came into this game as a double - digit favorite,27.0,36.0,word,none,,llama_small,772.76
+S001,4,5,but the Celtics (,38.0,41.0,name,none,,llama_small,772.76
+S001,4,6,32 - 18 ),23.0,26.0,number,none,,llama_small,772.76
+S001,4,7,came in to Friday's contest with a 30- point win,,,word,none,,llama_small,772.76
+S001,5,8,over the Lakers (,58.0,61.0,name,none,,llama_small,772.76
+S001,5,9,17 - 36 ),62.0,65.0,number,none,,llama_small,772.76
+S001,6,10,The team was led by Isaiah Thomas's 38 points,,,word,none,,llama_small,772.76
+S001,6,11,which he supplemented with six assists two rebounds and a steal,,,word,none,,llama_small,772.76
+S001,7,12,Al Horford was right behind him with,91.0,97.0,name,none,,llama_small,772.76
+S001,7,13,11 points eight rebounds eight assists and a block,,,number,none,,llama_small,772.76
+S001,8,14,Jae Crowder was next,110.0,113.0,name,none,,llama_small,772.76
+S001,8,15,with a 18- point 12- rebound double - double,,,word,none,,llama_small,772.76
+S001,8,16,that also included an assist two steals and a block,,,word,none,,llama_small,772.76
+S001,9,17,Jae Crowder was next,110.0,113.0,name,none,,llama_small,772.76
+S001,9,18,with 18 points six rebounds an assist and a pair of steals,,,number,none,,llama_small,772.76
+S001,10,19,Al Horford supplied,174.0,176.0,name,none,,llama_small,772.76
+S001,10,20,11 points eight rebounds eight assists and a block,,,number,none,,llama_small,772.76
+S001,11,21,Kelly Olynyk led,189.0,191.0,name,none,,llama_small,772.76
+S001,11,22,the second unit with,192.0,195.0,word,none,,llama_small,772.76
+S001,11,23,10 points nine rebounds two assists and a pair of steals,,,number,none,,llama_small,772.76
+S001,12,24,The Lakers head back,210.0,213.0,name,none,,llama_small,772.76
+S001,12,25,home to face off with,214.0,218.0,word,none,,llama_small,772.76
+S001,12,26,the Detroit Pistons,219.0,221.0,,,,llama_small,772.76
+S002,1,1,"The Atlanta Hawks defeated the Atlanta Hawks , 110 - 106 , at Quicken Loans Arena on Tuesday .",,,name,Cleveland Cavaliers,City name is incorrect,llama_small,772.76
+S002,1,2,"110 - 106 , at Quicken Loans Arena on Tuesday .",,,number,106,Incorrect score,llama_small,772.76
+S002,2,3,"The reigning NBA champs came into Tuesday as the league 's last undefeated team , with four of their victories having come at home .",,,context,,"Incorrect day of the week, should be Monday",llama_small,772.76
+S002,3,4,"However , Atlanta ( 5 - 2 ) came into the game sporting one of the NBA 's stingiest defenses , having allowed the sixth - least points per game .",,,number,6,Incorrect rank,llama_small,772.76
+S002,4,5,"Something was likely to give , and surprisingly , it was Cleveland 's ( 6 - 1 ) unblemished mark .",,,number,1,Incorrect rank,llama_small,772.76
+S002,5,6,"The Hawks got standout efforts from Dennis Schroder , Kent Bazemore and Paul Millsap , while Dwight Howard also hauled in 17 rebounds .",,,number,,Dwight Howard's rebound total is correct,llama_small,772.76
+S002,6,7,Bazemore drilled a key jumper with 7 seconds remaining to help seal the win and cap off a stellar 51 percent shooting night for Atlanta .,,,number,,Bazemore's jumper stats are correct,llama_small,772.76
+S002,7,8,"Schroder ' season - high 28 points led the Hawks , which he complemented with six assists and two rebounds .",,,number,,Schroder's stats are correct,llama_small,772.76
+S002,8,9,"Bazemore totaled 25 points , six rebounds and three assists , and drained four of his six three - point attempts .",,,number,,Bazemore's stats are correct,llama_small,772.76
+S002,9,10,"Millsap pitched in 21 points , five boards and an assist , while Howard added seven points , two assists and three blocks .",,,number,,Millsap's stats are correct,llama_small,772.76
+S002,10,11,"Mike Muscala paced the bench with 10 points , three rebounds , two assists and a block .",,,number,,Muscala's stats are correct,llama_small,772.76
+S002,11,12,"The Cavs were led by Kyrie Irving ' game - high 29 points , which he needed a whopping 27 shot attempts to get to .",,,number,,Irving's stats are correct,llama_small,772.76
+S002,12,13,"He also posted four assists , a rebound , a steal and a block .",,,number,,Irving's stats are correct,llama_small,772.76
+S002,13,14,"Kevin Love continued his stretch of excellent early - season play , supplying 24 points , 12 rebounds , three assists and two steals .",,,number,,Love's stats are correct,llama_small,772.76
+S002,14,15,"LeBron James registered a typically full stat line of 23 points , nine rebounds , five assists and three steals .",,,number,,James' stats are correct,llama_small,772.76
+S002,15,16,"Channing Frye led the reserves with 13 points , seven rebounds and an assist .",,,,,,llama_small,772.76
+S004,1,1,"Utah Jazz beat the visiting Los Angeles Lakers on Friday ,",,,name,Los Angeles Lakers,,llama_small,772.76
+S004,1,2,Friday,21.0,21.0,name,Wednesday,,llama_small,772.76
+S004,1,3,96 - 89 .,,,number,102-91,,llama_small,772.76
+S004,2,4,season debut,,,word,,The correct word should be 'season opener',llama_small,772.76
+S004,3,5,banged -,,,word,,The correct phrase should be 'banged-up',llama_small,772.76
+S004,3,6,Jazz,4.0,4.0,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,4,7,forward,,,word,,The correct word should be 'player',llama_small,772.76
+S004,4,8,off the bench,,,word,,The correct phrase should be 'came off the bench',llama_small,772.76
+S004,5,9,15 points,,,number,16 points,,llama_small,772.76
+S004,5,10,nine rebounds,,,word,,The correct word should be '13 rebounds',llama_small,772.76
+S004,6,11,Gobert,305.0,305.0,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,7,12,banged -,,,word,,The correct phrase should be 'banged-up',llama_small,772.76
+S004,8,13,Jazz,4.0,4.0,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,9,14,Lakers meanwhile,,,name,,The correct team is 'Utah Jazz',llama_small,772.76
+S004,10,15,rookie Brandon Ingram,,,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,11,16,knee injury,,,word,,The correct phrase should be 'ankle injury',llama_small,772.76
+S004,12,17,young Lakers,,,name,,The correct team is 'Utah Jazz',llama_small,772.76
+S004,13,18,D'Angelo Russell,153.0,154.0,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,14,19,three -,100.0,101.0,word,,The correct phrase should be 'three-for',llama_small,772.76
+S004,15,20,Julius Randle,,,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,16,21,four rebounds,,,word,,The correct word should be 'three rebounds',llama_small,772.76
+S004,17,22,sixth man,,,word,,The correct phrase should be 'sixth man',llama_small,772.76
+S004,18,23,Lou Williams,,,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,19,24,Jazz visiting the Los Angeles Clippers,,,name,,The correct team is 'Los Angeles Lakers',llama_small,772.76
+S004,20,25,Lakers taking on the Thunder,,,name,,The correct team is 'Utah Jazz',llama_small,772.76
+S004,21,26,The Jazz led for the majority of the game,,,,,,llama_small,772.76
+S005,1,1,The Hawks held the Magic to a 35 percent success rate from the floor and 26 percent from three - point range while also eliciting 15 turnovers from the Hawks ( 30 - 21 ),,,word mistake,improved,The word 'improved' is more accurate than 'held'.,llama_small,772.76
+S005,1,2,35,8.0,8.0,number mistake,actual success rate was not provided,,llama_small,772.76
+S005,1,3,success,10.0,10.0,word mistake,percentage,The word 'percentage' is more accurate than 'success'.,llama_small,772.76
+S005,1,4,15,27.0,27.0,number mistake,actual number of turnovers was not provided,,llama_small,772.76
+S005,2,5,Paul Millsap led the way for the Hawks with a game - high 21 points,38.0,52.0,number mistake,25 points,"Millsap scored 25 points, not 21 points.",llama_small,772.76
+S005,3,6,Kent Bazemore led the bench with 27 points,111.0,118.0,number mistake,25 points,"Kent Bazemore scored 25 points, not 27 points.",llama_small,772.76
+S005,4,7,Kent Bazemore led the second unit with 12 points,197.0,205.0,number mistake,25 points,"Kent Bazemore scored 25 points, not 12 points.",llama_small,772.76
+S007,0,0,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,,,name,Russell Westbrook and the Oklahoma City Thunder,,llama_small,772.76
+S007,1,1,"Westbrook finished with 36 points , 11 rebounds , seven assists , four steals and one block on 11 -",30.0,49.0,number,"Westbrook finished with 36 points, 11 rebounds, seven assists, four steals and one block on 11-of-21 shooting.",,llama_small,772.76
+S007,1,2,11 -,48.0,49.0,number,11-of-21,,llama_small,772.76
+S007,2,3,"Enes Kanter was the only other Thunder player to score in double digits , as he finished with 29 points",88.0,107.0,number,"Enes Kanter was the only other Thunder player to score in double figures, as he finished with 29 points on 10-of-18 shooting.",,llama_small,772.76
+S007,2,4,29 points,106.0,107.0,number,29 points on 10-of-18 shooting,,llama_small,772.76
+S007,3,5,"The Kings shot 46 percent from the field and 36 percent from long range , while the Kings shot",123.0,141.0,number,The Kings shot 46 percent from the field and 36 percent from long range.,,llama_small,772.76
+S007,3,6,"36 percent from long range , while the Kings shot",132.0,141.0,number,, Duplicate ,llama_small,772.76
+S007,4,7,"DeMarcus Cousins led the way for the Kings , with 31 points",154.0,165.0,number,"DeMarcus Cousins led the way for the Kings, with 31 points on 11-of-20 shooting.",,llama_small,772.76
+S007,4,8,31 points,164.0,165.0,number,31 points on 11-of-20 shooting,,llama_small,772.76
+S007,5,9,Enes Kanter followed up with 29 points,189.0,195.0,number,Enes Kanter followed up with 29 points on 10-of-18 shooting.,,llama_small,772.76
+S007,5,10,29 points,106.0,107.0,number,29 points on 10-of-18 shooting,,llama_small,772.76
+S007,6,11,"Steven Adams chipped in 21 points , four rebounds",209.0,217.0,number,"Steven Adams chipped in 21 points, four rebounds and one steal.",,llama_small,772.76
+S007,6,12,21 points,213.0,214.0,number,"21 points, four rebounds and one steal",,llama_small,772.76
+S008,0,0,"The Memphis Grizzlies defeated the Utah Jazz , 102 - 96 , at Vivint Smart Home Arena on Saturday",1.0,19.0,not checkable,,not checkable,llama_small,772.76
+S008,1,1,"The Grizzlies ( 5 - 5 ) checked in to Saturday's contest with only six road wins in 17 tries this season ,",,,number,5-0,,llama_small,772.76
+S008,1,2,six,36.0,36.0,number,six,actual number of road wins is six,llama_small,772.76
+S008,1,3,road,37.0,37.0,word,,"game was in Utah, not on the road",llama_small,772.76
+S008,2,4,"The Grizzlies ( 5 - 5 ) came in to Tuesday's contest with a 33 - point first quarter ,",,,number,,,llama_small,772.76
+S008,2,5,33,61.0,61.0,number,,,llama_small,772.76
+S008,2,6,quarter,65.0,65.0,word,,"game was on Saturday, not Tuesday",llama_small,772.76
+S008,3,7,"The Jazz ( 7 - 5 ) were led by Marc Gasol , who scored a game- high 22 points on 9- of- 17 shooting ,",,,not checkable,,not checkable,llama_small,772.76
+S008,3,8,game-high,,,word,,,llama_small,772.76
+S008,3,9,22,104.0,104.0,number,,,llama_small,772.76
+S008,3,10,points,105.0,105.0,word,,,llama_small,772.76
+S008,3,11,on,18.0,18.0,word,,,llama_small,772.76
+S008,3,12,9-of-17,,,word,,,llama_small,772.76
+S008,4,13,"Mike Conley followed up with 18 points on 7- of- 14 shooting ,",,,name,,Mike Conley plays for the Grizzlies,llama_small,772.76
+S008,4,14,18,136.0,136.0,number,,,llama_small,772.76
+S008,4,15,points,105.0,105.0,word,,,llama_small,772.76
+S008,4,16,on,18.0,18.0,word,,,llama_small,772.76
+S008,4,17,7-of-14,,,word,,,llama_small,772.76
+S008,5,18,"Zach Randolph chipped in 18 points on 7- of- 13 shooting ,",,,name,,Zach Randolph plays for the Grizzlies,llama_small,772.76
+S008,5,19,18,136.0,136.0,number,,,llama_small,772.76
+S008,5,20,points,105.0,105.0,word,,,llama_small,772.76
+S008,5,21,on,18.0,18.0,word,,,llama_small,772.76
+S008,5,22,7-of-13,,,word,,,llama_small,772.76
+S008,5,23,shooting,112.0,112.0,word,,,llama_small,772.76
+S008,6,24,"The Jazz shot 48 percent from the field and 29 percent from long range ,",204.0,218.0,number,,,llama_small,772.76
+S008,6,25,48,207.0,207.0,number,,,llama_small,772.76
+S008,6,26,percent,208.0,208.0,,,,llama_small,772.76
+S009,1,1,"Milwaukee Bucks defeated the Los Angeles Lakers , 122 - 114 , at BMO Harris Bradley Center on Friday evening",,,Number,114,,llama_small,772.76
+S009,1,2,Los Angeles Lakers ( 19 - 37 ),,,Number,37,,llama_small,772.76
+S009,1,3,Bucks ( 22 - 30 ),,,Number,30,,llama_small,772.76
+S009,2,4,122 - 114,,,Number,114,,llama_small,772.76
+S009,2,5,at BMO Harris Bradley Center on Friday,,,Context,Tuesday,,llama_small,772.76
+S009,3,6,Bucks were able to prevail with a huge road win,31.0,40.0,Context,lose,,llama_small,772.76
+S009,4,7,Rebounding was key for the Lakers,70.0,75.0,Context,Bucks,,llama_small,772.76
+S009,5,8,they held the Lakers to 29 percent shooting,78.0,85.0,Number,29,,llama_small,772.76
+S009,6,9,and forced them to commit 17 turnovers,86.0,92.0,Number,17,,llama_small,772.76
+S009,7,10,D'Angelo Russell was the player of the game,117.0,124.0,Name,,,llama_small,772.76
+S009,7,11,"as he tallied 41 points , three rebounds and five assists",126.0,136.0,Number,41,,llama_small,772.76
+S009,8,12,Luol Deng was second on the team,145.0,151.0,Name,,,llama_small,772.76
+S009,8,13,"as he accrued 26 points , three rebounds and two assists",153.0,163.0,Number,26,,llama_small,772.76
+S009,9,14,D'Angelo Russell was the only other starter in double figures,165.0,174.0,Name,,,llama_small,772.76
+S009,9,15,"as he accrued 14 points , three rebounds and five assists",176.0,186.0,Number,14,,llama_small,772.76
+S009,10,16,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday,188.0,203.0,Context,Monday,,llama_small,772.76
+S009,11,17,Milwaukee ( 22 - 30 ),205.0,210.0,Number,30,,llama_small,772.76
+S009,11,18,has now lost three of their last five games,211.0,219.0,Number,three,,llama_small,772.76
+S009,12,19,Giannis Antetokounmpo was the player of the game,227.0,234.0,Name,,,llama_small,772.76
+S009,12,20,"as he accumulated 41 points , eight rebounds and six assists",236.0,246.0,Number,41,,llama_small,772.76
+S009,13,21,Khris Middleton was second on the team,248.0,254.0,Name,,,llama_small,772.76
+S009,13,22,"as he accrued 18 points , six rebounds and six assists",256.0,266.0,Number,18,,llama_small,772.76
+S009,14,23,Greg Monroe was the only other starter in double figures,268.0,277.0,Name,,,llama_small,772.76
+S009,14,24,"as he accrued 18 points , five rebounds and three assists",279.0,289.0,,,,llama_small,772.76
+S010,0,1,lopsided,,,word,,lopsided scoreline,llama_small,772.76
+S010,0,2,game,148.0,148.0,word,,this game was close,llama_small,772.76
+S010,0,3,final,,,word,,minutes,llama_small,772.76
+S010,1,4,Hawks,3.0,3.0,name,Atlanta Hawks,,llama_small,772.76
+S010,1,5,ended,,,word,,the game on a 23-8 run,llama_small,772.76
+S010,1,6,Hawks,3.0,3.0,name,Atlanta Hawks,,llama_small,772.76
+S010,1,7,scoreline,,,word,,win by 19,llama_small,772.76
+S010,2,8,key,66.0,66.0,word,,difference,llama_small,772.76
+S010,2,9,Atlanta,2.0,2.0,name,,surpassed 50 percent,llama_small,772.76
+S010,2,10,Orlando,7.0,7.0,name,,barely cracked 40 percent,llama_small,772.76
+S010,3,11,Schroeder,,,name,,player of the game,llama_small,772.76
+S010,3,12,18,153.0,153.0,number,,points,llama_small,772.76
+S010,3,13,six,156.0,156.0,number,,rebounds,llama_small,772.76
+S010,3,14,seven,159.0,159.0,number,,assists,llama_small,772.76
+S010,4,15,Millsap,,,name,,all-around game,llama_small,772.76
+S010,4,16,16,123.0,123.0,number,,points,llama_small,772.76
+S010,4,17,six,156.0,156.0,number,,rebounds,llama_small,772.76
+S010,4,18,four,128.0,128.0,number,,assists,llama_small,772.76
+S010,4,19,four,128.0,128.0,number,,steals,llama_small,772.76
+S010,5,20,Howard,170.0,170.0,name,,double-double,llama_small,772.76
+S010,5,21,13,166.0,166.0,number,,points,llama_small,772.76
+S010,5,22,12,104.0,104.0,number,,rebounds,llama_small,772.76
+S010,6,23,Payton,,,name,,first start,llama_small,772.76
+S010,6,24,15,,,number,,points,llama_small,772.76
+S010,6,25,four,128.0,128.0,number,,rebounds,llama_small,772.76
+S010,6,26,six,156.0,156.0,number,,assists,llama_small,772.76
+S010,6,27,three,84.0,84.0,number,,steals,llama_small,772.76
+S010,7,28,Gordon,,,name,,match,llama_small,772.76
+S010,7,29,15,,,number,,points,llama_small,772.76
+S010,7,30,10,252.0,252.0,number,,rebounds,llama_small,772.76
+S010,8,31,Vucevic,241.0,241.0,name,,double-double,llama_small,772.76
+S010,8,32,10,252.0,252.0,number,,points,llama_small,772.76
+S010,8,33,10,252.0,252.0,number,,rebounds,llama_small,772.76
+S010,9,34,Fournier,262.0,262.0,name,,only other,llama_small,772.76
+S010,9,35,14,272.0,272.0,number,,points,llama_small,772.76
+S010,10,36,Orlando,7.0,7.0,name,,matchup,llama_small,772.76
+S010,11,37,Atlanta,2.0,2.0,name,,home matchup,llama_small,772.76
+S010,11,38,Pelicans,216.0,216.0,,,,llama_small,772.76
+S011,0,0,Atlanta Hawks (,2.0,4.0,name,Atlanta Hawks,,llama_small,772.76
+S011,0,1,Washington Wizards (,11.0,13.0,name,Washington Wizards,,llama_small,772.76
+S011,0,2,105 -,18.0,19.0,number,96,,llama_small,772.76
+S011,0,3,Wednesday,,,name,Tuesday,,llama_small,772.76
+S011,1,4,Philips Arena,24.0,25.0,name,Philips Arena,,llama_small,772.76
+S011,1,5,Atlanta,2.0,2.0,name,Atlanta,,llama_small,772.76
+S011,2,6,quick,35.0,35.0,word,slow,,llama_small,772.76
+S011,2,7,out-,,,word,in-,,llama_small,772.76
+S011,3,8,Hawks,3.0,3.0,name,Wizards,,llama_small,772.76
+S011,3,9,48,93.0,93.0,number,44,,llama_small,772.76
+S011,3,10,44,99.0,99.0,number,25,,llama_small,772.76
+S011,4,11,12,141.0,141.0,number,14,,llama_small,772.76
+S011,4,12,14,135.0,135.0,number,12,,llama_small,772.76
+S011,5,13,John Wall,154.0,155.0,name,Paul Millsap,,llama_small,772.76
+S011,5,14,Wall,155.0,155.0,name,Millsap,,llama_small,772.76
+S011,6,15,double-double,,,word,double-double,This is a context mistake,llama_small,772.76
+S011,7,16,Bradley Beal,157.0,158.0,name,Al Horford,,llama_small,772.76
+S011,8,17,21,281.0,281.0,number,13,,llama_small,772.76
+S011,10,18,Hawks,3.0,3.0,name,Wizards,,llama_small,772.76
+S011,11,19,New Orleans Pelicans,390.0,392.0,name,Pelicans,,llama_small,772.76
+S011,11,20,Friday,394.0,394.0,word,Thursday,,llama_small,772.76
+S011,11,21,Golden State Warriors,,,name,Warriors,,llama_small,772.76
+S012,0,0,"The Denver Nuggets defeated the host Phoenix Suns 123 - 112 , at Talking Stick Resort Arena on Saturday evening .",,,number,102-91,score was 102-91,llama_small,772.76
+S012,0,1,Monday,,,name,Wednesday,game was played on Wednesday,llama_small,772.76
+S012,0,2,strong,,,word,not strong,first half was not strong,llama_small,772.76
+S012,0,3,outscored,,,word,Suns outscored Grizzlies,Suns outscored Grizzlies,llama_small,772.76
+S012,0,4,coast,,,word,catch up from behind,they had to catch up from behind,llama_small,772.76
+S012,0,5,10-point,,,number,11-point,should be 11-point,llama_small,772.76
+S012,0,6,home,,,word,Phoenix,game was in Phoenix,llama_small,772.76
+S012,0,7,led,71.0,71.0,word,did not lead,Thomas did not lead the Grizzlies,llama_small,772.76
+S012,0,8,six,106.0,106.0,number,one,one rebound,llama_small,772.76
+S012,0,9,five,,,number,two,two assists,llama_small,772.76
+S012,0,10,Eric Bledsoe,,,name,Suns,"Bledsoe played for the Suns, not Grizzlies",llama_small,772.76
+S012,0,11,24 14 4,,,number,"23, 12, 2",correct figures for Bledsoe are in previous clause,llama_small,772.76
+S012,1,12,six,106.0,106.0,number,four,only four Sun players reached double figures,llama_small,772.76
+S012,1,13,Mike Conley,,,name,Grizzlies,"Conley plays for the Grizzlies, not Suns",llama_small,772.76
+S012,1,14,Tony Allen,,,name,Grizzlies,"Allen plays for the Grizzlies, not Suns",llama_small,772.76
+S012,2,15,Pair,,,number,one,one assist,llama_small,772.76
+S012,2,16,six,106.0,106.0,number,four,only four Grizzly players reached double figures,llama_small,772.76
+S012,2,17,off the bench,,,word,starter,Allen was a starter,llama_small,772.76
+S012,2,18,on the road,,,word,home game,game was at home,llama_small,772.76
+S012,2,19,Boston Celtics,,,name,Sacramento,next game is against Sacramento,llama_small,772.76
+S012,2,20,Portland Trail Blazers,,,name,Sacramento,next game is against Sacramento,llama_small,772.76
+S012,0,21,"The Denver Nuggets defeated the host Phoenix Suns 123 - 112 , at Talking Stick Resort Arena on Saturday evening .",,,number,Tuesday,game was on Friday,llama_small,772.76
+S012,0,22,Saturday,,,name,Friday,game was on Friday,llama_small,772.76
+S012,0,23,Saturday,,,name,Friday,game was on Friday,llama_small,772.76
+S012,0,24,Denver,2.0,2.0,name,Phoenix,game was played in Phoenix,llama_small,772.76
+S012,0,25,Sunday,,,name,Monday,game was on Monday,llama_small,772.76
+S012,0,26,The Nuggets ( 21 - 25 ),22.0,28.0,number,15-32,Suns' record,llama_small,772.76
+S012,0,27,The Suns ( 15 - 32 ),,,,,,llama_small,772.76
+S013,0,0,Wednesday at the Quicken Loans Arena in Cleveland,22.0,29.0,NAME_MISTAKE,Monday,,llama_small,772.76
+S013,1,1,31 - 19,45.0,47.0,NUMBER_MISTAKE,104-79,,llama_small,772.76
+S013,2,2,13,64.0,64.0,NUMBER_MISTAKE,29,,llama_small,772.76
+S013,3,3,29,95.0,95.0,NUMBER_MISTAKE,21,,llama_small,772.76
+S013,4,4,10,133.0,133.0,NUMBER_MISTAKE,29,,llama_small,772.76
+S013,5,5,11 points,203.0,204.0,NUMBER_MISTAKE,four,,llama_small,772.76
+S013,6,6,5-10 FG,,,NUMBER_MISTAKE,2-5,,llama_small,772.76
+S013,7,7,Aaron,199.0,199.0,NAME_MISTAKE,Nikola,,llama_small,772.76
+S013,8,8,Aaron,199.0,199.0,NAME_MISTAKE,Nikola,,llama_small,772.76
+S013,9,9,Magic,12.0,12.0,NAME_MISTAKE,Cavaliers,,llama_small,772.76
+S013,10,10,Magic,12.0,12.0,NAME_MISTAKE,Cavaliers,,llama_small,772.76
+S013,11,11,Monday,307.0,307.0,NAME_MISTAKE,Wednesday,,llama_small,772.76
+S015,0,0,The Toronto Raptors ( 17 - 11 ) defeated the Miami Heat ( 15 - 10 ),1.0,17.0,not checkable,,Not checkable.,llama_small,772.76
+S015,1,0,The Raptors would have been asking questions had they lost this one too,,,not checkable,,Not checkable.,llama_small,772.76
+S015,2,0,DeMar DeRozan made sure his team did not drop three straight by offering up 30 points,,,not checkable,,Not checkable.,llama_small,772.76
+S015,3,0,"on strong shooting ( 10 - 17 FG , 10 - 13 FT )",,,not checkable,,Not checkable.,llama_small,772.76
+S015,4,1,Toronto came out of the dressing room ready to compete,,,context mistake,,Context mistake: Toronto came out of the dressing room ready to compete and outscored the Heat 58-39 the rest of the way.,llama_small,772.76
+S015,5,2,This was a big win for the Raptors who were coming off losses to two top Eastern teams,,,not checkable,,Not checkable.,llama_small,772.76
+S015,6,3,The Raptors would have been asking questions had they lost this one too,,,not checkable,,Not checkable.,llama_small,772.76
+S015,7,4,DeMar DeRozan made sure his team did not drop three straight by offering up 30,,,number mistake,29,"Number mistake: DeMar DeRozan made sure his team did not drop three straight by offering up 30 points on strong shooting (10-17 FG, 10-13 FT).",llama_small,772.76
+S015,7,4,30 points,132.0,133.0,number mistake,29,"Number mistake: DeMar DeRozan made sure his team did not drop three straight by offering up 30 points on strong shooting (10-17 FG, 10-13 FT).",llama_small,772.76
+S015,8,5,Toronto shot strong percentages all around,,,word mistake,,"Word mistake: Toronto shot strong percentages all around, going 51 percent from the field, 81 percent from the free throw line and a better-than-average 38 percent from the beyond the arc.",llama_small,772.76
+S015,9,6,The Raptors also took care of the ball very well,,,word mistake,,"Word mistake: The Raptors also took care of the ball very well, only giving up seven turnovers on the game.",llama_small,772.76
+S015,10,7,DeMar DeRozan made sure his team did not drop three straight by offering up 30,,,number mistake,29,"Number mistake: DeMar DeRozan made sure his team did not drop three straight by offering up 30 points on strong shooting (10-17 FG, 10-13 FT).",llama_small,772.76
+S015,10,7,30 points,132.0,133.0,number mistake,29,"Number mistake: DeMar DeRozan made sure his team did not drop three straight by offering up 30 points on strong shooting (10-17 FG, 10-13 FT).",llama_small,772.76
+S015,11,8,DeMarre Carroll remained out with a knee contusion,,,word mistake,,Word mistake: DeMarre Carroll remained out with a knee contusion.,llama_small,772.76
+S015,12,9,Dwyane Wade led the Heat in scoring with 21 points,,,word mistake,,"Word mistake: Dwyane Wade led the Heat in scoring with 21 points (8-16 FG, 5-5 FT), along with six assists and four rebounds.",llama_small,772.76
+S015,13,10,The Heat will look to get back on track in the second half of a back- to- back,,,word mistake,,Word mistake: The Heat will look to get back on track in the second half of a back-to-back when they travel to Cleveland to take on the Cavaliers on Sunday night.,llama_small,772.76
+S015,14,11,Hassan Whiteside had a strong showing as well finishing with a team- high of 20 points,,,word mistake,,"Word mistake: Hassan Whiteside had a strong showing as well, finishing with a team-high of 20 points (7-15 FG, 5-10 3Pt, 1-1 FT).",llama_small,772.76
+S015,15,12,He 's now combined for 37 points in the last two games,340.0,351.0,,,,llama_small,772.76
+S016,0,1,sixth,,,number,,number mistakes are incorrect numbers,llama_small,772.76
+S016,0,2,sixth,,,number,,number mistakes are incorrect numbers,llama_small,772.76
+S016,4,3,21,,,number,31,number mistakes are incorrect numbers,llama_small,772.76
+S016,5,4,six,237.0,237.0,number,five,number mistakes are incorrect numbers,llama_small,772.76
+S016,6,5,strong,46.0,46.0,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,6,6,outscored,,,word,out-scored,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,7,7,59 42,,,number,"46, 52",number mistakes are incorrect numbers,llama_small,772.76
+S016,8,8,coast,,,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,9,9,10,,,number,11,number mistakes are incorrect numbers,llama_small,772.76
+S016,10,10,home,,,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,11,11,led,117.0,117.0,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,11,12,Isaiah Thomas,,,context,Gordon Hayward,context mistakes occur when people reading a sentence are likely to misinterpret it,llama_small,772.76
+S016,12,13,six,237.0,237.0,number,four,number mistakes are incorrect numbers,llama_small,772.76
+S016,13,14,five,256.0,256.0,number,two,number mistakes are incorrect numbers,llama_small,772.76
+S016,14,15,Eric Bledsoe,,,context,Gordon Hayward,context mistakes occur when people reading a sentence are likely to misinterpret it,llama_small,772.76
+S016,15,16,24 14 4,,,number,"23, 12, 2",number mistakes are incorrect numbers,llama_small,772.76
+S016,16,17,six,237.0,237.0,number,four,number mistakes are incorrect numbers,llama_small,772.76
+S016,17,18,Mike Conley,,,context,Russell Westbrook,context mistakes occur when people reading a sentence are likely to misinterpret it,llama_small,772.76
+S016,18,19,Tony Allen,,,context,Kevin Durant,context mistakes occur when people reading a sentence are likely to misinterpret it,llama_small,772.76
+S016,19,20,pair,,,number,one,number mistakes are incorrect numbers,llama_small,772.76
+S016,20,21,six,237.0,237.0,number,four,number mistakes are incorrect numbers,llama_small,772.76
+S016,21,22,off the bench,,,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,22,23,on the road,,,word,,word mistakes are incorrect or inappropriate words,llama_small,772.76
+S016,23,24,Boston Celtics,,,name,Sacramento,name mistakes are errors in things that have names,llama_small,772.76
+S016,24,25,Portland Trail Blazers,,,name,Sacramento,name mistakes are errors in things that have names,llama_small,772.76
+S016,0,26,Friday,25.0,25.0,name,Thursday,name mistakes are errors in things that have names,llama_small,772.76
+S016,1,27,Oklahoma City,,,name,,name mistakes are errors in things that have names,llama_small,772.76
+S016,2,28,Utah Jazz,,,name,,name mistakes are errors in things that have names,llama_small,772.76
+S016,3,29,113 91,,,,,,llama_small,772.76
+S017,1,1,"The Cleveland Cavaliers defeated the Detroit Pistons , 128 - 96 , at Quicken Loans Arena on Tuesday evening .",,,number,128-96,Score was not provided,llama_small,772.76
+S017,1,2,Tuesday evening,,,name,Wednesday,Incorrect day of the week,llama_small,772.76
+S017,3,3,44 - 22,24.0,26.0,number,44-24,Incorrect record,llama_small,772.76
+S017,5,4,44 points in the first quarter,,,number,36 points in the first quarter,Incorrect score,llama_small,772.76
+S017,6,5,74 - 48,,,number,56-38,Incorrect halftime score,llama_small,772.76
+S017,9,6,60 percent,132.0,133.0,number,55.6 percent,Incorrect success rate,llama_small,772.76
+S017,10,7,63 percent,140.0,141.0,number,57.1 percent,Incorrect success rate,llama_small,772.76
+S017,11,8,37 and 21,,,number,43.8 and 20.5,Incorrect percentages,llama_small,772.76
+S017,12,9,16 points 12 assists and 11 rebounds,,,number,"15 points, 10 assists and 10 rebounds",Incorrect numbers,llama_small,772.76
+S017,15,10,14 rebounds and one assist,181.0,185.0,number,10 rebounds and one assist,Incorrect numbers,llama_small,772.76
+S017,19,11,12 points five rebounds one assist and one steal,,,number,"6 points, 5 rebounds, one assist and one steal",Incorrect numbers,llama_small,772.76
+S017,21,12,16 points one assist two rebounds and two steals,,,number,"15 points, one assist, two rebounds and two steals",Incorrect numbers,llama_small,772.76
+S017,23,13,13 points three assists two rebounds and a steal,,,number,"9 points, three assists, two rebounds and a steal",Incorrect numbers,llama_small,772.76
+S017,25,14,16 points one assist two rebounds and two steals,,,number,"15 points, one assist, two rebounds and two steals",Incorrect numbers,llama_small,772.76
+S017,28,15,12 points five rebounds one assist and one steal,,,number,"6 points, 5 rebounds, one assist and one steal",Incorrect numbers,llama_small,772.76
+S017,30,16,13 points three assists two rebounds and a steal,,,number,"9 points, three assists, two rebounds and a steal",Incorrect numbers,llama_small,772.76
+S017,32,17,10 points three assists one rebound and one steal,,,number,"6 points, three assists, one rebound and one steal",Incorrect numbers,llama_small,772.76
+S017,34,18,16 points one assist two rebounds and two steals,,,number,"15 points, one assist, two rebounds and two steals",Incorrect numbers,llama_small,772.76
+S017,35,19,Pistons head back home to face the Utah Jazz on Wednesday night,,,name,Pistons head back home to face the Atlanta Hawks on Friday night,Incorrect opponent,llama_small,772.76
+S017,36,20,"Cavaliers also face off with the Jazz in their next contest , which takes place Thursday evening",,,name,Cavaliers also face off with the Philadelphia 76ers on Friday evening,Incorrect opponent,llama_small,772.76
+S019,0,0,"The Miami Heat defeated the Indiana Pacers , 113 - 95 , at American Airlines Arena on Saturday night .",,,number,Saturday,,llama_small,772.76
+S019,1,1,The Heat were expected to win this game easily and they took care of business in this wire - to - wire win,21.0,43.0,word,total blowout,,llama_small,772.76
+S019,2,2,"In fact the Heat led for the entirety of the second half as they outscored the Pacers , 30 - 16 , in the third quarter",,,name,second,,llama_small,772.76
+S019,3,3,"The assist - to - turnover ratio was the decisive statistic , with Miami recording 23 assists to 16 turnovers , while Indiana committed 15 turnovers to just 16 assists",74.0,103.0,number,17,,llama_small,772.76
+S019,4,4,The Pacers ( 30 - 29 ) have now won five of their last six games as they continue to falter,,,,,Not checkable,llama_small,772.76
+S019,5,5,"Paul George led the way for Indiana as he tallied 10 points , five rebounds and one assist",,,number,22,,llama_small,772.76
+S019,6,6,Jeff Teague was second on the team finishing with 16 points three rebounds and six assists,,,number,eight,,llama_small,772.76
+S019,7,7,Thaddeus Young was the only other starter in double figures as he totaled 13 points five rebounds and four assists,,,number,10,,llama_small,772.76
+S019,8,8,On deck for Indiana is a home matchup against the Atlanta Hawks on Friday,190.0,203.0,name,Sacramento,,llama_small,772.76
+S019,9,9,The Heat ( 27 - 32 ) have now won four of their last six games as they continue to falter,,,,,Not checkable,llama_small,772.76
+S019,10,10,"Goran Dragic was the player of the game as he accumulated 21 points , two rebounds and four assists on 8 - of - 12 shooting",,,number,23,,llama_small,772.76
+S019,11,11,Hassan Whiteside recorded a double - double totaling 22 points and 17 rebounds,,,number,18,,llama_small,772.76
+S019,12,12,"Dion Waiters was the only other starter in double figures as he accrued 22 points , two rebounds and three assists",,,number,five,,llama_small,772.76
+S019,13,13,Miami will look to play better on Thursday in a home matchup against the Toronto Raptors,292.0,307.0,word,Monday,,llama_small,772.76
+S020,1,1,"The Phoenix Suns defeated the host Phoenix Suns , 111 - 106 , at Smoothie King Center on Friday",1.0,19.0,NAME,New Orleans Pelicans,,llama_small,772.76
+S020,1,2,111 - 106,10.0,12.0,NUMBER,104-96,,llama_small,772.76
+S020,1,3,Smoothie King Center,15.0,17.0,NAME,Pelicans' home arena,,llama_small,772.76
+S020,2,4,The Pelicans ( 16 - 32,21.0,26.0,NUMBER,20-32,,llama_small,772.76
+S020,2,5,checked in to Friday 's contest,28.0,33.0,NAME,Sunday's contest,,llama_small,772.76
+S020,3,6,"However , the Pelicans were able to pull away in the second half .",,,NAME,first half,,llama_small,772.76
+S020,4,7,"However , the Pelicans battled back",88.0,93.0,NAME,Suns,,llama_small,772.76
+S020,4,8,"in the second ,",94.0,97.0,NAME,first half,,llama_small,772.76
+S020,5,9,"The Pelicans were led by Eric Bledsoe 's 14 points , which",113.0,124.0,NUMBER,22 points,,llama_small,772.76
+S020,5,10,"he supplemented with seven rebounds , five assists and",125.0,133.0,NUMBER,six assists and a block,,llama_small,772.76
+S020,5,11,a pair of blocks,134.0,137.0,NUMBER,a pair of steals,,llama_small,772.76
+S020,6,12,Devin Booker was right behind him,139.0,144.0,NAME,Eric Bledsoe,,llama_small,772.76
+S020,6,13,with,34.0,34.0,NAME,with 14 points,,llama_small,772.76
+S020,6,14,"14 points , five assists , two rebounds",146.0,153.0,NUMBER,six assists and a steal,,llama_small,772.76
+S020,6,15,and,133.0,133.0,NAME,and a block,,llama_small,772.76
+S020,7,16,Marquese Chriss followed,158.0,160.0,NAME,Eric Bledsoe,,llama_small,772.76
+S020,7,17,with,34.0,34.0,NAME,with 14 points,,llama_small,772.76
+S020,7,18,"12 points , three rebounds , two assists",162.0,169.0,NUMBER,six assists and a block,,llama_small,772.76
+S020,7,19,and,133.0,133.0,NAME,and a block,,llama_small,772.76
+S020,8,20,PJ Tucker led,177.0,179.0,NAME,Eric Bledsoe,,llama_small,772.76
+S020,8,21,the bench,180.0,181.0,NAME,the first unit,,llama_small,772.76
+S020,9,22,Phoenix,2.0,2.0,NAME,New Orleans,,llama_small,772.76
+S020,10,23,"Brandon Knight 's 12 points , six assists , two",264.0,273.0,NUMBER,seven rebounds and a pair of steals,,llama_small,772.76
+S020,10,24,rebounds and,153.0,154.0,,,,llama_small,772.76
