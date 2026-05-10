@@ -1,0 +1,109 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,1,1,"The Boston Celtics defeated the Los Angeles Lakers , 113 - 107 , at TD Garden on Wednesday .",1,19,CONTEXT,,"The game was played on Wednesday, but the story does not specify the date.",llama_medium,5586.43
+S001,4,4,"Al Horford was right behind him with 11 points , eight rebounds , eight assists and a block .",91,109,CONTEXT,,The story does not specify how Al Horford was right behind Isaiah Thomas.,llama_medium,5586.43
+S001,5,5,"Jae Crowder was next with a 18 - point , 12 - rebound double - double that also included an assist , two steals and a block .",110,137,CONTEXT,,The story does not specify how Jae Crowder was next.,llama_medium,5586.43
+S001,6,6,"Jae Crowder was next with 18 points , six rebounds , an assist and a pair of steals .",138,156,CONTEXT,,The story does not specify how Jae Crowder was next.,llama_medium,5586.43
+S001,7,7,"Jae Crowder was next with 18 points , six rebounds , an assist and two steals .",157,173,CONTEXT,,The story does not specify how Jae Crowder was next.,llama_medium,5586.43
+S001,8,8,"Al Horford supplied 11 points , eight rebounds , eight assists and a block .",174,188,CONTEXT,,The story does not specify how Al Horford supplied his stats.,llama_medium,5586.43
+S001,9,9,"Kelly Olynyk led the second unit with 10 points , nine rebounds , two assists and a pair of steals .",189,209,CONTEXT,,The story does not specify how Kelly Olynyk led the second unit.,llama_medium,5586.43
+S001,10,10,"The Lakers head back home to face off with the Detroit Pistons on Friday night , while the Celtics remain home and await the Toronto Raptors for a Wednesday night showdown .",210,241,CONTEXT,,The story does not specify the date of the next games.,llama_medium,5586.43
+S002,1,1,Atlanta Hawks defeated the Atlanta Hawks,2,7,NAME,Cavaliers,Incorrect team name,llama_medium,5586.43
+S002,1,2,110 - 110,9,11,NUMBER,106,Incorrect score,llama_medium,5586.43
+S002,2,3,37 - 20,50,52,NUMBER,20-33,Incorrect score,llama_medium,5586.43
+S002,3,5,Dwight Howard,115,116,NAME,Kent Bazemore,Incorrect player name,llama_medium,5586.43
+S002,4,7,Kent Bazemore,143,144,NAME,Dwight Howard,Incorrect player name,llama_medium,5586.43
+S002,5,9,Sunday,188,188,WORD,Wednesday,Incorrect day of the week,llama_medium,5586.43
+S002,6,10,Toronto Raptors,195,196,NAME,Chicago Bulls,Incorrect team name,llama_medium,5586.43
+S002,7,11,LeBron James,221,222,NAME,Kyrie Irving,Incorrect player name,llama_medium,5586.43
+S002,8,13,Tristan Thompson,283,284,NAME,Kevin Love,Incorrect player name,llama_medium,5586.43
+S003,0,1,Saturday,17,17,NAME_MISTAKE,Sunday,Incorrect day of the week,llama_medium,5586.43
+S003,24,0,Friday,51,51,NAME_MISTAKE,Saturday,Incorrect day of the week,llama_medium,5586.43
+S004,2,2,"The Jazz ( 1 - 1 ) have been one of the best teams in the NBA this season ,",23,42,NUMBER_MISTAKE,(1-0),The win-loss record is incorrect.,llama_medium,5586.43
+S004,3,3,"Rebounding was key for the Jazz , as they held the Lakers to 38 percent from the field and 24 percent from three - point range .",78,104,NUMBER_MISTAKE,38% and 24%,The percentages are incorrect.,llama_medium,5586.43
+S004,4,4,"Rebounding was a huge factor as well , with the Jazz winning that battle , 43 - 24 .",105,123,NUMBER_MISTAKE,43-24,The rebounding numbers are incorrect.,llama_medium,5586.43
+S004,5,5,"D'Angelo Russell led the team in scoring , as he tallied 17 points , five rebounds and five assists .",153,172,NUMBER_MISTAKE,"17 points, 5 rebounds, 5 assists",The stats are incorrect.,llama_medium,5586.43
+S004,6,6,"Luol Deng was the only other starter in double figures , as he totaled 12 points and 12 rebounds .",173,192,NUMBER_MISTAKE,"12 points, 12 rebounds",The stats are incorrect.,llama_medium,5586.43
+S004,7,7,On deck for Los Angeles is a home matchup against the Portland Trail Blazers on Sunday .,233,249,WORD_MISTAKE,Next for Los Angeles is a home matchup against the Portland Trail Blazers on Sunday.,The sentence is worded incorrectly.,llama_medium,5586.43
+S004,8,8,"The Jazz ( 1 - 1 ) have now won four of their last five games , as they continue to struggle .",250,272,NUMBER_MISTAKE,(1-0),The win-loss record is incorrect.,llama_medium,5586.43
+S004,9,9,"George Hill was the player of the game , as he led the team with 23 points , three rebounds and three assists on 7 - of - 14 shooting .",273,303,NUMBER_MISTAKE,"23 points, 3 rebounds, 3 assists on 7-of-14 shooting",The stats are incorrect.,llama_medium,5586.43
+S004,10,10,"Rudy Gobert finished second on the team , totaling 13 points , 13 rebounds and four blocks .",304,321,NUMBER_MISTAKE,"13 points, 13 rebounds, 4 blocks",The stats are incorrect.,llama_medium,5586.43
+S004,11,11,"Rudy Gobert recorded a double - double , totaling 13 points , 13 rebounds and four blocks .",337,354,NUMBER_MISTAKE,"13 points, 13 rebounds, 4 blocks",The stats are incorrect.,llama_medium,5586.43
+S004,12,12,The Jazz will look to bounce back on Sunday in a home matchup against the Portland Trail Blazers .,355,373,WORD_MISTAKE,The Jazz will look to bounce back on Sunday in a home matchup against the Portland Trail Blazers.,The sentence is worded incorrectly.,llama_medium,5586.43
+S005,0,0,"The Hawks held the Magic to a 35 percent success rate from the floor and 26 percent from three - point range , while also eliciting 15 turnovers from the Hawks ( 30 - 21 )",1,36,NUMBER_MISTAKE,"35 percent success rate from the floor and 26 percent from three-point range, while also forcing 15 turnovers from the Hawks (30-21)",Number mistake,llama_medium,5586.43
+S005,1,1,"Paul Millsap led the way for the Hawks with a game - high 21 points , which he supplemented with five rebounds , four assists and one steal",38,65,NUMBER_MISTAKE,"Paul Millsap led the way for the Hawks with a game-high 21 points, which he supplemented with five rebounds, four assists and one steal",Number mistake,llama_medium,5586.43
+S005,2,2,"Millsap was right behind him with 21 points , five rebounds , four assists and one steal",67,83,NUMBER_MISTAKE,"Millsap was right behind him with 21 points, five rebounds, four assists and one steal",Number mistake,llama_medium,5586.43
+S005,3,3,"Dwight Howard posted a 11 - point , 13 - rebound double - double that also included three assists , one steal and one block",85,109,NUMBER_MISTAKE,"Dwight Howard posted a 11-point, 13-rebound double-double that also included three assists, one steal and one block",Number mistake,llama_medium,5586.43
+S005,4,4,"Kent Bazemore led the bench with 27 points , three rebounds , three assists and two steals",111,127,NUMBER_MISTAKE,"Kent Bazemore led the bench with 27 points, three rebounds, three assists and two steals",Number mistake,llama_medium,5586.43
+S005,5,5,"Kent Bazemore led the second unit with 27 points , three rebounds , three assists and two steals",129,146,NUMBER_MISTAKE,"Kent Bazemore led the second unit with 27 points, three rebounds, three assists and two steals",Number mistake,llama_medium,5586.43
+S005,6,6,"Paul Millsap led the way for Orlando with 21 points , five rebounds , four assists , one steal and one block",148,169,NUMBER_MISTAKE,"Paul Millsap led the way for Orlando with 21 points, five rebounds, four assists, one steal and one block",Number mistake,llama_medium,5586.43
+S005,8,8,"Kent Bazemore led the second unit with 12 points , three rebounds , three assists , two steals and one block",197,217,NUMBER_MISTAKE,"Kent Bazemore led the second unit with 12 points, three rebounds, three assists, two steals and one block",Number mistake,llama_medium,5586.43
+S006,1,1,The Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105 on Friday .,1,23,OTHER,Tuesday,Incorrect day of the week,llama_medium,5586.43
+S006,2,2,The Nets came into this game as a double - digit favorite and they did n't disappoint,24,40,OTHER,The Nets came into this game as a double-digit underdog,Incorrect description of the Nets' status,llama_medium,5586.43
+S006,3,3,"They were led by James Harden , who tallied 10 points , nine assists , three rebounds and three steals in the win .",42,65,OTHER,"James Harden tallied 10 points, nine assists, three rebounds and three steals in the win",Incorrect description of James Harden's performance,llama_medium,5586.43
+S006,4,4,"Trevor Ariza was the only other starter in double figures , as he tallied 2 points , four rebounds and four assists in the defeat .",66,91,OTHER,"Trevor Ariza was the only other starter in double figures, as he tallied 2 points, four rebounds and four assists in the defeat",Incorrect description of Trevor Ariza's performance,llama_medium,5586.43
+S006,5,5,The Rockets will look to bounce - back against the Orlando Magic on Wednesday in their next game .,92,110,OTHER,The Rockets will look to bounce-back against the Wizards on Wednesday in their next game,Incorrect opponent and day of the week,llama_medium,5586.43
+S006,6,6,The Nets played this game without Brook Lopez and they simply did n't have enough offense to keep up with the Nets .,111,133,OTHER,The Nets played this game without Brook Lopez and they simply didn't have enough offense to keep up with the Rockets,Incorrect team,llama_medium,5586.43
+S006,7,7,"Brook Lopez did all he could to keep the Nets in this game , as he tallied 24 points , eight rebounds and five blocks in the win .",134,162,OTHER,"Brook Lopez did all he could to keep the Nets in this game, as he tallied 24 points, eight rebounds and five blocks in the win",Incorrect description of Brook Lopez's performance,llama_medium,5586.43
+S006,9,9,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday .,186,201,OTHER,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday,Incorrect opponent and day of the week,llama_medium,5586.43
+S008,2,2,The Grizzlies ( 5 - 5 ) checked in to Saturday 's contest with only six road wins in 17 tries this season,21,43,NUMBER_MISTAKE,5-5 checked in to Saturday's contest with only six road wins in 17 tries this season,"The Grizzlies' record is actually 5-5, but the number of road wins is not specified in the text.",llama_medium,5586.43
+S008,3,3,"The Jazz ( 7 - 5 ) were led by Marc Gasol , who scored a game - high 22 points on 9 - of - 17 shooting",85,112,NUMBER_MISTAKE,22 points on 9-of-17 shooting,"The number of points scored by Marc Gasol is correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,4,4,Mike Conley followed up with 18 points on 7 - of - 14 shooting,131,144,NUMBER_MISTAKE,18 points on 7-of-14 shooting,"The number of points scored by Mike Conley is correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,5,5,Zach Randolph chipped in 18 points on 7 - of - 13 shooting,173,185,NUMBER_MISTAKE,18 points on 7-of-13 shooting,"The number of points scored by Zach Randolph is correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,6,6,The Jazz shot 48 percent from the field and 29 percent from long range,204,217,NUMBER_MISTAKE,48 percent from the field and 29 percent from long range,"The shooting percentages are correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,7,7,The Grizzlies ( 5 - 5 ) have now lost four of their last five games,235,250,NUMBER_MISTAKE,5-5 have now lost four of their last five games,"The Grizzlies' record is actually 5-5, but the number of games lost is not specified in the text.",llama_medium,5586.43
+S008,9,9,Zach Randolph followed up with 18 points,302,308,NUMBER_MISTAKE,18 points,"The number of points scored by Zach Randolph is correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,10,10,Rudy Gobert chipped in 22 points on 9 - of - 17 shooting,311,323,NUMBER_MISTAKE,22 points on 9-of-17 shooting,"The number of points scored by Rudy Gobert is correct, but the number of shots made is not specified in the text.",llama_medium,5586.43
+S008,12,12,The Jazz will look to bounce back as they play host to the Trail Blazers on Monday,363,379,NUMBER_MISTAKE,Monday,"The date of the game is not specified in the text, but according to the provided links, the game was played on November 14, 2016.",llama_medium,5586.43
+S009,2,2,The Lakers ( 19 - 37 ),94,100,NUMBER_MISTAKE,19-37,Incorrect record,llama_medium,5586.43
+S011,2,2,"The Hawks got off to a quick start in this one ,",29,40,WORD_MISTAKE,The Hawks got off to a slow start in this one,"The Hawks got off to a quick start, but the sentence is saying they got off to a slow start.",llama_medium,5586.43
+S011,4,4,The Hawks were able to out - score the Wizards 28 - 18 in the third quarter,55,71,NUMBER_MISTAKE,The Hawks were able to out-score the Wizards 30-28 in the third quarter,"The Hawks out-scored the Wizards 30-28 in the third quarter, not 28-18.",llama_medium,5586.43
+S011,5,5,The Hawks shot 48 percent from the field and 44 percent from the three - point line,90,106,NUMBER_MISTAKE,The Hawks shot 49 percent from the field and 44 percent from the three-point line,"The Hawks shot 49 percent from the field, not 48 percent.",llama_medium,5586.43
+S011,7,7,The Hawks were also able to force the Wizards into 14 turnovers,125,136,NUMBER_MISTAKE,The Hawks were also able to force the Wizards into 12 turnovers,"The Hawks forced the Wizards into 12 turnovers, not 14.",llama_medium,5586.43
+S011,8,8,The Hawks were led by the duo of John Wall and Bradley Beal,146,158,NAME_MISTAKE,The Hawks were led by the duo of Jeff Teague and Kyle Korver,"The Hawks were led by the duo of Jeff Teague and Kyle Korver, not John Wall and Bradley Beal.",llama_medium,5586.43
+S011,9,9,Wall went 9 - for - 15 from the field and 3 - for - 5 from the three - point line,160,181,NUMBER_MISTAKE,Wall went 10-for-15 from the field and 4-for-5 from the three-point line,"Wall went 10-for-15 from the field, not 9-for-15.",llama_medium,5586.43
+S011,11,11,It was his second double - double in a row,202,211,NUMBER_MISTAKE,It was his third double-double in a row,"It was his third double-double in a row, not second.",llama_medium,5586.43
+S011,12,12,"Millsap finished with 11 points ( 4 - 7 FG ,",239,249,NUMBER_MISTAKE,Millsap finished with 12 points,"Millsap finished with 12 points, not 11.",llama_medium,5586.43
+S012,2,2,The Nuggets ( 21 - 25 ) came into this game tied for the worst record in the west and this was a much needed win for the Suns ( 21 - 25 ),22,55,NUMBER,21-32,Incorrect record,llama_medium,5586.43
+S012,3,3,"Six players scored in double digits for Denver ,",57,65,NUMBER,Four,Incorrect number of players,llama_medium,5586.43
+S012,5,5,"Next up , the Suns host the Phoenix Suns on Friday for their next game .",228,243,CONTEXT,Monday,Incorrect day of the week,llama_medium,5586.43
+S013,0,1,The Cavaliers had a strong first half where they out - scored the Magic 31 - 19 .,31,48,NUMBER_MISTAKE,The Cavaliers had a strong first half where they out-scored the Magic 31-19.,"The Cavaliers out-scored the Magic 31-19 in the first half, not the other way around.",llama_medium,5586.43
+S013,0,5,"Nikola Vucevic was limited to just four points ( 2 - 5 FG , 0 - 4 3Pt , 5 - 7 FT ) , along with five assists , in 21 minutes .",165,198,NUMBER_MISTAKE,"Nikola Vucevic was limited to just four points (2-5 FG, 0-4 3Pt, 5-7 FT) and five assists in 21 minutes.","Nikola Vucevic was limited to just four points (2-5 FG, 0-4 3Pt, 5-7 FT) and five assists in 21 minutes, not the other stats.",llama_medium,5586.43
+S014,2,2,"The Trail Blazers got off to a quick start in this one , out - scoring the Lakers 34 - 21 right away in the first quarter .",32,59,NUMBER_MISTAKE,34-21,The Trail Blazers outscored the Lakers 34-21 in the first quarter.,llama_medium,5586.43
+S014,3,3,"The Trail Blazers were the superior shooters in this game , going 49 percent from the field and 40 percent from the three - point line , while the Lakers went 44 percent from the floor and just 30 percent from deep .",60,102,NUMBER_MISTAKE,"49, 40, 44, 30","The Trail Blazers went 49 percent from the field and 40 percent from the three-point line, while the Lakers went 44 percent from the floor and 30 percent from deep.",llama_medium,5586.43
+S014,4,4,"Lillard went 9 - for - 19 from the field and 5 - for - 11 from the three - point line to score a game - high of 29 points , while also adding seven assists .",118,155,NUMBER_MISTAKE,"9-for-19, 5-for-11",Lillard went 9-for-19 from the field and 5-for-11 from the three-point line to score a game-high of 29 points.,llama_medium,5586.43
+S015,1,2,American Airlines Arena,24,26,NAME_MISTAKE,"American Airlines Arena is correct, but the story says the game was played in Miami, so the correct answer is American Airlines Arena is correct but the story should say American Airlines Arena instead of just Miami","Arena name is correct, but the story should specify the arena name instead of just the city",llama_medium,5586.43
+S015,2,3,64 - 52,47,49,NUMBER_MISTAKE,58-39,Incorrect score for the first half,llama_medium,5586.43
+S015,2,4,50 - 38,66,68,NUMBER_MISTAKE,58-39,Incorrect score for the second half,llama_medium,5586.43
+S015,3,5,Kyle Lowry,94,95,NAME_MISTAKE,DeMar DeRozan,Incorrect player name,llama_medium,5586.43
+S015,3,6,"21 points ( 8 - 18 FG , 1 - 4 3Pt , 4 - 4 FT ) , four assists and four steals",100,123,NUMBER_MISTAKE,"30 points (10-17 FG, 0-1 3Pt, 10-13 FT), four rebounds, four assists and two steals",Incorrect player stats,llama_medium,5586.43
+S015,4,7,Gerald Green,188,189,NAME_MISTAKE,Hassan Whiteside,Incorrect player name,llama_medium,5586.43
+S015,4,8,"20 points ( 7 - 15 FG , 5 - 10 3Pt , 1 - 1 FT )",196,213,NUMBER_MISTAKE,"20 points (7-15 FG, 5-10 3Pt, 1-1 FT)",Incorrect player stats,llama_medium,5586.43
+S015,5,9,Cleveland,287,287,NAME_MISTAKE,The Heat will look to get back on track in their next game on Sunday against the Timberwolves.,Incorrect next game information,llama_medium,5586.43
+S015,5,10,Timberwolves,380,380,NAME_MISTAKE,The Heat will look to get back on track in their next game on Sunday against the Cavaliers.,Incorrect next game information,llama_medium,5586.43
+S016,1,1,Friday night,25,26,CONTEXT,Thursday,"The story says the game was played on Friday, but the box score information indicates it was played on Thursday.",llama_medium,5586.43
+S016,2,2,Chesapeake Energy Arena,28,30,NAME,Talking Stick Resort Arena,"The story says the game was played at Chesapeake Energy Arena, but the box score information indicates it was played at Talking Stick Resort Arena.",llama_medium,5586.43
+S016,3,3,29 - 8,57,59,NUMBER,8-29,"The story says the Thunder out-scored the Jazz 29-8 in the third quarter, but the box score information indicates the Jazz out-scored the Thunder 8-29.",llama_medium,5586.43
+S016,4,4,59 - 42,99,101,NUMBER,42-59,"The story says the Thunder out-scored the Jazz 59-42 in the second and third quarters, but the box score information indicates the Jazz out-scored the Thunder 42-59.",llama_medium,5586.43
+S016,5,5,Gordon Hayward,234,235,NAME,Derrick Favors,"The story says Gordon Hayward had six points, but the box score information indicates Derrick Favors had seven points.",llama_medium,5586.43
+S016,6,6,six,237,237,NUMBER,seven,"The story says the Jazz had six players score in double figures, but the box score information indicates seven players scored in double figures.",llama_medium,5586.43
+S016,7,7,Saturday,448,448,NAME,Tuesday,"The story says the Thunder have a couple of days off before getting back in action on Saturday, but the box score information indicates they have a couple of days off before getting back in action on Tuesday.",llama_medium,5586.43
+S017,0,0,Saturday,18,18,NAME_MISTAKE,Tuesday,Incorrect day of the week,llama_medium,5586.43
+S017,0,1,Monday,31,31,NAME_MISTAKE,Tuesday,Incorrect day of the week,llama_medium,5586.43
+S017,0,2,Barclays,45,45,NAME_MISTAKE,Quicken Loans,Incorrect arena name,llama_medium,5586.43
+S017,0,3,Atlanta,365,365,NAME_MISTAKE,Utah,Incorrect team name,llama_medium,5586.43
+S017,0,4,Friday,368,368,NAME_MISTAKE,Wednesday,Incorrect day of the week,llama_medium,5586.43
+S017,0,5,Philadelphia,379,379,NAME_MISTAKE,Utah,Incorrect team name,llama_medium,5586.43
+S019,1,1,"The Miami Heat defeated the Indiana Pacers , 113 - 95 ,",1,12,NUMBER_MISTAKE,113-95,Incorrect score format,llama_medium,5586.43
+S019,1,2,Saturday evening,18,19,WORD_MISTAKE,night,Incorrect time of day,llama_medium,5586.43
+S019,2,3,The Heat were expected to win this game easily,21,29,CONTEXT_MISTAKE,The Heat took care of business in this wire-to-wire win.,Incorrect context,llama_medium,5586.43
+S019,3,4,30 - 16,65,67,NUMBER_MISTAKE,30-16,Incorrect score format,llama_medium,5586.43
+S019,4,5,23 assists to 16 turnovers,89,93,NUMBER_MISTAKE,23 assists to 16 turnovers,Incorrect statistic format,llama_medium,5586.43
+S019,5,6,Paul George,128,129,NAME_MISTAKE,Goran Dragic,Incorrect player name,llama_medium,5586.43
+S019,6,7,"10 points , five rebounds and one assist",139,146,NUMBER_MISTAKE,"21 points, two rebounds and four assists",Incorrect player statistics,llama_medium,5586.43
+S019,9,10,Friday,203,203,WORD_MISTAKE,Thursday,Incorrect day of week,llama_medium,5586.43
+S019,7,8,Hassan Whiteside,256,257,NAME_MISTAKE,Dion Waiters,Incorrect player name,llama_medium,5586.43
+S019,8,9,22 points and 17 rebounds,265,269,NUMBER_MISTAKE,"22 points, two rebounds and three assists",Incorrect player statistics,llama_medium,5586.43
+S020,1,1,The Phoenix Suns,1,3,NAME,Pelicans,Incorrect team name,llama_medium,5586.43
+S020,2,3,Eric Bledsoe,118,119,NAME,Anthony Davis,Incorrect player name,llama_medium,5586.43
+S020,5,6,Minnesota,364,364,NAME,Golden State,Incorrect team name,llama_medium,5586.43
+S020,4,5,Monday,371,371,NAME,Friday,Incorrect day of the week,llama_medium,5586.43

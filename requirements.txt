@@ -1,5 +1,8 @@
 pandas
 pydantic
-langchain
-huggingface_hub
-PyYAML
+langchain-core
+transformers
+torch
+bitsandbytes
+accelerate
+pyyaml

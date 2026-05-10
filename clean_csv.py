@@ -1,6 +1,7 @@
 import pandas as pd
 
-df = pd.read_csv("/Users/areenjain/PRACTICUM/LLM_results CSV/results_llama_medium.csv")
+df = pd.read_csv("LLM_results CSV/results_qwen_small.csv")
+print("qwen_small")
 print(f"Original: {len(df)} rows")
 
 # NaN drop
@@ -26,6 +27,6 @@ for text_id in df_no_nan["TEXT_ID"].unique():
 df_clean = pd.DataFrame(all_kept).reset_index(drop=True)
 print(f"After overlap removal: {len(df_clean)} rows (lost {len(df_no_nan) - len(df_clean)})")
 
-df_clean.to_csv("/Users/areenjain/PRACTICUM/results_checking.csv", index=False)
+df_clean.to_csv("cleaned_data/results_qwen_small_cleaned.csv", index=False)
 print("Done — cleaned CSV saved.")
 
