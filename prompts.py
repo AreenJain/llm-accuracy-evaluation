@@ -185,8 +185,13 @@ TEXT_ID, SENTENCE_ID, ANNOTATION_ID, TOKENS, TYPE, CORRECTION, COMMENT
 - If you find no mistakes, output an empty list: [].
 """,
 
+    
+   
     "p2": """[P1 + few-shot examples]""",
 
+    
+    
+    
     "p3": """You are a senior sports journalism fact-checker with an IQ of 165 and 20 years of 
     experience verifying NBA game reports for major outlets like ESPN, The Athletic, and Sports 
     Illustrated. You have personally fact-checked over 15,000 basketball game summaries. Your 
@@ -236,5 +241,6 @@ Critical output rules:
 - Output ONLY the final JSON list : no preamble, no commentary, no "Here are the mistakes"
 - TOKENS must appear as consecutive words in the story and never combine words from different sentences
 - Match capitalization, punctuation, and spacing exactly as in the story
-- One annotation per mistake : if a sentence has multiple mistakes, create separate annotations""",
+- One annotation per mistake : if a sentence has multiple mistakes, create separate annotations
+""",
 }
