@@ -68,6 +68,19 @@ STORY
 LIST OF MISTAKES
 <please list mistakes here, as well as marking them up in the story>
 
+{format_instructions}
+
+Return a LIST of objects.
+
+Each object must contain:
+TEXT_ID
+SENTENCE_ID
+ANNOTATION_ID
+TOKENS
+TYPE
+CORRECTION
+COMMENT
+
 """
 ,
 
@@ -140,22 +153,37 @@ LIST OF MISTAKES
 
 {format_instructions}
 
-Return a LIST of objects.
+==================== OUTPUT INSTRUCTIONS ====================
 
-Each object must contain:
+Return a JSON list. Each object must contain EXACTLY these fields:
 TEXT_ID, SENTENCE_ID, ANNOTATION_ID, TOKENS, TYPE, CORRECTION, COMMENT
 
-CRITICAL RULES for TOKENS field:
-- TOKENS must be a SHORT span of 1 to 5 consecutive words copied EXACTLY from the story
-- TOKENS must mark ONLY the specific incorrect word(s) — NOT the entire sentence
-- TOKENS must appear together consecutively in the story — DO NOT combine words from different sentences or different parts of the story
-- Match exact capitalization, punctuation, and spacing as in the story
-- If a sentence has multiple mistakes, create a SEPARATE annotation for each mistake
+------- TOKENS FIELD (most important — strictly follow) -------
 
-Other rules:
-- Output ONLY JSON (no preamble, no explanation)
-- Do NOT include token positions
-- TYPE must be one of: NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER""",
+1. TOKENS is a LIST of word strings.
+2. TOKENS must be a SHORT span of 1 to 5 consecutive words. Never more than 5.
+3. TOKENS must mark ONLY the specific incorrect word(s) — NEVER the full sentence and NEVER the surrounding correct words.
+4. TOKENS must be COPIED EXACTLY from the STORY — same spelling, same capitalization, same punctuation. Do not normalize, do not lowercase, do not strip punctuation.
+5. The words in TOKENS must appear CONSECUTIVELY in the story, in the same order. Never combine words from different sentences. Never combine stats that appear in different parts of the story.
+6. If a sentence contains multiple mistakes, create a SEPARATE annotation object for each mistake. Do not merge them.
+7. Each entry in TOKENS must be a single word — never put a multi-word phrase as one string in the list.
+
+------- OTHER FIELDS -------
+
+- TEXT_ID: must be "{text_id}"
+- SENTENCE_ID: integer, the 1-indexed sentence number containing the mistake
+- ANNOTATION_ID: integer, sequential per document starting from 1
+- TYPE: must be EXACTLY one of: NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER. Use the priority order: NUMBER > NAME > WORD > CONTEXT > NOT_CHECKABLE > OTHER.
+- CORRECTION: short string with what the box score actually says
+- COMMENT: one short sentence explaining why this is a mistake
+
+------- OUTPUT FORMAT -------
+
+- Output ONLY the JSON list — nothing else.
+- No preamble. No "Here are the mistakes:". No markdown code fences. No explanation.
+- Do NOT include token position numbers, character offsets, or indices anywhere.
+- If you find no mistakes, output an empty list: [].
+""",
 
     "p2": """[P1 + few-shot examples]""",
 
@@ -205,8 +233,8 @@ Now, methodically scan the story sentence by sentence. For each mistake you find
 {format_instructions}
 
 Critical output rules:
-- Output ONLY the final JSON list — no preamble, no commentary, no "Here are the mistakes"
-- TOKENS must appear as consecutive words in the story — never combine words from different sentences
+- Output ONLY the final JSON list : no preamble, no commentary, no "Here are the mistakes"
+- TOKENS must appear as consecutive words in the story and never combine words from different sentences
 - Match capitalization, punctuation, and spacing exactly as in the story
-- One annotation per mistake — if a sentence has multiple mistakes, create separate annotations""",
+- One annotation per mistake : if a sentence has multiple mistakes, create separate annotations""",
 }
