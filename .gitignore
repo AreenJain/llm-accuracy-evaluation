@@ -6,3 +6,6 @@ __pycache__/
 texts/
 token_lookup.yaml
 shared_task.jsonl
+myenv 
+
+

@@ -135,3 +135,45 @@ Meetings Doubt and info:
 
 All the things are working mostly based on token_lookup.yaml file and categories.
 Lastly we evalaute the recall and precision.
+
+
+-------------------------------------------------------
+
+First of all we do not have to change the evaluation script, because if we change we are most likely trying to get good results,
+but we need one script that evaluates every models. so that we can compare the different models.
+
+D5:
+
+models: llama small (hugging face)/ medium (cluster)
+        qwen small (hugging face)/ medium (cluster)
+
+
+prompts: 
+        p0: normal prompt -> 1. direct evaluation, 2. evaluation on cleaned results
+        p1: tuned prompt (with rules) -> 1. direct evaluation, 2. evaluation on cleaned results
+        p2: smaller version of p1. -> 1. direct evaluation, 2. evaluation on cleaned results
+        p3: JSON format for p1. -> 1. direct evaluation, 2. evaluation on cleaned results
+        p4: LLM as judge. -> 1. direct evaluation, 2. evaluation on cleaned results
+
+
+task:
+
+Evaluation script check
+small model run locally on 5 prompts
+medium model run on clusters
+
+-------------------------------------------------------
+
+what the actual difference between original Evaluation script and new LLM based script:
+
+In LLM:
+
+we have introduced the new argument --submitted_format, it helps in mapping with the specefic file columns while evaluating. why we done this,
+because LLM do not generate the sent_start and end_idx, so original evaluation script will read wrong columns.
+
+then we have updated the csv_int function: instead of returing int(x) it returns int(float(x)), why we done this, because LLM might generate "2.0"
+which can raise the error while converting into int.
+
+There is an bug in evaluate.py, that is while creating the mistake dict, it store wrong sentence_end_idx, which is solved in LLM_evaluate.py
+
+-------------------------------------------------------

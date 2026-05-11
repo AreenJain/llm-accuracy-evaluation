@@ -1,0 +1,432 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S002,1,1,The Atlanta Hawks defeated the Cleveland Cavaliers,,,MISTAKE,,Home team name is incorrect,llama_small,1787.16
+S002,2,1,The reigning NBA champs came into Tuesday,,,,,,llama_small,1787.16
+S002,3,1,"However, Atlanta (5-2) came",,,MISTAKE,"The Hawks came into the game sporting one of the NBA's stingiest defenses, having allowed the sixth-least points per game.",,llama_small,1787.16
+S002,4,1,Bazemore drilled a key jumper,,,,,,llama_small,1787.16
+S002,5,1,The Cavs were led,,,MISTAKE,"The Cavaliers were led by Kyrie Irving's game-high 29 points, which he needed a whopping 27 shot attempts to get to.",,llama_small,1787.16
+S003,1,1,The Toronto Raptors,1.0,3.0,,,None,llama_small,1787.16
+S003,2,2,defeated the Orlando,4.0,6.0,,,None,llama_small,1787.16
+S003,3,3,"Magic, 109- 79,",,,,,None,llama_small,1787.16
+S003,4,4,at Amway,13.0,14.0,,,None,llama_small,1787.16
+S003,5,5,Center,15.0,15.0,,,None,llama_small,1787.16
+S003,6,6,on Sunday.,,,,,None,llama_small,1787.16
+S004,1,1,"The host Utah Jazz beat the visiting Los Angeles Lakers on Friday,",,,,,,llama_small,1787.16
+S004,2,2,It was the season debut for banged- up Jazz star Derrick,,,,,,llama_small,1787.16
+S004,3,3,Favors. Favors missed the majority,,,,,,llama_small,1787.16
+S004,4,4,Favors missed the majority,,,,,,llama_small,1787.16
+S004,5,5,of the preseason,,,,,,llama_small,1787.16
+S004,6,6,and the,,,,,,llama_small,1787.16
+S004,7,7,team's season,,,,,,llama_small,1787.16
+S004,8,8,opener,,,,,,llama_small,1787.16
+S004,9,9,with a,49.0,50.0,,,,llama_small,1787.16
+S004,10,10,bruised,,,,,,llama_small,1787.16
+S004,11,11,"knee,",,,,,,llama_small,1787.16
+S004,12,12,but,43.0,43.0,,,,llama_small,1787.16
+S004,13,13,was,79.0,79.0,,,,llama_small,1787.16
+S004,14,14,able to,46.0,47.0,,,,llama_small,1787.16
+S004,15,15,transition back,,,,,,llama_small,1787.16
+S004,16,16,into a,,,,,,llama_small,1787.16
+S004,17,17,limited role,,,,,,llama_small,1787.16
+S004,18,18,for Friday's,,,,,,llama_small,1787.16
+S004,19,19,contest.,,,,,,llama_small,1787.16
+S006,1,1,The Houston Rockets (10-12) defeated the Brooklyn Nets (6-15),,,Incorrect team stats,,,llama_small,1787.16
+S006,1,2,110 -105 on Friday,,,Incorrect game date,,,llama_small,1787.16
+S006,3,1,The Nets came into this game as a double-tenor favorite,,,Incorrect phrase,double-digit,,llama_small,1787.16
+S006,4,1,Trevor Ariza,66.0,67.0,Missing stats,"2 points, four rebounds and four assists",,llama_small,1787.16
+S006,7,1,Brook Lopez,117.0,118.0,Missing stats,"24 points, eight rebounds and five blocks in the win.",,llama_small,1787.16
+S006,8,1,Thaddeus Young,163.0,164.0,Missing stats,"20 points, 12 rebounds and five assists.",,llama_small,1787.16
+S007,1,1,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,,,ERROR,,Duplicate mention of Russell Westbrook,llama_small,1787.16
+S007,1,2,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,,,,,,llama_small,1787.16
+S007,5,3,The Kings shot 46 percent from the field and 36 percent from long range,,,ERROR,,Repetition of similar information,llama_small,1787.16
+S007,5,4,The Kings shot 46 percent from the field and 36 percent from long range,,,,,,llama_small,1787.16
+S007,11,5,"The Thunder play the second game of a back-to-back on Monday when they visit the Los Angeles Clippers, while the Kings look to bounce back on Wednesday when they host the Indiana Pacers.",,,WARNING,,Information about future games,llama_small,1787.16
+S008,0,1,"While the start of the Grizzlies ' season has been pretty standard with a 5 - 5 start , Vince Carter ' play has been anything but",,,,,,llama_small,1787.16
+S008,1,2,"With his 20 - point performance on Monday, Carter notched 20 points for the second time in three games and at least 17 points for the third straight game",,,,,,llama_small,1787.16
+S008,2,3,"While Chandler Parson ' return from a knee injury was expected to lead to a much- reduced role for Carter, it 's done the exact opposite, as with Parson ' struggling as he still works to make his way back to the floor, Carter has excelled and outscored Parsons in each of the past three games",,,,,,llama_small,1787.16
+S008,3,4,Carter ' 9 points per game would be his highest average since the 2013- 14 season,,,,,,llama_small,1787.16
+S008,4,5,"For the Jazz, they received an unexpected 20- point performance from Joe Ingles on Monday - - a performance that kept the team in the game with Gordon Hayward struggling to get anything going",,,,,,llama_small,1787.16
+S008,5,6,"Ingles hadn 't scored in double figures all season until Monday, and with Derrick Favors potentially out, the team could look to Ingles to provide some added scoring on a more consistent basis when they ' re a man down",,,,,,llama_small,1787.16
+S008,0,7,"The Memphis Grizzlies defeated the Utah Jazz, 102- 96, at Vivint Smart Home Arena on Saturday",,,,,,llama_small,1787.16
+S008,1,8,The Grizzlies ( 5- 5 ),,,,,,llama_small,1787.16
+S008,2,9,"checked in to Saturday ' s contest with only six road wins in 17 tries this season, but",,,,,,llama_small,1787.16
+S008,3,10,the Grizzlies ( 5- 5 ),,,,,,llama_small,1787.16
+S008,4,11,"came in to Tuesday ' s contest with a 33- point first quarter, and",,,,,,llama_small,1787.16
+S008,5,12,the Grizzlies ( 5- 5 ),,,,,,llama_small,1787.16
+S008,6,13,were able to pull away in the second half,75.0,83.0,,,,llama_small,1787.16
+S008,7,14,The Jazz ( 7- 5 ),,,,,,llama_small,1787.16
+S008,8,15,"were led by Marc Gasol, who scored a game- high 22 points",,,,,,llama_small,1787.16
+S008,9,16,"on 9- of - 17 shooting, to go along with",,,,,,llama_small,1787.16
+S008,10,17,"five rebounds, five assists and one steal, in",,,,,,llama_small,1787.16
+S008,11,18,33 minutes,128.0,129.0,,,,llama_small,1787.16
+S009,1,1,Friday,300.0,300.0,DATE_ERROR,Tuesday,The game date was incorrect.,llama_small,1787.16
+S009,2,2,122 - 114,,,SCORE_ERROR,122 - 122,The game score was incorrect.,llama_small,1787.16
+S009,3,3,Los Angeles Lakers,,,TEAM_ERROR,Milwaukee Bucks,The team that won the game was incorrect.,llama_small,1787.16
+S010,1,1,Eflrid Payton Elfrid Payton,,,SPELLING_CORRECTION,Elfrid Payton,,llama_small,1787.16
+S010,3,1,Aaron Gordon 15-point scoring mark,,,STATISTICS_CORRECTION,triple-double,,llama_small,1787.16
+S010,5,1,"Dwight Howard 13-point, 12-rebound double-double",,,STATISTICS_CORRECTION,"20-point, 18-rebound double-double",,llama_small,1787.16
+S011,1,1,The Atlanta Hawks ( 41 - 9 ),1.0,8.0,MISTAKE,The Hawks were actually leading the game at this point.,,llama_small,1787.16
+S011,2,2,The Hawks got off to a quick start,29.0,36.0,MISTAKE,They actually trailed in the early going.,,llama_small,1787.16
+S011,3,3,The Hawks were able to out- score,,,MISTAKE,They actually out-scored the Wizards in the third quarter.,,llama_small,1787.16
+S011,4,4,The Hawks shot 48 % from the,,,MISTAKE,They actually shot 48% from the field.,,llama_small,1787.16
+S011,5,5,The Wizards finished at 44 %,,,MISTAKE,They actually finished at 44% from the field.,,llama_small,1787.16
+S011,6,6,The Hawks were also able to,125.0,130.0,MISTAKE,They actually forced the Wizards into 14 turnovers.,,llama_small,1787.16
+S011,7,7,The Hawks were led by,146.0,150.0,MISTAKE,The Hawks were actually led by a duo.,,llama_small,1787.16
+S011,8,8,John Wall,154.0,155.0,MISTAKE,The duo was actually John Wall and Bradley Beal.,,llama_small,1787.16
+S011,9,9,Wall went,160.0,161.0,MISTAKE,John Wall actually went 9-for-15 from the field.,,llama_small,1787.16
+S011,10,10,Paul Millsap,238.0,239.0,MISTAKE,Notching a double-double was actually Paul Millsap.,,llama_small,1787.16
+S011,11,11,Millsap finished,239.0,240.0,MISTAKE,Paul Millsap actually finished with 11 points and 11 rebounds.,,llama_small,1787.16
+S011,12,12,Bradley Beal,157.0,158.0,MISTAKE,Notching a double-double was also Bradley Beal.,,llama_small,1787.16
+S011,13,13,Beal finished,297.0,298.0,MISTAKE,Bradley Beal actually finished with 23 points and 8 rebounds.,,llama_small,1787.16
+S011,14,14,The Hawks',,,MISTAKE,"The Hawks' next game will be at home against the New Orleans Pelicans on Friday, while the Wizards will be at home against the Cleveland Cavaliers on Friday.",,llama_small,1787.16
+S012,1,1,The date is incorrect,,,DATE_ERROR,Saturday,,llama_small,1787.16
+S012,1,2,The score is incorrect,,,SCORE_ERROR,,,llama_small,1787.16
+S012,2,3,The Nuggets' record is incorrect,,,RECORD_ERROR,(15-32),,llama_small,1787.16
+S012,3,4,Gary Harris' statistics are incorrect,,,STATISTIC_ERROR,,,llama_small,1787.16
+S012,4,5,Jameer Nelson' statistics are mentioned twice,,,DUPLICATE_ERROR,,,llama_small,1787.16
+S012,5,6,Tyson Chandler' statistics are incorrect,,,STATISTIC_ERROR,,,llama_small,1787.16
+S012,6,7,The next game is mentioned incorrectly,,,GAME_ERROR,,,llama_small,1787.16
+S013,1,1,The Cleveland Cavaliers (22-9) defeated the Orlando Magic (19-15) 104-79,,,,,,llama_small,1787.16
+S013,2,1,The Cavaliers had a strong first half where they out-scores,,,,They were out-scored by the Magic,,llama_small,1787.16
+S013,3,1,The Magic,49.0,50.0,,,"This sentence is incorrect, the correct team is the Cavaliers",llama_small,1787.16
+S013,4,2,Kyrie Irving,58.0,59.0,,,,llama_small,1787.16
+S013,5,3,LeBron James,92.0,93.0,,,,llama_small,1787.16
+S014,0,1,"The Portland Trail Blazers ( 7-10 ) handed the Los Angeles Lakers ( 2-13 ) another loss,",,,,,,llama_small,1787.16
+S014,1,2,with a score of 108-96 on Saturday night.,,,,,,llama_small,1787.16
+S014,2,3,Portland jumped out to a commanding start with,,,,,,llama_small,1787.16
+S014,3,4,a 34-21 first quarter.,,,,,,llama_small,1787.16
+S014,4,5,The Lakers came,,,,,,llama_small,1787.16
+S014,5,6,out a little,,,,,,llama_small,1787.16
+S014,6,7,bit stronger,,,,,,llama_small,1787.16
+S014,7,8,in the,55.0,56.0,,,,llama_small,1787.16
+S014,8,9,second half,,,,,,llama_small,1787.16
+S014,9,10,but could,,,,,,llama_small,1787.16
+S014,10,11,not stay,,,,,,llama_small,1787.16
+S014,11,12,consistent,,,,,,llama_small,1787.16
+S014,12,13,enough,,,,,,llama_small,1787.16
+S014,13,14,to,37.0,37.0,,,,llama_small,1787.16
+S014,14,15,do,,,,,,llama_small,1787.16
+S014,15,16,any serious,,,,,,llama_small,1787.16
+S014,16,17,damage,,,,,,llama_small,1787.16
+S014,17,18,as,168.0,168.0,,,,llama_small,1787.16
+S014,18,19,the,11.0,11.0,,,,llama_small,1787.16
+S014,19,20,Trail Blazers,3.0,4.0,,,,llama_small,1787.16
+S014,20,21,held,,,,,,llama_small,1787.16
+S014,21,22,the,11.0,11.0,,,,llama_small,1787.16
+S014,22,23,lead,,,,,,llama_small,1787.16
+S014,23,24,for,122.0,122.0,,,,llama_small,1787.16
+S014,24,25,the,11.0,11.0,,,,llama_small,1787.16
+S014,25,26,length,,,,,,llama_small,1787.16
+S014,26,27,of,111.0,111.0,,,,llama_small,1787.16
+S014,27,28,the,11.0,11.0,,,,llama_small,1787.16
+S014,28,29,game.,,,,,,llama_small,1787.16
+S015,0,0,The Toronto Raptors ( 17 - 11 ) defeated,1.0,9.0,,,,llama_small,1787.16
+S015,0,1,the Miami Heat,10.0,12.0,,,,llama_small,1787.16
+S015,0,2,108-94,,,,,,llama_small,1787.16
+S015,0,3,on Wednesday,21.0,22.0,,,,llama_small,1787.16
+S015,0,4,at American,23.0,24.0,,,,llama_small,1787.16
+S015,0,5,Airlines Arena,25.0,26.0,,,,llama_small,1787.16
+S015,0,6,in Miami,27.0,28.0,,,,llama_small,1787.16
+S015,0,7,The Toronto Raptors,1.0,3.0,,,,llama_small,1787.16
+S015,0,8,( 17-11,,,,,,llama_small,1787.16
+S015,0,9,),8.0,8.0,,,,llama_small,1787.16
+S017,1,1,"The Cleveland Cavaliers defeated the Detroit Pistons,",,,,,,llama_small,1787.16
+S017,1,2,"128-96,",,,,,,llama_small,1787.16
+S017,1,3,at Quicken Loans Arena,13.0,16.0,,,,llama_small,1787.16
+S017,1,4,on Tuesday,,,,,,llama_small,1787.16
+S017,2,5,The Cavaliers,21.0,22.0,,,,llama_small,1787.16
+S017,2,6,(44-22),,,,,,llama_small,1787.16
+S017,2,7,checked,28.0,28.0,,,,llama_small,1787.16
+S017,3,8,The Cavaliers,21.0,22.0,,,,llama_small,1787.16
+S017,3,9,(33-34),,,,,,llama_small,1787.16
+S017,4,10,checked,28.0,28.0,,,,llama_small,1787.16
+S017,5,11,Cleveland,2.0,2.0,,,,llama_small,1787.16
+S017,6,12,posted a,130.0,131.0,,,,llama_small,1787.16
+S017,7,13,60% success,,,,,,llama_small,1787.16
+S017,8,14,from the,43.0,44.0,,,,llama_small,1787.16
+S017,9,15,field,138.0,138.0,,,,llama_small,1787.16
+S017,10,16,and 63%,,,,,,llama_small,1787.16
+S017,11,17,from,43.0,43.0,,,,llama_small,1787.16
+S017,12,18,behind,160.0,160.0,,,,llama_small,1787.16
+S017,13,19,the arc,161.0,162.0,,,,llama_small,1787.16
+S017,14,20,Andre,164.0,164.0,,,,llama_small,1787.16
+S017,15,21,Drummond,165.0,165.0,,,,llama_small,1787.16
+S017,16,22,led,166.0,166.0,,,,llama_small,1787.16
+S017,17,23,the,5.0,5.0,,,,llama_small,1787.16
+S017,18,24,way,168.0,168.0,,,,llama_small,1787.16
+S017,19,25,for,169.0,169.0,,,,llama_small,1787.16
+S017,20,26,the,5.0,5.0,,,,llama_small,1787.16
+S017,21,27,Cavs,171.0,171.0,,,,llama_small,1787.16
+S017,22,28,with,34.0,34.0,,,,llama_small,1787.16
+S017,23,29,a,131.0,131.0,,,,llama_small,1787.16
+S017,24,30,modest,174.0,174.0,,,,llama_small,1787.16
+S017,25,31,stat,175.0,175.0,,,,llama_small,1787.16
+S017,26,32,line:,,,,,,llama_small,1787.16
+S017,27,33,The,1.0,1.0,,,,llama_small,1787.16
+S017,28,34,Cavaliers,3.0,3.0,,,,llama_small,1787.16
+S017,29,35,(33-34),,,,,,llama_small,1787.16
+S017,30,36,checked,28.0,28.0,,,,llama_small,1787.16
+S017,1,37,Cleveland Cavaliers,2.0,3.0,ERROR,Cavalier,Typo,llama_small,1787.16
+S017,2,38,(44-22),,,,,,llama_small,1787.16
+S019,1,1,"The Miami Heat defeated the Indiana Pacers , 113 - 95 , at American Airlines Arena on Saturday evening",1.0,19.0,CORRECTION,"The game was actually played on Saturday night, not evening.",,llama_small,1787.16
+S019,2,1,Heat were expected to win this game easily,22.0,29.0,,,,llama_small,1787.16
+S019,3,2,Heat led for the entirety,49.0,53.0,SUGGESTION,,This phrase could be rephrased to improve clarity.,llama_small,1787.16
+S019,4,3,assist - to - turnover ratio,75.0,80.0,,,,llama_small,1787.16
+S019,5,4,Paul,128.0,128.0,CORRECTION,"Actually, it was Jeff Teague who led the way for Indiana.",,llama_small,1787.16
+S019,6,5,Jeff,148.0,148.0,,,,llama_small,1787.16
+S019,7,6,Thaddeus,167.0,167.0,,,,llama_small,1787.16
+S019,8,7,deck,191.0,191.0,CORRECTION,,This phrase is not a standard sports term and could be rephrased to improve clarity.,llama_small,1787.16
+S019,9,8,Heat,3.0,3.0,,,,llama_small,1787.16
+S019,10,9,Goran,228.0,228.0,,,,llama_small,1787.16
+S019,11,10,Hassan,256.0,256.0,,,,llama_small,1787.16
+S019,12,11,Dion,271.0,271.0,,,,llama_small,1787.16
+S019,13,12,Thursday,299.0,299.0,CORRECTION,,"Actually, it was a home matchup against the Dallas Mavericks.",llama_small,1787.16
+S020,1,1,"In this close-fought battle, there were 16 ties and 13 lead changes, with neither team leading by more than 10 points.",,,,,,llama_small,1787.16
+S020,2,1,"Three-point shooting really killed the Suns, as they went just 5-of-27 from long distance.",,,,,,llama_small,1787.16
+S020,3,1,"New Orleans stepped up on defense, as they forced 16 turnovers and recorded 22 combined blocks and steals.",,,,,,llama_small,1787.16
+S020,4,1,"TJ Warren was the Suns leading scorer, collecting 20 points, four rebounds and three blocks.",,,,,,llama_small,1787.16
+S020,5,1,"Devin Booker and Eric Bledsoe each scored 14 points and handed out five assists apiece, but combined to go just 8-of-29 from the field.",,,,,,llama_small,1787.16
+S020,6,1,"Tyson Chandler totaled 11 points, and 12 rebounds en route to a double-double.",,,,,,llama_small,1787.16
+S020,7,1,"Anthony Davis was the player of the game, as he tallied 34 points, nine rebounds and five blocks.",,,,,,llama_small,1787.16
+S020,8,1,"Jrue Holiday was n't far behind, amassing 30 points, nine rebounds, seven assists and three blocks.",,,,,,llama_small,1787.16
+S020,9,1,"E'Twaun Moore was a nice spark off the bench, providing 12 points, four rebounds and four steals.",,,,,,llama_small,1787.16
+S021,1,0,The Houston Rockets defeated the Sacramento Kings,1.0,7.0,,,Story,llama_small,1787.16
+S021,2,1,The Rockets (10-6) came in to Saturday's contest,,,,,Story,llama_small,1787.16
+S021,3,2,with a strong start to the season,33.0,39.0,,,Story,llama_small,1787.16
+S021,4,3,but the Rockets (10-6) came,,,,,Story,llama_small,1787.16
+S021,5,4,in to Saturday's contest,,,,,Story,llama_small,1787.16
+S021,6,5,with a 38-point first,,,,,Story,llama_small,1787.16
+S021,7,6,"quarter, and the",,,,,Story,llama_small,1787.16
+S021,8,7,Kings (6-10),,,,,Story,llama_small,1787.16
+S021,9,8,were able to,71.0,73.0,,,Story,llama_small,1787.16
+S021,10,9,pull,74.0,74.0,,,Story,llama_small,1787.16
+S021,11,10,away in the,75.0,77.0,,,Story,llama_small,1787.16
+S021,12,11,second,78.0,78.0,,,Story,llama_small,1787.16
+S021,13,12,half but it,,,,,Story,llama_small,1787.16
+S021,14,13,was,185.0,185.0,,,Story,llama_small,1787.16
+S021,15,14,too,,,,,Story,llama_small,1787.16
+S021,16,15,little too late,,,,,Story,llama_small,1787.16
+S021,17,16,as,274.0,274.0,,,Story,llama_small,1787.16
+S021,18,17,the Rockets cruised,,,,,Story,llama_small,1787.16
+S021,19,18,to,29.0,29.0,,,Story,llama_small,1787.16
+S021,20,19,their fourth,,,,,Story,llama_small,1787.16
+S021,21,20,win in five,,,,,Story,llama_small,1787.16
+S021,22,21,games.,,,,,Story,llama_small,1787.16
+S021,23,22,James Harden,163.0,164.0,,,Story,llama_small,1787.16
+S021,24,23,led,165.0,165.0,,,Story,llama_small,1787.16
+S021,25,24,the way,166.0,167.0,,,Story,llama_small,1787.16
+S021,26,25,for,168.0,168.0,,,Story,llama_small,1787.16
+S021,27,26,Houston with 23,169.0,171.0,,,Story,llama_small,1787.16
+S021,28,27,"points,",,,,,Story,llama_small,1787.16
+S021,29,28,nine,174.0,174.0,,,Story,llama_small,1787.16
+S021,30,29,"rebounds,",,,,,Story,llama_small,1787.16
+S021,31,30,an assist,177.0,178.0,,,Story,llama_small,1787.16
+S021,32,31,and,63.0,63.0,,,Story,llama_small,1787.16
+S021,33,32,24,,,,,Story,llama_small,1787.16
+S021,34,33,Eric Bledsoe 18,,,Person: Eric Bledsoe,,List of Players,llama_small,1787.16
+S021,35,34,points,172.0,172.0,,,List of Players,llama_small,1787.16
+S021,36,35,DeAndre Jordan,,,Person: DeAndre Jordan,,List of Players,llama_small,1787.16
+S021,37,36,18,229.0,229.0,,,List of Players,llama_small,1787.16
+S021,38,37,"points,",,,,,List of Players,llama_small,1787.16
+S021,39,38,Gordon Hill,,,Person: Gordon Hill,,List of Players,llama_small,1787.16
+S021,40,39,18,229.0,229.0,,,List of Players,llama_small,1787.16
+S021,41,40,"points,",,,,,List of Players,llama_small,1787.16
+S021,42,41,Blake Griffin,,,Person: Blake Griffin,,List of Players,llama_small,1787.16
+S021,43,42,18,229.0,229.0,,,List of Players,llama_small,1787.16
+S021,44,43,"points,",,,,,List of Players,llama_small,1787.16
+S021,45,44,and,63.0,63.0,,,Story,llama_small,1787.16
+S021,46,45,22,,,,,Story,llama_small,1787.16
+S021,47,46,J.J. Redick,,,Person: J.J. Redick,,List of Players,llama_small,1787.16
+S021,48,47,21,,,,,List of Players,llama_small,1787.16
+S021,49,48,"points,",,,,,Story,llama_small,1787.16
+S021,50,49,DeAndre Jordan,,,Person: DeAndre Jordan,,List of Players,llama_small,1787.16
+S021,51,50,21,,,,,List of Players,llama_small,1787.16
+S021,52,51,"points,",,,,,Story,llama_small,1787.16
+S021,53,52,Gordon Hill,,,Person: Gordon Hill,,List of Players,llama_small,1787.16
+S021,54,53,20,,,,,List of Players,llama_small,1787.16
+S021,55,54,"points,",,,,,Story,llama_small,1787.16
+S021,56,55,Blake Griffin,,,Person: Blake Griffin,,List of Players,llama_small,1787.16
+S021,57,56,20,,,,,List of Players,llama_small,1787.16
+S021,58,57,"points,",,,,,Story,llama_small,1787.16
+S021,59,58,and,63.0,63.0,,,List of Players,llama_small,1787.16
+S021,60,59,22,,,,,List of Players,llama_small,1787.16
+S021,61,60,"points,",,,,,Story,llama_small,1787.16
+S021,62,61,Gordon Hill,,,Person: Gordon Hill,,List of Players,llama_small,1787.16
+S021,63,62,22,,,,,List of Players,llama_small,1787.16
+S021,64,63,"points,",,,,,Story,llama_small,1787.16
+S021,65,64,J.J. Redick,,,Person: J.J. Redick,,List of Players,llama_small,1787.16
+S021,66,65,22,,,,,List of Players,llama_small,1787.16
+S022,1,1,"The New Orleans Pelicans defeated the Minnesota Timberwolves,",,,,,,llama_small,1787.16
+S022,1,2,"122-106,",,,,,,llama_small,1787.16
+S022,1,3,at Target Center,14.0,16.0,,,,llama_small,1787.16
+S022,1,4,on Friday.,,,,,,llama_small,1787.16
+S022,2,5,There were,,,,,,llama_small,1787.16
+S022,2,6,8 ties,41.0,42.0,,,,llama_small,1787.16
+S022,2,7,and,28.0,28.0,,,,llama_small,1787.16
+S022,2,8,10 lead,44.0,45.0,,,,llama_small,1787.16
+S022,2,9,changes,46.0,46.0,,,,llama_small,1787.16
+S022,3,10,with,50.0,50.0,,,,llama_small,1787.16
+S022,3,11,neither,51.0,51.0,,,,llama_small,1787.16
+S022,3,12,team,52.0,52.0,,,,llama_small,1787.16
+S022,3,13,leading,53.0,53.0,,,,llama_small,1787.16
+S022,4,14,by,54.0,54.0,,,,llama_small,1787.16
+S022,4,15,more,55.0,55.0,,,,llama_small,1787.16
+S022,5,16,Defense,60.0,60.0,,,,llama_small,1787.16
+S022,5,17,was,61.0,61.0,,,,llama_small,1787.16
+S022,5,18,key,62.0,62.0,,,,llama_small,1787.16
+S022,6,19,for,63.0,63.0,,,,llama_small,1787.16
+S022,6,20,the,6.0,6.0,,,,llama_small,1787.16
+S022,6,21,"Pelicans,",,,,,,llama_small,1787.16
+S022,7,22,as,67.0,67.0,,,,llama_small,1787.16
+S022,7,23,they,68.0,68.0,,,,llama_small,1787.16
+S022,7,24,held,69.0,69.0,,,,llama_small,1787.16
+S022,8,25,the,6.0,6.0,,,,llama_small,1787.16
+S022,8,26,Timberwolves,8.0,8.0,,,,llama_small,1787.16
+S022,8,27,to,72.0,72.0,,,,llama_small,1787.16
+S022,9,28,46%,,,,,,llama_small,1787.16
+S022,9,29,from,75.0,75.0,,,,llama_small,1787.16
+S022,10,30,the,6.0,6.0,,,,llama_small,1787.16
+S022,11,31,"field,",,,,,,llama_small,1787.16
+S022,12,32,and,28.0,28.0,,,,llama_small,1787.16
+S022,13,33,"10,",,,,,,llama_small,1787.16
+S022,14,34,lead,45.0,45.0,,,,llama_small,1787.16
+S022,15,35,"changes,",,,,,,llama_small,1787.16
+S022,1,36,Defense was,60.0,61.0,,,,llama_small,1787.16
+S022,1,37,key,62.0,62.0,,,,llama_small,1787.16
+S022,2,38,for,63.0,63.0,,,,llama_small,1787.16
+S022,3,39,the,6.0,6.0,,,,llama_small,1787.16
+S022,4,40,"Pelicans,",,,,,,llama_small,1787.16
+S022,5,41,as,67.0,67.0,,,,llama_small,1787.16
+S022,6,42,they,68.0,68.0,,,,llama_small,1787.16
+S022,7,43,held,69.0,69.0,,,,llama_small,1787.16
+S022,8,44,the,6.0,6.0,,,,llama_small,1787.16
+S022,9,45,Timberwolves,8.0,8.0,,,,llama_small,1787.16
+S022,10,46,to,72.0,72.0,,,,llama_small,1787.16
+S022,11,47,46%,,,,,,llama_small,1787.16
+S022,12,48,from,75.0,75.0,,,,llama_small,1787.16
+S022,13,49,the,6.0,6.0,,,,llama_small,1787.16
+S022,14,50,"field,",,,,,,llama_small,1787.16
+S023,1,1,Dallas Mavericks,2.0,3.0,correction,"The Dallas Mavericks defeated the Los Angeles Lakers , 122 - 73 , at American Airlines Center on <mark>Wednesday</mark>.",,llama_small,1787.16
+S023,3,2,Dallas Mavericks,2.0,3.0,correction,"The Mavericks led for the entirety of the second half, as they led by <mark>11</mark> at times in the second half.",,llama_small,1787.16
+S023,4,3,Justin Anderson,88.0,89.0,correction,"<mark>Justin Anderson</mark> led the way for Dallas in scoring, as he dropped <mark>19 points</mark> off the bench.",,llama_small,1787.16
+S023,5,4,Justin Anderson,88.0,89.0,correction,"<mark>Justin Anderson</mark> led the team in scoring off the bench, as he dropped <mark>19 points</mark> on 5 - of - 11 shooting.",,llama_small,1787.16
+S023,7,5,Julius Randle,173.0,174.0,correction,"<mark>Julius Randle</mark> recorded a double - double, totaling <mark>nine points</mark>, six rebounds and four assists.",,llama_small,1787.16
+S023,8,6,Justin Anderson,88.0,89.0,correction,"<mark>Justin Anderson</mark> led the Lakers in scoring off the bench, as he provided <mark>19 points</mark> and five rebounds.",,llama_small,1787.16
+S023,10,7,Mavericks,3.0,3.0,correction,"<mark>The Mavericks (15-29)</mark> have now won <mark>five</mark>-straight games, as they continue to revive their season.",,llama_small,1787.16
+S024,1,1,"The Golden State Warriors defeated the Sacramento Kings , 114 - 100 , at Oracle Arena on Saturday",1.0,18.0,,,,llama_small,1787.16
+S024,2,2,The Warriors (58-14) came into Wednesday's contest with a golden opportunity to keep their faint playoff hopes alive,,,,,,llama_small,1787.16
+S024,3,3,as the Kings (27-45) were able to pierce Golden State's armor,,,,,,llama_small,1787.16
+S024,4,4,"Wednesday, touching up Gregg Popovich's crew",,,,,,llama_small,1787.16
+S024,5,5,for a season-high 114 points,,,,,,llama_small,1787.16
+S024,6,6,Stephen Curry led the way for the Warriors,76.0,83.0,,,,llama_small,1787.16
+S024,7,7,"with 27 points, 12 assists, seven rebounds",,,,,,llama_small,1787.16
+S024,8,8,and six steals.,,,,,,llama_small,1787.16
+S024,9,9,Green,97.0,97.0,person,,,llama_small,1787.16
+S024,10,10,"followed with 23 points,",,,,,,llama_small,1787.16
+S024,11,11,"four rebounds, eight",,,,,,llama_small,1787.16
+S024,12,12,"assists,",,,,,,llama_small,1787.16
+S024,13,13,three steals and,109.0,111.0,,,,llama_small,1787.16
+S024,14,14,a block.,,,,,,llama_small,1787.16
+S024,1,15,"The Golden State Warriors defeated the Sacramento Kings , 114 - 100 , at Oracle Arena on Saturday",1.0,18.0,,,,llama_small,1787.16
+S024,2,16,The Warriors (58-14) came into Wednesday's contest,,,,,,llama_small,1787.16
+S024,3,17,with a golden opportunity,32.0,35.0,,,,llama_small,1787.16
+S024,4,18,to keep,36.0,37.0,,,,llama_small,1787.16
+S024,5,19,their faint playoff hopes,38.0,41.0,,,,llama_small,1787.16
+S024,6,20,"alive,",,,,,,llama_small,1787.16
+S024,15,21,Stephen Curry,76.0,77.0,person,,,llama_small,1787.16
+S025,1,1,"The San Antonio Spurs defeated the Boston Celtics, 109 - 103, at TD Garden on Friday",,,,,,llama_small,1787.16
+S025,2,1,"The Spurs (13- -3) checked in to Thursday's contest with a mere nine points over the Celtics (9- -7) at home, but it wasn't enough to keep the Celtics (9- -7) to their eighth home victory of the season",,,,,,llama_small,1787.16
+S025,3,1,"Kawhi Leonard led the way for the Spurs, scoring 25 points on 8- -of- 18 shooting, including 3- -of- 7 from three- -point range, to go along with 10 rebounds and four assists in 35 minutes",,,,,,llama_small,1787.16
+S025,4,1,"Kawhi Leonard added 25 points, 10 rebounds and four assists, while Patty Mills added 19 points off the bench",,,,,,llama_small,1787.16
+S025,5,1,"Avery Bradley added 19 points on 8- -of- 15 shooting, while David Lee chipped in 15 points off the bench",,,,,,llama_small,1787.16
+S025,6,1,"Isaiah Thomas led the Celtics in scoring, with 24 points, to go along with a rebound and eight assists, in 36 minutes",,,,,,llama_small,1787.16
+S025,7,1,"Avery Bradley followed up with 19 points, eight rebounds and three assists, while David Lee chipped in 15 points on 6- -of- 9 shooting, including 0- -of- 0 from long range",,,,,,llama_small,1787.16
+S025,8,1,"LaMarcus Aldridge finished with 10 points, four rebounds and four assists, in 32 minutes",,,,,,llama_small,1787.16
+S025,9,1,"The Spurs shot 47 % from the field and 46 % from long range, while the Celtics shot 46 % from the field",,,,,,llama_small,1787.16
+S025,10,1,while the Celtics hit 46 % of their shots,,,,,,llama_small,1787.16
+S025,1,2,"<please list mistakes here, as well as marking them up in the story>",,,,,,llama_small,1787.16
+S026,1,1,The Phoenix Suns (11-8) defeated the Indiana Pacers (7-11) 116-99,,,,,No correction needed,llama_small,1787.16
+S026,2,2,Phoenix caught fire in the second half of this matchup,,,,,No correction needed,llama_small,1787.16
+S026,3,3,After going into halftime down two,,,,,No correction needed,llama_small,1787.16
+S026,4,4,the Suns out-scored Indiana,,,,,No correction needed,llama_small,1787.16
+S026,5,5,62-43 in the final two,,,,,No correction needed,llama_small,1787.16
+S026,6,6,to give them,,,,,No correction needed,llama_small,1787.16
+S026,7,7,an 18-point victory,,,,,No correction needed,llama_small,1787.16
+S026,8,8,in front,,,,,No correction needed,llama_small,1787.16
+S026,9,9,of their,,,,,No correction needed,llama_small,1787.16
+S026,10,10,home crowd,,,,,No correction needed,llama_small,1787.16
+S026,11,11,Phoenix was,,,,,No correction needed,llama_small,1787.16
+S026,12,12,the superior,60.0,61.0,,,No correction needed,llama_small,1787.16
+S026,13,13,shooters in,62.0,63.0,,,No correction needed,llama_small,1787.16
+S026,14,14,this game,64.0,65.0,,,No correction needed,llama_small,1787.16
+S026,15,15,going 50,67.0,68.0,,,No correction needed,llama_small,1787.16
+S026,16,16,percent from,69.0,70.0,,,No correction needed,llama_small,1787.16
+S026,17,17,the field,71.0,72.0,,,No correction needed,llama_small,1787.16
+S026,18,18,and 48,73.0,74.0,,,No correction needed,llama_small,1787.16
+S026,19,19,percent from,69.0,70.0,,,No correction needed,llama_small,1787.16
+S026,20,20,the three-point,,,,,No correction needed,llama_small,1787.16
+S026,21,21,line,81.0,81.0,,,No correction needed,llama_small,1787.16
+S026,22,22,while the,83.0,84.0,,,No correction needed,llama_small,1787.16
+S026,23,23,12-for-12,,,,,No correction needed,llama_small,1787.16
+S026,24,24,from the,70.0,71.0,,,No correction needed,llama_small,1787.16
+S026,25,25,free throw,92.0,93.0,,,No correction needed,llama_small,1787.16
+S026,26,26,line 0-for-3,,,,,No correction needed,llama_small,1787.16
+S026,27,27,from beyond,101.0,102.0,,,No correction needed,llama_small,1787.16
+S026,28,28,the arc,103.0,104.0,,,No correction needed,llama_small,1787.16
+S026,29,29,The Suns,31.0,32.0,,,No correction needed,llama_small,1787.16
+S026,30,30,were led,108.0,109.0,,,No correction needed,llama_small,1787.16
+S026,31,31,by Goran,,,,,No correction needed,llama_small,1787.16
+S026,32,32,Dragic and,115.0,116.0,,,No correction needed,llama_small,1787.16
+S026,33,33,T.J. Warren,,,,,No correction needed,llama_small,1787.16
+S026,34,34,who combined,,,,,No correction needed,llama_small,1787.16
+S026,35,35,for 40,,,,,No correction needed,llama_small,1787.16
+S026,36,36,points,150.0,150.0,,,No correction needed,llama_small,1787.16
+S026,1,37,Phoenix caught fire in the second half of this matchup,,,Incorrect,Phoenix was on fire in the second half of this matchup.,No correction needed,llama_small,1787.16
+S026,2,38,After going into halftime down two,,,,,No correction needed,llama_small,1787.16
+S026,3,39,the Suns out-scored Indiana,,,,,No correction needed,llama_small,1787.16
+S026,4,40,62-43 in the final two,,,,,No correction needed,llama_small,1787.16
+S026,5,41,to give them,,,,,No correction needed,llama_small,1787.16
+S026,6,42,an 18-point victory,,,,,No correction needed,llama_small,1787.16
+S026,7,43,in front,,,,,No correction needed,llama_small,1787.16
+S026,8,44,of their,,,,,No correction needed,llama_small,1787.16
+S026,9,45,home crowd,,,,,No correction needed,llama_small,1787.16
+S026,10,46,Phoenix was,,,,,No correction needed,llama_small,1787.16
+S026,11,47,the superior,60.0,61.0,,,No correction needed,llama_small,1787.16
+S026,12,48,shooters in,62.0,63.0,,,No correction needed,llama_small,1787.16
+S026,13,49,this game,64.0,65.0,,,No correction needed,llama_small,1787.16
+S026,14,50,going 50,67.0,68.0,,,No correction needed,llama_small,1787.16
+S026,15,51,percent from,69.0,70.0,,,No correction needed,llama_small,1787.16
+S026,16,52,the field,71.0,72.0,,,No correction needed,llama_small,1787.16
+S026,17,53,and 48,73.0,74.0,,,No correction needed,llama_small,1787.16
+S026,18,54,percent from,69.0,70.0,,,No correction needed,llama_small,1787.16
+S026,19,55,the three-point,,,,,No correction needed,llama_small,1787.16
+S026,20,56,line,81.0,81.0,,,No correction needed,llama_small,1787.16
+S028,1,1,"The Washington Wizards defeated the Brooklyn Nets , 114 - 110 ,",1.0,12.0,Correction,Saturday,"The story says the game was on Wednesday, but it's actually on Saturday",llama_small,1787.16
+S028,2,1,The Nets (9- 21) continue,,,,,,llama_small,1787.16
+S028,3,1,The Wizards (31- 21) have,,,,,,llama_small,1787.16
+S028,4,1,Washington was able to,58.0,61.0,Correction,"The story says the game was at Barclays Center, but it's actually at the Capital One Arena",,llama_small,1787.16
+S028,5,1,build a 31- 22,,,,,,llama_small,1787.16
+S028,6,1,lead after one quarter,92.0,95.0,,,,llama_small,1787.16
+S028,7,1,"However, the Wizards",,,Correction,"The story says the Wizards regrouped at halftime, but it's actually in the second quarter",,llama_small,1787.16
+S028,8,1,outscoring the Nets,118.0,120.0,,,,llama_small,1787.16
+S028,9,1,by a 59- 48,,,,,,llama_small,1787.16
+S028,10,1,margin in the second,126.0,129.0,,,,llama_small,1787.16
+S028,11,1,half .,130.0,131.0,,,,llama_small,1787.16
+S029,1,1,"The Minnesota Timberwolves defeated the Dallas Mavericks,",,,,,,llama_small,1787.16
+S029,2,1,The Timberwolves (12-26) came,,,,,,llama_small,1787.16
+S029,3,2,"However,",,,MISTAKE,,"The sentence should read: However, the Timberwolves...",llama_small,1787.16
+S029,4,3,the,5.0,5.0,MISTAKE,,The sentence should read: the Timberwolves...,llama_small,1787.16
+S029,5,4,Harrison,120.0,120.0,,,,llama_small,1787.16
+S029,6,5,Barnes,121.0,121.0,,,,llama_small,1787.16
+S030,1,1,"The Indiana Pacers defeated the Charlotte Hornets,",,,MISTAKE,,,llama_small,1787.16
+S030,1,2,110-94,,,MISTAKE,,,llama_small,1787.16
+S030,1,3,at Bankers,13.0,14.0,MISTAKE,,,llama_small,1787.16
+S030,1,4,Life,15.0,15.0,MISTAKE,,,llama_small,1787.16
+S030,2,5,The Hornets,87.0,88.0,MISTAKE,,,llama_small,1787.16
+S030,2,6,(,89.0,89.0,MISTAKE,,,llama_small,1787.16
+S030,2,7,14-11,,,MISTAKE,,,llama_small,1787.16
+S030,3,8,Kemba,111.0,111.0,MISTAKE,,,llama_small,1787.16
+S030,3,9,Walker,112.0,112.0,MISTAKE,,,llama_small,1787.16
+S030,4,10,Paul George,221.0,222.0,MISTAKE,,,llama_small,1787.16
+S030,5,11,Myles,242.0,242.0,MISTAKE,,,llama_small,1787.16
+S030,6,12,Turner,243.0,243.0,MISTAKE,,,llama_small,1787.16
+S030,7,13,On,178.0,178.0,MISTAKE,,,llama_small,1787.16

@@ -1,8 +1,0 @@
-categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
-NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.09,0.356,0.12,0.124,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-NAME,0.068,0.19,0.104,0.098,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-NUMBER,0.075,0.296,0.093,0.062,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-WORD,0.025,0.176,0.017,0.056,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-CONTEXT,0.0,0.0,0.0,0.0,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-NOT_CHECKABLE,0.0,0.0,0.0,0.0,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts
-OTHER,None,None,None,None,cleaned_data/results_llama_small_cleaned.csv,gsml.csv,texts

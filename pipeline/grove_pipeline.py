@@ -1,5 +1,5 @@
 import re
-from prompts import PROMPTS
+from pipeline.prompts import PROMPTS
 import time
 import json
 import argparse
