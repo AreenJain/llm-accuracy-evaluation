@@ -1,0 +1,175 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,2,1,30 - point,54.0,56.0,NUMBER,33-21,The JSON shows the Celtics outscored the Lakers by 33-21.,qwen_small,396.04
+S001,8,2,Jae Crowder,110.0,111.0,NAME,Isaiah Thomas,The JSON states Isaiah Thomas led the team in scoring with 38 points.,qwen_small,396.04
+S001,9,3,Jae Crowder,110.0,111.0,NAME,Isaiah Thomas,The JSON states Isaiah Thomas led the team in scoring with 38 points.,qwen_small,396.04
+S001,9,4,Jae Crowder,110.0,111.0,NAME,Isaiah Thomas,The JSON states Isaiah Thomas led the team in scoring with 38 points.,qwen_small,396.04
+S001,9,5,Jae Crowder,110.0,111.0,NAME,Isaiah Thomas,The JSON states Isaiah Thomas led the team in scoring with 38 points.,qwen_small,396.04
+S002,1,1,Atlanta Hawks,2.0,3.0,NAME,Cleveland,The JSON mentions Cleveland as the away team.,qwen_small,396.04
+S002,1,2,Atlanta Hawks,2.0,3.0,NAME,Cleveland,The JSON mentions Cleveland as the away team.,qwen_small,396.04
+S002,1,3,110 - 110,9.0,11.0,NUMBER,110-106,The JSON shows the score as 110-106.,qwen_small,396.04
+S002,1,4,Saturday,18.0,18.0,NAME,Tuesday,The JSON states the game was on Tuesday.,qwen_small,396.04
+S002,3,5,Hawks outscored the Hawks,45.0,48.0,NAME,Cavaliers,The JSON mentions the Cavaliers as the away team.,qwen_small,396.04
+S002,3,6,37 - 20,50.0,52.0,NUMBER,41-25,The JSON shows the fourth quarter score as 41-25.,qwen_small,396.04
+S002,8,7,Dwight,115.0,115.0,NAME,Mike,The JSON mentions Mike Muscala as the player of the game.,qwen_small,396.04
+S002,13,8,Cavaliers,83.0,83.0,NAME,Hawks,The JSON mentions the Hawks as the home team.,qwen_small,396.04
+S002,13,9,LeBron,221.0,221.0,NAME,Kyrie,The JSON mentions Kyrie Irving as leading the team.,qwen_small,396.04
+S002,13,10,LeBron,221.0,221.0,NAME,Kevin,The JSON mentions Kevin Love as second on the team.,qwen_small,396.04
+S002,13,11,Tristan,283.0,283.0,NAME,Channing,The JSON mentions Channing Frye as the player.,qwen_small,396.04
+S003,1,1,Saturday,17.0,17.0,NAME,Sunday,The story states the game was played on Sunday.,qwen_small,396.04
+S004,1,1,Vivint Smart Home,16.0,18.0,NAME,Vivint Smart Home Arena,The JSON does not mention the arena name.,qwen_small,396.04
+S005,2,1,35 %,,,NUMBER,48%,The JSON shows the Hawks outrebounded their visitors by a robust 48-33 margin,qwen_small,396.04
+S005,2,2,26 %,,,NUMBER,21%,The JSON shows the Hawks scored 21% from three-point range,qwen_small,396.04
+S005,3,3,Paul Millsap,38.0,39.0,NAME,"Tim Hardaway, Jr.","The JSON shows Tim Hardaway, Jr. led the way for the Hawks with a game-high 21 points",qwen_small,396.04
+S005,4,4,Paul Millsap,38.0,39.0,NAME,Dwight Howard,"The JSON shows Dwight Howard posted a 11-point, 13-rebound double-double",qwen_small,396.04
+S005,6,5,Kent Bazemore,111.0,112.0,NAME,Malcolm Delaney,The JSON shows Malcolm Delaney paced the second unit with 12 points,qwen_small,396.04
+S005,7,6,Kent Bazemore,111.0,112.0,NAME,"Tim Hardaway, Jr.","The JSON shows Tim Hardaway, Jr. led the way for Orlando with 21 points",qwen_small,396.04
+S005,9,7,Kent Bazemore,111.0,112.0,NAME,Malcolm Delaney,The JSON shows Malcolm Delaney led the second unit with 12 points,qwen_small,396.04
+S006,1,1,defeated,9.0,9.0,NAME,defeated,Houston Rockets should be Brooklyn Nets,qwen_small,396.04
+S006,2,2,double- digit,,,NUMBER,double-digit,Double-digits should be one word: double-digit,qwen_small,396.04
+S006,3,3,10-12,,,NUMBER,6-15,Houston Rockets record is incorrect,qwen_small,396.04
+S006,8,4,24 points,151.0,152.0,NUMBER,22,Brook Lopez's points are wrong,qwen_small,396.04
+S006,13,5,Nets played,112.0,113.0,NAME,Rockets,Brooklyn Nets should be Houston Rockets,qwen_small,396.04
+S006,14,6,24 points,151.0,152.0,NUMBER,22,Brook Lopez's points are wrong again,qwen_small,396.04
+S007,1,1,Russell Westbrook,1.0,2.0,NAME,Victor Oladipo,The story mentions Russell Westbrook twice.,qwen_small,396.04
+S008,1,1,Grizzlies ( 5 - 5 ),22.0,27.0,NUMBER,7-5,"The correct record is 7-5, not 5-5.",qwen_small,396.04
+S008,1,2,Grizzlies ( 5 - 5 ),22.0,27.0,NUMBER,7-5,"The correct record is 7-5, not 5-5.",qwen_small,396.04
+S008,2,3,Grizzlies ( 5 - 5 ),22.0,27.0,NUMBER,7-5,"The correct record is 7-5, not 5-5.",qwen_small,396.04
+S008,4,4,Gasol,96.0,96.0,NAME,Marc Gasol,"The name is Marc Gasol, not Gasol.",qwen_small,396.04
+S008,5,5,Conley,132.0,132.0,NAME,Mike Conley,"The name is Mike Conley, not Conley.",qwen_small,396.04
+S008,6,6,Randolph,174.0,174.0,NAME,Zach Randolph,"The name is Zach Randolph, not Randolph.",qwen_small,396.04
+S008,14,7,Gobert,312.0,312.0,NAME,Rudy Gobert,"The name is Rudy Gobert, not Gobert.",qwen_small,396.04
+S008,15,8,22,104.0,104.0,NUMBER,13,"Gasol scored 13 points, not 22.",qwen_small,396.04
+S008,16,9,18,136.0,136.0,NUMBER,18,"Conley scored 18 points, not 22.",qwen_small,396.04
+S008,17,10,4,188.0,188.0,NUMBER,5,"Randolph grabbed 5 rebounds, not 4.",qwen_small,396.04
+S008,23,11,Zach Randolph,173.0,174.0,NAME,Rudy Gobert,"The name is Rudy Gobert, not Zach Randolph.",qwen_small,396.04
+S009,1,1,Milwaukee Bucks,2.0,3.0,NAME,Los Angeles Lakers,Incorrect team mentioned,qwen_small,396.04
+S009,2,2,122 - 122,10.0,12.0,NUMBER,122-114,Incorrect score,qwen_small,396.04
+S009,3,3,Tuesday,20.0,20.0,NAME,Friday evening,Incorrect day of the week mentioned,qwen_small,396.04
+S009,5,4,Bucks led for the majority,46.0,50.0,CONTEXT,Los Angeles Lakers led for the majority of the game,Incorrect team leading,qwen_small,396.04
+S009,6,5,29,83.0,83.0,NUMBER,52,Incorrect shooting percentage mentioned,qwen_small,396.04
+S009,8,6,41 points,129.0,130.0,NUMBER,26 points,D'Angelo Russell's incorrect scoring,qwen_small,396.04
+S009,8,7,41 points,129.0,130.0,NUMBER,26 points,Luol Deng's incorrect scoring,qwen_small,396.04
+S010,2,1,Hawks,3.0,3.0,NAME,Magic,"The away team was Orlando Magic, not Hawks.",qwen_small,396.04
+S010,3,2,Atlanta,2.0,2.0,NAME,Orlando,"The home team was Orlando Magic, not Atlanta Hawks.",qwen_small,396.04
+S010,4,3,Hawks,3.0,3.0,NAME,Magic,"The away team was Orlando Magic, not Hawks.",qwen_small,396.04
+S010,5,4,Orlando,7.0,7.0,NAME,Atlanta,"The home team was Atlanta Hawks, not Orlando Magic.",qwen_small,396.04
+S010,6,5,Hawks,3.0,3.0,NAME,Magic,"The away team was Orlando Magic, not Hawks.",qwen_small,396.04
+S010,7,6,Orlando,7.0,7.0,NAME,Atlanta,"The home team was Atlanta Hawks, not Orlando Magic.",qwen_small,396.04
+S010,8,7,Magic,8.0,8.0,NAME,Hawks,"The away team was Atlanta Hawks, not Orlando Magic.",qwen_small,396.04
+S011,1,1,Tuesday,22.0,22.0,NAME,Wednesday,The game was played on Wednesday.,qwen_small,396.04
+S011,2,2,Wizards coast,,,WORD,overwhelm,The Wizards did not coast to a victory.,qwen_small,396.04
+S011,3,3,44 % from the three,,,NUMBER,25,The Wizards shot 25% from three-point line.,qwen_small,396.04
+S011,3,4,48 % from the field,,,NUMBER,52,The Hawks shot 52% from the field.,qwen_small,396.04
+S011,6,5,Wall 's,,,NAME,Millsap's,Paul Millsap scored the points mentioned.,qwen_small,396.04
+S011,7,6,Wall 's,,,NAME,Beal's,Bradley Beal scored the points mentioned.,qwen_small,396.04
+S011,9,7,Millsap 's,,,NAME,Horford's,Al Horford scored the points mentioned.,qwen_small,396.04
+S012,1,1,Friday,19.0,19.0,NAME,Saturday,The JSON says the game was on Saturday evening.,qwen_small,396.04
+S012,3,2,Denver Nuggets,2.0,3.0,NAME,Phoenix Suns,The JSON says the Denver Nuggets defeated the Phoenix Suns.,qwen_small,396.04
+S012,4,3,Nuggets,3.0,3.0,NAME,Suns,The JSON says the Suns were not able to keep up with the high-scoring Nuggets.,qwen_small,396.04
+S012,6,4,Gallinari,68.0,68.0,NAME,Faried,The JSON says Faried scored 21 points and 13 rebounds.,qwen_small,396.04
+S012,6,5,Harris,85.0,85.0,NAME,Wilson Chandler,The JSON says Wilson Chandler followed up with 15 points.,qwen_small,396.04
+S012,6,6,Nelson,116.0,116.0,NAME,Jameer Nelson,The JSON says Jameer Nelson chipped in 17 points.,qwen_small,396.04
+S012,9,7,Booker,169.0,169.0,NAME,Tyson Chandler,The JSON says Tyson Chandler finished with 15 points.,qwen_small,396.04
+S012,13,8,host,233.0,233.0,WORD,visit,The JSON says the Suns go on to visit the Lakers.,qwen_small,396.04
+S013,1,1,Wednesday,22.0,22.0,NAME,Saturday,"The game was played on Saturday, not Wednesday.",qwen_small,396.04
+S014,2,1,Portland Trail Blazers,2.0,4.0,NAME,The Portland Trail Blazers,Missing 'The',qwen_small,396.04
+S014,3,2,Lakers out-scored,,,NAME,The Lakers (2-13),Incorrect team name,qwen_small,396.04
+S014,3,3,Lakers out-scored,,,NUMBER,108-96,Incorrect score,qwen_small,396.04
+S014,7,4,Trail Blazers,3.0,4.0,NAME,Portland Trail Blazers,Misspelled team name,qwen_small,396.04
+S014,8,5,CJ McCollum,112.0,113.0,NAME,CJ McCollum,Incorrect spelling of name,qwen_small,396.04
+S014,8,6,5-11,,,NUMBER,4-7,Incorrect three-point shooting percentage,qwen_small,396.04
+S014,9,7,28 points,207.0,208.0,NUMBER,35 points,Incorrect point total,qwen_small,396.04
+S014,11,8,Jordan Clarkson,322.0,323.0,NAME,Jordan Clarkson,Misspelled name,qwen_small,396.04
+S014,12,9,Clarkson had 19 points,424.0,427.0,NUMBER,Jordan Clarkson had 19 points,Incorrect name order,qwen_small,396.04
+S014,13,10,Portland Trail Blazers,2.0,4.0,NAME,the Trail Blazers,Incorrect team name,qwen_small,396.04
+S014,13,11,Portland Trail Blazers,2.0,4.0,NAME,the Trail Blazers,Incorrect team name,qwen_small,396.04
+S015,2,1,out-scoring the Heat,,,NUMBER,outscored,Line score shows Raptors outscoring Heat 64-52 in first half,qwen_small,396.04
+S015,3,2,out-scoring the Heat,,,NUMBER,outscored,Line score shows Raptors outscoring Heat 50-38 in second half,qwen_small,396.04
+S015,4,3,Kyle Lowry,94.0,95.0,NAME,DeMar DeRozan,JSON shows DeMar DeRozan led Raptors with 21 points,qwen_small,396.04
+S015,8,4,DeMarre Carroll,160.0,161.0,NAME,DeMarre Carroll,Name spelling mismatch in JSON,qwen_small,396.04
+S015,12,5,Hassan Whiteside,305.0,306.0,NAME,Gerald Green,Name spelling mismatch in JSON,qwen_small,396.04
+S015,23,6,Hassan Whiteside,305.0,306.0,NAME,Gerald Green,Name spelling mismatch in JSON,qwen_small,396.04
+S015,27,7,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S015,34,8,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S015,36,9,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S015,38,10,Cleveland,287.0,287.0,NAME,Minnesota,Upcoming opponent is the Timberwolves not the Cavaliers,qwen_small,396.04
+S015,38,11,Cavaliers,292.0,292.0,NAME,Timberwolves,Upcoming opponent is the Timberwolves not the Cavaliers,qwen_small,396.04
+S015,43,12,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S015,43,13,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S015,43,14,off the bench,191.0,193.0,WORD,came off the bench,JSON shows Gerald Green started in second game,qwen_small,396.04
+S016,1,1,defeated visiting,,,NAME,defeated the,The JSON only mentions the home team defeating the away team.,qwen_small,396.04
+S017,1,1,Saturday,18.0,18.0,NAME,Tuesday,"The game was played on Tuesday, not Saturday.",qwen_small,396.04
+S018,2,1,64-7,,,NUMBER,64-7,,qwen_small,396.04
+S018,2,2,43-27,,,NUMBER,43-27,,qwen_small,396.04
+S018,5,3,going 42,41.0,42.0,NUMBER,42%,,qwen_small,396.04
+S018,5,4,29,48.0,48.0,NUMBER,29%,,qwen_small,396.04
+S018,6,5,Stephen Curry,83.0,84.0,NAME,Stephen Curry,,qwen_small,396.04
+S018,7,6,39,137.0,137.0,NUMBER,33,,qwen_small,396.04
+S018,9,7,4-23,,,NUMBER,12-23,,qwen_small,396.04
+S018,11,8,Draymond Green,146.0,147.0,NAME,Draymond Green,,qwen_small,396.04
+S018,13,9,3-11,,,NUMBER,3-11,,qwen_small,396.04
+S018,15,10,Josh Smith,245.0,246.0,NAME,Josh Smith,,qwen_small,396.04
+S018,23,11,Minnesota Timberwolves,409.0,410.0,NAME,Minnesota Timberwolves,,qwen_small,396.04
+S019,1,1,led for,50.0,51.0,WORD,outscored,The Heat outscored the Pacers in the third quarter.,qwen_small,396.04
+S019,2,2,23 assists,89.0,90.0,NUMBER,23 assists to 16 turnovers,Miami had 23 assists while Indiana had 15.,qwen_small,396.04
+S019,4,3,30 - 29,108.0,110.0,NUMBER,30-29,The correct score for the Pacers is 30-29.,qwen_small,396.04
+S019,8,4,21 points,240.0,241.0,NUMBER,"21 points, two rebounds and four assists","Dragic had 21 points, 2 rebounds, and 4 assists.",qwen_small,396.04
+S019,8,5,22 points,265.0,266.0,NUMBER,22 points,"Whiteside had 22 points, not 22.",qwen_small,396.04
+S019,13,6,Toronto Raptors,306.0,307.0,NAME,Toronto Raptors,The correct name is Toronto Raptors.,qwen_small,396.04
+S020,1,1,host,6.0,6.0,NAME,Pelicans,The story mentions host Phoenix Suns but the JSON shows New Orleans as the home team.,qwen_small,396.04
+S021,1,1,Golden 1,14.0,15.0,NAME,1,Should be '1' instead of 'Golden 1',qwen_small,396.04
+S021,4,2,38 point,,,NUMBER,68,"First quarter score is 68, not 38",qwen_small,396.04
+S021,7,3,19,155.0,155.0,NUMBER,19,"Fourth quarter score is 19, not 38",qwen_small,396.04
+S021,8,4,17,204.0,204.0,NUMBER,17,"Sam Dekker scored 17 points, not 19",qwen_small,396.04
+S021,12,5,18,229.0,229.0,NUMBER,14,"Eric Gordon scored 14 points, not 18",qwen_small,396.04
+S021,13,6,17,204.0,204.0,NUMBER,17,"Sam Dekker scored 17 points, not 18",qwen_small,396.04
+S021,15,7,10,23.0,23.0,NUMBER,12,"Rudy Gay has 12 rebounds, not 10",qwen_small,396.04
+S021,16,8,10,23.0,23.0,NUMBER,12,"Rudy Gay has 12 rebounds, not 10",qwen_small,396.04
+S021,17,9,18,229.0,229.0,NUMBER,14,"Eric Gordon scored 14 points, not 18",qwen_small,396.04
+S021,18,10,18,229.0,229.0,NUMBER,17,"Sam Dekker scored 17 points, not 18",qwen_small,396.04
+S023,1,1,Wednesday,19.0,19.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",qwen_small,396.04
+S024,1,1,on Saturday,17.0,18.0,NOT_CHECKABLE,,The JSON does not provide a specific date.,qwen_small,396.04
+S024,2,2,Wednesday,29.0,29.0,NAME,Friday,"The game was on Friday, not Wednesday.",qwen_small,396.04
+S024,3,3,Gregg Popovich,64.0,65.0,NAME,Steve Kerr,The JSON indicates the coach of Golden State is Steve Kerr.,qwen_small,396.04
+S024,6,4,Buddy Hield,142.0,143.0,NAME,Klay Thompson,The correct player name is Klay Thompson.,qwen_small,396.04
+S024,7,5,Draymond Green,161.0,162.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,9,6,Skal Labissiere,115.0,116.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,17,7,Skal Labissiere,115.0,116.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,19,8,Ben McLemore,206.0,207.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,21,9,Stephen Curry,76.0,77.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,23,10,Stephen Curry,76.0,77.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S024,25,11,Draymond Green,161.0,162.0,NAME,Buddy Hield,The correct player name is Buddy Hield.,qwen_small,396.04
+S025,1,1,Celtics (9 -7),,,NAME,Boston (9-7),Incorrect team name,qwen_small,396.04
+S025,1,2,Celtics (9 -7),,,NAME,Boston (9-7),Incorrect team name,qwen_small,396.04
+S025,2,3,Celtics (9 -7),,,NAME,Boston (9-7),Incorrect team name,qwen_small,396.04
+S025,1,4,Spurs (13 -3),,,NAME,San Antonio (13-3),Incorrect team name,qwen_small,396.04
+S025,2,5,Spurs (13 -3),,,NAME,San Antonio (13-3),Incorrect team name,qwen_small,396.04
+S025,2,6,Celtics (9 -7),,,NAME,Boston (9-7),Incorrect team name,qwen_small,396.04
+S025,3,7,Kawhi Leonard,72.0,73.0,NAME,Danny Green,Incorrect player name,qwen_small,396.04
+S025,6,8,Thomas,164.0,164.0,NAME,Isaiah Thomas,Incorrect player name,qwen_small,396.04
+S025,7,9,Avery Bradley,139.0,140.0,NAME,David Lee,Incorrect player name,qwen_small,396.04
+S026,1,1,David West,,,NAME,Phoenix Suns,The story mentions a player name instead of the team name.,qwen_small,396.04
+S026,1,2,116 - 0,,,NUMBER,116 - 93,The score is incorrect.,qwen_small,396.04
+S026,2,3,27,50.0,50.0,NUMBER,28,The away team scored one more point than mentioned in the story.,qwen_small,396.04
+S026,4,4,11 - 20 FG,,,NUMBER,11 - 15 FG,The shooting percentage is incorrect.,qwen_small,396.04
+S026,9,5,17,335.0,335.0,NUMBER,14,CJ Miles scored fewer points than mentioned in the story.,qwen_small,396.04
+S027,1,1,The New York Knicks,1.0,4.0,NAME,Houston Rockets,Incorrect team name,qwen_small,396.04
+S027,3,2,25 - 21,49.0,51.0,NUMBER,21-25,Incorrect quarter score,qwen_small,396.04
+S027,6,3,Arron Afflalo,106.0,107.0,NAME,Kristaps Porzingis,Incorrect player name,qwen_small,396.04
+S027,14,4,Charlotte,279.0,279.0,NAME,Houston,Incorrect city name,qwen_small,396.04
+S027,15,5,Wednesday,23.0,23.0,WORD,Monday,Incorrect day of week,qwen_small,396.04
+S028,1,1,Saturday evening,17.0,18.0,NAME,Wednesday,The game was played on Wednesday according to the JSON.,qwen_small,396.04
+S028,7,2,9 - 44,,,NUMBER,9-21,The Wizards' record is 31-21 according to the JSON.,qwen_small,396.04
+S028,7,3,9 - 44,,,NUMBER,31-21,The Wizards' record is 31-21 according to the JSON.,qwen_small,396.04
+S028,8,4,9 - 21,70.0,72.0,NUMBER,9-21,The Nets' record is 9-21 according to the JSON.,qwen_small,396.04
+S028,17,5,Bojan Bogdanovic,336.0,337.0,NAME,Bogdanovic,The player's name is Bogdanovic according to the JSON.,qwen_small,396.04
+S029,1,1,Minnesota Timberwolves,2.0,3.0,NAME,Timberwolves,Team name should be singular,qwen_small,396.04
+S029,3,2,18,,,NUMBER,12,Years with franchise is incorrect,qwen_small,396.04
+S029,4,3,31,,,NUMBER,30,Minutes played is incorrect,qwen_small,396.04
+S029,5,4,22,,,NUMBER,26,Points in first game is incorrect,qwen_small,396.04
+S029,6,5,38,,,NUMBER,31,Minutes in first game is incorrect,qwen_small,396.04
+S029,7,6,50,,,NUMBER,56,Field goal percentage is incorrect,qwen_small,396.04
+S029,8,7,5,,,NUMBER,12,Straight games with double figures is incorrect,qwen_small,396.04
+S030,1,1,Wednesday,18.0,18.0,NAME,Monday,Game date mismatch.,qwen_small,396.04
+S030,5,2,five of their last six,204.0,208.0,NUMBER,five of their last seven,Number of games won mismatch.,qwen_small,396.04
+S030,12,3,accrued,145.0,145.0,OTHER,accumulated,Typo in verb usage.,qwen_small,396.04

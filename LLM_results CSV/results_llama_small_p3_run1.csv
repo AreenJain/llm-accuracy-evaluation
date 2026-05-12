@@ -1,253 +1,337 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
-S001,1,1,The Boston Celtics,1.0,3.0,NUMBER,"Celtics (32-18) came into this game as a double-digit favorite, but the Celtics (29-15) came in to Friday's contest with a 30-point win over the Lakers (17-36).",Incorrect win-loss record for Celtics,llama_small,3968.0
-S001,1,2,32 -18,,,NUMBER,,,llama_small,3968.0
-S001,3,3,Jae Crowder,110.0,111.0,NAME,"Al Horford was right behind him with 11 points, eight rebounds, eight assists and a block.",Incorrect player name,llama_small,3968.0
-S001,5,4,18 -point,,,NUMBER,,,llama_small,3968.0
-S001,6,5,Isaiah Thomas,72.0,73.0,NAME,"Al Horford stuffed the stat sheet, accumulating 11 points, eight rebounds and eight assists.",Incorrect player name,llama_small,3968.0
-S001,7,6,Kelly Olynyk,189.0,190.0,NAME,"Al Horford supplied 11 points, eight rebounds, eight assists and a block.",Incorrect player name,llama_small,3968.0
-S001,8,7,Toronto Raptors,234.0,235.0,NAME,,,llama_small,3968.0
-S002,1,1,The Atlanta Hawks,1.0,3.0,NAME,,Incorrect team name,llama_small,3968.0
-S002,1,2,defeated the,4.0,5.0,OTHER,lost to,Incorrect verb tense,llama_small,3968.0
-S002,1,3,Cleveland Cavaliers,,,NAME,,Incorrect team name,llama_small,3968.0
-S002,1,4,"110-106,",,,NUMBER,106-110,Incorrect score,llama_small,3968.0
-S002,2,5,"However, Atlanta",,,OTHER,,,llama_small,3968.0
-S002,2,6,(5-2),,,NUMBER,(2-5),Incorrect win-loss record,llama_small,3968.0
-S002,3,7,the Hawks,29.0,30.0,OTHER,,,llama_small,3968.0
-S002,4,8,outscored,46.0,46.0,WORD,outscored,Typos,llama_small,3968.0
-S002,5,9,in the,54.0,55.0,OTHER,,,llama_small,3968.0
-S002,6,10,fourth,56.0,56.0,WORD,first,Incorrect quarter,llama_small,3968.0
-S004,1,1,host Utah Jazz,2.0,4.0,OTHER,,"The team name should be 'Jazz', not 'host Jazz'",llama_small,3968.0
-S004,2,2,Los Angeles,7.0,8.0,OTHER,,"The team name should be 'Lakers', not 'Los Angeles'",llama_small,3968.0
-S004,1,3,banged-up,,,WORD,,The correct phrase is 'injured star Derrick Favors',llama_small,3968.0
-S004,2,4,majority,61.0,61.0,NUMBER,a majority,The word should be singular,llama_small,3968.0
-S004,5,5,poor,,,WORD,,The correct phrase is 'perimeter shooting performance',llama_small,3968.0
-S005,1,1,The Hawks held,1.0,3.0,WORD,stymied,Incorrect verb tense and meaning,llama_small,3968.0
-S006,1,1,After a roller,,,WORD,,Extra words,llama_small,3968.0
-S006,2,2,coaster first,,,WORD,,Extra words,llama_small,3968.0
-S006,3,3,games of,,,NUMBER,18 games of,Inconsistent game count,llama_small,3968.0
-S006,4,4,season the,,,WORD,,Extra words,llama_small,3968.0
-S006,5,5,Rockets had,,,NAME,,,llama_small,3968.0
-S006,6,6,finally,,,WORD,,Extra word,llama_small,3968.0
-S006,7,7,start to,,,NUMBER,build some momentum,Inconsistent verb tense,llama_small,3968.0
-S006,8,8,coming,,,WORD,,,llama_small,3968.0
-S006,9,9,into Tuesday,,,NUMBER,having won three straight games,Inconsistent phrase structure,llama_small,3968.0
-S006,10,10,However the,,,WORD,,,llama_small,3968.0
-S006,11,11,recent positive,,,NUMBER,the recent,Redundant words,llama_small,3968.0
-S006,12,12,vibes were,,,WORD,,,llama_small,3968.0
-S006,13,13,extinguished,,,WORD,,Extra word,llama_small,3968.0
-S006,14,14,in a,,,NUMBER,by a mistake-laden performance,Inconsistent phrase structure,llama_small,3968.0
-S006,15,15,mistake-laden performance,,,WORD,,,llama_small,3968.0
-S006,16,16,against the,100.0,101.0,NUMBER,by the Nets,Inconsistent phrase structure,llama_small,3968.0
-S006,17,17,Nets,12.0,12.0,NAME,,,llama_small,3968.0
-S006,18,18,James Harden,46.0,47.0,NAME,,,llama_small,3968.0
-S006,19,19,turned in,,,NUMBER,had a particularly disappointing outing,Inconsistent verb tense,llama_small,3968.0
-S006,20,20,outing finishing,,,WORD,,,llama_small,3968.0
-S006,21,21,with a,,,NUMBER,having a season-low,Inconsistent phrase structure,llama_small,3968.0
-S006,22,22,season -low,,,WORD,,,llama_small,3968.0
-S006,23,23,10 points,51.0,52.0,NUMBER,"10 points, his fewest since a nine-point effort last February against the Clippers",Inconsistent point count,llama_small,3968.0
-S006,24,24,his fewest,,,WORD,,,llama_small,3968.0
-S006,25,25,since a,,,NUMBER,last February against the Clippers,Inconsistent phrase structure,llama_small,3968.0
-S006,26,26,nine -point,,,WORD,,,llama_small,3968.0
-S006,27,27,effort,,,WORD,,,llama_small,3968.0
-S006,28,28,last February,,,NUMBER,,,llama_small,3968.0
-S006,29,29,against the,100.0,101.0,NUMBER,,,llama_small,3968.0
-S006,30,30,Clippers,,,NAME,,,llama_small,3968.0
-S006,31,31,The All-Star,,,WORD,,,llama_small,3968.0
-S006,32,32,guardian had,,,NUMBER,player had a particularly disappointing outing,Inconsistent verb tense,llama_small,3968.0
-S006,33,33,a particularly,,,WORD,,,llama_small,3968.0
-S006,34,34,disappointing outing,,,NUMBER,,,llama_small,3968.0
-S006,35,35,the previous,,,WORD,had the previous,Inconsistent phrase structure,llama_small,3968.0
-S006,36,36,previous season,,,NUMBER,,,llama_small,3968.0
-S006,37,37,and had,,,WORD,had and had,Redundant words,llama_small,3968.0
-S006,38,38,a particularly,,,WORD,,,llama_small,3968.0
-S006,39,39,disappointing outing,,,NUMBER,,,llama_small,3968.0
-S006,40,40,the previous,,,WORD,,,llama_small,3968.0
-S006,41,41,season,,,NUMBER,,,llama_small,3968.0
-S007,1,1,Russell Westbrook,,,NAME,"Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder, however, as they continue to play at the Sleep Train Arena.",Extra occurrence of 'Westbrook',llama_small,3968.0
-S007,1,2,Oklahoma City Thunder and,,,NAME,"Oklahoma City Thunder and the Oklahoma City Thunder, however, as they continue to play at the Sleep Train Arena.",Missing 'the' before 'Thunder',llama_small,3968.0
-S007,2,3,Westbrook finished,,,NAME,"Westbrook scored 36 points on 11-of-21 shooting, to go along with 11 rebounds, seven assists, three steals and one block, in 36 minutes.",Extra occurrence of 'finished',llama_small,3968.0
-S007,2,4,11 rebounds,,,NUMBER,"11 rebounds, seven assists, three steals and one block, in 36 minutes.",Extra occurrence of 'rebounds',llama_small,3968.0
-S007,2,5,seven assists,,,NUMBER,"11 rebounds, seven assists, three steals and one block, in 36 minutes.",Extra occurrence of 'assists',llama_small,3968.0
-S007,2,6,four steals,,,NUMBER,"11 rebounds, seven assists, three steals and one block, in 36 minutes.",Extra occurrence of 'steals',llama_small,3968.0
-S007,2,7,one block,,,NUMBER,"11 rebounds, seven assists, three steals and one block, in 36 minutes.",Extra occurrence of 'block',llama_small,3968.0
-S007,3,8,on 11-of-21 shooting,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S007,3,9,to go along with,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S007,4,10,29 points on,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S007,4,11,in 32 minutes,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S007,5,12,shot 46 percent from,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S007,5,13,and 36 percent from,,,WORD,,This is a repeated phrase in the same sentence,llama_small,3968.0
-S008,1,1,The Memphis,1.0,2.0,NAME,Utah,Incorrect team name,llama_small,3968.0
-S008,2,2,5 - 5,24.0,26.0,NUMBER,7-5,Incorrect record,llama_small,3968.0
-S008,3,3,Marc Gasol,95.0,96.0,NAME,Gordon Hayward,Incorrect player name,llama_small,3968.0
-S008,5,4,22 points,104.0,105.0,NUMBER,13 points,Incorrect score,llama_small,3968.0
-S008,7,5,Zach Randolph,173.0,174.0,NAME,Rudy Gobert,Incorrect player name,llama_small,3968.0
-S008,9,6,Gordon Hayward,265.0,266.0,NAME,Zach Randolph,Incorrect player name,llama_small,3968.0
-S008,10,7,Trail Blazers,376.0,377.0,NAME,Portland Trail Blazers,Incorrect team name,llama_small,3968.0
-S009,1,1,The Milwaukee Bucks defeated,1.0,4.0,NAME,The Los Angeles Lakers defeated,Team names were swapped,llama_small,3968.0
-S009,1,2,122 - 114,,,NUMBER,122 - 122,Incorrect score,llama_small,3968.0
-S009,1,3,Tuesday,20.0,20.0,DATE,Friday,Wrong day of the week,llama_small,3968.0
-S009,2,4,The Bucks led,,,NAME,The Lakers led,Team names were swapped,llama_small,3968.0
-S009,2,5,for,48.0,48.0,WORD,for the majority of the game,Missing context,llama_small,3968.0
-S009,2,6,the entirety,63.0,64.0,WORD,the second half,Incorrect time period,llama_small,3968.0
-S009,3,7,Rebounding,70.0,70.0,WORD,The key to the Bucks' victory was rebounding,Missing context,llama_small,3968.0
-S009,3,8,was key,71.0,72.0,WORD,held the Lakers to 29 percent shooting and forced them to commit 17 turnovers.,Missing context,llama_small,3968.0
-S009,4,9,The Lakers,94.0,95.0,NAME,the Bucks,Team names were swapped,llama_small,3968.0
-S009,5,10,D'Angelo Russell,117.0,118.0,NAME,Giannis Antetokounmpo,Player names were swapped,llama_small,3968.0
-S009,5,11,tallied,128.0,128.0,WORD,accumulated,Incorrect verb,llama_small,3968.0
-S009,6,12,Luol Deng,145.0,146.0,NAME,Khris Middleton,Player names were swapped,llama_small,3968.0
-S010,1,1,The Atlanta,1.0,2.0,WORD,Orlando,Incorrect team name,llama_small,3968.0
-S010,2,2,hawks defeated the,,,WORD,"Magic, defeated the",Incorrect verb form,llama_small,3968.0
-S010,3,3,host Orlando,6.0,7.0,WORD,"host Orlando Magic,",Incorrect team name,llama_small,3968.0
-S010,4,4,at Amway,14.0,15.0,WORD,at Amway Center,Incorrect venue name,llama_small,3968.0
-S010,5,5,on Friday,17.0,18.0,WORD,,Unnecessary word,llama_small,3968.0
-S010,6,6,In a,20.0,21.0,WORD,,Unnecessary words,llama_small,3968.0
-S010,7,7,battle between,22.0,23.0,WORD,,Unnecessary words,llama_small,3968.0
-S010,8,8,two struggling,24.0,25.0,WORD,,Unnecessary words,llama_small,3968.0
-S010,9,9,"teams ,",26.0,27.0,WORD,the Hawks were able to prevail with a huge road win.,Incorrect sentence,llama_small,3968.0
-S010,10,10,In fact,40.0,41.0,WORD,,Unnecessary words,llama_small,3968.0
-S010,11,11,there were,43.0,44.0,WORD,,Unnecessary words,llama_small,3968.0
-S010,12,12,11 ties,45.0,46.0,NUMBER,,,llama_small,3968.0
-S010,13,13,and,47.0,47.0,WORD,,,llama_small,3968.0
-S010,14,14,11 lead,48.0,49.0,NUMBER,,,llama_small,3968.0
-S010,15,15,changes,50.0,50.0,WORD,,,llama_small,3968.0
-S010,16,16,in total,51.0,52.0,WORD,,,llama_small,3968.0
-S010,17,17,with,34.0,34.0,WORD,,,llama_small,3968.0
-S010,18,18,neither team,55.0,56.0,WORD,,,llama_small,3968.0
-S010,19,19,leading by,57.0,58.0,WORD,,,llama_small,3968.0
-S010,20,20,more than,59.0,60.0,NUMBER,,,llama_small,3968.0
-S010,21,21,11,45.0,45.0,NUMBER,,,llama_small,3968.0
-S010,22,22,points,62.0,62.0,WORD,,,llama_small,3968.0
-S010,23,23,Defense was,64.0,65.0,NAME,,,llama_small,3968.0
-S010,24,24,key,66.0,66.0,WORD,,,llama_small,3968.0
-S010,25,25,for Atlanta,67.0,68.0,WORD,,,llama_small,3968.0
-S010,26,26,as,70.0,70.0,WORD,,,llama_small,3968.0
-S010,27,27,they held,71.0,72.0,NAME,,,llama_small,3968.0
-S010,28,28,Orlando,7.0,7.0,WORD,,,llama_small,3968.0
-S010,29,29,to,32.0,32.0,WORD,,,llama_small,3968.0
-S010,30,30,43 %,,,NUMBER,,,llama_small,3968.0
-S010,31,31,from,77.0,77.0,WORD,,,llama_small,3968.0
-S010,32,32,the field,78.0,79.0,NAME,,,llama_small,3968.0
-S010,33,33,and,47.0,47.0,WORD,,,llama_small,3968.0
-S010,34,34,53 %,,,NUMBER,,,llama_small,3968.0
-S010,35,35,from,77.0,77.0,WORD,,,llama_small,3968.0
-S010,36,36,three,84.0,84.0,NUMBER,,,llama_small,3968.0
-S010,37,37,point range,86.0,87.0,NAME,,,llama_small,3968.0
-S010,38,38,.,19.0,19.0,WORD,,,llama_small,3968.0
-S012,1,1,Friday,19.0,19.0,WORD,Saturday,Incorrect day of the week,llama_small,3968.0
-S012,2,2,worst record,36.0,37.0,WORD,best,Incorrect ranking of the team's record,llama_small,3968.0
-S012,3,3,21 -25,,,NUMBER,15-32,Incorrect win-loss record of the Nuggets,llama_small,3968.0
-S012,5,4,23 points,173.0,174.0,NUMBER,41 points,Incorrect number of points scored by Devin Booker,llama_small,3968.0
-S012,6,5,15 points,89.0,90.0,NUMBER,21 points,Incorrect number of points scored by Tyson Chandler,llama_small,3968.0
-S012,9,6,Phoenix Suns,6.0,7.0,NAME,Denver Nuggets,Incorrect team name,llama_small,3968.0
-S014,1,1,The Portland Trail,1.0,3.0,OTHER,,'Blazers' should be spelled with an 'i' instead of a 'a'.,llama_small,3968.0
-S014,2,2,got off to a quick,35.0,39.0,WORD,started off to a quick,'got' is not necessary in this context.,llama_small,3968.0
-S014,3,3,34-21 right away,,,NUMBER,35-18 right away in the first quarter,The Blazers actually outscored the Lakers 35-18 in the first quarter.,llama_small,3968.0
-S014,4,4,the superior shooters,64.0,66.0,WORD,better shooters,'superior' is not necessary in this context.,llama_small,3968.0
-S014,5,5,49 percent from the field,72.0,76.0,NUMBER,,,llama_small,3968.0
-S014,6,6,40 percent from the three-point,,,NUMBER,,,llama_small,3968.0
-S014,7,7,44 percent from the floor,91.0,95.0,NUMBER,,,llama_small,3968.0
-S014,8,8,30 percent from deep,98.0,101.0,NUMBER,,,llama_small,3968.0
-S014,9,9,Lillard went 9-for-19 from the,,,NAME,Lillard shot 9-for-19 from the field and 5-for-11 from the three-point line to score a game-high of 29 points.,The sentence is not grammatically correct.,llama_small,3968.0
-S014,10,10,field,76.0,76.0,OTHER,,,llama_small,3968.0
-S014,11,11,to score a game-high of,,,WORD,"to score 29 points, while also adding seven assists.",'high' is not necessary in this context.,llama_small,3968.0
-S014,12,12,points while also adding seven,,,NUMBER,,,llama_small,3968.0
-S014,13,13,29 points and seven assists,,,NAME,,,llama_small,3968.0
-S014,14,14,Lillard on the other hand,179.0,183.0,NAME,"It was his second strong showing in a row, as he's combined for 56 points and 22 rebounds over his last two games.",The sentence is not grammatically correct.,llama_small,3968.0
-S014,15,15,12-for-20 from the field,,,NUMBER,,,llama_small,3968.0
-S014,16,16,4-for-7 from deep,,,NUMBER,,,llama_small,3968.0
-S014,17,17,28 points on strong 12-20,,,NAME,"McCollum finished with 28 points on strong 12–20 shooting from the field, including 4–7 from deep.",The sentence is not grammatically correct.,llama_small,3968.0
-S014,18,18,shooting from the field,,,WORD,"McCollum finished with 28 points on strong 12–20 shooting from the field, including 4–7 from deep.",'including' is not necessary in this context.,llama_small,3968.0
-S014,19,19,21 points (7-20 FG 1-5,,,NUMBER,,,llama_small,3968.0
-S014,20,20,3Pt 6-7 FT) two rebounds,,,WORD,"Bryant came off the bench for 21 points (7–20 FG, 1–5 3Pt, 6–7 FT), two rebounds and two assists.",'bench' is not necessary in this context.,llama_small,3968.0
-S014,21,21,points) two rebounds and two,,,NAME,,,llama_small,3968.0
-S014,22,22,19 points (8-15 FG 2-5,,,NUMBER,,,llama_small,3968.0
-S014,23,23,3Pt 1-2 FT) four assists,,,WORD,"Clarkson finished with 19 points (8–15 FG, 2–5 3Pt, 1–2 FT), four assists and four steals.",'steals' is not necessary in this context.,llama_small,3968.0
-S014,24,24,points) four assists and four,,,NAME,,,llama_small,3968.0
-S016,1,1,The Oklahoma City Thunder,,,NAME,Oklahoma City Thunder (50-22),Team name with incorrect win-loss record,llama_small,3968.0
-S017,1,1,The Cleveland Cavaliers,1.0,3.0,NAME,,Incorrect team name,llama_small,3968.0
-S017,1,2,defeated the,4.0,5.0,WORD,,Incorrect verb tense,llama_small,3968.0
-S017,1,3,Detroit Pistons,6.0,7.0,NAME,,Incorrect team name,llama_small,3968.0
-S017,1,4,", 128 -",8.0,10.0,NOT_CHECKABLE,,,llama_small,3968.0
-S017,1,5,at Quicken,13.0,14.0,WORD,,Incorrect venue name,llama_small,3968.0
-S017,1,6,Loans Arena,15.0,16.0,NAME,,,llama_small,3968.0
-S017,2,7,The,1.0,1.0,WORD,,Incorrect team name,llama_small,3968.0
-S017,2,8,Cavaliers,3.0,3.0,NAME,,,llama_small,3968.0
-S017,2,9,(44 -22),,,NUMBER,,Incorrect team statistics,llama_small,3968.0
-S017,2,10,came,,,WORD,,Incorrect verb tense,llama_small,3968.0
-S017,3,11,The Cavaliers,21.0,22.0,NAME,,,llama_small,3968.0
-S017,3,12,(33 -34),,,NUMBER,,Incorrect team statistics,llama_small,3968.0
-S017,3,13,were,56.0,56.0,WORD,,Incorrect verb tense,llama_small,3968.0
-S017,4,14,Cleveland posted,129.0,130.0,NAME,,,llama_small,3968.0
-S017,4,15,a,131.0,131.0,WORD,,,llama_small,3968.0
-S017,4,16,60 %,,,NUMBER,,,llama_small,3968.0
-S017,5,17,Andre Drummond,164.0,165.0,NAME,,,llama_small,3968.0
-S017,5,18,led,166.0,166.0,WORD,,Incorrect verb tense,llama_small,3968.0
-S018,1,1,The Golden,1.0,2.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,1,1,The Miami Heat,1.0,3.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,2,2,defeated the,4.0,5.0,WORD,,Extra word,llama_small,3968.0
-S019,3,3,Indiana Pacers,6.0,7.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,4,4,113 -95,,,NUMBER,110-90,Incorrect score,llama_small,3968.0
-S019,5,5,at American,13.0,14.0,WORD,,Extra word,llama_small,3968.0
-S019,6,6,Airlines Arena,15.0,16.0,NAME,,Incorrect venue,llama_small,3968.0
-S019,7,7,Saturday night,,,DATE,Friday night,Incorrect day of the week,llama_small,3968.0
-S019,8,8,the light,,,WORD,,Extra word,llama_small,3968.0
-S019,9,9,appeared to,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,10,10,come on,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,11,11,for the,51.0,52.0,WORD,,Extra word,llama_small,3968.0
-S019,12,12,Heat,3.0,3.0,NAME,Heats,Incorrect team name,llama_small,3968.0
-S019,13,13,(27-32),,,NUMBER,(29-30),Incorrect score,llama_small,3968.0
-S019,14,14,in mid-January,,,WORD,,Extra word,llama_small,3968.0
-S019,15,15,and it's,,,WORD,,Extra word,llama_small,3968.0
-S019,16,16,yet to,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,17,17,be extinguished,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,18,18,Miami rattled,,,NAME,,Incorrect team name,llama_small,3968.0
-S019,19,19,off victories,,,WORD,,Extra word,llama_small,3968.0
-S019,20,20,in 14,,,NUMBER,15,Incorrect number,llama_small,3968.0
-S019,21,21,of 16,,,NUMBER,17,Incorrect number,llama_small,3968.0
-S019,22,22,games leading,,,WORD,,Extra word,llama_small,3968.0
-S019,23,23,into the,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,24,24,All-Star break,,,NAME,,Incorrect event name,llama_small,3968.0
-S019,25,25,and have,,,WORD,,Extra word,llama_small,3968.0
-S019,26,26,now begun,,,WORD,,Extra verb phrase,llama_small,3968.0
-S019,27,27,the second,55.0,56.0,WORD,,Extra word,llama_small,3968.0
-S019,28,28,half,57.0,57.0,NAME,,Incorrect time period,llama_small,3968.0
-S019,29,29,with two,,,WORD,,Extra word,llama_small,3968.0
-S019,30,30,straight,,,NAME,,Incorrect time period,llama_small,3968.0
-S019,31,31,wins,,,NUMBER,three straight wins,Incorrect number,llama_small,3968.0
-S019,32,32,The,1.0,1.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,33,33,Pacers defeated,,,NAME,,Incorrect team name,llama_small,3968.0
-S019,34,34,the Heat,48.0,49.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,35,35,110-90,,,NUMBER,108-92,Incorrect score,llama_small,3968.0
-S019,36,36,at American,13.0,14.0,WORD,,Extra word,llama_small,3968.0
-S019,37,37,Airlines Arena,15.0,16.0,NAME,,Incorrect venue,llama_small,3968.0
-S019,38,38,on Friday,202.0,203.0,WORD,,Extra word,llama_small,3968.0
-S019,39,39,night,,,DATE,Saturday night,Incorrect day of the week,llama_small,3968.0
-S019,40,40,the Heat,48.0,49.0,NAME,,Incorrect team name,llama_small,3968.0
-S019,41,41,defeated the,4.0,5.0,WORD,,Extra word,llama_small,3968.0
-S019,42,42,Pacers,7.0,7.0,NAME,,Incorrect team name,llama_small,3968.0
-S020,1,1,The Phoenix Suns,1.0,3.0,NAME,Pelicans,Team name error,llama_small,3968.0
-S020,1,2,defeated the host,4.0,6.0,OTHER,,Incorrect team name usage,llama_small,3968.0
-S020,1,3,Smoothie King,15.0,16.0,NAME,,,llama_small,3968.0
-S020,2,4,the Pelicans (16-32),,,NUMBER,checked in with a disappointing loss to the Pelicans (20-32),Inconsistent team win-loss record,llama_small,3968.0
-S020,3,5,the Pelicans,39.0,40.0,NAME,,Incorrect team name usage,llama_small,3968.0
-S020,3,6,outscoring the Suns,73.0,75.0,OTHER,,Incorrect team name usage,llama_small,3968.0
-S020,4,7,Eric Bledsoe's,,,NAME,,Incomplete team name,llama_small,3968.0
-S020,4,8,14 points,121.0,122.0,NUMBER,,,llama_small,3968.0
-S020,5,9,Devin Booker,139.0,140.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,5,10,14 points,121.0,122.0,NUMBER,,,llama_small,3968.0
-S020,6,11,Marquese Chriss,158.0,159.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,6,12,14 points,121.0,122.0,NUMBER,,,llama_small,3968.0
-S020,7,13,PJ Tucker,177.0,178.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,7,14,12 points,162.0,163.0,NUMBER,,,llama_small,3968.0
-S020,8,15,Phoenix was,195.0,196.0,NAME,,Incorrect team name usage,llama_small,3968.0
-S020,8,16,led by,116.0,117.0,OTHER,,,llama_small,3968.0
-S020,9,17,Eric Bledsoe's,,,NAME,,Incomplete team name,llama_small,3968.0
-S020,9,18,14 points,121.0,122.0,NUMBER,,,llama_small,3968.0
-S020,10,19,Marquese Chriss,158.0,159.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,10,20,14 points,121.0,122.0,NUMBER,,,llama_small,3968.0
-S020,11,21,Terrence Jones,302.0,303.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,11,22,12 points,162.0,163.0,NUMBER,,,llama_small,3968.0
-S020,12,23,Buddy Hield,328.0,329.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,12,24,11 points,335.0,336.0,NUMBER,,,llama_small,3968.0
-S020,13,25,Davis led,373.0,374.0,NAME,,Incomplete team name,llama_small,3968.0
-S020,13,26,the way,375.0,376.0,OTHER,,,llama_small,3968.0
+S001,1,1,Boston Celtics,2.0,3.0,NAME,,The team name should be 'Celtics' instead of 'Celtic'.,llama_small,2045.11
+S001,1,2,Los Angeles,6.0,7.0,NAME,,The team name should be 'Lakers' instead of 'Angels'.,llama_small,2045.11
+S001,1,3,Celtics win,,,WORD,,"The team won, it did not 'win'.",llama_small,2045.11
+S001,2,4,Lakers Los,,,NAME,,The team name should be 'Celtics' instead of 'Los'.,llama_small,2045.11
+S001,3,5,double-,,,WORD,,'Double' is the correct word instead of 'double-'.,llama_small,2045.11
+S001,4,6,Toronto Raptors,234.0,235.0,NAME,,'Jazz' is the correct team name instead of 'Raptors'.,llama_small,2045.11
+S002,1,1,The Atlanta Hawks,1.0,3.0,NAME,Cavaliers,Incorrect team name,llama_small,2045.11
+S003,1,1,Toronto,2.0,2.0,NAME,Raptors,Team name error,llama_small,2045.11
+S004,1,1,host Utah Jazz,2.0,4.0,NAME,team,The box score says 'team' instead of 'host team'.,llama_small,2045.11
+S004,1,2,beat the,,,WORD,defeated the,The box score uses 'defeated' instead of 'beat'.,llama_small,2045.11
+S004,2,3,1 -,26.0,27.0,NUMBER,0-1,The box score shows the Jazz's record as 0-1 instead of 1-1.,llama_small,2045.11
+S004,3,4,rebounding was a,,,WORD,"Rebounding was key for the Jazz, as they held the Lakers to 38 percent from the field and 24 percent from three-point range.",The box score incorrectly describes rebounding as 'a huge factor'.,llama_small,2045.11
+S004,4,5,Kobe Bryant,137.0,138.0,NAME,Kobe Bryant did not play in this game.,The box score incorrectly states that Kobe Bryant played in this game.,llama_small,2045.11
+S004,5,6,17 points,164.0,165.0,NUMBER,21 points,The box score incorrectly reports D'Angelo Russell's point total.,llama_small,2045.11
+S004,6,7,Luol Deng,173.0,174.0,NAME, Luol Deng was not the only starter in double figures.,The box score incorrectly reports that Luol Deng was the only other starter in double figures.,llama_small,2045.11
+S004,9,8,23 points,288.0,289.0,NUMBER,21 points,The box score incorrectly reports George Hill's point total.,llama_small,2045.11
+S004,10,9,13 points,313.0,314.0,NUMBER,15 points,The box score incorrectly reports Rudy Gobert's point total.,llama_small,2045.11
+S007,1,1,Russell Westbrook,,,NAME,Russell Westbrook and Russell Westbrook,Duplicate mention of player name,llama_small,2045.11
+S008,1,1,The Memphis Grizzlies,1.0,3.0,NAME,,Incorrect team name,llama_small,2045.11
+S009,1,1,The Milwaukee Bucks defeated,1.0,4.0,NAME,Los Angeles Lakers,Incorrect team name,llama_small,2045.11
+S009,1,2,122 -,10.0,11.0,NUMBER,122-114,Incorrect score,llama_small,2045.11
+S009,1,3,at BMO Harris,14.0,16.0,WORD,at BMO Harris Bradley Center,Incomplete venue name,llama_small,2045.11
+S009,1,4,on Tuesday,19.0,20.0,WORD,on Friday evening,Incorrect day,llama_small,2045.11
+S009,2,5,In a,22.0,23.0,WORD,"The Milwaukee Bucks defeated the Los Angeles Lakers, ",Missing team names,llama_small,2045.11
+S009,2,6,battle between,24.0,25.0,WORD,"The Los Angeles Lakers defeated the Milwaukee Bucks, ",Incorrect team order,llama_small,2045.11
+S009,2,7,two struggling,26.0,27.0,WORD,"two struggling teams, ",Missing commas,llama_small,2045.11
+S009,3,8,The Bucks,,,NAME,the Bucks were able to prevail with a huge road win.,Incorrect verb tense,llama_small,2045.11
+S009,3,9,In fact,42.0,43.0,WORD,As they led by double-digits for the entirety of the second half.,Incorrect verb form,llama_small,2045.11
+S009,4,10,Rebounding,70.0,70.0,WORD,"The Bucks led for the majority of the game, as they led by double-digits for the entirety of the second half.",Incorrect statement,llama_small,2045.11
+S009,4,11,was key,71.0,72.0,WORD,"Rebounding was key for the Lakers, as they held the Lakers to 29 percent shooting and forced them to commit 17 turnovers.",Incorrect team,llama_small,2045.11
+S009,5,12,The Lakers,94.0,95.0,NAME,"the Lakers (19-37) have now won four of their last five games, as they continue to struggle.",Incorrect team name,llama_small,2045.11
+S009,5,13,(19 -37),,,NUMBER,the Los Angeles Lakers (19-37),Missing team name,llama_small,2045.11
+S009,6,14,D'Angelo Russell,117.0,118.0,NAME,"D'Angelo Russell was the player of the game, as he tallied 41 points, three rebounds and five assists on 11-of-20 shooting.",Incorrect team name,llama_small,2045.11
+S009,6,15,(19 -37),,,NUMBER,the Los Angeles Lakers (19-37),Missing team name,llama_small,2045.11
+S009,7,16,D'Angelo Russell,117.0,118.0,NAME,"D'Angelo Russell was the only other starter in double figures, as he accrued 14 points, three rebounds and five assists.",Incorrect team name,llama_small,2045.11
+S009,8,17,Milwaukee (22- 30),,,NUMBER,Milwaukee (22-30),Missing team name,llama_small,2045.11
+S009,9,18,Giannis Antetokounmpo,227.0,228.0,NAME,"Giannis Antetokounmpo was the player of the game, as he accumulated 41 points, eight rebounds and six assists.",Incorrect team name,llama_small,2045.11
+S009,10,19,(22- 30),,,NUMBER,the Milwaukee Bucks (22-30),Missing team name,llama_small,2045.11
+S009,11,20,On deck,188.0,189.0,WORD,Milwaukee will look to build off this win on Friday in a road matchup with the Orlando Magic.,Incorrect statement,llama_small,2045.11
+S009,11,21,for Los Angeles,190.0,192.0,NAME,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday.,Incorrect team name,llama_small,2045.11
+S011,1,1,The Atlanta Hawks,1.0,3.0,NAME,The Atlanta Hawks (41-9) beat the Washington Wizards (31-19) 105-96 on Wednesday.,Incorrect day of the week,llama_small,2045.11
+S011,1,2,Atlanta Hawks,2.0,3.0,NAME,,Already annotated in previous mistake,llama_small,2045.11
+S011,1,3,Washington Wizards,11.0,12.0,NAME,,Already annotated in previous mistake,llama_small,2045.11
+S011,1,4,Wednesday on,,,WORD,,Already annotated in previous mistake,llama_small,2045.11
+S011,2,5,Tuesday at,22.0,23.0,WORD,,Incorrect day of the week,llama_small,2045.11
+S011,2,6,Philips Arena,24.0,25.0,NAME,,"Not a mistake, but a real location",llama_small,2045.11
+S011,3,7,out-scoring,,,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,3,8,29-18,,,NUMBER,,"Not a mistake, but a correct score",llama_small,2045.11
+S011,4,9,out-scoring,,,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,4,10,28-18,,,NUMBER,,"Not a mistake, but a correct score",llama_small,2045.11
+S011,5,11,front of,84.0,85.0,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,6,12,shot,92.0,92.0,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,6,13,48 percent,93.0,94.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,6,14,44 percent,99.0,100.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,7,15,44 percent,99.0,100.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,7,16,25 percent,120.0,121.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,8,17,force the,131.0,132.0,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,8,18,14 turnovers,135.0,136.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,9,19,just 12,140.0,141.0,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,10,20,dual -double,,,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,10,21,24 points,190.0,191.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,11,22,9 -for,,,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,11,23,15 from,166.0,167.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,12,24,23 points,300.0,301.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,13,25,Paul Millsap,238.0,239.0,NAME,,"Not a mistake, but a real name",llama_small,2045.11
+S011,13,26,11 points,242.0,243.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,14,27,double -double,,,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,14,28,11 rebounds,261.0,262.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,15,29,23 points,300.0,301.0,NUMBER,,"Not a mistake, but a correct statistic",llama_small,2045.11
+S011,16,30,beat the,,,WORD,,"Not a mistake, but an idiomatic expression",llama_small,2045.11
+S011,16,31,Washington Wizards,11.0,12.0,NAME,,Already annotated in previous mistake,llama_small,2045.11
+S011,17,32,105-96,,,NUMBER,,"Not a mistake, but a correct score",llama_small,2045.11
+S013,1,1,Cleveland Cavaliers,2.0,3.0,NAME,Orlando Magic,Team names were swapped,llama_small,2045.11
+S015,1,1,The Toronto Raptors,1.0,3.0,NAME,Heat,Incorrect team name,llama_small,2045.11
+S015,2,2,defeated the,9.0,10.0,WORD,lost to,Incorrect verb tense and preposition,llama_small,2045.11
+S015,3,3,Heat 15-10,,,NUMBER,16-11,Incorrect team record,llama_small,2045.11
+S015,4,4,108-94,,,NUMBER,92-101,Incorrect score,llama_small,2045.11
+S015,5,5,the Raptors,,,NAME,Heat,Incorrect team name,llama_small,2045.11
+S015,6,6,got off,32.0,33.0,WORD,started strong,Incorrect verb phrase,llama_small,2045.11
+S015,7,7,to a,34.0,35.0,WORD,hot start with,Incorrect preposition and phrase,llama_small,2045.11
+S015,8,8,Raptors,3.0,3.0,NAME,Heat,Incorrect team name,llama_small,2045.11
+S015,9,9,first half,52.0,53.0,WORD,second quarter,Incorrect time period,llama_small,2045.11
+S015,10,10,alone,54.0,54.0,WORD,with a strong showing from their bench,Incorrect phrase and word,llama_small,2045.11
+S015,11,11,out-scoring the,,,WORD,leading the way with,Incorrect verb phrase,llama_small,2045.11
+S015,12,12,Heat,12.0,12.0,NAME,Raptors,Incorrect team name,llama_small,2045.11
+S015,13,13,50-38,,,NUMBER,43-55,Incorrect score,llama_small,2045.11
+S015,14,14,allowing,74.0,74.0,WORD,despite struggling in the second half,Incorrect phrase and word,llama_small,2045.11
+S015,15,15,Raptors,3.0,3.0,NAME,Heat,Incorrect team name,llama_small,2045.11
+S015,16,16,second half,71.0,72.0,WORD,third quarter,Incorrect time period,llama_small,2045.11
+S015,17,17,easy victory,80.0,81.0,WORD,comeback win,Incorrect phrase and word,llama_small,2045.11
+S015,18,18,Kyle Lowry,94.0,95.0,NAME,Hassan Whiteside,Incorrect player name,llama_small,2045.11
+S015,19,19,finished with,98.0,99.0,WORD,led the way with,Incorrect verb phrase,llama_small,2045.11
+S015,20,20,21 points,100.0,101.0,NUMBER,17 points,Incorrect score,llama_small,2045.11
+S015,21,21,four assists,119.0,120.0,NUMBER,three rebounds and four assists,Incorrect statistic,llama_small,2045.11
+S015,22,22,four steals,122.0,123.0,NUMBER,three rebounds and four steals,Incorrect statistic,llama_small,2045.11
+S015,23,23,in a,,,WORD,for a total of,Incorrect phrase and word,llama_small,2045.11
+S015,24,24,hefty 40,,,WORD,solid performance in over 30 minutes of play,Incorrect phrase and word,llama_small,2045.11
+S015,25,25,DeMar DeRozan,125.0,126.0,NAME,Gerald Green,Incorrect player name,llama_small,2045.11
+S015,26,26,had a,127.0,128.0,WORD,put up a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,27,27,30 points,132.0,133.0,NUMBER,20 points,Incorrect score,llama_small,2045.11
+S015,28,28,four rebounds,151.0,152.0,NUMBER,seven rebounds and four assists,Incorrect statistic,llama_small,2045.11
+S015,29,29,four assists,119.0,120.0,NUMBER,seven rebounds and four assists,Incorrect statistic,llama_small,2045.11
+S015,30,30,in,27.0,27.0,WORD,for a total of,Incorrect phrase and word,llama_small,2045.11
+S015,31,31,over 30,,,WORD,in over 35 minutes of play,Incorrect phrase and word,llama_small,2045.11
+S015,32,32,minutes of,,,WORD,in over 40 minutes of play,Incorrect phrase and word,llama_small,2045.11
+S015,33,33,play,,,WORD,with a strong showing from their bench,Incorrect phrase and word,llama_small,2045.11
+S015,34,34,DeMar DeRozan,125.0,126.0,NAME,Gerald Green,Incorrect player name,llama_small,2045.11
+S015,35,35,led the,237.0,238.0,WORD,put up a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,36,36,way,239.0,239.0,WORD,a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,37,37,Heat,12.0,12.0,NAME,Raptors,Incorrect team name,llama_small,2045.11
+S015,38,38,43-55,,,NUMBER,62-65,Incorrect score,llama_small,2045.11
+S015,39,39,despite struggling,,,WORD,leading the way with,Incorrect phrase and word,llama_small,2045.11
+S015,40,40,in the,50.0,51.0,WORD,put up a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,41,41,second half,71.0,72.0,WORD,third quarter,Incorrect time period,llama_small,2045.11
+S015,42,42,comeback win,,,WORD,despite struggling in the second half,Incorrect phrase and word,llama_small,2045.11
+S015,43,43,Gerald Green,188.0,189.0,NAME,Hassan Whiteside,Incorrect player name,llama_small,2045.11
+S015,44,44,led the,237.0,238.0,WORD,put up a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,45,45,way,239.0,239.0,WORD,a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,46,46,Raptors,3.0,3.0,NAME,Heat,Incorrect team name,llama_small,2045.11
+S015,47,47,third quarter,,,WORD,second half,Incorrect time period,llama_small,2045.11
+S015,48,48,despite struggling,,,WORD,leading the way with,Incorrect phrase and word,llama_small,2045.11
+S015,49,49,in the,50.0,51.0,WORD,put up a strong showing with,Incorrect phrase and word,llama_small,2045.11
+S015,50,50,second half,71.0,72.0,WORD,third quarter,Incorrect time period,llama_small,2045.11
+S016,1,1,The Oklahoma City,1.0,3.0,NAME,Thunder,Incorrect team name,llama_small,2045.11
+S017,1,1,Tuesday evening,,,WORD,Saturday evening,Incorrect day of the week,llama_small,2045.11
+S017,3,2,Monday's contest,,,NAME,Tuesday's contest,Incorrect day of the week in possessive form,llama_small,2045.11
+S017,5,3,Cavaliers (33-34),,,NUMBER,Pistons (33-34),Incorrect team,llama_small,2045.11
+S017,7,4,Andre Drummond,164.0,165.0,NAME,LeBron James,Incorrect player,llama_small,2045.11
+S017,9,5,Reggie Jackson,187.0,188.0,NAME,Kentavious Caldwell-Pope,Incorrect player,llama_small,2045.11
+S017,11,6,Marcus Morris,223.0,224.0,NAME,Maurice Morris,Incorrect player,llama_small,2045.11
+S017,13,7,Richard Jefferson,264.0,265.0,NAME,Reggie Jefferson,Incorrect player,llama_small,2045.11
+S017,15,8,Deron Williams,306.0,307.0,NAME,no correction needed,,llama_small,2045.11
+S017,17,9,Kyle Korver,323.0,324.0,NAME,no correction needed,,llama_small,2045.11
+S017,19,10,Richard Jefferson,264.0,265.0,NAME,no correction needed,,llama_small,2045.11
+S017,21,11,Pistons head,357.0,358.0,WORD,Cavaliers head,Incorrect team,llama_small,2045.11
+S018,1,1,The Golden State,1.0,3.0,NAME,Warriors (64-7),Incorrect team name,llama_small,2045.11
+S018,1,2,defeated the,10.0,11.0,WORD,vs. the,Missing vs.,llama_small,2045.11
+S018,1,3,Los Angeles,12.0,13.0,NAME,Clippers (43-27),Incorrect team name,llama_small,2045.11
+S018,1,4,114 -98,,,NUMBER,114-98,Missing hyphen,llama_small,2045.11
+S018,2,5,The Warriors,31.0,32.0,NAME,Warriors were the superior shooters in this game,Missing part of sentence,llama_small,2045.11
+S018,2,6,going 42,41.0,42.0,NUMBER,42%,Missing percentage symbol,llama_small,2045.11
+S018,2,7,percent from,43.0,44.0,WORD,from the field and,Missing words,llama_small,2045.11
+S018,3,8,Curry finished,89.0,90.0,NAME,Curry tallied 33 points,Incorrect verb,llama_small,2045.11
+S018,3,9,points (12-23,,,NUMBER,12 of his 23 attempts from the field,Incorrect wording,llama_small,2045.11
+S018,3,10,"FG, 4-6",,,NUMBER,5-6 FT),Missing FT),llama_small,2045.11
+S018,3,11,Curry's recent,,,WORD,Curry reverted back to his usual form Wednesday,Incorrect wording,llama_small,2045.11
+S018,4,12,DeAndre Jordan,,,NAME,"led the Clippers with a remarkable 19-point, 20-rebound double-double",Missing part of sentence,llama_small,2045.11
+S018,4,13,Austin Rivers,,,NAME,was next with a bench-leading 16 points,Incorrect wording,llama_small,2045.11
+S018,5,14,Curry's recent,,,WORD,Curry's recent shooting woes apparently transferred over to Paul for the night,Incorrect wording,llama_small,2045.11
+S018,6,15,The Clippers,233.0,234.0,NAME,The Warriors remain atop the Pacific Division and the Western Conference overall,Incorrect team,llama_small,2045.11
+S018,7,16,They're home,,,WORD,The Warriors remain atop the Pacific Division and the Western Conference overall.,Missing period,llama_small,2045.11
+S019,1,1,The Miami Heat,1.0,3.0,NAME,,Incorrect team name,llama_small,2045.11
+S019,1,2,defeated the,4.0,5.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,1,3,Indiana Pacers,6.0,7.0,NAME,,Incorrect team name,llama_small,2045.11
+S019,1,4,113 -,9.0,10.0,NUMBER,,Incorrect score,llama_small,2045.11
+S019,1,5,at American,13.0,14.0,WORD,,Incorrect venue,llama_small,2045.11
+S019,1,6,Airlines Arena,15.0,16.0,NAME,,Incorrect venue,llama_small,2045.11
+S019,1,7,on Saturday,17.0,18.0,WORD,,Incorrect day of the week,llama_small,2045.11
+S019,1,8,evening,19.0,19.0,WORD,,Incorrect time of day,llama_small,2045.11
+S019,2,9,The Heat,21.0,22.0,NAME,,Incorrect team name,llama_small,2045.11
+S019,2,10,were expected,23.0,24.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,2,11,to win,25.0,26.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,2,12,this game,27.0,28.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,2,13,easily,29.0,29.0,WORD,,Incorrect adverb,llama_small,2045.11
+S019,2,14,and they,30.0,31.0,WORD,,Incorrect pronoun,llama_small,2045.11
+S019,2,15,took care,32.0,33.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,2,16,of business,34.0,35.0,WORD,,Incorrect noun,llama_small,2045.11
+S019,2,17,in this,36.0,37.0,WORD,,Incorrect preposition,llama_small,2045.11
+S019,2,18,wire- to-,,,WORD,,Incorrect preposition,llama_small,2045.11
+S019,2,19,win,26.0,26.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,3,20,In fact,45.0,46.0,WORD,,Incorrect adverb,llama_small,2045.11
+S019,3,21,the Heat,48.0,49.0,NAME,,Incorrect team name,llama_small,2045.11
+S019,3,22,led for,50.0,51.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,3,23,the entirety,52.0,53.0,WORD,,Incorrect noun,llama_small,2045.11
+S019,3,24,of the,54.0,55.0,WORD,,Incorrect preposition,llama_small,2045.11
+S019,3,25,second half,56.0,57.0,WORD,,Incorrect noun,llama_small,2045.11
+S019,3,26,as they,59.0,60.0,WORD,,Incorrect pronoun,llama_small,2045.11
+S019,3,27,outscored the,61.0,62.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,3,28,Pacers,7.0,7.0,NAME,,Incorrect team name,llama_small,2045.11
+S019,3,29,", 30",64.0,65.0,WORD,,Incorrect comma placement,llama_small,2045.11
+S019,3,30,- 16,66.0,67.0,NUMBER,,Incorrect score,llama_small,2045.11
+S019,4,31,The assist-,,,NAME,,Incorrect noun,llama_small,2045.11
+S019,4,32,to -,40.0,41.0,WORD,,Incorrect preposition,llama_small,2045.11
+S019,4,33,ratio,80.0,80.0,NAME,,Incorrect noun,llama_small,2045.11
+S019,4,34,was the,81.0,82.0,WORD,,Incorrect verb tense,llama_small,2045.11
+S019,4,35,main factor,,,WORD,,Incorrect noun,llama_small,2045.11
+S019,4,36,in the,69.0,70.0,WORD,,Incorrect preposition,llama_small,2045.11
+S019,4,37,game,28.0,28.0,NAME,,Incorrect noun,llama_small,2045.11
+S023,1,1,The Dallas Mavericks,1.0,3.0,NAME,Los Angeles Lakers,Team name is incorrect,llama_small,2045.11
+S023,1,2,122 - 73,10.0,12.0,NUMBER,123-74,Score is incorrect,llama_small,2045.11
+S023,1,3,at American Airlines Center,14.0,17.0,NAME,on Saturday,Date is incorrect,llama_small,2045.11
+S023,2,4,There aren't many,,,WORD,,,llama_small,2045.11
+S023,2,5,games as lopsided,,,WORD,,,llama_small,2045.11
+S023,2,6,this in,,,WORD,,,llama_small,2045.11
+S023,2,7,the NBA,,,NAME,the NBA playoffs,Context is incorrect,llama_small,2045.11
+S023,3,8,The second,,,NAME,,,llama_small,2045.11
+S023,3,9,quarter is,,,WORD,,,llama_small,2045.11
+S023,3,10,when Dallas did,,,NAME,the Lakers did,Subject is incorrect,llama_small,2045.11
+S023,3,11,their damage,,,WORD,,,llama_small,2045.11
+S023,4,12,The Mavericks,249.0,250.0,NAME,the Lakers,Subject is incorrect,llama_small,2045.11
+S023,4,13,led,43.0,43.0,WORD,,,llama_small,2045.11
+S023,5,14,Dallas shot,,,NAME,,,llama_small,2045.11
+S023,6,15,No starter,,,WORD,,,llama_small,2045.11
+S023,7,16,Julius Randle,173.0,174.0,NAME,,,llama_small,2045.11
+S023,8,17,was the,133.0,134.0,WORD,,,llama_small,2045.11
+S023,9,18,only productive,,,WORD,,,llama_small,2045.11
+S023,10,19,starter,137.0,137.0,WORD,,,llama_small,2045.11
+S024,1,1,The host Golden State,,,WORD,,Incorrect team name,llama_small,2045.11
+S024,1,2,Warriors,4.0,4.0,NAME,Warriors (58-14),Missing score and record,llama_small,2045.11
+S024,1,3,demolished,,,WORD,,Incorrect word choice,llama_small,2045.11
+S024,2,4,"Friday,",,,NOT_CHECKABLE,,,llama_small,2045.11
+S024,3,5,Golden,2.0,2.0,NAME,Warriors (58-14),Incorrect team name,llama_small,2045.11
+S024,4,6,reigning MVP,,,WORD,,Not exact phrasing used in the box score,llama_small,2045.11
+S024,5,7,three,109.0,109.0,NUMBER,two,Incorrect number of players making up for a cold night from Klay Thompson,llama_small,2045.11
+S025,1,1,The San Antonio,1.0,3.0,NAME,,Team name is incorrect,llama_small,2045.11
+S025,2,2,San Antonio,2.0,3.0,NAME,,Team name is incorrect,llama_small,2045.11
+S025,3,3,at TD Garden,14.0,16.0,NAME,at TD Garden,Full venue name is incorrect,llama_small,2045.11
+S025,4,4,The Spurs,20.0,21.0,NAME,,Team name is incorrect,llama_small,2045.11
+S025,5,5,(13-3),,,NUMBER,(13-2),Team record is incorrect,llama_small,2045.11
+S025,6,6,checked in,27.0,28.0,WORD,,,llama_small,2045.11
+S025,7,7,to,29.0,29.0,WORD,,,llama_small,2045.11
+S025,8,8,Thursday's,,,NAME,Thursday's,Day of the week is incorrect,llama_small,2045.11
+S025,9,9,contest,32.0,32.0,NAME,,,llama_small,2045.11
+S025,10,10,with a,33.0,34.0,WORD,,,llama_small,2045.11
+S025,11,11,mere,35.0,35.0,NAME,mere,Adjective is correct,llama_small,2045.11
+S025,12,12,nine,36.0,36.0,NUMBER,,,llama_small,2045.11
+S025,13,13,points,37.0,37.0,NAME,,,llama_small,2045.11
+S025,14,14,over the,38.0,39.0,WORD,,,llama_small,2045.11
+S025,15,15,Celtics,8.0,8.0,NAME,,Team name is incorrect,llama_small,2045.11
+S025,16,16,(9-7),,,NUMBER,(8-6),Team record is incorrect,llama_small,2045.11
+S025,17,17,to,29.0,29.0,WORD,,,llama_small,2045.11
+S025,18,18,their eighth,64.0,65.0,WORD,,,llama_small,2045.11
+S025,19,19,home,47.0,47.0,NAME,,,llama_small,2045.11
+S025,20,20,victory,67.0,67.0,NAME,,,llama_small,2045.11
+S025,21,21,of the,68.0,69.0,WORD,,,llama_small,2045.11
+S025,22,22,season,70.0,70.0,NAME,,,llama_small,2045.11
+S025,23,23,Kawhi,72.0,72.0,NAME,,,llama_small,2045.11
+S025,24,24,Leonard,73.0,73.0,NAME,,,llama_small,2045.11
+S025,25,25,led,74.0,74.0,WORD,,,llama_small,2045.11
+S025,26,26,the way,75.0,76.0,WORD,,,llama_small,2045.11
+S025,27,27,for,77.0,77.0,WORD,,,llama_small,2045.11
+S025,28,28,the,6.0,6.0,WORD,,,llama_small,2045.11
+S025,29,29,Spurs,4.0,4.0,NAME,,Team name is incorrect,llama_small,2045.11
+S025,30,30,scoring,81.0,81.0,NAME,,,llama_small,2045.11
+S025,31,31,25,82.0,82.0,NUMBER,29,Point total is incorrect,llama_small,2045.11
+S025,32,32,points,37.0,37.0,NAME,,,llama_small,2045.11
+S025,33,33,on 8-of-18,,,WORD,,,llama_small,2045.11
+S025,34,34,shooting,90.0,90.0,NAME,,,llama_small,2045.11
+S025,35,35,from,98.0,98.0,WORD,,,llama_small,2045.11
+S025,36,36,the,6.0,6.0,WORD,,,llama_small,2045.11
+S025,37,37,field,252.0,252.0,NAME,,,llama_small,2045.11
+S025,38,38,at TD,14.0,15.0,WORD,,,llama_small,2045.11
+S025,39,39,Garden,16.0,16.0,NAME,,,llama_small,2045.11
+S026,1,1,The Phoenix Suns,1.0,3.0,NUMBER,(11-8),Inaccurate game stats,llama_small,2045.11
+S026,1,2,defeated the,9.0,10.0,NAME,(7-11),Inaccurate game stats,llama_small,2045.11
+S026,1,3,David West,11.0,12.0,NAME,(7-11),Inaccurate game stats,llama_small,2045.11
+S026,1,4,116 -0,,,NUMBER,(116-99),Inaccurate game score,llama_small,2045.11
+S026,1,5,on Wednesday,21.0,22.0,NOT_CHECKABLE,(Tuesday),Incorrect day of the week,llama_small,2045.11
+S026,1,6,at the,23.0,24.0,NOT_CHECKABLE,(at),Redundant words,llama_small,2045.11
+S026,2,7,The Suns,31.0,32.0,NAME,(The Pacers),Incorrect team,llama_small,2045.11
+S026,2,8,got off,33.0,34.0,NOT_CHECKABLE,(The Pacers got),Redundant words,llama_small,2045.11
+S026,2,9,to a,35.0,36.0,NOT_CHECKABLE,(to),Redundant words,llama_small,2045.11
+S026,2,10,quick start,37.0,38.0,NOT_CHECKABLE,(a quick start),Redundant words,llama_small,2045.11
+S026,2,11,in this,39.0,40.0,NOT_CHECKABLE,(in this one),Redundant words,llama_small,2045.11
+S026,3,12,The Suns,31.0,32.0,NAME,(The Pacers),Incorrect team,llama_small,2045.11
+S026,3,13,were the,59.0,60.0,NAME,(The Pacers were),Redundant words,llama_small,2045.11
+S026,3,14,superior shooters,61.0,62.0,NOT_CHECKABLE,(The Pacers were the superior shooters),Incorrect team,llama_small,2045.11
+S026,3,15,in this,39.0,40.0,NOT_CHECKABLE,(in this game),Redundant words,llama_small,2045.11
+S026,4,16,going 50,67.0,68.0,NUMBER,(48),Inaccurate shooting percentage,llama_small,2045.11
+S026,4,17,percent from,69.0,70.0,NOT_CHECKABLE,(percent from the field),Redundant words,llama_small,2045.11
+S026,4,18,the field,71.0,72.0,NOT_CHECKABLE,(the field and the three-point line),Incorrect shooting percentage,llama_small,2045.11
+S026,4,19,and,73.0,73.0,NOT_CHECKABLE,(and),Redundant words,llama_small,2045.11
+S026,4,20,48 percent,74.0,75.0,NUMBER,(50),Inaccurate shooting percentage,llama_small,2045.11
+S026,5,21,while the,83.0,84.0,NOT_CHECKABLE,(while),Redundant words,llama_small,2045.11
+S026,5,22,12 -for-,,,NUMBER,(0-for-3),Inaccurate free throw percentage,llama_small,2045.11
+S026,5,23,from the,70.0,71.0,NOT_CHECKABLE,(from the three-point line),Redundant words,llama_small,2045.11
+S026,5,24,free throw,92.0,93.0,NOT_CHECKABLE,(free throw line),Incorrect shooting percentage,llama_small,2045.11
+S026,5,25,line,81.0,81.0,NOT_CHECKABLE,(line),Redundant words,llama_small,2045.11
+S026,6,26,The Suns,31.0,32.0,NAME,(The Pacers),Incorrect team,llama_small,2045.11
+S026,6,27,were led,108.0,109.0,NOT_CHECKABLE,(The Suns were led),Incorrect team,llama_small,2045.11
+S026,6,28,by,110.0,110.0,NOT_CHECKABLE,(by),Redundant words,llama_small,2045.11
+S026,6,29,the duo,111.0,112.0,NOT_CHECKABLE,(The duo),Redundant words,llama_small,2045.11
+S026,6,30,of David,,,NOT_CHECKABLE,(of David West),Incorrect player,llama_small,2045.11
+S026,7,31,and,73.0,73.0,NOT_CHECKABLE,(and),Redundant words,llama_small,2045.11
+S026,7,32,Eric Maynor,,,NAME,(David West and Eric Maynor),Incorrect players,llama_small,2045.11
+S026,7,33,who,172.0,172.0,NOT_CHECKABLE,(who),Redundant words,llama_small,2045.11
+S026,7,34,led the,,,NOT_CHECKABLE,(led the team),Incorrect team,llama_small,2045.11
+S026,8,35,with,334.0,334.0,NOT_CHECKABLE,(with),Redundant words,llama_small,2045.11
+S026,8,36,a total,,,NOT_CHECKABLE,(a total of),Redundant words,llama_small,2045.11
+S026,8,37,of,113.0,113.0,NOT_CHECKABLE,(of),Redundant words,llama_small,2045.11
+S026,8,38,22,,,NUMBER,(14),Inaccurate number of points,llama_small,2045.11
+S026,9,39,The Pacers,,,NAME,(The Suns),Incorrect team,llama_small,2045.11
+S026,9,40,were led,108.0,109.0,NOT_CHECKABLE,(The Pacers were led),Incorrect team,llama_small,2045.11
+S026,9,41,by,110.0,110.0,NOT_CHECKABLE,(by),Redundant words,llama_small,2045.11
+S026,9,42,the duo,111.0,112.0,NOT_CHECKABLE,(The duo),Redundant words,llama_small,2045.11
+S026,9,43,of David,,,NOT_CHECKABLE,(of David West),Incorrect player,llama_small,2045.11
+S026,10,44,and,73.0,73.0,NOT_CHECKABLE,(and),Redundant words,llama_small,2045.11
+S026,10,45,Danny Granger,,,NAME,(David West and Danny Granger),Incorrect players,llama_small,2045.11
+S026,10,46,who,172.0,172.0,NOT_CHECKABLE,(who),Redundant words,llama_small,2045.11
+S026,10,47,led the,,,NOT_CHECKABLE,(led the team),Incorrect team,llama_small,2045.11
+S027,1,1,The New York Knicks,1.0,4.0,NAME,Houston Rockets,Incorrect team name,llama_small,2045.11
+S029,1,1,The Minnesota Timberwolves,1.0,3.0,NAME,,Team name should be in title case,llama_small,2045.11
+S029,1,2,defeated the Dallas Mavericks,4.0,7.0,NAME,,Team name should be in title case,llama_small,2045.11
+S029,1,3,101 -,9.0,10.0,NUMBER,102-92,Score is incorrect,llama_small,2045.11
+S029,1,4,at Target Center,13.0,15.0,WORD,on Friday at Target Center,Day of the week is incorrect,llama_small,2045.11
+S029,2,5,The Timberwolves,19.0,20.0,NAME,,Team name should be in title case,llama_small,2045.11
+S029,2,6,(12-26),,,NUMBER,(13-25),Record is incorrect,llama_small,2045.11
+S029,3,7,a hot start,33.0,35.0,WORD,a hot beginning,Idiom is incorrect,llama_small,2045.11
+S029,3,8,lead after,49.0,50.0,WORD,trail by,Idiom is incorrect,llama_small,2045.11
+S029,4,9,the Mavericks,74.0,75.0,NAME,,Team name should be in title case,llama_small,2045.11
+S029,4,10,(11-27),,,NUMBER,(12-28),Record is incorrect,llama_small,2045.11
+S029,5,11,by a,81.0,82.0,WORD,with a,Idiom is incorrect,llama_small,2045.11
+S029,5,12,24-19,,,NUMBER,27-18,Score is incorrect,llama_small,2045.11
+S029,6,13,Harrison Barnes,120.0,121.0,NAME,,Player name should be in title case,llama_small,2045.11
+S029,6,14,led the,122.0,123.0,WORD,scored the,Idiom is incorrect,llama_small,2045.11
+S029,6,15,way for,124.0,125.0,WORD,for the,Idiom is incorrect,llama_small,2045.11
+S029,6,16,30 points,132.0,133.0,NUMBER,29 points,Score is incorrect,llama_small,2045.11
+S029,7,17,Deron Williams,148.0,149.0,NAME,,Player name should be in title case,llama_small,2045.11
+S029,7,18,followed with,150.0,151.0,WORD,scored the most with,Idiom is incorrect,llama_small,2045.11
+S029,7,19,11 points,152.0,153.0,NUMBER,12 points,Score is incorrect,llama_small,2045.11
+S029,8,20,Wesley Matthews,164.0,165.0,NAME,,Player name should be in title case,llama_small,2045.11
+S029,8,21,was next,166.0,167.0,WORD,scored the most with,Idiom is incorrect,llama_small,2045.11
+S029,8,22,37 points,173.0,174.0,NUMBER,34 points,Score is incorrect,llama_small,2045.11
+S029,9,23,JJ Barea,204.0,205.0,NAME,,Player name should be in title case,llama_small,2045.11
+S029,9,24,led the,122.0,123.0,WORD,scored the most with,Idiom is incorrect,llama_small,2045.11
+S029,9,25,14 points,210.0,211.0,NUMBER,13 points,Score is incorrect,llama_small,2045.11
+S029,10,26,Karl-Anthony Towns,285.0,286.0,NAME,,Player name should be in title case,llama_small,2045.11
+S029,10,27,led the,122.0,123.0,WORD,scored the most with,Idiom is incorrect,llama_small,2045.11
+S029,10,28,34 points,297.0,298.0,NUMBER,35 points,Score is incorrect,llama_small,2045.11
+S030,1,1,The Indiana Pacers,1.0,3.0,WORD,defeated,Incorrect verb,llama_small,2045.11
+S030,2,2,at Bankers Life,13.0,15.0,WORD,Fieldhouse,Incorrect venue,llama_small,2045.11
+S030,3,3,Monday evening,,,NUMBER,,,llama_small,2045.11
+S030,7,4,the Hornets,55.0,56.0,NAME,,,llama_small,2045.11
+S030,12,5,14 - 11,90.0,92.0,NUMBER,,,llama_small,2045.11
+S030,13,6,Pacers,3.0,3.0,NAME,,,llama_small,2045.11
+S030,14,7,Kemba Walker,111.0,112.0,NAME,,,llama_small,2045.11

@@ -187,7 +187,82 @@ TEXT_ID, SENTENCE_ID, ANNOTATION_ID, TOKENS, TYPE, CORRECTION, COMMENT
 
     
    
-    "p2": """[P1 + few-shot examples]""",
+     "p2": """You are a basketball fact-checker. Your task is to verify an AI-generated game summary against official box score data provided in structured JSON format.
+ 
+The JSON is your ONLY source of truth. Do not rely on prior knowledge about teams or players.
+ 
+=== BOX SCORE DATA (JSON) ===
+{game_data}
+ 
+=== STORY TO FACT-CHECK ===
+Text ID: {text_id}
+{story}
+ 
+=== HOW TO CHECK ===
+Read the story one sentence at a time. For every factual claim, locate the matching field in the JSON above and compare the values.
+ 
+The JSON is structured like this:
+{{
+  "home_team": "...",
+  "away_team": "...",
+  "home_pts": 0,
+  "away_pts": 0,
+  "date": "...",
+  "players": [
+    {{
+      "name": "...",
+      "team": "...",
+      "pts": 0,
+      "reb": 0,
+      "ast": 0,
+      "starter": true
+    }}
+  ],
+  "line_score": {{
+    "home": [0, 0, 0, 0],
+    "away": [0, 0, 0, 0]
+  }}
+}}
+ 
+For each sentence, ask:
+- Does it mention a number? → Find the matching JSON field and check the value
+- Does it mention a player or team name? → Check it exists in the JSON with that spelling
+- Does it describe a result (win/loss, lead, margin)? → Calculate from JSON scores and verify
+- Does it say a player started or came off the bench? → Check the "starter" field in JSON
+- Does it reference a previous or upcoming game? → Mark as NOT_CHECKABLE if unverifiable
+ 
+=== ERROR TYPE PRIORITY ===
+NUMBER > NAME > WORD > CONTEXT > NOT_CHECKABLE > OTHER
+ 
+- NUMBER: wrong numerical value (digits or written words like "six", "third")
+- NAME: wrong proper noun — player, team, city, stadium, day of week
+- WORD: wrong descriptive word not covered by NAME or NUMBER (e.g. "off the bench" for a starter)
+- CONTEXT: literally true but misleading due to surrounding context
+- NOT_CHECKABLE: cannot be verified from the box score data
+- OTHER: clearly wrong but fits no category above
+ 
+=== OUTPUT FORMAT ===
+{format_instructions}
+ 
+Return one object per mistake with EXACTLY these fields:
+ 
+- TEXT_ID: "{text_id}"
+- SENTENCE_ID: integer, 1-indexed sentence number in the story
+- ANNOTATION_ID: integer, sequential starting from 1
+- TOKENS: list of 1 to 5 consecutive words copied EXACTLY from the story — only the wrong words, never the full sentence
+- TYPE: one of NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER
+- CORRECTION: the correct value taken directly from the JSON
+- COMMENT: one short sentence explaining what the JSON says vs what the story says
+ 
+TOKENS rules:
+- Copy words verbatim — same spelling, same capitalisation, same punctuation
+- Never combine words from different sentences
+- If a sentence has multiple mistakes, create a SEPARATE object for each one
+- Each element in the list is a single word — never a multi-word phrase as one string
+ 
+Output ONLY the JSON list. No preamble. No explanation. No markdown code fences.
+If you find no mistakes, output: []
+""",
 
     
     
