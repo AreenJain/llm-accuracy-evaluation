@@ -4,6 +4,8 @@ git commit -m "Updates"
 git push -u origin main
 
 
+python evaluation/LLM_evaluate.py --gsml gsml_30_rows.csv --submitted "cleaned_data/results_llama_small_p0_run1_cleaned.csv" --token_lookup token_lookup.yaml --text_dir texts --csv_out LLM_evaluate/eval_results_llama_small_p0_run1.csv
+
 
 ===============================
 Code Flow:

@@ -1,0 +1,114 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,2,2,18,25,25,NUMBER,17,The Lakers' season record was incorrect.,llama_small,976.64
+S001,1,1,30,54,54,NUMBER,32,The Celtics' season record was incorrect.,llama_small,976.64
+S001,3,3,38,75,75,NUMBER,38 (points scored by Isaiah Thomas),"The number of points scored by Isaiah Thomas was correct, but the context made it look like an incorrect count.",llama_small,976.64
+S002,1,1,The Atlanta Hawks,1,3,OTHER,The Atlanta Hawks defeated the Cleveland Cavaliers,Incorrect team mentioned in the game,llama_small,976.64
+S002,5,5,Dwight Howard,115,116,NAME,The player's name was actually 'Dwight Howard' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S002,6,6,Kent Bazemore,143,144,NAME,The player's name was actually 'Kent Bazemore' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S002,7,7,LeBron James,221,222,NAME,The player's name was actually 'LeBron James' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S002,8,8,Kyrie Irving,245,246,NAME,The player's name was actually 'Kyrie Irving' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S002,9,9,Kevin Love,265,266,NAME,The player's name was actually 'Kevin Love' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S002,10,10,Tristan Thompson,283,284,NAME,The player's name was actually 'Tristan Thompson' but the stats mentioned are incorrect,Incorrect attribution of stats to a player,llama_small,976.64
+S003,3,3,DeMar DeRozan,74,75,NAME,"The game was led by DeMar DeRozan, who posted a game-high 31 points, which he supplemented with five rebounds, four assists and a steal.",Incorrect spelling of the player's name,llama_small,976.64
+S003,4,4,Kyle Lowry,99,100,NAME,"Kyle Lowry was right behind him with a 16-point, 10-assist double-double that also included three rebounds, a steal and a block.",Incorrect spelling of the player's name,llama_small,976.64
+S003,5,5,Terrence Ross,183,184,NAME,"Terrence Ross was productive in a reserve role as well with 11 points, two rebounds, a steal and a block.",Incorrect spelling of the player's name,llama_small,976.64
+S003,6,6,Elfrid Payton,252,253,NAME,"Orlando's attack was spearheaded by Elfrid Payton, who tallied 13 points, three assists, two rebounds and a steal.",Incorrect spelling of the player's name,llama_small,976.64
+S003,7,7,Aaron Gordon,269,270,NAME,"Aaron Gordon was next with a 10-point, 12-rebound double-double that also included an assist, a steal and a block.",Incorrect spelling of the player's name,llama_small,976.64
+S003,8,8,DJ Augustin,342,343,NAME,"DJ Augustin was productive in a reserve role as well with 11 points, three rebounds, two assists and a pair of steals.",Incorrect spelling of the player's name,llama_small,976.64
+S008,1,1,the Grizzlies,46,47,NAME,Utah Jazz,Incorrect team name mentioned,llama_small,976.64
+S008,5,5,Marc Gasol,95,96,NAME,Gordon Hayward,Incorrect player name mentioned,llama_small,976.64
+S008,6,6,Mike Conley,131,132,NAME,Rudy Gobert,Incorrect player name mentioned,llama_small,976.64
+S008,8,8,18 points,136,137,NUMBER,22 points,Incorrect scoring information,llama_small,976.64
+S008,7,7,Zach Randolph,173,174,NAME,Gordon Hayward,Incorrect player name mentioned,llama_small,976.64
+S008,9,9,Rudy Gobert,311,312,NAME,Zach Randolph,Incorrect player name mentioned,llama_small,976.64
+S010,5,6,Dennis Schroder,141,142,NAME,"Dennis Schroder was the player of the game, as he tallied 18 points, six rebounds and seven assists on 7-of-13 shooting.",The story incorrectly described Dennis Schroder.,llama_small,976.64
+S010,6,7,Kent Bazemore,184,185,NAME,"Kent Bazemore was the only other starter in double figures, as he totaled 17 points and four assists.",The story incorrectly described Kent Bazemore.,llama_small,976.64
+S010,7,8,Nikola Vucevic,240,241,NAME,"Nikola Vucevic was the player of the game, as he collected 10 points, 12 rebounds and six assists.",The story incorrectly described Nikola Vucevic.,llama_small,976.64
+S010,8,9,Evan Fournier,261,262,NAME,"Evan Fournier was second on the team, as he accrued 14 points, one rebound and one assist.",The story incorrectly described Evan Fournier.,llama_small,976.64
+S012,6,6,Nuggets,3,3,NAME,Denver Nuggets,The story incorrectly refers to the team as 'Nuggets' without specifying the city,llama_small,976.64
+S012,7,7,Friday,19,19,DATE,Saturday,The story incorrectly states the day of the game as 'Friday',llama_small,976.64
+S012,1,1,worst,36,36,WORD,best,The story incorrectly states the Nuggets' record as 'worst',llama_small,976.64
+S012,2,2,32,75,75,NUMBER,30,The story incorrectly states the number of points scored by Danilo Gallinari,llama_small,976.64
+S012,3,3,six,106,106,NUMBER,five,The story incorrectly states the number of points scored by Wilson Chandler,llama_small,976.64
+S012,4,4,23,173,173,NUMBER,25,The story incorrectly states the number of points scored by Devin Booker,llama_small,976.64
+S012,5,5,12,195,195,NUMBER,13,The story incorrectly states the number of rebounds scored by Tyson Chandler,llama_small,976.64
+S013,1,1,Wednesday,22,22,NUMBER,Thursday,"The game was played on Thursday, not Wednesday.",llama_small,976.64
+S015,1,1,The Toronto Raptors,1,3,NUMBER,,Incorrect team name,llama_small,976.64
+S015,5,4,Kyle Lowry,94,95,NAME,,Incorrect player name,llama_small,976.64
+S015,6,5,30 points,132,133,NUMBER,,Incorrect score,llama_small,976.64
+S015,8,6,DeMarre Carroll,160,161,NAME,,Incorrect player name,llama_small,976.64
+S015,9,7,13 points,165,166,NUMBER,,Incorrect score,llama_small,976.64
+S015,10,8,Gerald Green,188,189,NAME,,Incorrect player name,llama_small,976.64
+S015,11,9,20 points,196,197,NUMBER,,Incorrect score,llama_small,976.64
+S015,12,10,Hassan Whiteside,305,306,NAME,,Incorrect player name,llama_small,976.64
+S016,2,2,22,8,8,NUMBER,32,The Thunder's win-loss record is incorrect.,llama_small,976.64
+S016,1,1,defeated,10,10,WORD,lost to,The Thunder actually lost the game.,llama_small,976.64
+S017,1,1,Cleveland,2,2,NAME,Detroit,"The Pistons played at home, not the Cavaliers.",llama_small,976.64
+S017,4,4,modest,174,174,WORD,impressive,The adjective used to describe the Cavaliers' performance was incorrect.,llama_small,976.64
+S018,4,5,3Pt,108,108,NUMBER,2Pt,"The box score actually says 2Pt, not 3Pt.",llama_small,976.64
+S019,1,1,wire,38,38,WORD,game,The correct word is 'game' instead of 'wire'.,llama_small,976.64
+S019,2,2,15,98,98,NUMBER,16,The correct number of turnovers is '16' instead of '15'.,llama_small,976.64
+S019,4,3,five,115,115,NUMBER,10,The correct rebound number is '10' instead of 'five'.,llama_small,976.64
+S019,5,4,13,181,181,NUMBER,22,The correct point number is '22' instead of '13'.,llama_small,976.64
+S020,1,1,The Phoenix Suns defeated,1,4,WORD,not 'the host',The team cannot defeat itself.,llama_small,976.64
+S020,2,2,the host,5,6,WORD,Phoenix Suns,The team that is being defeated should be correctly identified.,llama_small,976.64
+S020,3,3,by a,76,77,WORD,34-18 margin over the final 12 minutes,The correct phrase should include the actual score and time.,llama_small,976.64
+S020,5,4,Eric Bledsoe,118,119,NAME,should be in the correct order,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,7,6,Marquese Chriss,158,159,NAME,should be in the correct order,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,8,7,PJ Tucker,177,178,NAME,should be in the correct order with Brandon Knight,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,9,8,Brandon Knight,264,265,NAME,should be in the correct order with Eric Bledsoe,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,11,10,Terrence Jones,302,303,NAME,should be in the correct order with Jrue Holiday,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,10,9,Buddy Hield,328,329,NAME,should be in the correct order with Terrence Jones,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S020,14,13,Davis,373,373,NAME,should not be last in the stats list,The player with the most points should be listed first.,llama_small,976.64
+S020,12,11,Jrue Holiday,393,394,NAME,should be in the correct order with Buddy Hield,The two players' stats should be presented in the same order as their names.,llama_small,976.64
+S021,5,5,17,204,204,NUMBER,14,Incorrect points for Eric Gordon.,llama_small,976.64
+S021,3,3,18,229,229,NUMBER,18,Incorrect rebounds for Trevor Ariza.,llama_small,976.64
+S022,4,4,34,104,104,NUMBER,35,The Timberwolves' rebounds should be corrected to 35.,llama_small,976.64
+S022,2,2,42,114,114,NUMBER,41,Anthony Davis's points should be corrected to 41.,llama_small,976.64
+S022,3,3,Hield,159,159,NAME,,Buddy Hield's points are correctly stated.,llama_small,976.64
+S023,1,1,Dallas Mavericks,2,3,NAME,Los Angeles Lakers,"The game was between the Los Angeles Lakers and another team, not the Dallas Mavericks.",llama_small,976.64
+S023,2,2,Wednesday,19,19,WORD,Sunday,"The game was actually played on Sunday, not Wednesday.",llama_small,976.64
+S023,3,3,led by,54,55,WORD,behind by,The sentence should use the phrase 'behind by' instead of 'led by'.,llama_small,976.64
+S023,4,4,17,85,85,NUMBER,11,"The Mavericks led by 11 points in the second half, not 17.",llama_small,976.64
+S023,6,6,19,101,101,NUMBER,18,"Justin Anderson dropped 19 points on the bench, not 18.",llama_small,976.64
+S023,5,5,Deron Williams,131,132,NAME,Julius Randle,"The player who accumulated 13 points, five rebounds and eight assists was actually Julius Randle, not Deron Williams.",llama_small,976.64
+S024,1,1,Kings,8,8,NAME,Warriors,The story incorrectly identifies the team that lost.,llama_small,976.64
+S024,13,11,23 points,100,101,NUMBER,27 points,The story incorrectly states the number of points scored by Draymond Green.,llama_small,976.64
+S024,7,5,10 points,119,120,NUMBER,27 points,The story incorrectly states the number of points scored by Skal Labissiere.,llama_small,976.64
+S024,6,4,22 points,145,146,NUMBER,27 points,The story incorrectly states the number of points scored by Stephen Curry.,llama_small,976.64
+S024,8,6,10 rebounds,197,198,NUMBER,7 rebounds,The story incorrectly states the number of rebounds scored by Stephen Curry.,llama_small,976.64
+S024,16,14,12 points,297,298,NUMBER,27 points,The story incorrectly states the number of points scored by Willie Cauley-Stein.,llama_small,976.64
+S025,4,4,25 points,82,83,WORD,20 points (on 8-of-18 shooting),Inaccurate information about Kawhi Leonard's scoring performance.,llama_small,976.64
+S025,5,5,10 rebounds,108,109,NUMBER,9 rebounds (plus four assists),Inaccurate information about Kawhi Leonard's rebounding performance.,llama_small,976.64
+S025,7,7,19 points,133,134,WORD,17 points (on 8-of-15 shooting),Inaccurate information about Avery Bradley's scoring performance.,llama_small,976.64
+S025,9,9,10 points,232,233,NUMBER,8 points (plus four rebounds and four assists),Inaccurate information about LaMarcus Aldridge's scoring performance.,llama_small,976.64
+S025,1,1,32,242,242,NUMBER,22,Incorrect score at the end of the first quarter.,llama_small,976.64
+S026,1,1,The Phoenix Suns,1,3,WORD,The David West,Incorrect team name,llama_small,976.64
+S026,2,2,David West,11,12,NAME,None (correct team name),Correct team name,llama_small,976.64
+S026,4,4,0,20,20,NUMBER,116,Incorrect score,llama_small,976.64
+S026,3,3,12 -,85,86,NUMBER,5-12,Incorrect stats,llama_small,976.64
+S028,1,1,Trust the,36,37,NAME,Process,The phrase 'Trust the Process' is associated with another team.,llama_small,976.64
+S028,5,5,visitors were,133,134,CONTEXT,"The correct phrase should be 'hosts', not 'visitors'.","When describing a team playing at home, the correct phrase is 'hosts', not 'visitors'.",llama_small,976.64
+S028,6,6,Wall and,146,147,NAME,"Beal, and","The correct player name is Beal, not Wall.",llama_small,976.64
+S028,7,7,former adding,153,154,CONTEXT,"The correct phrase should be 'latter', not 'former'.","When describing the second of two players, the correct phrase is 'latter', not 'former'.",llama_small,976.64
+S028,14,14,Gortat posted,177,178,NAME,"Porter, posted","The correct player name is Porter, not Gortat.",llama_small,976.64
+S028,10,10,Kilpatrick led,203,204,NAME,"Smith, led","The correct player name is Smith, not Kilpatrick.",llama_small,976.64
+S028,9,9,second unit,206,207,CONTEXT,"The correct phrase should be 'first unit', not 'second unit'.","When describing a team's lineup, the correct phrase is 'first unit', not 'second unit'.",llama_small,976.64
+S028,12,12,Beal led,219,220,NAME,"Wall, led","The correct player name is Wall, not Beal.",llama_small,976.64
+S028,15,15,Hollis-Jefferson posted,264,265,NAME,"Booker, posted","The correct player name is Booker, not Hollis-Jefferson.",llama_small,976.64
+S028,16,16,Smith led,287,288,NAME,"Kilpatrick, led","The correct player name is Kilpatrick, not Smith.",llama_small,976.64
+S028,11,11,Nets with,322,323,NAME,"Wizards, with","The correct team name is the Wizards, not the Nets.",llama_small,976.64
+S028,17,17,Nets head,396,397,NAME,"Wizards, head","The correct team name is the Wizards, not the Nets.",llama_small,976.64
+S028,18,18,Nets remain,413,414,NAME,"Wizards, remain","The correct team name is the Wizards, not the Nets.",llama_small,976.64
+S029,2,2,Timberwolves,3,3,NAME,Minnesota Timberwolves,"The correct team name is Minnesota Timberwolves, not just Timberwolves.",llama_small,976.64
+S029,2,1,the,5,5,NOT_CHECKABLE,,The article should be corrected to reflect the correct team names and schedules.,llama_small,976.64
+S029,3,3,Dallas,6,6,NAME,Mavericks,"The correct team name is Mavericks, not Dallas.",llama_small,976.64
+S029,10,7,Wednesday,17,17,OTHER,,The article should be corrected to reflect the correct date of the game.,llama_small,976.64
+S029,7,5,11,77,77,NUMBER,14,"The correct score is 14, not 11.",llama_small,976.64
+S029,5,4,30,132,132,NUMBER,34,"The correct score is 34, not 30.",llama_small,976.64
+S030,2,2,Indiana was,20,21,NAME,Los Angeles,"The team that played was actually Los Angeles, not Indiana.",llama_small,976.64
+S030,3,3,in the,62,63,WORD,at the,"The phrase should be 'at the', not 'in the'.",llama_small,976.64
+S030,4,4,fourth quarter,64,65,NUMBER,third quarter,"The game actually went into the third quarter, not the fourth quarter.",llama_small,976.64
+S030,7,7,five of,97,98,NUMBER,three of,"The team has actually won three games, not five.",llama_small,976.64
+S030,8,8,last seven,100,101,WORD,last six,"The team has actually won games in their last six games, not seven.",llama_small,976.64
+S030,12,12,last six,207,208,WORD,last seven,"The team has actually won games in their last seven games, not six.",llama_small,976.64
