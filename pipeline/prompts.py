@@ -263,7 +263,6 @@ TOKENS rules:
 Output ONLY the JSON list. No preamble. No explanation. No markdown code fences.
 If you find no mistakes, output: []
 """,
-    "p2": """[JSON]""",
 
     
     
