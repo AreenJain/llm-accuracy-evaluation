@@ -18,7 +18,7 @@ arg_parser.add_argument("--games", type=str, required=True)
 arg_parser.add_argument("--jsonl", type=str, required=True)
 arg_parser.add_argument("--model", type=str, default="llama_medium")
 arg_parser.add_argument("--rows", type=int, default=20)
-arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p1", "p2", "p3", "p4"])
+arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p1", "p2", "p3"])
 args = arg_parser.parse_args()
 
 MODELS = {
