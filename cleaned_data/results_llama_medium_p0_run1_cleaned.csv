@@ -1,0 +1,49 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S002,1,3,110 - 110,9,11,NUMBER,110-106,Incorrect score,llama_medium,4892.2
+S002,1,2,Saturday,18,18,NAME,Tuesday,Incorrect day of the week,llama_medium,4892.2
+S002,2,4,37 - 20,50,52,NUMBER,,Incorrect score,llama_medium,4892.2
+S002,7,9,Sunday,188,188,NAME,,Incorrect day of the week,llama_medium,4892.2
+S006,1,1,The Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105 on Friday .,1,23,OTHER,Tuesday,Incorrect day of the week,llama_medium,4892.2
+S006,2,2,The Nets came into this game as a double - digit favorite and they did n't disappoint,24,40,OTHER,The Nets came into this game as a double-digit underdog,Incorrect description of the Nets' status,llama_medium,4892.2
+S006,8,8,"Thaddeus Young was the only other starter in double figures , as he amassed 20 points , 12 rebounds and five assists .",163,185,OTHER,"Thaddeus Young was the only other starter in double figures, as he amassed 20 points, 12 rebounds and five assists",Incorrect description of Thaddeus Young's performance,llama_medium,4892.2
+S009,2,2,"In a battle between two struggling teams , the Bucks were able to prevail with a huge road win .",22,41,CONTEXT_MISTAKE,,"The Bucks did not win the game, the Lakers actually won.",llama_medium,4892.2
+S009,3,3,"Rebounding was key for the Lakers , as they held the Lakers to 29 percent shooting and forced them to commit 17 turnovers .",70,93,NUMBER_MISTAKE,52 percent,"The Lakers were held to 52 percent shooting, not 29 percent.",llama_medium,4892.2
+S009,5,5,"Luol Deng was second on the team , as he accrued 26 points , three rebounds and two assists .",145,164,NUMBER_MISTAKE,14 points,"Luol Deng scored 14 points, not 26 points.",llama_medium,4892.2
+S009,7,7,"Giannis Antetokounmpo was the player of the game , as he accumulated 41 points , eight rebounds and six assists .",227,247,NUMBER_MISTAKE,41 points,"Giannis Antetokounmpo scored 41 points, this is correct.",llama_medium,4892.2
+S009,8,8,"Khris Middleton was second on the team , as he accrued 18 points , six rebounds and six assists .",248,267,NUMBER_MISTAKE,18 points,"Khris Middleton scored 18 points, this is correct.",llama_medium,4892.2
+S009,9,9,"Greg Monroe was the only other starter in double figures , as he accrued 18 points , five rebounds and three assists .",268,290,NUMBER_MISTAKE,8 points,"Greg Monroe scored 8 points, not 18 points.",llama_medium,4892.2
+S012,2,2,The Nuggets ( 21 - 25 ) came into this game tied for the worst record in the west and this was a much needed win for the Suns ( 21 - 25 ),22,55,NUMBER,21-32,Incorrect record,llama_medium,4892.2
+S012,3,3,"Six players scored in double digits for Denver ,",57,65,NUMBER,Four,Incorrect number of players,llama_medium,4892.2
+S012,4,4,"Danilo Gallinari ,",67,69,NAME,Eric Bledsoe,Incorrect player name,llama_medium,4892.2
+S012,7,7,"17 points ,",119,121,NUMBER,21,Incorrect number of points,llama_medium,4892.2
+S015,1,2,American Airlines Arena,24,26,NAME_MISTAKE,"American Airlines Arena is the correct name of the arena, but the game was played at American Airlines Arena in Miami, not just American Airlines Arena","The game was played at American Airlines Arena in Miami, not just American Airlines Arena",llama_medium,4892.2
+S015,2,3,64 - 52,47,49,NUMBER_MISTAKE,58-39,"The Raptors outscored the Heat 58-39 in the first half, not 64-52.",llama_medium,4892.2
+S015,3,4,50 - 38,66,68,NUMBER_MISTAKE,58-39,"The Raptors outscored the Heat 58-39 in the second half, not 50-38.",llama_medium,4892.2
+S015,5,5,Kyle Lowry,94,95,NAME_MISTAKE,DeMar DeRozan,"DeMar DeRozan led the Raptors, not Kyle Lowry.",llama_medium,4892.2
+S015,6,6,"21 points ( 8 - 18 FG , 1 - 4 3Pt , 4 - 4 FT ) , four assists and four steals",100,123,NUMBER_MISTAKE,"30 points (10-17 FG, 0-1 3Pt, 10-13 FT), four rebounds, four assists and two steals","DeMar DeRozan had 30 points, four rebounds, four assists and two steals, not 21 points, four assists and four steals.",llama_medium,4892.2
+S015,7,7,DeMarre Carroll,160,161,NAME_MISTAKE,Gerald Green,"Gerald Green came off the bench to score 20 points, not DeMarre Carroll.",llama_medium,4892.2
+S015,8,8,"20 points ( 7 - 15 FG , 5 - 10 3Pt , 1 - 1 FT )",196,213,NUMBER_MISTAKE,"20 points (7-15 FG, 5-10 3Pt, 1-1 FT)","Gerald Green had 20 points, not 20 points (7-15 FG, 5-10 3Pt, 1-1 FT).",llama_medium,4892.2
+S015,9,9,Hassan Whiteside,305,306,NAME_MISTAKE,Dwyane Wade,"Dwyane Wade led the Heat in scoring, not Hassan Whiteside.",llama_medium,4892.2
+S015,11,11,Timberwolves,380,380,NAME_MISTAKE,Cavaliers,"The Heat will travel to Cleveland to take on the Cavaliers, not the Timberwolves.",llama_medium,4892.2
+S016,1,1,Friday,25,25,NAME_MISTAKE,Thursday,Incorrect day of the week,llama_medium,4892.2
+S017,1,1,Saturday,18,18,NAME_MISTAKE,Tuesday,"The game was played on Tuesday, not Saturday.",llama_medium,4892.2
+S017,1,2,Monday,31,31,NAME_MISTAKE,Tuesday,"The game was played on Tuesday, not Monday.",llama_medium,4892.2
+S017,1,4,Friday,368,368,NAME_MISTAKE,Wednesday,"The Pistons head back home to tangle with the Atlanta Hawks on Wednesday night, not Friday night.",llama_medium,4892.2
+S019,1,1,"The Miami Heat defeated the Indiana Pacers , 113 - 95 ,",1,12,NUMBER_MISTAKE,113-95,The score is written as a range instead of a dash.,llama_medium,4892.2
+S020,1,1,Phoenix Suns,2,3,NAME,Pelicans,Incorrect team name,llama_medium,4892.2
+S022,1,1,Friday,18,18,CONTEXT,Friday evening,Incorrect time specification,llama_medium,4892.2
+S023,1,1,"Dallas Mavericks defeated the Los Angeles Lakers , 122 - 73 ,",2,13,NUMBER_MISTAKE,122-73,"The score is incorrect, it should be 122-73 instead of 122 - 73",llama_medium,4892.2
+S023,2,2,Wednesday,19,19,NAME_MISTAKE,Sunday,"The day of the week is incorrect, it should be Sunday instead of Wednesday",llama_medium,4892.2
+S023,3,3,Justin Anderson,88,89,NAME_MISTAKE,Justin Anderson is not the correct player,The player name is incorrect,llama_medium,4892.2
+S023,4,4,19,101,101,NUMBER_MISTAKE,19 points is not the correct number of points,The number of points is incorrect,llama_medium,4892.2
+S023,5,5,5 - of - 11,124,128,NUMBER_MISTAKE,5-of-11 is not the correct shooting percentage,The shooting percentage is incorrect,llama_medium,4892.2
+S025,1,1,"Kawhi Leonard added 25 points , 10 rebounds and four assists",117,127,NUMBER,four assists should be three assists,Incorrect number of assists,llama_medium,4892.2
+S025,3,3,David Lee chipped in 15 points off the bench,153,161,NUMBER,15 points should be 12 points,Incorrect number of points,llama_medium,4892.2
+S025,4,4,"Isaiah Thomas led the Celtics in scoring , with 24 points , to go along with a rebound and eight assists",163,183,NUMBER,eight assists should be seven assists,Incorrect number of assists,llama_medium,4892.2
+S025,5,5,"Avery Bradley followed up with 19 points , eight rebounds and three assists",189,201,NUMBER,eight rebounds should be seven rebounds,Incorrect number of rebounds,llama_medium,4892.2
+S025,7,7,"LaMarcus Aldridge finished with 10 points , four rebounds and four assists",228,239,NUMBER,four assists should be three assists,Incorrect number of assists,llama_medium,4892.2
+S026,1,1,Wednesday,22,22,NAME_MISTAKE,Tuesday,Incorrect day of the week,llama_medium,4892.2
+S028,1,1,Saturday,17,17,NAME_MISTAKES,Wednesday,"The game was played on Wednesday, not Saturday.",llama_medium,4892.2
+S028,1,2,31 - 21,23,25,NUMBER_MISTAKES,9-44,"The Nets' record is 9-44, not 31-21.",llama_medium,4892.2
+S028,1,3,Detroit,405,405,NAME_MISTAKES,Indiana,"The Nets will face the Indiana Pacers, not the Detroit Pistons.",llama_medium,4892.2
+S028,1,4,Phoenix,419,419,NAME_MISTAKES,Miami,"The Nets will face the Miami Heat, not the Phoenix Suns.",llama_medium,4892.2

@@ -1,0 +1,8 @@
+categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
+NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.177,0.441,0.176,0.25,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+NAME,0.251,0.689,0.245,0.609,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+NUMBER,0.151,0.315,0.177,0.149,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+WORD,0.052,0.25,0.028,0.071,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+CONTEXT,0.0,0.0,0.0,0.0,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+NOT_CHECKABLE,0.0,None,0.0,None,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts
+OTHER,0.0,None,0.0,None,/Users/areenjain/PRACTICUM/cleaned_data/results_qwen_medium_p1_run1_cleaned.csv,gsml_30_rows.csv,texts

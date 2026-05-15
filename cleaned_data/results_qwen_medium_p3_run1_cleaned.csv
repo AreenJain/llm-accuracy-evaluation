@@ -1,0 +1,153 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,2,1,Friday,49,49,WORD,Wednesday,"The game was played on Wednesday, not Friday.",qwen_medium,9369.07
+S002,1,1,Atlanta Hawks,2,3,NAME,Cleveland Cavaliers,Incorrect team name.,qwen_medium,9369.07
+S002,1,2,110 - 110,9,11,NUMBER,110 - 106,Incorrect final score.,qwen_medium,9369.07
+S002,1,3,Saturday,18,18,WORD,Tuesday,Incorrect day of the week.,qwen_medium,9369.07
+S002,5,8,struggling,26,26,CONTEXT,not struggling,Misleading context about the Hawks' performance.,qwen_medium,9369.07
+S002,3,4,Hawks outscored the Hawks,45,48,NAME,Hawks outscored the Cavaliers,Incorrect team name.,qwen_medium,9369.07
+S002,3,5,37 - 20,50,52,NUMBER,27 - 26,Incorrect fourth-quarter score.,qwen_medium,9369.07
+S002,4,6,21 assists to 19 turnovers,75,79,NUMBER,22 assists to 19 turnovers,Incorrect assist-to-turnover ratio for the Hawks.,qwen_medium,9369.07
+S002,4,7,Cavaliers committed 19 turnovers to just 21 assists,83,90,NUMBER,Cavaliers committed 6 turnovers to 21 assists,Incorrect assist-to-turnover ratio for the Cavaliers.,qwen_medium,9369.07
+S002,6,9,Dwight Howard,115,116,NAME,Dwight Howard,"Correct name, but redundant mention.",qwen_medium,9369.07
+S002,6,10,17 points,127,128,NUMBER,7 points,Incorrect points for Dwight Howard.,qwen_medium,9369.07
+S002,6,11,3 - of - 5 shooting,136,141,NUMBER,3-of-4 shooting,Incorrect shooting percentage for Dwight Howard.,qwen_medium,9369.07
+S002,7,12,Kent Bazemore was n't far behind,143,148,CONTEXT,Kent Bazemore was the leading scorer,Misleading context about Kent Bazemore's performance.,qwen_medium,9369.07
+S002,14,22,25 points,151,152,NUMBER,0 points,Incorrect points for Tristan Thompson.,qwen_medium,9369.07
+S002,8,14,Kent Bazemore was the only other starter in double figures,160,169,CONTEXT,Kent Bazemore was the leading scorer,Misleading context about Kent Bazemore's performance.,qwen_medium,9369.07
+S002,15,24,Sunday,188,188,WORD,Friday,Incorrect day of the week.,qwen_medium,9369.07
+S002,9,16,Toronto Raptors,195,196,NAME,Chicago Bulls,Incorrect next opponent for the Hawks.,qwen_medium,9369.07
+S002,11,18,23 points,236,237,NUMBER,23 points,"Correct points, but redundant mention.",qwen_medium,9369.07
+S002,12,19,29 points,256,257,NUMBER,29 points,"Correct points, but redundant mention.",qwen_medium,9369.07
+S002,12,20,four rebounds,259,260,NUMBER,1 rebound,Incorrect rebounds for Kyrie Irving.,qwen_medium,9369.07
+S002,14,23,four assists,262,263,NUMBER,0 assists,Incorrect assists for Tristan Thompson.,qwen_medium,9369.07
+S002,13,21,11 rebounds,277,278,NUMBER,12 rebounds,Incorrect rebounds for Kevin Love.,qwen_medium,9369.07
+S002,15,25,Orlando Magic,317,318,NAME,Wizards,Incorrect next opponent for the Cavaliers.,qwen_medium,9369.07
+S003,1,1,Saturday,17,17,WORD,Sunday,"The game was played on Sunday, not Saturday.",qwen_medium,9369.07
+S003,2,2,Friday,51,51,WORD,Sunday,"The game was played on Sunday, not Friday.",qwen_medium,9369.07
+S004,3,2,16,72,72,NUMBER,31,"The Jazz outscored the Lakers by 31 in the fourth quarter, not 16.",qwen_medium,9369.07
+S005,1,1,15,27,27,NUMBER,13,"The Hawks forced 13 turnovers, not 15.",qwen_medium,9369.07
+S005,2,2,Millsap was right behind him,67,71,CONTEXT,,This statement is redundant and misleading since both players scored 21 points.,qwen_medium,9369.07
+S005,6,6,one block,108,109,NUMBER,0,"Dwight Howard had 0 blocks, not 1.",qwen_medium,9369.07
+S005,3,3,27,117,117,NUMBER,8,"Kent Bazemore scored 8 points, not 27.",qwen_medium,9369.07
+S005,5,5,Millsap led the way for Orlando,149,154,CONTEXT,,"Paul Millsap played for the Hawks, not the Magic.",qwen_medium,9369.07
+S005,8,9,New York Knicks,229,231,NAME,Houston Rockets,"The Magic are heading to Houston to play the Rockets, not the New York Knicks.",qwen_medium,9369.07
+S005,8,10,Monday night,233,234,WORD,Tuesday night,"The Magic are playing on Tuesday night, not Monday night.",qwen_medium,9369.07
+S005,8,11,Toronto Raptors,244,245,NAME,Utah Jazz,"The Hawks are facing the Utah Jazz, not the Toronto Raptors.",qwen_medium,9369.07
+S005,8,12,Friday evening,247,248,WORD,Monday evening,"The Hawks are playing on Monday evening, not Friday evening.",qwen_medium,9369.07
+S006,1,1,defeated,9,9,WORD,lost to,"The Nets won, not the Rockets.",qwen_medium,9369.07
+S006,1,2,Friday,22,22,NAME,Tuesday,"The game was played on Tuesday, not Friday.",qwen_medium,9369.07
+S008,1,1,Saturday,19,19,WORD,Monday,"The game was played on Monday, not Saturday.",qwen_medium,9369.07
+S008,2,3,Tuesday,56,56,WORD,Monday,"The game was played on Monday, not Tuesday.",qwen_medium,9369.07
+S009,1,1,defeated,4,4,WORD,lost to,"The Bucks lost to the Lakers, not defeated them.",qwen_medium,9369.07
+S009,1,3,Tuesday,20,20,NAME,Friday,"The game was played on Friday, not Tuesday.",qwen_medium,9369.07
+S011,1,1,Tuesday,22,22,WORD,Wednesday,"The game was played on Wednesday, not Tuesday.",qwen_medium,9369.07
+S012,2,3,Suns,7,7,NAME,Nuggets,"The Nuggets, not the Suns, won the game.",qwen_medium,9369.07
+S012,1,1,Friday,19,19,WORD,Saturday,"The game was played on Saturday, not Friday.",qwen_medium,9369.07
+S013,1,1,Wednesday,22,22,WORD,Saturday,"The game was played on Saturday, not Wednesday.",qwen_medium,9369.07
+S014,1,1,Friday,24,24,WORD,Saturday,"The game was played on Saturday, not Friday.",qwen_medium,9369.07
+S015,1,1,Wednesday,22,22,WORD,Friday,"The game was played on Friday, not Wednesday.",qwen_medium,9369.07
+S015,7,15,Cleveland,287,287,NAME,Portland,"The Heat's next game is against the Trail Blazers, not the Cavaliers.",qwen_medium,9369.07
+S015,7,16,Timberwolves,380,380,NAME,Trail Blazers,"The Heat's next game is against the Trail Blazers, not the Timberwolves.",qwen_medium,9369.07
+S016,1,1,Friday,25,25,WORD,Thursday,"The game was played on Thursday, not Friday.",qwen_medium,9369.07
+S017,1,1,Saturday,18,18,NAME,Tuesday,Incorrect day of the week.,qwen_medium,9369.07
+S017,2,2,Monday,31,31,NAME,Tuesday,Incorrect day of the week.,qwen_medium,9369.07
+S017,2,3,Barclays Center,45,46,NAME,Quicken Loans Arena,Incorrect arena name.,qwen_medium,9369.07
+S017,3,4,Tuesday,85,85,NAME,Tuesday,Incorrect day of the week.,qwen_medium,9369.07
+S017,4,6,63,140,140,NUMBER,21,Incorrect percentage for three-point shooting.,qwen_medium,9369.07
+S017,5,7,Andre Drummond,164,165,NAME,Kyrie Irving,Incorrect player name.,qwen_medium,9369.07
+S017,5,8,eight points,178,179,NUMBER,26 points,Incorrect points scored.,qwen_medium,9369.07
+S017,5,9,one assist,184,185,NUMBER,6 assists,Incorrect assists.,qwen_medium,9369.07
+S017,6,10,Reggie Jackson,187,188,NAME,Iman Shumpert,Incorrect player name.,qwen_medium,9369.07
+S017,6,11,six points,193,194,NUMBER,18 points,Incorrect points scored.,qwen_medium,9369.07
+S017,6,12,five assists,196,197,NUMBER,5 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S017,6,13,one rebound,199,200,NUMBER,0 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S017,10,23,two rebounds,214,215,NUMBER,0 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S017,10,22,three assists,217,218,NUMBER,1 assist,Incorrect assists.,qwen_medium,9369.07
+S017,7,14,Marcus Morris,223,224,NAME,Tobias Harris,Incorrect player name.,qwen_medium,9369.07
+S017,7,15,seven boards,232,233,NUMBER,2 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S017,11,25,12 points,252,253,NUMBER,12 points,Correct points scored.,qwen_medium,9369.07
+S017,9,17,Richard Jefferson and Richard Jefferson,264,268,NAME,Richard Jefferson and Derrick Williams,Incorrect player names.,qwen_medium,9369.07
+S017,9,19,eight boards,297,298,NUMBER,0 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S017,10,20,Deron Williams,306,307,NAME,Derrick Williams,Incorrect player name.,qwen_medium,9369.07
+S017,10,21,13 points,311,312,NUMBER,13 points,Correct points scored.,qwen_medium,9369.07
+S017,11,24,Kyle Korver,323,324,NAME,JR Smith,Incorrect player name.,qwen_medium,9369.07
+S017,11,26,five boards,329,330,NUMBER,5 rebounds,Correct rebounds.,qwen_medium,9369.07
+S017,9,18,16 points,344,345,NUMBER,13 points,Incorrect points scored.,qwen_medium,9369.07
+S020,1,1,Phoenix Suns,2,3,NAME,New Orleans Pelicans,Incorrect team name and city.,qwen_medium,9369.07
+S020,1,2,111 - 106,10,12,NUMBER,106 - 111,Incorrect final score.,qwen_medium,9369.07
+S020,2,4,disappointing loss to the Pelicans,36,40,CONTEXT,disappointing loss to the Suns,Incorrect context about the previous game.,qwen_medium,9369.07
+S020,3,5,"However ,",59,60,WORD,,"Redundant sentence, already mentioned in the previous sentence.",qwen_medium,9369.07
+S020,5,7,Eric Bledsoe,118,119,NAME,Anthony Davis,Incorrect player name.,qwen_medium,9369.07
+S020,5,8,14 points,121,122,NUMBER,34 points,Incorrect points scored.,qwen_medium,9369.07
+S020,5,9,seven rebounds,128,129,NUMBER,9 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S020,5,10,a pair of blocks,134,137,NUMBER,5 blocks,Incorrect blocks.,qwen_medium,9369.07
+S020,6,11,Devin Booker,139,140,NAME,Jrue Holiday,Incorrect player name.,qwen_medium,9369.07
+S020,6,13,two rebounds,152,153,NUMBER,9 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S020,6,14,a steal,155,156,NUMBER,3 steals,Incorrect steals.,qwen_medium,9369.07
+S020,10,25,Marquese Chriss,158,159,NAME,Devin Booker,Incorrect player name.,qwen_medium,9369.07
+S020,7,16,12 points,162,163,NUMBER,12 points,"Correct points, but player name is wrong.",qwen_medium,9369.07
+S020,7,17,three rebounds,165,166,NUMBER,4 rebounds,Incorrect rebounds.,qwen_medium,9369.07
+S020,7,18,a block,174,175,NUMBER,0 blocks,Incorrect blocks.,qwen_medium,9369.07
+S020,8,19,PJ Tucker,177,178,NAME,Buddy Hield,Incorrect player name.,qwen_medium,9369.07
+S020,8,21,an assist,189,190,NUMBER,4 assists,Incorrect assists.,qwen_medium,9369.07
+S020,9,22,Phoenix was led by Eric Bledsoe,195,200,NAME,Phoenix was led by T.J. Warren,Incorrect player name.,qwen_medium,9369.07
+S021,6,5,Kings,7,7,NAME,Rockets,"The Rockets, not the Kings, pulled away in the fourth quarter.",qwen_medium,9369.07
+S021,1,1,Saturday,18,18,WORD,Friday,"The game was played on Friday, not Saturday.",qwen_medium,9369.07
+S022,3,1,8 ties and 10 lead,41,45,NUMBER,No information about ties and lead changes in the box score,The box score does not provide information about ties and lead changes.,qwen_medium,9369.07
+S022,3,2,neither team leading by more,51,55,CONTEXT,No information about lead margins in the box score,The box score does not provide information about lead margins.,qwen_medium,9369.07
+S022,4,3,46 percent from the field,73,77,NUMBER,46 percent,"Correct, but redundant with the later statement.",qwen_medium,9369.07
+S022,4,4,22 percent from three -,79,83,NUMBER,22 percent,"Correct, but redundant with the later statement.",qwen_medium,9369.07
+S022,5,5,43 - 34,102,104,NUMBER,43 - 34,"Correct, but redundant with the later statement.",qwen_medium,9369.07
+S022,6,6,Anthony Davis led the Timberwolves,106,110,NAME,Anthony Davis led the Pelicans,"Anthony Davis played for the Pelicans, not the Timberwolves.",qwen_medium,9369.07
+S022,6,7,8 - of - 11,126,130,NUMBER,8 - of - 11,"Correct, but redundant with the later statement.",qwen_medium,9369.07
+S022,7,8,second on the team,141,144,WORD,second on the Pelicans,"Jrue Holiday played for the Pelicans, not the Timberwolves.",qwen_medium,9369.07
+S022,8,9,Buddy Hield was second on the team,158,164,WORD,Buddy Hield was third on the Pelicans,"Buddy Hield played for the Pelicans, not the Timberwolves.",qwen_medium,9369.07
+S022,10,12,17 points,169,170,NUMBER,36 points,"Karl-Anthony Towns scored 36 points, not Buddy Hield.",qwen_medium,9369.07
+S022,9,10,Gorgui Dieng finished with eight,179,183,NUMBER,Gorgui Dieng finished with 8 points,"Correct, but redundant with the later statement.",qwen_medium,9369.07
+S022,10,11,Buddy Hield led Minnesota in scoring,192,197,NAME,Karl-Anthony Towns led Minnesota in scoring,Buddy Hield did not lead Minnesota in scoring; Karl-Anthony Towns did.,qwen_medium,9369.07
+S022,11,13,Gorgui Dieng amassed eight points,217,221,NUMBER,Gorgui Dieng finished with 8 points,"Correct, but redundant with the earlier statement.",qwen_medium,9369.07
+S022,12,14,"Friday ,",236,237,NUMBER,Sunday,"The next game is on Sunday, not Friday.",qwen_medium,9369.07
+S022,12,15,Oklahoma City Thunder,242,244,NAME,Chicago Bulls,"The Timberwolves are playing the Bulls, not the Thunder.",qwen_medium,9369.07
+S022,13,16,17th win at Verizon Center,272,276,NUMBER,21st win overall,"The Pelicans have 21 wins, not 17, and the game was not at Verizon Center.",qwen_medium,9369.07
+S022,14,17,Anthony Davis led the way,278,282,NAME,Anthony Davis led the Pelicans,"Anthony Davis played for the Pelicans, not the Timberwolves.",qwen_medium,9369.07
+S022,15,18,Jrue Holiday finished second on the team,295,301,WORD,Jrue Holiday finished second on the Pelicans,"Jrue Holiday played for the Pelicans, not the Timberwolves.",qwen_medium,9369.07
+S023,1,1,Wednesday,19,19,WORD,Sunday,"The game was played on Sunday, not Wednesday.",qwen_medium,9369.07
+S023,4,3,17,85,85,NUMBER,10,"The Mavericks forced 10 turnovers, not 17.",qwen_medium,9369.07
+S024,1,1,Saturday,18,18,DAY,Friday,"The game was played on Friday, not Saturday.",qwen_medium,9369.07
+S024,2,2,Wednesday,29,29,DAY,Friday,"The game was played on Friday, not Wednesday.",qwen_medium,9369.07
+S024,2,5,season - high 114 points,70,74,CONTEXT,,"The Warriors scored 114 points, not the Kings.",qwen_medium,9369.07
+S024,4,6,seven rebounds,91,92,NUMBER,6,"Stephen Curry had 6 rebounds, not 7.",qwen_medium,9369.07
+S024,5,7,four rebounds,103,104,NUMBER,4,"Draymond Green had 4 rebounds, not 4 (already correct).",qwen_medium,9369.07
+S024,6,8,a rebound,125,126,NUMBER,1,"Skal Labissiere had 1 rebound, not a single unspecified rebound.",qwen_medium,9369.07
+S024,7,9,The Warriors were led by Buddy Hield,137,143,CONTEXT,,"Buddy Hield led the Kings, not the Warriors.",qwen_medium,9369.07
+S024,8,10,"posted a 23 - point , 4 - assist double - double",163,174,NUMBER,"23 points, 8 assists","Draymond Green had 23 points and 8 assists, not 23 points and 4 assists.",qwen_medium,9369.07
+S024,9,11,10 rebounds,197,198,NUMBER,10,"Skal Labissiere had 10 rebounds, not 10 (already correct).",qwen_medium,9369.07
+S024,10,12,Ben McLemore led the second unit,206,211,CONTEXT,,"Ben McLemore did not lead the second unit; he scored 11 points, but Skal Labissiere had 10 points and 10 rebounds.",qwen_medium,9369.07
+S024,11,13,Stephen Curry paced the Kings,225,229,CONTEXT,,"Stephen Curry paced the Warriors, not the Kings.",qwen_medium,9369.07
+S024,12,14,bench - leading,257,259,CONTEXT,,"Buddy Hield started the game, not coming off the bench.",qwen_medium,9369.07
+S024,13,15,"totaled 23 points , eight assists",278,283,NUMBER,"23 points, 8 assists","Draymond Green had 23 points and 8 assists, not 23 points and 8 assists (already correct).",qwen_medium,9369.07
+S024,14,16,Willie Cauley-Stein totaled 12 points and four rebounds,294,301,NUMBER,"12 points, 4 rebounds","Willie Cauley-Stein had 12 points and 4 rebounds, not 12 points and 4 rebounds (already correct).",qwen_medium,9369.07
+S026,1,3,Wednesday,22,22,WORD,Tuesday,Incorrect day of the week.,qwen_medium,9369.07
+S027,1,1,defeated,10,10,WORD,lost to,"The Knicks lost the game, not won.",qwen_medium,9369.07
+S027,1,3,Wednesday,23,23,NAME,Sunday,"The game was played on Sunday, not Wednesday.",qwen_medium,9369.07
+S028,1,1,Saturday,17,17,WORD,Wednesday,Incorrect day of the week.,qwen_medium,9369.07
+S028,2,2,mocked for some time,29,32,CONTEXT,,This statement is not supported by the box score and is misleading.,qwen_medium,9369.07
+S028,2,3,first - round win,50,53,CONTEXT,,This statement is not supported by the box score and is misleading.,qwen_medium,9369.07
+S028,5,6,31 - 22,89,91,NUMBER,31 - 22,"Correct, but redundant with the previous mistake.",qwen_medium,9369.07
+S028,6,7,59 - 48,123,125,NUMBER,59 - 49,Incorrect halftime score.,qwen_medium,9369.07
+S028,7,8,23 - point,140,142,NUMBER,23 points,"Correct, but redundant with the previous mistake.",qwen_medium,9369.07
+S028,7,9,2 rebounds,155,156,NUMBER,6 rebounds,Incorrect number of rebounds for John Wall.,qwen_medium,9369.07
+S028,15,18,Sean Kilpatrick led the second unit,202,207,CONTEXT,,"Sean Kilpatrick did not lead the second unit; he managed 10 points, 4 rebounds, and 2 assists.",qwen_medium,9369.07
+S028,8,10,Bradley Beal led the way for Brooklyn,218,224,CONTEXT,,Bradley Beal did not lead the Nets; Bojan Bogdanovic did.,qwen_medium,9369.07
+S028,13,16,31 points,226,227,NUMBER,21 points,Incorrect points for Bojan Bogdanovic.,qwen_medium,9369.07
+S028,10,12,"Otto Porter , Jr",238,241,NAME,Otto Porter Jr.,Missing comma and period.,qwen_medium,9369.07
+S028,11,13,Jason Smith led the second unit,286,291,CONTEXT,,"Jason Smith did not lead the second unit; he led the second unit with 15 points, 8 rebounds, and 1 steal.",qwen_medium,9369.07
+S028,13,15,Bradley Beal led the Nets,318,322,CONTEXT,,Bradley Beal did not lead the Nets; Bojan Bogdanovic did.,qwen_medium,9369.07
+S028,14,17,Bojan Bogdanovic,336,337,NAME,Bojan Bogdanovic,"Correct, but redundant with the previous mistake.",qwen_medium,9369.07
+S028,16,19,Detroit Pistons,405,406,NAME,Indiana Pacers,Incorrect opponent for the Wizards.,qwen_medium,9369.07
+S028,16,20,Phoenix Suns,419,420,NAME,Miami Heat,Incorrect opponent for the Nets.,qwen_medium,9369.07
+S029,1,1,Wednesday,17,17,WORD,Monday,"The game was played on Monday, not Wednesday.",qwen_medium,9369.07
+S029,2,2,Friday,29,29,WORD,Monday,"The game was played on Monday, not Friday.",qwen_medium,9369.07
+S030,1,1,Wednesday,18,18,NAME,Monday,"The game was played on Monday, not Wednesday.",qwen_medium,9369.07
+S030,2,2,overtime,35,35,WORD,,The game was not an overtime game.,qwen_medium,9369.07
+S030,8,16,Monday,192,192,NAME,Wednesday,"The Hornets' next game is on Wednesday, not Monday.",qwen_medium,9369.07

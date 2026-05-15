@@ -1,0 +1,44 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S002,1,3,Saturday,18,18,NAME,Tuesday,Incorrect day of the week,llama_medium,4622.22
+S002,8,10,Sunday,188,188,NAME,Wednesday,Incorrect day of the week,llama_medium,4622.22
+S002,9,11,Toronto Raptors,195,196,NAME,Chicago Bulls,Incorrect team name,llama_medium,4622.22
+S002,11,13,Orlando Magic,317,318,NAME,Washington Wizards,Incorrect team name,llama_medium,4622.22
+S003,1,1,Saturday evening,17,18,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,20,21,Friday,51,51,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S006,1,2,Friday,22,22,CONTEXT,Tuesday,Incorrect date,llama_medium,4622.22
+S011,1,1,Tuesday at Philips Arena in Atlanta,22,27,CONTEXT,Wednesday,"The game was played on Wednesday, not Tuesday.",llama_medium,4622.22
+S011,2,2,29 - 18,46,48,NUMBER,28,The Hawks outscored the Wizards 28-18 in the first quarter.,llama_medium,4622.22
+S011,3,3,28 - 18,65,67,NUMBER,30,The Hawks outscored the Wizards 30-18 in the third quarter.,llama_medium,4622.22
+S011,4,4,44 percent,99,100,NUMBER,48,The Hawks shot 48 percent from the field.,llama_medium,4622.22
+S011,5,5,25 percent,120,121,NUMBER,25,The Wizards shot 25 percent from the three-point line.,llama_medium,4622.22
+S011,6,6,14 turnovers,135,136,NUMBER,12,The Hawks forced the Wizards into 12 turnovers.,llama_medium,4622.22
+S011,7,7,John Wall,154,155,NAME,Jeff Teague,"Jeff Teague was Atlanta's top scorer, not John Wall.",llama_medium,4622.22
+S011,8,8,24 points,190,191,NUMBER,26,Jeff Teague recorded 26 points.,llama_medium,4622.22
+S011,15,15,Friday,394,394,WORD,Friday,The Hawks will welcome the Golden State Warriors to town on Friday.,llama_medium,4622.22
+S012,1,1,Friday evening,19,20,CONTEXT,Saturday evening,Incorrect day of the week,llama_medium,4622.22
+S012,2,2,worst,36,36,WORD,best,Incorrect word choice,llama_medium,4622.22
+S012,3,3,Six,57,57,NUMBER,Four,Incorrect number of players,llama_medium,4622.22
+S015,1,1,Wednesday at American Airlines Arena,22,26,CONTEXT,Friday night in Miami,Incorrect day and location,llama_medium,4622.22
+S015,2,2,They were also able to out - score,56,63,CONTEXT,They were also able to out-score the Heat 50-38 in the second half,Incorrect scoring information,llama_medium,4622.22
+S015,3,3,DeMarre Carroll,160,161,NAME,DeMar DeRozan,Incorrect player name,llama_medium,4622.22
+S015,4,4,Gerald Green,188,189,NAME,Goran Dragic,Incorrect player name,llama_medium,4622.22
+S015,8,8,Cavaliers,292,292,NAME,Trail Blazers,Incorrect team name,llama_medium,4622.22
+S015,7,7,Sunday night,294,295,CONTEXT,Sunday,Incorrect day,llama_medium,4622.22
+S015,6,6,Hassan Whiteside,305,306,NAME,Hassan is not mentioned in the original text,Incorrect player name,llama_medium,4622.22
+S015,9,9,Timberwolves,380,380,NAME,Not mentioned in the original text,Incorrect team name,llama_medium,4622.22
+S017,1,1,Saturday evening,18,19,CONTEXT,Tuesday evening,Incorrect day of the week,llama_medium,4622.22
+S017,4,4,Barclays Center,45,46,NAME,Quicken Loans Arena,Incorrect arena name,llama_medium,4622.22
+S017,6,6,paltry,154,154,WORD,paltry,Incorrect word choice,llama_medium,4622.22
+S017,5,5,63 percent success rate from behind the arc,155,162,CONTEXT,63 percent from three-point range,Misleading context,llama_medium,4622.22
+S017,7,7,Richard Jefferson and Richard Jefferson,264,268,CONTEXT,Reggie Jefferson,Incorrect player name,llama_medium,4622.22
+S017,8,8,Friday night,368,369,CONTEXT,Thursday evening,Incorrect day of the week,llama_medium,4622.22
+S017,9,9,Friday evening,382,383,CONTEXT,Friday evening,Incorrect day of the week,llama_medium,4622.22
+S018,8,10,Friday,398,398,CONTEXT,Thursday,Incorrect day of the week.,llama_medium,4622.22
+S019,1,1,Saturday evening,18,19,CONTEXT,Saturday night,Saturday evening is misleading because the game was played at night,llama_medium,4622.22
+S019,2,2,The Heat were expected to win this game easily,21,29,CONTEXT,The Heat took care of business in this wire-to-wire win,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,3,3,In fact,45,46,CONTEXT,The assist-to-turnover ratio was the decisive statistic,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,4,4,Paul George led the way for Indiana,128,134,CONTEXT,Paul George led the way for Indiana,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,5,5,Goran Dragic was the player of the game,228,235,CONTEXT,Goran Dragic was the player of the game,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,6,6,Hassan Whiteside recorded a double - double,256,262,CONTEXT,Hassan Whiteside recorded a double-double,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S024,1,1,Saturday,18,18,WORD,Friday,Incorrect day of the week,llama_medium,4622.22
+S028,1,1,Saturday evening,17,18,CONTEXT,Wednesday,Incorrect day of the week,llama_medium,4622.22

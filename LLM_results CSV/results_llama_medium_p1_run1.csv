@@ -1,0 +1,298 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S001,1,1,Los Angeles,,,NAME,Lakers,Team name is incorrect,llama_medium,5163.05
+S001,1,2,113 - 107,10.0,12.0,NUMBER,"113-107 is correct, but the actual score is not provided",Score is not checkable,llama_medium,5163.05
+S001,2,3,double-digit,,,NUMBER,single-digit,Favorite status is incorrect,llama_medium,5163.05
+S001,3,4,Friday,49.0,49.0,NAME,Wednesday,Day of the week is incorrect,llama_medium,5163.05
+S001,4,5,Detroit,220.0,220.0,NAME,Toronto,Team name is incorrect,llama_medium,5163.05
+S002,1,1,Atlanta Hawks,,,NAME,Cavaliers,The team name is incorrect.,llama_medium,5163.05
+S002,1,2,Saturday,18.0,18.0,NAME,Tuesday,The day of the week is incorrect.,llama_medium,5163.05
+S002,1,3,110 - 110,9.0,11.0,NUMBER,110-106,The score is incorrect.,llama_medium,5163.05
+S002,2,4,outscored,46.0,46.0,WORD,out-scored,The word is misspelled.,llama_medium,5163.05
+S002,3,5,21 assists to 19 turnovers,75.0,79.0,NUMBER,21 assists to 19 turnovers,The statistics are incorrect.,llama_medium,5163.05
+S002,4,6,"17 points , 17 rebounds",127.0,131.0,NUMBER,"17 points, 17 rebounds",The statistics are incorrect.,llama_medium,5163.05
+S002,5,7,"25 points , six rebounds and three assists",151.0,158.0,NUMBER,"25 points, six rebounds and three assists",The statistics are incorrect.,llama_medium,5163.05
+S002,6,8,Sunday,188.0,188.0,NAME,Wednesday,The day of the week is incorrect.,llama_medium,5163.05
+S002,7,9,Toronto,195.0,195.0,NAME,Chicago,The team name is incorrect.,llama_medium,5163.05
+S002,8,10,Orlando,317.0,317.0,NAME,Washington,The team name is incorrect.,llama_medium,5163.05
+S003,1,1,Saturday,17.0,17.0,NAME,Sunday,Incorrect day of the week.,llama_medium,5163.05
+S003,2,2,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,3,3,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,4,4,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,5,5,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,6,6,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,7,7,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,8,8,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,9,9,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,10,10,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,11,11,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,12,12,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,13,13,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,14,14,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,15,15,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,16,16,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,17,17,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,18,18,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,19,19,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S003,20,20,Friday,51.0,51.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S004,1,1,Friday,21.0,21.0,NAME,Friday,Day of the week is a name.,llama_medium,5163.05
+S004,1,2,Vivint Smart Home Arena,,,NAME,Vivint Smart Home Arena,Arena name is a name.,llama_medium,5163.05
+S004,2,3,16,72.0,72.0,NUMBER,20,Incorrect number of points.,llama_medium,5163.05
+S004,3,4,38,91.0,91.0,NUMBER,43,Incorrect number of rebounds.,llama_medium,5163.05
+S004,4,5,24,97.0,97.0,NUMBER,24,Incorrect number of rebounds.,llama_medium,5163.05
+S004,5,6,17,164.0,164.0,NUMBER,17,Incorrect number of points.,llama_medium,5163.05
+S004,6,7,Sunday,248.0,248.0,NAME,Sunday,Day of the week is a name.,llama_medium,5163.05
+S004,7,8,Portland Trail Blazers,,,NAME,Portland Trail Blazers,Team name is a name.,llama_medium,5163.05
+S004,8,9,Sunday,248.0,248.0,NAME,Sunday,Day of the week is a name.,llama_medium,5163.05
+S004,9,10,Los Angeles Clippers,,,NAME,Los Angeles Clippers,Team name is a name.,llama_medium,5163.05
+S005,1,1,35,8.0,8.0,NUMBER,26,"The Hawks held the Magic to a 26 percent success rate from the floor, not 35.",llama_medium,5163.05
+S005,1,2,15,27.0,27.0,NUMBER,48,"The Hawks elicited 48 turnovers from the Magic, not 15.",llama_medium,5163.05
+S005,2,3,Kent Bazemore,,,NAME,Paul Millsap,"Paul Millsap led the way for the Hawks, not Kent Bazemore.",llama_medium,5163.05
+S005,2,4,27,117.0,117.0,NUMBER,21,"Kent Bazemore led the bench with 21 points, not 27.",llama_medium,5163.05
+S005,3,5,New York,,,NAME,Utah,"The Magic head back home to face off with the Utah Jazz, not the New York Knicks.",llama_medium,5163.05
+S006,1,1,Friday,22.0,22.0,NAME,Tuesday,Incorrect day of the week.,llama_medium,5163.05
+S006,2,2,2,80.0,80.0,NUMBER,0,Incorrect number of points.,llama_medium,5163.05
+S006,3,3,four,83.0,83.0,NUMBER,nine,Incorrect number of assists.,llama_medium,5163.05
+S006,4,4,three,57.0,57.0,NUMBER,five,Incorrect number of steals.,llama_medium,5163.05
+S006,5,5,24,151.0,151.0,NUMBER,20,Incorrect number of points.,llama_medium,5163.05
+S006,6,6,12,7.0,7.0,NUMBER,5,Incorrect number of rebounds.,llama_medium,5163.05
+S006,7,7,five,157.0,157.0,NUMBER,9,Incorrect number of assists.,llama_medium,5163.05
+S006,8,8,Friday,22.0,22.0,NAME,Wednesday,Incorrect day of the week.,llama_medium,5163.05
+S007,1,1,Russell Westbrook and Russell Westbrook,,,NAME,Russell Westbrook,Repeated name,llama_medium,5163.05
+S007,1,2,36 minutes,,,NUMBER,"36 minutes is the time for Westbrook, not Westbrook and Westbrook",Incorrect time,llama_medium,5163.05
+S007,1,3,11 rebounds,,,NUMBER,"11 rebounds is the stat for Westbrook, not Westbrook and Westbrook",Incorrect rebounds,llama_medium,5163.05
+S007,1,4,seven assists,,,NUMBER,"seven assists is the stat for Westbrook, not Westbrook and Westbrook",Incorrect assists,llama_medium,5163.05
+S007,1,5,four steals,,,NUMBER,"four steals is the stat for Westbrook, not Westbrook and Westbrook",Incorrect steals,llama_medium,5163.05
+S007,1,6,one block,,,NUMBER,"one block is the stat for Westbrook, not Westbrook and Westbrook",Incorrect block,llama_medium,5163.05
+S007,1,7,11 - of - 21 shooting,,,NUMBER,"11 - of - 21 shooting is the stat for Westbrook, not Westbrook and Westbrook",Incorrect shooting,llama_medium,5163.05
+S007,1,8,36 minutes,,,NUMBER,"36 minutes is the time for Westbrook, not Westbrook and Westbrook",Incorrect time,llama_medium,5163.05
+S007,1,9,11 rebounds,,,NUMBER,"11 rebounds is the stat for Westbrook, not Westbrook and Westbrook",Incorrect rebounds,llama_medium,5163.05
+S007,1,10,seven assists,,,NUMBER,"seven assists is the stat for Westbrook, not Westbrook and Westbrook",Incorrect assists,llama_medium,5163.05
+S007,1,11,three steals,,,NUMBER,"three steals is the stat for Westbrook, not Westbrook and Westbrook",Incorrect steals,llama_medium,5163.05
+S007,1,12,one block,,,NUMBER,"one block is the stat for Westbrook, not Westbrook and Westbrook",Incorrect block,llama_medium,5163.05
+S007,1,13,11 - of - 21 shooting,,,NUMBER,"11 - of - 21 shooting is the stat for Westbrook, not Westbrook and Westbrook",Incorrect shooting,llama_medium,5163.05
+S008,1,1,Saturday,19.0,19.0,NAME,Monday,Incorrect day of the week.,llama_medium,5163.05
+S008,2,2,six,36.0,36.0,NUMBER,five,Incorrect number of road wins.,llama_medium,5163.05
+S008,3,3,second,82.0,82.0,NUMBER,first,Incorrect quarter.,llama_medium,5163.05
+S008,4,4,five,118.0,118.0,NUMBER,seven,Incorrect number of assists.,llama_medium,5163.05
+S008,5,5,four,245.0,245.0,NUMBER,three,Incorrect number of rebounds.,llama_medium,5163.05
+S008,6,6,48,207.0,207.0,NUMBER,47,Incorrect field goal percentage.,llama_medium,5163.05
+S008,7,7,29,213.0,213.0,NUMBER,38,Incorrect three-point percentage.,llama_medium,5163.05
+S008,8,8,Monday,379.0,379.0,NAME,Tuesday,Incorrect day of the week.,llama_medium,5163.05
+S009,1,1,122,10.0,10.0,NUMBER,114,Incorrect score,llama_medium,5163.05
+S009,1,2,122,10.0,10.0,NUMBER,114,Incorrect score,llama_medium,5163.05
+S009,2,3,Los Angeles,,,NAME,Milwaukee,Incorrect team name,llama_medium,5163.05
+S009,2,4,Lakers,8.0,8.0,NAME,Bucks,Incorrect team name,llama_medium,5163.05
+S009,3,5,122,10.0,10.0,NUMBER,114,Incorrect score,llama_medium,5163.05
+S009,3,6,122,10.0,10.0,NUMBER,114,Incorrect score,llama_medium,5163.05
+S009,4,7,D'Angelo,117.0,117.0,NAME,Giannis,Incorrect player name,llama_medium,5163.05
+S009,4,8,Luol,145.0,145.0,NAME,Khris,Incorrect player name,llama_medium,5163.05
+S009,5,9,41,129.0,129.0,NUMBER,41,Incorrect points,llama_medium,5163.05
+S009,5,10,three,132.0,132.0,NUMBER,five,Incorrect number of assists,llama_medium,5163.05
+S009,6,11,18,259.0,259.0,NUMBER,18,Incorrect points,llama_medium,5163.05
+S009,6,12,six,245.0,245.0,NUMBER,six,Incorrect number of assists,llama_medium,5163.05
+S009,7,13,Greg,268.0,268.0,NAME,Giannis,Incorrect player name,llama_medium,5163.05
+S010,1,1,11 ties,,,NUMBER,11 lead changes,"The text says 11 ties, but the correct information is 11 lead changes.",llama_medium,5163.05
+S010,2,2,43 percent,,,NUMBER,40 percent,"The text says 43 percent, but the correct information is 40 percent.",llama_medium,5163.05
+S010,2,3,53 percent,,,NUMBER,32 percent,"The text says 53 percent, but the correct information is 32 percent.",llama_medium,5163.05
+S010,3,4,17 turnovers,,,NUMBER,12 turnovers,"The text says 17 turnovers, but the correct information is 12 turnovers.",llama_medium,5163.05
+S010,4,5,19 assists,,,NUMBER,"19 assists is correct, but the text says 19 assists for the Hawks, while the correct information is for the Magic","The text says 19 assists for the Hawks, but the correct information is for the Magic.",llama_medium,5163.05
+S010,5,6,Dennis Schroder,,,NAME,"Dennis Schroeder is correct, but the text says he was the player of the game for the Hawks, while the correct information is for the Magic","The text says Dennis Schroder was the player of the game for the Hawks, but the correct information is for the Magic.",llama_medium,5163.05
+S010,6,7,Nikola Vucevic,,,NAME,"Nikola Vucevic is correct, but the text says he was the player of the game for the Hawks, while the correct information is for the Magic","The text says Nikola Vucevic was the player of the game for the Hawks, but the correct information is for the Magic.",llama_medium,5163.05
+S011,1,1,Tuesday,22.0,22.0,NAME,Wednesday,Incorrect day of the week.,llama_medium,5163.05
+S011,1,2,Philips Arena,,,NAME," Philips Arena is correct, but the game was played in Atlanta, not at Philips Arena",Incorrect arena name.,llama_medium,5163.05
+S011,1,3,29 - 18,46.0,48.0,NUMBER,28,Incorrect score.,llama_medium,5163.05
+S011,1,4,28 - 18,65.0,67.0,NUMBER,30,Incorrect score.,llama_medium,5163.05
+S011,1,5,44,99.0,99.0,NUMBER,25,Incorrect 3-point percentage.,llama_medium,5163.05
+S011,1,6,48,93.0,93.0,NUMBER,44,Incorrect field goal percentage.,llama_medium,5163.05
+S011,1,7,14,135.0,135.0,NUMBER,12,Incorrect number of turnovers.,llama_medium,5163.05
+S011,1,8,12,141.0,141.0,NUMBER,14,Incorrect number of turnovers.,llama_medium,5163.05
+S011,1,9,John,154.0,154.0,NAME,Jeff,Incorrect player name.,llama_medium,5163.05
+S011,1,10,Bradley,157.0,157.0,NAME,"Bradley is correct, but the player is not John Wall",Incorrect player name.,llama_medium,5163.05
+S011,1,11,9 - for - 15,162.0,166.0,NUMBER,"9-for-15 is incorrect, but the actual stats are not provided",Incorrect stats.,llama_medium,5163.05
+S011,1,12,3 - for - 5,171.0,175.0,NUMBER,"3-for-5 is incorrect, but the actual stats are not provided",Incorrect stats.,llama_medium,5163.05
+S011,1,13,Paul,238.0,238.0,NAME,"Paul is correct, but the player is not John Wall",Incorrect player name.,llama_medium,5163.05
+S011,1,14,11,242.0,242.0,NUMBER,"11 is incorrect, but the actual stats are not provided",Incorrect stats.,llama_medium,5163.05
+S011,1,15,21,281.0,281.0,NUMBER,"21 is incorrect, but the actual stats are not provided",Incorrect stats.,llama_medium,5163.05
+S011,1,16,13,376.0,376.0,NUMBER,"13 is incorrect, but the actual stats are not provided",Incorrect stats.,llama_medium,5163.05
+S011,1,17,Friday,394.0,394.0,NAME,"Friday is correct, but the actual day is not provided",Incorrect day.,llama_medium,5163.05
+S011,1,18,Cleveland,405.0,405.0,NAME,"Cleveland is correct, but the actual team is not provided",Incorrect team.,llama_medium,5163.05
+S012,1,1,Friday,19.0,19.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S012,1,2,Phoenix Suns,,,NAME,Phoenix Suns,Incorrect team name.,llama_medium,5163.05
+S012,1,3,Phoenix Suns,,,NAME,Phoenix Suns,Incorrect team name.,llama_medium,5163.05
+S012,1,4,Friday,19.0,19.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S013,1,1,Wednesday,22.0,22.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S013,1,2,Quicken Loans Arena,,,NAME,Talking Stick Resort Arena,Incorrect arena name.,llama_medium,5163.05
+S014,1,1,Friday,24.0,24.0,NAME,Saturday,Incorrect day of the week.,llama_medium,5163.05
+S014,2,2,44,91.0,91.0,NUMBER,49,Incorrect field goal percentage.,llama_medium,5163.05
+S014,2,3,30,98.0,98.0,NUMBER,40,Incorrect three-point percentage.,llama_medium,5163.05
+S014,3,4,37,160.0,160.0,NUMBER,29,Incorrect total points.,llama_medium,5163.05
+S014,4,5,22,228.0,228.0,NUMBER,56,Incorrect total points and rebounds.,llama_medium,5163.05
+S014,5,6,20,189.0,189.0,NUMBER,21,Incorrect points.,llama_medium,5163.05
+S014,6,7,2,16.0,16.0,NUMBER,1,Incorrect number of rebounds.,llama_medium,5163.05
+S014,7,8,4,194.0,194.0,NUMBER,2,Incorrect number of steals.,llama_medium,5163.05
+S014,8,9,Friday,24.0,24.0,NAME,"Friday is correct, but the sentence is incorrect because the Trail Blazers are the home team, not the visiting team.",Incorrect sentence.,llama_medium,5163.05
+S015,1,1,Wednesday,22.0,22.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S015,1,2,American Airlines Arena,,,,,,llama_medium,5163.05
+S016,1,1,Friday,25.0,25.0,NAME,Thursday,Incorrect day of the week.,llama_medium,5163.05
+S016,2,2,Chesapeake Energy Arena,,,NAME,N/A,Incorrect arena name.,llama_medium,5163.05
+S016,3,3,29 - 8,57.0,59.0,NUMBER,29-8,Incorrect score.,llama_medium,5163.05
+S016,4,4,59 - 42,99.0,101.0,NUMBER,59-42,Incorrect score.,llama_medium,5163.05
+S016,5,5,Russell,119.0,119.0,NAME,Russell Westbrook,Incorrect player name.,llama_medium,5163.05
+S016,6,6,15,128.0,128.0,NUMBER,20,Incorrect points scored.,llama_medium,5163.05
+S016,7,7,six,237.0,237.0,NUMBER,seven,Incorrect number of players.,llama_medium,5163.05
+S016,8,8,Gordon,234.0,234.0,NAME,Gordon Hayward,Incorrect player name.,llama_medium,5163.05
+S016,9,9,six,237.0,237.0,NUMBER,seven,Incorrect number of players.,llama_medium,5163.05
+S016,10,10,Saturday,448.0,448.0,NAME,N/A,Incorrect day of the week.,llama_medium,5163.05
+S017,1,1,Saturday,18.0,18.0,NAME,Tuesday,Incorrect day of the week.,llama_medium,5163.05
+S017,1,2,Monday,31.0,31.0,NAME,Tuesday,Incorrect day of the week.,llama_medium,5163.05
+S017,1,3,Barclays,45.0,45.0,NAME,Quicken Loans,Incorrect arena name.,llama_medium,5163.05
+S017,1,4,Atlanta,365.0,365.0,NAME,Utah,Incorrect team name.,llama_medium,5163.05
+S017,1,5,Friday,368.0,368.0,NAME,Wednesday,Incorrect day of the week.,llama_medium,5163.05
+S017,1,6,Philadelphia,379.0,379.0,NAME,Utah,Incorrect team name.,llama_medium,5163.05
+S018,1,1,Wednesday,24.0,24.0,NAME,Wednesday,The game was played on Wednesday.,llama_medium,5163.05
+S018,2,2,Oracle Arena in Oakland,,,NAME,Oracle Arena in Oakland,The game was played at Oracle Arena in Oakland.,llama_medium,5163.05
+S018,3,3,42,42.0,42.0,NUMBER,45,The Warriors shot 45 percent from the field.,llama_medium,5163.05
+S018,4,4,29,48.0,48.0,NUMBER,44,The Warriors shot 44 percent from the three-point line.,llama_medium,5163.05
+S018,5,5,42,42.0,42.0,NUMBER,42,The Clippers shot 42 percent from the field.,llama_medium,5163.05
+S018,6,6,29,48.0,48.0,NUMBER,29,The Clippers shot 29 percent from the three-point line.,llama_medium,5163.05
+S018,7,7,Stephen Curry and Klay Thompson,,,NAME,Stephen Curry and Klay Thompson,The Warriors were led by Stephen Curry and Klay Thompson.,llama_medium,5163.05
+S018,8,8,33,97.0,97.0,NUMBER,33,Curry finished with 33 points.,llama_medium,5163.05
+S018,9,9,12,100.0,100.0,NUMBER,12,Curry had 12 assists.,llama_medium,5163.05
+S018,10,10,three,52.0,52.0,NUMBER,three,Curry had three steals.,llama_medium,5163.05
+S018,11,11,Draymond Green,,,NAME,Draymond Green,Draymond Green nearly had a triple-double.,llama_medium,5163.05
+S018,12,12,12,100.0,100.0,NUMBER,12,Draymond Green posted 12 points.,llama_medium,5163.05
+S018,13,13,12,100.0,100.0,NUMBER,12,Draymond Green had 12 rebounds.,llama_medium,5163.05
+S018,14,14,Harrison Barnes,,,NAME,Harrison Barnes,Harrison Barnes chipped in with 11 points.,llama_medium,5163.05
+S018,15,15,11,208.0,208.0,NUMBER,11,Harrison Barnes had 11 points.,llama_medium,5163.05
+S018,16,16,six,227.0,227.0,NUMBER,six,Harrison Barnes had six rebounds.,llama_medium,5163.05
+S018,17,17,Josh Smith,,,NAME,Austin Rivers,"The Clippers received strong contributions from their bench, with both Austin Rivers and Jamal Crawford shooting well.",llama_medium,5163.05
+S018,18,18,19,256.0,256.0,NUMBER,19,Jordan finished with 19 points.,llama_medium,5163.05
+S018,19,19,20,270.0,270.0,NUMBER,20,Jordan had 20 rebounds.,llama_medium,5163.05
+S018,20,20,Jamal Crawford,,,NAME,Jamal Crawford,Jamal Crawford was the third bench player to post a productive outing.,llama_medium,5163.05
+S018,21,21,4-for-11,,,NUMBER,4-for-11,Crawford went 4-for-11 from the field.,llama_medium,5163.05
+S018,22,22,2-for-4,,,NUMBER,2-for-4,Crawford went 2-for-4 from the three-point line.,llama_medium,5163.05
+S018,23,23,12,100.0,100.0,NUMBER,12,Crawford scored 12 points.,llama_medium,5163.05
+S018,24,24,six,227.0,227.0,NUMBER,six,Crawford handed out six assists.,llama_medium,5163.05
+S018,25,25,Portland Trail Blazers,,,NAME,Portland Trail Blazers,The Clippers' next game will be at home against the Portland Trail Blazers on Friday.,llama_medium,5163.05
+S018,26,26,Friday,398.0,398.0,NAME,Friday,The Clippers' next game will be on Friday.,llama_medium,5163.05
+S019,1,1,Saturday,18.0,18.0,NAME,Saturday evening,Incorrect day of the week,llama_medium,5163.05
+S019,1,2,113 - 95,9.0,11.0,NUMBER,113-95,Incorrect score format,llama_medium,5163.05
+S019,2,3,30 - 16,65.0,67.0,NUMBER,30-16,Incorrect score format,llama_medium,5163.05
+S019,3,4,23 assists,89.0,90.0,NUMBER,21 assists,Incorrect number of assists,llama_medium,5163.05
+S019,4,5,16,67.0,67.0,NUMBER,15,Incorrect number of turnovers,llama_medium,5163.05
+S019,5,6,Paul George,128.0,129.0,NAME,Paul George,Incorrect player name,llama_medium,5163.05
+S019,5,7,10,139.0,139.0,NUMBER,"10 points, five rebounds and one assist",Incorrect player stats,llama_medium,5163.05
+S019,6,8,Goran Dragic,228.0,229.0,NAME,Goran Dragic,Incorrect player name,llama_medium,5163.05
+S019,6,9,21,240.0,240.0,NUMBER,"21 points, four assists, two rebounds and two steals",Incorrect player stats,llama_medium,5163.05
+S019,7,10,Hassan Whiteside,256.0,257.0,NAME,Hassan Whiteside,Incorrect player name,llama_medium,5163.05
+S019,7,11,22,265.0,265.0,NUMBER,22 points and 17 rebounds,Incorrect player stats,llama_medium,5163.05
+S019,8,12,Dion Waiters,271.0,272.0,NAME,Dion Waiters,Incorrect player name,llama_medium,5163.05
+S019,8,13,22,265.0,265.0,NUMBER,"22 points, two rebounds and three assists",Incorrect player stats,llama_medium,5163.05
+S020,1,1,Phoenix Suns,,,NAME,Pelicans,The team name is incorrect.,llama_medium,5163.05
+S020,1,2,Phoenix Suns,,,NAME,Pelicans,The team name is incorrect.,llama_medium,5163.05
+S020,2,3,Eric Bledsoe,,,NAME,Anthony Davis,The player name is incorrect.,llama_medium,5163.05
+S020,3,4,Monday,371.0,371.0,NAME,Friday,The day of the week is incorrect.,llama_medium,5163.05
+S020,4,5,Minnesota,364.0,364.0,NAME,Golden State Warriors,The team name is incorrect.,llama_medium,5163.05
+S021,1,1,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,1,2,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,2,3,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,3,4,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,4,5,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,5,6,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,6,7,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,7,8,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,8,9,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,9,10,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,10,11,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,11,12,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,12,13,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,13,14,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,14,15,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,15,16,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,16,17,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,17,18,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,18,19,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S021,19,20,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S023,1,1,Wednesday,19.0,19.0,NAME,Sunday,Incorrect day of the week.,llama_medium,5163.05
+S023,2,2,11,56.0,56.0,NUMBER,30,Incorrect point difference.,llama_medium,5163.05
+S023,3,3,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,4,4,19,101.0,101.0,NUMBER,9,Incorrect points scored.,llama_medium,5163.05
+S023,5,5,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,6,6,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,7,7,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,8,8,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,9,9,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,10,10,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,11,11,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,12,12,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,13,13,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,14,14,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S023,15,15,Justin Anderson,,,NAME,Julius Randle,Incorrect player name.,llama_medium,5163.05
+S024,1,1,Saturday,18.0,18.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S024,1,2,Oracle Arena,,,NAME,"Oracle Arena is correct, but the story does not mention the arena name",Incorrect assumption of arena name.,llama_medium,5163.05
+S024,1,3,Wednesday,29.0,29.0,NAME,Friday,Incorrect day of the week.,llama_medium,5163.05
+S024,1,4,Gregg,64.0,64.0,NAME,"Gregg is not present in the box score, but the story mentions Gregg Popovich",Typo in the name.,llama_medium,5163.05
+S024,1,5,114,10.0,10.0,NUMBER,"114 is correct, but the story does not mention the score in this context",Incorrect assumption of score.,llama_medium,5163.05
+S024,1,6,Buddy Hield,,,NAME,"Buddy Hield is correct, but the story does not mention him in this context",Incorrect assumption of player.,llama_medium,5163.05
+S024,1,7,22,145.0,145.0,NUMBER,"22 is correct, but the story does not mention the score in this context",Incorrect assumption of score.,llama_medium,5163.05
+S024,1,8,eight,106.0,106.0,NUMBER,"eight is correct, but the story does not mention the number in this context",Incorrect assumption of number.,llama_medium,5163.05
+S024,1,9,two,158.0,158.0,NUMBER,"two is correct, but the story does not mention the number in this context",Incorrect assumption of number.,llama_medium,5163.05
+S024,1,10,Ben McLemore,,,NAME,"Ben McLemore is correct, but the story does not mention him in this context",Incorrect assumption of player.,llama_medium,5163.05
+S024,1,11,11,213.0,213.0,NUMBER,"11 is correct, but the story does not mention the score in this context",Incorrect assumption of score.,llama_medium,5163.05
+S024,1,12,one,184.0,184.0,NUMBER,"one is correct, but the story does not mention the number in this context",Incorrect assumption of number.,llama_medium,5163.05
+S024,1,13,two,158.0,158.0,NUMBER,"two is correct, but the story does not mention the number in this context",Incorrect assumption of number.,llama_medium,5163.05
+S025,1,1,Friday,18.0,18.0,NAME,Thursday,Incorrect day of the week.,llama_medium,5163.05
+S025,2,2,9,42.0,42.0,NUMBER,8,Incorrect number of home wins.,llama_medium,5163.05
+S025,3,3,7,44.0,44.0,NUMBER,7,Incorrect number of home losses.,llama_medium,5163.05
+S025,4,4,TD Garden,,,NAME,TD Garden is correct but the story does not specify the arena name,Arena name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,5,5,Kawhi Leonard,,,NAME,Kawhi Leonard is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,6,6,25,82.0,82.0,NUMBER,25,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,7,7,10,108.0,108.0,NUMBER,10,Number of rebounds is correct but the story does not specify the number of rebounds.,llama_medium,5163.05
+S025,8,8,four,111.0,111.0,NUMBER,4,Number of assists is correct but the story does not specify the number of assists.,llama_medium,5163.05
+S025,9,9,35,114.0,114.0,NUMBER,35,Number of minutes played is correct but the story does not specify the number of minutes played.,llama_medium,5163.05
+S025,10,10,Patty Mills,,,NAME,Patty Mills is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,11,11,19,133.0,133.0,NUMBER,19,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,12,12,David Lee,,,NAME,David Lee is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,13,13,15,149.0,149.0,NUMBER,15,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,14,14,Isaiah Thomas,,,NAME,Isaiah Thomas is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,15,15,24,172.0,172.0,NUMBER,24,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,16,16,Avery Bradley,,,NAME,Avery Bradley is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,17,17,19,133.0,133.0,NUMBER,19,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,18,18,Jae Crowder,,,NAME,Jae Crowder is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,19,19,Al Horford,,,NAME,Al Horford is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,20,20,30,,,NUMBER,30,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S025,21,21,12,,,NUMBER,12,Number of boards is correct but the story does not specify the number of boards.,llama_medium,5163.05
+S025,22,22,Kelly Olynyk,,,NAME,Kelly Olynyk is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,23,23,Marcus Smart,,,NAME,Marcus Smart is correct but the story does not specify the player name,Player name is not incorrect but it is not checkable.,llama_medium,5163.05
+S025,24,24,nine,36.0,36.0,NUMBER,9,Number of points is correct but the story does not specify the number of points.,llama_medium,5163.05
+S026,1,1,Wednesday,22.0,22.0,NAME,Tuesday,Incorrect day of the week.,llama_medium,5163.05
+S026,1,2,0,20.0,20.0,NUMBER,99,Incorrect score.,llama_medium,5163.05
+S026,1,3,Toronto,547.0,547.0,NAME,Dallas,Incorrect team name.,llama_medium,5163.05
+S027,1,1,New York Knicks ( 8 - 10 ),,,NUMBER,Houston Rockets (7-10),Incorrect team name and record,llama_medium,5163.05
+S027,1,2,111,19.0,19.0,NUMBER,116,Incorrect score,llama_medium,5163.05
+S027,1,3,Wednesday,23.0,23.0,NAME,Sunday,Incorrect day of the week,llama_medium,5163.05
+S027,2,4,58,69.0,69.0,NUMBER,45,Incorrect shooting percentage,llama_medium,5163.05
+S027,2,5,33,75.0,75.0,NUMBER,28,Incorrect three-point shooting percentage,llama_medium,5163.05
+S027,3,6,Arron,106.0,106.0,NAME,Afflalo,Incorrect player name,llama_medium,5163.05
+S027,3,7,13 - for - 19,,,NUMBER,13-of-19,Incorrect shooting stats,llama_medium,5163.05
+S027,4,8,Detroit,268.0,268.0,NAME,Charlotte,Incorrect city name,llama_medium,5163.05
+S028,1,1,Saturday,17.0,17.0,NAME,Wednesday,Incorrect day of the week.,llama_medium,5163.05
+S028,2,2,Detroit,405.0,405.0,NAME,Indiana,Incorrect team name.,llama_medium,5163.05
+S028,2,3,Phoenix,419.0,419.0,NAME,Miami,Incorrect team name.,llama_medium,5163.05
+S029,1,1,Wednesday,17.0,17.0,NAME,Monday,Incorrect day of the week.,llama_medium,5163.05
+S029,2,2,Friday,29.0,29.0,NAME,Monday,Incorrect day of the week.,llama_medium,5163.05
+S029,3,3,JJ Barea,,,NAME,J.J. Barea,Incorrect player name.,llama_medium,5163.05
+S029,4,4,JJ Barea,,,NAME,J.J. Barea,Incorrect player name.,llama_medium,5163.05
+S029,5,5,JJ Barea,,,NAME,J.J. Barea,Incorrect player name.,llama_medium,5163.05
+S029,6,6,Wednesday,17.0,17.0,NAME,Monday,Incorrect day of the week.,llama_medium,5163.05
+S030,1,1,Wednesday,18.0,18.0,NAME,Monday,Incorrect day of the week.,llama_medium,5163.05
+S030,2,2,easily,27.0,27.0,WORD,not easily,The game was not an easy win.,llama_medium,5163.05
+S030,3,3,overtime,35.0,35.0,WORD,regulation,The game was not in overtime.,llama_medium,5163.05
+S030,4,4,34 - 21,58.0,60.0,NUMBER,30-21,Incorrect score in the fourth quarter.,llama_medium,5163.05
+S030,5,5,42 - 34,83.0,85.0,NUMBER,42-46,Incorrect rebounding stats.,llama_medium,5163.05
+S030,6,6,five,97.0,97.0,NUMBER,four,Incorrect number of wins.,llama_medium,5163.05
+S030,7,7,five,97.0,97.0,NUMBER,six,Incorrect number of wins.,llama_medium,5163.05
+S030,8,8,Cody,155.0,155.0,NAME,CJ,Incorrect player name.,llama_medium,5163.05
+S030,9,9,seven,101.0,101.0,NUMBER,eleven,Incorrect number of rebounds.,llama_medium,5163.05
+S030,10,10,two,129.0,129.0,NUMBER,four,Incorrect number of blocks.,llama_medium,5163.05
+S030,11,11,Monday,192.0,192.0,NAME,Wednesday,Incorrect day of the week.,llama_medium,5163.05

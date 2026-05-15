@@ -1,0 +1,251 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,TIME_SECONDS
+S002,1,1,Atlanta Hawks Atlanta Hawks,,,NAME,"Atlanta Hawks, Cleveland Cavaliers",Incorrect team name,llama_medium,4622.22
+S002,1,2,110 110,,,NUMBER,110-106,Incorrect score,llama_medium,4622.22
+S002,1,3,Saturday,18.0,18.0,NAME,Tuesday,Incorrect day of the week,llama_medium,4622.22
+S002,2,4,37 20,,,NUMBER,Not present in the box score,Incorrect quarter score,llama_medium,4622.22
+S002,3,5,21 19,,,NUMBER,Not present in the box score,Incorrect assist-to-turnover ratio,llama_medium,4622.22
+S002,4,6,3 of 5,,,NUMBER,Not present in the box score,Incorrect shooting percentage,llama_medium,4622.22
+S002,5,7,17 17,,,NUMBER,"17 rebounds, 3 blocks",Incorrect stats for Dwight Howard,llama_medium,4622.22
+S002,6,8,25 points six rebounds and three assists,,,NUMBER,"25 points, six rebounds, three assists",Incorrect stats for Kent Bazemore,llama_medium,4622.22
+S002,7,9,25 points six rebounds and three assists,,,NUMBER,Not present in the box score,Incorrect stats for another player,llama_medium,4622.22
+S002,8,10,Sunday,188.0,188.0,NAME,Wednesday,Incorrect day of the week,llama_medium,4622.22
+S002,9,11,Toronto Raptors,195.0,196.0,NAME,Chicago Bulls,Incorrect team name,llama_medium,4622.22
+S002,10,12,Sunday,188.0,188.0,NAME,Friday,Incorrect day of the week,llama_medium,4622.22
+S002,11,13,Orlando Magic,317.0,318.0,NAME,Washington Wizards,Incorrect team name,llama_medium,4622.22
+S003,1,1,Saturday evening,17.0,18.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,1,2,Friday 's,51.0,52.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,2,3,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,3,4,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,4,5,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,5,6,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,6,7,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,7,8,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,8,9,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,9,10,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,10,11,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,11,12,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,12,13,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,13,14,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,14,15,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,15,16,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,16,17,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,17,18,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,18,19,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,19,20,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,20,21,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,21,22,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,22,23,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,23,24,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,24,25,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,25,26,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,26,27,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,27,28,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,28,29,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,29,30,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,30,31,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,31,32,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,32,33,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,33,34,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,34,35,Friday,51.0,51.0,CONTEXT,Sunday,Incorrect day of the week,llama_medium,4622.22
+S003,35,36,Friday,51.0,51.0,,,,llama_medium,4622.22
+S004,1,1,"Utah Jazz beat the visiting Los Angeles Lakers on Friday, 96 - 89.",,,CONTEXT,"The host Utah Jazz defeated the Los Angeles Lakers, 96-89, at Vivint Smart Home Arena on Friday.",The sentence is literally true but the context is misleading because the story does not mention the arena name.,llama_medium,4622.22
+S004,2,2,The Jazz ( 1 - 1 ),,,NUMBER,The Jazz (1-1),The box score does not use this format for the team record.,llama_medium,4622.22
+S004,3,3,"Rebounding was key for the Jazz, as they held the Lakers to 38 percent from the field and 24 percent from three - point range.",,,CONTEXT,"Rebounding was a huge factor as well, with the Jazz winning that battle, 43-24.",The sentence is literally true but the context is misleading because the story does not mention the percentages.,llama_medium,4622.22
+S004,4,4,"D'Angelo Russell led the team in scoring, as he tallied 17 points, five rebounds and five assists.",,,CONTEXT,"D'Angelo Russell led the Lakers in scoring, as he tallied 17 points, five rebounds and five assists.",The sentence is literally true but the context is misleading because the story does not mention the team name.,llama_medium,4622.22
+S004,5,5,"Luol Deng was the only other starter in double figures, as he totaled 12 points and 12 rebounds.",,,CONTEXT,"Luol Deng was the only other starter in double figures, as he totaled 12 points and 12 rebounds.",The sentence is literally true but the context is misleading because the story does not mention the team name.,llama_medium,4622.22
+S004,6,6,"George Hill was the player of the game, as he led the team with 23 points, three rebounds and three assists on 7 - of - 14 shooting.",,,CONTEXT,"George Hill led the team with 23 points, three rebounds and three assists on 7-of-14 shooting.",The sentence is literally true but the context is misleading because the story does not mention the phrase 'player of the game'.,llama_medium,4622.22
+S004,7,7,"Rudy Gobert finished second on the team, totaling 13 points, 13 rebounds and four blocks.",,,CONTEXT,"Rudy Gobert recorded a double-double, totaling 13 points, 13 rebounds and four blocks.",The sentence is literally true but the context is misleading because the story does not mention the phrase 'finished second on the team'.,llama_medium,4622.22
+S004,8,8,"Rudy Gobert recorded a double - double, totaling 13 points, 13 rebounds and four blocks.",,,CONTEXT,"Rudy Gobert recorded a double-double, totaling 13 points, 13 rebounds and four blocks.",The sentence is literally true but the context is misleading because the story does not mention the phrase 'double-double'.,llama_medium,4622.22
+S004,9,9,The Jazz will look to bounce back on Sunday in a home matchup against the Portland Trail Blazers.,,,CONTEXT,The Jazz will look to bounce back on Sunday in a home matchup against the Los Angeles Clippers.,The sentence is literally true but the context is misleading because the story does not mention the correct opponent.,llama_medium,4622.22
+S005,1,1,"The Atlanta Hawks defeated the Orlando Magic, 113 - 86, at Philips Arena on Saturday.",,,CONTEXT,"The Atlanta Hawks defeated the Orlando Magic, 113-86, at Philips Arena on Saturday.",The sentence is literally true but the surrounding context is misleading because the box score data does not provide information about the game location or the day of the week.,llama_medium,4622.22
+S005,2,2,"The Magic ( 20 - 33 ) came in to Saturday riding high off a surprise home victory over the Toronto Raptors on Friday evening,",,,CONTEXT,The Magic came in riding high off a surprise home victory over the Toronto Raptors on Friday evening.,The sentence is literally true but the surrounding context is misleading because the box score data does not provide information about the day of the week.,llama_medium,4622.22
+S005,3,3,"The Hawks ( 30 - 21 ) stymied Orlando to the tune of a 35 percent success rate from the floor,",,,CONTEXT,The Hawks stymied Orlando to the tune of a 35 percent success rate from the floor.,The sentence is literally true but the surrounding context is misleading because the box score data does not provide information about the game score.,llama_medium,4622.22
+S005,4,4,"They also outrebounded their visitors by a robust 48 - 33 margin and essentially decided the game in the first half,",,,CONTEXT,They also outrebounded their visitors by a robust margin and essentially decided the game in the first half.,The sentence is literally true but the surrounding context is misleading because the box score data does not provide information about the game score.,llama_medium,4622.22
+S005,5,5,"Orlando was led by a modest 16 - point effort from Aaron Gordon,",,,NUMBER,16,The box score data does not provide information about the points scored by Aaron Gordon.,llama_medium,4622.22
+S005,6,6,"who also added three rebounds, three assists and two steals.",,,NUMBER,"3 rebounds, 3 assists and 2 steals","The box score data does not provide information about the rebounds, assists, and steals of Aaron Gordon.",llama_medium,4622.22
+S005,7,7,"Elfrid Payton was the only other double - digit scorer among the starting five,",,,NUMBER,12,The box score data does not provide information about the points scored by Elfrid Payton.,llama_medium,4622.22
+S005,8,8,posting 12 points and three boards.,,,NUMBER,12 points and 3 rebounds,The box score data does not provide information about the rebounds of Elfrid Payton.,llama_medium,4622.22
+S005,9,9,"Evan Fournier supplied nine points, four rebounds, three assists and one steal.",,,NUMBER,"9 points, 4 rebounds, 3 assists and 1 steal","The box score data does not provide information about the points, rebounds, assists, and steals of Evan Fournier.",llama_medium,4622.22
+S005,10,10,"Nikola Vucevic contributed eight points, seven rebounds, two assists and two steals.",,,NUMBER,"8 points, 7 rebounds, 2 assists and 2 steals","The box score data does not provide information about the points, rebounds, assists, and steals of Nikola Vucevic.",llama_medium,4622.22
+S005,11,11,Jeff Green provided a bench - leading 12 points and supplemented them with five rebounds and one steal.,,,NUMBER,"12 points, 5 rebounds and 1 steal","The box score data does not provide information about the points, rebounds, and steals of Jeff Green.",llama_medium,4622.22
+S005,12,12,"CJ Watson and DJ Augustin were also productive as reserves, tallying matching eight - point efforts.",,,NUMBER,8,The box score data does not provide information about the points scored by CJ Watson and DJ Augustin.,llama_medium,4622.22
+S005,13,13,"The Hawks were led by matching 21 - point efforts from Tim Hardaway, Jr and Paul Millsap,",,,NUMBER,21,"The box score data does not provide information about the points scored by Tim Hardaway, Jr and Paul Millsap.",llama_medium,4622.22
+S005,14,14,"with the former adding five rebounds, two assists and two steals, and the latter registering five boards and four assists.",,,NUMBER,"5 rebounds, 2 assists and 2 steals, and 5 rebounds and 4 assists","The box score data does not provide information about the rebounds, assists, and steals of Tim Hardaway, Jr and Paul Millsap.",llama_medium,4622.22
+S005,15,15,"Dennis Schroder stepped up with a 17 - point, 10 - assist double - double that also included four rebounds and two steals.",,,NUMBER,"17 points, 10 assists, 4 rebounds and 2 steals","The box score data does not provide information about the points, assists, rebounds, and steals of Dennis Schroder.",llama_medium,4622.22
+S005,16,16,"Dwight Howard managed an 11 - point, 13 - rebound double - double along with three assists and one steal.",,,NUMBER,"11 points, 13 rebounds, 3 assists and 1 steal","The box score data does not provide information about the points, rebounds, assists, and steals of Dwight Howard.",llama_medium,4622.22
+S005,17,17,"Malcolm Delaney paced the second unit with 12 points, one rebound and one assist.",,,NUMBER,"12 points, 1 rebound and 1 assist","The box score data does not provide information about the points, rebounds, and assists of Malcolm Delaney.",llama_medium,4622.22
+S005,18,18,"The Magic head back home to face off with the New York Knicks on Monday night,",,,CONTEXT,The Magic head back home to face the New York Knicks on Monday night.,The sentence is literally true but the surrounding context is misleading because the box score data does not provide information about the next game.,llama_medium,4622.22
+S006,1,1,Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105 on Friday,,,CONTEXT,The Brooklyn Nets (6-15) defeated the Houston Rockets (10-12) 110-105 on Tuesday,Incorrect team and date,llama_medium,4622.22
+S006,1,2,Friday,22.0,22.0,CONTEXT,Tuesday,Incorrect date,llama_medium,4622.22
+S006,2,3,The Nets came into this game as a double - digit favorite and they didn't disappoint,,,CONTEXT,"The Rockets had finally started to build some momentum as of late, coming into Tuesday having won three straight games",Incorrect team and context,llama_medium,4622.22
+S006,3,4,"Trevor Ariza was the only other starter in double figures, as he tallied 2 points, four rebounds and four assists in the defeat",,,CONTEXT,"Trevor Ariza was not in double figures and had 0 points, 0 rebounds, and 0 assists in the win",Incorrect player stats and context,llama_medium,4622.22
+S006,4,5,The Rockets will look to bounce - back against the Orlando Magic on Wednesday in their next game,,,CONTEXT,The Rockets face the Wizards in Washington in the second game of a back-to-back on Wednesday,Incorrect next game and date,llama_medium,4622.22
+S006,5,6,The Nets played this game without Brook Lopez and they simply didn't have enough offense to keep up with the Nets,,,CONTEXT,The Nets were led by Brook Lopez and Thaddeus Young,Incorrect player and context,llama_medium,4622.22
+S006,6,7,"Brook Lopez did all he could to keep the Nets in this game, as he tallied 24 points, eight rebounds and five blocks in the win",,,CONTEXT,"Brook Lopez had 24 points, eight rebounds, and five blocks in the win, but the context is incorrect",Incorrect context,llama_medium,4622.22
+S006,7,8,"Thaddeus Young was the only other starter in double figures, as he amassed 20 points, 12 rebounds and five assists",,,CONTEXT,"Thaddeus Young had 20 points, 12 rebounds, and five assists, but the context is incorrect",Incorrect context,llama_medium,4622.22
+S006,8,9,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday,,,CONTEXT,The Nets remain home for a matchup with the last-place Sixers on Thursday,Incorrect next game and date,llama_medium,4622.22
+S007,1,1,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,,,NAME,Russell Westbrook,Repeated name,llama_medium,4622.22
+S007,1,2,"however, as they continue to play at the Sleep Train Arena",,,CONTEXT,The game was played at Golden 1 Center,Incorrect venue,llama_medium,4622.22
+S007,2,3,"while Westbrook scored 36 points on 11 - of - 21 shooting, to go along with 11 rebounds, seven assists, three steals and one block, in 36 minutes",,,NUMBER,"Westbrook had 4 steals, not 3",Incorrect number of steals,llama_medium,4622.22
+S007,3,4,"The Kings shot 46 percent from the field and 36 percent from long range, while the Kings shot 46 percent from the field and 36 percent from long range",,,CONTEXT,The teams' shooting percentages should not be duplicated,Incorrect duplication,llama_medium,4622.22
+S007,4,5,"Enes Kanter followed up with 29 points on 10 - of - 18 shooting, in 32 minutes, while Steven Adams chipped in 21 points, four rebounds and one steal, in 27 minutes",,,NUMBER,"Steven Adams played 20 minutes, not 27",Incorrect minutes played,llama_medium,4622.22
+S008,1,1,Saturday Tuesday,,,CONTEXT,Monday,"The game was played on Monday, not Saturday or Tuesday.",llama_medium,4622.22
+S009,1,1,"Los Angeles Lakers defeated the Milwaukee Bucks, 122 - 122",,,NUMBER,122 - 114,Incorrect score,llama_medium,4622.22
+S009,1,2,at BMO Harris Bradley Center on Tuesday,,,CONTEXT,at BMO Harris Bradley Center on Friday,Incorrect day,llama_medium,4622.22
+S009,2,3,The Lakers ( 19 - 37 ) have now won four of their last five games,,,CONTEXT,The Lakers ( 19 - 37 ) have now won four of their last five games is not relevant to the current game,Irrelevant information,llama_medium,4622.22
+S009,3,4,"D'Angelo Russell was the player of the game, as he tallied 41 points, three rebounds and five assists on 11 - of - 20 shooting",,,CONTEXT,"Giannis Antetokounmpo was the player of the game, as he accumulated 41 points, eight rebounds and six assists",Incorrect player of the game,llama_medium,4622.22
+S009,4,5,"Luol Deng was second on the team, as he accrued 26 points, three rebounds and two assists",,,CONTEXT,"Nick Young led the way with 26 points, which he supplemented with four assists, two rebounds and two steals",Incorrect second player on the team,llama_medium,4622.22
+S009,5,6,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday,,,CONTEXT,The Lakers head back to home to face off with the Sacramento Kings on Tuesday evening,Incorrect next game information,llama_medium,4622.22
+S009,6,7,Milwaukee ( 22 - 30 ) has now lost three of their last five games,,,CONTEXT,Milwaukee ( 22 - 30 ) has now lost three of their last five games is not relevant to the current game,Irrelevant information,llama_medium,4622.22
+S009,7,8,"Giannis Antetokounmpo was the player of the game, as he accumulated 41 points, eight rebounds and six assists",,,CONTEXT,"Giannis Antetokounmpo was the only Bucks starter to manage double-digit scoring, but he amassed enough points for at least two players",Incorrect description of Giannis Antetokounmpo's performance,llama_medium,4622.22
+S010,1,1,"Atlanta Hawks defeated the host Orlando Magic, 111 - 92, at Amway Center on Friday.",,,CONTEXT,"The game was played at Amway Arena, not Amway Center",Incorrect venue name,llama_medium,4622.22
+S010,2,2,"In a battle between two struggling teams, the Hawks were able to prevail with a huge road win.",,,CONTEXT,The Hawks are not a struggling team,Misleading context,llama_medium,4622.22
+S010,3,3,"Defense was key for Atlanta, as they held Orlando to 43 percent from the field and 53 percent from three - point range.",,,CONTEXT,The actual percentages are 54% and 53%,Incorrect percentages,llama_medium,4622.22
+S010,4,4,"Rebounding was a huge factor as well, with the Hawks recording 27 assists to 12 turnovers, while the Magic committed 17 turnovers to just 19 assists.",,,CONTEXT,The actual numbers are 27 assists to 12 turnovers for the Hawks and 19 assists to 17 turnovers for the Magic,Incorrect numbers,llama_medium,4622.22
+S010,5,5,"Dennis Schroder was the player of the game, as he tallied 18 points, six rebounds and seven assists on 7 - of - 13 shooting.",,,CONTEXT,"The actual numbers are 18 points, 6 rebounds, and 7 assists on 7-13 shooting",Incorrect numbers,llama_medium,4622.22
+S010,6,6,"Dwight Howard recorded a double - double, totaling 13 points and 12 rebounds.",,,CONTEXT,The actual numbers are 13 points and 12 rebounds,Incorrect numbers,llama_medium,4622.22
+S010,7,7,"Kent Bazemore was the only other starter in double figures, as he totaled 17 points and four assists.",,,CONTEXT,The actual numbers are 17 points and 4 assists,Incorrect numbers,llama_medium,4622.22
+S010,8,8,On deck for Atlanta is a home matchup against the New Orleans Pelicans on Saturday.,,,CONTEXT,The actual day is not specified,Incorrect day,llama_medium,4622.22
+S010,9,9,"The Magic ( 16 - 21 ) have been struggling mightily recently, but this was a huge win.",,,CONTEXT,The actual record is 16-21,Incorrect record,llama_medium,4622.22
+S010,10,10,"Nikola Vucevic recorded a double - double, totaling 10 points and 10 rebounds.",,,CONTEXT,The actual numbers are 10 points and 6 rebounds,Incorrect numbers,llama_medium,4622.22
+S010,11,11,"Evan Fournier was the only other Magic player in double figures, as he amassed 14 points and one rebound.",,,CONTEXT,The actual numbers are 14 points and 1 rebound,Incorrect numbers,llama_medium,4622.22
+S011,1,1,Tuesday at Philips Arena in Atlanta,22.0,27.0,CONTEXT,Wednesday,"The game was played on Wednesday, not Tuesday.",llama_medium,4622.22
+S011,2,2,29 - 18,46.0,48.0,NUMBER,28,The Hawks outscored the Wizards 28-18 in the first quarter.,llama_medium,4622.22
+S011,3,3,28 - 18,65.0,67.0,NUMBER,30,The Hawks outscored the Wizards 30-18 in the third quarter.,llama_medium,4622.22
+S011,4,4,44 percent,99.0,100.0,NUMBER,48,The Hawks shot 48 percent from the field.,llama_medium,4622.22
+S011,5,5,25 percent,120.0,121.0,NUMBER,25,The Wizards shot 25 percent from the three-point line.,llama_medium,4622.22
+S011,6,6,14 turnovers,135.0,136.0,NUMBER,12,The Hawks forced the Wizards into 12 turnovers.,llama_medium,4622.22
+S011,7,7,John Wall,154.0,155.0,NAME,Jeff Teague,"Jeff Teague was Atlanta's top scorer, not John Wall.",llama_medium,4622.22
+S011,8,8,24 points,190.0,191.0,NUMBER,26,Jeff Teague recorded 26 points.,llama_medium,4622.22
+S011,9,9,37 minutes,,,NUMBER,37,Kyle Korver played 37 minutes.,llama_medium,4622.22
+S011,10,10,six assists,,,NUMBER,six,Kyle Korver dished out six assists.,llama_medium,4622.22
+S011,11,11,20 points and 10 rebounds,,,NUMBER,at least 20 points and 10 rebounds,Al Horford put up at least 20 points and 10 rebounds.,llama_medium,4622.22
+S011,12,12,four straight,,,NUMBER,four,The Wizards have lost four straight.,llama_medium,4622.22
+S011,13,13,0 - 3,,,NUMBER,0-3,The Wizards are 0-3 against Atlanta this season.,llama_medium,4622.22
+S011,14,14,24 points,190.0,191.0,NUMBER,24,John Wall led Washington with 24 points.,llama_medium,4622.22
+S011,15,15,Friday,394.0,394.0,WORD,Friday,The Hawks will welcome the Golden State Warriors to town on Friday.,llama_medium,4622.22
+S012,1,1,Friday evening,19.0,20.0,CONTEXT,Saturday evening,Incorrect day of the week,llama_medium,4622.22
+S012,2,2,worst,36.0,36.0,WORD,best,Incorrect word choice,llama_medium,4622.22
+S012,3,3,Six,57.0,57.0,NUMBER,Four,Incorrect number of players,llama_medium,4622.22
+S012,4,4,Devin Booker,,,NAME,Eric Bledsoe,Incorrect player name,llama_medium,4622.22
+S012,5,5,Phoenix Suns,,,NAME,Denver Nuggets,Incorrect team name,llama_medium,4622.22
+S015,1,1,Wednesday at American Airlines Arena,22.0,26.0,CONTEXT,Friday night in Miami,Incorrect day and location,llama_medium,4622.22
+S015,2,2,They were also able to out - score,56.0,63.0,CONTEXT,They were also able to out-score the Heat 50-38 in the second half,Incorrect scoring information,llama_medium,4622.22
+S015,3,3,DeMarre Carroll,160.0,161.0,NAME,DeMar DeRozan,Incorrect player name,llama_medium,4622.22
+S015,4,4,Gerald Green,188.0,189.0,NAME,Goran Dragic,Incorrect player name,llama_medium,4622.22
+S015,5,5,Gerald Green,188.0,189.0,NAME,Goran Dragic,Incorrect player name,llama_medium,4622.22
+S015,6,6,Hassan Whiteside,305.0,306.0,NAME,Hassan is not mentioned in the original text,Incorrect player name,llama_medium,4622.22
+S015,7,7,Sunday night,294.0,295.0,CONTEXT,Sunday,Incorrect day,llama_medium,4622.22
+S015,8,8,Cavaliers,292.0,292.0,NAME,Trail Blazers,Incorrect team name,llama_medium,4622.22
+S015,9,9,Timberwolves,380.0,380.0,NAME,Not mentioned in the original text,Incorrect team name,llama_medium,4622.22
+S017,1,1,Saturday evening,18.0,19.0,CONTEXT,Tuesday evening,Incorrect day of the week,llama_medium,4622.22
+S017,2,2,Monday s contest,,,CONTEXT,Tuesday,Incorrect day of the week,llama_medium,4622.22
+S017,3,3,Monday s contest,,,CONTEXT,Tuesday,Incorrect day of the week,llama_medium,4622.22
+S017,4,4,Barclays Center,45.0,46.0,NAME,Quicken Loans Arena,Incorrect arena name,llama_medium,4622.22
+S017,5,5,63 percent success rate from behind the arc,155.0,162.0,CONTEXT,63 percent from three-point range,Misleading context,llama_medium,4622.22
+S017,6,6,paltry,154.0,154.0,WORD,paltry,Incorrect word choice,llama_medium,4622.22
+S017,7,7,Richard Jefferson and Richard Jefferson,264.0,268.0,CONTEXT,Reggie Jefferson,Incorrect player name,llama_medium,4622.22
+S017,8,8,Friday night,368.0,369.0,CONTEXT,Thursday evening,Incorrect day of the week,llama_medium,4622.22
+S017,9,9,Friday evening,382.0,383.0,CONTEXT,Friday evening,Incorrect day of the week,llama_medium,4622.22
+S018,1,1,Golden State Warriors ( 64 - 7 ),,,NUMBER,Golden State Warriors (64-7),Incorrect formatting of score.,llama_medium,4622.22
+S018,1,2,Los Angeles Clippers ( 43 - 27 ),,,NUMBER,Los Angeles Clippers (43-27),Incorrect formatting of score.,llama_medium,4622.22
+S018,1,3,114 - 98,,,NUMBER,114-98,Incorrect formatting of score.,llama_medium,4622.22
+S018,2,4,Wednesday at Oracle Arena in Oakland,,,CONTEXT,Wednesday,"Misleading context, as the box score does not provide information about the arena.",llama_medium,4622.22
+S018,3,5,42 percent from the field and 29 percent from the three - point line,,,NUMBER,"45% FG_PCT and 44% FG3_PCT for Warriors, 42% FG_PCT and 29% FG3_PCT for Clippers",Incorrect percentages.,llama_medium,4622.22
+S018,4,6,game - high of 33 points,,,NUMBER,33 points,Redundant word 'game-high'.,llama_medium,4622.22
+S018,5,7,"12 points ( 4 - 8 FG, 0 - 2 3Pt, 4 - 6 FT )",,,NUMBER,"12 points (4-8 FG, 0-2 3Pt, 4-6 FT)",Incorrect formatting of stats.,llama_medium,4622.22
+S018,6,8,"19 points ( 7 - 10 FG, 5 - 10 FT )",,,NUMBER,"19 points (7-10 FG, 5-10 FT)",Incorrect formatting of stats.,llama_medium,4622.22
+S018,7,9,4 - for - 11 from the field and 2 - for - 4 from the three - point line,,,NUMBER,4-11 FG and 2-4 3Pt,Incorrect formatting of stats.,llama_medium,4622.22
+S018,8,10,Friday,398.0,398.0,CONTEXT,Thursday,Incorrect day of the week.,llama_medium,4622.22
+S019,1,1,Saturday evening,18.0,19.0,CONTEXT,Saturday night,Saturday evening is misleading because the game was played at night,llama_medium,4622.22
+S019,2,2,The Heat were expected to win this game easily,21.0,29.0,CONTEXT,The Heat took care of business in this wire-to-wire win,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,3,3,In fact,45.0,46.0,CONTEXT,The assist-to-turnover ratio was the decisive statistic,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,4,4,Paul George led the way for Indiana,128.0,134.0,CONTEXT,Paul George led the way for Indiana,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,5,5,Goran Dragic was the player of the game,228.0,235.0,CONTEXT,Goran Dragic was the player of the game,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S019,6,6,Hassan Whiteside recorded a double - double,256.0,262.0,CONTEXT,Hassan Whiteside recorded a double-double,The original sentence is more descriptive and accurate,llama_medium,4622.22
+S020,1,1,Phoenix Suns defeated the host Phoenix Suns,,,CONTEXT,The Pelicans defeated the host Suns,Misleading team name,llama_medium,4622.22
+S020,2,2,The Pelicans ( 16 - 32 ) checked in to Friday's contest with a disappointing loss to the Pelicans ( 16 - 32 ),,,CONTEXT,The Pelicans (20-16) checked in to Friday's contest with a disappointing loss to the Suns (32-16),Incorrect team names and records,llama_medium,4622.22
+S020,3,3,The Pelicans were led by Eric Bledsoe's 14 points,,,CONTEXT,"Eric Bledsoe played for the Suns, not the Pelicans",Incorrect team name,llama_medium,4622.22
+S020,4,4,Phoenix was led by Eric Bledsoe's 14 points,,,CONTEXT,"Eric Bledsoe played for the Suns, not the Pelicans",Incorrect team name,llama_medium,4622.22
+S020,5,5,The Suns remain in last place in the Western Conference's Southwest Division,,,CONTEXT,The Suns are not in last place,Incorrect team standing,llama_medium,4622.22
+S020,6,6,The Pelicans remain in last place in the Western Conference's Southwest Division,,,CONTEXT,The Pelicans are not in last place,Incorrect team standing,llama_medium,4622.22
+S021,1,1,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,2,2,Saturday's Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,3,3,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,4,4,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,5,5,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,6,6,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,7,7,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,8,8,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,9,9,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,10,10,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,11,11,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,12,12,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,13,13,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,14,14,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,15,15,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,16,16,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,17,17,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,18,18,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,19,19,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,20,20,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,21,21,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,22,22,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,23,23,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,24,24,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,25,25,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,26,26,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,27,27,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,28,28,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,29,29,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,30,30,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,31,31,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,32,32,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,33,33,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,34,34,Saturday Saturday,,,CONTEXT,Friday,Incorrect day of the week,llama_medium,4622.22
+S021,35,35,Saturday Saturday,,,,,,llama_medium,4622.22
+S022,1,1,Friday evening,,,CONTEXT,Friday,"The game was played on Friday, but the day of the week is not relevant to the score or the game summary.",llama_medium,4622.22
+S022,2,2,8 ties 10 lead changes,,,NOT_CHECKABLE,N/A,The number of ties and lead changes cannot be verified from the box score.,llama_medium,4622.22
+S022,3,3,22 percent,,,NUMBER,22,"The Timberwolves shot 22 percent from three-point range, not 22 percent from three-point range in total.",llama_medium,4622.22
+S022,4,4,Anthony Davis led the Timberwolves in scoring with 42 points on 16 - of - 22 from the field and 8 - of - 11 from the free - throw line,,,CONTEXT,Anthony Davis led the Timberwolves in scoring with 42 points on 16-of-22 from the field and 8-of-11 from the free-throw line,The sentence is literally true but the free-throw line stats are not relevant to the scoring total.,llama_medium,4622.22
+S022,5,5,Buddy Hield led Minnesota in scoring,,,CONTEXT,Anthony Davis led the Timberwolves in scoring,The sentence is misleading because it incorrectly states that Buddy Hield led Minnesota in scoring.,llama_medium,4622.22
+S022,6,6,17th win at Verizon Center,,,CONTEXT,21-33,The sentence is misleading because it incorrectly states that the win was at Verizon Center and the Pelicans' record is 17-33.,llama_medium,4622.22
+S024,1,1,Saturday,18.0,18.0,WORD,Friday,Incorrect day of the week,llama_medium,4622.22
+S024,1,2,Oracle Arena,,,NAME,Not specified in the box score,Arena name not provided in the box score,llama_medium,4622.22
+S024,2,3,Gregg Popovich,,,NAME,Not specified in the box score,Coach name not provided in the box score,llama_medium,4622.22
+S025,1,1,"The San Antonio Spurs defeated the Boston Celtics, 109 - 103, at TD Garden on Friday.",,,CONTEXT,"The game was played at TD Garden, but the day of the week was not specified in the box score.","The story specifies the day of the week, but the box score does not.",llama_medium,4622.22
+S025,2,2,"The Spurs ( 13 - 3 ) checked in to Thursday's contest with a mere nine points over the Celtics ( 9 - 7 ) at home,",,,CONTEXT,The box score does not provide information about the Spurs' and Celtics' previous games or their home records.,"The story provides information about the Spurs' and Celtics' previous games and home records, but the box score does not.",llama_medium,4622.22
+S025,3,3,"Kawhi Leonard led the way for the Spurs, scoring 25 points on 8 - of - 18 shooting, including 3 - of - 7 from three - point range,",,,NUMBER,8-18,"The box score says Kawhi Leonard was 8-18 from the field, but 3-7 from three-point range.",llama_medium,4622.22
+S025,3,4,to go along with 10 rebounds and four assists in 35 minutes.,,,NUMBER,"Kawhi Leonard played 35 minutes, but the box score does not specify the number of rebounds and assists.","The story specifies the number of rebounds and assists, but the box score does not.",llama_medium,4622.22
+S025,4,5,Patty Mills added 19 points off the bench.,,,NUMBER,19,"The box score says Patty Mills scored 19 points, but does not specify if he was off the bench.",llama_medium,4622.22
+S025,5,6,"Avery Bradley added 19 points on 8 - of - 15 shooting,",,,NUMBER,8-15,The box score says Avery Bradley was 8-15 from the field.,llama_medium,4622.22
+S025,6,7,"while David Lee chipped in 15 points on 6 - of - 9 shooting, including 0 - of - 0 from long range.",,,NUMBER,6-9,The box score says David Lee was 6-9 from the field.,llama_medium,4622.22
+S025,6,8,including 0 - of - 0 from long range.,,,NUMBER,0-0,The box score says David Lee was 0-0 from three-point range.,llama_medium,4622.22
+S025,7,9,"LaMarcus Aldridge finished with 10 points, four rebounds and four assists, in 32 minutes.",,,NUMBER,"LaMarcus Aldridge played 32 minutes, but the box score does not specify the number of rebounds and assists.","The story specifies the number of rebounds and assists, but the box score does not.",llama_medium,4622.22
+S025,8,10,"The Spurs shot 47 percent from the field and 46 percent from long range,",,,NUMBER,47,"The box score says the Spurs shot 47 percent from the field, but the story does not specify the percentage from long range.",llama_medium,4622.22
+S025,8,11,"while the Celtics shot 46 percent from the field, while the Celtics hit 46 percent of their shots.",,,CONTEXT,"The box score says the Celtics shot 46 percent from the field, but the story does not specify the percentage of their shots.","The story provides information about the Celtics' field goal percentage and shot percentage, but the box score does not.",llama_medium,4622.22
+S026,1,1,The Phoenix Suns ( 11 - 8 ),,,NUMBER,The Phoenix Suns (11-8),Incorrect dash usage,llama_medium,4622.22
+S026,1,2,defeated the Indiana Pacers ( 7 - 11 ),,,NUMBER,defeated the Indiana Pacers (7-11),Incorrect dash usage,llama_medium,4622.22
+S026,1,3,116 - 99,,,NUMBER,116-99,Incorrect dash usage,llama_medium,4622.22
+S026,2,4,Phoenix caught fire in the second half of this matchup against the cross - conference Pacers,,,WORD,Phoenix caught fire in the second half of this matchup against the cross-conference Pacers,Incorrect hyphenation,llama_medium,4622.22
+S026,3,5,After going into halftime down two,,,WORD,After going into halftime down by two,Incorrect preposition usage,llama_medium,4622.22
+S026,3,6,the Suns out - scored Indiana 62 - 43,,,NUMBER,the Suns outscored Indiana 62-43,Incorrect dash usage,llama_medium,4622.22
+S026,4,7,Phoenix was able to shoot 48 percent from behind the three - point line,,,WORD,Phoenix was able to shoot 48 percent from behind the three-point line,Incorrect hyphenation,llama_medium,4622.22
+S026,5,8,while the Pacers finished at just 31 percent,,,WORD,while the Pacers finished at just 31 percent,Incomplete sentence,llama_medium,4622.22
+S026,6,9,Goran Dragic shot 11 - for - 15 from the field,,,NUMBER,Goran Dragic shot 11-for-15 from the field,Incorrect dash usage,llama_medium,4622.22
+S026,6,10,and 5 - for - 6 from beyond the arc,,,NUMBER,and 5-for-6 from beyond the arc,Incorrect dash usage,llama_medium,4622.22
+S026,7,11,to score 34 points,,,NUMBER,to score 34 points,Incomplete sentence,llama_medium,4622.22
+S026,8,12,He was also a perfect 7 - for - 7 from the free throw line,,,NUMBER,He was also a perfect 7-for-7 from the free throw line,Incorrect dash usage,llama_medium,4622.22
+S026,10,13,It was a season - high in scoring for Bledsoe,,,WORD,It was a season-high in scoring for Bledsoe,Incorrect hyphenation,llama_medium,4622.22
+S026,11,14,who now averages 15 points on the year,,,WORD,who now averages 15 points on the year,Incomplete sentence,llama_medium,4622.22
+S026,13,15,He's now averaging 10 points and 6 rebounds on the year,,,WORD,He's now averaging 10 points and 6 rebounds on the year,Incorrect contraction,llama_medium,4622.22
+S026,15,16,He's averaging 15 points and 6 rebounds on the year,,,WORD,He's averaging 15 points and 6 rebounds on the year,Incorrect contraction,llama_medium,4622.22
+S026,17,17,to go along with two rebounds and two assists,,,WORD,to go along with two rebounds and two assists,Incomplete sentence,llama_medium,4622.22
+S026,18,18,The Suns'next game will be at home against the Toronto Raptors on Friday,,,WORD,The Suns next game will be at home against the Toronto Raptors on Friday,Incorrect contraction,llama_medium,4622.22
+S027,1,1,New York Knicks ( 8 - 10 ) defeated the Houston Rockets ( 7 - 10 ) 111 - 111 on Wednesday at Madison Square Garden in New York Knicks Rockets,,,CONTEXT,The Houston Rockets (7-10) defeated the New York Knicks (8-10) 116-111 in overtime on Sunday.,"The story incorrectly states the Knicks won, the score, the day, and the location.",llama_medium,4622.22
+S028,1,1,Saturday evening,17.0,18.0,CONTEXT,Wednesday,Incorrect day of the week,llama_medium,4622.22
+S029,1,1,Wednesday Friday,,,CONTEXT,Monday,"The story says the game was played on Monday, but the sentence says Wednesday and Friday.",llama_medium,4622.22
+S029,2,2,12 26,,,CONTEXT,12-27,The story says the Timberwolves were 12-27 but the sentence says 12-26.,llama_medium,4622.22
+S029,3,3,"JJ Barea led the bench with 14 points, four assists, two rebounds and two steals. JJ Barea led the bench with 14 points, four assists, two rebounds and one steal. JJ Barea led the second unit with 12 points, four assists, two rebounds and one steal.",,,CONTEXT,"JJ Barea led the bench with 14 points, four assists, two rebounds and one steal.",The story repeats the same stats for JJ Barea three times with slight variations.,llama_medium,4622.22
+S029,4,4,The Mavericks remain in last place in the Western Conference's Northwest Division. They head to Minnesota to take on the Timberwolves on Wednesday.,,,CONTEXT,The Mavericks remain in last place in the Western Conference's Northwest Division. They head to Minnesota to take on the Timberwolves on Monday.,"The story says the game was played on Monday, but the sentence says Wednesday.",llama_medium,4622.22
+S029,5,5,The Timberwolves remain in last place in the Western Conference's Northwest Division. They're home again on Wednesday for a date with the Utah Jazz.,,,CONTEXT,The Timberwolves remain in last place in the Western Conference's Northwest Division. They're home again on Monday for a date with the Utah Jazz.,"The story says the game was played on Monday, but the sentence says Wednesday.",llama_medium,4622.22

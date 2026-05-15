@@ -1,5 +1,5 @@
 import re
-from pipeline.prompts import PROMPTS
+from prompts import PROMPTS
 import time
 import json
 import argparse
@@ -114,7 +114,12 @@ def prompt_fn(text_id, story, game_data, prompt_key):
     # inference mode, no gradient tracking (saves memory)
     with torch.no_grad(): 
         # generate up to 2048 tokens, deterministic (no randomness)
-        outputs = llm.generate(**inputs, max_new_tokens=2048, do_sample=False) 
+        outputs = llm.generate(**inputs, max_new_tokens=2048, do_sample=False)
+    
+    # decode tokens to text (everything after the input prompt)
+    raw_text = tokenizer.decode(outputs[0][inputs["input_ids"].shape[1]:], skip_special_tokens=True)
+    
+    # extract JSON portion from raw text
     extracted = extract_json(raw_text)
     
     # checking if extracted text is valid JSON
@@ -125,7 +130,7 @@ def prompt_fn(text_id, story, game_data, prompt_key):
     except Exception:
         is_valid_json = False
     
-    # parse the extracted JSON using the Pydantic parser, if parsing fails return an empty list
+    # parse the extracted JSON using the Pydantic parser
     try:
         parsed = parser.parse(extracted)
     except Exception:
