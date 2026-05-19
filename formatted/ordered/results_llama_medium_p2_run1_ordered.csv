@@ -1,0 +1,324 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,1,1,113 - 107,,,10,12,NUMBER,113-107,"The story says 113-107, but the JSON says the Celtics scored 113 and the Lakers scored 107."
+S001,2,2,double-digit,,,,,NUMBER,32-18,"The story says double-digit, but the JSON says the Celtics are 32-18."
+S001,3,3,30 - point,,,54,56,NUMBER,30,"The story says 30-point, but the JSON says the Celtics won by 30."
+S001,4,4,Isaiah,,,72,72,NAME,Isaiah Thomas,"The story says Isaiah, but the JSON says Isaiah Thomas."
+S001,5,5,six,,,82,82,NUMBER,38,"The story says six, but the JSON says Isaiah Thomas scored 38 points."
+S001,6,6,two,,,85,85,NUMBER,2,"The story says two, but the JSON says Isaiah Thomas had 2 rebounds."
+S001,7,7,Al,,,91,91,NAME,Al Horford,"The story says Al, but the JSON says Al Horford."
+S001,8,8,eight,,,101,101,NUMBER,11,"The story says eight, but the JSON says Al Horford scored 11 points."
+S001,9,9,eight,,,101,101,NUMBER,8,"The story says eight, but the JSON says Al Horford had 8 rebounds."
+S001,10,10,eight,,,101,101,NUMBER,8,"The story says eight, but the JSON says Al Horford had 8 assists."
+S001,11,11,Jae,,,110,110,NAME,Jae Crowder,"The story says Jae, but the JSON says Jae Crowder."
+S001,12,12,18 - point,,,116,118,NUMBER,18,"The story says 18-point, but the JSON says Jae Crowder scored 18 points."
+S001,13,13,six,,,82,82,NUMBER,12,"The story says six, but the JSON says Jae Crowder had 12 rebounds."
+S001,14,14,an,,,129,129,NUMBER,1,"The story says an, but the JSON says Jae Crowder had 1 assist."
+S001,15,15,a,,,32,32,NUMBER,2,"The story says a, but the JSON says Jae Crowder had 2 steals."
+S001,16,16,Kelly,,,189,189,NAME,Kelly Olynyk,"The story says Kelly, but the JSON says Kelly Olynyk."
+S001,17,17,10,,,196,196,NUMBER,7,"The story says 10, but the JSON says Kelly Olynyk scored 7 points."
+S001,18,18,nine,,,199,199,NUMBER,9,"The story says nine, but the JSON says Kelly Olynyk had 9 rebounds."
+S001,19,19,two,,,85,85,NUMBER,2,"The story says two, but the JSON says Kelly Olynyk had 2 assists."
+S001,20,20,a,,,32,32,NUMBER,2,"The story says a, but the JSON says Kelly Olynyk had 2 steals."
+S002,1,1,Atlanta Hawks,,,2,3,NAME,Cavaliers,"The story says Atlanta Hawks defeated Atlanta Hawks, but the box score says the game was between Atlanta Hawks and Cleveland Cavaliers."
+S002,1,2,110 -,,,9,10,NUMBER,110-106,"The story says the score was 110-110, but the box score says 110-106."
+S002,2,3,Saturday,,,18,18,WORD,Tuesday,"The story says the game was on Saturday, but the box score says Tuesday."
+S002,3,4,37 -,,,50,51,NUMBER,"37-20 is not present in the box score, but the box score does show the Hawks outscoring the Cavs in the 4th quarter.","The story says the Hawks outscored the Cavs 37-20 in the 4th quarter, but the box score does not provide this information."
+S002,4,5,21 19,,,,,NUMBER,"21-19 is not present in the box score, but the box score does show the Hawks recording 22 assists and the Cavs committing 19 turnovers.","The story says the assist-to-turnover ratio was 21-19, but the box score does not provide this information."
+S002,5,6,three,,,102,102,NUMBER,The box score does not provide this information.,"The story says the Hawks have now won three of their last five games, but the box score does not provide this information."
+S002,6,7,three,,,102,102,NUMBER,The box score does not provide this information.,"The story says the Cavs have now won three of their last five games, but the box score does not provide this information."
+S002,7,8,Sunday,,,188,188,WORD,The box score does not provide this information.,"The story says the Hawks will play the Raptors on Sunday, but the box score does not provide this information."
+S002,8,9,Sunday,,,188,188,WORD,The box score does not provide this information.,"The story says the Cavs will play the Magic on Sunday, but the box score does not provide this information."
+S002,9,10,17 17,,,,,NUMBER,17,"The story says Dwight Howard had 17 points and 17 rebounds, but the box score only confirms the rebounds."
+S002,10,11,25,,,151,151,NUMBER,25,"The story says Kent Bazemore had 25 points, but the box score only confirms the points."
+S002,11,12,25,,,151,151,NUMBER,25,"The story says Kent Bazemore had 25 points, but the box score only confirms the points."
+S002,12,13,Tristan Thompson,,,283,284,NAME,Tristan Thompson,"The story says Tristan Thompson had 25 points, but the box score confirms Tristan Thompson had 0 points."
+S002,13,14,25,,,151,151,NUMBER,0,"The story says Tristan Thompson had 25 points, but the box score confirms Tristan Thompson had 0 points."
+S003,1,1,Saturday,,,17,17,WORD,Sunday,Wrong day of the week
+S003,2,2,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,3,3,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,4,4,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,5,5,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,6,6,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,7,7,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,8,8,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,9,9,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,10,10,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,11,11,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,12,12,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,13,13,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,14,14,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,15,15,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,16,16,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,17,17,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,18,18,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,19,19,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,20,20,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,21,21,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,22,22,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,23,23,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,24,24,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,25,25,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,26,26,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,27,27,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,28,28,Friday,,,51,51,WORD,Saturday,Wrong day of the week
+S003,29,29,Friday,,,51,51,,,
+S004,1,1,Utah,,,3,3,NAME,Utah Jazz,"Team name is 'Utah Jazz', not just 'Utah'"
+S004,1,2,Vivint,,,16,16,NAME,Vivint Smart Home Arena,"Arena name is 'Vivint Smart Home Arena', not just 'Vivint'"
+S004,2,3,Kobe,,,137,137,NAME,,Kobe Bryant did not play this game
+S004,3,4,Portland,,,244,244,NAME,Los Angeles Clippers,"Jazz will play Clippers, not Trail Blazers"
+S005,1,1,35 percent success rate from the floor,,,8,14,NUMBER,35,The Hawks held the Magic to a 35 percent success rate from the floor
+S005,1,2,26 percent from three - point range,,,16,22,NUMBER,26,The Hawks held the Magic to a 26 percent success rate from three-point range
+S005,1,3,15 turnovers,,,27,28,NUMBER,15,The Hawks eliciting 15 turnovers from the Hawks
+S005,2,4,Paul Millsap,,,38,39,NAME,Paul Millsap,Paul Millsap led the way for the Hawks
+S005,2,5,21 points,,,51,52,NUMBER,21,Paul Millsap led the way for the Hawks with a game-high 21 points
+S005,3,6,Dwight Howard,,,85,86,NAME,Dwight Howard,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,3,7,11 - point,,,89,91,NUMBER,11,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,3,8,13 - rebound,,,93,95,NUMBER,13,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,4,9,Kent Bazemore,,,111,112,NAME,Kent Bazemore,Kent Bazemore led the bench with 27 points
+S005,4,10,27 points,,,117,118,NUMBER,8,Kent Bazemore led the bench with 8 points
+S005,5,11,Paul Millsap,,,38,39,NAME,Paul Millsap,Paul Millsap led the way for Orlando with 21 points
+S005,5,12,21 points,,,51,52,NUMBER,21,Paul Millsap led the way for Orlando with 21 points
+S005,6,13,Dwight Howard,,,85,86,NAME,Dwight Howard,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,6,14,11 - point,,,89,91,NUMBER,11,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,6,15,13 - rebound,,,93,95,NUMBER,13,"Dwight Howard posted a 11-point, 13-rebound double-double"
+S005,7,16,Kent Bazemore,,,111,112,NAME,Kent Bazemore,Kent Bazemore led the second unit with 12 points
+S005,7,17,12 points,,,204,205,NUMBER,8,Kent Bazemore led the second unit with 8 points
+S005,8,18,New York Knicks,,,229,231,NAME,New York Knicks,The Magic head back home to face off with the New York Knicks on Monday night
+S005,9,19,Monday,,,233,233,CONTEXT,,"The Magic head back home to face off with the New York Knicks on Monday night, while the Hawks remain home and await the Toronto Raptors on Friday evening as well"
+S006,1,1,Friday,,,22,22,CONTEXT,Tuesday,"The game was played on Tuesday, not Friday."
+S006,1,2,Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105,,,,,CONTEXT,Brooklyn Nets ( 6 - 15 ) defeated the Houston Rockets ( 10 - 12 ) 110 - 105,"The Nets won the game, not the Rockets."
+S006,2,3,"Trevor Ariza was the only other starter in double figures, as he tallied 2 points, four rebounds and four assists in the defeat.",,,,,CONTEXT,Trevor Ariza did not play in the game.,"Trevor Ariza did not play in the game, so he could not have scored or had any stats."
+S006,3,4,"Brook Lopez did all he could to keep the Nets in this game, as he tallied 24 points, eight rebounds and five blocks in the win.",,,,,CONTEXT,Brook Lopez did not play in the game.,"Brook Lopez did not play in the game, so he could not have scored or had any stats."
+S006,4,5,"Thaddeus Young was the only other starter in double figures, as he amassed 20 points, 12 rebounds and five assists.",,,,,CONTEXT,"Thaddeus Young had 22 points, 12 rebounds, and 5 assists.","Thaddeus Young had 22 points, 12 rebounds, and 5 assists, not 20 points."
+S006,5,6,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday.,,,,,NOT_CHECKABLE,,This sentence cannot be verified from the box score data.
+S007,1,1,Russell Westbrook and Russell Westbrook,,,,,NAME,Russell Westbrook,Repeated name
+S007,1,2,the Oklahoma City Thunder and the Oklahoma City Thunder,,,,,NAME,the Oklahoma City Thunder,Repeated team name
+S007,1,3,as they continue to play at the Sleep Train Arena,,,,,CONTEXT,,The JSON does not mention the arena
+S007,2,4,one block,,,,,NUMBER,four steals and one block,Incorrect number of blocks
+S007,3,5,46 percent from the field and 36 percent from long range,,,,,CONTEXT,,The JSON does not mention the Kings shooting percentages
+S007,4,6,Steven Adams,,,,,NAME,Steven Adams is not mentioned in the JSON,Incorrect player name
+S008,1,1,Saturday,,,19,19,NOT_CHECKABLE,,Date not in JSON
+S008,2,2,Vivint Smart Home Arena,,,,,NOT_CHECKABLE,,Arena not in JSON
+S008,3,3,six,,,36,36,NUMBER,five,Number of road wins
+S008,4,4,17,,,40,40,NUMBER,17,Number of tries
+S008,5,5,33-point,,,,,NUMBER,25,First quarter points
+S008,6,6,second,,,82,82,NUMBER,first,Quarter number
+S008,7,7,22,,,104,104,NUMBER,22,Marc Gasol points
+S008,8,8,9-of-17,,,,,NUMBER,9-of-17,Marc Gasol shooting
+S008,9,9,five,,,118,118,NUMBER,five,Marc Gasol rebounds
+S008,10,10,five,,,118,118,NUMBER,five,Marc Gasol assists
+S008,11,11,one,,,124,124,NUMBER,one,Marc Gasol steals
+S008,12,12,33,,,61,61,NUMBER,33,Marc Gasol minutes
+S008,13,13,18,,,136,136,NUMBER,18,Mike Conley points
+S008,14,14,7-of-14,,,,,NUMBER,7-of-14,Mike Conley shooting
+S008,15,15,2-of-5,,,,,NUMBER,2-of-5,Mike Conley three-pointers
+S008,16,16,seven,,,160,160,NUMBER,seven,Mike Conley assists
+S008,17,17,three,,,163,163,NUMBER,three,Mike Conley rebounds
+S008,18,18,one,,,124,124,NUMBER,one,Mike Conley steals
+S008,19,19,31,,,170,170,NUMBER,31,Mike Conley minutes
+S008,20,20,18,,,136,136,NUMBER,18,Zach Randolph points
+S008,21,21,7-of-13,,,,,NUMBER,7-of-13,Zach Randolph shooting
+S008,22,22,4-of-4,,,,,NUMBER,4-of-4,Zach Randolph three-pointers
+S008,23,23,23,,,198,198,NUMBER,23,Zach Randolph minutes
+S008,24,24,48,,,207,207,NUMBER,48,Jazz field goal percentage
+S008,25,25,29,,,213,213,NUMBER,29,Jazz three-point percentage
+S008,26,26,48,,,207,207,NUMBER,48,Grizzlies field goal percentage
+S008,27,27,29,,,213,213,NUMBER,29,Grizzlies three-point percentage
+S008,28,28,13,,,184,184,NUMBER,13,Gordon Hayward points
+S008,29,29,4-of-14,,,,,NUMBER,4-of-14,Gordon Hayward shooting
+S008,30,30,four,,,245,245,NUMBER,four,Gordon Hayward rebounds
+S008,31,31,three,,,163,163,,,
+S009,1,1,Milwaukee Bucks defeated Los Angeles Lakers,,,,,CONTEXT,Los Angeles Lakers defeated the Milwaukee Bucks,"The story says the Bucks won, but the JSON says the Lakers won."
+S009,1,2,122 -,,,10,11,NUMBER,114,"The story says the Bucks scored 122, but the JSON says they scored 114."
+S009,2,3,D'Angelo Russell,,,117,118,NAME,Giannis Antetokounmpo,"The story says D'Angelo Russell was the player of the game, but the JSON says it was Giannis Antetokounmpo."
+S009,2,4,41 points,,,129,130,NUMBER,41,"The story says D'Angelo Russell scored 41 points, but the JSON does not confirm this."
+S009,3,5,Luol Deng,,,145,146,NAME,Khris Middleton,"The story says Luol Deng was second on the team, but the JSON says it was Khris Middleton."
+S009,3,6,26 points,,,156,157,NUMBER,18,"The story says Luol Deng scored 26 points, but the JSON says Khris Middleton scored 18."
+S009,4,7,Sunday,,,203,203,WORD,Tuesday,"The story says the Lakers play the Pelicans on Sunday, but the JSON does not confirm this."
+S009,5,8,Friday,,,300,300,WORD,Tuesday,"The story says the Bucks play the Magic on Friday, but the JSON does not confirm this."
+S011,1,1,Tuesday,,,22,22,WORD,Wednesday,"The story says Tuesday, but the JSON says Wednesday."
+S011,2,2,Philips Arena in Atlanta,,,,,CONTEXT,,"The story says the game was played at Philips Arena in Atlanta, but the JSON does not mention the arena."
+S011,3,3,48,,,93,93,NUMBER,48,"The story says the Hawks shot 48 percent from the field, but the JSON does not mention the Hawks."
+S011,4,4,44,,,99,99,NUMBER,44,"The story says the Hawks shot 44 percent from the three-point line, but the JSON does not mention the Hawks."
+S011,5,5,14,,,135,135,NUMBER,14,"The story says the Hawks forced the Wizards into 14 turnovers, but the JSON does not mention the Hawks."
+S011,6,6,12,,,141,141,NUMBER,12,"The story says the Hawks committed 12 turnovers, but the JSON does not mention the Hawks."
+S011,7,7,John Wall,,,,,NAME,Jeff Teague,"The story says John Wall led the Hawks, but the JSON says Jeff Teague led the Hawks."
+S011,8,8,24,,,190,190,NUMBER,26,"The story says John Wall scored 24 points, but the JSON says Jeff Teague scored 26 points."
+S011,9,9,nine,,,196,196,NUMBER,nine,"The story says John Wall had nine assists, but the JSON does not mention John Wall."
+S011,10,10,seven,,,199,199,NUMBER,seven,"The story says John Wall had seven rebounds, but the JSON does not mention John Wall."
+S011,11,11,Paul Millsap,,,,,NAME,Paul Millsap,"The story says Paul Millsap had a double-double, but the JSON does not mention Paul Millsap."
+S011,12,12,11,,,242,242,NUMBER,11,"The story says Paul Millsap had 11 points, but the JSON says Paul Millsap had 11 points."
+S011,13,13,11,,,242,242,NUMBER,11,"The story says Paul Millsap had 11 rebounds, but the JSON says Paul Millsap had 11 rebounds."
+S011,14,14,Bradley Beal,,,,,NAME,Bradley Beal,"The story says Bradley Beal had a double-double, but the JSON does not mention Bradley Beal."
+S011,15,15,23,,,300,300,NUMBER,23,"The story says Bradley Beal had 23 points, but the JSON says Bradley Beal had 23 points."
+S011,16,16,8,,,303,303,NUMBER,8,"The story says Bradley Beal had 8 rebounds, but the JSON says Bradley Beal had 8 rebounds."
+S011,17,17,Al Horford,,,,,NAME,Al Horford,"The story says Al Horford had 21 points, but the JSON does not mention Al Horford."
+S011,18,18,21,,,281,281,NUMBER,21,"The story says Al Horford had 21 points, but the JSON does not mention Al Horford."
+S011,19,19,13,,,376,376,NUMBER,13,"The story says Al Horford had 13 rebounds, but the JSON does not mention Al Horford."
+S011,20,20,Friday,,,394,394,WORD,,"The story says the Hawks next game will be on Friday, but the JSON does not mention the day of the next game."
+S012,1,1,Friday,,,19,19,NAME,Saturday,Incorrect day of the week
+S012,2,2,worst,,,36,36,WORD,worst,Incorrect word choice
+S012,3,3,Six,,,57,57,NUMBER,Six,Incorrect number of players
+S012,4,4,Danilo,,,67,67,NAME,Danilo,Incorrect player name
+S012,5,5,eight,,,78,78,NUMBER,eight,Incorrect number of rebounds
+S012,6,6,one,,,81,81,NUMBER,one,Incorrect number of assists
+S012,7,7,Gary,,,84,84,NAME,Gary,Incorrect player name
+S012,8,8,seven,,,92,92,NUMBER,seven,Incorrect number of rebounds
+S012,9,9,four,,,95,95,NUMBER,four,Incorrect number of assists
+S012,10,10,two,,,98,98,NUMBER,two,Incorrect number of steals
+S012,11,11,Jameer,,,115,115,NAME,Jameer,Incorrect player name
+S012,12,12,17,,,119,119,NUMBER,17,Incorrect number of points
+S012,13,13,three,,,109,109,NUMBER,three,Incorrect number of rebounds
+S012,14,14,six,,,106,106,NUMBER,six,Incorrect number of assists
+S012,15,15,one,,,81,81,NUMBER,one,Incorrect number of steals
+S012,16,16,Wilson,,,102,102,NAME,Wilson,Incorrect player name
+S012,17,17,six,,,106,106,NUMBER,six,Incorrect number of points
+S012,18,18,three,,,109,109,NUMBER,three,Incorrect number of rebounds
+S012,19,19,one,,,81,81,NUMBER,one,Incorrect number of steals
+S012,20,20,Tyson,,,188,188,NAME,Tyson,Incorrect player name
+S012,21,21,15,,,89,89,NUMBER,15,Incorrect number of points
+S012,22,22,12,,,195,195,NUMBER,12,Incorrect number of rebounds
+S012,23,23,two,,,98,98,NUMBER,two,Incorrect number of steals
+S012,24,24,Friday,,,19,19,NAME,Friday,Incorrect day of the week
+S013,1,1,Wednesday,,,22,22,WORD,Saturday,Wrong day of the week
+S013,1,2,Quicken Loans Arena,,,,,NAME,No venue mentioned in the JSON,Wrong venue
+S013,2,3,Kyrie Irving,,,,,NAME,"Kyrie Irving played for the Cavaliers, not the Magic",Wrong team for the player
+S013,2,4,13,,,64,64,NUMBER,Kyrie Irving played 21 minutes,Wrong number of minutes played
+S013,3,5,Nikola Vucevic,,,,,NAME,"Nikola Vucevic played for the Magic, not the Cavaliers",Wrong team for the player
+S013,3,6,21,,,89,89,NUMBER,Nikola Vucevic played 13 minutes,Wrong number of minutes played
+S013,4,7,Aaron Gordon,,,,,NAME,"Aaron Gordon played for the Magic, and his stats are correct","No mistake, but the sentence is wrong"
+S013,5,8,Magic,,,12,12,NAME,The Magic will play host to the Cavaliers on Monday,Wrong team hosting the next game
+S016,1,1,Friday,,,25,25,WORD,Thursday,Incorrect day of the week
+S016,2,2,Chesapeake Energy Arena,,,,,NAME,,Incorrect arena name
+S016,3,3,29 - 8,,,57,59,NUMBER,29-8,Incorrect score
+S016,4,4,59 - 42,,,99,101,NUMBER,59-42,Incorrect score
+S016,5,5,Russell,,,119,119,NAME,Russell Westbrook,Incorrect player name
+S016,6,6,15,,,128,128,NUMBER,15,Incorrect points scored
+S016,7,7,six,,,237,237,NUMBER,6,Incorrect points scored
+S016,8,8,Gordon,,,234,234,NAME,Gordon Hayward,Incorrect player name
+S016,9,9,six,,,237,237,NUMBER,6,Incorrect points scored
+S016,10,10,Derrick,,,263,263,NAME,Derrick Favors,Incorrect player name
+S016,11,11,seven,,,152,152,NUMBER,7,Incorrect points scored
+S016,12,12,two,,,192,192,NUMBER,2,Incorrect rebounds
+S016,13,13,two,,,192,192,NUMBER,2,Incorrect steals
+S016,14,14,Gordon,,,234,234,NAME,Gordon Hayward,Incorrect player name
+S016,15,15,six,,,237,237,NUMBER,6,Incorrect points scored
+S016,16,16,Derrick,,,263,263,NAME,Derrick Favors,Incorrect player name
+S016,17,17,seven,,,152,152,NUMBER,7,Incorrect points scored
+S016,18,18,two,,,192,192,NUMBER,2,Incorrect rebounds
+S016,19,19,two,,,192,192,NUMBER,2,Incorrect steals
+S016,20,20,Saturday,,,448,448,WORD,Saturday,Incorrect day of the week
+S017,1,1,Saturday,,,18,18,NAME,Tuesday,Incorrect day of the week
+S017,1,2,Barclays,,,45,45,NAME,Quicken Loans,Incorrect arena name
+S017,1,3,Monday,,,31,31,NAME,Tuesday,Incorrect day of the week
+S017,1,4,Atlanta,,,365,365,NAME,Utah,Incorrect team name
+S017,1,5,Friday,,,368,368,NAME,Wednesday,Incorrect day of the week
+S017,1,6,Philadelphia,,,379,379,NAME,Utah,Incorrect team name
+S020,1,1,Phoenix Suns,,,,,NAME,Pelicans,Team name mismatch
+S020,1,2,Phoenix Suns,,,,,NAME,Suns,Team name mismatch
+S020,2,3,16,,,24,24,NUMBER,20,Win-loss record mismatch
+S020,2,4,32,,,26,26,NUMBER,16,Win-loss record mismatch
+S020,3,5,Eric Bledsoe,,,,,NAME,Anthony Davis,Player name mismatch
+S020,3,6,seven,,,128,128,NUMBER,five,Number of assists mismatch
+S020,3,7,a pair of blocks,,,,,NUMBER,five,Number of blocks mismatch
+S020,4,8,Eric Bledsoe,,,,,NAME,Brandon Knight,Player name mismatch
+S020,4,9,seven,,,128,128,NUMBER,six,Number of assists mismatch
+S020,4,10,a pair of blocks,,,,,NUMBER,zero,Number of blocks mismatch
+S020,5,11,Davis,,,373,373,NAME,Jrue Holiday,Player name mismatch
+S020,5,12,nine,,,316,316,NUMBER,seven,Number of assists mismatch
+S020,5,13,four,,,341,341,NUMBER,three,Number of steals mismatch
+S020,6,14,Buddy Hield,,,,,NAME,E'Twaun Moore,Player name mismatch
+S020,6,15,four,,,341,341,NUMBER,four,Number of steals mismatch
+S021,1,1,Saturday,,,18,18,CONTEXT,Friday,"The game was played on Friday, not Saturday."
+S021,2,2,38,,,57,57,NUMBER,68,"The Rockets scored 68 points in the first quarter, not 38."
+S021,3,3,one,,,96,96,NUMBER,one,"The Kings were up by one point at the end of the third quarter, but the Rockets were up by 18."
+S021,4,4,38,,,57,57,NUMBER,38,"The Kings outscored the Rockets by 38-19 in the fourth quarter, but the Rockets actually outscored the Kings."
+S021,5,5,Eric,,,183,183,NAME,James,"James Harden led the Rockets, not Eric Gordon."
+S021,6,6,nine,,,174,174,NUMBER,ten,"James Harden had 10 rebounds, not 9."
+S021,7,7,five,,,180,180,NUMBER,five,"James Harden had 5 blocks, but this is correct."
+S021,8,8,Darren,,,329,329,NAME,DeMarcus,"DeMarcus Cousins led the Kings, not Darren Collison."
+S021,9,9,18,,,229,229,NUMBER,32,"DeMarcus Cousins had 32 points, not 18."
+S021,10,10,10,,,23,23,NUMBER,12,"DeMarcus Cousins had 12 rebounds, not 10."
+S021,11,11,four,,,320,320,NUMBER,four,"DeMarcus Cousins had 4 assists, but this is correct."
+S021,12,12,three,,,207,207,NUMBER,three,"DeMarcus Cousins had 3 steals, but this is correct."
+S021,13,13,three,,,207,207,NUMBER,three,"DeMarcus Cousins had 3 blocks, but this is correct."
+S021,14,14,Saturday,,,18,18,CONTEXT,Saturday,"The Kings play the Warriors on Saturday, but the story does not specify the day of the week."
+S023,1,1,Wednesday,,,19,19,CONTEXT,Sunday,"The game was played on Sunday, not Wednesday."
+S023,2,2,11,,,56,56,NUMBER,38,"The Mavericks led by 38 points at times in the second half, not 11."
+S023,3,3,17,,,85,85,NUMBER,10,"The Mavericks forced 10 turnovers, not 17."
+S023,4,4,Justin,,,88,88,NAME,Lou,"Lou Williams led the Lakers in scoring, not Justin Anderson."
+S023,5,5,Justin,,,88,88,NAME,Julius,"Julius Randle was the only other Laker in double figures, not Justin Anderson."
+S023,6,6,Justin,,,88,88,NAME,Justin,"Justin Anderson led the Lakers in scoring off the bench, but the sentence is misleading because it implies he played for the Lakers."
+S023,7,7,Portland,,,243,243,CONTEXT,New York,"The Lakers have a home matchup against the New York Knicks, not the Portland Trail Blazers."
+S023,8,8,five,,,148,148,NUMBER,four,"The Mavericks have now won four-straight games, not five."
+S024,1,1,Saturday,,,18,18,CONTEXT,Friday,The story says Saturday but the JSON says Friday.
+S024,2,2,Gregg Popovich,,,,,NAME,No matching name in the JSON,The story mentions Gregg Popovich but there is no matching name in the JSON.
+S024,3,3,Oracle Arena,,,,,CONTEXT,No matching arena in the JSON,The story mentions Oracle Arena but there is no matching arena in the JSON.
+S024,4,4,Wednesday,,,29,29,CONTEXT,Friday,The story says Wednesday but the JSON says Friday.
+S024,5,5,114 points,,,,,NUMBER,100,The story says 114 points but the JSON says 100.
+S024,6,6,season-high,,,,,WORD,No matching word in the JSON,The story says season-high but there is no matching word in the JSON.
+S024,7,7,Buddy Hield,,,,,NAME,Buddy Hield is mentioned in the JSON but not as a starter.,The story says Buddy Hield led the bench but the JSON says he started.
+S024,8,8,Willie Cauley-Stein,,,,,NAME,Willie Cauley-Stein is mentioned in the JSON but not as a starter.,The story says Willie Cauley-Stein was a reserve but the JSON says he started.
+S025,1,1,Friday,,,18,18,NOT_CHECKABLE,,Date not in JSON
+S025,2,2,nine,,,36,36,NUMBER,8,Celtics home wins this season
+S025,3,3,Kawhi,,,72,72,NAME,Kawhi Leonard,Full name in JSON
+S025,3,4,8-of-18,,,,,NUMBER,8-of-18,JSON has same value
+S025,3,5,three-of-seven,,,,,NUMBER,3-of-7,JSON has same value
+S025,4,6,Patty,,,130,130,NAME,Patty Mills,Full name in JSON
+S025,5,7,Isaiah,,,163,163,NAME,Isaiah Thomas,Full name in JSON
+S025,5,8,one,,,,,NUMBER,8,Number of assists
+S025,6,9,Avery,,,139,139,NAME,Avery Bradley,Full name in JSON
+S025,6,10,eight,,,182,182,NUMBER,3,Number of assists
+S025,7,11,LaMarcus,,,228,228,NAME,LaMarcus Aldridge,Full name in JSON
+S025,7,12,four,,,111,111,NUMBER,4,Number of assists
+S025,8,13,46,,,254,254,NUMBER,47,Spurs field goal percentage
+S025,8,14,46,,,254,254,NUMBER,46,Celtics field goal percentage
+S026,1,1,Wednesday,,,22,22,CONTEXT,Tuesday,"The story says Wednesday, but the JSON says Tuesday."
+S026,2,2,0,,,20,20,NUMBER,116,"The story says 0, but the JSON says 116."
+S026,3,3,Toronto,,,547,547,NAME,Dallas,"The story says Toronto, but the JSON says Dallas."
+S027,1,1,New York Knicks ( 8 - 10 ),,,,,CONTEXT,The Houston Rockets (7-10) defeated the New York Knicks (8-10),"The story says the Knicks won, but the JSON says the Rockets won."
+S027,1,2,111,,,19,19,NUMBER,116,"The story says the Knicks scored 111, but the JSON says they scored 116."
+S027,1,3,111,,,19,19,NUMBER,116,"The story says the Rockets scored 111, but the JSON says they scored 116."
+S027,2,4,58,,,69,69,NUMBER,45,"The story says the Rockets shot 58% from the field, but the JSON says they shot 45%."
+S027,2,5,33,,,75,75,NUMBER,28,"The story says the Rockets shot 33% from the three-point line, but the JSON says they shot 28%."
+S027,3,6,Arron,,,106,106,NAME,Arron Afflalo,"The story mentions Arron, but the JSON says Arron Afflalo."
+S027,3,7,13 - for - 19,,,,,NUMBER,13-of-19,"The story says Arron shot 13-for-19, but the JSON says 13-of-19."
+S027,3,8,2 - for - 4,,,,,NUMBER,2-for-4,"The story says Arron shot 2-for-4 from the three-point line, but the JSON says 2-for-4."
+S027,3,9,31,,,138,138,NUMBER,31,"The story says Arron scored 31 points, but the JSON does not mention this."
+S027,4,10,Kristaps,,,217,217,NAME,Kristaps Porzingis,"The story mentions Kristaps, but the JSON says Kristaps Porzingis."
+S027,4,11,8 - 13,,,,,NUMBER,8-13,"The story says Kristaps shot 8-13, but the JSON says 8-13."
+S027,4,12,0 - 1,,,,,NUMBER,0-1,"The story says Kristaps shot 0-1 from the three-point line, but the JSON says 0-1."
+S027,4,13,4 - 4,,,,,NUMBER,4-4,"The story says Kristaps shot 4-4 from the free throw line, but the JSON says 4-4."
+S027,4,14,20,,,230,230,NUMBER,20,"The story says Kristaps scored 20 points, but the JSON does not mention this."
+S027,4,15,13,,,111,111,NUMBER,13,"The story says Kristaps had 13 rebounds, but the JSON does not mention this."
+S027,5,16,Wednesday,,,23,23,CONTEXT,Sunday,"The story says the game was on Wednesday, but the JSON says it was on Sunday."
+S027,5,17,Madison Square Garden,,,,,CONTEXT,No mention of the venue in the JSON,"The story mentions Madison Square Garden, but the JSON does not mention the venue."
+S027,6,18,Detroit,,,268,268,CONTEXT,No mention of the next game in the JSON,"The story mentions the next game against the Pistons, but the JSON does not mention the next game."
+S029,1,1,Wednesday,,,17,17,NOT_CHECKABLE,,Date is not verifiable from the JSON.
+S029,2,2,Friday,,,29,29,NOT_CHECKABLE,,Day is not verifiable from the JSON.
+S029,3,3,33 - 19,,,46,48,NUMBER,21,"The Timberwolves' lead after one quarter was 21, not 33-19."
+S029,4,4,24 - 19,,,83,85,NUMBER,24,"The Mavericks outscored the Timberwolves by 24, not 24-19."
+S029,5,5,JJ,,,204,204,NAME,J.J.,"Player name is J.J. Barea, not JJ Barea."
+S029,6,6,JJ,,,204,204,NAME,J.J.,"Player name is J.J. Barea, not JJ Barea."
+S029,7,7,JJ,,,204,204,NAME,J.J.,"Player name is J.J. Barea, not JJ Barea."
+S029,8,8,Utah,,,393,393,NAME,"Utah is not in the JSON, but Utah is.","Team name is Utah Jazz, not Utah Jazz."
+S030,1,1,Wednesday,,,18,18,WORD,Monday,Incorrect day of the week
+S030,2,2,easily,,,27,27,WORD,overtime,Incorrect description of the win
+S030,3,3,overtime,,,35,35,WORD,regulation,Incorrect description of the win
+S030,4,4,34 -,,,58,59,NUMBER,21,Incorrect score in the fourth quarter
+S030,5,5,42 -,,,83,84,NUMBER,42,Incorrect description of the rebounding battle
+S030,6,6,34,,,58,58,NUMBER,46,Incorrect rebounding total
+S030,7,7,five,,,97,97,NUMBER,five,Incorrect number of wins
+S030,8,8,five,,,97,97,NUMBER,five,Incorrect number of wins
+S030,9,9,12,,,126,126,NUMBER,12,Incorrect points scored by Kemba Walker
+S030,10,10,two,,,129,129,NUMBER,five,Incorrect number of assists by Kemba Walker
+S030,11,11,11,,,92,92,NUMBER,11,Incorrect points scored by Cody Zeller
+S030,12,12,seven,,,101,101,NUMBER,seven,Incorrect rebounds by Cody Zeller
+S030,13,13,two,,,129,129,NUMBER,two,Incorrect blocks by Cody Zeller
+S030,14,14,22,,,233,233,NUMBER,22,Incorrect points scored by Paul George
+S030,15,15,five,,,97,97,NUMBER,five,Incorrect rebounds by Paul George
+S030,16,16,three,,,152,152,NUMBER,three,Incorrect assists by Paul George
+S030,17,17,22,,,233,233,NUMBER,22,Incorrect points scored by Myles Turner
+S030,18,18,seven,,,101,101,NUMBER,seven,Incorrect rebounds by Myles Turner
+S030,19,19,four,,,259,259,NUMBER,four,Incorrect blocks by Myles Turner
+S030,20,20,Los Angeles,,,,,NAME,Washington,Incorrect opponent

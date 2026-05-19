@@ -1,0 +1,337 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,1,1,Boston Celtics,2,3,,,NAME,,The team name should be 'Celtics' instead of 'Celtic'.
+S001,1,2,Los Angeles,6,7,,,NAME,,The team name should be 'Lakers' instead of 'Angels'.
+S001,,3,Celtics win,,,,,WORD,,"The team won, it did not 'win'."
+S001,,4,Lakers Los,,,,,NAME,,The team name should be 'Celtics' instead of 'Los'.
+S001,,5,double-,,,,,WORD,,'Double' is the correct word instead of 'double-'.
+S001,10,6,Toronto Raptors,25,26,,,NAME,,'Jazz' is the correct team name instead of 'Raptors'.
+S002,1,1,The Atlanta Hawks,1,3,,,NAME,Cavaliers,Incorrect team name
+S003,1,1,Toronto,2,2,,,NAME,Raptors,Team name error
+S004,1,1,host Utah Jazz,2,4,,,NAME,team,The box score says 'team' instead of 'host team'.
+S004,,2,beat the,,,,,WORD,defeated the,The box score uses 'defeated' instead of 'beat'.
+S004,2,3,1 -,4,5,,,NUMBER,0-1,The box score shows the Jazz's record as 0-1 instead of 1-1.
+S004,,4,rebounding was a,,,,,WORD,"Rebounding was key for the Jazz, as they held the Lakers to 38 percent from the field and 24 percent from three-point range.",The box score incorrectly describes rebounding as 'a huge factor'.
+S004,6,5,Kobe Bryant,14,15,,,NAME,Kobe Bryant did not play in this game.,The box score incorrectly states that Kobe Bryant played in this game.
+S004,7,6,17 points,12,13,,,NUMBER,21 points,The box score incorrectly reports D'Angelo Russell's point total.
+S004,8,7,Luol Deng,1,2,,,NAME, Luol Deng was not the only starter in double figures.,The box score incorrectly reports that Luol Deng was the only other starter in double figures.
+S004,13,8,23 points,16,17,,,NUMBER,21 points,The box score incorrectly reports George Hill's point total.
+S004,14,9,13 points,10,11,,,NUMBER,15 points,The box score incorrectly reports Rudy Gobert's point total.
+S007,1,1,Russell Westbrook,1,2,,,NAME,Russell Westbrook and Russell Westbrook,Duplicate mention of player name
+S008,1,1,The Memphis Grizzlies,1,3,,,NAME,,Incorrect team name
+S009,1,1,The Milwaukee Bucks defeated,1,4,,,NAME,Los Angeles Lakers,Incorrect team name
+S009,1,2,122 -,10,11,,,NUMBER,122-114,Incorrect score
+S009,1,3,at BMO Harris,14,16,,,WORD,at BMO Harris Bradley Center,Incomplete venue name
+S009,1,4,on Tuesday,19,20,,,WORD,on Friday evening,Incorrect day
+S009,2,5,In a,1,2,,,WORD,"The Milwaukee Bucks defeated the Los Angeles Lakers, ",Missing team names
+S009,2,6,battle between,3,4,,,WORD,"The Los Angeles Lakers defeated the Milwaukee Bucks, ",Incorrect team order
+S009,2,7,two struggling,5,6,,,WORD,"two struggling teams, ",Missing commas
+S009,,8,The Bucks,,,,,NAME,the Bucks were able to prevail with a huge road win.,Incorrect verb tense
+S009,3,9,In fact,1,2,,,WORD,As they led by double-digits for the entirety of the second half.,Incorrect verb form
+S009,4,10,Rebounding,1,1,,,WORD,"The Bucks led for the majority of the game, as they led by double-digits for the entirety of the second half.",Incorrect statement
+S009,4,11,was key,2,3,,,WORD,"Rebounding was key for the Lakers, as they held the Lakers to 29 percent shooting and forced them to commit 17 turnovers.",Incorrect team
+S009,5,12,The Lakers,1,2,,,NAME,"the Lakers (19-37) have now won four of their last five games, as they continue to struggle.",Incorrect team name
+S009,,13,(19 -37),,,,,NUMBER,the Los Angeles Lakers (19-37),Missing team name
+S009,6,14,D'Angelo Russell,1,2,,,NAME,"D'Angelo Russell was the player of the game, as he tallied 41 points, three rebounds and five assists on 11-of-20 shooting.",Incorrect team name
+S009,,15,(19 -37),,,,,NUMBER,the Los Angeles Lakers (19-37),Missing team name
+S009,6,16,D'Angelo Russell,1,2,,,NAME,"D'Angelo Russell was the only other starter in double figures, as he accrued 14 points, three rebounds and five assists.",Incorrect team name
+S009,,17,Milwaukee (22- 30),,,,,NUMBER,Milwaukee (22-30),Missing team name
+S009,11,18,Giannis Antetokounmpo,1,2,,,NAME,"Giannis Antetokounmpo was the player of the game, as he accumulated 41 points, eight rebounds and six assists.",Incorrect team name
+S009,,19,(22- 30),,,,,NUMBER,the Milwaukee Bucks (22-30),Missing team name
+S009,9,20,On deck,1,2,,,WORD,Milwaukee will look to build off this win on Friday in a road matchup with the Orlando Magic.,Incorrect statement
+S009,9,21,for Los Angeles,3,5,,,NAME,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday.,Incorrect team name
+S011,1,1,The Atlanta Hawks,1,3,,,NAME,The Atlanta Hawks (41-9) beat the Washington Wizards (31-19) 105-96 on Wednesday.,Incorrect day of the week
+S011,1,2,Atlanta Hawks,2,3,,,NAME,,Already annotated in previous mistake
+S011,1,3,Washington Wizards,11,12,,,NAME,,Already annotated in previous mistake
+S011,,4,Wednesday on,,,,,WORD,,Already annotated in previous mistake
+S011,1,5,Tuesday at,22,23,,,WORD,,Incorrect day of the week
+S011,1,6,Philips Arena,24,25,,,NAME,,"Not a mistake, but a real location"
+S011,,7,out-scoring,,,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,,8,29-18,,,,,NUMBER,,"Not a mistake, but a correct score"
+S011,,9,out-scoring,,,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,,10,28-18,,,,,NUMBER,,"Not a mistake, but a correct score"
+S011,3,11,front of,30,31,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,4,12,shot,3,3,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,4,13,48 percent,4,5,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,4,14,44 percent,10,11,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,4,15,44 percent,10,11,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,4,16,25 percent,31,32,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,5,17,force the,7,8,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,5,18,14 turnovers,11,12,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,5,19,just 12,16,17,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,,20,dual -double,,,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,7,21,24 points,31,32,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,,22,9 -for,,,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,7,23,15 from,7,8,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,11,24,23 points,14,15,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,9,25,Paul Millsap,10,11,,,NAME,,"Not a mistake, but a real name"
+S011,9,26,11 points,14,15,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,,27,double -double,,,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,9,28,11 rebounds,33,34,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,11,29,23 points,14,15,,,NUMBER,,"Not a mistake, but a correct statistic"
+S011,,30,beat the,,,,,WORD,,"Not a mistake, but an idiomatic expression"
+S011,1,31,Washington Wizards,11,12,,,NAME,,Already annotated in previous mistake
+S011,,32,105-96,,,,,NUMBER,,"Not a mistake, but a correct score"
+S013,1,1,Cleveland Cavaliers,2,3,,,NAME,Orlando Magic,Team names were swapped
+S015,1,1,The Toronto Raptors,1,3,,,NAME,Heat,Incorrect team name
+S015,1,2,defeated the,9,10,,,WORD,lost to,Incorrect verb tense and preposition
+S015,,3,Heat 15-10,,,,,NUMBER,16-11,Incorrect team record
+S015,,4,108-94,,,,,NUMBER,92-101,Incorrect score
+S015,,5,the Raptors,,,,,NAME,Heat,Incorrect team name
+S015,2,6,got off,3,4,,,WORD,started strong,Incorrect verb phrase
+S015,2,7,to a,5,6,,,WORD,hot start with,Incorrect preposition and phrase
+S015,1,8,Raptors,3,3,,,NAME,Heat,Incorrect team name
+S015,2,9,first half,23,24,,,WORD,second quarter,Incorrect time period
+S015,2,10,alone,25,25,,,WORD,with a strong showing from their bench,Incorrect phrase and word
+S015,,11,out-scoring the,,,,,WORD,leading the way with,Incorrect verb phrase
+S015,1,12,Heat,12,12,,,NAME,Raptors,Incorrect team name
+S015,,13,50-38,,,,,NUMBER,43-55,Incorrect score
+S015,3,14,allowing,19,19,,,WORD,despite struggling in the second half,Incorrect phrase and word
+S015,1,15,Raptors,3,3,,,NAME,Heat,Incorrect team name
+S015,3,16,second half,16,17,,,WORD,third quarter,Incorrect time period
+S015,3,17,easy victory,25,26,,,WORD,comeback win,Incorrect phrase and word
+S015,4,18,Kyle Lowry,6,7,,,NAME,Hassan Whiteside,Incorrect player name
+S015,4,19,finished with,10,11,,,WORD,led the way with,Incorrect verb phrase
+S015,4,20,21 points,12,13,,,NUMBER,17 points,Incorrect score
+S015,4,21,four assists,31,32,,,NUMBER,three rebounds and four assists,Incorrect statistic
+S015,4,22,four steals,34,35,,,NUMBER,three rebounds and four steals,Incorrect statistic
+S015,,23,in a,,,,,WORD,for a total of,Incorrect phrase and word
+S015,,24,hefty 40,,,,,WORD,solid performance in over 30 minutes of play,Incorrect phrase and word
+S015,5,25,DeMar DeRozan,1,2,,,NAME,Gerald Green,Incorrect player name
+S015,5,26,had a,3,4,,,WORD,put up a strong showing with,Incorrect phrase and word
+S015,5,27,30 points,8,9,,,NUMBER,20 points,Incorrect score
+S015,5,28,four rebounds,27,28,,,NUMBER,seven rebounds and four assists,Incorrect statistic
+S015,4,29,four assists,31,32,,,NUMBER,seven rebounds and four assists,Incorrect statistic
+S015,1,30,in,27,27,,,WORD,for a total of,Incorrect phrase and word
+S015,,31,over 30,,,,,WORD,in over 35 minutes of play,Incorrect phrase and word
+S015,,32,minutes of,,,,,WORD,in over 40 minutes of play,Incorrect phrase and word
+S015,,33,play,,,,,WORD,with a strong showing from their bench,Incorrect phrase and word
+S015,5,34,DeMar DeRozan,1,2,,,NAME,Gerald Green,Incorrect player name
+S015,8,35,led the,3,4,,,WORD,put up a strong showing with,Incorrect phrase and word
+S015,8,36,way,5,5,,,WORD,a strong showing with,Incorrect phrase and word
+S015,1,37,Heat,12,12,,,NAME,Raptors,Incorrect team name
+S015,,38,43-55,,,,,NUMBER,62-65,Incorrect score
+S015,,39,despite struggling,,,,,WORD,leading the way with,Incorrect phrase and word
+S015,2,40,in the,21,22,,,WORD,put up a strong showing with,Incorrect phrase and word
+S015,3,41,second half,16,17,,,WORD,third quarter,Incorrect time period
+S015,,42,comeback win,,,,,WORD,despite struggling in the second half,Incorrect phrase and word
+S015,6,43,Gerald Green,29,30,,,NAME,Hassan Whiteside,Incorrect player name
+S015,8,44,led the,3,4,,,WORD,put up a strong showing with,Incorrect phrase and word
+S015,8,45,way,5,5,,,WORD,a strong showing with,Incorrect phrase and word
+S015,1,46,Raptors,3,3,,,NAME,Heat,Incorrect team name
+S015,,47,third quarter,,,,,WORD,second half,Incorrect time period
+S015,,48,despite struggling,,,,,WORD,leading the way with,Incorrect phrase and word
+S015,2,49,in the,21,22,,,WORD,put up a strong showing with,Incorrect phrase and word
+S015,3,50,second half,16,17,,,WORD,third quarter,Incorrect time period
+S016,1,1,The Oklahoma City,1,3,,,NAME,Thunder,Incorrect team name
+S017,,1,Tuesday evening,,,,,WORD,Saturday evening,Incorrect day of the week
+S017,,2,Monday's contest,,,,,NAME,Tuesday's contest,Incorrect day of the week in possessive form
+S017,,3,Cavaliers (33-34),,,,,NUMBER,Pistons (33-34),Incorrect team
+S017,5,4,Andre Drummond,1,2,,,NAME,LeBron James,Incorrect player
+S017,6,5,Reggie Jackson,1,2,,,NAME,Kentavious Caldwell-Pope,Incorrect player
+S017,8,6,Marcus Morris,1,2,,,NAME,Maurice Morris,Incorrect player
+S017,10,7,Richard Jefferson,1,2,,,NAME,Reggie Jefferson,Incorrect player
+S017,11,8,Deron Williams,1,2,,,NAME,no correction needed,
+S017,12,9,Kyle Korver,1,2,,,NAME,no correction needed,
+S017,10,10,Richard Jefferson,1,2,,,NAME,no correction needed,
+S017,14,11,Pistons head,2,3,,,WORD,Cavaliers head,Incorrect team
+S018,1,1,The Golden State,1,3,,,NAME,Warriors (64-7),Incorrect team name
+S018,1,2,defeated the,10,11,,,WORD,vs. the,Missing vs.
+S018,1,3,Los Angeles,12,13,,,NAME,Clippers (43-27),Incorrect team name
+S018,,4,114 -98,,,,,NUMBER,114-98,Missing hyphen
+S018,2,5,The Warriors,1,2,,,NAME,Warriors were the superior shooters in this game,Missing part of sentence
+S018,2,6,going 42,11,12,,,NUMBER,42%,Missing percentage symbol
+S018,2,7,percent from,13,14,,,WORD,from the field and,Missing words
+S018,4,8,Curry finished,1,2,,,NAME,Curry tallied 33 points,Incorrect verb
+S018,,9,points (12-23,,,,,NUMBER,12 of his 23 attempts from the field,Incorrect wording
+S018,,10,"FG, 4-6",,,,,NUMBER,5-6 FT),Missing FT)
+S018,,11,Curry's recent,,,,,WORD,Curry reverted back to his usual form Wednesday,Incorrect wording
+S018,,12,DeAndre Jordan,,,,,NAME,"led the Clippers with a remarkable 19-point, 20-rebound double-double",Missing part of sentence
+S018,,13,Austin Rivers,,,,,NAME,was next with a bench-leading 16 points,Incorrect wording
+S018,,14,Curry's recent,,,,,WORD,Curry's recent shooting woes apparently transferred over to Paul for the night,Incorrect wording
+S018,9,15,The Clippers,1,2,,,NAME,The Warriors remain atop the Pacific Division and the Western Conference overall,Incorrect team
+S018,,16,They're home,,,,,WORD,The Warriors remain atop the Pacific Division and the Western Conference overall.,Missing period
+S019,1,1,The Miami Heat,1,3,,,NAME,,Incorrect team name
+S019,1,2,defeated the,4,5,,,WORD,,Incorrect verb tense
+S019,1,3,Indiana Pacers,6,7,,,NAME,,Incorrect team name
+S019,1,4,113 -,9,10,,,NUMBER,,Incorrect score
+S019,1,5,at American,13,14,,,WORD,,Incorrect venue
+S019,1,6,Airlines Arena,15,16,,,NAME,,Incorrect venue
+S019,1,7,on Saturday,17,18,,,WORD,,Incorrect day of the week
+S019,1,8,evening,19,19,,,WORD,,Incorrect time of day
+S019,2,9,The Heat,1,2,,,NAME,,Incorrect team name
+S019,2,10,were expected,3,4,,,WORD,,Incorrect verb tense
+S019,2,11,to win,5,6,,,WORD,,Incorrect verb tense
+S019,2,12,this game,7,8,,,WORD,,Incorrect verb tense
+S019,2,13,easily,9,9,,,WORD,,Incorrect adverb
+S019,2,14,and they,10,11,,,WORD,,Incorrect pronoun
+S019,2,15,took care,12,13,,,WORD,,Incorrect verb tense
+S019,2,16,of business,14,15,,,WORD,,Incorrect noun
+S019,2,17,in this,16,17,,,WORD,,Incorrect preposition
+S019,,18,wire- to-,,,,,WORD,,Incorrect preposition
+S019,2,19,win,6,6,,,WORD,,Incorrect verb tense
+S019,3,20,In fact,1,2,,,WORD,,Incorrect adverb
+S019,3,21,the Heat,4,5,,,NAME,,Incorrect team name
+S019,3,22,led for,6,7,,,WORD,,Incorrect verb tense
+S019,3,23,the entirety,8,9,,,WORD,,Incorrect noun
+S019,3,24,of the,10,11,,,WORD,,Incorrect preposition
+S019,3,25,second half,12,13,,,WORD,,Incorrect noun
+S019,3,26,as they,15,16,,,WORD,,Incorrect pronoun
+S019,3,27,outscored the,17,18,,,WORD,,Incorrect verb tense
+S019,1,28,Pacers,7,7,,,NAME,,Incorrect team name
+S019,3,29,", 30",20,21,,,WORD,,Incorrect comma placement
+S019,3,30,- 16,22,23,,,NUMBER,,Incorrect score
+S019,,31,The assist-,,,,,NAME,,Incorrect noun
+S019,2,32,to -,20,21,,,WORD,,Incorrect preposition
+S019,4,33,ratio,7,7,,,NAME,,Incorrect noun
+S019,4,34,was the,8,9,,,WORD,,Incorrect verb tense
+S019,,35,main factor,,,,,WORD,,Incorrect noun
+S019,3,36,in the,25,26,,,WORD,,Incorrect preposition
+S019,2,37,game,8,8,,,NAME,,Incorrect noun
+S023,1,1,The Dallas Mavericks,1,3,,,NAME,Los Angeles Lakers,Team name is incorrect
+S023,1,2,122 - 73,10,12,,,NUMBER,123-74,Score is incorrect
+S023,1,3,at American Airlines Center,14,17,,,NAME,on Saturday,Date is incorrect
+S023,,4,There aren't many,,,,,WORD,,
+S023,,5,games as lopsided,,,,,WORD,,
+S023,,6,this in,,,,,WORD,,
+S023,,7,the NBA,,,,,NAME,the NBA playoffs,Context is incorrect
+S023,,8,The second,,,,,NAME,,
+S023,,9,quarter is,,,,,WORD,,
+S023,,10,when Dallas did,,,,,NAME,the Lakers did,Subject is incorrect
+S023,,11,their damage,,,,,WORD,,
+S023,13,12,The Mavericks,1,2,,,NAME,the Lakers,Subject is incorrect
+S023,3,13,led,6,6,,,WORD,,
+S023,,14,Dallas shot,,,,,NAME,,
+S023,,15,No starter,,,,,WORD,,
+S023,9,16,Julius Randle,1,2,,,NAME,,
+S023,7,17,was the,3,4,,,WORD,,
+S023,,18,only productive,,,,,WORD,,
+S023,7,19,starter,7,7,,,WORD,,
+S024,,1,The host Golden State,,,,,WORD,,Incorrect team name
+S024,1,2,Warriors,4,4,,,NAME,Warriors (58-14),Missing score and record
+S024,,3,demolished,,,,,WORD,,Incorrect word choice
+S024,,4,"Friday,",,,,,NOT_CHECKABLE,,
+S024,1,5,Golden,2,2,,,NAME,Warriors (58-14),Incorrect team name
+S024,,6,reigning MVP,,,,,WORD,,Not exact phrasing used in the box score
+S024,4,7,three,13,13,,,NUMBER,two,Incorrect number of players making up for a cold night from Klay Thompson
+S025,1,1,The San Antonio,1,3,,,NAME,,Team name is incorrect
+S025,1,2,San Antonio,2,3,,,NAME,,Team name is incorrect
+S025,1,3,at TD Garden,14,16,,,NAME,at TD Garden,Full venue name is incorrect
+S025,2,4,The Spurs,1,2,,,NAME,,Team name is incorrect
+S025,,5,(13-3),,,,,NUMBER,(13-2),Team record is incorrect
+S025,2,6,checked in,8,9,,,WORD,,
+S025,2,7,to,10,10,,,WORD,,
+S025,,8,Thursday's,,,,,NAME,Thursday's,Day of the week is incorrect
+S025,2,9,contest,13,13,,,NAME,,
+S025,2,10,with a,14,15,,,WORD,,
+S025,2,11,mere,16,16,,,NAME,mere,Adjective is correct
+S025,2,12,nine,17,17,,,NUMBER,,
+S025,2,13,points,18,18,,,NAME,,
+S025,2,14,over the,19,20,,,WORD,,
+S025,1,15,Celtics,8,8,,,NAME,,Team name is incorrect
+S025,,16,(9-7),,,,,NUMBER,(8-6),Team record is incorrect
+S025,2,17,to,10,10,,,WORD,,
+S025,2,18,their eighth,45,46,,,WORD,,
+S025,2,19,home,28,28,,,NAME,,
+S025,2,20,victory,48,48,,,NAME,,
+S025,2,21,of the,49,50,,,WORD,,
+S025,2,22,season,51,51,,,NAME,,
+S025,3,23,Kawhi,1,1,,,NAME,,
+S025,3,24,Leonard,2,2,,,NAME,,
+S025,3,25,led,3,3,,,WORD,,
+S025,3,26,the way,4,5,,,WORD,,
+S025,3,27,for,6,6,,,WORD,,
+S025,1,28,the,6,6,,,WORD,,
+S025,1,29,Spurs,4,4,,,NAME,,Team name is incorrect
+S025,3,30,scoring,10,10,,,NAME,,
+S025,3,31,25,11,11,,,NUMBER,29,Point total is incorrect
+S025,2,32,points,18,18,,,NAME,,
+S025,,33,on 8-of-18,,,,,WORD,,
+S025,3,34,shooting,19,19,,,NAME,,
+S025,3,35,from,27,27,,,WORD,,
+S025,1,36,the,6,6,,,WORD,,
+S025,9,37,field,8,8,,,NAME,,
+S025,1,38,at TD,14,15,,,WORD,,
+S025,1,39,Garden,16,16,,,NAME,,
+S026,1,1,The Phoenix Suns,1,3,,,NUMBER,(11-8),Inaccurate game stats
+S026,1,2,defeated the,9,10,,,NAME,(7-11),Inaccurate game stats
+S026,1,3,David West,11,12,,,NAME,(7-11),Inaccurate game stats
+S026,,4,116 -0,,,,,NUMBER,(116-99),Inaccurate game score
+S026,1,5,on Wednesday,21,22,,,NOT_CHECKABLE,(Tuesday),Incorrect day of the week
+S026,1,6,at the,23,24,,,NOT_CHECKABLE,(at),Redundant words
+S026,2,7,The Suns,1,2,,,NAME,(The Pacers),Incorrect team
+S026,2,8,got off,3,4,,,NOT_CHECKABLE,(The Pacers got),Redundant words
+S026,2,9,to a,5,6,,,NOT_CHECKABLE,(to),Redundant words
+S026,2,10,quick start,7,8,,,NOT_CHECKABLE,(a quick start),Redundant words
+S026,2,11,in this,9,10,,,NOT_CHECKABLE,(in this one),Redundant words
+S026,2,12,The Suns,1,2,,,NAME,(The Pacers),Incorrect team
+S026,3,13,were the,3,4,,,NAME,(The Pacers were),Redundant words
+S026,3,14,superior shooters,5,6,,,NOT_CHECKABLE,(The Pacers were the superior shooters),Incorrect team
+S026,2,15,in this,9,10,,,NOT_CHECKABLE,(in this game),Redundant words
+S026,3,16,going 50,11,12,,,NUMBER,(48),Inaccurate shooting percentage
+S026,3,17,percent from,13,14,,,NOT_CHECKABLE,(percent from the field),Redundant words
+S026,3,18,the field,15,16,,,NOT_CHECKABLE,(the field and the three-point line),Incorrect shooting percentage
+S026,3,19,and,17,17,,,NOT_CHECKABLE,(and),Redundant words
+S026,3,20,48 percent,18,19,,,NUMBER,(50),Inaccurate shooting percentage
+S026,3,21,while the,27,28,,,NOT_CHECKABLE,(while),Redundant words
+S026,,22,12 -for-,,,,,NUMBER,(0-for-3),Inaccurate free throw percentage
+S026,3,23,from the,14,15,,,NOT_CHECKABLE,(from the three-point line),Redundant words
+S026,3,24,free throw,36,37,,,NOT_CHECKABLE,(free throw line),Incorrect shooting percentage
+S026,3,25,line,25,25,,,NOT_CHECKABLE,(line),Redundant words
+S026,2,26,The Suns,1,2,,,NAME,(The Pacers),Incorrect team
+S026,4,27,were led,3,4,,,NOT_CHECKABLE,(The Suns were led),Incorrect team
+S026,4,28,by,5,5,,,NOT_CHECKABLE,(by),Redundant words
+S026,4,29,the duo,6,7,,,NOT_CHECKABLE,(The duo),Redundant words
+S026,,30,of David,,,,,NOT_CHECKABLE,(of David West),Incorrect player
+S026,3,31,and,17,17,,,NOT_CHECKABLE,(and),Redundant words
+S026,,32,Eric Maynor,,,,,NAME,(David West and Eric Maynor),Incorrect players
+S026,6,33,who,12,12,,,NOT_CHECKABLE,(who),Redundant words
+S026,,34,led the,,,,,NOT_CHECKABLE,(led the team),Incorrect team
+S026,11,35,with,11,11,,,NOT_CHECKABLE,(with),Redundant words
+S026,,36,a total,,,,,NOT_CHECKABLE,(a total of),Redundant words
+S026,4,37,of,8,8,,,NOT_CHECKABLE,(of),Redundant words
+S026,,38,22,,,,,NUMBER,(14),Inaccurate number of points
+S026,,39,The Pacers,,,,,NAME,(The Suns),Incorrect team
+S026,4,40,were led,3,4,,,NOT_CHECKABLE,(The Pacers were led),Incorrect team
+S026,4,41,by,5,5,,,NOT_CHECKABLE,(by),Redundant words
+S026,4,42,the duo,6,7,,,NOT_CHECKABLE,(The duo),Redundant words
+S026,,43,of David,,,,,NOT_CHECKABLE,(of David West),Incorrect player
+S026,3,44,and,17,17,,,NOT_CHECKABLE,(and),Redundant words
+S026,,45,Danny Granger,,,,,NAME,(David West and Danny Granger),Incorrect players
+S026,6,46,who,12,12,,,NOT_CHECKABLE,(who),Redundant words
+S026,,47,led the,,,,,NOT_CHECKABLE,(led the team),Incorrect team
+S027,1,1,The New York Knicks,1,4,,,NAME,Houston Rockets,Incorrect team name
+S029,1,1,The Minnesota Timberwolves,1,3,,,NAME,,Team name should be in title case
+S029,1,2,defeated the Dallas Mavericks,4,7,,,NAME,,Team name should be in title case
+S029,1,3,101 -,9,10,,,NUMBER,102-92,Score is incorrect
+S029,1,4,at Target Center,13,15,,,WORD,on Friday at Target Center,Day of the week is incorrect
+S029,2,5,The Timberwolves,1,2,,,NAME,,Team name should be in title case
+S029,,6,(12-26),,,,,NUMBER,(13-25),Record is incorrect
+S029,2,7,a hot start,15,17,,,WORD,a hot beginning,Idiom is incorrect
+S029,2,8,lead after,31,32,,,WORD,trail by,Idiom is incorrect
+S029,3,9,the Mavericks,21,22,,,NAME,,Team name should be in title case
+S029,,10,(11-27),,,,,NUMBER,(12-28),Record is incorrect
+S029,3,11,by a,28,29,,,WORD,with a,Idiom is incorrect
+S029,,12,24-19,,,,,NUMBER,27-18,Score is incorrect
+S029,5,13,Harrison Barnes,1,2,,,NAME,,Player name should be in title case
+S029,5,14,led the,3,4,,,WORD,scored the,Idiom is incorrect
+S029,5,15,way for,5,6,,,WORD,for the,Idiom is incorrect
+S029,5,16,30 points,13,14,,,NUMBER,29 points,Score is incorrect
+S029,6,17,Deron Williams,1,2,,,NAME,,Player name should be in title case
+S029,6,18,followed with,3,4,,,WORD,scored the most with,Idiom is incorrect
+S029,6,19,11 points,5,6,,,NUMBER,12 points,Score is incorrect
+S029,7,20,Wesley Matthews,1,2,,,NAME,,Player name should be in title case
+S029,7,21,was next,3,4,,,WORD,scored the most with,Idiom is incorrect
+S029,7,22,37 points,10,11,,,NUMBER,34 points,Score is incorrect
+S029,9,23,JJ Barea,1,2,,,NAME,,Player name should be in title case
+S029,5,24,led the,3,4,,,WORD,scored the most with,Idiom is incorrect
+S029,9,25,14 points,7,8,,,NUMBER,13 points,Score is incorrect
+S029,14,26,Karl-Anthony Towns,1,2,,,NAME,,Player name should be in title case
+S029,5,27,led the,3,4,,,WORD,scored the most with,Idiom is incorrect
+S029,14,28,34 points,13,14,,,NUMBER,35 points,Score is incorrect
+S030,1,1,The Indiana Pacers,1,3,,,WORD,defeated,Incorrect verb
+S030,1,2,at Bankers Life,13,15,,,WORD,Fieldhouse,Incorrect venue
+S030,,3,Monday evening,,,,,NUMBER,,
+S030,3,4,the Hornets,18,19,,,NAME,,
+S030,5,5,14 - 11,4,6,,,NUMBER,,
+S030,1,6,Pacers,3,3,,,NAME,,
+S030,6,7,Kemba Walker,1,2,,,NAME,,

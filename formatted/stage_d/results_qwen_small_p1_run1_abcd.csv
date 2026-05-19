@@ -1,0 +1,161 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,2,1,came in,27,28,,,NUMBER,entered,Incorrect tense used.
+S001,,2,30 -point,,,,,NUMBER,30-point,Hyphen missing.
+S001,3,3,supplemented with,14,15,,,WORD,assisted,Incorrect word used.
+S001,4,4,right behind,4,5,,,NOT_CHECKABLE,,Relative position mentioned twice without context.
+S001,5,5,Jae Crowder,1,2,,,NAME,Jae Crowder,Repetition of name.
+S001,5,6,next with,4,5,,,NUMBER,third with,Incorrect number and position.
+S002,1,1,The Atlanta Hawks,1,3,,,NAME,Cleveland Cavaliers,Incorrect team name.
+S002,1,2,110 - 110,9,11,,,NUMBER,110-94,Incorrect score.
+S002,1,3,at Quicken Loans,13,15,,,OTHER,at Quicken Loans,Incorrect arena name.
+S002,,4,21 assist,,,,,NUMBER,21 assists,Incorrect phrasing.
+S002,,5,21 assist,,,,,NUMBER,21 assists,Incorrect phrasing.
+S002,3,6,20,12,12,,,NUMBER,37-20,Incorrect fourth quarter score.
+S002,6,7,Dwight Howard,1,2,,,NAME,Kent Bazemore,Incorrect player name.
+S002,7,8,25 points,9,10,,,NUMBER,25 rebounds,Incorrect stat.
+S002,,9,6 rebounds,,,,,NUMBER,6 assists,Incorrect stat.
+S002,,10,3 assists,,,,,NUMBER,3 assists,Incorrect stat.
+S002,,11,Atlanta,,,,,NAME,Cleveland,Incorrect team name.
+S002,11,12,LeBron James,1,2,,,NAME,Dwight Howard,Incorrect player name.
+S002,11,13,23 points,16,17,,,NUMBER,29 points,Incorrect stat.
+S002,,14,9 rebounds,,,,,NUMBER,12 rebounds,Incorrect stat.
+S002,,15,5 assists,,,,,NUMBER,9 assists,Incorrect stat.
+S003,,1,19-8,,,,,NUMBER,19-8,Repeated team record in the same sentence
+S003,,2,19-8,,,,,NUMBER,19-8,Repeated team record in the same sentence
+S003,1,3,Toronto Raptors,2,3,,,NAME,Toronto Raptors,Team name should include 'Raptors'
+S003,1,4,Orlando Magic,6,7,,,NAME,Orlando Magic,Team name should include 'Magic'
+S003,9,5,Charlotte,4,4,,,NAME,Charlotte Hornets,Correct opponent's name and team
+S004,1,1,96 -,11,12,,,NUMBER,89-96,Incorrect score format
+S004,2,2,1 - 1,4,6,,,NUMBER,1-0,Incorrect win-loss record for Jazz
+S004,,3,1 - 1,,,,,NUMBER,0-1,Incorrect win-loss record for Lakers
+S004,7,4,five rebounds,15,16,,,NUMBER,seven rebounds,Incorrect number of rebounds
+S004,7,5,17 points,12,13,,,NUMBER,23 points,Incorrect player score for George Hill
+S004,,6,five rebounds,,,,,NUMBER,seven rebounds,Incorrect number of rebounds
+S004,,7,Sunday home,,,,,CONTEXT,away game,Misreporting the location of next game
+S005,1,1,35,8,8,,,NUMBER,30,Incorrect success rate from the floor
+S005,1,2,21,35,35,,,NUMBER,20,Incorrect win-loss record for the Magic
+S005,1,3,30,33,33,,,NUMBER,11,Incorrect number of points for Dwight Howard's double-double
+S005,5,4,27,7,7,,,NUMBER,21,Incorrect number of points for Kent Bazemore's second unit performance
+S005,,5,21,,,,,NUMBER,30,Incorrect number of points for Paul Millsap's leading scoring performance
+S005,,6,21,,,,,NUMBER,30,Incorrect number of points for Paul Millsap's leading scoring performance
+S006,2,1,double - digit,9,11,,,NUMBER,single-digit,Incorrect description of Nets' favorite status
+S006,7,2,all he could,4,6,,,OTHER,was able to,Inconsistent verb tense and awkward phrasing
+S006,7,3,tallied 24 points,17,19,,,NUMBER,tallied 29 points,Incorrect point total for Brook Lopez
+S007,1,1,Russell Westbrook,1,2,,,NAME,Westbrook,Both instances should be the same player
+S007,,2,Russell Westbrook,,,,,NAME,Westbrook,Both instances should be the same player
+S007,5,3,DeMarcus Cousins,1,2,,,NAME,Enes Kanter,Mistakenly credited the wrong player with 29 points
+S008,2,1,Tuesday,36,36,,,NOT_CHECKABLE,,"The story mentions Saturday, not Tuesday."
+S009,1,1,defeated,4,4,,,OTHER,defied,The teams played a closely contested game and did not defeat each other.
+S009,4,2,29,14,14,,,NUMBER,27,The Bucks allowed the Lakers to shoot only 27% from the field.
+S009,4,3,17,22,22,,,NUMBER,15,The Lakers committed only 15 turnovers in the game.
+S009,5,4,19,4,4,,,NUMBER,22,"The Bucks should have a record of 22-37, not 19-37."
+S009,10,5,30,5,5,,,NUMBER,40,"The Bucks should have a record of 22-40, not 22-30."
+S009,6,6,41,13,13,,,NUMBER,28,"D'Angelo Russell scored 28 points, not 41."
+S009,12,7,18,12,12,,,NUMBER,26,"Khris Middleton scored 26 points, not 18."
+S009,,8,41,,,,,NUMBER,28,"Giannis Antetokounmpo scored 28 points, not 41."
+S010,,1,19 16,,,,,NUMBER,18-17,Magic's win-loss record is incorrect.
+S010,8,2,13 points,10,11,,,NUMBER,14 points,Dwight Howard's scoring is incorrect.
+S010,9,3,17 points,15,16,,,NUMBER,14 points,Bazemore's scoring is incorrect.
+S011,,1,Wednesday,,,,,NAME,Tuesday,"The game was played on Tuesday, not Wednesday."
+S011,1,2,96,20,20,,,NUMBER,95,"The final score was 105-95, not 105-96."
+S012,1,1,Phoenix,6,6,,,NAME,Denver,Wrong team name
+S012,1,2,Nuggets,3,3,,,NAME,Suns,Wrong team name
+S013,,1,at Quicken,,,,,OTHER,in Cleveland,Incorrect venue location.
+S013,3,2,13 points,16,17,,,NUMBER,15 points,Kyrie Irving scored more than stated.
+S013,3,3,4 - 12,19,21,,,NUMBER,5-12,Incorrect field goal percentage.
+S013,4,4,29 points,4,5,,,NUMBER,30 points,LeBron James scored more than stated.
+S013,4,5,29 minutes,35,36,,,NUMBER,31 minutes,LeBron James played more than stated.
+S013,5,6,10 points,5,6,,,NUMBER,2 points,Kevin Love scored less than stated.
+S013,,7,29 minutes,,,,,NUMBER,24 minutes,Kevin Love played more than stated.
+S013,,8,4 points,,,,,NUMBER,7 points,Nikola Vucevic scored more than stated.
+S013,3,9,21 minutes,41,42,,,NUMBER,35 minutes,Nikola Vucevic played less than stated.
+S013,7,10,11 points,5,6,,,NUMBER,14 points,Aaron Gordon scored more than stated.
+S014,1,1,Portland Trail,2,3,,,NAME,Blazers,The Trail Blazers are not a name for the Portland team.
+S014,5,2,went 9 - for,2,5,,,NUMBER,went 9-19,"The correct score is 9-19, not 9-for."
+S014,,3,for,,,,,NOT_CHECKABLE,,This is a common phrasing in basketball statistics and not a mistake.
+S014,11,4,Jordan,12,12,,,NAME,Kobe,The text mistakenly refers to Jordan Clarkson when it should refer to Kobe Bryant.
+S014,,5,Jordan,,,,,NAME,Kobe,The text mistakenly refers to Jordan Clarkson when it should refer to Kobe Bryant.
+S015,1,1,Wednesday,22,22,,,NOT_CHECKABLE,,"The game was played on Friday, not Wednesday."
+S016,1,1,Oklahoma City,2,3,,,NAME,Utah,Incorrect home team name
+S016,1,2,defeated,10,10,,,OTHER,beat,Inconsistent with the original story's language
+S016,,3,24-2,,,,,NUMBER,29-8,Incorrect score difference in the third quarter
+S016,4,4,Russell Westbrook,6,7,,,NAME,Kevin Durant,Incorrect player name
+S017,2,1,only,15,15,,,NUMBER,eight,The Cavaliers won seven road games but the sentence states only
+S017,,2,only,,,,,NUMBER,eight,The Pistons won seven road games but the sentence states only
+S017,1,3,Cavaliers,3,3,,,NAME,Cavs,The Cavaliers are often referred to as the Cavs
+S017,,4,Cavaliers,,,,,NAME,Cavs,The Cavaliers are often referred to as the Cavs
+S018,1,1,64 -,6,7,,,NUMBER,65-7,The team's record should be 65 wins and 7 losses.
+S018,1,2,43 - 27,16,18,,,NUMBER,44-28,The team's record should be 44 wins and 28 losses.
+S018,,3,29 %,,,,,NUMBER,30%,The three-point shooting percentage should be higher.
+S018,,4,29 %,,,,,NUMBER,30%,The free-throw shooting percentage should be higher.
+S018,,5,42 %,,,,,NUMBER,43%,The free-throw shooting percentage should be higher.
+S018,,6,29 %,,,,,NUMBER,30%,The three-point shooting percentage should be higher.
+S018,,7,29 %,,,,,NUMBER,30%,The free-throw shooting percentage should be higher.
+S018,,8,42 %,,,,,NUMBER,43%,The free-throw shooting percentage should be higher.
+S018,,9,29 %,,,,,NUMBER,30%,The three-point shooting percentage should be higher.
+S018,10,10,4 -  for,28,30,,,NUMBER,3 - for,Crawford's free-throw attempts should be less.
+S018,,11,4 -  for,,,,,NUMBER,3 - for,Crawford's three-point attempts should be less.
+S019,4,1,23,16,16,,,NUMBER,23,Typo: '23' should be '23'
+S019,3,2,16,23,23,,,NUMBER,16,Typo: '16' should be '16'
+S019,6,3,10,12,12,,,NUMBER,10,Typo: '10' should be '10'
+S019,6,4,Paul,1,1,,,NAME,Paul George,Missing name: Should include Paul George's full name
+S019,,5,16,,,,,NUMBER,16,Typo: '16' should be '16'
+S019,,6,3,,,,,NUMBER,5,Incorrect number: Should be five assists
+S019,12,7,22,10,10,,,NUMBER,22,Typo: '22' should be '22'
+S019,,8,3,,,,,NUMBER,5,Incorrect number: Should be five rebounds
+S020,1,1,host,6,6,,,NAME,Pelicans,"The home team is the Pelicans, not host Phoenix Suns."
+S021,2,1,38 -,38,39,,,NUMBER,68,First quarter score should be 68 instead of 38
+S021,,2,68,,,,,NUMBER,38,Second quarter score should be 38 instead of 68
+S021,4,3,19,27,27,,,NUMBER,37,Fourth quarter score should be 37 instead of 19
+S021,12,4,four,9,9,,,NUMBER,five,Rockets had five players with double-doubles instead of four
+S022,1,1,Friday,18,18,,,NAME,evening,The date should include the time.
+S022,,2,8 of 11,,,,,NUMBER,8-9,The free-throw percentage is incorrect.
+S022,8,3,17 points,12,13,,,NUMBER,8 points,Buddy Hield's score is incorrect.
+S022,,4,17 points,,,,,NUMBER,8 points,Buddy Hield's score is incorrect.
+S022,12,5,Oklahoma City,14,15,,,NAME,Utah,The opponent name is wrong.
+S022,6,6,42 points,9,10,,,NUMBER,36 points,Anthony Davis's score is incorrect.
+S023,1,1,122 -,10,11,,,NUMBER,122-73,Score should be both numbers.
+S023,1,2,on Wednesday,18,19,,,CONTEXT,on Wednesday,Sentence is missing the preposition 'on'.
+S023,5,3,Justin Anderson,1,2,,,NAME,Justin Anderson,Duplicate first name and last name.
+S023,5,4,19 points,14,15,,,NUMBER,19 points,Score should be both numbers.
+S023,,5,Justin Anderson,,,,,NAME,Justin Anderson,Duplicate first name and last name.
+S024,,1,60-win,,,,,NUMBER,60-win,Sentence uses a hyphen instead of an em dash
+S024,,2,breezed,,,,,OTHER,outscored,Incorrect verb used for the result of the game
+S024,,3,3-of-14,,,,,NUMBER,3-of-14,Sentence uses a hyphen instead of an em dash
+S024,5,4,bench,21,21,,,NAME,bench,Incorrect name used for the second unit in the story
+S025,,1,9 -  3,,,,,NUMBER,8 - 7,Incorrect win-loss record for Celtics
+S025,2,2,13 -  3,4,6,,,NUMBER,9 - 7,Incorrect win-loss record for Spurs
+S025,3,3,8 -  of -,14,17,,,NUMBER,16,Incorrect field goal attempts for Spurs
+S025,,4,8 -  of -,,,,,NUMBER,10,Incorrect field goal attempts for Celtics
+S025,,5,19 -  of -,,,,,NUMBER,18,Incorrect field goal attempts for Leonard
+S025,3,6,3 -  of -,22,25,,,NUMBER,4,Incorrect three-pointers made for Leonard
+S025,,7,19 -  of -,,,,,NUMBER,16,Incorrect field goal attempts for Bradley
+S025,7,8,6 -  of -,23,26,,,NUMBER,14,Incorrect field goal attempts for Lee
+S025,,9,46 -  %,,,,,NUMBER,47,Incorrect three-point shooting percentage for Celtics
+S025,,10,8 -  of,,,,,NUMBER,47,Incorrect field goal shooting percentage for Spurs
+S025,,11,46 -  %,,,,,NUMBER,35,Incorrect three-point shooting percentage for Spurs
+S026,1,1,David West,11,12,,,NAME,Phoenix Suns,Incorrect team name mentioned.
+S026,,2,116 -0,,,,,NUMBER,116 - 0,Incorrect score format.
+S026,4,3,Eric Dragic,9,10,,,NAME,Goran Dragic,Incorrect player name mentioned.
+S026,5,4,34 points,30,31,,,NUMBER,34 points,Points already included in tokens.
+S026,,5,34 points,,,,,NUMBER,34 points,Points already included in tokens.
+S026,9,6,15 points,10,11,,,NUMBER,10 points,Incorrect player stats.
+S026,11,7,CJ Miles,1,2,,,NAME,Roy Hibbert,Incorrect player name mentioned.
+S026,11,8,17 points,12,13,,,NUMBER,15 points,Incorrect player stats.
+S027,,1,116-111,,,,,NUMBER,111-111,Incorrect score difference
+S027,4,2,31,38,38,,,NUMBER,29,Afflalo's points are incorrect
+S027,,3,31,,,,,NUMBER,29,Afflalo's points are repeated and incorrect
+S027,,4,31,,,,,NUMBER,29,Afflalo's points are repeated and incorrect
+S028,1,1,114 -,9,10,,,NUMBER,114-110,Incorrect score in box score.
+S028,2,2,31 - 21,4,6,,,NUMBER,31-21,Incorrect score in box score.
+S028,,3,31 - 21,,,,,NUMBER,31-21,Incorrect score in box score.
+S028,3,4,9 - 21,13,15,,,NUMBER,9-21,Incorrect score in box score.
+S028,4,5,31 - 44,6,8,,,NUMBER,31-21,Incorrect score in box score.
+S028,5,6,John Wall,14,15,,,NAME,Bradley Beal,Incorrect name in box score.
+S028,5,7,Bradley Beal,17,18,,,NAME,John Wall,Incorrect name in box score.
+S028,,8,Bradley Beal,,,,,NAME,John Wall,Incorrect name in box score.
+S028,6,9,Marcin Gortat,1,2,,,NAME,Sean Kilpatrick,Incorrect name in box score.
+S028,,10,Bradley Beal,,,,,NAME,Bojan Bogdanovic,Incorrect name in box score.
+S028,,11,Marcin Gortat,,,,,NAME,Sean Kilpatrick,Incorrect name in box score.
+S029,1,1,Wednesday,17,17,,,NOT_CHECKABLE,Tuesday,"The game was played on Tuesday, not Wednesday."
+S030,1,1,Wednesday,18,18,,,NOT_CHECKABLE,Monday,"The story states the game was played on Wednesday, but the schedules indicate it was actually on Monday."

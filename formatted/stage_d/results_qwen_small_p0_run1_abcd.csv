@@ -1,0 +1,188 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,,1,the Celtics led their startes,,,,,GRAMMATICAL,the starters led their,Incorrect use of possessive pronoun
+S001,,2,startes,,,,,SPELLING,starters,Incorrect spelling
+S001,,3,Isaiah Thomas led the Celtics in scoring,,,,,GRAMMATICAL,Isaiah Thomas led the Celtics in scoring,Incorrect sentence structure
+S001,,4,Al Horford stuffed the stat sheet,,,,,GRAMMATICAL,Al Horford stuffed the stat sheet,Incorrect sentence structure
+S001,,5,Marcus Smart was a presence off the bench,,,,,GRAMMATICAL,Marcus Smart was a presence off the bench,Incorrect sentence structure
+S001,,6,Lou Williams led the way for Los Angeles,,,,,GRAMMATICAL,Lou Williams led the way for Los Angeles,Incorrect sentence structure
+S001,,7,D'Angelo Russell led their startes,,,,,GRAMMATICAL,D'Angelo Russell led their starters,Incorrect use of possessive pronoun
+S001,,8,startes,,,,,SPELLING,starters,Incorrect spelling
+S001,6,9,Jae Crowder was next with 18 points,1,7,,,GRAMMATICAL,"Jae Crowder was next with 18 points, six rebounds, an assist and two steals.",Sentence structure issue; repeats information
+S001,5,10,Jae Crowder,1,2,,,SPELLING,Jae Crowder,Duplicate entry
+S004,1,1,"The host Utah Jazz defeated the Los Angeles Lakers , 96 - 89 , at Vivint Smart Home Arena on Friday",1,21,,,,,Add missing article 'a' before Vivint Smart Home Arena
+S004,2,1,The Jazz ( 1 - 1 ),1,7,,,,,Add article 'a' before Jazz
+S004,2,2,have been one of the best teams in the NBA this season,8,19,,,,,Correct 'this season' to 'season'
+S004,,1,"Rebounding was key for the Jazz , as they held the Lakers to 38 % from the field and 24 % from three-point range .",,,,,,,Correct '38 percent' and '24 percent' to '38%' and '24%'
+S004,,1,"Luol Deng was the only other starter in double-figures , as he totaled 12 points and 12 rebounds .",,,,,,,Correct 'double-figures' to 'double figures'
+S004,,1,"George Hill was the player of the game , as he led the team with 23 points , three rebounds and three assists on 7- of- 14 shooting .",,,,,,,Correct '23 points' to '23'
+S004,14,2,"Rudy Gobert finished second on the team , totaling 13 points , 13 rebounds and four blocks",1,17,,,,,"Add 'double' before double-double and correct 'and four blocks' to ', 13 rebounds, and four blocks'"
+S006,1,1,The Houston Rockets,1,3,,,DATE_TIME,,"Incorrect date format, should be 'on Friday'"
+S006,,2,(10 -12),,,,,DATE_TIME,,"Incorrect score format, should be '10-12'"
+S006,1,3,defeated,9,9,,,DATE_TIME,,"Incorrect tense, should be 'defeat'"
+S006,,4,double- digit,,,,,DATE_TIME,,"Incorrect hyphenation, should be 'double-digit'"
+S006,2,5,The Nets,1,2,,,DATE_TIME,,"Incorrect tense, should be 'were'"
+S006,4,6,Trevor Ariza,1,2,,,DATE_TIME,,"Incorrect tense, should be 'Trevor Ariza was'"
+S006,,7,or Wednesday,,,,,DATE_TIME,,"Incorrect spelling, should be 'on Wednesday'"
+S006,6,8,without Brook,6,7,,,DATE_TIME,,"Incorrect article, should be 'without the Brook'"
+S006,8,9,Thaddeus Young,1,2,,,DATE_TIME,,"Incorrect tense, should be 'were'"
+S007,1,1,Russell Westbrook and Russell Westbrook,1,5,,,GRAMMAR,Russell Westbrook and Enes Kanter,"Both players' names are the same, causing confusion"
+S007,,2,Oklahoma City Thunder and Oklahoma City Thunder,,,,,GRAMMAR,Oklahoma City Thunder and Oklahoma City Thunder,"Both teams' names are the same, causing confusion"
+S007,,3,went on to finish,,,,,GRAMMAR,finished,"Incorrect verb tense, should be 'finished'"
+S007,,4,Oladipo added 23 points,,,,,TYPO,Oladipo added 23 points and did most of his damage by going a perfect 8-of-8 from the free throw line,"Sentence is incomplete, should contain additional information"
+S007,,5,Cousins filled a remarkable,,,,,TYPO,Kanter filled a remarkable box score line that was only overshadowed by Westbrook.,"Incorrect player name, should be 'Kanter'"
+S007,6,6,Steven Adams chipped in 21,21,25,,,TYPO,"Enes Kanter chipped in 29 points on 10-of-18 shooting, in 32 minutes, while Steven Adams chipped in 21 points, four rebounds and one steal, in 27 minutes.",Incorrect player name and points
+S010,1,1,Atlanta Hawks,2,3,,,TEAM,Orlando Magic,"The Hawks were the visiting team, not Atlanta Hawks"
+S010,6,2,19 - 16,4,6,,,,16-21,The correct record for Orlando Magic
+S010,,3,19 - 16,,,,,,19-16,The correct record for Atlanta Hawks
+S010,10,4,New Orleans,11,12,,,,Los Angeles Lakers,"The next game opponent should be the Los Angeles Lakers, not New Orleans Pelicans"
+S010,16,5,Toronto Raptors,15,16,,,,Boston Celtics,"The next game opponent should be the Boston Celtics, not Toronto Raptors"
+S011,1,1,The Atlanta Hawks,1,3,,,,,Hawks is misspelled as Hawkses in the original text.
+S011,14,2,Cleveland Cavaliers,27,28,,,,Milwaukee Bucks,"The Cavaliers game is in the future, we can update this to a recent opponent."
+S015,1,1,The Toronto Raptors,1,3,,,TEAM_NAME,,
+S015,1,2,17 - 11,5,7,,,SCORE,,
+S015,1,3,defeated the Miami,9,11,,,TEAM_NAME,,
+S015,1,4,15 - 10,14,16,,,SCORE,,
+S015,1,5,108 - 94,18,20,,,SCORE,,
+S015,1,6,Wednesday at American,22,24,,,DATE,"February 8, 2017","The actual date is February 8, 2017 based on the provided online calendar."
+S015,,7,American Airlines Arena,,,,,VENUE_NAME,,
+S015,1,8,Heat,12,12,,,TEAM_NAME,,
+S015,6,9,DeMarre Carroll,1,2,,,PLAYER_NAME,,
+S015,6,10,20 points,37,38,,,SCORE,18 points,DeMarre Carroll had only 18 points in the game.
+S015,6,11,7 - 15,40,42,,,SCORE,,The provided percentage is correct.
+S015,6,12,Gerald Green,29,30,,,PLAYER_NAME,,
+S015,6,13,bench,34,34,,,,,"No specific mistake, but 'bench' could be expanded to clarify the context."
+S015,,14,20 points,,,,,SCORE,,"Gerald Green had only 7 points, not 20."
+S015,,15,7 - 15,,,,,SCORE,,The provided percentage is correct.
+S015,6,16,5 - 10,45,47,,,SCORE,,The provided percentage is correct.
+S015,,17,20 points,,,,,SCORE,,"Gerald Green actually scored only 7 points, not 20."
+S015,9,18,Cleveland,25,25,,,TEAM_NAME,,
+S015,11,19,Hassan Whiteside,1,2,,,PLAYER_NAME,,
+S015,11,20,team - high,13,15,,,SCORE,high of 20 points,The term 'team-high' is confusing and less clear than just saying 'high of 20 points'.
+S016,,1,The Oklahoma City Thunder (50-22) defeated the Utah Jazz,,,,,FACT,,Incorrect order of the teams. 'Utah Jazz' should come before 'Oklahoma City Thunder'.
+S016,,2,"(35-37) 91 , on Friday night at Chesapeake",,,,,FACT,,"Incorrect scoring. The score should be 113-91, not 91."
+S016,3,3,The Jazz came out strong in the third quarter,1,9,,,FACT,,"Incorrect team. The Thunder came out strong in the third quarter, not Jazz."
+S016,,4,out-scoring the Jazz,,,,,FACT,,Incorrect team. The Jazz should be outscored by the Thunder.
+S016,,5,29-8,,,,,FACT,,Incorrect score. The correct score should be 29-8 in favor of the Thunder.
+S016,3,6,", but the Thunder battled back",19,24,,,FACT,,"Incorrect statement. The Thunder did not battle back, the Jazz battled back."
+S016,3,7,in the second and third quarters,25,30,,,FACT,,Incorrect quarters. The correct statement is 'in the third quarter'.
+S016,,8,where they out-scoring the Jazz,,,,,FACT,,Incorrect team. The correct statement is 'where they outscored the Jazz'.
+S016,,9,59-42,,,,,FACT,,Incorrect score. The correct score should be 59-42 in favor of the Thunder.
+S016,4,10,Oklahoma City was led by Russell Westbrook,1,7,,,FACT,,"Incorrect team. Russell Westbrook is a player on the Thunder, not leading Oklahoma City."
+S016,,11,", who scored a game-high 15",,,,,FACT,,"Incorrect score. Russell Westbrook scored 20 points, not 15."
+S016,,12,"points (6-15 FG , 1-3 3Pt , 2-3 FT)",,,,,FACT,,Incorrect FG percentage. The correct FG percentage for Russell Westbrook is 40% (6-15).
+S016,5,13,Kevin Durant followed up,1,4,,,FACT,,"Incorrect statement. Kevin Durant was already in the game, he did not follow up."
+S016,5,14,with 20,5,6,,,FACT,,"Incorrect score. Kevin Durant scored 20 points, not 15."
+S016,,15,"points (7-11 FG , 2-4 3Pt , 4-5 FT)",,,,,FACT,,Incorrect FG percentage. The correct FG percentage for Kevin Durant is 63% (7-11).
+S016,5,16,Dion Waiters chipped,42,44,,,FACT,,"Incorrect player. Dion Waiters is a player on the Thunder, not leading Oklahoma City."
+S016,5,17,in 17,45,46,,,FACT,,"Incorrect score. Dion Waiters scored 17 points, not 20."
+S016,,18,"points (8-16 FG , 1-4 3Pt)",,,,,FACT,,Incorrect FG percentage. The correct FG percentage for Dion Waiters is 50% (8-16).
+S016,5,19,", two rebounds",59,61,,,FACT,,"Incorrect stat. Dion Waiters had two rebounds, not three."
+S016,5,20,", three assists",62,64,,,FACT,,"Incorrect stat. Dion Waiters had three assists, not two."
+S016,,21,", three steals",,,,,FACT,,"Incorrect stat. Dion Waiters had three steals, not two."
+S016,5,22,", in 29",68,70,,,FACT,,"Incorrect minutes played. Dion Waiters played for 30 minutes, not 29."
+S016,,23,The Jazz,,,,,FACT,,Incorrect team. The correct statement is 'The Thunder'.
+S016,,24,Goran Dragic,,,,,FACT,,"Incorrect player. Goran Dragic is a player on the Jazz, not leading Utah."
+S016,,25,scored 23,,,,,FACT,,"Incorrect score. Goran Dragic scored 20 points, not 23."
+S016,,26,The Jazz,,,,,FACT,,Incorrect team. The correct statement is 'The Thunder'.
+S017,1,1,The Cleveland Cavaliers defeated the Detroit Pistons,1,7,,,DATE,"The Cleveland Cavaliers defeated the Detroit Pistons, 128-96, at Quicken Loans Arena on Tuesday evening.",Incorrect day and venue
+S017,2,2,The Cavaliers,1,2,,,DATE,The Cavaliers (44-22),Incorrect win-loss record
+S017,,3,(33 -34),,,,,DATE,(33-34),Incorrect win-loss record
+S017,2,4,the Cavaliers,29,30,,,DATE,The Cavaliers (33-34),Incorrect win-loss record
+S017,,5,(33 -34),,,,,DATE,(33-34),Incorrect win-loss record
+S017,4,6,Cleveland posted a 60 percent success rate from the field and,1,11,,,NUMBER,"Cleveland posted a 60 percent success rate from the field and 63 percent from three-point range, while also limiting them to a paltry 63 percent success rate from behind the arc.",Incorrect three-point percentage
+S017,5,7,Andre Drummond led the way,1,5,,,NUMBER,"Andre Drummond led the way for the Cavs with a modest stat line of eight points, 14 rebounds and one assist.",Incorrect stat line
+S017,5,8,eight points,15,16,,,NUMBER,"eight points, 14 rebounds and one assist",Incorrect stat line
+S017,6,9,Reggie Jackson,1,2,,,NUMBER,"Reggie Jackson (six points, six assists, one rebound and one steal)",Incorrect stat line
+S017,6,10,six points,7,8,,,NUMBER,"six points, six assists, one rebound and one steal",Incorrect stat line
+S017,7,11,Kentavious Caldwell-Pope,1,2,,,NUMBER,"Kentavious Caldwell-Pope led the bench with 11 points, two rebounds, three assists and one steal.",Incorrect stat line
+S017,7,12,11 points,7,8,,,NUMBER,"11 points, two rebounds, three assists and one steal",Incorrect stat line
+S017,9,13,Ish Smith,1,2,,,NUMBER,"Ish Smith was productive in a reserve role as well with 12 points, three assists, one rebound and one steal.",Incorrect stat line
+S017,9,14,12 points,12,13,,,NUMBER,"12 points, three assists, one rebound and one steal",Incorrect stat line
+S017,10,15,Richard Jefferson,1,2,,,NUMBER,"Richard Jefferson and Richard Jefferson were next with a pair of 16-point efforts, with the former adding one assist, two rebounds and one steal, and the latter registering eight boards, one assist and two steals.",Incorrect stat line
+S017,10,16,16 - point,12,14,,,NUMBER,"16-point efforts, with the former adding one assist, two rebounds and one steal, and the latter registering eight boards, one assist and two steals.",Incorrect stat line
+S017,11,17,Deron Williams,1,2,,,NUMBER,"Deron Williams was next with 13 points, three assists, two rebounds and a steal.",Incorrect stat line
+S017,11,18,13 points,6,7,,,NUMBER,"13 points, three assists, two rebounds and a steal",Incorrect stat line
+S017,14,19,The Pistons,1,2,,,DATE,"The Pistons head back home to tangle with the Atlanta Hawks on Friday night, while the Cavaliers remain home and await the Philadelphia 76ers on Friday evening as well.",Incorrect opponent
+S020,1,1,The Phoenix Suns defeated the host Phoenix Suns,1,8,,,SUBJECT-ENTITY-MISMATCH,The Phoenix Suns defeated the host New Orleans Pelicans,Incorrect team names in sentence
+S020,1,2,Friday,19,19,,,DATE-MISTAKE,"February 6, 2017",Incorrect date in sentence
+S020,2,3,The Pelicans (,1,3,,,TEAM-ENTITY-MISMATCH,The New Orleans Pelicans,Incorrect team name in sentence
+S020,2,4,) checked in,7,9,,,TEAM-ENTITY-MISMATCH,were,Incorrect verb tense
+S020,2,5,but they were able to pull,27,32,,,TEAM-ENTITY-MISMATCH,the Pelicans were able to pull away in the second half,Incorrect team name and sentence structure
+S020,2,6,away,33,33,,,TEAM-ENTITY-MISMATCH,away in the second half,Incorrect phrase
+S020,,7,However the Pelicans were able to pull,,,,,TEAM-ENTITY-MISMATCH,the Pelicans were able to pull away in the second half,Incorrect team name and sentence structure
+S020,,8,away,,,,,TEAM-ENTITY-MISMATCH,away in the second half,Incorrect phrase
+S020,5,9,The Pelicans were led by Eric,1,6,,,TEAM-ENTITY-MISMATCH,Anthony Davis was the player of the game,Incorrect team and player name
+S020,,10,Eric Bledsoe,,,,,TEAM-ENTITY-MISMATCH,Anthony Davis,Incorrect player name
+S020,6,11,was,3,3,,,TEAM-ENTITY-MISMATCH,led the way for the Pelicans with 34 points,Incorrect team name
+S020,6,12,Devin Booker,1,2,,,TEAM-ENTITY-MISMATCH,Jrue Holiday,Incorrect player name
+S020,,13,was,,,,,TEAM-ENTITY-MISMATCH,led the way for the Pelicans with 34 points,Incorrect team name
+S020,7,14,Marquese Chriss,1,2,,,TEAM-ENTITY-MISMATCH,E'Twaun Moore,Incorrect player name
+S020,,15,was,,,,,TEAM-ENTITY-MISMATCH,led the way for the Pelicans with 34 points,Incorrect team name
+S020,8,16,PJ Tucker,1,2,,,TEAM-ENTITY-MISMATCH,E'Twaun Moore,Incorrect player name
+S020,,17,led,,,,,TEAM-ENTITY-MISMATCH,was productive in a reserve role as well with 14 points,Incorrect team name
+S020,,18,Eric Bledsoe,,,,,TEAM-ENTITY-MISMATCH,Brandon Knight,Incorrect player name
+S020,,19,was,,,,,TEAM-ENTITY-MISMATCH,led the way for the Suns with 34 points,Incorrect team name
+S020,,20,Marquese Chriss,,,,,TEAM-ENTITY-MISMATCH,E'Twaun Moore,Incorrect player name
+S020,,21,was,,,,,TEAM-ENTITY-MISMATCH,led the way for the Suns with 34 points,Incorrect team name
+S020,14,22,Terrence Jones,1,2,,,TEAM-ENTITY-MISMATCH,Jrue Holiday,Incorrect player name
+S020,,23,was,,,,,TEAM-ENTITY-MISMATCH,led the way for the Suns with 34 points,Incorrect team name
+S020,15,24,Buddy Hield,1,2,,,TEAM-ENTITY-MISMATCH,E'Twaun Moore,Incorrect player name
+S020,,25,led,,,,,TEAM-ENTITY-MISMATCH,was productive in a reserve role as well with 14 points,Incorrect team name
+S021,1,1,The Houston Rockets defeated the Sacramento Kings,1,7,,,SUBSTITUTION,The Houston Rockets defeated the Sacramento Kings,Incorrect grammar and subject-verb agreement
+S021,,2,Rockets (10-6) came in to Saturday's contest,,,,,CORRECTION,Rockets (10-6) came into Saturday's contest,Incorrect use of parentheses and verb tense
+S021,,3,Kings (6-10) were able to pull away,,,,,CORRECTION,The Kings (6-10) were able to pull away,Incorrect use of parentheses and subject
+S021,,4,Rockets (10-6) battled back,,,,,CORRECTION,The Rockets (10-6) battled back,Incorrect use of parentheses and subject
+S021,3,5,Kings battled back,30,32,,,CORRECTION,The Kings battled back,Incorrect subject
+S021,4,6,Kings were able to pull away,4,9,,,CORRECTION,The Kings were able to pull away,Incorrect subject
+S021,5,7,James Harden led the way for Houston with 23 points,1,10,,,CORRECTION,James Harden led the way for Houston with 23 points,Incorrect verb tense and word order
+S021,8,8,Trevor Ariza was next with a double,1,7,,,CORRECTION,Trevor Ariza was next with a double-double,Incorrect word usage
+S021,8,9,"18 points , 10 rebounds",11,15,,,CORRECTION,"18 points, 10 rebounds",Incorrect word usage
+S021,7,10,"three assists , two steals",11,15,,,CORRECTION,"three assists, two steals",Incorrect word usage
+S021,7,11,and two blocks,16,18,,,CORRECTION,and two blocks,Incorrect word usage
+S021,10,12,Sam Dekker was productive,1,4,,,CORRECTION,Sam Dekker was productive,Incorrect word usage
+S021,10,13,in a reserve role,5,8,,,CORRECTION,in a reserve role,Incorrect word usage
+S021,10,14,as well,9,10,,,CORRECTION,as well,Incorrect word usage
+S021,7,15,17 points,5,6,,,CORRECTION,17 points,Incorrect number format
+S021,,16,Rudy Gay posted a 10-point rebound,,,,,CORRECTION,Rudy Gay posted a 10-rebound double-double,Incorrect word usage and number format
+S021,,17,double,,,,,CORRECTION,double-double,Incorrect word usage
+S021,16,18,Darren Collison led the bench,1,5,,,CORRECTION,Darren Collison led the bench,Incorrect word usage
+S021,,19,18 points,,,,,CORRECTION,18 points,Incorrect number format
+S022,,1,"The New Orleans Pelicans defeated the host Minnesota Timberwolves , 122 - 106 , at Target Center on Friday",,,,,,,"The visiting team is the Pelicans, not the host."
+S022,4,1,"Defense was key for the Pelicans , as they held the Timberwolves to",1,13,,,,,"The visiting team is the Pelicans, not the host."
+S022,6,1,Anthony Davis led the Timberwolves in scoring with,1,8,,,,,"The visiting team is the Pelicans, not the host."
+S022,15,1,Jrue Holiday finished second on the team with,1,8,,,,,"The visiting team is the Pelicans, not the host."
+S023,6,1,Justin Anderson led the team in scoring off the bench,1,10,,,,Justin Anderson led the Lakers in scoring off the bench,Incorrect team attribution
+S023,11,2,Julius Randle was the only other Laker in double,1,9,,,,Julius Randle was the only other starter in double,Incorrect player and team attribution
+S023,14,3,Justin Anderson was the player of the game,1,8,,,,Justin Anderson was the player of the game,Redundant 'was' and incorrect phrase
+S025,3,1,Kawhi Leonard,1,2,,,NAME,,"Kawhi Leonard's name was not mentioned in the story, but it should be."
+S025,6,2,Isaiah Thomas,1,2,,,NAME,,"Isaiah Thomas's name was not mentioned in the story, but it should be."
+S025,,3,Pau Gasol,,,,,NAME,,"Pau Gasol's name was not mentioned in the story, but it should be."
+S025,4,4,Patty Mills,14,15,,,NAME,,"Patty Mills's name was not mentioned in the story, but it should be."
+S025,5,5,David Lee,15,16,,,NAME,,"David Lee's name was not mentioned in the story, but it should be."
+S025,,6,Davis Bertans,,,,,NAME,,"Davis Bertans's name was not mentioned in the story, but it should be."
+S025,5,7,Avery Bradley,1,2,,,NAME,,"Avery Bradley's name was not mentioned in the story, but it should be."
+S025,,8,Jae Crowder,,,,,NAME,,"Jae Crowder's name was not mentioned in the story, but it should be."
+S025,,9,Al Horford,,,,,NAME,,"Al Horford's name was not mentioned in the story, but it should be."
+S025,,10,Kelly Olynyk,,,,,NAME,,"Kelly Olynyk's name was not mentioned in the story, but it should be."
+S025,,11,Marcus Smart,,,,,NAME,,"Marcus Smart's name was not mentioned in the story, but it should be."
+S026,1,1,David West,11,12,,,PER,,Incorrect name of the player. Should be Roy Hibbert.
+S026,,2,David West,,,,,PER,,Incorrect name of the player. Should be Roy Hibbert.
+S026,1,1,on Wednesday,21,22,,,,on Tuesday,Incorrect day of the week. The game was played on Tuesday.
+S026,,2,116 -0,,,,,,116-99,"Incorrect score. The score was 116-99, not 116-0."
+S026,4,1,Eric Dragic,9,10,,,,Goran Dragic,"Incorrect name. The leading scorer was Goran Dragic, not Eric Dragic."
+S026,,2,Eric Dragic,,,,,,Goran Dragic,"Incorrect name. The leading scorer was Goran Dragic, not Eric Dragic."
+S026,9,1,Roy Hibbert,1,2,,,,,This is correct in the original text.
+S026,,2,Roy Hibbert,,,,,,,This is correct in the original text.
+S026,9,3,15 points,10,11,,,,17 points,"Incorrect points. Roy Hibbert scored 17, not 15."
+S026,,4,6 -14,,,,,,6-7,Incorrect field goal percentage. Roy Hibbert made 6 of 9.
+S026,,5,0 -0,,,,,,0-0,This is correct in the original text.
+S026,,6,3 -3,,,,,,3-3,This is correct in the original text.
+S026,,1,Roy Hibbert,,,,,,,This is correct in the original text.
+S026,,2,Roy Hibbert,,,,,,,This is correct in the original text.
+S026,9,3,10 rebounds,29,30,,,,12 rebounds,"Incorrect rebounds. Roy Hibbert had 12, not 10."
+S026,11,1,CJ Miles,1,2,,,,,This is correct in the original text.
+S026,,2,CJ Miles,,,,,,,This is correct in the original text.
+S026,11,3,17 points,12,13,,,,19 points,"Incorrect points. CJ Miles scored 19, not 17."
+S026,,4,6 -9,,,,,,7-9,Incorrect field goal percentage. CJ Miles made 7 of 9.
+S026,,5,1 -3,,,,,,2-3,Incorrect three-point percentage. CJ Miles made 2 of 3.
+S026,,6,4 -4,,,,,,5-5,Incorrect free throw percentage. CJ Miles made 5 of 5.
