@@ -1,0 +1,13 @@
+log 1: Started with building the basic pipeline, using the hugging face api and got results from LLM. We used gemini 3 flash 1.2T parameters.
+log 2: Started working on mapping the LLM results with evalution script. plus worked on different JSON output, i.e. simple JSON and Nested JSON, but simple worked better.
+log 3: Decided which platform/models and its family to use in our development, 2 model and parameter were decided at first, i.e. Llama 3.1 8b/70b and Qwen 2.5 7b/70b
+log 4: At start we choosed pydantic prompt with JSON string output and then we fetch/map and convert the result into CSV format on first 20 game summaries.
+log 5: Initialized the dimensions: D1- model, D2- model parameters, D3- Prompt strategies, D4- data structure (JSON). Prompt strategies includes: Regular/normal prompt, Act as Judge. Also we switched from 20 to 30 game summaries.
+log 6: Started with different prompt strategies from (p0-p3) with decided dimension (log 5) to get number of combinations, to get better and more results to compare with these combinations. prompts: p0: normal prompt, p1: tuned prompt (with rules), p2: JSON format for p1, p3: LLM as judge.
+log 7: Small models were runned on local Ollama and Medium models were runned on HPC clusters.
+log 8: For now (log 6) is temporary development pipeline, Now we shifted to evalution script to evalute LLM results and get the all LLM models precision and recall.
+log 9: handled the LLM output and made it standarised so it can smoothly run the traditional 2021 evalution script, also solved the bugs in script.
+log 10: As LLM models were hallucinating and giving the NaN results, we decided to perform the post processing (before evaluation) on LLM result csv. For first we just cleaned the data by droping the rows with NaN values.
+log 11: Rather then just dropping, decided to implement 5 step post processing. 5 steps process includes: A : ID basis (document_only) B: Recovery Strategy: nearest_fixed_n / nearest_with_backoff C: Match Strictness: strict / casefold / normalized D: Overlap Resolver: If overlap then resolve left to right E: Unmatched policy: If repair still fails after all that, just drop the row.
+log 12: After applying the post processing steps, we faced the errors, so we tried different combinations of abcde: ae, abe etc. to solve errors. With these we got many different combinations to compare processing steps. Plus here we get idea about the little twiking and tuning our evalution script to make ready it for the larger models (like Chatgpt, Gemini, Deepseek) in development.   
+log 13:   
