@@ -183,7 +183,7 @@ prompt_key = args.prompt + ("_sent" if by_sent else "")
 print(f"Mode: {'sentence-by-sentence' if by_sent else 'full-story'} | prompt={prompt_key}")
 
 #directory to save raw outputs from the model
-raw_outputs_dir = "LLM Raw results"
+raw_outputs_dir = "results/llm_raw"
 # create folder if it doesn't exist (no error if already there)
 os.makedirs(raw_outputs_dir, exist_ok=True)
 # list existing run files for this model + prompt_key combo
@@ -297,7 +297,7 @@ df_result["PROMPT_KEY"] = prompt_key
 df_result["TIME_SECONDS"] = elapsed
 
 
-csv_dir = "LLM_results CSV"  # folder name for CSV outputs
+csv_dir = "results/llm_csv"  # folder name for CSV outputs
 os.makedirs(csv_dir, exist_ok=True)  # create folder if not exists
 # list existing CSV runs for this model
 existing_csv = [f for f in os.listdir(csv_dir) if f.startswith(f"results_{model_key}_{prompt_key}_run")]

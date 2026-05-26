@@ -1,0 +1,174 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,1,1,The Boston Celtics defeated the Los Angeles Lakers,1,8,,,CONTEXT,"The Celtics won the game, but the sentence does not specify the score or the location.",The sentence is incomplete.
+S001,3,1,six assists,16,17,,,NUMBER,seven assists,"Isaiah Thomas had seven assists, not six."
+S001,4,1,right behind,4,5,,,CONTEXT,behind is not a word in this context,behind is not a word in this context
+S001,5,1,Jae Crowder,1,2,,,NAME,Jae Crowder,"Player name is correct, but not found in the box score."
+S001,5,1,Jae Crowder,1,2,,,NAME,Jae Crowder,"Player name is correct, but not found in box score data."
+S001,5,1,Jae Crowder,1,2,,,NAME,Jae Crowder,"Player name is correct, but not found in box score data."
+S001,4,1,eight assists,14,15,,,NUMBER,eight assists,"Al Horford had eight assists, not eight assists and a block."
+S001,,1,"Kelly Olynyk led the second unit with 10 points, nine rebounds, two assists and a pair of steals.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S002,,1,Atlanta Hawks 110 - 110,,,,,CONTEXT,"The Atlanta Hawks defeated the Cleveland Cavaliers, 110-106",Incorrect opponent and score
+S002,6,1,17 points,13,14,,,NUMBER,7,Incorrect number of points scored by Dwight Howard.
+S002,7,1,n't,4,4,,,WORD,wasn't,Typo in contraction.
+S002,,1,"Kent Bazemore was the only other starter in double figures, totaling 25 points, six rebounds and three assists.",,,,,NUMBER,25,"Kent Bazemore was the only other starter in double figures, totaling 25 points, six rebounds and three assists."
+S002,5,1,three of their last five games,11,16,,,NUMBER,four of their last five games,"The Cavaliers have won 4 of their last 5 games, not 3."
+S002,,1,"23 points, nine rebounds and five assists",,,,,NUMBER,"23 points, nine rebounds, and five assists",added a comma for clarity
+S002,12,1,second on the team,4,7,,,CONTEXT,led the team,"Kyrie Irving was actually the leader in points, not second."
+S002,12,1,second on the team,4,7,,,CONTEXT,Kevin Love finished first on the team,"Kevin Love led the team in points, not finished second"
+S002,14,1,Tristan Thompson,1,2,,,NAME,Tristan Thompson is not present in the box score data,Player name not found in box score data
+S003,1,1,Saturday evening,17,18,,,CONTEXT,Sunday,Incorrect day of the week
+S003,,1,game-high,,,,,WORD,game,game-high is not a valid word
+S003,,1,a block a block and a block,,,,,OTHER,a block,Extra blocks listed
+S004,5,1,43 - 24,16,18,,,NUMBER,47-43,Incorrect rebounding numbers.
+S004,,1,"Rudy Gobert recorded a double - double, totaling 13 points and 13 rebounds.",,,,,NUMBER,13 points and 13 rebounds,"The sentence is correct, no mistake found."
+S005,1,1,35 percent success rate from the floor,8,14,,,NUMBER,35,The box score does not provide the success rate from the floor.
+S005,2,1,game - high,11,13,,,WORD,game-high,"hyphenated in story, not in box score"
+S005,,1,"Millsap was right behind him with 21 points, five rebounds, four assists and one steal.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S005,,1,"Dwight Howard posted a 11 - point, 13 - rebound double - double that also included three assists, one steal and one block.",,,,,NUMBER,"11-point, 13-rebound double-double along with three assists and one steal",Incorrectly included one block.
+S005,,1,"Paul Millsap led the way for Orlando with 21 points, five rebounds, four assists, one steal and one block.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S005,,1,"Dwight Howard posted a 11 - point, 13 - rebound double - double that also included three assists, one steal and one block.",,,,,NUMBER,"11-point, 13-rebound double-double along with three assists and one steal",Incorrectly included one block.
+S005,,1,"Magic head back home to face off with the New York Knicks on Monday night, while the Hawks remain home and await the Toronto Raptors on Friday evening as well.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S006,1,1,Friday,22,22,,,CONTEXT,Tuesday,Incorrect day of the week.
+S006,2,1,double - digit,9,11,,,NUMBER,double-digit,The phrase should be 'double-digit' instead of 'double - digit'.
+S006,3,1,They were led by James Harden,1,6,,,CONTEXT,The Nets were led by their outstanding frontcourt duo of Brook Lopez and Thaddeus Young,"The sentence is misleading as it implies Harden led the team, but the box score shows Harden had a disappointing outing."
+S006,,1,will bounce - back,,,,,CONTEXT,will look to bounce back,The sentence is literally true but misleading because of surrounding context.
+S006,,1,"Brook Lopez did all he could to keep the Nets in this game, as he tallied 24 points, eight rebounds and five blocks in the win.",,,,,NOT_CHECKABLE,,No stats to verify in this sentence.
+S006,,1,"Thaddeus Young was the only other starter in double figures, as he amassed 20 points, 12 rebounds and five assists.",,,,,NUMBER,"22 points, 12 rebounds and five assists",The sentence contains multiple numerical errors.
+S006,9,1,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday,1,15,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S007,,1,11 rebounds seven assists four steals and one block,,,,,CONTEXT,"11 rebounds, seven assists, three steals and one block",Inconsistent information about steals and blocks.
+S007,3,1,10 - of - 18,22,26,,,NUMBER,10-of-18,Incorrect shooting percentage.
+S007,5,1,11 - of - 20,14,18,,,NUMBER,11-of-20,typo in shooting stats
+S007,3,1,29 points on 10 - of - 18 shooting,19,27,,,NUMBER,29 points on 10-of-18 shooting,Incorrect shooting percentage.
+S008,2,1,Saturday 's contest,11,13,,,CONTEXT,Tuesday,The story says Saturday but the box score says Tuesday.
+S008,,1,game-high,,,,,WORD,game,game-high is not a valid word in this context.
+S008,4,1,Mike Conley,1,2,,,NAME,Mike Conley,The box score does not contain a player named Mike Conley.
+S008,5,1,7 - of - 13 shooting,8,13,,,NUMBER,7-of-13 shooting,"The box score says 7-of-13, not 7 - of - 13."
+S008,6,1,48 percent from the field and 29 percent from long range,4,14,,,NOT_CHECKABLE,,The box score does not provide information about the Jazz shooting percentages.
+S008,7,1,four of their last five games,11,16,,,NUMBER,five of their last six games,The Grizzlies have lost 5 of their last 6 games.
+S008,8,1,4 - of - 14,14,18,,,NUMBER,4-of-14,"FGM is 4, not 4-of-14"
+S008,3,1,9 - of - 17,23,27,,,NUMBER,9-of-17,Incorrect shooting percentage.
+S008,6,1,48 percent from the field and 29 percent from long range,4,14,,,NOT_CHECKABLE,,The box score does not provide shooting percentages for the Jazz.
+S008,11,1,Trail Blazers,14,15,,,NAME,"Trail Blazers is incorrect, the team is actually the Grizzlies",Incorrect team name
+S009,,1,Milwaukee Bucks defeated Los Angeles Lakers,,,,,CONTEXT,The Los Angeles Lakers defeated the Milwaukee Bucks,Incorrect team names and outcome.
+S009,5,1,four of their last five games,11,16,,,NUMBER,six of their last 30 games,"The story says the Lakers have won four of their last five games, but the box score says they have six road victories in 30 games."
+S009,6,1,D'Angelo Russell was the player of the game,1,8,,,CONTEXT,D'Angelo Russell was a player in the game,The sentence is misleading as it implies D'Angelo Russell was the only player of the game.
+S009,7,1,Luol Deng was second on the team,1,7,,,CONTEXT,Luol Deng was not second on the team in scoring,Luol Deng did not have the second most points on the team.
+S009,8,1,D'Angelo Russell was the only other starter in double figures,1,10,,,WORD,D'Angelo Russell was the only other starter in double figures,Incorrectly stated as the only other starter in double figures
+S009,10,1,three of their last five games,10,15,,,NUMBER,three of their last four games,"The Bucks have lost 3 of their last 4 games, not 5."
+S009,11,1,Giannis Antetokounmpo was the player of the game,1,8,,,CONTEXT,Giannis Antetokounmpo was the only Bucks starter to manage double-digit scoring,"Misleading context, Giannis was not the only player of the game."
+S009,12,1,Khris Middleton was second on the team,1,7,,,CONTEXT,Giannis Antetokounmpo was the only Bucks starter to manage double-digit scoring,Khris Middleton was not second on the team in scoring
+S009,,1,"Greg Monroe was the only other starter in double figures, as he accrued 18 points, five rebounds and three assists.",,,,,NUMBER,8,"Greg Monroe scored 8 points, not 18."
+S009,14,1,Friday,10,10,,,CONTEXT,no specific date,"The story does not specify the date of the game, only the day of the week."
+S010,,1,"Atlanta Hawks defeated the host Orlando Magic, 111 - 92, at Amway Center on Friday",,,,,NOT_CHECKABLE,,No box score data provided for the Hawks or the Magic.
+S010,2,1,huge road win,17,19,,,CONTEXT,19-point win,"The Hawks won by 19 points, not necessarily a huge road win."
+S010,7,1,7 - of - 13,22,26,,,NUMBER,7-of-13,Incorrect shooting percentage.
+S010,8,1,double - double,5,7,,,WORD,double-double,Incorrect use of hyphen and space.
+S010,11,1,16 - 21,4,6,,,NUMBER,19-16,Incorrect win-loss record.
+S010,12,1,Nikola Vucevic was the player of the game,1,8,,,CONTEXT,"Nikola Vucevic came off the bench to provide 10 points, six rebounds and six assists.",Nikola Vucevic was not the player of the game.
+S010,,1,"Nikola Vucevic recorded a double - double, totaling 10 points and 10 rebounds.",,,,,NUMBER,"Nikola Vucevic came off the bench to provide 10 points, six rebounds and six assists.",Incorrect number of rebounds.
+S012,1,1,Friday,19,19,,,WORD,Saturday,Incorrect day of the week
+S012,,1,"Six players scored in double digits for Denver, including Danilo Gallinari, who led the way with 32 points, eight rebounds and one assist.",,,,,NUMBER,Five players scored in double digits for Denver,"The story says six, but the box score says five."
+S012,,1,"Gary Harris followed up with 15 points, seven rebounds, four assists and two steals, while Wilson Chandler chipped in six points, three rebounds and one steal.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S012,,1,"Jameer Nelson chipped in 17 points, three rebounds and one steal.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S012,,1,"The Nuggets were led by Devin Booker , who tallied",,,,,CONTEXT,Devin Booker was one of the players who scored in double digits for the Suns,"Misleading context, Devin Booker was not the only player to lead the Nuggets"
+S012,,1,"Tyson Chandler finished with 15 points, 12 rebounds and two steals, while Tyson Chandler finished with 15 points, 12 rebounds and two steals.",,,,,OTHER,"Tyson Chandler finished with 15 points, 12 rebounds and two steals.",Duplicate sentence
+S012,8,1,12 rebounds,8,9,,,NUMBER,13,"Tyson Chandler had 13 rebounds, not 12."
+S013,,1,"Kevin Love chipped in 10 points ( 2 - 5 FG, 1 - 2 3Pt, 5 - 8 FT ), 13 rebounds, two assists and one steal, in 29 minutes.",,,,,NOT_CHECKABLE,"Kevin Love chipped in 10 points ( 2 - 5 FG, 1 - 2 3Pt, 5 - 8 FT ), 13 rebounds, two assists and one steal, in 29 minutes.",The sentence is not checkable against the box score data.
+S013,,1,"Nikola Vucevic was limited to just four points ( 2 - 5 FG, 0 - 4 3Pt, 5 - 7 FT ), along with five assists, in 21 minutes.",,,,,NUMBER,4,"Nikola Vucevic scored 4 points, not 4 points."
+S014,2,1,34 - 21,19,21,,,NUMBER,34-21,The box score does not contain the score for the first quarter.
+S014,,1,9 - for - 19 5 - for - 11,,,,,NUMBER,9-19 from the field and 5-11 from the three-point line,Incorrect shooting percentages.
+S014,6,1,37,5,5,,,NUMBER,57,The correct total is 57 points.
+S014,,1,12 - for - 20 4 - for - 7,,,,,NUMBER,12-20,Incorrectly formatted numbers.
+S014,8,1,56,16,16,,,NUMBER,57,Incorrect total points
+S014,,1,Jordan Clarkson who finished with 19 points,,,,,NUMBER,19,The box score says Jordan Clarkson scored 19 points.
+S014,,1,"Jordan Clarkson led the way with 19 points ( 8 - 15 FG, 2 - 5 3Pt, 1 - 2 FT ), four assists and four steals, while Clarkson had 19 points ( 8 - 15 FG, 2 - 5 3Pt, 1 - 2 FT ) of his own, to go along with four assists and four steals.",,,,,CONTEXT,"Jordan Clarkson contributed 19 points, four assists, four steals and three rebounds, while D'Angelo Russell added 16 points, five assists and four rebounds.",The sentence is misleading because it incorrectly implies that Jordan Clarkson had two separate sets of stats.
+S015,3,1,They were also able,1,4,,,CONTEXT,Toronto,"Misleading context, as the subject of the sentence is unclear."
+S015,4,1,8 - 18 FG,15,18,,,NUMBER,"8-18 FG is correct, but 1-4 3Pt is the correct 3Pt stats",Incorrect 3Pt stats
+S015,5,1,"10 - 17 FG , 0 - 1 3Pt",11,19,,,NUMBER,"10-17 FG, 10-13 FT",Incorrect 3Pt stats.
+S015,6,1,"7 - 15 FG , 5 - 10 3Pt , 1 - 1 FT",40,53,,,NUMBER,"5-10 FG, 7-15 over-all from the field, 1-1 FT",Incorrect field goal and 3-point shot numbers.
+S015,10,1,three,5,5,,,NUMBER,one,"The Heat had a three-game winning streak snapped, not lost three straight games."
+S016,,1,"six points 2 - 6 FG, 0 - 3 3Pt, 2 - 2 FT )",,,,,NUMBER,"6 points ( 3 - 8 FG, 1 - 4 3Pt )",Gordon Hayward had 6 points but the breakdown is incorrect
+S016,6,1,2 - 6 FG,7,10,,,NUMBER,2-4 FG,FG made and attempted values are incorrect
+S016,6,1,"six points ( 2 - 6 FG , 0 - 3 3Pt , 2 - 2 FT )",4,21,,,NUMBER,six,Gordon Hayward had 6 points.
+S017,1,1,Saturday,18,18,,,NAME,Tuesday,Incorrect day of the week.
+S017,,1,Monday s contest,,,,,CONTEXT,Tuesday,Incorrect day of the week.
+S017,3,1,The Cavaliers ( 33 - 34 ),1,7,,,NUMBER,The Cavaliers ( 44 - 22 ),Incorrect score.
+S017,,1,"Andre Drummond led the way for the Cavs with a modest stat line of eight points, 14 rebounds and one assist.",,,,,CONTEXT,"Andre Drummond led the way for the Pistons with a modest stat line of eight points, 14 rebounds and one assist.","Andre Drummond played for the Pistons, not the Cavs."
+S017,,1,"Reggie Jackson followed with a modest six points, five assists, one rebound and one steal.",,,,,NUMBER,"Reggie Jackson (six points, six assists, one rebound and one steal)",Incorrect number of assists
+S017,8,1,Marcus Morris,1,2,,,NAME,Maurice Morris,Wrong first name
+S017,9,1,Ish Smith was productive,1,4,,,CONTEXT,"Ish Smith was the only other Pistons player to notch double digits in the scoring column, as he supplied 12 points, three assists, one rebound and one steal over 21 minutes.",Ish Smith was not in a reserve role.
+S017,11,1,Deron Williams,1,2,,,NAME,Deron Williams,"Player name is correct, but first name and last name are swapped."
+S017,12,1,Kyle Korver totaled 12 points,1,5,,,NUMBER,,Kyle Korver did not play.
+S018,11,1,his second double - double in a row,3,10,,,CONTEXT,his second double-double in a row,added hyphen between double and double
+S019,7,1,second on the team,4,7,,,CONTEXT,led the team in assists,"Jeff Teague led the team in assists, not finished second on the team"
+S019,11,1,Goran Dragic was the player of the game,1,8,,,CONTEXT,"Goran Dragic had 21 points, four assists, two rebounds and two steals","The phrase 'player of the game' is misleading as it implies he was the MVP, but the text only provides his stats."
+S019,13,1,Dion Waiters was the only other starter in double figures,1,10,,,CONTEXT,Dion Waiters co-led the Heat with matching 22-point efforts,"Misleading context, as the sentence implies Dion Waiters was the only starter with double figures, but the text actually says he co-led the Heat with another player."
+S022,,1,8 ties 10 lead changes,,,,,NUMBER,8 ties and 10 lead changes,The sentence is already correct.
+S022,4,1,46 percent from the field and 22 percent from three - point range,14,26,,,NUMBER,46 percent from the field and 22 percent from three-point range,The box score does not contain the word 'three'.
+S022,5,1,43 - 34,16,18,,,NUMBER,43-34,"The sentence is correct, but the annotation is still required."
+S022,,1,Anthony Davis led the Timberwolves in scoring with 42 points on 16 - of - 22 from the field and 8 - of - 11 from the free - throw line.,,,,,NUMBER,Anthony Davis led the Pelicans in scoring with 42 points on 16-of-22 from the field and 8-of-11 from the free-throw line.,"Anthony Davis played for the Pelicans, not the Timberwolves."
+S022,7,1,second on the team,4,7,,,CONTEXT,second on the Pelicans in scoring,"Jrue Holiday was second in scoring, not on the team"
+S022,7,1,second on the team,4,7,,,WORD,led the way,Buddy Hield led the team in scoring.
+S022,,1,"Gorgui Dieng finished with eight points, eight rebounds and three steals",,,,,NOT_CHECKABLE,,No information in box score to verify this claim.
+S022,,1,"Buddy Hield led Minnesota in scoring, as he provided 17 points and four rebounds on 7 - of - 10 from the field.",,,,,NOT_CHECKABLE,,The sentence is not present in the box score data.
+S022,,1,"Gorgui Dieng amassed eight points, eight rebounds and three steals",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S022,14,1,Anthony Davis led the way for Minnesota,1,7,,,CONTEXT,Anthony Davis led the way for the Pelicans,"Anthony Davis played for the Pelicans, not the Timberwolves"
+S022,7,1,second on the team,4,7,,,WORD,led the way,"Jrue Holiday led the team in points, not finished second."
+S023,1,1,Wednesday,19,19,,,CONTEXT,Sunday,"The game was played on Sunday, not Wednesday."
+S023,,1,"Justin Anderson led the way for Dallas in scoring, as he dropped 19 points off the bench.",,,,,NUMBER,19,"The box score says Justin Anderson scored 19 points, but it does not say he led the way for Dallas in scoring."
+S023,,1,"Justin Anderson led the team in scoring off the bench, as he dropped 19 points on 5 - of - 11 shooting.",,,,,NOT_CHECKABLE,"Justin Anderson led the team in scoring, providing 19 points, five rebounds and two assists off the bench.",The story does not provide information about the shooting percentage of Justin Anderson.
+S023,7,1,the only other starter,4,7,,,CONTEXT,"Seth Curry led the starters in scoring, collecting 14 points, two rebounds and three assists. Deron Williams tallied 13 points, five rebounds and eight assists in just 26 minutes of action.","Misleading context, as the sentence implies Deron Williams was the only other starter in double figures, but the story actually says Seth Curry led the starters in scoring."
+S023,,1,"Justin Anderson led the bench in scoring for 19 points, while adding five rebounds and two assists.",,,,,NOT_CHECKABLE,"Justin Anderson led the team in scoring, providing 19 points, five rebounds and two assists off the bench.",The story does not specify that Justin Anderson led the bench in scoring.
+S023,9,1,double - double,5,7,,,WORD,double-double,Incorrect use of hyphenated word.
+S023,,1,"Justin Anderson led the Lakers in scoring off the bench, as he provided 19 points and five rebounds.",,,,,CONTEXT,"Justin Anderson led the Mavericks in scoring, providing 19 points, five rebounds and two assists off the bench.",Incorrect team name.
+S023,11,1,Julius Randle was the only other Laker in double figures,1,10,,,CONTEXT,Julius Randle was the only productive starter,"Misleading context, as it implies Randle was the only Laker in double figures, when in fact he was the only productive starter."
+S023,13,1,five - straight,11,13,,,NUMBER,five,The Mavericks have won five straight games.
+S023,,1,"Justin Anderson was second on the team, as he dropped 19 points on 5 - of - 11 shooting off the bench.",,,,,NOT_CHECKABLE,,The box score does not provide information about player rankings.
+S024,,1,"Stephen Curry led the way for the Warriors with 27 points, 12 assists, seven rebounds and six steals.",,,,,NOT_CHECKABLE,,No stats are provided in the box score to verify this sentence.
+S024,4,1,Green followed with 23 points,1,5,,,CONTEXT,"Green scored 23 points, had four rebounds, eight assists, three steals and a block.",The sentence is literally true but the word order is misleading.
+S024,5,1,off the bench,19,21,,,WORD,off the bench,Skal Labissiere started the game.
+S024,,1,Buddy Hield's,,,,,NAME,Stephen Curry,Incorrect player name
+S024,7,1,"23 - point , 4 - assist",5,11,,,NUMBER,"23 points, 8 assists",Incorrect assist count
+S024,8,1,"Skal Labissiere led the second unit with 10 points , 10 rebounds , eight assists and one block",1,18,,,CONTEXT,"Skal Labissiere led the second unit with 10 points, 10 rebounds, eight assists and one block.",The sentence is literally true but misleading because of surrounding context.
+S024,,1,"Ben McLemore led the second unit with 11 points, one rebound, two assists and one steal.",,,,,NOT_CHECKABLE,,No information in box score to verify this claim.
+S024,10,1,Kings with a 27 - point,5,10,,,NUMBER,"27-point, 12-assist double-double that also included seven rebounds and six steals",The sentence incorrectly states that Stephen Curry played for the Kings.
+S024,11,1,bench - leading,7,9,,,WORD,team-high,Incorrect word choice.
+S024,4,1,three steals,13,14,,,NUMBER,three steals,The box score says Draymond Green had 3 steals.
+S025,,1,"Kawhi Leonard led the way for the Spurs, scoring 25 points on 8 - of - 18 shooting, including 3 - of - 7 from three - point range, to go along with 10 rebounds and four assists in 35 minutes.",,,,,NUMBER,8-18,Incorrect shooting percentage.
+S025,4,1,off the bench,19,21,,,WORD,off the bench,Incorrect preposition.
+S025,5,1,8 - of - 15,7,11,,,NUMBER,15,Incorrect number of shots made by Avery Bradley.
+S025,,1,"Isaiah Thomas led the Celtics in scoring, with 24 points, to go along with a rebound and eight assists, in 36 minutes.",,,,,NOT_CHECKABLE,,No information in box score to verify this sentence.
+S025,,1,"6 - of - 9 shooting, including 0 - of - 0 from long range",,,,,CONTEXT,"6-of-9 shooting, including 0-of-0 from three-point range","Misleading context: David Lee shot 6-of-9 from the field, but 0-of-0 from three-point range is not the same as 0-of-0 from long range."
+S025,8,1,LaMarcus Aldridge finished with 10 points,1,6,,,NUMBER,10,The box score does not contain this information.
+S027,2,1,Knicks 25 - 21,17,20,,,NUMBER,29,Incorrect score in the first quarter.
+S027,3,1,58 percent from the field,12,16,,,NUMBER,45,Incorrect shooting percentage from the field for the Rockets.
+S027,,1,game-high of 31 points,,,,,NUMBER,31 points,game-high is not a valid term in the box score
+S027,,1,"13 - 19 FG, 2 - 4 3Pt, 3 - 4 FT",,,,,NUMBER,"13-of-19 FG, 2-of-4 3Pt, 3-of-4 FT","FG_PCT, FG3_PCT, and FT_PCT are not provided for this player in the box score data."
+S027,6,1,his second double - double in a row,3,10,,,WORD,his second consecutive double-double,Incorrect phrase used.
+S027,7,1,Kristaps Porzingis was the only other starter in double figures,1,10,,,CONTEXT,Kristaps Porzingis was the only other starter in double figures,"Misleading context, as there were other starters with double figures."
+S027,,1,Wednesday Wednesday,,,,,CONTEXT,Monday,"The Rockets' next game will be on the road against the Detroit Pistons on Monday, not Wednesday."
+S028,1,1,Saturday,17,17,,,WORD,Wednesday,Incorrect day of the week.
+S028,3,1,Washington was able to withstand,1,5,,,CONTEXT,"Washington was able to withstand a late rally from the Nets ( 9 - 21 ) in the first half of a back - to - back set, building a 31 - 22 lead after one quarter.","The sentence is misleading because it implies that the Nets were the ones who were able to withstand a late rally, when in fact it was the other way around."
+S028,,1,However the Wizards ( 31 - 44 ),,,,,CONTEXT,The Nets (9-44) continue to sport the NBA's worst record,"Misleading context: the Wizards did not regroup, the Nets did."
+S028,5,1,a pair of 23 - point efforts,6,12,,,NUMBER,a pair of 23-point efforts,hyphen is missing
+S028,6,1,a steal and a block,21,25,,,OTHER,a steal and a block,Incorrectly included a block in the list of accomplishments.
+S028,,1,"led the second unit with 10 points, four rebounds and two assists",,,,,NOT_CHECKABLE,,Insufficient information in box score to verify the statement.
+S028,,1,"Bradley Beal led the way for Brooklyn with 31 points, six rebounds, two assists and two steals.",,,,,CONTEXT,"Bradley Beal led the way for Washington with 31 points, six rebounds, two assists and two steals.",Incorrect team name.
+S028,,1,"Rondae Hollis-Jefferson posted a 13 - point, 11 - rebound double - double that also included two assists and a steal.",,,,,NUMBER,"13-point, 11-rebound double-double that also included two assists and one steal",The sentence contains an error in the number of steals.
+S028,6,1,a steal,21,22,,,NUMBER,one steal,Incorrect number of steals.
+S028,7,1,led the second unit with 10 points,3,9,,,NUMBER,led the second unit with 15 points,Incorrect points scored by Jason Smith
+S028,,1,"Bradley Beal led the Nets with 31 points, six rebounds, two assists and two steals.",,,,,NUMBER,"31 points, which he supplemented with six rebounds, two assists and two steals.",Bradley Beal did not lead the Nets.
+S028,14,1,"21 points , five rebounds , four assists and two steals",6,16,,,NUMBER,"21 points, five rebounds, four assists and two steals","The sentence is correct, but the format of the output is wrong."
+S028,7,1,led the second unit with 10 points,3,9,,,NUMBER,led the second unit with 15 points,Incorrect points scored by Jason Smith
+S028,17,1,Detroit Pistons,11,12,,,NAME,Phoenix Suns,Incorrect team name.
+S030,1,1,Wednesday,18,18,,,CONTEXT,Monday,"The game was played on Monday, not Wednesday."
+S030,,1,In fact the Pacers led for the entirety of the second half,,,,,CONTEXT,"The Pacers led for the entirety of the second half, as they outscored the Hornets, 34-21, in the fourth quarter.","The sentence is misleading because it implies the Pacers led the entire game, but they only led the second half."
+S030,4,1,42 - 34,17,19,,,NUMBER,42-46,Pacers won the rebounding battle 42-46
+S030,5,1,five of their last seven games,11,16,,,NUMBER,six of their last seven games,"The Hornets have won 6 of their last 7 games, not 5."
+S030,,1,"Kemba Walker did all he could for Charlotte, as he led the team with 12 points, two rebounds and five assists.",,,,,NOT_CHECKABLE,,The sentence is not verifiable from the box score.
+S030,7,1,Nicolas Batum was second on the team,1,7,,,CONTEXT,Nicolas Batum was not second on the team in points,"The sentence is misleading because it implies Batum was second in points, but the box score does not provide that information."
+S030,8,1,Cody Zeller was the only other starter in double figures,1,10,,,CONTEXT,Cody Zeller was the only other starter in double figures,The sentence is literally true but misleading because of surrounding context.
+S030,10,1,five of their last six games,11,16,,,NUMBER,six of their last seven games,The Pacers have won 8 of their last 10 games.
+S030,11,1,Paul George was the player of the game,1,8,,,CONTEXT,Paul George was a player in the game,The phrase 'player of the game' is misleading as it implies Paul George was the only player in the game.
+S030,7,1,second on the team,4,7,,,CONTEXT,led the team with 22 points,Myles Turner was actually the co-leader of the team with 22 points.
+S030,11,1,22 points,13,14,,,NUMBER,"22 points, seven rebounds and four blocks",incomplete stats

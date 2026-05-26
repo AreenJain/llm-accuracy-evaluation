@@ -1,8 +1,0 @@
-categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
-NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.003,0.111,0.004,0.082,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-NAME,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-NUMBER,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-WORD,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-CONTEXT,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-NOT_CHECKABLE,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
-OTHER,None,None,None,None,formatted/stage_ae/results_qwen_small_p0_run1_ae.csv,gsml_30_rows.csv,texts
