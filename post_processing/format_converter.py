@@ -1,6 +1,13 @@
 """
-Format Converter (Phase 1)
-Converts LLM CSVs to GSML column format.
+Stage 0 — Format Converter.
+
+The LLM saves its annotations in a CSV that does not match the column
+layout the official evaluator expects (the GSML format). This script
+rearranges columns, fills in missing ones, makes sure integer fields
+are stored as proper ints (not floats with .0 endings), and normalises
+the TYPE column to uppercase.
+
+Run it before any of the stage_a/b/c scripts.
 
 Input  : results/llm_csv/results_<run_id>.csv
 Output : results/formatted/ordered/results_<run_id>_ordered.csv
@@ -10,6 +17,7 @@ import os
 import argparse
 import pandas as pd
 
+# Columns the evaluator expects, in the exact order it expects them.
 GSML_COLS = [
     "TEXT_ID",
     "SENTENCE_ID",
@@ -24,6 +32,8 @@ GSML_COLS = [
     "COMMENT",
 ]
 
+# Numeric columns that must stay as integers. We use pandas nullable Int64
+# so blanks survive as NaN instead of being silently turned into floats.
 INT_COLS = [
     "SENTENCE_ID",
     "ANNOTATION_ID",
@@ -35,20 +45,25 @@ INT_COLS = [
 
 
 def convert_file(input_path, output_path):
+    """Read one LLM CSV, fix its layout, and write it back out."""
     df = pd.read_csv(input_path)
 
+    # If the LLM forgot any column, add it as empty so the schema still matches.
     for col in GSML_COLS:
         if col not in df.columns:
             df[col] = pd.NA
 
+    # Force int columns to Int64. This is what stops "18" turning into "18.0".
     for col in INT_COLS:
         if col in df.columns:
             df[col] = df[col].astype("Int64")
-    
-    # Normalize TYPE to uppercase (GSML expects uppercase categories)
+
+    # GSML uses uppercase category names like "NUMBER", "NAME". The LLM
+    # sometimes writes "Number" or "Name mistake" — fix that here.
     if "TYPE" in df.columns:
         df["TYPE"] = df["TYPE"].astype(str).str.upper().str.replace(" ", "_")
 
+    # Drop any extra columns and write out in the canonical order.
     df = df.loc[:, GSML_COLS]
     df.to_csv(output_path, index=False)
     return len(df)
@@ -62,6 +77,7 @@ def main():
 
     os.makedirs(args.output_dir, exist_ok=True)
 
+    # Pick up only raw LLM CSVs — skip anything that's already been processed.
     files = sorted(
         f for f in os.listdir(args.input_dir)
         if f.startswith("results_") and f.endswith(".csv")

@@ -52,7 +52,6 @@ PRACTICUM/
 ├── evaluation/                  ← scoring + comparison
 │   ├── evaluate.py              ← Craig's canonical scorer (NEVER MODIFY)
 │   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage)
-│   ├── reprocess_raw.py         ← rebuild CSV from raw JSONL (recovery tool)
 │   └── LLM_evaluate.py          ← legacy wrapper (kept for reference)
 │
 ├── results/                     ← all generated outputs
@@ -307,16 +306,6 @@ python3 evaluation/batch_evaluate.py
 Takes 5–10 min for 20 runs × 8 stages = ~160 attempts.
 Final output: `results/eval_outputs/master_comparison.xlsx`.
 
-### Recovery — if a CSV came out empty
-If `extract_json` failed on a particular run (e.g. LLM returned a bare object
-instead of a list), the raw JSONL is still valid. Rebuild the CSV:
-```bash
-python3 evaluation/reprocess_raw.py \
-  --raw "results/llm_raw/raw_outputs_<model>_<prompt_key>_run<N>.jsonl" \
-  --games "data/games_30_rows.csv" \
-  --out "results/llm_csv/results_<model>_<prompt_key>_run<N>.csv"
-```
-
 ---
 
 ## 9. Configuration Reference
@@ -399,7 +388,7 @@ TYPE, CORRECTION, COMMENT
 
 | Symptom | Likely cause | Fix |
 |---------|--------------|-----|
-| Empty CSV (~30 bytes) after a Grove run | `extract_json` failed (e.g. LLM returned bare object, or stale `grove_pipeline.py` on Grove) | Reprocess with `evaluation/reprocess_raw.py` |
+| Empty CSV (~30 bytes) after a Grove run | `extract_json` failed (e.g. LLM returned bare object, or stale `grove_pipeline.py` on Grove) | Make sure the latest `grove_pipeline.py` is uploaded to Grove and re-run the job |
 | `KeyError: 'p2_sent'` on Grove | `prompts.py` not synced to Grove | `scp` the latest `prompts.py` over |
 | `ImportError: cannot import name 'drop_unmatched'` | Old version of `stage_e_drop_unmatched.py` (missing helper) | Confirm `drop_unmatched(df)` function exists at top of file |
 | Crashes in `evaluate.py` for `raw`/`ordered`/`a`/`ab`/`abc` stages | Expected — these stages have blank rows the scorer can't handle | Use `_ade`/`_abde`/`_abcde` (D+E-applied) for evaluation |

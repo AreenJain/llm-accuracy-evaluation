@@ -1,16 +1,26 @@
 """
-Post-Processing Stage A: sentence_only
+Stage A — sentence-only mapping.
 
-- Populates SENT_TOKEN_START/END from DOC_TOKEN_START/END using
-  doc_to_sent in token_lookup.yaml.
-- Overwrites SENTENCE_ID with the value from token_lookup.
-- Clears DOC_TOKEN_START/END.
+The LLM gives us each mistake's position as a document-level token id
+(DOC_TOKEN_START / DOC_TOKEN_END). The evaluator, on the other hand,
+wants the position relative to a single sentence (SENT_TOKEN_START /
+SENT_TOKEN_END), along with the sentence id.
 
-Rows where DOC_TOKEN_START is blank, or where the lookup fails, are kept
-with blank SENT_TOKEN_START/END (Stage B will try to recover them).
+This stage uses the prebuilt mapping in data/token_lookup.yaml to
+translate doc-level ids into (sentence_id, sent_token_id). If the
+mistake span crosses two sentences, we blank that row — Stage B will
+try to recover it later.
 
-Input  : formatted/ordered/results_<run_id>_ordered.csv
-Output : formatted/stage_a/results_<run_id>_a.csv
+It writes two files for every input:
+
+  _a.csv    — every row preserved, including blank ones (diagnostic).
+  _ade.csv  — same data but with Stage D (overlap removal) and Stage E
+              (drop unmatched) applied on top, so it is ready for
+              evaluate.py.
+
+Input  : results/formatted/ordered/results_<run_id>_ordered.csv
+Output : results/formatted/stage_a/results_<run_id>_a.csv
+         results/formatted/stage_ade/results_<run_id>_ade.csv
 """
 
 import os
@@ -18,15 +28,21 @@ import argparse
 import pandas as pd
 import yaml
 
+# D and E are tiny helpers in their own files; we reuse them here so
+# Stage A can emit an "evaluator-ready" version directly.
 from stage_d_overlap_resolver import resolve_overlaps
 from stage_e_drop_unmatched import drop_unmatched
 
-def load_token_lookup(path): 
+
+def load_token_lookup(path):
+    """Load the doc-id -> (sentence_id, token_id) map from YAML."""
     with open(path) as f:
         return yaml.safe_load(f)
 
 
 def doc_to_sent_pair(token_lookup, text_id, doc_id):
+    """Look up one doc-token id. Returns (sentence_id, token_id) or (None, None)
+    if the id is missing, not an integer, or the story isn't in the lookup."""
     if pd.isna(doc_id):
         return None, None
     try:
@@ -43,12 +59,16 @@ def doc_to_sent_pair(token_lookup, text_id, doc_id):
 
 
 def process_file(input_path, output_a_path, output_ade_path, token_lookup):
+    """Convert one _ordered.csv into its _a.csv and _ade.csv siblings."""
     df = pd.read_csv(input_path)
 
     sent_starts = []
     sent_ends = []
     sentence_ids = []
 
+    # Walk row by row. For each annotation, translate the start and end
+    # doc-ids into sentence-level ids. Both ends must live in the same
+    # sentence for us to accept the row — otherwise the span is unusable.
     for _, row in df.iterrows():
         text_id = row["TEXT_ID"]
         doc_start = row["DOC_TOKEN_START"]
@@ -62,25 +82,28 @@ def process_file(input_path, output_a_path, output_ade_path, token_lookup):
             sent_starts.append(s_tok)
             sent_ends.append(e_tok)
         else:
+            # Cross-sentence span or lookup failure — leave blank for Stage B.
             sentence_ids.append(pd.NA)
             sent_starts.append(pd.NA)
             sent_ends.append(pd.NA)
 
+    # Write the new sentence-level columns back and clear the doc-level ones.
     df["SENTENCE_ID"] = sentence_ids
     df["SENT_TOKEN_START"] = sent_starts
     df["SENT_TOKEN_END"] = sent_ends
     df["DOC_TOKEN_START"] = pd.NA
     df["DOC_TOKEN_END"] = pd.NA
 
+    # Keep integer columns as Int64 so blanks stay blank (no "18.0" mess).
     int_cols = ["SENTENCE_ID", "ANNOTATION_ID", "SENT_TOKEN_START",
                 "SENT_TOKEN_END", "DOC_TOKEN_START", "DOC_TOKEN_END"]
     for col in int_cols:
         df[col] = df[col].astype("Int64")
 
-    # Save _a.csv (full, including blank rows)
+    # Diagnostic copy — keeps every row, even the unmapped ones.
     df.to_csv(output_a_path, index=False)
 
-    # Save _ade.csv (apply D overlap removal, then E drop -> evaluate.py ready)
+    # Evaluator-ready copy — apply D and E, then save.
     df_de, _, _ = resolve_overlaps(df.copy())
     df_de = drop_unmatched(df_de)
     df_de.to_csv(output_ade_path, index=False)
