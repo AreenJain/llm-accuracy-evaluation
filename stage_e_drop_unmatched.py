@@ -23,7 +23,7 @@ def process_file(input_path, output_path):
     total_after = len(df)
     dropped = total_before - total_after
     
-    # Re-cast int columns
+    # Recast int columns
     int_cols = ["SENTENCE_ID", "ANNOTATION_ID", "SENT_TOKEN_START", "SENT_TOKEN_END",
                 "DOC_TOKEN_START", "DOC_TOKEN_END"]
     for col in int_cols:

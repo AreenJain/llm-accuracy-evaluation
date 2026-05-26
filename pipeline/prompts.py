@@ -1,4 +1,7 @@
 # prompts.py — all prompt variants
+# Full-story prompts: p0, p1, p2, p3 (use {story})
+# Sentence-by-sentence prompts: p0_sent, p1_sent, p2_sent, p3_sent (use {sentence}, {sentence_id})
+# The _sent variants are derived from full ones at the bottom of this file.
 
 PROMPTS = {
     "p0": """Finding Mistakes in Basketball Stories: Text {text_id}
@@ -319,3 +322,20 @@ Critical output rules:
 - One annotation per mistake : if a sentence has multiple mistakes, create separate annotations
 """,
 }
+
+
+# Derive sentence-by-sentence variants from the full-story prompts.
+# Each _sent prompt feeds a SINGLE sentence (with its 1-indexed id) plus the
+# full game_data. Field {story} -> {sentence}, and a sentence-mode header is
+# prepended so the model knows it is only fact-checking one sentence.
+_SENT_HEADER = (
+    "MODE: SENTENCE-BY-SENTENCE\n"
+    "You are given ONE sentence (sentence_id={sentence_id}) from a basketball game story.\n"
+    "Fact-check ONLY this sentence against the box-score data below.\n"
+    "If this sentence has no mistakes, output [].\n"
+    "Always set SENTENCE_ID = {sentence_id} in every annotation you return.\n"
+    "TOKENS must be copied EXACTLY from this sentence (not from any other text).\n\n"
+)
+
+for _k in ["p0", "p1", "p2", "p3"]:
+    PROMPTS[_k + "_sent"] = _SENT_HEADER + PROMPTS[_k].replace("{story}", "{sentence}")

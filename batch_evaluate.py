@@ -10,10 +10,11 @@ Stages evaluated:
 - cleaned : cleaned_data/            (old clean_csv.py output)
 - ordered : formatted/ordered/       (format converter only)
 - a       : formatted/stage_a/
-- ab      : formatted/stage_b/
-- abc     : formatted/stage_c/
-- abcd    : formatted/stage_d/
-- abcde   : formatted/stage_e/       (final, fully cleaned)
+- ade     : formatted/stage_ade/
+- ab      : formatted/stage_ab/
+- abde    : formatted/stage_abde/
+- abc     : formatted/stage_abc/
+- abcde   : formatted/stage_abcde/   (final, fully cleaned)
 
 USAGE:
     python3 batch_evaluate.py
@@ -35,14 +36,15 @@ from openpyxl.formatting.rule import ColorScaleRule
 
 # Stage definitions: (stage_label, input_folder, file_suffix)
 STAGES = [
-    ("raw",     "LLM_results CSV",      ".csv"),
-    ("cleaned", "cleaned_data",         "_cleaned.csv"),
-    ("ordered", "formatted/ordered",    "_ordered.csv"),
-    ("a",       "formatted/stage_a",    "_a.csv"),
-    ("ab",      "formatted/stage_b",    "_ab.csv"),
-    ("abc",     "formatted/stage_c",    "_abc.csv"),
-    ("abcd",    "formatted/stage_d",    "_abcd.csv"),
-    ("abcde",   "formatted/stage_e",    "_abcde.csv"),
+    ("raw",     "LLM_results CSV",       ".csv"),
+    ("cleaned", "cleaned_data",          "_cleaned.csv"),
+    ("ordered", "formatted/ordered",     "_ordered.csv"),
+    ("a",       "formatted/stage_a",     "_a.csv"),
+    ("ade",     "formatted/stage_ade",   "_ade.csv"),
+    ("ab",      "formatted/stage_ab",    "_ab.csv"),
+    ("abde",    "formatted/stage_abde",  "_abde.csv"),
+    ("abc",     "formatted/stage_abc",   "_abc.csv"),
+    ("abcde",   "formatted/stage_abcde", "_abcde.csv"),
 ]
 
 # Run IDs (16 total)
@@ -174,7 +176,7 @@ def build_master_excel(success_log):
         return
 
     df = pd.DataFrame(rows)
-    stage_order = ["raw", "cleaned", "ordered", "a", "ab", "abc", "abcd", "abcde"]
+    stage_order = ["raw", "cleaned", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     df["_so"] = df["Stage"].map({s: i for i, s in enumerate(stage_order)})
     size_order = {"Small": 0, "Medium": 1}
     prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}

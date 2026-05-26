@@ -1,0 +1,104 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,2,1,30 - point,35,37,,,NUMBER,33-21,The JSON shows the Celtics outscored the Lakers by 33-21.
+S001,5,2,Jae Crowder,1,2,,,NAME,Isaiah Thomas,The JSON states Isaiah Thomas led the team in scoring with 38 points.
+S002,1,1,Atlanta Hawks,2,3,,,NAME,Cleveland,The JSON mentions Cleveland as the away team.
+S002,1,3,110 - 110,9,11,,,NUMBER,110-106,The JSON shows the score as 110-106.
+S002,1,4,Saturday,18,18,,,NAME,Tuesday,The JSON states the game was on Tuesday.
+S002,3,5,Hawks outscored the Hawks,5,8,,,NAME,Cavaliers,The JSON mentions the Cavaliers as the away team.
+S002,3,6,37 - 20,10,12,,,NUMBER,41-25,The JSON shows the fourth quarter score as 41-25.
+S002,6,7,Dwight,1,1,,,NAME,Mike,The JSON mentions Mike Muscala as the player of the game.
+S002,4,8,Cavaliers,25,25,,,NAME,Hawks,The JSON mentions the Hawks as the home team.
+S002,11,9,LeBron,1,1,,,NAME,Kyrie,The JSON mentions Kyrie Irving as leading the team.
+S002,14,11,Tristan,1,1,,,NAME,Channing,The JSON mentions Channing Frye as the player.
+S003,1,1,Saturday,17,17,,,NAME,Sunday,The story states the game was played on Sunday.
+S004,1,1,Vivint Smart Home,16,18,,,NAME,Vivint Smart Home Arena,The JSON does not mention the arena name.
+S005,2,3,Paul Millsap,1,2,,,NAME,"Tim Hardaway, Jr.","The JSON shows Tim Hardaway, Jr. led the way for the Hawks with a game-high 21 points"
+S005,5,5,Kent Bazemore,1,2,,,NAME,Malcolm Delaney,The JSON shows Malcolm Delaney paced the second unit with 12 points
+S006,1,1,defeated,9,9,,,NAME,defeated,Houston Rockets should be Brooklyn Nets
+S006,7,4,24 points,18,19,,,NUMBER,22,Brook Lopez's points are wrong
+S006,6,5,Nets played,2,3,,,NAME,Rockets,Brooklyn Nets should be Houston Rockets
+S007,1,1,Russell Westbrook,1,2,,,NAME,Victor Oladipo,The story mentions Russell Westbrook twice.
+S008,2,1,Grizzlies ( 5 - 5 ),2,7,,,NUMBER,7-5,"The correct record is 7-5, not 5-5."
+S008,3,4,Gasol,12,12,,,NAME,Marc Gasol,"The name is Marc Gasol, not Gasol."
+S008,4,5,Conley,2,2,,,NAME,Mike Conley,"The name is Mike Conley, not Conley."
+S008,9,7,Gobert,11,11,,,NAME,Rudy Gobert,"The name is Rudy Gobert, not Gobert."
+S008,3,8,22,20,20,,,NUMBER,13,"Gasol scored 13 points, not 22."
+S008,4,9,18,6,6,,,NUMBER,18,"Conley scored 18 points, not 22."
+S008,5,10,4,16,16,,,NUMBER,5,"Randolph grabbed 5 rebounds, not 4."
+S008,5,11,Zach Randolph,1,2,,,NAME,Rudy Gobert,"The name is Rudy Gobert, not Zach Randolph."
+S009,1,1,Milwaukee Bucks,2,3,,,NAME,Los Angeles Lakers,Incorrect team mentioned
+S009,1,2,122 - 122,10,12,,,NUMBER,122-114,Incorrect score
+S009,1,3,Tuesday,20,20,,,NAME,Friday evening,Incorrect day of the week mentioned
+S009,3,4,Bucks led for the majority,5,9,,,CONTEXT,Los Angeles Lakers led for the majority of the game,Incorrect team leading
+S009,4,5,29,14,14,,,NUMBER,52,Incorrect shooting percentage mentioned
+S009,6,6,41 points,13,14,,,NUMBER,26 points,D'Angelo Russell's incorrect scoring
+S010,1,1,Hawks,3,3,,,NAME,Magic,"The away team was Orlando Magic, not Hawks."
+S010,1,2,Atlanta,2,2,,,NAME,Orlando,"The home team was Orlando Magic, not Atlanta Hawks."
+S010,1,4,Orlando,7,7,,,NAME,Atlanta,"The home team was Atlanta Hawks, not Orlando Magic."
+S010,1,7,Magic,8,8,,,NAME,Hawks,"The away team was Atlanta Hawks, not Orlando Magic."
+S011,1,1,Tuesday,22,22,,,NAME,Wednesday,The game was played on Wednesday.
+S012,1,1,Friday,19,19,,,NAME,Saturday,The JSON says the game was on Saturday evening.
+S012,1,2,Denver Nuggets,2,3,,,NAME,Phoenix Suns,The JSON says the Denver Nuggets defeated the Phoenix Suns.
+S012,3,4,Gallinari,12,12,,,NAME,Faried,The JSON says Faried scored 21 points and 13 rebounds.
+S012,4,5,Harris,2,2,,,NAME,Wilson Chandler,The JSON says Wilson Chandler followed up with 15 points.
+S012,5,6,Nelson,2,2,,,NAME,Jameer Nelson,The JSON says Jameer Nelson chipped in 17 points.
+S012,7,7,Booker,12,12,,,NAME,Tyson Chandler,The JSON says Tyson Chandler finished with 15 points.
+S012,10,8,host,6,6,,,WORD,visit,The JSON says the Suns go on to visit the Lakers.
+S013,1,1,Wednesday,22,22,,,NAME,Saturday,"The game was played on Saturday, not Wednesday."
+S014,1,1,Portland Trail Blazers,2,4,,,NAME,The Portland Trail Blazers,Missing 'The'
+S014,4,5,CJ McCollum,10,11,,,NAME,CJ McCollum,Incorrect spelling of name
+S014,7,7,28 points,29,30,,,NUMBER,35 points,Incorrect point total
+S014,11,8,Jordan Clarkson,12,13,,,NAME,Jordan Clarkson,Misspelled name
+S014,14,9,Clarkson had 19 points,33,36,,,NUMBER,Jordan Clarkson had 19 points,Incorrect name order
+S015,4,3,Kyle Lowry,6,7,,,NAME,DeMar DeRozan,JSON shows DeMar DeRozan led Raptors with 21 points
+S015,6,4,DeMarre Carroll,1,2,,,NAME,DeMarre Carroll,Name spelling mismatch in JSON
+S015,11,5,Hassan Whiteside,1,2,,,NAME,Gerald Green,Name spelling mismatch in JSON
+S015,6,7,off the bench,32,34,,,WORD,came off the bench,JSON shows Gerald Green started in second game
+S015,9,10,Cleveland,25,25,,,NAME,Minnesota,Upcoming opponent is the Timberwolves not the Cavaliers
+S015,9,11,Cavaliers,30,30,,,NAME,Timberwolves,Upcoming opponent is the Timberwolves not the Cavaliers
+S017,1,1,Saturday,18,18,,,NAME,Tuesday,"The game was played on Tuesday, not Saturday."
+S018,2,3,going 42,11,12,,,NUMBER,42%,
+S018,2,4,29,18,18,,,NUMBER,29%,
+S018,3,5,Stephen Curry,9,10,,,NAME,Stephen Curry,
+S018,5,6,39,13,13,,,NUMBER,33,
+S018,6,8,Draymond Green,1,2,,,NAME,Draymond Green,
+S018,9,10,Josh Smith,13,14,,,NAME,Josh Smith,
+S018,13,11,Minnesota Timberwolves,27,28,,,NAME,Minnesota Timberwolves,
+S019,3,1,led for,6,7,,,WORD,outscored,The Heat outscored the Pacers in the third quarter.
+S019,4,2,23 assists,16,17,,,NUMBER,23 assists to 16 turnovers,Miami had 23 assists while Indiana had 15.
+S019,5,3,30 - 29,4,6,,,NUMBER,30-29,The correct score for the Pacers is 30-29.
+S019,11,4,21 points,13,14,,,NUMBER,"21 points, two rebounds and four assists","Dragic had 21 points, 2 rebounds, and 4 assists."
+S019,12,5,22 points,10,11,,,NUMBER,22 points,"Whiteside had 22 points, not 22."
+S019,14,6,Toronto Raptors,15,16,,,NAME,Toronto Raptors,The correct name is Toronto Raptors.
+S020,1,1,host,6,6,,,NAME,Pelicans,The story mentions host Phoenix Suns but the JSON shows New Orleans as the home team.
+S021,1,1,Golden 1,14,15,,,NAME,1,Should be '1' instead of 'Golden 1'
+S021,4,3,19,27,27,,,NUMBER,19,"Fourth quarter score is 19, not 38"
+S021,7,4,17,5,5,,,NUMBER,17,"Sam Dekker scored 17 points, not 19"
+S021,8,5,18,11,11,,,NUMBER,14,"Eric Gordon scored 14 points, not 18"
+S021,2,7,10,4,4,,,NUMBER,12,"Rudy Gay has 12 rebounds, not 10"
+S023,1,1,Wednesday,19,19,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+S024,1,1,on Saturday,17,18,,,NOT_CHECKABLE,,The JSON does not provide a specific date.
+S024,2,2,Wednesday,10,10,,,NAME,Friday,"The game was on Friday, not Wednesday."
+S024,2,3,Gregg Popovich,45,46,,,NAME,Steve Kerr,The JSON indicates the coach of Golden State is Steve Kerr.
+S024,6,4,Buddy Hield,6,7,,,NAME,Klay Thompson,The correct player name is Klay Thompson.
+S024,7,5,Draymond Green,1,2,,,NAME,Buddy Hield,The correct player name is Buddy Hield.
+S024,5,6,Skal Labissiere,1,2,,,NAME,Buddy Hield,The correct player name is Buddy Hield.
+S024,9,8,Ben McLemore,1,2,,,NAME,Buddy Hield,The correct player name is Buddy Hield.
+S024,3,9,Stephen Curry,1,2,,,NAME,Buddy Hield,The correct player name is Buddy Hield.
+S025,3,7,Kawhi Leonard,1,2,,,NAME,Danny Green,Incorrect player name
+S025,6,8,Thomas,2,2,,,NAME,Isaiah Thomas,Incorrect player name
+S025,5,9,Avery Bradley,1,2,,,NAME,David Lee,Incorrect player name
+S026,2,3,27,20,20,,,NUMBER,28,The away team scored one more point than mentioned in the story.
+S026,11,5,17,12,12,,,NUMBER,14,CJ Miles scored fewer points than mentioned in the story.
+S027,1,1,The New York Knicks,1,4,,,NAME,Houston Rockets,Incorrect team name
+S027,2,2,25 - 21,18,20,,,NUMBER,21-25,Incorrect quarter score
+S027,4,3,Arron Afflalo,6,7,,,NAME,Kristaps Porzingis,Incorrect player name
+S027,8,4,Charlotte,24,24,,,NAME,Houston,Incorrect city name
+S027,1,5,Wednesday,23,23,,,WORD,Monday,Incorrect day of week
+S028,1,1,Saturday evening,17,18,,,NAME,Wednesday,The game was played on Wednesday according to the JSON.
+S028,3,4,9 - 21,13,15,,,NUMBER,9-21,The Nets' record is 9-21 according to the JSON.
+S028,14,5,Bojan Bogdanovic,1,2,,,NAME,Bogdanovic,The player's name is Bogdanovic according to the JSON.
+S029,1,1,Minnesota Timberwolves,2,3,,,NAME,Timberwolves,Team name should be singular
+S030,1,1,Wednesday,18,18,,,NAME,Monday,Game date mismatch.
+S030,10,2,five of their last six,11,15,,,NUMBER,five of their last seven,Number of games won mismatch.
+S030,7,3,accrued,11,11,,,OTHER,accumulated,Typo in verb usage.

@@ -1,0 +1,70 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S002,1,3,Saturday,18,18,,,NAME,Tuesday,Incorrect day of the week
+S002,9,10,Sunday,8,8,,,NAME,Wednesday,Incorrect day of the week
+S002,9,11,Toronto Raptors,15,16,,,NAME,Chicago Bulls,Incorrect team name
+S002,15,13,Orlando Magic,15,16,,,NAME,Washington Wizards,Incorrect team name
+S003,1,1,Saturday evening,17,18,,,CONTEXT,Sunday,Incorrect day of the week
+S003,2,2,Friday 's,32,33,,,CONTEXT,Sunday,Incorrect day of the week
+S004,2,2,The Jazz ( 1 - 1 ),1,7,,,NUMBER,The Jazz (1-1),The box score does not use this format for the team record.
+S006,1,1,Houston Rockets ( 10 - 12 ) defeated the Brooklyn Nets ( 6 - 15 ) 110 - 105 on Friday,2,22,,,CONTEXT,The Brooklyn Nets (6-15) defeated the Houston Rockets (10-12) 110-105 on Tuesday,Incorrect team and date
+S006,5,5,The Rockets will look to bounce - back against the Orlando Magic on Wednesday in their next game,1,18,,,CONTEXT,The Rockets face the Wizards in Washington in the second game of a back-to-back on Wednesday,Incorrect next game and date
+S006,9,9,The Nets will look to keep this momentum going against the Atlanta Hawks on Friday,1,15,,,CONTEXT,The Nets remain home for a matchup with the last-place Sixers on Thursday,Incorrect next game and date
+S007,1,1,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,1,15,,,NAME,Russell Westbrook,Repeated name
+S009,1,2,at BMO Harris Bradley Center on Tuesday,14,20,,,CONTEXT,at BMO Harris Bradley Center on Friday,Incorrect day
+S009,5,3,The Lakers ( 19 - 37 ) have now won four of their last five games,1,16,,,CONTEXT,The Lakers ( 19 - 37 ) have now won four of their last five games is not relevant to the current game,Irrelevant information
+S009,9,6,On deck for Los Angeles is a road matchup with the New Orleans Pelicans on Sunday,1,16,,,CONTEXT,The Lakers head back to home to face off with the Sacramento Kings on Tuesday evening,Incorrect next game information
+S009,10,7,Milwaukee ( 22 - 30 ) has now lost three of their last five games,1,15,,,CONTEXT,Milwaukee ( 22 - 30 ) has now lost three of their last five games is not relevant to the current game,Irrelevant information
+S011,1,1,Tuesday at Philips Arena in Atlanta,22,27,,,CONTEXT,Wednesday,"The game was played on Wednesday, not Tuesday."
+S011,2,2,29 - 18,18,20,,,NUMBER,28,The Hawks outscored the Wizards 28-18 in the first quarter.
+S011,3,3,28 - 18,11,13,,,NUMBER,30,The Hawks outscored the Wizards 30-18 in the third quarter.
+S011,4,4,44 percent,10,11,,,NUMBER,48,The Hawks shot 48 percent from the field.
+S011,4,5,25 percent,31,32,,,NUMBER,25,The Wizards shot 25 percent from the three-point line.
+S011,5,6,14 turnovers,11,12,,,NUMBER,12,The Hawks forced the Wizards into 12 turnovers.
+S011,6,7,John Wall,9,10,,,NAME,Jeff Teague,"Jeff Teague was Atlanta's top scorer, not John Wall."
+S011,7,8,24 points,31,32,,,NUMBER,26,Jeff Teague recorded 26 points.
+S011,14,15,Friday,16,16,,,WORD,Friday,The Hawks will welcome the Golden State Warriors to town on Friday.
+S012,1,1,Friday evening,19,20,,,CONTEXT,Saturday evening,Incorrect day of the week
+S012,2,2,worst,15,15,,,WORD,best,Incorrect word choice
+S012,3,3,Six,1,1,,,NUMBER,Four,Incorrect number of players
+S012,7,4,Devin Booker,11,12,,,NAME,Eric Bledsoe,Incorrect player name
+S012,1,5,Phoenix Suns,6,7,,,NAME,Denver Nuggets,Incorrect team name
+S015,1,1,Wednesday at American Airlines Arena,22,26,,,CONTEXT,Friday night in Miami,Incorrect day and location
+S015,3,2,They were also able to out - score,1,8,,,CONTEXT,They were also able to out-score the Heat 50-38 in the second half,Incorrect scoring information
+S015,6,3,DeMarre Carroll,1,2,,,NAME,DeMar DeRozan,Incorrect player name
+S015,6,4,Gerald Green,29,30,,,NAME,Goran Dragic,Incorrect player name
+S015,11,6,Hassan Whiteside,1,2,,,NAME,Hassan is not mentioned in the original text,Incorrect player name
+S015,9,7,Sunday night,32,33,,,CONTEXT,Sunday,Incorrect day
+S015,9,8,Cavaliers,30,30,,,NAME,Trail Blazers,Incorrect team name
+S015,13,9,Timberwolves,17,17,,,NAME,Not mentioned in the original text,Incorrect team name
+S017,1,1,Saturday evening,18,19,,,CONTEXT,Tuesday evening,Incorrect day of the week
+S017,2,4,Barclays Center,25,26,,,NAME,Quicken Loans Arena,Incorrect arena name
+S017,4,5,63 percent success rate from behind the arc,27,34,,,CONTEXT,63 percent from three-point range,Misleading context
+S017,4,6,paltry,26,26,,,WORD,paltry,Incorrect word choice
+S017,10,7,Richard Jefferson and Richard Jefferson,1,5,,,CONTEXT,Reggie Jefferson,Incorrect player name
+S017,14,8,Friday night,13,14,,,CONTEXT,Thursday evening,Incorrect day of the week
+S017,14,9,Friday evening,27,28,,,CONTEXT,Friday evening,Incorrect day of the week
+S018,1,1,Golden State Warriors ( 64 - 7 ),2,9,,,NUMBER,Golden State Warriors (64-7),Incorrect formatting of score.
+S018,1,2,Los Angeles Clippers ( 43 - 27 ),12,19,,,NUMBER,Los Angeles Clippers (43-27),Incorrect formatting of score.
+S018,1,3,114 - 98,20,22,,,NUMBER,114-98,Incorrect formatting of score.
+S018,1,4,Wednesday at Oracle Arena in Oakland,24,29,,,CONTEXT,Wednesday,"Misleading context, as the box score does not provide information about the arena."
+S018,2,5,42 percent from the field and 29 percent from the three - point line,12,25,,,NUMBER,"45% FG_PCT and 44% FG3_PCT for Warriors, 42% FG_PCT and 29% FG3_PCT for Clippers",Incorrect percentages.
+S018,4,6,game - high of 33 points,5,10,,,NUMBER,33 points,Redundant word 'game-high'.
+S018,10,9,4 - for - 11 from the field and 2 - for - 4 from the three - point line,28,47,,,NUMBER,4-11 FG and 2-4 3Pt,Incorrect formatting of stats.
+S018,13,10,Friday,16,16,,,CONTEXT,Thursday,Incorrect day of the week.
+S019,1,1,Saturday evening,18,19,,,CONTEXT,Saturday night,Saturday evening is misleading because the game was played at night
+S019,2,2,The Heat were expected to win this game easily,1,9,,,CONTEXT,The Heat took care of business in this wire-to-wire win,The original sentence is more descriptive and accurate
+S019,3,3,In fact,1,2,,,CONTEXT,The assist-to-turnover ratio was the decisive statistic,The original sentence is more descriptive and accurate
+S019,6,4,Paul George led the way for Indiana,1,7,,,CONTEXT,Paul George led the way for Indiana,The original sentence is more descriptive and accurate
+S019,11,5,Goran Dragic was the player of the game,1,8,,,CONTEXT,Goran Dragic was the player of the game,The original sentence is more descriptive and accurate
+S019,12,6,Hassan Whiteside recorded a double - double,1,7,,,CONTEXT,Hassan Whiteside recorded a double-double,The original sentence is more descriptive and accurate
+S020,1,1,Phoenix Suns defeated the host Phoenix Suns,2,8,,,CONTEXT,The Pelicans defeated the host Suns,Misleading team name
+S022,4,3,22 percent,20,21,,,NUMBER,22,"The Timberwolves shot 22 percent from three-point range, not 22 percent from three-point range in total."
+S022,6,4,Anthony Davis led the Timberwolves in scoring with 42 points on 16 - of - 22 from the field and 8 - of - 11 from the free - throw line,1,31,,,CONTEXT,Anthony Davis led the Timberwolves in scoring with 42 points on 16-of-22 from the field and 8-of-11 from the free-throw line,The sentence is literally true but the free-throw line stats are not relevant to the scoring total.
+S022,10,5,Buddy Hield led Minnesota in scoring,1,6,,,CONTEXT,Anthony Davis led the Timberwolves in scoring,The sentence is misleading because it incorrectly states that Buddy Hield led Minnesota in scoring.
+S022,13,6,17th win at Verizon Center,23,27,,,CONTEXT,21-33,The sentence is misleading because it incorrectly states that the win was at Verizon Center and the Pelicans' record is 17-33.
+S024,1,1,Saturday,18,18,,,WORD,Friday,Incorrect day of the week
+S024,1,2,Oracle Arena,15,16,,,NAME,Not specified in the box score,Arena name not provided in the box score
+S024,2,3,Gregg Popovich,45,46,,,NAME,Not specified in the box score,Coach name not provided in the box score
+S026,1,1,The Phoenix Suns ( 11 - 8 ),1,8,,,NUMBER,The Phoenix Suns (11-8),Incorrect dash usage
+S026,15,17,to go along with two rebounds and two assists,31,39,,,WORD,to go along with two rebounds and two assists,Incomplete sentence
+S028,1,1,Saturday evening,17,18,,,CONTEXT,Wednesday,Incorrect day of the week

@@ -11,8 +11,8 @@ SENTENCE_ID) and we track used (sentence_id, token_id) pairs per document.
 
 Rows that were already blank pass through unchanged.
 
-Input  : formatted/stage_c/results_<run_id>_abc.csv
-Output : formatted/stage_d/results_<run_id>_abcd.csv
+Input  : formatted/stage_abc/results_<run_id>_abc.csv
+Output : formatted/stage_abcd/results_<run_id>_abcd.csv
 """
 
 import os
@@ -20,18 +20,14 @@ import argparse
 import pandas as pd
 
 
-def process_file(input_path, output_path):
-    df = pd.read_csv(input_path)
-    
+def resolve_overlaps(df):
+    """In-place greedy left-to-right overlap removal. Returns (df, kept, blanked)."""
     kept = 0
     blanked_overlap = 0
-    already_blank = 0
-    
-    # Track used (sentence_id, token_id) pairs PER TEXT_ID
     used_per_doc = {}
     
-    # Process in row order — but sort populated rows by (TEXT_ID, SENTENCE_ID, SENT_TOKEN_START)
-    # so greedy left-to-right works deterministically.
+    # Process in row order but sort populated rows by (TEXT_ID, SENTENCE_ID, SENT_TOKEN_START)
+    # so greedy left to right works deterministically.
     populated_idx = df[df["SENT_TOKEN_START"].notna()].index.tolist()
     
     # Build sortable tuples then sort
@@ -55,7 +51,7 @@ def process_file(input_path, output_path):
         span_tokens = {(sent_id, t) for t in range(start, end + 1)}
         
         if span_tokens & used_per_doc[text_id]:
-            # Overlap → blank this row
+            # Overlap then blank this row
             df.at[idx, "SENT_TOKEN_START"] = pd.NA
             df.at[idx, "SENT_TOKEN_END"] = pd.NA
             df.at[idx, "SENTENCE_ID"] = pd.NA
@@ -64,14 +60,17 @@ def process_file(input_path, output_path):
             used_per_doc[text_id].update(span_tokens)
             kept += 1
     
-    already_blank = (df["SENT_TOKEN_START"].isna()).sum() - blanked_overlap
-    
-    # Re-cast int columns
     int_cols = ["SENTENCE_ID", "ANNOTATION_ID", "SENT_TOKEN_START", "SENT_TOKEN_END",
                 "DOC_TOKEN_START", "DOC_TOKEN_END"]
     for col in int_cols:
         df[col] = df[col].astype("Int64")
-    
+
+    return df, kept, blanked_overlap
+
+
+def process_file(input_path, output_path):
+    df = pd.read_csv(input_path)
+    df, kept, blanked_overlap = resolve_overlaps(df)
     df.to_csv(output_path, index=False)
     total = len(df)
     populated = df["SENT_TOKEN_START"].notna().sum()
@@ -80,8 +79,8 @@ def process_file(input_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default="formatted/stage_c")
-    parser.add_argument("--output_dir", default="formatted/stage_d")
+    parser.add_argument("--input_dir", default="formatted/stage_abc")
+    parser.add_argument("--output_dir", default="formatted/stage_abcd")
     args = parser.parse_args()
     
     os.makedirs(args.output_dir, exist_ok=True)

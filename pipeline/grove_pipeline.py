@@ -19,6 +19,8 @@ arg_parser.add_argument("--jsonl", type=str, required=True)
 arg_parser.add_argument("--model", type=str, default="llama_medium")
 arg_parser.add_argument("--rows", type=int, default=20)
 arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p1", "p2", "p3"])
+arg_parser.add_argument("--by_sent", type=str, default="no", choices=["yes", "no"],
+                        help="yes = one LLM call per sentence; no = one LLM call per story")
 args = arg_parser.parse_args()
 
 MODELS = {
@@ -42,17 +44,38 @@ class AnnotationList(RootModel[List[Annotation]]):
 parser = PydanticOutputParser(pydantic_object=AnnotationList)
 
 def build_prompt(prompt_key):
+    if prompt_key.endswith("_sent"):
+        ivs = ["text_id", "sentence", "sentence_id", "game_data"]
+    else:
+        ivs = ["text_id", "story", "game_data"]
     return PromptTemplate(
         template=PROMPTS[prompt_key],
-        input_variables=["text_id", "story", "game_data"],
+        input_variables=ivs,
         partial_variables={"format_instructions": parser.get_format_instructions()}
     )
 #function to extract JSON from raw text
 def extract_json(text):
-    if not text: #return empty list if text is empty or None
+    if not text:  # return empty list if text is empty or None
         return "[]"
-    match = re.search(r'\[.*\]', text, re.DOTALL) #match the JSON array in the text
-    return match.group() if match else "[]" #return empty list if no JSON array found
+    stripped = text.strip()
+    # Strip markdown code fences (```json ... ``` or ``` ... ```)
+    if stripped.startswith("```"):
+        stripped = re.sub(r'^```(?:json)?\s*\n?', '', stripped)
+        stripped = re.sub(r'\n?```\s*$', '', stripped).strip()
+    # Try parsing the whole stripped text as JSON. If it's a list, keep it.
+    # If it's a single object, wrap it in a list (handles loose prompts where
+    # the LLM forgets the outer [...]).
+    try:
+        obj = json.loads(stripped)
+        if isinstance(obj, list):
+            return json.dumps(obj)
+        if isinstance(obj, dict):
+            return json.dumps([obj])
+    except Exception:
+        pass
+    # Fallback: old regex (greedy first-[ to last-])
+    match = re.search(r'\[.*\]', stripped, re.DOTALL)
+    return match.group() if match else "[]"
 
 # Functions for mapping tokens to document positions
 def build_doc_token_map(text_id, story): #
@@ -102,11 +125,12 @@ llm = AutoModelForCausalLM.from_pretrained(
 
 print("Model loaded.")
 
-# Main function to process each story and extract annotations
-def prompt_fn(text_id, story, game_data, prompt_key):
+# Main function to call the LLM. Accepts either full-story vars (story=...)
+# or sentence vars (sentence=..., sentence_id=...) via **vars.
+def prompt_fn(prompt_key, **vars):
     template = build_prompt(prompt_key)
-    prompt = template.format(text_id=text_id, story=story, game_data=game_data)
-    
+    prompt = template.format(**vars)
+
     messages = [{"role": "user", "content": prompt}]
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer(text, return_tensors="pt").to(llm.device)
@@ -152,16 +176,22 @@ games_df["game_data"] = game_data_lines[:len(games_df)]
 
 # Run
 all_results = []
+
+# Decide mode + prompt key first so filenames carry the suffix when by_sent=yes
+by_sent = (args.by_sent == "yes")
+prompt_key = args.prompt + ("_sent" if by_sent else "")
+print(f"Mode: {'sentence-by-sentence' if by_sent else 'full-story'} | prompt={prompt_key}")
+
 #directory to save raw outputs from the model
-raw_outputs_dir = "LLM Raw results" 
+raw_outputs_dir = "LLM Raw results"
 # create folder if it doesn't exist (no error if already there)
-os.makedirs(raw_outputs_dir, exist_ok=True)  
-# list existing run files for this model
-existing = [f for f in os.listdir(raw_outputs_dir) if f.startswith(f"raw_outputs_{model_key}_{args.prompt}_run")]
+os.makedirs(raw_outputs_dir, exist_ok=True)
+# list existing run files for this model + prompt_key combo
+existing = [f for f in os.listdir(raw_outputs_dir) if f.startswith(f"raw_outputs_{model_key}_{prompt_key}_run")]
 # next run number = count of existing + 1
-run_num = len(existing) + 1  
+run_num = len(existing) + 1
 # build full file path with run number
-raw_outputs_path = os.path.join(raw_outputs_dir, f"raw_outputs_{model_key}_{args.prompt}_run{run_num}.jsonl")
+raw_outputs_path = os.path.join(raw_outputs_dir, f"raw_outputs_{model_key}_{prompt_key}_run{run_num}.jsonl")
 start_time = time.time()  # record start time to measure total elapsed time later
 
 # iterate over rows of the dataframe, processing only the number of rows specified by --rows argument
@@ -169,60 +199,110 @@ for i, row in games_df.head(args.rows).iterrows():
     text_id = row["TEXT_ID"]
     story = row["GENERATED_TEXT"]
     game_data = row["game_data"]
-    
+
     print(f"Processing {text_id}...")
-    
-    try: 
-        parsed, raw_text, is_valid_json = prompt_fn(text_id, story, game_data, args.prompt)
-        
-        # save raw output along with metadata (text_id and JSON validity) to a JSONL file
-        with open(raw_outputs_path, "a") as f:
-            f.write(json.dumps({
-                "text_id": text_id,
-                "is_valid_json": is_valid_json,
-                "raw_output": raw_text
-            }) + "\n")
-        
-        print(f"  JSON valid: {is_valid_json}")
-        
-        # build position map of every word in story (which sentence + token position)
-        doc_map = build_doc_token_map(text_id, story)
-        
-        for ann in parsed.root:
-            start, end = find_token_span(doc_map, ann.TOKENS)
-            all_results.append({
-                "TEXT_ID": text_id,
-                "SENTENCE_ID": ann.SENTENCE_ID,
-                "ANNOTATION_ID": ann.ANNOTATION_ID,
-                "TOKENS": " ".join(ann.TOKENS),
-                "DOC_TOKEN_START": start,
-                "DOC_TOKEN_END": end,
-                "TYPE": ann.TYPE,
-                "CORRECTION": ann.CORRECTION,
-                "COMMENT": ann.COMMENT,
-            })
+
+    # build position map of every word in story (built ONCE per story; reused
+    # for every sentence call when by_sent=yes)
+    doc_map = build_doc_token_map(text_id, story)
+
+    if by_sent:
+        # split into sentences using the same regex as build_doc_token_map
+        sentences = re.split(r'(?<=[.!?]) +', story)
+        for sent_id, sent_text in enumerate(sentences, start=1):
+            try:
+                parsed, raw_text, is_valid_json = prompt_fn(
+                    prompt_key,
+                    text_id=text_id,
+                    sentence=sent_text,
+                    sentence_id=sent_id,
+                    game_data=game_data,
+                )
+
+                # raw JSONL line has an extra sentence_id field
+                with open(raw_outputs_path, "a") as f:
+                    f.write(json.dumps({
+                        "text_id": text_id,
+                        "sentence_id": sent_id,
+                        "prompt_key": prompt_key,
+                        "is_valid_json": is_valid_json,
+                        "raw_output": raw_text,
+                    }) + "\n")
+
+                for ann in parsed.root:
+                    start, end = find_token_span(doc_map, ann.TOKENS)
+                    all_results.append({
+                        "TEXT_ID": text_id,
+                        "SENTENCE_ID": sent_id,  # force loop value, ignore LLM's
+                        "ANNOTATION_ID": ann.ANNOTATION_ID,
+                        "TOKENS": " ".join(ann.TOKENS),
+                        "DOC_TOKEN_START": start,
+                        "DOC_TOKEN_END": end,
+                        "TYPE": ann.TYPE,
+                        "CORRECTION": ann.CORRECTION,
+                        "COMMENT": ann.COMMENT,
+                    })
+                print(f"  sent {sent_id}: valid={is_valid_json}, {len(parsed.root)} ann")
+            except Exception as e:
+                print(f"  sent {sent_id} failed: {e}")
+            import gc
+            gc.collect()
+            torch.cuda.empty_cache()
         print("Done")
-    except Exception as e:
-        print(f"{text_id} failed: {e}")
-        
-    #  free memory before processing next row
-    import gc
-    gc.collect()
-    torch.cuda.empty_cache()
+    else:
+        try:
+            parsed, raw_text, is_valid_json = prompt_fn(
+                prompt_key,
+                text_id=text_id,
+                story=story,
+                game_data=game_data,
+            )
+
+            with open(raw_outputs_path, "a") as f:
+                f.write(json.dumps({
+                    "text_id": text_id,
+                    "prompt_key": prompt_key,
+                    "is_valid_json": is_valid_json,
+                    "raw_output": raw_text,
+                }) + "\n")
+
+            print(f"  JSON valid: {is_valid_json}")
+
+            for ann in parsed.root:
+                start, end = find_token_span(doc_map, ann.TOKENS)
+                all_results.append({
+                    "TEXT_ID": text_id,
+                    "SENTENCE_ID": ann.SENTENCE_ID,
+                    "ANNOTATION_ID": ann.ANNOTATION_ID,
+                    "TOKENS": " ".join(ann.TOKENS),
+                    "DOC_TOKEN_START": start,
+                    "DOC_TOKEN_END": end,
+                    "TYPE": ann.TYPE,
+                    "CORRECTION": ann.CORRECTION,
+                    "COMMENT": ann.COMMENT,
+                })
+            print("Done")
+        except Exception as e:
+            print(f"{text_id} failed: {e}")
+
+        import gc
+        gc.collect()
+        torch.cuda.empty_cache()
 
 # After processing all rows, calculate total elapsed time and save results to a CSV file with metadata (model name and time taken)
 elapsed = round(time.time() - start_time, 2)
 df_result = pd.DataFrame(all_results)
 df_result["MODEL"] = model_key
+df_result["PROMPT_KEY"] = prompt_key
 df_result["TIME_SECONDS"] = elapsed
 
 
 csv_dir = "LLM_results CSV"  # folder name for CSV outputs
 os.makedirs(csv_dir, exist_ok=True)  # create folder if not exists
 # list existing CSV runs for this model
-existing_csv = [f for f in os.listdir(csv_dir) if f.startswith(f"results_{model_key}_{args.prompt}_run")]
+existing_csv = [f for f in os.listdir(csv_dir) if f.startswith(f"results_{model_key}_{prompt_key}_run")]
 csv_run_num = len(existing_csv) + 1  # next run number for CSV
-csv_path = os.path.join(csv_dir, f"results_{model_key}_{args.prompt}_run{csv_run_num}.csv") # build full CSV file path
+csv_path = os.path.join(csv_dir, f"results_{model_key}_{prompt_key}_run{csv_run_num}.csv") # build full CSV file path
 df_result.to_csv(csv_path, index=False)
 
 print(f"\nDone in {elapsed}s — {len(df_result)} annotations")

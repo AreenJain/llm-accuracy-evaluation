@@ -1,0 +1,162 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S003,1,1,The Toronto Raptors,1,3,,,,,
+S003,1,2,defeated the Orlando,4,6,,,,,
+S003,1,4,at Amway,13,14,,,,,
+S003,1,5,Center,15,15,,,,,
+S004,2,9,with a,27,28,,,,,
+S004,2,12,but,21,21,,,,,
+S004,4,13,was,2,2,,,,,
+S004,2,14,able to,24,25,,,,,
+S006,4,1,Trevor Ariza,1,2,,,MISSING_STATS,"2 points, four rebounds and four assists",
+S006,6,1,Brook Lopez,7,8,,,MISSING_STATS,"24 points, eight rebounds and five blocks in the win.",
+S006,8,1,Thaddeus Young,1,2,,,MISSING_STATS,"20 points, 12 rebounds and five assists.",
+S007,1,1,Russell Westbrook and Russell Westbrook both the Oklahoma City Thunder and the Oklahoma City Thunder,1,15,,,ERROR,,Duplicate mention of Russell Westbrook
+S007,4,3,The Kings shot 46 percent from the field and 36 percent from long range,1,14,,,ERROR,,Repetition of similar information
+S008,2,13,were able to pull away in the second half,55,63,,,,,
+S008,3,18,33 minutes,44,45,,,,,
+S009,14,1,Friday,10,10,,,DATE_ERROR,Tuesday,The game date was incorrect.
+S009,1,3,Los Angeles Lakers,6,8,,,TEAM_ERROR,Milwaukee Bucks,The team that won the game was incorrect.
+S011,1,1,The Atlanta Hawks ( 41 - 9 ),1,8,,,MISTAKE,The Hawks were actually leading the game at this point.,
+S011,2,2,The Hawks got off to a quick start,1,8,,,MISTAKE,They actually trailed in the early going.,
+S011,5,6,The Hawks were also able to,1,6,,,MISTAKE,They actually forced the Wizards into 14 turnovers.,
+S011,6,7,The Hawks were led by,1,5,,,MISTAKE,The Hawks were actually led by a duo.,
+S011,6,8,John Wall,9,10,,,MISTAKE,The duo was actually John Wall and Bradley Beal.,
+S011,7,9,Wall went,1,2,,,MISTAKE,John Wall actually went 9-for-15 from the field.,
+S011,9,10,Paul Millsap,10,11,,,MISTAKE,Notching a double-double was actually Paul Millsap.,
+S011,6,12,Bradley Beal,12,13,,,MISTAKE,Notching a double-double was also Bradley Beal.,
+S011,11,13,Beal finished,11,12,,,MISTAKE,Bradley Beal actually finished with 23 points and 8 rebounds.,
+S013,3,1,The Magic,1,2,,,,,"This sentence is incorrect, the correct team is the Cavaliers"
+S013,3,2,Kyrie Irving,10,11,,,,,
+S013,4,3,LeBron James,1,2,,,,,
+S014,2,8,in the,24,25,,,,,
+S014,2,14,to,6,6,,,,,
+S014,6,18,as,13,13,,,,,
+S014,1,19,the,11,11,,,,,
+S014,1,20,Trail Blazers,3,4,,,,,
+S014,5,24,for,5,5,,,,,
+S014,4,27,of,9,9,,,,,
+S015,1,0,The Toronto Raptors ( 17 - 11 ) defeated,1,9,,,,,
+S015,1,1,the Miami Heat,10,12,,,,,
+S015,1,3,on Wednesday,21,22,,,,,
+S015,1,4,at American,23,24,,,,,
+S015,1,5,Airlines Arena,25,26,,,,,
+S015,1,6,in Miami,27,28,,,,,
+S017,1,3,at Quicken Loans Arena,13,16,,,,,
+S017,2,5,The Cavaliers,1,2,,,,,
+S017,2,7,checked,8,8,,,,,
+S017,1,11,Cleveland,2,2,,,,,
+S017,4,12,posted a,2,3,,,,,
+S017,2,14,from the,23,24,,,,,
+S017,4,15,field,10,10,,,,,
+S017,4,18,behind,32,32,,,,,
+S017,4,19,the arc,33,34,,,,,
+S017,5,20,Andre,1,1,,,,,
+S017,5,21,Drummond,2,2,,,,,
+S017,5,22,led,3,3,,,,,
+S017,1,23,the,5,5,,,,,
+S017,5,24,way,5,5,,,,,
+S017,5,25,for,6,6,,,,,
+S017,5,27,Cavs,8,8,,,,,
+S017,2,28,with,14,14,,,,,
+S017,5,30,modest,11,11,,,,,
+S017,5,31,stat,12,12,,,,,
+S017,1,33,The,1,1,,,,,
+S017,1,34,Cavaliers,3,3,,,,,
+S019,1,1,"The Miami Heat defeated the Indiana Pacers , 113 - 95 , at American Airlines Arena on Saturday evening",1,19,,,CORRECTION,"The game was actually played on Saturday night, not evening.",
+S019,2,1,Heat were expected to win this game easily,2,9,,,,,
+S019,3,2,Heat led for the entirety,5,9,,,SUGGESTION,,This phrase could be rephrased to improve clarity.
+S019,4,3,assist - to - turnover ratio,2,7,,,,,
+S019,6,4,Paul,1,1,,,CORRECTION,"Actually, it was Jeff Teague who led the way for Indiana.",
+S019,7,5,Jeff,1,1,,,,,
+S019,8,6,Thaddeus,1,1,,,,,
+S019,9,7,deck,2,2,,,CORRECTION,,This phrase is not a standard sports term and could be rephrased to improve clarity.
+S019,11,9,Goran,1,1,,,,,
+S019,12,10,Hassan,1,1,,,,,
+S019,13,11,Dion,1,1,,,,,
+S019,14,12,Thursday,8,8,,,CORRECTION,,"Actually, it was a home matchup against the Dallas Mavericks."
+S021,1,0,The Houston Rockets defeated the Sacramento Kings,1,7,,,,,Story
+S021,2,2,with a strong start to the season,14,20,,,,,Story
+S021,2,8,were able to,52,54,,,,,Story
+S021,2,9,pull,55,55,,,,,Story
+S021,2,10,away in the,56,58,,,,,Story
+S021,2,11,second,59,59,,,,,Story
+S021,6,13,was,3,3,,,,,Story
+S021,10,16,as,9,9,,,,,Story
+S021,2,18,to,10,10,,,,,Story
+S021,5,22,James Harden,1,2,,,,,Story
+S021,5,23,led,3,3,,,,,Story
+S021,5,24,the way,4,5,,,,,Story
+S021,5,25,for,6,6,,,,,Story
+S021,5,26,Houston with 23,7,9,,,,,Story
+S021,5,28,nine,12,12,,,,,Story
+S021,5,30,an assist,15,16,,,,,Story
+S021,2,31,and,44,44,,,,,Story
+S021,5,34,points,10,10,,,,,List of Players
+S021,8,36,18,11,11,,,,,List of Players
+S022,1,3,at Target Center,14,16,,,,,
+S022,3,6,8 ties,7,8,,,,,
+S022,2,7,and,9,9,,,,,
+S022,3,8,10 lead,10,11,,,,,
+S022,3,9,changes,12,12,,,,,
+S022,3,10,with,16,16,,,,,
+S022,3,11,neither,17,17,,,,,
+S022,3,12,team,18,18,,,,,
+S022,3,13,leading,19,19,,,,,
+S022,3,14,by,20,20,,,,,
+S022,3,15,more,21,21,,,,,
+S022,4,16,Defense,1,1,,,,,
+S022,4,17,was,2,2,,,,,
+S022,4,18,key,3,3,,,,,
+S022,4,19,for,4,4,,,,,
+S022,1,20,the,6,6,,,,,
+S022,4,22,as,8,8,,,,,
+S022,4,23,they,9,9,,,,,
+S022,4,24,held,10,10,,,,,
+S022,1,26,Timberwolves,8,8,,,,,
+S022,4,27,to,13,13,,,,,
+S022,4,29,from,16,16,,,,,
+S023,1,1,Dallas Mavericks,2,3,,,CORRECTION,"The Dallas Mavericks defeated the Los Angeles Lakers , 122 - 73 , at American Airlines Center on <mark>Wednesday</mark>.",
+S023,5,3,Justin Anderson,1,2,,,CORRECTION,"<mark>Justin Anderson</mark> led the way for Dallas in scoring, as he dropped <mark>19 points</mark> off the bench.",
+S023,9,5,Julius Randle,1,2,,,CORRECTION,"<mark>Julius Randle</mark> recorded a double - double, totaling <mark>nine points</mark>, six rebounds and four assists.",
+S024,1,1,"The Golden State Warriors defeated the Sacramento Kings , 114 - 100 , at Oracle Arena on Saturday",1,18,,,,,
+S024,3,6,Stephen Curry led the way for the Warriors,1,8,,,,,
+S024,4,9,Green,1,1,,,PERSON,,
+S024,4,13,three steals and,13,15,,,,,
+S024,2,17,with a golden opportunity,13,16,,,,,
+S024,2,18,to keep,17,18,,,,,
+S024,2,19,their faint playoff hopes,19,22,,,,,
+S026,3,12,the superior,4,5,,,,,No correction needed
+S026,3,13,shooters in,6,7,,,,,No correction needed
+S026,3,14,this game,8,9,,,,,No correction needed
+S026,3,15,going 50,11,12,,,,,No correction needed
+S026,3,16,percent from,13,14,,,,,No correction needed
+S026,3,17,the field,15,16,,,,,No correction needed
+S026,3,18,and 48,17,18,,,,,No correction needed
+S026,3,21,line,25,25,,,,,No correction needed
+S026,3,22,while the,27,28,,,,,No correction needed
+S026,3,25,free throw,36,37,,,,,No correction needed
+S026,3,27,from beyond,45,46,,,,,No correction needed
+S026,3,28,the arc,47,48,,,,,No correction needed
+S026,2,29,The Suns,1,2,,,,,No correction needed
+S026,4,30,were led,3,4,,,,,No correction needed
+S026,4,32,Dragic and,10,11,,,,,No correction needed
+S026,5,36,points,31,31,,,,,No correction needed
+S028,1,1,"The Washington Wizards defeated the Brooklyn Nets , 114 - 110 ,",1,12,,,CORRECTION,Saturday,"The story says the game was on Wednesday, but it's actually on Saturday"
+S028,3,1,Washington was able to,1,4,,,CORRECTION,"The story says the game was at Barclays Center, but it's actually at the Capital One Arena",
+S028,3,1,lead after one quarter,35,38,,,,,
+S028,4,1,outscoring the Nets,22,24,,,,,
+S028,4,1,margin in the second,30,33,,,,,
+S028,4,1,half .,34,35,,,,,
+S029,1,3,the,5,5,,,MISTAKE,,The sentence should read: the Timberwolves...
+S029,5,4,Harrison,1,1,,,,,
+S029,5,5,Barnes,2,2,,,,,
+S030,1,3,at Bankers,13,14,,,MISTAKE,,
+S030,1,4,Life,15,15,,,MISTAKE,,
+S030,5,5,The Hornets,1,2,,,MISTAKE,,
+S030,5,6,(,3,3,,,MISTAKE,,
+S030,6,8,Kemba,1,1,,,MISTAKE,,
+S030,6,9,Walker,2,2,,,MISTAKE,,
+S030,11,10,Paul George,1,2,,,MISTAKE,,
+S030,12,11,Myles,1,1,,,MISTAKE,,
+S030,12,12,Turner,2,2,,,MISTAKE,,
+S030,9,13,On,1,1,,,MISTAKE,,
