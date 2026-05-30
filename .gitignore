@@ -3,9 +3,6 @@ __pycache__/
 *.pyc
 .env
 .DS_Store
-texts/
-token_lookup.yaml
-shared_task.jsonl
 myenv 
 
 
