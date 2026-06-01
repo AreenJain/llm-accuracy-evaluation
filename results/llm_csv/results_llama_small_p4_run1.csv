@@ -1,0 +1,597 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,LEFT_CONTEXT,RIGHT_CONTEXT,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S002,6,1,110,"defeated the Cleveland Cavaliers, ",", at Quicken Loans Arena on Tuesday.",11.0,11.0,NUMBER,,,llama_small,p4,2866.39
+S002,9,1,28,season-high ,points,,,NUMBER,24,"Schroder's season-high 28 points led the Hawks, which he complemented with six assists and two rebounds.",llama_small,p4,2866.39
+S002,13,1,29,game-high ,points,256.0,256.0,NUMBER,,"Irving's game-high 29 points led the team, which he needed a whopping 27 shot attempts to get to.",llama_small,p4,2866.39
+S002,15,1,24,stretch of excellent early-,points,274.0,274.0,NUMBER,,"Love continued his stretch of excellent early-season play, supplying 24 points, 12 rebounds, three assists and two steals.",llama_small,p4,2866.39
+S002,17,1,23,a typically full stat line of ,points,236.0,236.0,NUMBER,,"James registered a typically full stat line of 23 points, nine rebounds, five assists and three steals.",llama_small,p4,2866.39
+S002,19,1,13,led the reserves with ,points,,,NUMBER,,"Frye led the reserves with 13 points, seven rebounds and an assist.",llama_small,p4,2866.39
+S003,1,2,109,"Raptors defeated the Magic,","79, at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,2,3,79,"Magic,",", at Amway Center on Sunday.",11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,3,4,109,"Raptors won the second and third quarters,",61-34 to eventually pull away and win by 30.,9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,4,5,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,5,6,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,6,7,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,7,8,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,8,9,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,9,10,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,10,11,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,11,12,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,12,13,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,13,14,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,14,15,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,15,16,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,16,17,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,17,18,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,18,19,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,19,20,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,20,21,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,21,22,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,22,23,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,23,24,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,24,25,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,25,26,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,26,27,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,27,28,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,28,29,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,29,30,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,30,31,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,31,32,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,32,33,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,33,34,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,34,35,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,35,36,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,36,37,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,37,38,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,38,39,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,39,40,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,40,41,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,41,42,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,42,43,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,43,44,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,44,45,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,45,46,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,46,47,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,47,48,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,48,49,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,49,50,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,50,51,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,51,52,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,52,53,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,53,54,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,54,55,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,55,56,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,56,57,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,57,58,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,58,59,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,59,60,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,60,61,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,61,62,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,62,63,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,63,64,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,64,65,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,65,66,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,66,67,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,67,68,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,68,69,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,69,70,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,70,71,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,71,72,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,72,73,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,73,74,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,74,75,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,75,76,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,76,77,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,77,78,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,78,79,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,79,80,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,80,81,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,81,82,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,82,83,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,83,84,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,84,85,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,85,86,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,86,87,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,87,88,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,88,89,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,89,90,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,90,91,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,91,92,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,92,93,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,93,94,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,94,95,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,95,96,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,96,97,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,97,98,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,98,99,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,99,100,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,100,101,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,101,102,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,102,103,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,103,104,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,104,105,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,105,106,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,106,107,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,107,108,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,108,109,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,109,110,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,110,111,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,111,112,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,112,113,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,113,114,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,114,115,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,115,116,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,116,117,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,117,118,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,118,119,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,119,120,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,120,121,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,121,122,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,122,123,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,123,124,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,124,125,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,125,126,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,126,127,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,127,128,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,128,129,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,129,130,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,130,131,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,131,132,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,132,133,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,133,134,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,134,135,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,135,136,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,136,137,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,137,138,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,138,139,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,139,140,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,140,141,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,141,142,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,142,143,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,143,144,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,144,145,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,145,146,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,146,147,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,147,148,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,148,149,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,149,150,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,150,151,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,151,152,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,152,153,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,153,154,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,154,155,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,155,156,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,156,157,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,157,158,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,158,159,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,159,160,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,160,161,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,161,162,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,162,163,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,163,164,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,164,165,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,165,166,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,166,167,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,167,168,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,168,169,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,169,170,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,170,171,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,171,172,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,172,173,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,173,174,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,174,175,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,175,176,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,176,177,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,177,178,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,178,179,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,179,180,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,180,181,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,181,182,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,182,183,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,183,184,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,184,185,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,185,186,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,186,187,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,187,188,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,188,189,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,189,190,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,190,191,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,191,192,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,192,193,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,193,194,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,194,195,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,195,196,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,196,197,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,197,198,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,198,199,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,199,200,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,200,201,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,201,202,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,202,203,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,203,204,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,204,205,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,205,206,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,206,207,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,207,208,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,208,209,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,209,210,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,210,211,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,211,212,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,212,213,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,213,214,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,214,215,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,215,216,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,216,217,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,217,218,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,218,219,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,219,220,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,220,221,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,221,222,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,222,223,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,223,224,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,224,225,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,225,226,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,226,227,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,227,228,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,228,229,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,229,230,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,230,231,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,231,232,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,232,233,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,233,234,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,234,235,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,235,236,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,236,237,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,237,238,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,238,239,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,239,240,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,240,241,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,241,242,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,242,243,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,243,244,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,244,245,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,245,246,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,246,247,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,247,248,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,248,249,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,249,250,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,250,251,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,251,252,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,252,253,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,253,254,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,254,255,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,255,256,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,256,257,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,257,258,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,258,259,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,259,260,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,260,261,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,261,262,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,262,263,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,263,264,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,264,265,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,265,266,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,266,267,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,267,268,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,268,269,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,269,270,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,270,271,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,271,272,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,272,273,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,273,274,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,274,275,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,275,276,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,276,277,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,277,278,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,278,279,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,279,280,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,280,281,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,281,282,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,282,283,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,283,284,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,284,285,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,285,286,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,286,287,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,287,288,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,288,289,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,289,290,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,290,291,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,291,292,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,292,293,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,293,294,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,294,295,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,295,296,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,296,297,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,297,298,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,298,299,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,299,300,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,300,301,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,301,302,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,302,303,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,303,304,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,304,305,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,305,306,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,306,307,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,307,308,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,308,309,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,309,310,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,310,311,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,311,312,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,312,313,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,313,314,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,314,315,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,315,316,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,316,317,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,317,318,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,318,319,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,319,320,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,320,321,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,321,322,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,322,323,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,323,324,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,324,325,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,325,326,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,326,327,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,327,328,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,328,329,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,329,330,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,330,331,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,331,332,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,332,333,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,333,334,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,334,335,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,335,336,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,336,337,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,337,338,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,338,339,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,339,340,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,340,341,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,341,342,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,342,343,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,343,344,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,344,345,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,345,346,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,346,347,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,347,348,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,348,349,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,349,350,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,350,351,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,351,352,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,352,353,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,353,354,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,354,355,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,355,356,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,356,357,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,357,358,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,358,359,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,359,360,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,360,361,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,361,362,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,362,363,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,363,364,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,364,365,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,365,366,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,366,367,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,367,368,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,368,369,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,369,370,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,370,371,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,371,372,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,372,373,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,373,374,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,374,375,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,375,376,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,376,377,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,377,378,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,378,379,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,379,380,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,380,381,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,381,382,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,382,383,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,383,384,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,384,385,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,385,386,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,386,387,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,387,388,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,388,389,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,389,390,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,390,391,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,391,392,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,392,393,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,393,394,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,394,395,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,395,396,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,396,397,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,397,398,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,398,399,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,399,400,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,400,401,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,401,402,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,402,403,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,403,404,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,404,405,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,405,406,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,406,407,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,407,408,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,408,409,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,409,410,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,410,411,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,411,412,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,412,413,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,413,414,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,414,415,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,415,416,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,416,417,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,417,418,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,418,419,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,419,420,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,420,421,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,421,422,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,422,423,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,423,424,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,424,425,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,425,426,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,426,427,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,427,428,109,Toronto won the game with a final score of,", at Amway Center on Sunday.",9.0,9.0,NUMBER,,Box score shows 109 points.,llama_small,p4,2866.39
+S003,428,429,79,the Magic to,41 percent from the field and 3-of-21 from three-point range.,11.0,11.0,NUMBER,,Box score shows 79 points.,llama_small,p4,2866.39
+S003,429,430,109,,,9.0,9.0,,,,llama_small,p4,2866.39
+S004,1,1,96 -89,"on Friday, ",,,,SCORE,,,llama_small,p4,2866.39
+S004,2,1,15 points,came off the bench for an impressive ,,346.0,347.0,SCORE,,,llama_small,p4,2866.39
+S004,3,1,9 rebounds,an impressive ,,349.0,350.0,SCORE,,,llama_small,p4,2866.39
+S004,4,1,5 times,"but showed some signs of rust, turning the ball over ",,,,COUNT,,,llama_small,p4,2866.39
+S004,5,1,4 blocks,Gobert's made a major impact on the defensive end with ,,,,SCORE,,,llama_small,p4,2866.39
+S004,6,1,96,"The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,11.0,11.0,SCORE,,,llama_small,p4,2866.39
+S004,7,1,96 -89,"It was the season debut for banged-up Jazz star Derrick Favors. The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,,,SCORE,,,llama_small,p4,2866.39
+S004,8,1,15,The forward came off the bench for an impressive ,,,,COUNT,,,llama_small,p4,2866.39
+S004,9,1,4 blocks,"Gobert's six offensive rebounds also helped the Jazz overcome a poor perimeter shooting night, offering Utah ",,,,SCORE,,,llama_small,p4,2866.39
+S004,10,1,4 blocks,"Gobert's six offensive rebounds also helped the Jazz overcome a poor perimeter shooting night, offering Utah ",,,,SCORE,,,llama_small,p4,2866.39
+S004,11,1,96,"The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,11.0,11.0,SCORE,,,llama_small,p4,2866.39
+S004,12,1,89,"It was the season debut for banged-up Jazz star Derrick Favors. The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,13.0,13.0,SCORE,,,llama_small,p4,2866.39
+S004,13,1,17,"The Lakers, meanwhile, received troubling news, as rookie Brandon Ingram was forced to leave the game with a knee injury after just ",,204.0,204.0,SCORE,,,llama_small,p4,2866.39
+S004,14,1,4 minutes,"The Lakers, meanwhile, received troubling news, as rookie Brandon Ingram was forced to leave the game with a knee injury after just ",,,,COUNT,,,llama_small,p4,2866.39
+S004,15,1,17,"It was a tough night for young Lakers in general, as guard D'Angelo Russell went just ",,204.0,204.0,SCORE,,,llama_small,p4,2866.39
+S004,16,1,14,"It was a tough night for young Lakers in general, as guard D'Angelo Russell went just ",,301.0,301.0,COUNT,,,llama_small,p4,2866.39
+S004,17,1,3 -for-,"It was a tough night for young Lakers in general, as guard D'Angelo Russell went just ",,,,COUNT,,,llama_small,p4,2866.39
+S004,18,1,17,"The Lakers did manage to find a scoring boost off the bench, as sixth man Lou Williams led the team with ",,204.0,204.0,SCORE,,,llama_small,p4,2866.39
+S004,19,1,17,"It was a tough night for young Lakers in general, as guard D'Angelo Russell went just ",,204.0,204.0,SCORE,,,llama_small,p4,2866.39
+S004,20,1,17,"The Lakers did manage to find a scoring boost off the bench, as sixth man Lou Williams led the team with ",,204.0,204.0,SCORE,,,llama_small,p4,2866.39
+S004,21,1,96,"The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,11.0,11.0,SCORE,,,llama_small,p4,2866.39
+S004,22,1,89,"It was the season debut for banged-up Jazz star Derrick Favors. The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,13.0,13.0,SCORE,,,llama_small,p4,2866.39
+S004,23,1,96,"It was the season debut for banged-up Jazz star Derrick Favors. The host Utah Jazz beat the visiting Los Angeles Lakers on Friday, ",,11.0,11.0,SCORE,,,llama_small,p4,2866.39
+S004,24,1,89,,,13.0,13.0,,,,llama_small,p4,2866.39
+S007,7,1,36,"points,",on,148.0,148.0,NUMBER,,Westbrook's points in the second half,llama_small,p4,2866.39
+S007,9,1,11,"rebounds,",seven,176.0,176.0,NUMBER,,Westbrook's rebounds in the second half,llama_small,p4,2866.39
+S007,9,1,11,seven,assists,176.0,176.0,NUMBER,,Westbrook's rebounds in the second half,llama_small,p4,2866.39
+S007,9,1,11,three,and,176.0,176.0,NUMBER,,Westbrook's steals in the second half,llama_small,p4,2866.39
+S007,11,1,29,"points,",on,194.0,194.0,NUMBER,,Kanter's points in the second half,llama_small,p4,2866.39
+S007,11,1,10,of-18,"shooting,",197.0,197.0,NUMBER,,Kanter's shooting percentage in the second half,llama_small,p4,2866.39
+S007,13,1,31,"points,",on,164.0,164.0,NUMBER,,Cousins' points in the second half,llama_small,p4,2866.39
+S007,13,1,11,"rebounds,",seven,176.0,176.0,NUMBER,,Cousins' rebounds in the second half,llama_small,p4,2866.39
+S007,13,1,11,seven,and,176.0,176.0,NUMBER,,Cousins' assists in the second half,llama_small,p4,2866.39
+S007,14,1,22,"points,",while,,,NUMBER,,Gay's points in the second half,llama_small,p4,2866.39
+S007,15,1,21,"points,",,65.0,65.0,NUMBER,,Collison's points in the second half,llama_small,p4,2866.39
+S008,1,1,5,start of the Grizzlies' season has been pretty standard with a , start,240.0,240.0,NUMBER,,,llama_small,p4,2866.39
+S008,2,1,20,Vince Carter's play has been anything but. With his ,point performance,,,NUMBER,,,llama_small,p4,2866.39
+S008,3,1,17,With his ,point performance,322.0,322.0,NUMBER,,,llama_small,p4,2866.39
+S008,6,1,20,Carter has excelled and outscored Parsons in each of the past three games. Carter's , points,,,NUMBER,,,llama_small,p4,2866.39
+S008,9,1,2013-14,Carter's ,season,,,DATE,,,llama_small,p4,2866.39
+S008,10,1,20,"For the Jazz, they received an unexpected ",-point performance,,,NUMBER,,,llama_small,p4,2866.39
+S008,11,1,20,"Ingles hadn't scored in double figures all season until Monday, and with Derrick Favors potentially out, the team could look to Ingles to provide some added scoring on a more consistent basis when they're a man down.",,,,NUMBER,,,llama_small,p4,2866.39
+S008,12,1,9,Carter's ,-point,318.0,318.0,NUMBER,,,llama_small,p4,2866.39
+S010,1,2,Atlanta,,,207.0,207.0,TEAM_NAME,,"Team name is Atlanta Hawks, not just Atlanta.",llama_small,p4,2866.39
+S010,2,1,19-16,,,,,TEAM_RECORD,,,llama_small,p4,2866.39
+S010,3,1,18 points,,,312.0,312.0,PLAYER_STATS,,,llama_small,p4,2866.39
+S010,4,1,13 points,,,312.0,312.0,PLAYER_STATS,,,llama_small,p4,2866.39
+S010,5,1,17 points,,,312.0,312.0,PLAYER_STATS,,,llama_small,p4,2866.39
+S010,6,1,10 points,,,312.0,312.0,PLAYER_STATS,,,llama_small,p4,2866.39
+S010,7,1,14 points,,,312.0,312.0,PLAYER_STATS,,,llama_small,p4,2866.39
+S011,2,1,41,"Wizards have now lost four straight, which is their longest losing streak of the season, with a record of 31-19. The Hawks (41-9) beat them 105-96 on Wednesday",their first game of 2015,5.0,5.0,NUMBER,24,"Box score shows 24 points, not 41.",llama_small,p4,2866.39
+S011,3,1,41,"The Hawks bounced back after losing their first game of 2015, a 115-100 loss at the hands of the New Orleans Pelicans on Monday. The Atlanta Hawks (41-9) beat the Washington Wizards",scored against the Wizards,5.0,5.0,NUMBER,24,"Box score shows 24 points, not 41.",llama_small,p4,2866.39
+S011,7,1,31,"The Hawks bounced back after losing their first game of 2015, a 115-100 loss at the hands of the New Orleans Pelicans on Monday. The Atlanta Hawks (41-9) beat the Washington Wizards",scored against the Wizards,14.0,14.0,NUMBER,24,"Box score shows 24 points, not 31.",llama_small,p4,2866.39
+S011,8,1,31,"The Hawks bounced back after losing their first game of 2015, a 115-100 loss at the hands of the New Orleans Pelicans on Monday. The Atlanta Hawks (41-9) beat the Washington Wizards",scored against the Wizards,14.0,14.0,NUMBER,24,"Box score shows 24 points, not 31.",llama_small,p4,2866.39
+S011,10,1,31,"They have lost by single-digits in all four games, and are now 0-3 against Atlanta this season. The Wizards (31-19) have now lost four straight, which is their longest losing streak of the season",this season,14.0,14.0,NUMBER,24,"Box score shows 24 points, not 31.",llama_small,p4,2866.39
+S011,12,1,31,"They have lost by single-digits in all four games, and are now 0-3 against Atlanta this season. The Wizards (31-19) have now lost four straight, which is their longest losing streak of the season",this season,14.0,14.0,NUMBER,24,"Box score shows 24 points, not 31.",llama_small,p4,2866.39
+S011,15,1,41,"They have lost by single-digits in all four games, and are now 0-3 against Atlanta this season. The Hawks (41-9) beat the Washington Wizards (31-19) 105-96 on Wednesday",this season,5.0,5.0,NUMBER,24,"Box score shows 24 points, not 41.",llama_small,p4,2866.39
+S011,17,1,28,"The Hawks bounced back after losing their first game of 2015, a 115-100 loss at the hands of the New Orleans Pelicans on Monday. The Atlanta Hawks (41-9) beat the Washington Wizards",points in,65.0,65.0,NUMBER,24,"Box score shows 24 points, not 28.",llama_small,p4,2866.39
+S011,19,1,23,"He proceeded to post 23 points in 39 minutes in this matchup of two of the Eastern Conference's top three teams. Bradley Beal was coming off an 18-point, 11-rebound effort against Charlotte on Monday",in this matchup,300.0,300.0,NUMBER,24,"Box score shows 24 points, not 23.",llama_small,p4,2866.39
+S011,22,1,23,"He proceeded to post 23 points in 39 minutes in this matchup of two of the Eastern Conference's top three teams. Bradley Beal was coming off an 18-point, 11-rebound effort against Charlotte on Monday",this season,300.0,300.0,NUMBER,24,"Box score shows 24 points, not 23.",llama_small,p4,2866.39
+S011,24,1,44,"Washington did a great job slowing down Korver, but it wasn't enough to get them the win. Washington will take their losing streak to Charlotte on Thursday, while the Hawks will welcome the Golden State Warriors to town Friday",this season,113.0,113.0,NUMBER,24,"Box score shows 24 points, not 44.",llama_small,p4,2866.39
+S011,25,1,44,"Washington did a great job slowing down Korver, but it wasn't enough to get them the win. Washington will take their losing streak to Charlotte on Thursday, while the Hawks will welcome the Golden State Warriors to town Friday",this season,113.0,113.0,NUMBER,24,"Box score shows 24 points, not 44.",llama_small,p4,2866.39
+S011,30,1,48,,,93.0,93.0,,,,llama_small,p4,2866.39
+S012,1,1,123,The Denver Nuggets defeated the host Phoenix Suns ,112,9.0,9.0,NUMBER,,,llama_small,p4,2866.39
+S012,1,2,41,Eric Bledsoe went off for a career - high ,points but,,,NUMBER,,,llama_small,p4,2866.39
+S012,1,3,112,", at Talking Stick Resort Arena on Saturday evening .",,11.0,11.0,NUMBER,,,llama_small,p4,2866.39
+S012,4,1,32,Danilo Gallinari led the way with ,points,75.0,75.0,NUMBER,,,llama_small,p4,2866.39
+S012,4,2,21,"Four other players scored in double digits for the Nuggets , including Kenneth Faried , who finished with ",points,52.0,52.0,NUMBER,,,llama_small,p4,2866.39
+S012,6,1,18,The rookie Jamal Murray came up big with ,points off,,,NUMBER,,,llama_small,p4,2866.39
+S012,7,1,37,The Nuggets hit a whopping ,-of-42 free,,,NUMBER,,,llama_small,p4,2866.39
+S012,7,2,24,"even though the Suns took their fair share as well , hitting ",-of-32,,,NUMBER,,,llama_small,p4,2866.39
+S012,11,1,41,"Despite 41 points from Bledsoe , the Suns (15-32) were not able to keep up with the high-scoring Nuggets.",,,,NUMBER,,,llama_small,p4,2866.39
+S012,11,2,23,"Three other players scored in double digits for Phoenix , including Devin Booker , who followed up with ",points,173.0,173.0,NUMBER,,,llama_small,p4,2866.39
+S012,11,3,15,"and Tyson Chandler , who double-doubled with ",points,219.0,219.0,NUMBER,,,llama_small,p4,2866.39
+S012,13,1,21,The Suns outscored the Nuggets ,in fast-break,52.0,52.0,NUMBER,,,llama_small,p4,2866.39
+S012,13,2,11,,,,,,,,llama_small,p4,2866.39
+S014,5,1,7-10,Trail Blazers (,,,,NUMBER,,,llama_small,p4,2866.39
+S015,1,1,15,Miami Heat (,,14.0,14.0,NUMBER,,,llama_small,p4,2866.39
+S019,1,1,27 32,(27-32),,,,NUMBER,,Box score shows Heat's record as 27-32.,llama_small,p4,2866.39
+S019,2,1,30 29,(30-29),,,,NUMBER,,Box score shows Pacers' record as 30-29.,llama_small,p4,2866.39
+S019,3,1,113 95,"defeated the Indiana Pacers , 113 - 95 , at American Airlines Arena on Saturday night .",,,,NUMBER,,"Box score shows final score as Heat 113, Pacers 95.",llama_small,p4,2866.39
+S019,5,1,18,"The Pacers were led by Myles Turner, who tallied ",points,,,NUMBER,,Box score shows Myles Turner's points as 18.,llama_small,p4,2866.39
+S019,5,2,7,"The Pacers were led by Myles Turner, who tallied ",boards,,,NUMBER,,Box score shows Myles Turner's rebounds as 7.,llama_small,p4,2866.39
+S019,6,1,16,Jeff Teague supplied ,points,158.0,158.0,NUMBER,,Box score shows Jeff Teague's points as 16.,llama_small,p4,2866.39
+S019,6,2,6,Jeff Teague supplied ,assists,,,NUMBER,,Box score shows Jeff Teague's assists as 6.,llama_small,p4,2866.39
+S019,7,1,13,Slam Dunk Contest champ Glenn Robinson III paced the second unit with ,points,181.0,181.0,NUMBER,,Box score shows Glenn Robinson III's points as 13.,llama_small,p4,2866.39
+S019,8,1,12,"Rodney Stuckey was productive in a reserve role as well, managing ",points,253.0,253.0,NUMBER,,Box score shows Rodney Stuckey's points as 12.,llama_small,p4,2866.39
+S019,9,1,22,Hassan Whiteside and Dion Waiters co-led the Heat with matching ,points,283.0,283.0,NUMBER,,Box score shows Hassan Whiteside's points as 22.,llama_small,p4,2866.39
+S019,9,2,17,Hassan Whiteside and Dion Waiters co-led the Heat with matching ,rebounds,268.0,268.0,NUMBER,,Box score shows Hassan Whiteside's rebounds as 17.,llama_small,p4,2866.39
+S019,10,1,22,Hassan Whiteside and Dion Waiters co-led the Heat with matching ,points,283.0,283.0,NUMBER,,Box score shows Dion Waiters' points as 22.,llama_small,p4,2866.39
+S019,10,2,2,Hassan Whiteside and Dion Waiters co-led the Heat with matching ,rebounds,,,NUMBER,,Box score shows Dion Waiters' rebounds as 2.,llama_small,p4,2866.39
+S019,11,1,21,Goran Dragic followed closely behind with ,points,240.0,240.0,NUMBER,,Box score shows Goran Dragic's points as 21.,llama_small,p4,2866.39
+S019,12,1,9,Luke Babbitt registered ,points,,,NUMBER,,Box score shows Luke Babbitt's points as 9.,llama_small,p4,2866.39
+S019,13,1,15,,,98.0,98.0,,,,llama_small,p4,2866.39
+S023,9,1,49,"Dallas shot 49 percent from the field, while Los Angeles shot just ",percent.,,,NUMBER,,,llama_small,p4,2866.39
+S023,10,1,38,Los Angeles shot just , percent.,77.0,77.0,NUMBER,,,llama_small,p4,2866.39
+S023,13,1,37,"No starter scored in double figures for Los Angeles, as they combined ", points.,,,NUMBER,,,llama_small,p4,2866.39
+S023,15,1,9,"Julius Randle was the only productive starter, as he accrued nine ","points,",,,NUMBER,,,llama_small,p4,2866.39
+S023,16,1,15,"Lou Williams led the team in scoring, dropping ", points off the bench.,252.0,252.0,NUMBER,,,llama_small,p4,2866.39
+S023,17,1,6,"Brandon Ingram really struggled, as he totaled six ", points and one rebound on,,,NUMBER,,,llama_small,p4,2866.39
+S023,20,1,14,"Seth Curry led the starters in scoring, collecting "," points,",,,NUMBER,,,llama_small,p4,2866.39
+S023,21,1,13,Deron Williams tallied ," points,",145.0,145.0,NUMBER,,,llama_small,p4,2866.39
+S023,22,1,13,Dirk Nowitzki and Wesley Matthews also scored , points a piece.,145.0,145.0,NUMBER,,,llama_small,p4,2866.39
+S023,24,1,19,"Justin Anderson led the team in scoring, providing "," points,",314.0,314.0,NUMBER,,,llama_small,p4,2866.39
+S023,25,1,5,"Dallas will look to keep rolling on Wednesday, when they host the New York Knicks for their next game.",,317.0,317.0,NUMBER,,,llama_small,p4,2866.39
+S023,26,1,32,The Lakers (16-32) have really struggled over the last two months and this , point loss may be the low point.,,,NUMBER,,,llama_small,p4,2866.39
+S023,27,1,16,The Lakers (,).,,,NUMBER,,,llama_small,p4,2866.39
+S023,29,1,15,"The Mavericks (15-29) are now within four games of the eight-seed in the west, as they continue to revive their season.",,252.0,252.0,NUMBER,,,llama_small,p4,2866.39
+S023,30,1,15,The Mavericks (,).,252.0,252.0,NUMBER,,,llama_small,p4,2866.39
+S023,31,1,29,,,254.0,254.0,,,,llama_small,p4,2866.39
+S024,1,1,114,Warriors,scored,10.0,10.0,NUMBER,,,llama_small,p4,2866.39
+S024,1,2,100,scored,Warriors,12.0,12.0,NUMBER,,,llama_small,p4,2866.39
+S024,2,3,58,Warriors,win,23.0,23.0,NUMBER,,,llama_small,p4,2866.39
+S024,2,4,14,winning,games,25.0,25.0,NUMBER,,,llama_small,p4,2866.39
+S024,3,5,27,Kings,win,232.0,232.0,NUMBER,,,llama_small,p4,2866.39
+S024,3,6,45,winning,games,50.0,50.0,NUMBER,,,llama_small,p4,2866.39
+S024,4,7,27,Kings',rookie,232.0,232.0,NUMBER,,,llama_small,p4,2866.39
+S024,5,8,22,points to,Hield,260.0,260.0,NUMBER,,,llama_small,p4,2866.39
+S024,6,9,22,points to,Hield,260.0,260.0,NUMBER,,,llama_small,p4,2866.39
+S024,7,10,22,points to,Labissiere,260.0,260.0,NUMBER,,,llama_small,p4,2866.39
+S024,8,11,22,points to,Labissiere,260.0,260.0,NUMBER,,,llama_small,p4,2866.39
+S024,9,12,10,points to,Labissiere,197.0,197.0,NUMBER,,,llama_small,p4,2866.39
+S024,9,13,10,points to,Labissiere,197.0,197.0,NUMBER,,,llama_small,p4,2866.39
+S025,2,1,32,deficit by a,first-quarter,242.0,242.0,NUMBER,24,"Box score shows 24 points, not 32.",llama_small,p4,2866.39
+S025,3,2,22,first-quarter deficit by outscoring their hosts by an,87-71 margin,,,NUMBER,25,"Box score shows 25 points, not 22.",llama_small,p4,2866.39
+S025,5,3,25,"Kawhi Leonard's 25-point, 10-rebound double-double led the way and",the bench combined for,120.0,120.0,NUMBER,24,"Box score shows 24 points, not 25.",llama_small,p4,2866.39
+S025,7,4,11,Danny Green contributed 11 points and had a clutch block of Isaiah Thomas' three-point attempt with 12 seconds left.,.,,,NUMBER,19,"Box score shows 19 points, not 11.",llama_small,p4,2866.39
+S025,10,5,15,"Patty Mills, David Lee and Davis Bertans supplied respective tallies of 19, 15 and 15 points from the bench.",.,208.0,208.0,NUMBER,19,"Box score shows 19 points, not 15.",llama_small,p4,2866.39
+S025,12,6,24,"Thomas' 24 points led Boston, while Avery Bradley contributed 19 points.",.,172.0,172.0,NUMBER,19,"Box score shows 19 points, not 24.",llama_small,p4,2866.39
+S025,14,7,30,"Jae Crowder and Al Horford combined for 30 points, with the latter also hauling in 12 boards.",.,,,NUMBER,29,"Box score shows 29 points, not 30.",llama_small,p4,2866.39
+S026,1,1,116,The Phoenix Suns (11-8) defeated the Indiana Pacers (7-11),99 Tuesday at the US Airways Center in Phoenix.,18.0,18.0,NUMBER,,"Box score shows 116 points, not mentioned in the text.",llama_small,p4,2866.39
+S026,1,2,116,,99 Tuesday at the US Airways Center in Phoenix.,18.0,18.0,NUMBER,,Box score shows correct points scored by the Suns.,llama_small,p4,2866.39
+S026,2,1,116,,Phoenix caught fire in the second half of this matchup against the cross-conference Pacers.,18.0,18.0,NUMBER,,Box score shows correct points scored by the Suns.,llama_small,p4,2866.39
+S026,2,1,99,Phoenix caught fire in the second half of this matchup against the cross-conference Pacers.,.,,,NUMBER,,Box score shows correct points scored by the Pacers.,llama_small,p4,2866.39
+S026,3,1,62,"After going into halftime down two, the Suns out-scored Indiana",in the final two quarters to give them an 18-point victory,,,NUMBER,,Box score shows correct points scored by the Suns in the final two quarters.,llama_small,p4,2866.39
+S026,3,1,43,"After going into halftime down two, the Suns out-scored Indiana",in the final two quarters to give them an 18-point victory,,,NUMBER,,Box score shows correct points scored by the Pacers in the final two quarters.,llama_small,p4,2866.39
+S026,3,1,18,"After going into halftime down two, the Suns out-scored Indiana",to give them an 18-point victory,,,NUMBER,,Box score shows correct points difference between the Suns and Pacers.,llama_small,p4,2866.39
+S026,4,1,48,Phoenix was able to shoot,from behind the three-point line,74.0,74.0,NUMBER,,Box score shows correct three-point shooting percentage for the Suns.,llama_small,p4,2866.39
+S026,4,1,48,Phoenix was able to shoot,from behind the three-point line,74.0,74.0,NUMBER,,Box score shows correct three-point shooting percentage for the Suns.,llama_small,p4,2866.39
+S026,5,1,31,while the Pacers finished at just,percent,,,NUMBER,,Box score shows correct three-point shooting percentage for the Pacers.,llama_small,p4,2866.39
+S026,6,1,61,"The Suns starting backcourt did most of the damage in this one, combining for",points,,,NUMBER,,Box score shows correct total points scored by the Suns' starting backcourt.,llama_small,p4,2866.39
+S026,7,1,34,Goran Dragic shot,to score,215.0,215.0,NUMBER,,Box score shows correct points scored by Dragic.,llama_small,p4,2866.39
+S026,7,1,34,Goran Dragic shot,to score,215.0,215.0,NUMBER,,Box score shows correct points scored by Dragic.,llama_small,p4,2866.39
+S026,8,1,27,"Eric Bledsoe was the other member of the backcourt, as he finished with","points (11-20 FG,",50.0,50.0,NUMBER,,Box score shows correct points scored by Bledsoe.,llama_small,p4,2866.39
+S026,8,1,27,"Eric Bledsoe was the other member of the backcourt, as he finished with","points (11-20 FG,",50.0,50.0,NUMBER,,Box score shows correct points scored by Bledsoe.,llama_small,p4,2866.39
+S026,9,1,15,Both Markief Morris and Gerald Green also hit double figures in points. Morris recorded,points,477.0,477.0,NUMBER,,Box score shows correct points scored by Morris.,llama_small,p4,2866.39
+S026,9,1,15,Both Markief Morris and Gerald Green also hit double figures in points. Morris recorded,points,477.0,477.0,NUMBER,,Box score shows correct points scored by Morris.,llama_small,p4,2866.39
+S026,10,1,15,Both Markief Morris and Gerald Green also hit double figures in points. Morris recorded,points,477.0,477.0,NUMBER,,Box score shows correct points scored by Green.,llama_small,p4,2866.39
+S026,11,1,14,"The Pacers bench had a solid amount of production, with CJ Miles, CJ Watson and Chris Copeland all reaching double figures. Miles shot 6-for-9 from the field and 1-for-3 from beyond the arc to score a team-high 17 points, while Watson and",points respectively.,400.0,400.0,NUMBER,,Box score shows correct points scored by Watson.,llama_small,p4,2866.39
+S026,11,1,14,"The Pacers bench had a solid amount of production, with CJ Miles, CJ Watson and Chris Copeland all reaching double figures. Miles shot 6-for-9 from the field and 1-for-3 from beyond the arc to score a team-high 17 points, while Watson and",points respectively.,400.0,400.0,NUMBER,,Box score shows correct points scored by Watson.,llama_small,p4,2866.39
+S026,12,1,17,"The Pacers bench had a solid amount of production, with CJ Miles, CJ Watson and Chris Copeland all reaching double figures. Miles shot 6-for-9 from the field and 1-for-3 from beyond the arc to score",points,524.0,524.0,NUMBER,,Box score shows correct points scored by Miles.,llama_small,p4,2866.39
+S026,12,1,17,"The Pacers bench had a solid amount of production, with CJ Miles, CJ Watson and Chris Copeland all reaching double figures. Miles shot 6-for-9 from the field and 1-for-3 from beyond the arc to score",points,524.0,524.0,NUMBER,,Box score shows correct points scored by Miles.,llama_small,p4,2866.39
+S027,11,1,7-10,Rockets ( ,),,,NUMBER,,The Rockets' win-loss record is incorrect.,llama_small,p4,2866.39
+S027,11,2,8-10,Knicks ( ,,,,NUMBER,,The Knicks' win-loss record is incorrect.,llama_small,p4,2866.39
+S028,2,1,9,Nets (,),70.0,70.0,NUMBER,,"The Nets (9-44) continue to sport the NBA's worst record, but that hasn't deterred them from playing hard in the majority of recent games.",llama_small,p4,2866.39
+S028,3,1,59,halftime deficit to knot matters up at,,123.0,123.0,NUMBER,,The two teams continued to trade the lead for nearly the first four minutes of overtime before a pair of Otto Porter free throws with 1:21 remaining gave the Wizards (31-21) a lead they wouldn't relinquish.,llama_small,p4,2866.39
+S028,5,1,31,Beal's ,points,324.0,324.0,NUMBER,,"Washington was led by Beal's 31 points, which he supplemented with six rebounds, two assists and two steals.",llama_small,p4,2866.39
+S028,6,1,21,Wizards (31-21) ,,341.0,341.0,NUMBER,,"Wall posted a 23-point, 12-assist double-double that also included six rebounds, two blocks and one steal.",llama_small,p4,2866.39
+S028,7,1,20,"point, ",,244.0,244.0,NUMBER,,"Porter provided a 20-point, 10-rebound double-double that also included an assist and a steal.",llama_small,p4,2866.39
+S030,3,1,110 94,"Indiana Pacers defeated the Charlotte Hornets, ",", at Bankers Life Fieldhouse on Monday evening.",,,NUMBER,,Game score is correct.,llama_small,p4,2866.39
+S030,6,2,13 -12,The Pacers (,,,,NUMBER,,Pacers' record is correct.,llama_small,p4,2866.39

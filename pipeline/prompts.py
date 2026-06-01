@@ -345,6 +345,9 @@ Your job is to find factual errors in the STORY by comparing it against the GAME
 
 For each error you find, return a JSON object with these exact fields:
 
+- SENTENCE_ID: the sentence number (starting from 1) in the STORY where the error appears.
+  Count sentences by splitting on ".", "!" or "?". The first sentence is 1.
+
 - TOKENS: a JSON array of the exact wrong word(s), copied verbatim from the story,
   as individual whitespace-separated items.
   Example: if the error is "Stephen Curry", write ["Stephen", "Curry"]
@@ -377,7 +380,9 @@ Rules:
 - Hyphenated words such as "three-point" or "go-ahead" count as ONE token.
   Do not split them.
 - Contractions such as "didn't" or "he's" count as ONE token. Do not split them.
+- SENTENCE_ID must be an integer. Do NOT leave it null or omit it.
 - Do NOT include any numeric token positions or indices.
+- Do NOT report the same error twice. Each factual error must appear exactly once.
 - Do NOT add any explanation, preamble, or text outside the JSON array.
 - Output ONLY a valid JSON array of objects. If you find no errors, output [].
 
@@ -393,6 +398,7 @@ Return your answer as a JSON array. Each element must look exactly like this (an
 [
   {{
     "TEXT_ID": "S001",
+    "SENTENCE_ID": 2,
     "ANNOTATION_ID": 1,
     "TOKENS": ["28"],
     "TYPE": "NUMBER",

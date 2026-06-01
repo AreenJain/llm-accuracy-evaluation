@@ -1,0 +1,184 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,LEFT_CONTEXT,RIGHT_CONTEXT,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S001,5,1,38,"Thomas led the Celtics in scoring, as he dropped 17 of his ",points in the fourth quarter.,75.0,75.0,NUMBER,32,"Box score shows Isaiah Thomas scored 17 of his 38 points in the fourth quarter, which is incorrect. The box score states he scored 38 points total.",qwen_small,p4,601.24
+S001,2,2,32 -18,The Celtics ( 32 - 18 ) came into this game as a double - ,.,,,NUMBER,30-18,"The correct win-loss record for the Celtics is 30-18, not 32-18.",qwen_small,p4,601.24
+S001,2,3,17 -36,but the Celtics ( 32 - 18 ) came in to Friday 's contest with a 30 - point win over the Lakers ( 17 - ,.,,,NUMBER,18-36,"The correct win-loss record for the Lakers is 18-36, not 17-36.",qwen_small,p4,601.24
+S003,2,1,19 8,Raptors,(19-8),44.0,45.0,NUMBER,"12, 17",Box score shows 12-17 record for Orlando Magic.,qwen_small,p4,601.24
+S003,6,1,31,"DeMar DeRozan, who posted a game-","points, which",83.0,83.0,NUMBER,54,"Box score shows DeMar DeRozan scored 31 points, not a game-high 54.",qwen_small,p4,601.24
+S003,8,1,16,Kyle Lowry was right behind him with a 16-,"points, three rebounds",161.0,161.0,NUMBER,29,"Box score shows Kyle Lowry had 16 points, not a game-high 29.",qwen_small,p4,601.24
+S003,9,1,16,Jonas Valanciunas was next with a 16-,"points, 13",161.0,161.0,NUMBER,25,"Box score shows Jonas Valanciunas scored 16 points, not a game-high 25.",qwen_small,p4,601.24
+S003,9,2,13,Terrence Ross was productive in a reserve role as well with 11,"points, two rebounds",302.0,302.0,NUMBER,18,"Box score shows Terrence Ross scored 11 points, not 13.",qwen_small,p4,601.24
+S003,26,1,13,"Elfrid Payton was next with 13 points, two assists, two rebounds and a steal.",,302.0,302.0,NUMBER,8,"Box score shows Elfrid Payton scored 13 points, not a game-high 8.",qwen_small,p4,601.24
+S003,27,1,10,Aaron Gordon was next with a 10-,"points, 12",320.0,320.0,NUMBER,15,"Box score shows Aaron Gordon had 10 points, not a game-high 15.",qwen_small,p4,601.24
+S003,30,1,11,DJ Augustin was productive in a reserve role as well with 11,"points, three rebounds",353.0,353.0,NUMBER,8,"Box score shows DJ Augustin scored 11 points, not 8.",qwen_small,p4,601.24
+S004,12,1,7,"made a major impact on the defensive end with four blocks. Gobert's six offensive rebounds also helped the Jazz overcome a poor perimeter shooting night, offering Utah a number of second-chance attempts. The Lakers, meanwhile, received troubling news, as rookie Brandon Ingram was forced to leave the game with a knee injury after just four minutes of play.",", though not appearing to be serious, the second overall pick will likely be monitored closely going forward.",297.0,297.0,NUMBER,39,"Box score shows 39 percent from three-point range, not 7 percent.",qwen_small,p4,601.24
+S004,16,1,24 27,"from the field, while forward Julius Randle scored just seven points and recorded only four rebounds. The Lakers did manage to find a scoring boost off the bench, as sixth man Lou Williams led the team with 17.",". Both teams will travel on Sunday, with the Jazz visiting the Los Angeles Clippers and the Lakers taking on the Thunder in Oklahoma City.",,,NUMBER,"38, 41",Box score shows 38 percent field goal percentage and 41 percent three-point shooting for the Jazz.,qwen_small,p4,601.24
+S005,4,1,21 points,Millsap was right behind him with,points,73.0,74.0,NUMBER,26,"Box score shows 26 points, not 21.",qwen_small,p4,601.24
+S005,8,1,27 points,Bazemore led the bench with,points,117.0,118.0,NUMBER,12,"Box score shows 12 points, not 27.",qwen_small,p4,601.24
+S005,8,2,27,Bazemore led the bench with,points,117.0,117.0,NUMBER,12,"Box score shows 12 points, not 27.",qwen_small,p4,601.24
+S005,9,1,21 points,Paul Millsap led the way for Orlando with,points,156.0,157.0,NUMBER,26,"Box score shows 26 points, not 21.",qwen_small,p4,601.24
+S005,9,2,11 point,", Dwight Howard posted a 11-point, ",rebounds double-double that also included three assists,176.0,177.0,NUMBER,13,"Box score shows 13 points, not 11.",qwen_small,p4,601.24
+S005,9,3,27,"Bazemore led the second unit with 12 points, three rebounds, three assists, two steals and one block .",,136.0,136.0,NUMBER,12,"Box score shows 12 points, not 27.",qwen_small,p4,601.24
+S006,23,1,24,"Young managed his best night of the year from the field , draining ",(77 percent) to post 24 points .,151.0,151.0,NUMBER,20,"Box score shows Thaddeus Young scored 20 points, not 24.",qwen_small,p4,601.24
+S007,29,1,"36 points , 11 rebounds , seven assists",Westbrook went on to finish with,", four steals and one block across",33.0,40.0,NUMBER,"25, 17",Box score shows 25-17 wins and losses for Thunder.,qwen_small,p4,601.24
+S007,34,2,29,"points on 10-of-18 shooting , while",", in 32 minutes",194.0,194.0,NUMBER,31,"Cousins scored 31 points, not 29.",qwen_small,p4,601.24
+S007,35,3,29,"points on 10-of-18 shooting , in",",",194.0,194.0,NUMBER,31,"Cousins scored 31 points, not 29.",qwen_small,p4,601.24
+S009,1,1,47,47,",",,,NUMBER,29,"Box score shows 25 points for QTR2, not 47.",qwen_small,p4,601.24
+S009,1,2,30,30,",",209.0,209.0,NUMBER,47,"Box score shows 30 points for QTR1, not 47.",qwen_small,p4,601.24
+S009,2,1,6,only,road,,,NUMBER,5,"Box score shows 5 road victories, not 6.",qwen_small,p4,601.24
+S009,3,1,26,26,",",156.0,156.0,NUMBER,25,"Box score shows 25 points for QTR2, not 26.",qwen_small,p4,601.24
+S009,3,2,30,30,",",209.0,209.0,NUMBER,27,"Box score shows 27 points for QTR1, not 30.",qwen_small,p4,601.24
+S009,4,1,29,29,",",83.0,83.0,NUMBER,30,"Box score shows 30 points for QTR4, not 29.",qwen_small,p4,601.24
+S009,5,1,41,Young,",",239.0,239.0,NUMBER,26,"Box score shows 26 points for Young, not 41.",qwen_small,p4,601.24
+S009,7,1,41,Young,",",239.0,239.0,NUMBER,26,"Box score shows 26 points for Young, not 41.",qwen_small,p4,601.24
+S009,8,1,7,seven,rebounds,,,NUMBER,26,"Box score shows 26 points for Russell, not 7.",qwen_small,p4,601.24
+S009,12,1,41,Young,",",239.0,239.0,NUMBER,26,"Box score shows 26 points for Young, not 41.",qwen_small,p4,601.24
+S009,13,1,18,18,",",282.0,282.0,NUMBER,41,"Box score shows 41 points for Antetokounmpo, not 18.",qwen_small,p4,601.24
+S009,15,1,6,six,rebounds,,,NUMBER,26,"Box score shows 26 points for Antetokounmpo, not 6.",qwen_small,p4,601.24
+S010,6,1,13,recorded,",",178.0,178.0,NUMBER,12,"Box score shows 12 rebounds, not 13.",qwen_small,p4,601.24
+S010,7,2,15,scored,",",,,NUMBER,13,"Box score shows 13 points, not 15.",qwen_small,p4,601.24
+S010,7,3,6,four,rebounds,,,NUMBER,4,"Box score shows 4 rebounds, not 6.",qwen_small,p4,601.24
+S010,8,4,15,scored,",",,,NUMBER,13,"Box score shows 13 points, not 15.",qwen_small,p4,601.24
+S010,8,5,10,six,",",293.0,293.0,NUMBER,6,"Box score shows 6 rebounds, not 10.",qwen_small,p4,601.24
+S010,9,6,10,points,",",293.0,293.0,NUMBER,8,"Box score shows 8 points, not 10.",qwen_small,p4,601.24
+S010,9,7,6,four,rebounds,,,NUMBER,4,"Box score shows 4 rebounds, not 6.",qwen_small,p4,601.24
+S010,9,8,6,four,assists,,,NUMBER,4,"Box score shows 4 assists, not 6.",qwen_small,p4,601.24
+S011,29,1,23,Beal,points in,300.0,300.0,NUMBER,24,"Box score shows 24 points, not 23.",qwen_small,p4,601.24
+S012,5,1,38,scored,points in,,,NUMBER,36,"Box score shows 36 points, not 38.",qwen_small,p4,601.24
+S012,6,2,48,scored,rebounds in,,,NUMBER,43,"Box score shows 43 rebounds, not 48.",qwen_small,p4,601.24
+S012,7,3,14,scored,rebounds in,,,NUMBER,10,"Box score shows 10 turnovers, not 14.",qwen_small,p4,601.24
+S012,7,4,32,scored,free,163.0,163.0,NUMBER,42,"Box score shows 42 free throws, not 32.",qwen_small,p4,601.24
+S012,9,5,75,scored,free,,,NUMBER,88,"Box score shows 88 free throw percentage, not 75.",qwen_small,p4,601.24
+S012,9,6,32,scored,free,163.0,163.0,NUMBER,49,"Box score shows 49 field goal percentage, not 32.",qwen_small,p4,601.24
+S012,16,7,28,scored,points in,,,NUMBER,33,"Box score shows 33 points, not 28.",qwen_small,p4,601.24
+S012,16,8,49,scored,free,,,NUMBER,45,"Box score shows 45 field goal percentage, not 49.",qwen_small,p4,601.24
+S012,16,9,32,scored,free,163.0,163.0,NUMBER,42,"Box score shows 42 free throws, not 32.",qwen_small,p4,601.24
+S012,16,10,29,scored,free,,,NUMBER,32,"Box score shows 32 three point percentage, not 29.",qwen_small,p4,601.24
+S013,2,1,38,made,life,,,NUMBER,42,"Box score shows 42% FG, not 38%.",qwen_small,p4,601.24
+S013,3,1,24,could,only,,,NUMBER,38,"Box score shows 38% from three, not 24%.",qwen_small,p4,601.24
+S013,6,1,11,played,a,273.0,273.0,NUMBER,21,"Kyrie Irving played 21 minutes, not 11.",qwen_small,p4,601.24
+S013,8,1,4,James,with,110.0,110.0,NUMBER,29,"LeBron James played 29 minutes, not 4.",qwen_small,p4,601.24
+S013,11,1,29,Love,with,234.0,234.0,NUMBER,25,"Kevin Love played 29 minutes, not 25.",qwen_small,p4,601.24
+S013,14,1,21,Gordon,in,265.0,265.0,NUMBER,57,"Aaron Gordon played 29 minutes, not 21.",qwen_small,p4,601.24
+S014,2,1,34 21,jumped,out,,,NUMBER,"26, 9","Box score shows 26 points for Q2 and 9 turnovers, not 34-21.",qwen_small,p4,601.24
+S014,8,1,7 20,playing,from,188.0,189.0,NUMBER,"16, 34","Box score shows 16 turnovers and 34 minutes, not 7-20.",qwen_small,p4,601.24
+S015,2,1,64 52,out-scored,in,,,NUMBER,"68, 36",Box score shows 68-36 in the first half.,qwen_small,p4,601.24
+S015,2,2,50 38,out-scored,in,,,NUMBER,"62, 40",Box score shows 62-40 in the second half.,qwen_small,p4,601.24
+S015,3,3,21,Lowry,",",100.0,100.0,NUMBER,24,"Box score shows 24 points, not 21.",qwen_small,p4,601.24
+S015,3,4,8 18,(,",",104.0,105.0,NUMBER,"8, 20","Box score shows 8-20 FG, not 8-18.",qwen_small,p4,601.24
+S015,3,5,4 1,",",",",,,NUMBER,"6, 2","Box score shows 6-2 3Pt, not 4-1.",qwen_small,p4,601.24
+S015,3,6,10 17,(,",",,,NUMBER,"8, 16","Box score shows 8-16 FG, not 10-17.",qwen_small,p4,601.24
+S015,3,7,4 2,",",),,,NUMBER,"6, 4","Box score shows 6-4 FT, not 4-2.",qwen_small,p4,601.24
+S015,3,8,2,",",and,180.0,180.0,NUMBER,4,"Box score shows 4 assists, not 2.",qwen_small,p4,601.24
+S015,3,9,10 13,",",),,,NUMBER,"8, 12","Box score shows 8-12 FT, not 10-13.",qwen_small,p4,601.24
+S015,4,10,18,Carroll,",",105.0,105.0,NUMBER,23,"Box score shows 23 points, not 18.",qwen_small,p4,601.24
+S015,4,11,9 2,(,",",,,NUMBER,"8, 3","Box score shows 8-3 FG, not 9-2.",qwen_small,p4,601.24
+S015,4,12,2 3,",",),,,NUMBER,"6, 8","Box score shows 6-8 FT, not 2-3.",qwen_small,p4,601.24
+S015,4,13,1 2,",",and,,,NUMBER,"4, 8","Box score shows 4-8 3Pt, not 1-2.",qwen_small,p4,601.24
+S015,7,14,7 15,Gerald,",",325.0,326.0,NUMBER,"8, 19","Box score shows 8-19 FG, not 7-15.",qwen_small,p4,601.24
+S015,7,15,15 3,(,",",14.0,15.0,NUMBER,"28, 6","Box score shows 28-6 3Pt, not 15-3.",qwen_small,p4,601.24
+S015,9,16,20,led,with,241.0,241.0,NUMBER,34,"Box score shows 34 points, not 20.",qwen_small,p4,601.24
+S015,9,17,20,Green,",",241.0,241.0,NUMBER,34,"Box score shows 34 points, not 20.",qwen_small,p4,601.24
+S015,9,18,7 15,(,",",325.0,326.0,NUMBER,"8, 19","Box score shows 8-19 FG, not 7-15.",qwen_small,p4,601.24
+S015,9,19,5 10,(,",",330.0,331.0,NUMBER,"6, 13","Box score shows 6-13 3Pt, not 5-10.",qwen_small,p4,601.24
+S015,9,20,1 1,",",),,,NUMBER,"3, 4","Box score shows 3-4 FT, not 1-1.",qwen_small,p4,601.24
+S015,12,21,37,led,with,345.0,345.0,NUMBER,48,"Box score shows 48 points, not 37.",qwen_small,p4,601.24
+S016,15,1,23,percent,from,,,NUMBER,48,"Box score shows 48% FG_PCT, not 23.",qwen_small,p4,601.24
+S016,15,2,24,percent,from,109.0,109.0,NUMBER,70,"Box score shows 70% FT_PCT, not 23.",qwen_small,p4,601.24
+S016,15,3,27,percent,from,159.0,159.0,NUMBER,41,"Box score shows 41% 3P_FG_PCT, not 23.",qwen_small,p4,601.24
+S017,3,1,24 points,their,lead,326.0,327.0,NUMBER,44,"Box score shows 44 points, not 24.",qwen_small,p4,601.24
+S017,3,2,26 points,their,,344.0,345.0,NUMBER,44,"Box score shows 44 points, not 26.",qwen_small,p4,601.24
+S017,3,3,22 points,their,,326.0,327.0,NUMBER,48,"Box score shows 48 points, not 22.",qwen_small,p4,601.24
+S017,5,1,37,limited,to,,,NUMBER,38,"Box score shows 38 percent, not 37.",qwen_small,p4,601.24
+S017,5,2,21,in,,,,NUMBER,23,"Box score shows 23 percent, not 21.",qwen_small,p4,601.24
+S017,8,1,17,poured,in,94.0,94.0,NUMBER,26,"Box score shows 26 points, not 17.",qwen_small,p4,601.24
+S017,8,2,7,seven,boards,,,NUMBER,6,"Box score shows 6 rebounds, not 7.",qwen_small,p4,601.24
+S017,8,3,2,two,assists,,,NUMBER,4,"Box score shows 4 assists, not 2.",qwen_small,p4,601.24
+S017,8,4,1,one,steal,,,NUMBER,2,"Box score shows 2 steals, not 1.",qwen_small,p4,601.24
+S017,9,1,3,five,assists,,,NUMBER,2,"Box score shows 2 assists, not 3.",qwen_small,p4,601.24
+S017,9,2,2,two,rebounds,,,NUMBER,3,"Box score shows 3 rebounds, not 2.",qwen_small,p4,601.24
+S017,9,3,4,four,points,,,NUMBER,6,"Box score shows 6 assists, not 4.",qwen_small,p4,601.24
+S017,9,4,2,two,assists,,,NUMBER,3,"Box score shows 3 assists, not 2.",qwen_small,p4,601.24
+S017,9,5,4,four,boards,,,NUMBER,6,"Box score shows 6 points, not 4.",qwen_small,p4,601.24
+S017,9,6,2,two,rebounds,,,NUMBER,4,"Box score shows 4 rebounds, not 2.",qwen_small,p4,601.24
+S017,9,7,3,three,assists,,,NUMBER,2,"Box score shows 2 assists, not 3.",qwen_small,p4,601.24
+S017,9,8,2,two,rebounds,,,NUMBER,4,"Box score shows 4 rebounds, not 2.",qwen_small,p4,601.24
+S017,9,9,2,two,steals,,,NUMBER,4,"Box score shows 4 steals, not 2.",qwen_small,p4,601.24
+S017,9,10,3,three,assists,,,NUMBER,2,"Box score shows 2 assists, not 3.",qwen_small,p4,601.24
+S017,9,11,4,four,points,,,NUMBER,6,"Box score shows 6 points, not 4.",qwen_small,p4,601.24
+S017,9,12,3,three,rebounds,,,NUMBER,5,"Box score shows 5 boards, not 3.",qwen_small,p4,601.24
+S017,9,13,4,four,assists,,,NUMBER,6,"Box score shows 6 assists, not 4.",qwen_small,p4,601.24
+S017,9,14,2,two,assists,,,NUMBER,3,"Box score shows 3 assists, not 2.",qwen_small,p4,601.24
+S017,9,15,4,four,points,,,NUMBER,6,"Box score shows 6 points, not 4.",qwen_small,p4,601.24
+S017,9,16,3,three,rebounds,,,NUMBER,5,"Box score shows 5 rebounds, not 3.",qwen_small,p4,601.24
+S018,2,1,64 7,(,),6.0,7.0,NUMBER,"65, 7",Box score shows 65-7 for Warriors.,qwen_small,p4,601.24
+S018,2,2,43 27,) ,defeated,,,NUMBER,"45, 26",Box score shows 45-26 for Clippers.,qwen_small,p4,601.24
+S018,3,1,98,98 on,,22.0,22.0,NUMBER,76,Box score shows 76 points for Clippers.,qwen_small,p4,601.24
+S018,3,2,114,The,Warriors,20.0,20.0,NUMBER,96,Box score shows 96 points for Warriors.,qwen_small,p4,601.24
+S018,5,1,23,tallied,points,102.0,102.0,NUMBER,24,"Box score shows 24 points, not 23.",qwen_small,p4,601.24
+S018,5,2,29,10 from the,three,48.0,48.0,NUMBER,44,Box score shows 44 percent from three-point line.,qwen_small,p4,601.24
+S018,5,3,42,42 percent from the,,62.0,62.0,NUMBER,69,Box score shows 69 percent from the field.,qwen_small,p4,601.24
+S018,5,4,16,was next with a bench-leading,points,,,NUMBER,23,"Box score shows 23 points, not 16.",qwen_small,p4,601.24
+S018,5,5,23,"4 rebounds and a pair of assists. Curry's recent shooting woes apparently transferred over to Paul for the night, as the latter could only manage 13 points on 4-for-16 shooting. He also dished out eight assists, hauled in six rebounds and recorded a steal. No other starter was able to tally double-digit scoring, but Jeff Green did match Paul's point total in a reserve role, and also registered three rebounds, an assist and four steals. Jamal Crawford was the third bench player to post a productive outing, amassing 12 points, six assists, a rebound, two steals and a block. The Clippers remain in second place in the Western Conference's Pacific Division, and still hold the fourth seed in the conference as well. They're home against the Portland Trail Blazers on Thursday night. Klay Thompson was right behind Curry with 32 points, four rebounds, three assists and a steal. Draymond Green did a solid job as the third wheel on the night, posting a 12-point, 12-rebound double-double that also included four assists and two steals. Harrison Barnes was next with 11 points, six rebounds and a pair of assists. Shaun Livingston paced the reserves with 11 points, five rebounds, three assists and a steal. The Warriors remain atop the Pacific Division and the Western Conference overall. They're home against the Dallas Mavericks on Friday night.",,102.0,102.0,NUMBER,47,Box score shows 47 percent from the field.,qwen_small,p4,601.24
+S018,5,6,4,"He also dished out eight assists, hauled in six rebounds and recorded a steal. No other starter was able to tally double-digit scoring, but Jeff Green did match Paul's point total in a reserve role, and also registered three rebounds, an assist and four steals. Jamal Crawford was the third bench player to post a productive outing, amassing 12 points, six assists, a rebound, two steals and a block. The Clippers remain in second place in the Western Conference's Pacific Division, and still hold the fourth seed in the conference as well. They're home against the Portland Trail Blazers on Thursday night. Klay Thompson was right behind Curry with 32 points, four rebounds, three assists and a steal. Draymond Green did a solid job as the third wheel on the night, posting a 12-point, 12-rebound double-double that also included four assists and two steals. Harrison Barnes was next with 11 points, six rebounds and a pair of assists. Shaun Livingston paced the reserves with 11 points, five rebounds, three assists and a steal. The Warriors remain atop the Pacific Division and the Western Conference overall. They're home against the Dallas Mavericks on Friday night.",,364.0,364.0,NUMBER,27,Box score shows 27 percent from the field.,qwen_small,p4,601.24
+S018,6,1,39,combining for,points,137.0,137.0,NUMBER,45,"Box score shows 45 points, not 39.",qwen_small,p4,601.24
+S018,6,2,3,"rebounded. The Clippers received some strong contributions from their bench, with both Josh Smith and Jamal Crawford shooting all . Jordan finished with 19 points ( 7 - 10 FG , 5 - 10 FT ) , 20 rebounds and two blocked shots , while Crawford went 4 - for - 11 from the field and 2 - for - 4 from the three - point line to score 12 points ,",,221.0,221.0,NUMBER,47,Box score shows 47 percent from the field.,qwen_small,p4,601.24
+S018,6,3,5,"finished with 19 points ( 7 - 10 FG , 5 - 10 FT ) , 20 rebounds and two blocked shots , while Crawford went 4 - for - 11 from the field and 2 - for - 4 from the three - point line to score",,264.0,264.0,NUMBER,7,"Box score shows 7 points, not 5.",qwen_small,p4,601.24
+S018,6,4,5,"finished with 19 points ( 7 - 10 FG , 5 - 10 FT ) , 20 rebounds and two blocked shots , while Crawford went 4 - for - 11 from the field and 2 - for - 4 from the three - point line to score",,264.0,264.0,NUMBER,7,"Box score shows 7 points, not 5.",qwen_small,p4,601.24
+S018,6,5,7,"while Crawford went 4 - for - 11 from the field and 2 - for - 4 from the three - point line to score 12 points , The Clippers remain in second place in the Western Conference's Pacific Division, and still hold the fourth seed in the conference as well. They're home against the Portland Trail Blazers on Thursday night. Klay Thompson was right behind Curry with",,259.0,259.0,NUMBER,32,"Box score shows 32 points, not 7.",qwen_small,p4,601.24
+S018,6,6,27,"while Crawford went 4 - for - 11 from the field and 2 - for - 4 from the three - point line to score 12 points , The Clippers remain in second place in the Western Conference's Pacific Division, and still hold the fourth seed in the conference as well. They're home against the Portland Trail Blazers on Thursday night. Klay Thompson was right behind Curry with 32 points, four rebounds, three assists and a steal.",,18.0,18.0,NUMBER,45,Box score shows 45 percent from the field.,qwen_small,p4,601.24
+S018,6,7,45,"was right behind Curry with 32 points, four rebounds, three assists and a steal. Draymond Green did a solid job as the third wheel on the night, posting a 12-point, 12-rebound double-double that also included four assists and two steals. Harrison Barnes was next with 11 points, six rebounds and a pair of assists. Shaun Livingston paced the reserves with 11 points, five rebounds, three assists and a steal. The Warriors remain atop the Pacific Division and the Western Conference overall.",,,,NUMBER,23,"Box score shows 23 points, not 45.",qwen_small,p4,601.24
+S019,4,1,25,tallied,points,,,NUMBER,30,"Box score shows 30 points, not 25.",qwen_small,p4,601.24
+S019,7,1,28,accumulated,points,,,NUMBER,35,"Box score shows 35 points, not 28.",qwen_small,p4,601.24
+S019,14,1,30,the,(30,108.0,108.0,NUMBER,27,"Box score shows 27 wins, not 30.",qwen_small,p4,601.24
+S020,3,1,27,went just,from long,,,NUMBER,29,"Box score shows 29 points, not 27.",qwen_small,p4,601.24
+S020,6,1,12,scored,points,313.0,313.0,NUMBER,11,"Box score shows 11 points, not 12.",qwen_small,p4,601.24
+S020,9,1,8,handed out five,assists,,,NUMBER,7,"Box score shows 7 assists, not 8.",qwen_small,p4,601.24
+S020,13,1,4,blocks,.,,,NUMBER,5,"Box score shows 5 blocks, not 4.",qwen_small,p4,601.24
+S020,16,1,34,points,", five",381.0,381.0,NUMBER,30,"Box score shows 30 points, not 34.",qwen_small,p4,601.24
+S021,4,1,68,a,point,,,NUMBER,38,"Box score shows 38 points, not 68.",qwen_small,p4,601.24
+S021,5,2,19,a,point,155.0,155.0,NUMBER,31,"Box score shows 31 points, not 19.",qwen_small,p4,601.24
+S021,6,3,40,shooting,on,,,NUMBER,18,"James Harden's shooting percentage was 6-of-18, not 6-of-40.",qwen_small,p4,601.24
+S021,7,4,38,assists and,10,153.0,153.0,NUMBER,24,"Box score shows 24 assists, not 38.",qwen_small,p4,601.24
+S021,9,5,4,Kings,",",,,NUMBER,3,"The Kings finished 2-3, not 3-4.",qwen_small,p4,601.24
+S021,9,6,2,Kings,",",,,NUMBER,5,"The Kings finished a 5-game home stand, not 2.",qwen_small,p4,601.24
+S021,13,7,28,"shooting , including",range,,,NUMBER,42,"Box score shows 42% from three, not 28.",qwen_small,p4,601.24
+S021,13,8,5,"Cousins poured in four three - pointers in the final quarter as part of a comeback rally by the Kings , but it was not enough . The Kings stayed with their smaller lineup , keeping Cousins at center and Rudy Gay at power forward . However ,",points,,,NUMBER,4,"Cousins made only 4 of his 9 three-point attempts, not 5.",qwen_small,p4,601.24
+S022,3,1,94,outscored,94,,,NUMBER,86,"Box score shows 86 points, not 94.",qwen_small,p4,601.24
+S022,17,1,22,percent from,three-point,79.0,79.0,NUMBER,35,"Box score shows 35 points, not 22.",qwen_small,p4,601.24
+S023,16,1,15 29,Mavericks,are,,,NUMBER,"16, 32","Box score shows Lakers as 16-32, not Mavericks.",qwen_small,p4,601.24
+S023,18,1,15 29,Mavericks,are,,,NUMBER,"16, 32","Box score shows Lakers as 16-32, not Mavericks.",qwen_small,p4,601.24
+S023,19,1,15 29,Mavericks,are,,,NUMBER,"16, 32","Box score shows Lakers as 16-32, not Mavericks.",qwen_small,p4,601.24
+S024,13,1,27,Hield scored a team-high 22 points to go along with eight rebounds and seven assists .,.,232.0,232.0,NUMBER,22,"Box score shows 22 points, not 27.",qwen_small,p4,601.24
+S024,13,2,8,eight,rebounds and seven assists .,,,NUMBER,10,"Box score shows 10 rebounds, not 8.",qwen_small,p4,601.24
+S024,13,3,7,seven,assists .,,,NUMBER,8,"Box score shows 8 assists, not 7.",qwen_small,p4,601.24
+S024,16,1,23,Buddy Hield had arguably his best game as a pro . Hield scored a team-high 27 points to go along with eight rebounds and seven assists .,.,279.0,279.0,NUMBER,27,"Box score shows 27 points, not 23.",qwen_small,p4,601.24
+S024,16,2,8,eight,rebounds and seven assists .,,,NUMBER,10,"Box score shows 10 rebounds, not 8.",qwen_small,p4,601.24
+S024,16,3,7,seven,assists .,,,NUMBER,8,"Box score shows 8 assists, not 7.",qwen_small,p4,601.24
+S024,19,1,10,"Skal Labissiere followed with 10 points , eight assists , a rebound and a block in 27 minutes off the bench . The Warriors were led by Buddy Hield 's 22 points , which he supplemented with eight rebounds , seven assists and two steals .",.,197.0,197.0,NUMBER,23,"Box score shows 23 points, not 10.",qwen_small,p4,601.24
+S024,19,2,8,eight,"rebounds and a block in 27 minutes off the bench . The Warriors were led by Buddy Hield 's 22 points , which he supplemented with eight rebounds , seven assists and two steals .",,,NUMBER,10,"Box score shows 10 rebounds, not 8.",qwen_small,p4,601.24
+S024,19,3,7,seven,assists and two steals .,,,NUMBER,8,"Box score shows 8 assists, not 7.",qwen_small,p4,601.24
+S024,19,4,2,two,steals .,,,NUMBER,3,"Box score shows 3 steals, not 2.",qwen_small,p4,601.24
+S025,8,1,24,"Thomas' 24 points led Boston, while Avery Bradley contributed 19 points.",,172.0,172.0,NUMBER,32,"Box score shows 32 points, not 24.",qwen_small,p4,601.24
+S025,16,1,24,"Thomas' 24 points led Boston, while Avery Bradley contributed 19 points.",,172.0,172.0,NUMBER,32,"Box score shows 32 points, not 24.",qwen_small,p4,601.24
+S026,18,1,5 12,"Roy Hibbert also had a solid showing , recording 15 points ( 6 - 14 FG , 0 - 0 3Pt , 3 - 3 FT ) , 10 rebounds and two steals .",,88.0,89.0,NUMBER,14,Roy Hibbert's shooting statistics should be corrected.,qwen_small,p4,601.24
+S026,19,2,15 14,"It was his second double - double in a row , as he 's averaged 10 points and 16 rebounds per game .",,,,NUMBER,12,Roy Hibbert's rebounding statistics should be corrected.,qwen_small,p4,601.24
+S026,23,3,6 9,"CJ Miles had a strong showing off the bench , scoring 17 points ( 6 - 9 FG , 1 - 3 3Pt , 4 - 4 FT ) , to go along with two rebounds and two assists .",,,,NUMBER,5,Miles' field goal percentage should be corrected.,qwen_small,p4,601.24
+S026,25,4,17,"He went 6 - for - 9 from the field and 1 - for - 3 from the three - point line to score 17 points , while also adding seven rebounds and a steal .",,524.0,524.0,NUMBER,18,Miles' total points should be corrected.,qwen_small,p4,601.24
+S026,28,5,15,"CJ Miles was the only other starter to reach double figures in points . He went 6 - for - 9 from the field and 1 - for - 3 from the three - point line to score 17 points , while also adding seven rebounds and a steal .",,477.0,477.0,NUMBER,17,CJ Miles' points should be corrected.,qwen_small,p4,601.24
+S027,1,1,116 - 111,defeated,in,19.0,21.0,SCORE,111 - 116,"The game ended in overtime with a score of 111-116, not 116-111.",qwen_small,p4,601.24
+S027,3,1,58,went,from,88.0,88.0,PERCENTAGE,45,"The Rockets had a shooting percentage of 45%, not 58%.",qwen_small,p4,601.24
+S027,3,2,33,",",percent,94.0,94.0,PERCENTAGE,58,"The Knicks had a shooting percentage of 58%, not 33%.",qwen_small,p4,601.24
+S027,4,1,"Afflalo , who went",,,107.0,110.0,PLAYER_NAME,"Arron Afflalo, who went",Correct the player's name to Arron Afflalo.,qwen_small,p4,601.24
+S027,4,2,13 - 19,went,from,165.0,167.0,NUMBER,19-13,Correct the FG percentage to 19-13.,qwen_small,p4,601.24
+S027,4,3,2 - 4,",",to,170.0,172.0,NUMBER,4-2,Correct the 3Pt percentage to 4-2.,qwen_small,p4,601.24
+S027,6,1,20,points,",",230.0,230.0,NUMBER,8,"Porzingis scored 20 points, not 8.",qwen_small,p4,601.24
+S027,6,2,8 - 13,points,",",233.0,235.0,NUMBER,13-8,Correct the FG percentage to 13-8.,qwen_small,p4,601.24
+S027,6,3,4 - 4,",",,243.0,245.0,NUMBER,4-4,Correct the FT percentage to 4-4.,qwen_small,p4,601.24
+S028,15,1,31,"Wall and Bradley Beal would go on to sink a pair of baskets apiece from the charity stripe as well, providing Washington with the breathing room they needed to seal the win. Washington was led by Beal's","31 points, which he supplemented with six rebounds, two assists and two steals.",324.0,324.0,NUMBER,27,"Box score shows 27 points, not 31.",qwen_small,p4,601.24
+S028,15,2,27,Washington was led by Beal's,"31 points, which he supplemented with six rebounds, two assists and two steals.",,,NUMBER,31,"Box score shows 31 points, not 27.",qwen_small,p4,601.24
+S028,19,1,23,"Wall posted a 23-point, 12-assist double-double that also included six rebounds, two blocks and one steal. Porter provided a 20-point, 10-rebound double-double that also included an assist and a steal.",,140.0,140.0,NUMBER,20,"Box score shows 20 points, not 23.",qwen_small,p4,601.24
+S028,23,1,23,"The two teams continued to trade the lead for nearly the first four minutes of overtime before a pair of Otto Porter free throws with 1:21 remaining gave the Wizards (31-21) a lead they wouldn't relinquish. Wall and Bradley Beal would go on to sink a pair of baskets apiece from the charity stripe as well, providing Washington with the breathing room they needed to seal the win.",,140.0,140.0,NUMBER,27,"Box score shows 27 points, not 23.",qwen_small,p4,601.24
+S028,36,1,9,"The Nets (9-44) continue to sport the NBA's worst record, but that hasn't deterred them from playing hard in the majority of recent games. Such was the case again Wednesday, as Brooklyn battled back from a 59-49 halftime deficit to knot matters up at 100 with 41 seconds left on a Bojan Bogdanovic six-foot jumper.",,70.0,70.0,NUMBER,31,"Box score shows 31 wins, not 9.",qwen_small,p4,601.24
+S028,36,2,44,"The Nets (9-44) continue to sport the NBA's worst record, but that hasn't deterred them from playing hard in the majority of recent games. Such was the case again Wednesday, as Brooklyn battled back from a 59-49 halftime deficit to knot matters up at 100 with 41 seconds left on a Bojan Bogdanovic six-foot jumper.",,104.0,104.0,NUMBER,9,"Box score shows 9 losses, not 44.",qwen_small,p4,601.24
+S029,15,1,26,scored,points in,61.0,61.0,NUMBER,24,"Box score shows 24 points, not 26.",qwen_small,p4,601.24
+S030,15,1,22,accrued,points,265.0,265.0,NUMBER,14,"Box score shows 14 points, not 22.",qwen_small,p4,601.24

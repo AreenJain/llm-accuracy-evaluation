@@ -1,0 +1,84 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,3,1,38,9,9,,,NUMBER,32,"Box score shows Isaiah Thomas scored 17 of his 38 points in the fourth quarter, which is incorrect. The box score states he scored 38 points total."
+S003,2,1,19 8,25,26,,,NUMBER,"12, 17",Box score shows 12-17 record for Orlando Magic.
+S003,3,1,31,15,15,,,NUMBER,54,"Box score shows DeMar DeRozan scored 31 points, not a game-high 54."
+S003,6,1,16,5,5,,,NUMBER,29,"Box score shows Kyle Lowry had 16 points, not a game-high 29."
+S003,12,2,13,6,6,,,NUMBER,18,"Box score shows Terrence Ross scored 11 points, not 13."
+S003,13,1,10,7,7,,,NUMBER,15,"Box score shows Aaron Gordon had 10 points, not a game-high 15."
+S003,14,1,11,12,12,,,NUMBER,8,"Box score shows DJ Augustin scored 11 points, not 8."
+S004,13,1,7,25,25,,,NUMBER,39,"Box score shows 39 percent from three-point range, not 7 percent."
+S005,3,1,21 points,7,8,,,NUMBER,26,"Box score shows 26 points, not 21."
+S005,5,1,27 points,7,8,,,NUMBER,12,"Box score shows 12 points, not 27."
+S005,7,1,21 points,9,10,,,NUMBER,26,"Box score shows 26 points, not 21."
+S005,8,2,11 point,6,7,,,NUMBER,13,"Box score shows 13 points, not 11."
+S005,6,3,27,8,8,,,NUMBER,12,"Box score shows 12 points, not 27."
+S006,7,1,24,18,18,,,NUMBER,20,"Box score shows Thaddeus Young scored 20 points, not 24."
+S007,2,1,"36 points , 11 rebounds , seven assists",4,11,,,NUMBER,"25, 17",Box score shows 25-17 wins and losses for Thunder.
+S007,6,2,29,6,6,,,NUMBER,31,"Cousins scored 31 points, not 29."
+S009,10,2,30,5,5,,,NUMBER,47,"Box score shows 30 points for QTR1, not 47."
+S009,7,1,26,12,12,,,NUMBER,25,"Box score shows 25 points for QTR2, not 26."
+S009,4,1,29,14,14,,,NUMBER,30,"Box score shows 30 points for QTR4, not 29."
+S009,11,1,41,13,13,,,NUMBER,26,"Box score shows 26 points for Young, not 41."
+S009,13,1,18,15,15,,,NUMBER,41,"Box score shows 41 points for Antetokounmpo, not 18."
+S010,8,1,13,10,10,,,NUMBER,12,"Box score shows 12 rebounds, not 13."
+S010,14,5,10,13,13,,,NUMBER,6,"Box score shows 6 rebounds, not 10."
+S011,11,1,23,14,14,,,NUMBER,24,"Box score shows 24 points, not 23."
+S012,7,4,32,6,6,,,NUMBER,42,"Box score shows 42 free throws, not 32."
+S013,8,1,11,37,37,,,NUMBER,21,"Kyrie Irving played 21 minutes, not 11."
+S013,4,1,4,19,19,,,NUMBER,29,"LeBron James played 29 minutes, not 4."
+S013,7,1,29,36,36,,,NUMBER,25,"Kevin Love played 29 minutes, not 25."
+S013,8,1,21,29,29,,,NUMBER,57,"Aaron Gordon played 29 minutes, not 21."
+S014,7,1,7 20,10,11,,,NUMBER,"16, 34","Box score shows 16 turnovers and 34 minutes, not 7-20."
+S015,4,3,21,12,12,,,NUMBER,24,"Box score shows 24 points, not 21."
+S015,4,4,8 18,16,17,,,NUMBER,"8, 20","Box score shows 8-20 FG, not 8-18."
+S015,6,8,2,21,21,,,NUMBER,4,"Box score shows 4 assists, not 2."
+S015,11,14,7 15,21,22,,,NUMBER,"8, 19","Box score shows 8-19 FG, not 7-15."
+S015,1,15,15 3,14,15,,,NUMBER,"28, 6","Box score shows 28-6 3Pt, not 15-3."
+S015,8,16,20,7,7,,,NUMBER,34,"Box score shows 34 points, not 20."
+S015,11,19,5 10,26,27,,,NUMBER,"6, 13","Box score shows 6-13 3Pt, not 5-10."
+S015,12,21,37,6,6,,,NUMBER,48,"Box score shows 48 points, not 37."
+S016,3,2,24,49,49,,,NUMBER,70,"Box score shows 70% FT_PCT, not 23."
+S016,4,3,27,46,46,,,NUMBER,41,"Box score shows 41% 3P_FG_PCT, not 23."
+S017,12,1,24 points,4,5,,,NUMBER,44,"Box score shows 44 points, not 24."
+S017,13,2,26 points,7,8,,,NUMBER,44,"Box score shows 44 points, not 26."
+S017,3,1,17,20,20,,,NUMBER,26,"Box score shows 26 points, not 17."
+S018,1,1,64 7,6,7,,,NUMBER,"65, 7",Box score shows 65-7 for Warriors.
+S018,1,1,98,22,22,,,NUMBER,76,Box score shows 76 points for Clippers.
+S018,1,2,114,20,20,,,NUMBER,96,Box score shows 96 points for Warriors.
+S018,4,1,23,14,14,,,NUMBER,24,"Box score shows 24 points, not 23."
+S018,2,2,29,18,18,,,NUMBER,44,Box score shows 44 percent from three-point line.
+S018,2,3,42,32,32,,,NUMBER,69,Box score shows 69 percent from the field.
+S018,12,6,4,30,30,,,NUMBER,27,Box score shows 27 percent from the field.
+S018,5,1,39,13,13,,,NUMBER,45,"Box score shows 45 points, not 39."
+S018,8,2,3,19,19,,,NUMBER,47,Box score shows 47 percent from the field.
+S018,10,3,5,12,12,,,NUMBER,7,"Box score shows 7 points, not 5."
+S018,10,5,7,7,7,,,NUMBER,32,"Box score shows 32 points, not 7."
+S018,1,6,27,18,18,,,NUMBER,45,Box score shows 45 percent from the field.
+S019,5,1,30,4,4,,,NUMBER,27,"Box score shows 27 wins, not 30."
+S020,14,1,12,12,12,,,NUMBER,11,"Box score shows 11 points, not 12."
+S020,18,1,34,9,9,,,NUMBER,30,"Box score shows 30 points, not 34."
+S021,4,2,19,27,27,,,NUMBER,31,"Box score shows 31 points, not 19."
+S021,4,4,38,25,25,,,NUMBER,24,"Box score shows 24 assists, not 38."
+S022,4,1,22,20,20,,,NUMBER,35,"Box score shows 35 points, not 22."
+S024,10,1,27,8,8,,,NUMBER,22,"Box score shows 22 points, not 27."
+S024,12,1,23,4,4,,,NUMBER,27,"Box score shows 27 points, not 23."
+S024,8,1,10,11,11,,,NUMBER,23,"Box score shows 23 points, not 10."
+S025,6,1,24,10,10,,,NUMBER,32,"Box score shows 32 points, not 24."
+S026,3,1,5 12,32,33,,,NUMBER,14,Roy Hibbert's shooting statistics should be corrected.
+S026,18,4,17,25,25,,,NUMBER,18,Miles' total points should be corrected.
+S026,16,5,15,5,5,,,NUMBER,17,CJ Miles' points should be corrected.
+S027,1,1,116 - 111,19,21,,,SCORE,111 - 116,"The game ended in overtime with a score of 111-116, not 116-111."
+S027,3,1,58,31,31,,,PERCENTAGE,45,"The Rockets had a shooting percentage of 45%, not 58%."
+S027,3,2,33,37,37,,,PERCENTAGE,58,"The Knicks had a shooting percentage of 58%, not 33%."
+S027,4,1,"Afflalo , who went",7,10,,,PLAYER_NAME,"Arron Afflalo, who went",Correct the player's name to Arron Afflalo.
+S027,5,2,13 - 19,16,18,,,NUMBER,19-13,Correct the FG percentage to 19-13.
+S027,5,3,2 - 4,21,23,,,NUMBER,4-2,Correct the 3Pt percentage to 4-2.
+S027,7,1,20,14,14,,,NUMBER,8,"Porzingis scored 20 points, not 8."
+S027,7,2,8 - 13,17,19,,,NUMBER,13-8,Correct the FG percentage to 13-8.
+S027,7,3,4 - 4,27,29,,,NUMBER,4-4,Correct the FT percentage to 4-4.
+S028,13,1,31,7,7,,,NUMBER,27,"Box score shows 27 points, not 31."
+S028,5,1,23,9,9,,,NUMBER,20,"Box score shows 20 points, not 23."
+S028,3,1,9,13,13,,,NUMBER,31,"Box score shows 31 wins, not 9."
+S028,4,2,44,8,8,,,NUMBER,9,"Box score shows 9 losses, not 44."
+S029,3,1,26,8,8,,,NUMBER,24,"Box score shows 24 points, not 26."
+S030,13,1,22,4,4,,,NUMBER,14,"Box score shows 14 points, not 22."

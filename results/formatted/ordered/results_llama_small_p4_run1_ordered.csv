@@ -1,0 +1,597 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S002,6,1,110,,,11,11,NUMBER,,
+S002,9,1,28,,,,,NUMBER,24.0,"Schroder's season-high 28 points led the Hawks, which he complemented with six assists and two rebounds."
+S002,13,1,29,,,256,256,NUMBER,,"Irving's game-high 29 points led the team, which he needed a whopping 27 shot attempts to get to."
+S002,15,1,24,,,274,274,NUMBER,,"Love continued his stretch of excellent early-season play, supplying 24 points, 12 rebounds, three assists and two steals."
+S002,17,1,23,,,236,236,NUMBER,,"James registered a typically full stat line of 23 points, nine rebounds, five assists and three steals."
+S002,19,1,13,,,,,NUMBER,,"Frye led the reserves with 13 points, seven rebounds and an assist."
+S003,1,2,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,2,3,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,3,4,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,4,5,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,5,6,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,6,7,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,7,8,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,8,9,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,9,10,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,10,11,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,11,12,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,12,13,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,13,14,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,14,15,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,15,16,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,16,17,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,17,18,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,18,19,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,19,20,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,20,21,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,21,22,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,22,23,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,23,24,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,24,25,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,25,26,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,26,27,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,27,28,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,28,29,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,29,30,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,30,31,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,31,32,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,32,33,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,33,34,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,34,35,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,35,36,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,36,37,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,37,38,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,38,39,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,39,40,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,40,41,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,41,42,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,42,43,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,43,44,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,44,45,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,45,46,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,46,47,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,47,48,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,48,49,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,49,50,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,50,51,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,51,52,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,52,53,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,53,54,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,54,55,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,55,56,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,56,57,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,57,58,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,58,59,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,59,60,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,60,61,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,61,62,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,62,63,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,63,64,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,64,65,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,65,66,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,66,67,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,67,68,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,68,69,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,69,70,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,70,71,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,71,72,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,72,73,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,73,74,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,74,75,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,75,76,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,76,77,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,77,78,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,78,79,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,79,80,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,80,81,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,81,82,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,82,83,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,83,84,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,84,85,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,85,86,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,86,87,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,87,88,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,88,89,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,89,90,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,90,91,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,91,92,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,92,93,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,93,94,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,94,95,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,95,96,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,96,97,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,97,98,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,98,99,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,99,100,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,100,101,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,101,102,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,102,103,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,103,104,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,104,105,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,105,106,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,106,107,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,107,108,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,108,109,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,109,110,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,110,111,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,111,112,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,112,113,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,113,114,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,114,115,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,115,116,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,116,117,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,117,118,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,118,119,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,119,120,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,120,121,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,121,122,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,122,123,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,123,124,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,124,125,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,125,126,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,126,127,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,127,128,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,128,129,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,129,130,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,130,131,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,131,132,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,132,133,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,133,134,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,134,135,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,135,136,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,136,137,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,137,138,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,138,139,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,139,140,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,140,141,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,141,142,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,142,143,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,143,144,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,144,145,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,145,146,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,146,147,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,147,148,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,148,149,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,149,150,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,150,151,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,151,152,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,152,153,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,153,154,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,154,155,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,155,156,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,156,157,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,157,158,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,158,159,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,159,160,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,160,161,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,161,162,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,162,163,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,163,164,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,164,165,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,165,166,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,166,167,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,167,168,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,168,169,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,169,170,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,170,171,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,171,172,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,172,173,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,173,174,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,174,175,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,175,176,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,176,177,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,177,178,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,178,179,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,179,180,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,180,181,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,181,182,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,182,183,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,183,184,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,184,185,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,185,186,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,186,187,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,187,188,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,188,189,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,189,190,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,190,191,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,191,192,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,192,193,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,193,194,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,194,195,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,195,196,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,196,197,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,197,198,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,198,199,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,199,200,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,200,201,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,201,202,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,202,203,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,203,204,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,204,205,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,205,206,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,206,207,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,207,208,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,208,209,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,209,210,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,210,211,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,211,212,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,212,213,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,213,214,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,214,215,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,215,216,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,216,217,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,217,218,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,218,219,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,219,220,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,220,221,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,221,222,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,222,223,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,223,224,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,224,225,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,225,226,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,226,227,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,227,228,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,228,229,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,229,230,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,230,231,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,231,232,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,232,233,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,233,234,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,234,235,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,235,236,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,236,237,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,237,238,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,238,239,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,239,240,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,240,241,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,241,242,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,242,243,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,243,244,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,244,245,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,245,246,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,246,247,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,247,248,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,248,249,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,249,250,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,250,251,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,251,252,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,252,253,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,253,254,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,254,255,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,255,256,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,256,257,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,257,258,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,258,259,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,259,260,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,260,261,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,261,262,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,262,263,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,263,264,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,264,265,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,265,266,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,266,267,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,267,268,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,268,269,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,269,270,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,270,271,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,271,272,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,272,273,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,273,274,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,274,275,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,275,276,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,276,277,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,277,278,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,278,279,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,279,280,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,280,281,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,281,282,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,282,283,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,283,284,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,284,285,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,285,286,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,286,287,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,287,288,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,288,289,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,289,290,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,290,291,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,291,292,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,292,293,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,293,294,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,294,295,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,295,296,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,296,297,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,297,298,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,298,299,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,299,300,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,300,301,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,301,302,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,302,303,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,303,304,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,304,305,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,305,306,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,306,307,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,307,308,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,308,309,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,309,310,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,310,311,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,311,312,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,312,313,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,313,314,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,314,315,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,315,316,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,316,317,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,317,318,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,318,319,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,319,320,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,320,321,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,321,322,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,322,323,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,323,324,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,324,325,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,325,326,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,326,327,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,327,328,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,328,329,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,329,330,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,330,331,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,331,332,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,332,333,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,333,334,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,334,335,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,335,336,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,336,337,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,337,338,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,338,339,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,339,340,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,340,341,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,341,342,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,342,343,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,343,344,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,344,345,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,345,346,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,346,347,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,347,348,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,348,349,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,349,350,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,350,351,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,351,352,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,352,353,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,353,354,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,354,355,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,355,356,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,356,357,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,357,358,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,358,359,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,359,360,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,360,361,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,361,362,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,362,363,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,363,364,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,364,365,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,365,366,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,366,367,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,367,368,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,368,369,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,369,370,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,370,371,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,371,372,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,372,373,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,373,374,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,374,375,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,375,376,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,376,377,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,377,378,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,378,379,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,379,380,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,380,381,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,381,382,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,382,383,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,383,384,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,384,385,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,385,386,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,386,387,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,387,388,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,388,389,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,389,390,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,390,391,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,391,392,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,392,393,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,393,394,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,394,395,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,395,396,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,396,397,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,397,398,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,398,399,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,399,400,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,400,401,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,401,402,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,402,403,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,403,404,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,404,405,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,405,406,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,406,407,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,407,408,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,408,409,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,409,410,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,410,411,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,411,412,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,412,413,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,413,414,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,414,415,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,415,416,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,416,417,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,417,418,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,418,419,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,419,420,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,420,421,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,421,422,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,422,423,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,423,424,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,424,425,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,425,426,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,426,427,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,427,428,109,,,9,9,NUMBER,,Box score shows 109 points.
+S003,428,429,79,,,11,11,NUMBER,,Box score shows 79 points.
+S003,429,430,109,,,9,9,,,
+S004,1,1,96 -89,,,,,SCORE,,
+S004,2,1,15 points,,,346,347,SCORE,,
+S004,3,1,9 rebounds,,,349,350,SCORE,,
+S004,4,1,5 times,,,,,COUNT,,
+S004,5,1,4 blocks,,,,,SCORE,,
+S004,6,1,96,,,11,11,SCORE,,
+S004,7,1,96 -89,,,,,SCORE,,
+S004,8,1,15,,,,,COUNT,,
+S004,9,1,4 blocks,,,,,SCORE,,
+S004,10,1,4 blocks,,,,,SCORE,,
+S004,11,1,96,,,11,11,SCORE,,
+S004,12,1,89,,,13,13,SCORE,,
+S004,13,1,17,,,204,204,SCORE,,
+S004,14,1,4 minutes,,,,,COUNT,,
+S004,15,1,17,,,204,204,SCORE,,
+S004,16,1,14,,,301,301,COUNT,,
+S004,17,1,3 -for-,,,,,COUNT,,
+S004,18,1,17,,,204,204,SCORE,,
+S004,19,1,17,,,204,204,SCORE,,
+S004,20,1,17,,,204,204,SCORE,,
+S004,21,1,96,,,11,11,SCORE,,
+S004,22,1,89,,,13,13,SCORE,,
+S004,23,1,96,,,11,11,SCORE,,
+S004,24,1,89,,,13,13,,,
+S007,7,1,36,,,148,148,NUMBER,,Westbrook's points in the second half
+S007,9,1,11,,,176,176,NUMBER,,Westbrook's rebounds in the second half
+S007,9,1,11,,,176,176,NUMBER,,Westbrook's rebounds in the second half
+S007,9,1,11,,,176,176,NUMBER,,Westbrook's steals in the second half
+S007,11,1,29,,,194,194,NUMBER,,Kanter's points in the second half
+S007,11,1,10,,,197,197,NUMBER,,Kanter's shooting percentage in the second half
+S007,13,1,31,,,164,164,NUMBER,,Cousins' points in the second half
+S007,13,1,11,,,176,176,NUMBER,,Cousins' rebounds in the second half
+S007,13,1,11,,,176,176,NUMBER,,Cousins' assists in the second half
+S007,14,1,22,,,,,NUMBER,,Gay's points in the second half
+S007,15,1,21,,,65,65,NUMBER,,Collison's points in the second half
+S008,1,1,5,,,240,240,NUMBER,,
+S008,2,1,20,,,,,NUMBER,,
+S008,3,1,17,,,322,322,NUMBER,,
+S008,6,1,20,,,,,NUMBER,,
+S008,9,1,2013-14,,,,,DATE,,
+S008,10,1,20,,,,,NUMBER,,
+S008,11,1,20,,,,,NUMBER,,
+S008,12,1,9,,,318,318,NUMBER,,
+S010,1,2,Atlanta,,,207,207,TEAM_NAME,,"Team name is Atlanta Hawks, not just Atlanta."
+S010,2,1,19-16,,,,,TEAM_RECORD,,
+S010,3,1,18 points,,,312,312,PLAYER_STATS,,
+S010,4,1,13 points,,,312,312,PLAYER_STATS,,
+S010,5,1,17 points,,,312,312,PLAYER_STATS,,
+S010,6,1,10 points,,,312,312,PLAYER_STATS,,
+S010,7,1,14 points,,,312,312,PLAYER_STATS,,
+S011,2,1,41,,,5,5,NUMBER,24.0,"Box score shows 24 points, not 41."
+S011,3,1,41,,,5,5,NUMBER,24.0,"Box score shows 24 points, not 41."
+S011,7,1,31,,,14,14,NUMBER,24.0,"Box score shows 24 points, not 31."
+S011,8,1,31,,,14,14,NUMBER,24.0,"Box score shows 24 points, not 31."
+S011,10,1,31,,,14,14,NUMBER,24.0,"Box score shows 24 points, not 31."
+S011,12,1,31,,,14,14,NUMBER,24.0,"Box score shows 24 points, not 31."
+S011,15,1,41,,,5,5,NUMBER,24.0,"Box score shows 24 points, not 41."
+S011,17,1,28,,,65,65,NUMBER,24.0,"Box score shows 24 points, not 28."
+S011,19,1,23,,,300,300,NUMBER,24.0,"Box score shows 24 points, not 23."
+S011,22,1,23,,,300,300,NUMBER,24.0,"Box score shows 24 points, not 23."
+S011,24,1,44,,,113,113,NUMBER,24.0,"Box score shows 24 points, not 44."
+S011,25,1,44,,,113,113,NUMBER,24.0,"Box score shows 24 points, not 44."
+S011,30,1,48,,,93,93,,,
+S012,1,1,123,,,9,9,NUMBER,,
+S012,1,2,41,,,,,NUMBER,,
+S012,1,3,112,,,11,11,NUMBER,,
+S012,4,1,32,,,75,75,NUMBER,,
+S012,4,2,21,,,52,52,NUMBER,,
+S012,6,1,18,,,,,NUMBER,,
+S012,7,1,37,,,,,NUMBER,,
+S012,7,2,24,,,,,NUMBER,,
+S012,11,1,41,,,,,NUMBER,,
+S012,11,2,23,,,173,173,NUMBER,,
+S012,11,3,15,,,219,219,NUMBER,,
+S012,13,1,21,,,52,52,NUMBER,,
+S012,13,2,11,,,,,,,
+S014,5,1,7-10,,,,,NUMBER,,
+S015,1,1,15,,,14,14,NUMBER,,
+S019,1,1,27 32,,,,,NUMBER,,Box score shows Heat's record as 27-32.
+S019,2,1,30 29,,,,,NUMBER,,Box score shows Pacers' record as 30-29.
+S019,3,1,113 95,,,,,NUMBER,,"Box score shows final score as Heat 113, Pacers 95."
+S019,5,1,18,,,,,NUMBER,,Box score shows Myles Turner's points as 18.
+S019,5,2,7,,,,,NUMBER,,Box score shows Myles Turner's rebounds as 7.
+S019,6,1,16,,,158,158,NUMBER,,Box score shows Jeff Teague's points as 16.
+S019,6,2,6,,,,,NUMBER,,Box score shows Jeff Teague's assists as 6.
+S019,7,1,13,,,181,181,NUMBER,,Box score shows Glenn Robinson III's points as 13.
+S019,8,1,12,,,253,253,NUMBER,,Box score shows Rodney Stuckey's points as 12.
+S019,9,1,22,,,283,283,NUMBER,,Box score shows Hassan Whiteside's points as 22.
+S019,9,2,17,,,268,268,NUMBER,,Box score shows Hassan Whiteside's rebounds as 17.
+S019,10,1,22,,,283,283,NUMBER,,Box score shows Dion Waiters' points as 22.
+S019,10,2,2,,,,,NUMBER,,Box score shows Dion Waiters' rebounds as 2.
+S019,11,1,21,,,240,240,NUMBER,,Box score shows Goran Dragic's points as 21.
+S019,12,1,9,,,,,NUMBER,,Box score shows Luke Babbitt's points as 9.
+S019,13,1,15,,,98,98,,,
+S023,9,1,49,,,,,NUMBER,,
+S023,10,1,38,,,77,77,NUMBER,,
+S023,13,1,37,,,,,NUMBER,,
+S023,15,1,9,,,,,NUMBER,,
+S023,16,1,15,,,252,252,NUMBER,,
+S023,17,1,6,,,,,NUMBER,,
+S023,20,1,14,,,,,NUMBER,,
+S023,21,1,13,,,145,145,NUMBER,,
+S023,22,1,13,,,145,145,NUMBER,,
+S023,24,1,19,,,314,314,NUMBER,,
+S023,25,1,5,,,317,317,NUMBER,,
+S023,26,1,32,,,,,NUMBER,,
+S023,27,1,16,,,,,NUMBER,,
+S023,29,1,15,,,252,252,NUMBER,,
+S023,30,1,15,,,252,252,NUMBER,,
+S023,31,1,29,,,254,254,,,
+S024,1,1,114,,,10,10,NUMBER,,
+S024,1,2,100,,,12,12,NUMBER,,
+S024,2,3,58,,,23,23,NUMBER,,
+S024,2,4,14,,,25,25,NUMBER,,
+S024,3,5,27,,,232,232,NUMBER,,
+S024,3,6,45,,,50,50,NUMBER,,
+S024,4,7,27,,,232,232,NUMBER,,
+S024,5,8,22,,,260,260,NUMBER,,
+S024,6,9,22,,,260,260,NUMBER,,
+S024,7,10,22,,,260,260,NUMBER,,
+S024,8,11,22,,,260,260,NUMBER,,
+S024,9,12,10,,,197,197,NUMBER,,
+S024,9,13,10,,,197,197,NUMBER,,
+S025,2,1,32,,,242,242,NUMBER,24.0,"Box score shows 24 points, not 32."
+S025,3,2,22,,,,,NUMBER,25.0,"Box score shows 25 points, not 22."
+S025,5,3,25,,,120,120,NUMBER,24.0,"Box score shows 24 points, not 25."
+S025,7,4,11,,,,,NUMBER,19.0,"Box score shows 19 points, not 11."
+S025,10,5,15,,,208,208,NUMBER,19.0,"Box score shows 19 points, not 15."
+S025,12,6,24,,,172,172,NUMBER,19.0,"Box score shows 19 points, not 24."
+S025,14,7,30,,,,,NUMBER,29.0,"Box score shows 29 points, not 30."
+S026,1,1,116,,,18,18,NUMBER,,"Box score shows 116 points, not mentioned in the text."
+S026,1,2,116,,,18,18,NUMBER,,Box score shows correct points scored by the Suns.
+S026,2,1,116,,,18,18,NUMBER,,Box score shows correct points scored by the Suns.
+S026,2,1,99,,,,,NUMBER,,Box score shows correct points scored by the Pacers.
+S026,3,1,62,,,,,NUMBER,,Box score shows correct points scored by the Suns in the final two quarters.
+S026,3,1,43,,,,,NUMBER,,Box score shows correct points scored by the Pacers in the final two quarters.
+S026,3,1,18,,,,,NUMBER,,Box score shows correct points difference between the Suns and Pacers.
+S026,4,1,48,,,74,74,NUMBER,,Box score shows correct three-point shooting percentage for the Suns.
+S026,4,1,48,,,74,74,NUMBER,,Box score shows correct three-point shooting percentage for the Suns.
+S026,5,1,31,,,,,NUMBER,,Box score shows correct three-point shooting percentage for the Pacers.
+S026,6,1,61,,,,,NUMBER,,Box score shows correct total points scored by the Suns' starting backcourt.
+S026,7,1,34,,,215,215,NUMBER,,Box score shows correct points scored by Dragic.
+S026,7,1,34,,,215,215,NUMBER,,Box score shows correct points scored by Dragic.
+S026,8,1,27,,,50,50,NUMBER,,Box score shows correct points scored by Bledsoe.
+S026,8,1,27,,,50,50,NUMBER,,Box score shows correct points scored by Bledsoe.
+S026,9,1,15,,,477,477,NUMBER,,Box score shows correct points scored by Morris.
+S026,9,1,15,,,477,477,NUMBER,,Box score shows correct points scored by Morris.
+S026,10,1,15,,,477,477,NUMBER,,Box score shows correct points scored by Green.
+S026,11,1,14,,,400,400,NUMBER,,Box score shows correct points scored by Watson.
+S026,11,1,14,,,400,400,NUMBER,,Box score shows correct points scored by Watson.
+S026,12,1,17,,,524,524,NUMBER,,Box score shows correct points scored by Miles.
+S026,12,1,17,,,524,524,NUMBER,,Box score shows correct points scored by Miles.
+S027,11,1,7-10,,,,,NUMBER,,The Rockets' win-loss record is incorrect.
+S027,11,2,8-10,,,,,NUMBER,,The Knicks' win-loss record is incorrect.
+S028,2,1,9,,,70,70,NUMBER,,"The Nets (9-44) continue to sport the NBA's worst record, but that hasn't deterred them from playing hard in the majority of recent games."
+S028,3,1,59,,,123,123,NUMBER,,The two teams continued to trade the lead for nearly the first four minutes of overtime before a pair of Otto Porter free throws with 1:21 remaining gave the Wizards (31-21) a lead they wouldn't relinquish.
+S028,5,1,31,,,324,324,NUMBER,,"Washington was led by Beal's 31 points, which he supplemented with six rebounds, two assists and two steals."
+S028,6,1,21,,,341,341,NUMBER,,"Wall posted a 23-point, 12-assist double-double that also included six rebounds, two blocks and one steal."
+S028,7,1,20,,,244,244,NUMBER,,"Porter provided a 20-point, 10-rebound double-double that also included an assist and a steal."
+S030,3,1,110 94,,,,,NUMBER,,Game score is correct.
+S030,6,2,13 -12,,,,,NUMBER,,Pacers' record is correct.

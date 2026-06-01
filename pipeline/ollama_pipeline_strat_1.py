@@ -21,7 +21,7 @@ arg_parser.add_argument("--games", type=str, required=True)
 arg_parser.add_argument("--jsonl", type=str, required=True)
 arg_parser.add_argument("--model", type=str, default="llama_small", choices=["llama_small", "qwen_small"])
 arg_parser.add_argument("--rows", type=int, default=30)
-arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p1", "p2", "p3", "p4_strat_1"])
+arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p1", "p2", "p3", "p4"])
 arg_parser.add_argument("--by_sent", type=str, default="no", choices=["yes", "no"],
                         help="yes = one LLM call per sentence; no = one LLM call per story")
 args = arg_parser.parse_args()
