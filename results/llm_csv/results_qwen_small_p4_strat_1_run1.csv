@@ -1,0 +1,892 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,LEFT_CONTEXT,RIGHT_CONTEXT,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S024,1.0,1,host Golden State Warriors demolished Sacramento Kings,,on,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,2,114 - 100,on,,10.0,12.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,3,Golden State,on,is,56.0,57.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,4,58 - 14,is,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,5,on Friday,with,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,6,Third,of,its,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,7,60,straight,win,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,8,just,with,games,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,9,remaining,games,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,10,enjoyed pure,Fans,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,11,Friday,on,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,12,two,backs,of,273.0,273.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,13,healthy,backs,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,14,All-Defense,of,Steph,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,15,3 -,All-Defense,points,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,16,six,points,,248.0,248.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,17,3 -,points,points,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,18,three,points,blocks,288.0,288.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,19,37,a,assists,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,20,27,points,and,232.0,232.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,21,23,points,,279.0,279.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,22,10,points,,197.0,197.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,23,10,rebounds,,197.0,197.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,24,8,rebounds,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,25,assists,rebounds,,201.0,201.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,26,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,27,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,28,8,straight,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,29,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,30,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,31,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,32,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,33,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,34,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,35,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,36,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,37,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,38,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,39,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,40,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,41,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,42,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,43,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,44,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,45,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,46,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,47,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,48,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,49,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,50,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,51,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,52,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,53,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,54,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,55,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,56,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,57,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,58,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,59,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,60,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,61,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,62,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,63,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,64,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,65,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,66,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,67,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,68,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,69,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,70,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,71,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,72,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,73,58 - 14,and,,23.0,25.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,74,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,75,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,76,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,77,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,78,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,79,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,80,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,81,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,82,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,83,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,84,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,85,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,86,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,87,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,88,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,89,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,90,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,91,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,92,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,93,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,94,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,95,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,96,58,and,,23.0,23.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,97,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,98,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,99,58,and,,23.0,23.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,100,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,101,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,102,58,and,,23.0,23.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,103,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,104,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,105,58,and,,23.0,23.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,106,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,107,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,108,58,and,,23.0,23.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,109,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,110,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,111,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,112,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,113,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,114,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,115,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,116,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,117,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,118,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,119,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,120,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,121,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,122,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,123,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,124,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,125,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,126,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,127,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,128,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,129,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,130,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,131,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,132,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,133,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,134,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,135,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,136,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,137,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,138,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,139,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,140,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,141,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,142,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,143,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,144,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,145,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,146,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,147,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,148,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,149,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,150,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,151,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,152,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,153,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,154,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,155,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,156,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,157,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,158,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,159,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,160,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,161,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,162,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,163,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,164,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,165,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,166,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,167,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,168,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,169,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,170,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,171,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,172,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,173,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,174,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,175,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,176,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,177,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,178,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,179,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,180,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,181,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,182,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,183,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,184,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,185,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,186,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,187,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,188,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,189,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,190,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,191,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,192,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,193,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,194,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,195,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,196,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,197,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,198,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,199,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,200,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,201,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,202,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,203,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,204,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,205,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,206,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,207,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,208,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,209,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,210,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,211,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,212,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,213,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,214,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,215,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,216,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,217,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,218,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,219,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,220,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,221,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,222,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,223,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,224,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,225,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,226,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,227,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,228,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,229,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,230,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,231,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,232,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,233,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,234,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,235,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,236,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,237,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,238,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,239,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,240,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,241,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,242,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,243,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,244,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,245,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,246,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,247,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,248,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,249,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,250,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,251,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,252,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,253,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,254,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,255,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,256,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,257,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,258,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,259,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,260,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,261,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,262,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,263,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,264,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,265,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,266,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,267,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,268,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,269,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,270,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,271,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,272,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,273,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,274,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,275,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,276,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,277,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,278,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,279,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,280,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,281,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,282,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,283,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,284,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,285,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,286,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,287,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,288,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,289,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,290,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,291,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,292,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,293,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,294,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,295,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,296,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,297,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,298,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,299,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,300,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,301,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,302,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,303,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,304,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,305,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,306,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,307,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,308,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,309,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,310,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,311,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,312,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,313,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,314,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,315,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,316,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,317,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,318,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,319,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,320,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,321,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,322,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,323,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,324,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,325,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,326,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,327,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,328,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,329,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,330,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,331,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,332,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,333,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,334,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,335,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,336,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,337,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,338,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,339,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,340,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,341,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,342,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,343,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,344,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,345,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,346,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,347,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,348,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,349,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,350,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,351,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,352,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,353,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,354,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,355,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,356,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,357,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,358,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,359,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,360,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,361,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,362,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,363,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,364,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,365,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,366,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,367,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,368,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,369,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,370,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,371,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,372,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,373,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,374,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,375,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,376,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,377,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,378,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,379,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,380,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,381,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,382,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,383,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,384,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,385,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,386,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,387,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,388,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,389,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,390,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,391,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,392,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,393,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,394,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,395,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,396,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,397,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,398,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,399,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,400,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,401,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,402,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,403,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,404,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,405,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,406,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,407,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,408,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,409,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,410,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,411,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,412,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,413,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,414,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,415,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,416,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,417,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,418,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,419,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,420,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,421,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,422,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,423,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,424,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,425,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,426,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,427,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,428,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,429,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,430,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,431,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,432,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,433,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,434,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,435,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,436,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,437,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,438,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,439,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,440,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,441,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,442,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,443,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,444,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,445,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,446,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,447,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,448,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,449,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,450,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,451,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,452,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,453,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,454,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,455,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,456,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,457,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,458,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,459,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,460,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,461,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,462,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,463,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,464,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,465,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,466,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,467,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,468,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,469,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,470,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,471,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,472,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,473,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,474,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,475,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,476,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,477,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,478,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,479,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,480,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,481,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,482,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,483,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,484,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,485,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,486,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,487,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,488,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,489,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,490,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,491,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,492,60,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,493,8,and,,,,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,494,assists,8,,283.0,283.0,,,,qwen_small,p4_strat_1,4828.76
+S024,1.0,495,60,,,,,,,,qwen_small,p4_strat_1,4828.76
+S027,,1,The Houston Rockets (7-10) defeated the New York Knicks (8-10) 111-111,,on,,,Correction,The New York Knicks defeated the Houston Rockets 111-111 on Wednesday at Madison Square Garden in New York.,Swapping the teams to match the correct result.,qwen_small,p4_strat_1,4828.76
+S027,,2,The Knicks got off to a quick start,,,32.0,39.0,Comment,,Initial game performance description.,qwen_small,p4_strat_1,4828.76
+S027,,3,the Knicks 25 - 21,,in,47.0,51.0,Comment,,First quarter score.,qwen_small,p4_strat_1,4828.76
+S027,,4,The Rockets were the superior,,shooters,58.0,62.0,Comment,,Shooting performance description.,qwen_small,p4_strat_1,4828.76
+S027,,5,went 58 % from,,the,,,Comment,,Field goal percentage.,qwen_small,p4_strat_1,4828.76
+S027,,6,and 33 %,,from,,,Comment,,Three point percentage.,qwen_small,p4_strat_1,4828.76
+S027,,7,the Rockets went 58 %,,from,85.0,89.0,Comment,,Field goal percentage.,qwen_small,p4_strat_1,4828.76
+S027,,8,and 33 %,,from,,,Comment,,Three point percentage.,qwen_small,p4_strat_1,4828.76
+S027,,9,The Knicks were led,,by,101.0,104.0,Comment,,Top scorer description.,qwen_small,p4_strat_1,4828.76
+S027,,10,Arron Afflalo,,,106.0,107.0,Comment,,Top scorer name.,qwen_small,p4_strat_1,4828.76
+S027,,11,went 13 - for -,,from,110.0,114.0,Comment,,Field goal percentage.,qwen_small,p4_strat_1,4828.76
+S027,,12,the field and 2 - for -,,from,117.0,123.0,Comment,,Three point percentage.,qwen_small,p4_strat_1,4828.76
+S027,,13,the three - point line,,,126.0,130.0,Comment,,Three point line description.,qwen_small,p4_strat_1,4828.76
+S027,,14,to score,,a,131.0,132.0,Comment,,Top scorer points.,qwen_small,p4_strat_1,4828.76
+S027,,15,game - high of 31,,points,134.0,138.0,Comment,,Top scorer points.,qwen_small,p4_strat_1,4828.76
+S027,,16,while also adding,,seven,184.0,186.0,Comment,,Additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,17,seven rebounds,,",",187.0,188.0,Comment,,Additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,18,and three assists,,.,146.0,148.0,Comment,,Additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,19,Top scorer,,,131.0,132.0,Comment,,Repeating information.,qwen_small,p4_strat_1,4828.76
+S027,,20,Afflalo,,,107.0,107.0,Comment,,Repeating name.,qwen_small,p4_strat_1,4828.76
+S027,,21,went 13 - for -,,from,110.0,114.0,Comment,,Repeating field goal percentage.,qwen_small,p4_strat_1,4828.76
+S027,,22,the field and 2 - for -,,from,117.0,123.0,Comment,,Repeating three point percentage.,qwen_small,p4_strat_1,4828.76
+S027,,23,the three - point line,,,126.0,130.0,Comment,,Repeating three point line description.,qwen_small,p4_strat_1,4828.76
+S027,,24,to score,,a,131.0,132.0,Comment,,Repeating information.,qwen_small,p4_strat_1,4828.76
+S027,,25,game - high,,of,134.0,136.0,Comment,,Repeating information.,qwen_small,p4_strat_1,4828.76
+S027,,26,31 points,,.,162.0,163.0,Comment,,Repeating information.,qwen_small,p4_strat_1,4828.76
+S027,,27,while also adding,,seven,184.0,186.0,Comment,,Repeating additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,28,rebounds,,",",250.0,250.0,Comment,,Repeating additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,29,and three assists,,.,146.0,148.0,Comment,,Repeating additional stats.,qwen_small,p4_strat_1,4828.76
+S027,,30,Afflalo,,,107.0,107.0,Comment,,Repeating name.,qwen_small,p4_strat_1,4828.76
+S027,,31,got,,off,34.0,34.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,32,off to,,the,35.0,36.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,33,quick start,,.,38.0,39.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,34,and,,,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,35,showing,,that,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,36,he,,was,202.0,202.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,37,one,,of,42.0,42.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,38,the,,best,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,39,players,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,40,Afflalo,,,107.0,107.0,Comment,,Repeating name.,qwen_small,p4_strat_1,4828.76
+S027,,41,was,,in,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,42,the,,spotlight,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,43,with,,his,229.0,229.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,44,many,,of,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,45,his,,shots,212.0,212.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,46,going,,in,68.0,68.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,47,the,,net.,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,48,But,,,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,49,the,,game,256.0,256.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,50,was,,not,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,51,about,,him,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,52,anymore,,but,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,53,about,,the,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,54,team,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,55,The,,game,256.0,256.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,56,was,,about,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,57,defense,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,58,and,,the,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,59,offense,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,60,The,,defense,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,61,was,,solid,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,62,throughout,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,63,and,,the,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,64,offense,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,65,was,,also,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,66,impressive,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,67,The,,team,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,68,scored,,107,132.0,132.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,69,points,,.,231.0,231.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,70,in,,the,52.0,52.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,71,first,,quarter,54.0,54.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,72,and,,the,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,73,defense,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,74,was,,stifling,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,75,throughout,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,76,The,,defense,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,77,stopped,,the,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,78,opposing,,team,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,79,from,,scoring,125.0,125.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,80,and,,limited,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,81,the,,opposing,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,82,team,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,83,to,,only,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,84,scoring,,10,46.0,46.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,85,points,,.,231.0,231.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,86,The,,team,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,87,did,,not,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,88,give,,up,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,89,many,,opportunities,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,90,to,,score,131.0,131.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,91,but,,they,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,92,converted,,the,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,93,their,,opportunities,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,94,into,,points,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,95,and,,the,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,96,defense,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,97,was,,unyielding,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,98,throughout,,the,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,99,the,,game,256.0,256.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,100,and,,it,146.0,146.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,101,was,,the,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,102,key,,to,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,103,the,,victory,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,104,in,,this,64.0,64.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,105,game,,.,260.0,260.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,106,The,,offense,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,107,also,,played,185.0,185.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,108,their,,part,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,109,in,,the,52.0,52.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,110,victory,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,111,they,,were,101.0,101.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,112,able,,to,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,113,execute,,plays,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,114,and,,score,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,115,their,,efforts,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,116,paid,,off,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,117,in,,the,52.0,52.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,118,form of,,goals,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,119,and,,points.,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,120,The,,defense,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,121,was,,also,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,122,solid,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,123,they,,stopped,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,124,many,,opponent's,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,125,attacks,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,126,it,,was,190.0,190.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,127,crucial,,in,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,128,to,,secure,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,129,the victory,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,130,the,,team's,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,131,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,132,overall,,performance,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,133,was,,impressive.,219.0,219.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,134,in the,,end.,52.0,53.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,135,it,,was,190.0,190.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,136,the cohesiveness,,of,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,137,the,,team,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,138,that,,made,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,139,the,,difference.,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,140,the,,team's,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,141,hardwork,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,142,and,,dedication,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,143,paid,,off.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,144,it,,was,190.0,190.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,145,the,,team's,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,146,cohesion,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,147,that,,gave,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,148,the,,team,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,149,the,,edge,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,150,over,,the,211.0,211.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,151,their,,opponent.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,152,the,,team's,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,153,united,,efforts,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,154,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,155,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,156,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,157,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,158,paid,,off.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,159,with,,their,229.0,229.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,160,hardearned,,victory.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,161,victory,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,162,the,,team's,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,163,united,,efforts,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,164,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,165,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,166,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,167,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,168,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,169,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,170,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,171,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,172,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,173,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,174,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,175,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,176,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,177,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,178,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,179,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,180,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,181,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,182,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,183,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,184,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,185,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,186,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,187,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,188,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,189,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,190,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,191,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,192,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,193,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,194,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,195,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,196,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,197,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,198,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,199,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,200,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,201,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,202,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,203,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,204,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,205,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,206,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,207,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,208,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,209,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,210,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,211,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,212,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,213,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,214,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,215,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,216,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,217,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,218,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,219,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,220,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,221,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,222,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,223,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,224,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,225,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,226,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,227,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,228,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,229,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,230,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,231,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,232,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,233,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,234,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,235,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,236,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,237,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,238,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,239,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,240,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,241,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,242,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,243,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,244,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,245,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,246,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,247,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,248,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,249,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,250,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,251,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,252,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,253,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,254,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,255,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,256,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,257,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,258,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,259,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,260,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,261,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,262,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,263,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,264,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,265,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,266,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,267,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,268,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,269,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,270,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,271,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,272,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,273,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,274,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,275,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,276,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,277,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,278,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,279,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,280,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,281,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,282,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,283,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,284,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,285,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,286,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,287,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,288,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,289,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,290,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,291,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,292,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,293,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,294,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,295,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,296,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,297,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,298,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,299,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,300,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,301,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,302,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,303,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,304,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,305,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,306,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,307,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,308,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,309,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,310,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,311,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,312,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,313,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,314,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,315,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,316,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,317,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,318,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,319,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,320,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,321,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,322,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,323,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,324,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,325,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,326,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,327,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,328,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,329,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,330,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,331,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,332,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,333,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,334,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,335,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,336,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,337,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,338,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,339,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,340,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,341,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,342,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,343,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,344,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,345,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,346,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,347,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,348,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,349,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,350,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,351,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,352,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,353,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,354,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,355,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,356,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,357,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,358,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,359,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,360,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,361,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,362,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,363,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,364,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,365,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,366,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,367,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,368,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,369,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,370,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,371,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,372,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,373,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,374,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,375,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,376,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,377,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,378,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,379,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,380,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,381,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,382,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,383,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,384,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,385,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,386,the,,task,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,387,at,,hand,24.0,24.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,388,were,,.,103.0,103.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,389,the,,key,282.0,282.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,390,to,,their,280.0,280.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,391,success,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,392,their,,united,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,393,efforts,,.,,,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,394,and,,focus,251.0,251.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,395,on,,the,270.0,270.0,Comment,,Additional top scorer information.,qwen_small,p4_strat_1,4828.76
+S027,,396,the,,,282.0,282.0,,,,qwen_small,p4_strat_1,4828.76

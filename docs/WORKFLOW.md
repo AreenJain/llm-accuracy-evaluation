@@ -411,3 +411,8 @@ TYPE, CORRECTION, COMMENT
 ---
 
 *End of workflow guide. Last updated 2026-05-26.*
+
+
+python pipeline/ollama_pipeline_strat_1.py --games data/games_30_rows.csv --jsonl data/shared_task.jsonl -- model llama_small --rows 30 --prompt p4_strat_1 --by_sent no
+
+python evaluation/evaluate.py --gsml data/gsml_30_rows.csv --submitted results/formatted/ordered/results_llama_small_p4_strat_1_run1_ordered.csv --token_lookup data/token_lookup.yaml --text_dir data/texts --csv_out results/eval_outputs/eval_llama_small_p4_strat_1_run1.csv

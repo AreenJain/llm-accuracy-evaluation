@@ -1,0 +1,114 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,LEFT_CONTEXT,RIGHT_CONTEXT,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S001,,1,38,dropped,of,75.0,75.0,NUMBER,17,"Isaiah Thomas scored 17 of his 38 points in the fourth quarter, not 38.",qwen_small,p4_strat_1,425.68
+S001,,2,38,dropped,points,75.0,75.0,NUMBER,38,"Isaiah Thomas scored 38 points, not 38.",qwen_small,p4_strat_1,425.68
+S001,,3,12,recorded,a,120.0,120.0,NUMBER,18,"Jae Crowder recorded a double-double with 18 points, not 12.",qwen_small,p4_strat_1,425.68
+S001,,4,6,collecting,assists,,,NUMBER,7,"Jae Crowder collected seven assists, not six.",qwen_small,p4_strat_1,425.68
+S001,,5,8,collecting,assists,,,NUMBER,7,"Jae Crowder collected seven assists, not eight.",qwen_small,p4_strat_1,425.68
+S001,,6,8,collecting,assists,,,NUMBER,7,"Jae Crowder collected seven assists, not eight.",qwen_small,p4_strat_1,425.68
+S001,,7,6,collecting,steals,,,NUMBER,5,"Jae Crowder collected five steals, not six.",qwen_small,p4_strat_1,425.68
+S001,,8,2,next,with,,,NUMBER,6,"Jae Crowder was next with 18 points, six rebounds, an assist and two steals. Should be 'six' instead of 'two'.",qwen_small,p4_strat_1,425.68
+S003,,1,109 79,"defeated the host Orlando Magic, ",", at Amway Center on Sunday.",,,NUMBER,109 - 79,Box score shows a final score of 109-79.,qwen_small,p4_strat_1,425.68
+S003,,2,61 34,"In fact, Toronto won the second and third quarters, ",to eventually pull away and win by 30.,,,NUMBER,61-34,Box score shows Toronto won the second and third quarters by 61-34.,qwen_small,p4_strat_1,425.68
+S003,,3,49,"Toronto were very efficient on their end as well, shooting ",% from the field and assisting on,,,NUMBER,49%,"Box score shows Toronto shot 49 percent from the field, not 49 points.",qwen_small,p4_strat_1,425.68
+S003,,4,26,"Toronto were very efficient on their end as well, shooting ",% from the field and assisting on,,,NUMBER,29%,"Box score shows Toronto shot 29 percent from the three-point range, not 26.",qwen_small,p4_strat_1,425.68
+S003,,5,19 8,Toronto ( ,") have been scoring at will recently, ",44.0,45.0,NUMBER,12-17,"Box score shows Orlando's record as 12-17, not 19-8.",qwen_small,p4_strat_1,425.68
+S004,,1,27,came off the bench for an impressive,points and nine rebounds in,,,NUMBER,28,"Box score shows 28 points, not 27.",qwen_small,p4_strat_1,425.68
+S004,,2,96,"Jazz beat the visiting Los Angeles Lakers on Friday, ",", 96 - 89.",11.0,11.0,NUMBER,89,"Final score shows 89 points, not 96.",qwen_small,p4_strat_1,425.68
+S004,,3,89,It was the season debut for banged-up Jazz star Derrick Favors. ,. Favors missed the majority of the preseason,13.0,13.0,NUMBER,96,"Final score shows 96 points, not 89.",qwen_small,p4_strat_1,425.68
+S005,,1,21,and,26,156.0,156.0,NUMBER,36,"Box score shows 36 percent from three-point range, not 26.",qwen_small,p4_strat_1,425.68
+S005,,2,17,The,Hawks,,,NUMBER,30,"Box score shows 30-21 wins and losses for Hawks, not 17.",qwen_small,p4_strat_1,425.68
+S005,,3,36,Millsap,",",,,NUMBER,21,"Both players scored 21 points, not one scoring 36.",qwen_small,p4_strat_1,425.68
+S005,,4,27,led,with,136.0,136.0,NUMBER,12,"Bazemore scored 12 points, not 27.",qwen_small,p4_strat_1,425.68
+S005,,5,36,led,",",,,NUMBER,27,"Bazemore scored 27 points, not 36.",qwen_small,p4_strat_1,425.68
+S005,,6,21,Millsap,",",73.0,73.0,NUMBER,27,"Bazemore scored 27 points, not 21.",qwen_small,p4_strat_1,425.68
+S005,,7,36,Millsap,",",,,NUMBER,21,"Bazemore scored 21 points, not 36.",qwen_small,p4_strat_1,425.68
+S005,,8,27,led,with,136.0,136.0,NUMBER,12,"Bazemore scored 12 points, not 27.",qwen_small,p4_strat_1,425.68
+S006,,1,12,on,Tuesday,7.0,7.0,DATE,8,"The game was played on Tuesday, not December 12th.",qwen_small,p4_strat_1,425.68
+S006,,2,18,first,games,,,NUMBER,24,"The game was played after 24 games, not 18.",qwen_small,p4_strat_1,425.68
+S006,,3,12 15,Rockets,12,,,NUMBER,"8, 10","The Rockets' record is 10-12, not 12-10.",qwen_small,p4_strat_1,425.68
+S006,,4,15,Nets,15,16.0,16.0,NUMBER,8,"The Nets' record is 6-15, not 15-6.",qwen_small,p4_strat_1,425.68
+S006,,5,12,on,Tuesday,7.0,7.0,DATE,8,"The game was played on Tuesday, not December 12th.",qwen_small,p4_strat_1,425.68
+S006,,6,9 point,nine,points,,,NUMBER,10,"James Harden's score was 10 points, not 9 points.",qwen_small,p4_strat_1,425.68
+S006,,7,2 point,four,points,80.0,81.0,NUMBER,4,"Trevor Ariza's score was 2 points, not 4 points.",qwen_small,p4_strat_1,425.68
+S006,,8,2 2,of,shot,,,NUMBER,"4, 13","Brook Lopez's field goal attempts were 13, not 22.",qwen_small,p4_strat_1,425.68
+S006,,9,2 point,20,points,80.0,81.0,NUMBER,13,"Brook Lopez's score was 20 points, not 2 point.",qwen_small,p4_strat_1,425.68
+S007,,1,23 28 34,"The Oklahoma City Thunder defeated the Sacramento Kings 122 - 118 at Golden 1 Center on Sunday . A tale of two halves , as the Kings ( 16 - 24 ) made a resurgent effort in the second half , unfortunately for the home team , Russell Westbrook got hot at the same time .",", while Enes Kanter contributed 29 points across 32 minutes off the bench . Cousins filled",,,NUMBER,"23, 28, 33","Box score shows 23, 28, and 33 points in each quarter respectively.",qwen_small,p4_strat_1,425.68
+S009,,1,47,a,point,,,NUMBER,29,"Box score shows 29 points, not 47.",qwen_small,p4_strat_1,425.68
+S009,,2,15,"points in the first quarter got the visitors off to a roaring start, and they maintained the hot hand from the field throughout. Los Angeles tallied success rates of 52 percent from the floor and 50 percent from three-point range, while their bench chipped in with a collective 58 points.",,,,NUMBER,47,"Box score shows 47 points, not 15.",qwen_small,p4_strat_1,425.68
+S009,,3,26,"Young led the way with 26 points, which he supplemented with four assists, two rebounds and two steals.",,156.0,156.0,NUMBER,41,"Box score shows 41 points, not 26.",qwen_small,p4_strat_1,425.68
+S009,,4,15,"Lou Williams paced the bench with 21 points, two assists, one rebound and one steal.",,,,NUMBER,21,"Box score shows 21 points, not 15.",qwen_small,p4_strat_1,425.68
+S009,,5,7,"Nance and Jordan Clarkson turned in matching 11-point efforts off the bench, with the former adding five rebounds, three assists and one steal, while the latter dished out four dimes and recorded a steal. Ivica Zubac was productive as a reserve as well with 15 points, six rebounds, two assists and a block.",,,,NUMBER,6,"Box score shows 6 points, not 7.",qwen_small,p4_strat_1,425.68
+S009,,6,3,"Larry Nance and Jordan Clarkson turned in matching 11-point efforts off the bench, with the former adding five rebounds, three assists and one steal, while the latter dished out four dimes and recorded a steal. Ivica Zubac was productive as a reserve as well with 15 points, six rebounds, two assists and a block.",,,,NUMBER,2,"Box score shows 2 points, not 3.",qwen_small,p4_strat_1,425.68
+S009,,7,2,"Nance and Jordan Clarkson turned in matching 11-point efforts off the bench, with the former adding five rebounds, three assists and one steal, while the latter dished out four dimes and recorded a steal. Ivica Zubac was productive as a reserve as well with 15 points, six rebounds, two assists and a block.",,,,NUMBER,1,"Box score shows 1 steal, not 2.",qwen_small,p4_strat_1,425.68
+S009,,8,2,"The Lakers head back to home to face off with the Sacramento Kings on Tuesday evening, while the Bucks head to Indiana to tangle with the Pacers on Saturday night. The Lakers head back to home to face off with the Sacramento Kings on Tuesday evening, while the Bucks head to Indiana to tangle with the Pacers on Saturday night.",,,,NUMBER,13,"Box score shows 13 points, not 2.",qwen_small,p4_strat_1,425.68
+S011,,1,28,"Hawks out-scored the Wizards 29 - 18 in the first quarter alone . The Hawks were able to out-score the Wizards 28 - 18 in the third quarter ,",,65.0,65.0,NUMBER,30,"Box score shows 30 points, not 28.",qwen_small,p4_strat_1,425.68
+S011,,2,14,"team - high of 13 rebounds . The Hawks ' next game will be at home against the New Orleans Pelicans on Friday ,",,221.0,221.0,NUMBER,13,"Al Horford had 13 rebounds, not 14.",qwen_small,p4_strat_1,425.68
+S012,,1,123,defeated,the,9.0,9.0,NUMBER,112,"Box score shows 112 points, not 123.",qwen_small,p4_strat_1,425.68
+S012,,2,41,career-high,points,,,NUMBER,38,"Box score shows 38 points, not 41.",qwen_small,p4_strat_1,425.68
+S012,,3,74,outscoring,the,,,NUMBER,50,"Box score shows 50 points, not 74.",qwen_small,p4_strat_1,425.68
+S012,,4,32,with,13,75.0,75.0,NUMBER,48,"Box score shows 48 rebounds, not 32.",qwen_small,p4_strat_1,425.68
+S012,,5,37,free,throws,,,NUMBER,42,"Box score shows 42 attempts, not 37.",qwen_small,p4_strat_1,425.68
+S012,,6,24,hit,of,,,NUMBER,38,"Box score shows 38 points, not 24.",qwen_small,p4_strat_1,425.68
+S012,,7,29,scoring,",",,,NUMBER,32,"Box score shows 32%, not 29%.",qwen_small,p4_strat_1,425.68
+S012,,8,23,followed,up,173.0,173.0,NUMBER,41,"Box score shows 41 points, not 23.",qwen_small,p4_strat_1,425.68
+S012,,9,21,points,",",52.0,52.0,NUMBER,36,"Box score shows 36 points, not 21.",qwen_small,p4_strat_1,425.68
+S012,,10,49,scoring,",",,,NUMBER,45,"Box score shows 45%, not 49%.",qwen_small,p4_strat_1,425.68
+S012,,11,28,points,",",,,NUMBER,29,"Box score shows 29 points, not 28.",qwen_small,p4_strat_1,425.68
+S012,,12,45,scoring,",",,,NUMBER,49,"Box score shows 49%, not 45%.",qwen_small,p4_strat_1,425.68
+S012,,13,21,points,",",52.0,52.0,NUMBER,74,"Box score shows 74 points, not 21.",qwen_small,p4_strat_1,425.68
+S012,,14,36,points,",",,,NUMBER,50,"Box score shows 50 points, not 36.",qwen_small,p4_strat_1,425.68
+S012,,15,49,in,free,,,NUMBER,37,"Box score shows 37%, not 49%.",qwen_small,p4_strat_1,425.68
+S014,,1,29,scored,points in,147.0,147.0,NUMBER,28,"Box score shows 28 points, not 29.",qwen_small,p4_strat_1,425.68
+S014,,2,28,scored,points in,207.0,207.0,NUMBER,29,"Box score shows 29 points, not 28.",qwen_small,p4_strat_1,425.68
+S015,,1,64 52,out-scoring the Heat,in the first half alone,,,NUMBER,"58, 39","Box score shows the Raptors outscored the Heat 58-39 in the second half, not 64-52.",qwen_small,p4_strat_1,425.68
+S016,,1,29,out-scoring the Jazz 29-8,,291.0,291.0,NUMBER,24,"Box score shows 24 points, not 29.",qwen_small,p4_strat_1,425.68
+S016,,2,59,out-scoring the Jazz 59-42,,99.0,99.0,NUMBER,37,"Box score shows 37 points, not 59.",qwen_small,p4_strat_1,425.68
+S017,,1,44 22,Cavs (,) came,,,SCORE,"48, 36","Box score shows 48-36, not 44-22.",qwen_small,p4_strat_1,425.68
+S017,,2,96,Pistons (,") ,",11.0,11.0,SCORE,128,"Box score shows 128, not 96.",qwen_small,p4_strat_1,425.68
+S017,,3,12,"Andre Drummond led the way for the Cavs with a modest stat line of eight points , ",14 rebounds and one assist .,326.0,326.0,NUMBER,8,"Box score shows 8 points, not 12.",qwen_small,p4_strat_1,425.68
+S017,,4,12,"Kentavious Caldwell-Pope led the bench with 11 points , two rebounds , three assists and one steal .",,326.0,326.0,NUMBER,8,"Box score shows 8 points, not 12.",qwen_small,p4_strat_1,425.68
+S017,,5,3,"Reggie Jackson followed with a modest six points , five assists , one rebound and one steal .",,,,NUMBER,6,"Box score shows 6 assists, not 3.",qwen_small,p4_strat_1,425.68
+S017,,6,13,"Marcus Morris matched Morris 's point total and added seven boards , an assist and a steal .",,311.0,311.0,NUMBER,8,"Box score shows 8 points, not 13.",qwen_small,p4_strat_1,425.68
+S017,,7,12,"Ish Smith was productive in a reserve role as well with 12 points , three assists , one rebound and one steal .",,326.0,326.0,NUMBER,8,"Box score shows 8 points, not 12.",qwen_small,p4_strat_1,425.68
+S017,,8,2,"Richard Jefferson and Richard Jefferson were next with a pair of 16 - point efforts , with the former adding one assist , two rebounds and one steal , and the latter registering eight boards , one assist and two steals .",,,,NUMBER,4,"Box score shows 4 rebounds, not 2.",qwen_small,p4_strat_1,425.68
+S017,,9,28,"Kyle Korver totaled 12 points , five boards , one assist and one steal . Richard Jefferson led the bench with 16 points , one assist , two rebounds and two steals . The Pistons head back home to tangle with the Atlanta Hawks on Friday night , while the Cavaliers remain home and await the Philadelphia 76ers on Friday evening as well .",,,,NUMBER,34,"Box score shows 34 minutes, not 28.",qwen_small,p4_strat_1,425.68
+S018,,1,19,led the Clippers with a remarkable ,point,256.0,256.0,NUMBER,20,"Box score shows 20 rebounds, not 19.",qwen_small,p4_strat_1,425.68
+S018,,2,16,was next with a bench-leading ,points,,,NUMBER,32,"Box score shows 32 points, not 16.",qwen_small,p4_strat_1,425.68
+S018,,3,4,and five rebounds and a pair of assists . The Clippers ,,364.0,364.0,NUMBER,5,"Box score shows 5 assists, not 4.",qwen_small,p4_strat_1,425.68
+S018,,4,4,"and two steals and a block . The Clippers remain in second place in the Western Conference 's Pacific Division, and still hold the fourth seed in the conference as well. They're home against the Portland Trail Blazers on Thursday night.",,364.0,364.0,NUMBER,3,"Box score shows 3 assists, not 4.",qwen_small,p4_strat_1,425.68
+S018,,5,29,"while the Clippers went just 42 percent from deep. The Warriors were led by the duo of Stephen Curry and Klay Thompson. Curry finished with a game-high of 33 points (12-23 FG, 4-10 3Pt, 5-6 FT) , while also adding five assists and three steals.",,197.0,197.0,NUMBER,44,"Box score shows 44 percent from the three-point line, not 29.",qwen_small,p4_strat_1,425.68
+S018,,6,29,"and a meager 29 percent from deep. The Warriors were led by the duo of Stephen Curry and Klay Thompson. Curry finished with a game-high of 33 points (12-23 FG, 4-10 3Pt, 5-6 FT) , while also adding five assists and three steals.",,197.0,197.0,NUMBER,45,"Box score shows 45 percent from the field, not 29.",qwen_small,p4_strat_1,425.68
+S019,,24,35 18 30 16 23 16 43 15 27 32,,,,,NUMBER,"35, 18, 30, 16, 23, 16, 43, 15, 27, 32",Box score shows these exact scores and statistics.,qwen_small,p4_strat_1,425.68
+S021,,3,18,nine,rebounds,254.0,254.0,NUMBER,9,"Box score shows 9 rebounds, not 18.",qwen_small,p4_strat_1,425.68
+S021,,5,17,points,,277.0,277.0,NUMBER,38,"Box score shows 38 points, not 17.",qwen_small,p4_strat_1,425.68
+S021,,6,9,blocks,,,,NUMBER,3,"Box score shows 3 blocks, not 9.",qwen_small,p4_strat_1,425.68
+S021,,7,18,points,,408.0,408.0,NUMBER,32,"Box score shows 32 points, not 18.",qwen_small,p4_strat_1,425.68
+S021,,9,4,assists,,,,NUMBER,3,"Box score shows 3 assists, not 4.",qwen_small,p4_strat_1,425.68
+S021,,10,5,blocks,,,,NUMBER,3,"Box score shows 3 blocks, not 5.",qwen_small,p4_strat_1,425.68
+S021,,14,17,points,,277.0,277.0,NUMBER,18,"Box score shows 18 points, not 17.",qwen_small,p4_strat_1,425.68
+S021,,15,3,assists,,,,NUMBER,4,"Box score shows 4 assists, not 3.",qwen_small,p4_strat_1,425.68
+S021,,17,5,rebounds,,,,NUMBER,4,"Box score shows 4 rebounds, not 5.",qwen_small,p4_strat_1,425.68
+S021,,18,3,steals,,,,NUMBER,4,"Box score shows 4 steals, not 3.",qwen_small,p4_strat_1,425.68
+S022,,1,40,leading,after,,,NUMBER,33,"Box score shows 33 points, not 40.",qwen_small,p4_strat_1,425.68
+S022,,2,28,leading,after,,,NUMBER,25,"Box score shows 25 points, not 28.",qwen_small,p4_strat_1,425.68
+S022,,3,124,"Pelicans defeated the host Minnesota Timberwolves , ",", at Target Center on Friday evening.",,,NUMBER,122,"Box score shows 122 points, not 124.",qwen_small,p4_strat_1,425.68
+S022,,4,106,", at Target Center on Friday evening. The Timberwolves looked great after the first quarter, leading ",. However,12.0,12.0,NUMBER,100,"Box score shows 100 points, not 106.",qwen_small,p4_strat_1,425.68
+S023,,1,122,"defeated the Los Angeles Lakers, ",", at American Airlines Center on Sunday.",10.0,10.0,NUMBER,73,Incorrect score in favor of Dallas Mavericks.,qwen_small,p4_strat_1,425.68
+S023,,2,122,"at American Airlines Center on Wednesday . Dallas was expected to win this game easily and they left no doubt with this result . In fact , the Mavericks led for the entirety of the second half, as they led by 11 at times in the second half .",,10.0,10.0,NUMBER,73,Incorrect score in favor of Los Angeles Lakers.,qwen_small,p4_strat_1,425.68
+S024,,1,35,dishing out a ridiculous,assists,,,NUMBER,37,"Box score shows 37 assists, not 35.",qwen_small,p4_strat_1,425.68
+S026,,1,Phoenix,,,29.0,29.0,TEAM,Indiana,"The Suns defeated the Indiana Pacers, not Phoenix.",qwen_small,p4_strat_1,425.68
+S026,,2,15,"Dragic had 15 points ( 11 - 20 FG , 5 - 6 3Pt , 7 - 7 FT ) , five rebounds and three assists , while",,477.0,477.0,NUMBER,34,"Dragic scored 34 points, not 15.",qwen_small,p4_strat_1,425.68
+S026,,3,17,"It was his second double - double in a row , as he 's combined for 42 points and 12 rebounds over his last two games . Roy Hibbert also had a solid showing , recording 15 points ( 6 - 14 FG , 0 - 0 3Pt , 3 - 3 FT ) ,",,524.0,524.0,NUMBER,5,"Hibbert had 15 points, not 17.",qwen_small,p4_strat_1,425.68
+S026,,4,17,"He 's now averaging 10 points and 6 rebounds on the year . CJ Miles had a strong showing off the bench , scoring 17 points ( 6 - 9 FG , 1 - 3 3Pt , 4 - 4 FT ) , to go along with two rebounds and two assists .",,524.0,524.0,NUMBER,6,"Hibbert now averages 6 rebounds, not 10.",qwen_small,p4_strat_1,425.68
+S028,,1,59,"backed back set, building a ",31 - 22 lead after one quarter .,123.0,123.0,NUMBER,49,"Box score shows 49 points, not 59.",qwen_small,p4_strat_1,425.68
+S028,,2,27,outscoring the Nets by a ,margin in the second half .,,,NUMBER,59,"Box score shows 59 points, not 27.",qwen_small,p4_strat_1,425.68
+S028,,3,41,sending the game into overtime .,,,,NUMBER,49,"Box score shows 49 points, not 41.",qwen_small,p4_strat_1,425.68
+S028,,4,23,Beal's,"points, which he supplemented",140.0,140.0,NUMBER,31,"Box score shows 31 points, not 23.",qwen_small,p4_strat_1,425.68
+S028,,5,69,FT_PCT,,,,NUMBER,76,"Box score shows 76% free throw percentage, not 69.",qwen_small,p4_strat_1,425.68
+S029,,1,26,scored,points and eight,61.0,61.0,NUMBER,22,"Box score shows 22 points, not 26.",qwen_small,p4_strat_1,425.68
+S029,,2,38,minutes.,,,,NUMBER,31,"Box score shows 31 minutes, not 38.",qwen_small,p4_strat_1,425.68
+S029,,3,33 19,jumped out to a ,lead after one quarter .,,,NUMBER,"19, 33",First quarter points are reversed in text.,qwen_small,p4_strat_1,425.68
+S029,,4,31,"30 points , which he supplemented with two rebounds , one assist and one steal .",,,,NUMBER,30,"Barnes had 30 points, not 31.",qwen_small,p4_strat_1,425.68
+S029,,5,14,"points , four assists , two rebounds and one steal .",,228.0,228.0,NUMBER,12,"Barea led the bench with 12 points, not 14.",qwen_small,p4_strat_1,425.68
+S030,,1,22,co-led the team with,points on a combined,265.0,265.0,NUMBER,24,"Box score shows 24 points, not 22.",qwen_small,p4_strat_1,425.68
+S030,,2,18,led the team with,points on a combined,,,NUMBER,17,"Box score shows 17 points, not 18.",qwen_small,p4_strat_1,425.68

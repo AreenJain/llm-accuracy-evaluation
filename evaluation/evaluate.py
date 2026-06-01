@@ -49,7 +49,7 @@ def create_mistake_dict(filename, categories, token_lookup):
   mistake_dict = {}
   tokens_used = {}
   matches = 0
-  with open(filename, newline='') as csvfile:
+  with open(filename, newline='', encoding='utf-8') as csvfile:
     reader = csv.reader(csvfile, delimiter=',', quotechar='"')
     next(reader, None)
 
@@ -232,7 +232,7 @@ def safe_divide(x, y):
 """
 def check_token_ids(mistake_dict, text_dir):
   for text_id, text_errors in mistake_dict.items():
-    with open(f'{text_dir}/{text_id}.txt', 'r') as fh:
+    with open(f'{text_dir}/{text_id}.txt', 'r', encoding='utf-8') as fh:
       raw_text = fh.read()
       raw_tokens = raw_text.split()
       for doc_start_idx, h in text_errors.items():

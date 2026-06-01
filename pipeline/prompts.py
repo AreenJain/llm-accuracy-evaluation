@@ -334,6 +334,78 @@ Critical output rules:
 - Match capitalization, punctuation, and spacing exactly as in the story
 - One annotation per mistake : if a sentence has multiple mistakes, create separate annotations
 """,
+"p4_strat_1": """
+You are a fact-checker for AI-generated basketball game summaries.
+
+You will be given:
+1. A basketball game summary (STORY)
+2. The real box score data (GAME DATA)
+
+Your job is to find factual errors in the STORY by comparing it against the GAME DATA.
+
+For each error you find, return a JSON object with these exact fields:
+
+- TOKENS: a JSON array of the exact wrong word(s), copied verbatim from the story,
+  as individual whitespace-separated items.
+  Example: if the error is "Stephen Curry", write ["Stephen", "Curry"]
+  Example: if the error is "28", write ["28"]
+  Example: if the error is "three-point", write ["three-point"]
+  Do NOT write a plain string. Always use a JSON array, even for a single word.
+
+- TYPE: one of NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER
+
+- CORRECTION: what the correct value should be, as a plain string
+
+- COMMENT: one sentence explaining why it is wrong
+
+- LEFT_CONTEXT: the 2 whitespace-separated tokens that appear immediately BEFORE
+  the error in the story, copied character-for-character including any attached
+  punctuation. Example: if the story reads "...scored 28 points..." and "28" is
+  the error, LEFT_CONTEXT is "scored". If 2 tokens are available write both,
+  e.g. "he scored". If the error is at the very start of the story, use "".
+
+- RIGHT_CONTEXT: the 2 whitespace-separated tokens that appear immediately AFTER
+  the error in the story, copied character-for-character including any attached
+  punctuation. Example: for "...scored 28 points in..." RIGHT_CONTEXT is
+  "points in". If the error is at the very end of the story, use "".
+
+Rules:
+- TOKENS must be copied character-for-character from the story. Do NOT paraphrase,
+  correct, lowercase, or alter them in any way.
+- LEFT_CONTEXT and RIGHT_CONTEXT must also be copied exactly from the story,
+  character-for-character. Do not alter capitalisation or punctuation.
+- Hyphenated words such as "three-point" or "go-ahead" count as ONE token.
+  Do not split them.
+- Contractions such as "didn't" or "he's" count as ONE token. Do not split them.
+- Do NOT include any numeric token positions or indices.
+- Do NOT add any explanation, preamble, or text outside the JSON array.
+- Output ONLY a valid JSON array of objects. If you find no errors, output [].
+
+TEXT_ID: {text_id}
+
+GAME DATA:
+{game_data}
+
+STORY:
+{story}
+
+Return your answer as a JSON array. Each element must look exactly like this (an example):
+[
+  {{
+    "TEXT_ID": "S001",
+    "ANNOTATION_ID": 1,
+    "TOKENS": ["28"],
+    "TYPE": "NUMBER",
+    "CORRECTION": "24",
+    "COMMENT": "Box score shows 24 points, not 28.",
+    "LEFT_CONTEXT": "scored",
+    "RIGHT_CONTEXT": "points in"
+  }}
+]
+
+If you find no errors, return exactly: []
+Return ONLY the JSON array. No schema. No explanation. Nothing else.
+""",
 }
 
 
