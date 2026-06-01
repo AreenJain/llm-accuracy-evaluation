@@ -1,0 +1,892 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S024,,1,host Golden State Warriors demolished Sacramento Kings,,,,,,,
+S024,1,2,114 - 100,10,12,,,,,
+S024,2,3,Golden State,37,38,,,,,
+S024,2,4,58 - 14,4,6,,,,,
+S024,,5,on Friday,,,,,,,
+S024,,6,Third,,,,,,,
+S024,,7,60,,,,,,,
+S024,,8,just,,,,,,,
+S024,,9,remaining,,,,,,,
+S024,,10,enjoyed pure,,,,,,,
+S024,,11,Friday,,,,,,,
+S024,11,12,two,23,23,,,,,
+S024,,13,healthy,,,,,,,
+S024,,14,All-Defense,,,,,,,
+S024,,15,3 -,,,,,,,
+S024,10,16,six,24,24,,,,,
+S024,,17,3 -,,,,,,,
+S024,12,18,three,13,13,,,,,
+S024,,19,37,,,,,,,
+S024,10,20,27,8,8,,,,,
+S024,12,21,23,4,4,,,,,
+S024,8,22,10,11,11,,,,,
+S024,8,23,10,11,11,,,,,
+S024,,24,8,,,,,,,
+S024,8,25,assists,15,15,,,,,
+S024,2,26,58 - 14,4,6,,,,,
+S024,,27,60,,,,,,,
+S024,,28,8,,,,,,,
+S024,12,29,assists,8,8,,,,,
+S024,,30,60,,,,,,,
+S024,,31,8,,,,,,,
+S024,12,32,assists,8,8,,,,,
+S024,2,33,58 - 14,4,6,,,,,
+S024,,34,60,,,,,,,
+S024,,35,8,,,,,,,
+S024,12,36,assists,8,8,,,,,
+S024,2,37,58 - 14,4,6,,,,,
+S024,,38,60,,,,,,,
+S024,,39,8,,,,,,,
+S024,12,40,assists,8,8,,,,,
+S024,2,41,58 - 14,4,6,,,,,
+S024,,42,60,,,,,,,
+S024,,43,8,,,,,,,
+S024,12,44,assists,8,8,,,,,
+S024,,45,8,,,,,,,
+S024,12,46,assists,8,8,,,,,
+S024,2,47,58 - 14,4,6,,,,,
+S024,,48,60,,,,,,,
+S024,,49,8,,,,,,,
+S024,12,50,assists,8,8,,,,,
+S024,,51,8,,,,,,,
+S024,12,52,assists,8,8,,,,,
+S024,,53,60,,,,,,,
+S024,,54,8,,,,,,,
+S024,12,55,assists,8,8,,,,,
+S024,,56,8,,,,,,,
+S024,12,57,assists,8,8,,,,,
+S024,,58,60,,,,,,,
+S024,,59,8,,,,,,,
+S024,12,60,assists,8,8,,,,,
+S024,,61,8,,,,,,,
+S024,12,62,assists,8,8,,,,,
+S024,2,63,58 - 14,4,6,,,,,
+S024,,64,8,,,,,,,
+S024,12,65,assists,8,8,,,,,
+S024,,66,8,,,,,,,
+S024,12,67,assists,8,8,,,,,
+S024,2,68,58 - 14,4,6,,,,,
+S024,,69,8,,,,,,,
+S024,12,70,assists,8,8,,,,,
+S024,,71,8,,,,,,,
+S024,12,72,assists,8,8,,,,,
+S024,2,73,58 - 14,4,6,,,,,
+S024,,74,8,,,,,,,
+S024,12,75,assists,8,8,,,,,
+S024,,76,8,,,,,,,
+S024,12,77,assists,8,8,,,,,
+S024,,78,60,,,,,,,
+S024,,79,8,,,,,,,
+S024,12,80,assists,8,8,,,,,
+S024,,81,60,,,,,,,
+S024,,82,8,,,,,,,
+S024,12,83,assists,8,8,,,,,
+S024,,84,60,,,,,,,
+S024,,85,8,,,,,,,
+S024,12,86,assists,8,8,,,,,
+S024,,87,60,,,,,,,
+S024,,88,8,,,,,,,
+S024,12,89,assists,8,8,,,,,
+S024,,90,60,,,,,,,
+S024,,91,8,,,,,,,
+S024,12,92,assists,8,8,,,,,
+S024,,93,60,,,,,,,
+S024,,94,8,,,,,,,
+S024,12,95,assists,8,8,,,,,
+S024,2,96,58,4,4,,,,,
+S024,,97,8,,,,,,,
+S024,12,98,assists,8,8,,,,,
+S024,2,99,58,4,4,,,,,
+S024,,100,8,,,,,,,
+S024,12,101,assists,8,8,,,,,
+S024,2,102,58,4,4,,,,,
+S024,,103,8,,,,,,,
+S024,12,104,assists,8,8,,,,,
+S024,2,105,58,4,4,,,,,
+S024,,106,8,,,,,,,
+S024,12,107,assists,8,8,,,,,
+S024,2,108,58,4,4,,,,,
+S024,,109,8,,,,,,,
+S024,12,110,assists,8,8,,,,,
+S024,,111,60,,,,,,,
+S024,,112,8,,,,,,,
+S024,12,113,assists,8,8,,,,,
+S024,,114,60,,,,,,,
+S024,,115,8,,,,,,,
+S024,12,116,assists,8,8,,,,,
+S024,,117,60,,,,,,,
+S024,,118,8,,,,,,,
+S024,12,119,assists,8,8,,,,,
+S024,,120,60,,,,,,,
+S024,,121,8,,,,,,,
+S024,12,122,assists,8,8,,,,,
+S024,,123,60,,,,,,,
+S024,,124,8,,,,,,,
+S024,12,125,assists,8,8,,,,,
+S024,,126,60,,,,,,,
+S024,,127,8,,,,,,,
+S024,12,128,assists,8,8,,,,,
+S024,,129,60,,,,,,,
+S024,,130,8,,,,,,,
+S024,12,131,assists,8,8,,,,,
+S024,,132,60,,,,,,,
+S024,,133,8,,,,,,,
+S024,12,134,assists,8,8,,,,,
+S024,,135,60,,,,,,,
+S024,,136,8,,,,,,,
+S024,12,137,assists,8,8,,,,,
+S024,,138,60,,,,,,,
+S024,,139,8,,,,,,,
+S024,12,140,assists,8,8,,,,,
+S024,,141,60,,,,,,,
+S024,,142,8,,,,,,,
+S024,12,143,assists,8,8,,,,,
+S024,,144,60,,,,,,,
+S024,,145,8,,,,,,,
+S024,12,146,assists,8,8,,,,,
+S024,,147,60,,,,,,,
+S024,,148,8,,,,,,,
+S024,12,149,assists,8,8,,,,,
+S024,,150,60,,,,,,,
+S024,,151,8,,,,,,,
+S024,12,152,assists,8,8,,,,,
+S024,,153,60,,,,,,,
+S024,,154,8,,,,,,,
+S024,12,155,assists,8,8,,,,,
+S024,,156,60,,,,,,,
+S024,,157,8,,,,,,,
+S024,12,158,assists,8,8,,,,,
+S024,,159,60,,,,,,,
+S024,,160,8,,,,,,,
+S024,12,161,assists,8,8,,,,,
+S024,,162,60,,,,,,,
+S024,,163,8,,,,,,,
+S024,12,164,assists,8,8,,,,,
+S024,,165,60,,,,,,,
+S024,,166,8,,,,,,,
+S024,12,167,assists,8,8,,,,,
+S024,,168,60,,,,,,,
+S024,,169,8,,,,,,,
+S024,12,170,assists,8,8,,,,,
+S024,,171,60,,,,,,,
+S024,,172,8,,,,,,,
+S024,12,173,assists,8,8,,,,,
+S024,,174,60,,,,,,,
+S024,,175,8,,,,,,,
+S024,12,176,assists,8,8,,,,,
+S024,,177,60,,,,,,,
+S024,,178,8,,,,,,,
+S024,12,179,assists,8,8,,,,,
+S024,,180,60,,,,,,,
+S024,,181,8,,,,,,,
+S024,12,182,assists,8,8,,,,,
+S024,,183,60,,,,,,,
+S024,,184,8,,,,,,,
+S024,12,185,assists,8,8,,,,,
+S024,,186,60,,,,,,,
+S024,,187,8,,,,,,,
+S024,12,188,assists,8,8,,,,,
+S024,,189,60,,,,,,,
+S024,,190,8,,,,,,,
+S024,12,191,assists,8,8,,,,,
+S024,,192,60,,,,,,,
+S024,,193,8,,,,,,,
+S024,12,194,assists,8,8,,,,,
+S024,,195,60,,,,,,,
+S024,,196,8,,,,,,,
+S024,12,197,assists,8,8,,,,,
+S024,,198,60,,,,,,,
+S024,,199,8,,,,,,,
+S024,12,200,assists,8,8,,,,,
+S024,,201,60,,,,,,,
+S024,,202,8,,,,,,,
+S024,12,203,assists,8,8,,,,,
+S024,,204,60,,,,,,,
+S024,,205,8,,,,,,,
+S024,12,206,assists,8,8,,,,,
+S024,,207,60,,,,,,,
+S024,,208,8,,,,,,,
+S024,12,209,assists,8,8,,,,,
+S024,,210,60,,,,,,,
+S024,,211,8,,,,,,,
+S024,12,212,assists,8,8,,,,,
+S024,,213,60,,,,,,,
+S024,,214,8,,,,,,,
+S024,12,215,assists,8,8,,,,,
+S024,,216,60,,,,,,,
+S024,,217,8,,,,,,,
+S024,12,218,assists,8,8,,,,,
+S024,,219,60,,,,,,,
+S024,,220,8,,,,,,,
+S024,12,221,assists,8,8,,,,,
+S024,,222,60,,,,,,,
+S024,,223,8,,,,,,,
+S024,12,224,assists,8,8,,,,,
+S024,,225,60,,,,,,,
+S024,,226,8,,,,,,,
+S024,12,227,assists,8,8,,,,,
+S024,,228,60,,,,,,,
+S024,,229,8,,,,,,,
+S024,12,230,assists,8,8,,,,,
+S024,,231,60,,,,,,,
+S024,,232,8,,,,,,,
+S024,12,233,assists,8,8,,,,,
+S024,,234,60,,,,,,,
+S024,,235,8,,,,,,,
+S024,12,236,assists,8,8,,,,,
+S024,,237,60,,,,,,,
+S024,,238,8,,,,,,,
+S024,12,239,assists,8,8,,,,,
+S024,,240,60,,,,,,,
+S024,,241,8,,,,,,,
+S024,12,242,assists,8,8,,,,,
+S024,,243,60,,,,,,,
+S024,,244,8,,,,,,,
+S024,12,245,assists,8,8,,,,,
+S024,,246,60,,,,,,,
+S024,,247,8,,,,,,,
+S024,12,248,assists,8,8,,,,,
+S024,,249,60,,,,,,,
+S024,,250,8,,,,,,,
+S024,12,251,assists,8,8,,,,,
+S024,,252,60,,,,,,,
+S024,,253,8,,,,,,,
+S024,12,254,assists,8,8,,,,,
+S024,,255,60,,,,,,,
+S024,,256,8,,,,,,,
+S024,12,257,assists,8,8,,,,,
+S024,,258,60,,,,,,,
+S024,,259,8,,,,,,,
+S024,12,260,assists,8,8,,,,,
+S024,,261,60,,,,,,,
+S024,,262,8,,,,,,,
+S024,12,263,assists,8,8,,,,,
+S024,,264,60,,,,,,,
+S024,,265,8,,,,,,,
+S024,12,266,assists,8,8,,,,,
+S024,,267,60,,,,,,,
+S024,,268,8,,,,,,,
+S024,12,269,assists,8,8,,,,,
+S024,,270,60,,,,,,,
+S024,,271,8,,,,,,,
+S024,12,272,assists,8,8,,,,,
+S024,,273,60,,,,,,,
+S024,,274,8,,,,,,,
+S024,12,275,assists,8,8,,,,,
+S024,,276,60,,,,,,,
+S024,,277,8,,,,,,,
+S024,12,278,assists,8,8,,,,,
+S024,,279,60,,,,,,,
+S024,,280,8,,,,,,,
+S024,12,281,assists,8,8,,,,,
+S024,,282,60,,,,,,,
+S024,,283,8,,,,,,,
+S024,12,284,assists,8,8,,,,,
+S024,,285,60,,,,,,,
+S024,,286,8,,,,,,,
+S024,12,287,assists,8,8,,,,,
+S024,,288,60,,,,,,,
+S024,,289,8,,,,,,,
+S024,12,290,assists,8,8,,,,,
+S024,,291,60,,,,,,,
+S024,,292,8,,,,,,,
+S024,12,293,assists,8,8,,,,,
+S024,,294,60,,,,,,,
+S024,,295,8,,,,,,,
+S024,12,296,assists,8,8,,,,,
+S024,,297,60,,,,,,,
+S024,,298,8,,,,,,,
+S024,12,299,assists,8,8,,,,,
+S024,,300,60,,,,,,,
+S024,,301,8,,,,,,,
+S024,12,302,assists,8,8,,,,,
+S024,,303,60,,,,,,,
+S024,,304,8,,,,,,,
+S024,12,305,assists,8,8,,,,,
+S024,,306,60,,,,,,,
+S024,,307,8,,,,,,,
+S024,12,308,assists,8,8,,,,,
+S024,,309,60,,,,,,,
+S024,,310,8,,,,,,,
+S024,12,311,assists,8,8,,,,,
+S024,,312,60,,,,,,,
+S024,,313,8,,,,,,,
+S024,12,314,assists,8,8,,,,,
+S024,,315,60,,,,,,,
+S024,,316,8,,,,,,,
+S024,12,317,assists,8,8,,,,,
+S024,,318,60,,,,,,,
+S024,,319,8,,,,,,,
+S024,12,320,assists,8,8,,,,,
+S024,,321,60,,,,,,,
+S024,,322,8,,,,,,,
+S024,12,323,assists,8,8,,,,,
+S024,,324,60,,,,,,,
+S024,,325,8,,,,,,,
+S024,12,326,assists,8,8,,,,,
+S024,,327,60,,,,,,,
+S024,,328,8,,,,,,,
+S024,12,329,assists,8,8,,,,,
+S024,,330,60,,,,,,,
+S024,,331,8,,,,,,,
+S024,12,332,assists,8,8,,,,,
+S024,,333,60,,,,,,,
+S024,,334,8,,,,,,,
+S024,12,335,assists,8,8,,,,,
+S024,,336,60,,,,,,,
+S024,,337,8,,,,,,,
+S024,12,338,assists,8,8,,,,,
+S024,,339,60,,,,,,,
+S024,,340,8,,,,,,,
+S024,12,341,assists,8,8,,,,,
+S024,,342,60,,,,,,,
+S024,,343,8,,,,,,,
+S024,12,344,assists,8,8,,,,,
+S024,,345,60,,,,,,,
+S024,,346,8,,,,,,,
+S024,12,347,assists,8,8,,,,,
+S024,,348,60,,,,,,,
+S024,,349,8,,,,,,,
+S024,12,350,assists,8,8,,,,,
+S024,,351,60,,,,,,,
+S024,,352,8,,,,,,,
+S024,12,353,assists,8,8,,,,,
+S024,,354,60,,,,,,,
+S024,,355,8,,,,,,,
+S024,12,356,assists,8,8,,,,,
+S024,,357,60,,,,,,,
+S024,,358,8,,,,,,,
+S024,12,359,assists,8,8,,,,,
+S024,,360,60,,,,,,,
+S024,,361,8,,,,,,,
+S024,12,362,assists,8,8,,,,,
+S024,,363,60,,,,,,,
+S024,,364,8,,,,,,,
+S024,12,365,assists,8,8,,,,,
+S024,,366,60,,,,,,,
+S024,,367,8,,,,,,,
+S024,12,368,assists,8,8,,,,,
+S024,,369,60,,,,,,,
+S024,,370,8,,,,,,,
+S024,12,371,assists,8,8,,,,,
+S024,,372,60,,,,,,,
+S024,,373,8,,,,,,,
+S024,12,374,assists,8,8,,,,,
+S024,,375,60,,,,,,,
+S024,,376,8,,,,,,,
+S024,12,377,assists,8,8,,,,,
+S024,,378,60,,,,,,,
+S024,,379,8,,,,,,,
+S024,12,380,assists,8,8,,,,,
+S024,,381,60,,,,,,,
+S024,,382,8,,,,,,,
+S024,12,383,assists,8,8,,,,,
+S024,,384,60,,,,,,,
+S024,,385,8,,,,,,,
+S024,12,386,assists,8,8,,,,,
+S024,,387,60,,,,,,,
+S024,,388,8,,,,,,,
+S024,12,389,assists,8,8,,,,,
+S024,,390,60,,,,,,,
+S024,,391,8,,,,,,,
+S024,12,392,assists,8,8,,,,,
+S024,,393,60,,,,,,,
+S024,,394,8,,,,,,,
+S024,12,395,assists,8,8,,,,,
+S024,,396,60,,,,,,,
+S024,,397,8,,,,,,,
+S024,12,398,assists,8,8,,,,,
+S024,,399,60,,,,,,,
+S024,,400,8,,,,,,,
+S024,12,401,assists,8,8,,,,,
+S024,,402,60,,,,,,,
+S024,,403,8,,,,,,,
+S024,12,404,assists,8,8,,,,,
+S024,,405,60,,,,,,,
+S024,,406,8,,,,,,,
+S024,12,407,assists,8,8,,,,,
+S024,,408,60,,,,,,,
+S024,,409,8,,,,,,,
+S024,12,410,assists,8,8,,,,,
+S024,,411,60,,,,,,,
+S024,,412,8,,,,,,,
+S024,12,413,assists,8,8,,,,,
+S024,,414,60,,,,,,,
+S024,,415,8,,,,,,,
+S024,12,416,assists,8,8,,,,,
+S024,,417,60,,,,,,,
+S024,,418,8,,,,,,,
+S024,12,419,assists,8,8,,,,,
+S024,,420,60,,,,,,,
+S024,,421,8,,,,,,,
+S024,12,422,assists,8,8,,,,,
+S024,,423,60,,,,,,,
+S024,,424,8,,,,,,,
+S024,12,425,assists,8,8,,,,,
+S024,,426,60,,,,,,,
+S024,,427,8,,,,,,,
+S024,12,428,assists,8,8,,,,,
+S024,,429,60,,,,,,,
+S024,,430,8,,,,,,,
+S024,12,431,assists,8,8,,,,,
+S024,,432,60,,,,,,,
+S024,,433,8,,,,,,,
+S024,12,434,assists,8,8,,,,,
+S024,,435,60,,,,,,,
+S024,,436,8,,,,,,,
+S024,12,437,assists,8,8,,,,,
+S024,,438,60,,,,,,,
+S024,,439,8,,,,,,,
+S024,12,440,assists,8,8,,,,,
+S024,,441,60,,,,,,,
+S024,,442,8,,,,,,,
+S024,12,443,assists,8,8,,,,,
+S024,,444,60,,,,,,,
+S024,,445,8,,,,,,,
+S024,12,446,assists,8,8,,,,,
+S024,,447,60,,,,,,,
+S024,,448,8,,,,,,,
+S024,12,449,assists,8,8,,,,,
+S024,,450,60,,,,,,,
+S024,,451,8,,,,,,,
+S024,12,452,assists,8,8,,,,,
+S024,,453,60,,,,,,,
+S024,,454,8,,,,,,,
+S024,12,455,assists,8,8,,,,,
+S024,,456,60,,,,,,,
+S024,,457,8,,,,,,,
+S024,12,458,assists,8,8,,,,,
+S024,,459,60,,,,,,,
+S024,,460,8,,,,,,,
+S024,12,461,assists,8,8,,,,,
+S024,,462,60,,,,,,,
+S024,,463,8,,,,,,,
+S024,12,464,assists,8,8,,,,,
+S024,,465,60,,,,,,,
+S024,,466,8,,,,,,,
+S024,12,467,assists,8,8,,,,,
+S024,,468,60,,,,,,,
+S024,,469,8,,,,,,,
+S024,12,470,assists,8,8,,,,,
+S024,,471,60,,,,,,,
+S024,,472,8,,,,,,,
+S024,12,473,assists,8,8,,,,,
+S024,,474,60,,,,,,,
+S024,,475,8,,,,,,,
+S024,12,476,assists,8,8,,,,,
+S024,,477,60,,,,,,,
+S024,,478,8,,,,,,,
+S024,12,479,assists,8,8,,,,,
+S024,,480,60,,,,,,,
+S024,,481,8,,,,,,,
+S024,12,482,assists,8,8,,,,,
+S024,,483,60,,,,,,,
+S024,,484,8,,,,,,,
+S024,12,485,assists,8,8,,,,,
+S024,,486,60,,,,,,,
+S024,,487,8,,,,,,,
+S024,12,488,assists,8,8,,,,,
+S024,,489,60,,,,,,,
+S024,,490,8,,,,,,,
+S024,12,491,assists,8,8,,,,,
+S024,,492,60,,,,,,,
+S024,,493,8,,,,,,,
+S024,12,494,assists,8,8,,,,,
+S024,,495,60,,,,,,,
+S027,,1,The Houston Rockets (7-10) defeated the New York Knicks (8-10) 111-111,,,,,CORRECTION,The New York Knicks defeated the Houston Rockets 111-111 on Wednesday at Madison Square Garden in New York.,Swapping the teams to match the correct result.
+S027,2,2,The Knicks got off to a quick start,1,8,,,COMMENT,,Initial game performance description.
+S027,2,3,the Knicks 25 - 21,16,20,,,COMMENT,,First quarter score.
+S027,3,4,The Rockets were the superior,1,5,,,COMMENT,,Shooting performance description.
+S027,,5,went 58 % from,,,,,COMMENT,,Field goal percentage.
+S027,,6,and 33 %,,,,,COMMENT,,Three point percentage.
+S027,,7,the Rockets went 58 %,,,,,COMMENT,,Field goal percentage.
+S027,,8,and 33 %,,,,,COMMENT,,Three point percentage.
+S027,4,9,The Knicks were led,1,4,,,COMMENT,,Top scorer description.
+S027,4,10,Arron Afflalo,6,7,,,COMMENT,,Top scorer name.
+S027,4,11,went 13 - for -,10,14,,,COMMENT,,Field goal percentage.
+S027,4,12,the field and 2 - for -,17,23,,,COMMENT,,Three point percentage.
+S027,4,13,the three - point line,26,30,,,COMMENT,,Three point line description.
+S027,4,14,to score,31,32,,,COMMENT,,Top scorer points.
+S027,4,15,game - high of 31,34,38,,,COMMENT,,Top scorer points.
+S027,5,16,while also adding,35,37,,,COMMENT,,Additional stats.
+S027,5,17,seven rebounds,38,39,,,COMMENT,,Additional stats.
+S027,4,18,and three assists,46,48,,,COMMENT,,Additional stats.
+S027,,19,Top scorer,,,,,COMMENT,,Repeating information.
+S027,4,20,Afflalo,7,7,,,COMMENT,,Repeating name.
+S027,4,21,went 13 - for -,10,14,,,COMMENT,,Repeating field goal percentage.
+S027,4,22,the field and 2 - for -,17,23,,,COMMENT,,Repeating three point percentage.
+S027,4,23,the three - point line,26,30,,,COMMENT,,Repeating three point line description.
+S027,4,24,to score,31,32,,,COMMENT,,Repeating information.
+S027,4,25,game - high,34,36,,,COMMENT,,Repeating information.
+S027,5,26,31 points,13,14,,,COMMENT,,Repeating information.
+S027,5,27,while also adding,35,37,,,COMMENT,,Repeating additional stats.
+S027,7,28,rebounds,34,34,,,COMMENT,,Repeating additional stats.
+S027,4,29,and three assists,46,48,,,COMMENT,,Repeating additional stats.
+S027,4,30,Afflalo,7,7,,,COMMENT,,Repeating name.
+S027,2,31,got,3,3,,,COMMENT,,Additional top scorer information.
+S027,2,32,off to,4,5,,,COMMENT,,Additional top scorer information.
+S027,2,33,quick start,7,8,,,COMMENT,,Additional top scorer information.
+S027,7,34,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,35,showing,,,,,COMMENT,,Additional top scorer information.
+S027,6,36,he,13,13,,,COMMENT,,Additional top scorer information.
+S027,2,37,one,11,11,,,COMMENT,,Additional top scorer information.
+S027,8,38,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,39,players,,,,,COMMENT,,Additional top scorer information.
+S027,4,40,Afflalo,7,7,,,COMMENT,,Repeating name.
+S027,7,41,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,42,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,7,43,with,13,13,,,COMMENT,,Additional top scorer information.
+S027,,44,many,,,,,COMMENT,,Additional top scorer information.
+S027,6,45,his,23,23,,,COMMENT,,Additional top scorer information.
+S027,3,46,going,11,11,,,COMMENT,,Additional top scorer information.
+S027,8,47,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,48,But,,,,,COMMENT,,Additional top scorer information.
+S027,,49,the,,,,,COMMENT,,Additional top scorer information.
+S027,7,50,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,51,about,,,,,COMMENT,,Additional top scorer information.
+S027,,52,anymore,,,,,COMMENT,,Additional top scorer information.
+S027,,53,about,,,,,COMMENT,,Additional top scorer information.
+S027,,54,team,,,,,COMMENT,,Additional top scorer information.
+S027,8,55,The,1,1,,,COMMENT,,Additional top scorer information.
+S027,7,56,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,57,defense,,,,,COMMENT,,Additional top scorer information.
+S027,7,58,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,59,offense,,,,,COMMENT,,Additional top scorer information.
+S027,,60,The,,,,,COMMENT,,Additional top scorer information.
+S027,7,61,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,62,throughout,,,,,COMMENT,,Additional top scorer information.
+S027,7,63,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,64,offense,,,,,COMMENT,,Additional top scorer information.
+S027,7,65,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,66,impressive,,,,,COMMENT,,Additional top scorer information.
+S027,,67,The,,,,,COMMENT,,Additional top scorer information.
+S027,,68,scored,,,,,COMMENT,,Additional top scorer information.
+S027,7,69,points,15,15,,,COMMENT,,Additional top scorer information.
+S027,2,70,in,21,21,,,COMMENT,,Additional top scorer information.
+S027,2,71,first,23,23,,,COMMENT,,Additional top scorer information.
+S027,7,72,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,73,defense,,,,,COMMENT,,Additional top scorer information.
+S027,7,74,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,75,throughout,,,,,COMMENT,,Additional top scorer information.
+S027,,76,The,,,,,COMMENT,,Additional top scorer information.
+S027,,77,stopped,,,,,COMMENT,,Additional top scorer information.
+S027,,78,opposing,,,,,COMMENT,,Additional top scorer information.
+S027,4,79,from,25,25,,,COMMENT,,Additional top scorer information.
+S027,7,80,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,81,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,82,team,,,,,COMMENT,,Additional top scorer information.
+S027,8,83,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,2,84,scoring,15,15,,,COMMENT,,Additional top scorer information.
+S027,7,85,points,15,15,,,COMMENT,,Additional top scorer information.
+S027,,86,The,,,,,COMMENT,,Additional top scorer information.
+S027,,87,did,,,,,COMMENT,,Additional top scorer information.
+S027,,88,give,,,,,COMMENT,,Additional top scorer information.
+S027,,89,many,,,,,COMMENT,,Additional top scorer information.
+S027,4,90,to,31,31,,,COMMENT,,Additional top scorer information.
+S027,,91,but,,,,,COMMENT,,Additional top scorer information.
+S027,,92,converted,,,,,COMMENT,,Additional top scorer information.
+S027,,93,their,,,,,COMMENT,,Additional top scorer information.
+S027,,94,into,,,,,COMMENT,,Additional top scorer information.
+S027,7,95,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,96,defense,,,,,COMMENT,,Additional top scorer information.
+S027,7,97,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,98,throughout,,,,,COMMENT,,Additional top scorer information.
+S027,,99,the,,,,,COMMENT,,Additional top scorer information.
+S027,4,100,and,46,46,,,COMMENT,,Additional top scorer information.
+S027,7,101,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,102,key,,,,,COMMENT,,Additional top scorer information.
+S027,8,103,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,3,104,in,7,7,,,COMMENT,,Additional top scorer information.
+S027,8,105,game,5,5,,,COMMENT,,Additional top scorer information.
+S027,,106,The,,,,,COMMENT,,Additional top scorer information.
+S027,5,107,also,36,36,,,COMMENT,,Additional top scorer information.
+S027,,108,their,,,,,COMMENT,,Additional top scorer information.
+S027,2,109,in,21,21,,,COMMENT,,Additional top scorer information.
+S027,,110,victory,,,,,COMMENT,,Additional top scorer information.
+S027,,111,they,,,,,COMMENT,,Additional top scorer information.
+S027,,112,able,,,,,COMMENT,,Additional top scorer information.
+S027,,113,execute,,,,,COMMENT,,Additional top scorer information.
+S027,7,114,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,115,their,,,,,COMMENT,,Additional top scorer information.
+S027,,116,paid,,,,,COMMENT,,Additional top scorer information.
+S027,2,117,in,21,21,,,COMMENT,,Additional top scorer information.
+S027,,118,form of,,,,,COMMENT,,Additional top scorer information.
+S027,7,119,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,120,The,,,,,COMMENT,,Additional top scorer information.
+S027,7,121,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,,122,solid,,,,,COMMENT,,Additional top scorer information.
+S027,,123,they,,,,,COMMENT,,Additional top scorer information.
+S027,,124,many,,,,,COMMENT,,Additional top scorer information.
+S027,,125,attacks,,,,,COMMENT,,Additional top scorer information.
+S027,,126,it,,,,,COMMENT,,Additional top scorer information.
+S027,,127,crucial,,,,,COMMENT,,Additional top scorer information.
+S027,8,128,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,129,the victory,,,,,COMMENT,,Additional top scorer information.
+S027,8,130,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,131,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,,132,overall,,,,,COMMENT,,Additional top scorer information.
+S027,7,133,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,2,134,in the,21,22,,,COMMENT,,Additional top scorer information.
+S027,,135,it,,,,,COMMENT,,Additional top scorer information.
+S027,,136,the cohesiveness,,,,,COMMENT,,Additional top scorer information.
+S027,8,137,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,138,that,,,,,COMMENT,,Additional top scorer information.
+S027,8,139,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,140,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,141,hardwork,,,,,COMMENT,,Additional top scorer information.
+S027,7,142,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,,143,paid,,,,,COMMENT,,Additional top scorer information.
+S027,,144,it,,,,,COMMENT,,Additional top scorer information.
+S027,8,145,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,146,cohesion,,,,,COMMENT,,Additional top scorer information.
+S027,,147,that,,,,,COMMENT,,Additional top scorer information.
+S027,8,148,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,149,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,6,150,over,22,22,,,COMMENT,,Additional top scorer information.
+S027,,151,their,,,,,COMMENT,,Additional top scorer information.
+S027,8,152,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,153,united,,,,,COMMENT,,Additional top scorer information.
+S027,7,154,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,155,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,156,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,157,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,,158,paid,,,,,COMMENT,,Additional top scorer information.
+S027,7,159,with,13,13,,,COMMENT,,Additional top scorer information.
+S027,,160,hardearned,,,,,COMMENT,,Additional top scorer information.
+S027,,161,victory,,,,,COMMENT,,Additional top scorer information.
+S027,8,162,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,,163,united,,,,,COMMENT,,Additional top scorer information.
+S027,7,164,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,165,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,166,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,167,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,168,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,169,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,170,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,171,success,,,,,COMMENT,,Additional top scorer information.
+S027,,172,their,,,,,COMMENT,,Additional top scorer information.
+S027,,173,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,174,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,175,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,176,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,177,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,178,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,179,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,180,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,181,success,,,,,COMMENT,,Additional top scorer information.
+S027,,182,their,,,,,COMMENT,,Additional top scorer information.
+S027,,183,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,184,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,185,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,186,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,187,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,188,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,189,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,190,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,191,success,,,,,COMMENT,,Additional top scorer information.
+S027,,192,their,,,,,COMMENT,,Additional top scorer information.
+S027,,193,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,194,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,195,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,196,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,197,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,198,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,199,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,200,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,201,success,,,,,COMMENT,,Additional top scorer information.
+S027,,202,their,,,,,COMMENT,,Additional top scorer information.
+S027,,203,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,204,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,205,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,206,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,207,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,208,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,209,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,210,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,211,success,,,,,COMMENT,,Additional top scorer information.
+S027,,212,their,,,,,COMMENT,,Additional top scorer information.
+S027,,213,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,214,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,215,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,216,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,217,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,218,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,219,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,220,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,221,success,,,,,COMMENT,,Additional top scorer information.
+S027,,222,their,,,,,COMMENT,,Additional top scorer information.
+S027,,223,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,224,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,225,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,226,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,227,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,228,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,229,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,230,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,231,success,,,,,COMMENT,,Additional top scorer information.
+S027,,232,their,,,,,COMMENT,,Additional top scorer information.
+S027,,233,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,234,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,235,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,236,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,237,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,238,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,239,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,240,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,241,success,,,,,COMMENT,,Additional top scorer information.
+S027,,242,their,,,,,COMMENT,,Additional top scorer information.
+S027,,243,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,244,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,245,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,246,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,247,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,248,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,249,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,250,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,251,success,,,,,COMMENT,,Additional top scorer information.
+S027,,252,their,,,,,COMMENT,,Additional top scorer information.
+S027,,253,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,254,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,255,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,256,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,257,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,258,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,259,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,260,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,261,success,,,,,COMMENT,,Additional top scorer information.
+S027,,262,their,,,,,COMMENT,,Additional top scorer information.
+S027,,263,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,264,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,265,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,266,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,267,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,268,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,269,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,270,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,271,success,,,,,COMMENT,,Additional top scorer information.
+S027,,272,their,,,,,COMMENT,,Additional top scorer information.
+S027,,273,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,274,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,275,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,276,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,277,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,278,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,279,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,280,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,281,success,,,,,COMMENT,,Additional top scorer information.
+S027,,282,their,,,,,COMMENT,,Additional top scorer information.
+S027,,283,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,284,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,285,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,286,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,287,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,288,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,289,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,290,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,291,success,,,,,COMMENT,,Additional top scorer information.
+S027,,292,their,,,,,COMMENT,,Additional top scorer information.
+S027,,293,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,294,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,295,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,296,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,297,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,298,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,299,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,300,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,301,success,,,,,COMMENT,,Additional top scorer information.
+S027,,302,their,,,,,COMMENT,,Additional top scorer information.
+S027,,303,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,304,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,305,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,306,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,307,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,308,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,309,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,310,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,311,success,,,,,COMMENT,,Additional top scorer information.
+S027,,312,their,,,,,COMMENT,,Additional top scorer information.
+S027,,313,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,314,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,315,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,316,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,317,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,318,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,319,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,320,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,321,success,,,,,COMMENT,,Additional top scorer information.
+S027,,322,their,,,,,COMMENT,,Additional top scorer information.
+S027,,323,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,324,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,325,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,326,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,327,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,328,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,329,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,330,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,331,success,,,,,COMMENT,,Additional top scorer information.
+S027,,332,their,,,,,COMMENT,,Additional top scorer information.
+S027,,333,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,334,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,335,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,336,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,337,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,338,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,339,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,340,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,341,success,,,,,COMMENT,,Additional top scorer information.
+S027,,342,their,,,,,COMMENT,,Additional top scorer information.
+S027,,343,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,344,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,345,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,346,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,347,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,348,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,349,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,350,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,351,success,,,,,COMMENT,,Additional top scorer information.
+S027,,352,their,,,,,COMMENT,,Additional top scorer information.
+S027,,353,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,354,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,355,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,356,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,357,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,358,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,359,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,360,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,361,success,,,,,COMMENT,,Additional top scorer information.
+S027,,362,their,,,,,COMMENT,,Additional top scorer information.
+S027,,363,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,364,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,365,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,366,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,367,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,368,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,369,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,370,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,371,success,,,,,COMMENT,,Additional top scorer information.
+S027,,372,their,,,,,COMMENT,,Additional top scorer information.
+S027,,373,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,374,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,375,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,376,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,377,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,378,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,379,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,380,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,381,success,,,,,COMMENT,,Additional top scorer information.
+S027,,382,their,,,,,COMMENT,,Additional top scorer information.
+S027,,383,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,384,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,385,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,386,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,1,387,at,24,24,,,COMMENT,,Additional top scorer information.
+S027,4,388,were,3,3,,,COMMENT,,Additional top scorer information.
+S027,8,389,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,8,390,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,,391,success,,,,,COMMENT,,Additional top scorer information.
+S027,,392,their,,,,,COMMENT,,Additional top scorer information.
+S027,,393,efforts,,,,,COMMENT,,Additional top scorer information.
+S027,7,394,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,8,395,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,8,396,the,27,27,,,,,

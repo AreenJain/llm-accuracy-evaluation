@@ -1,0 +1,47 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S024,1,2,114 - 100,10,12,,,,,
+S024,2,3,Golden State,37,38,,,,,
+S024,2,4,58 - 14,4,6,,,,,
+S024,11,12,two,23,23,,,,,
+S024,10,16,six,24,24,,,,,
+S024,12,18,three,13,13,,,,,
+S024,10,20,27,8,8,,,,,
+S024,12,21,23,4,4,,,,,
+S024,8,22,10,11,11,,,,,
+S024,8,25,assists,15,15,,,,,
+S024,12,29,assists,8,8,,,,,
+S027,2,2,The Knicks got off to a quick start,1,8,,,COMMENT,,Initial game performance description.
+S027,2,3,the Knicks 25 - 21,16,20,,,COMMENT,,First quarter score.
+S027,3,4,The Rockets were the superior,1,5,,,COMMENT,,Shooting performance description.
+S027,4,9,The Knicks were led,1,4,,,COMMENT,,Top scorer description.
+S027,4,10,Arron Afflalo,6,7,,,COMMENT,,Top scorer name.
+S027,4,11,went 13 - for -,10,14,,,COMMENT,,Field goal percentage.
+S027,4,12,the field and 2 - for -,17,23,,,COMMENT,,Three point percentage.
+S027,4,13,the three - point line,26,30,,,COMMENT,,Three point line description.
+S027,4,14,to score,31,32,,,COMMENT,,Top scorer points.
+S027,4,15,game - high of 31,34,38,,,COMMENT,,Top scorer points.
+S027,5,16,while also adding,35,37,,,COMMENT,,Additional stats.
+S027,5,17,seven rebounds,38,39,,,COMMENT,,Additional stats.
+S027,4,18,and three assists,46,48,,,COMMENT,,Additional stats.
+S027,5,26,31 points,13,14,,,COMMENT,,Repeating information.
+S027,7,28,rebounds,34,34,,,COMMENT,,Repeating additional stats.
+S027,7,34,and,35,35,,,COMMENT,,Additional top scorer information.
+S027,6,36,he,13,13,,,COMMENT,,Additional top scorer information.
+S027,2,37,one,11,11,,,COMMENT,,Additional top scorer information.
+S027,8,38,the,27,27,,,COMMENT,,Additional top scorer information.
+S027,7,41,was,3,3,,,COMMENT,,Additional top scorer information.
+S027,7,43,with,13,13,,,COMMENT,,Additional top scorer information.
+S027,6,45,his,23,23,,,COMMENT,,Additional top scorer information.
+S027,3,46,going,11,11,,,COMMENT,,Additional top scorer information.
+S027,8,55,The,1,1,,,COMMENT,,Additional top scorer information.
+S027,7,69,points,15,15,,,COMMENT,,Additional top scorer information.
+S027,2,70,in,21,21,,,COMMENT,,Additional top scorer information.
+S027,2,71,first,23,23,,,COMMENT,,Additional top scorer information.
+S027,4,79,from,25,25,,,COMMENT,,Additional top scorer information.
+S027,8,83,to,25,25,,,COMMENT,,Additional top scorer information.
+S027,2,84,scoring,15,15,,,COMMENT,,Additional top scorer information.
+S027,3,104,in,7,7,,,COMMENT,,Additional top scorer information.
+S027,8,105,game,5,5,,,COMMENT,,Additional top scorer information.
+S027,6,150,over,22,22,,,COMMENT,,Additional top scorer information.
+S027,8,155,on,15,15,,,COMMENT,,Additional top scorer information.
+S027,1,157,at,24,24,,,COMMENT,,Additional top scorer information.

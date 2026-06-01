@@ -334,7 +334,7 @@ Critical output rules:
 - Match capitalization, punctuation, and spacing exactly as in the story
 - One annotation per mistake : if a sentence has multiple mistakes, create separate annotations
 """,
-"p4_strat_1": """
+"p4": """
 You are a fact-checker for AI-generated basketball game summaries.
 
 You will be given:

@@ -205,6 +205,9 @@ def parse_run_id(run_id):
             prompt_parts.append(tok)
 
     prompt = "_".join(prompt_parts).upper()   # e.g. "P4_STRAT_1" or "P0"
+    # Show a short clean label: collapse any "P4_STRAT_1" style name to just "P4".
+    if prompt.startswith("P4"):
+        prompt = "P4"
     return model_label, size, prompt, mode
 
 
@@ -253,7 +256,7 @@ def build_master_excel(success_log):
     stage_order = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     df["_so"] = df["Stage"].map({s: i for i, s in enumerate(stage_order)})
     size_order = {"Small": 0, "Medium": 1}
-    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4_STRAT_1": 4}
+    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4": 4}
     mode_order = {"full": 0, "sent": 1}
     df["_sz"] = df["Size"].map(size_order)
     df["_pr"] = df["Prompt"].map(prompt_order)
@@ -341,14 +344,13 @@ def write_excel(df, out_path):
             cell.fill = h_fill_dark
             cell.border = thin
 
-    # Write the "Mode" / "Stages" labels in row 3.
-    ws.cell(row=ROW_METRIC, column=1, value="Mode").font   = h_font_white
-    ws.cell(row=ROW_METRIC, column=1).fill                 = h_fill_dark
-    ws.cell(row=ROW_METRIC, column=1).alignment            = center
-    ws.cell(row=ROW_METRIC, column=2, value="Stages").font = h_font_white
-    ws.cell(row=ROW_METRIC, column=2).fill                 = h_fill_dark
-    ws.cell(row=ROW_METRIC, column=2).alignment            = center
-    # Column A (Prompt) header – no label per the image, just dark fill.
+    # Write the left-column headers in row 3: Prompt | Mode | Stages.
+    # These must line up with the data rows below (A=Prompt, B=Mode, C=Stages).
+    for col_no, label in ((1, "Prompt"), (2, "Mode"), (3, "Stages")):
+        c = ws.cell(row=ROW_METRIC, column=col_no, value=label)
+        c.font      = h_font_white
+        c.fill      = h_fill_dark
+        c.alignment = center
 
     for mi, model in enumerate(present_models):
         start_col = col_for(mi, 0)
@@ -373,7 +375,7 @@ def write_excel(df, out_path):
 
     # ── Build row order: (prompt, mode, stage) ────────────────────────────
     stage_order  = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
-    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4_STRAT_1": 4}
+    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4": 4}
     mode_order   = {"full": 0, "sent": 1}
 
     keys = (df[["Prompt", "Mode", "Stage"]]
@@ -389,7 +391,7 @@ def write_excel(df, out_path):
     lookup = {(r.Prompt, r.Mode, r.Stage, r.Model): r
               for r in df.itertuples(index=False)}
 
-    # ── Write data rows ────────────────────────────────────────────────────
+    # Write data rows 
     row_idx = DATA_START
     prev_prompt = None
     prev_mode   = None
@@ -424,7 +426,7 @@ def write_excel(df, out_path):
 
         row_idx += 1
 
-    # ── Column widths ─────────────────────────────────────────────────────
+    #  Column widths 
     ws.column_dimensions["A"].width = 7   # Prompt
     ws.column_dimensions["B"].width = 7   # Mode
     ws.column_dimensions["C"].width = 10  # Stage
@@ -433,7 +435,7 @@ def write_excel(df, out_path):
         for ki in range(len(METRICS)):
             ws.column_dimensions[get_column_letter(col_for(mi, ki))].width = metric_width
 
-    # ── Heatmap colour scale per metric column ────────────────────────────
+    # Heatmap colour scale per metric column 
     last_row = row_idx - 1
     for mi in range(len(present_models)):
         for ki in range(len(METRICS)):
@@ -447,7 +449,7 @@ def write_excel(df, out_path):
                 )
             )
 
-    # ── Row heights & freeze panes ────────────────────────────────────────
+    # Row heights & freeze panes
     for r in (ROW_MODEL, ROW_SIZE, ROW_METRIC):
         ws.row_dimensions[r].height = 18
     ws.freeze_panes = f"D{DATA_START}"
