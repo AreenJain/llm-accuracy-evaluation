@@ -4,7 +4,7 @@
 > using LLMs (Llama-3.1, Qwen-2.5).
 > **Author:** Areen Jain (MSc Computing, AI with NLP, DCU)
 > **Supervisor:** Craig Thomson · **Co-supervisor:** Anya Belz · **Partner:** Harshal Ahire
-> **GitHub:** https://github.com/Harshalexe/llm-accuracy-evaluation
+> **GitHub:** https://github.com/AreenJain/llm-accuracy-evaluation
 
 ---
 
@@ -37,7 +37,7 @@ PRACTICUM/
 │
 ├── pipeline/                    ← LLM-call layer (runs on Grove HPC)
 │   ├── grove_pipeline.py        ← MAIN: dispatches LLM, writes raw JSONL + CSV
-│   ├── prompts.py               ← 4 base prompts (p0–p3) + 4 _sent variants
+│   ├── prompts.py               ← base prompts p0–p3 (+ _sent variants) + p4 strategy prompt
 │   ├── Huggingface_pipeline.py  ← older HF inference script
 │   └── ollama_pipeline.py       ← small-model variant via Ollama
 │
@@ -51,7 +51,8 @@ PRACTICUM/
 │
 ├── evaluation/                  ← scoring + comparison
 │   ├── evaluate.py              ← Craig's canonical scorer (NEVER MODIFY)
-│   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage)
+│   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage) — flat Excel
+│   ├── batch_evaluate_format.py ← same run, but pivoted Excel (model groups across top)
 │   └── LLM_evaluate.py          ← legacy wrapper (kept for reference)
 │
 ├── results/                     ← all generated outputs
@@ -67,7 +68,6 @@ PRACTICUM/
 │   │   └── stage_abcde/         ← _abcde.csv        (A + B + C + D + E, final)
 │   └── eval_outputs/            ← per-(run, stage) eval CSVs + master comparison
 │
-├── notebooks/                   ← analysis notebooks
 ├── venv/                        ← Python virtual env (gitignored)
 └── requirements.txt
 ```
@@ -127,7 +127,7 @@ PRACTICUM/
 
 ---
 
-## 4. The 4 Prompt Strategies
+## 4. The Prompt Strategies
 
 | Key | Style | Description |
 |-----|-------|-------------|
@@ -135,10 +135,12 @@ PRACTICUM/
 | **p1** | Strict-rules | Same as p0 + strict JSON-only output instructions (no markdown, no preamble) |
 | **p2** | JSON-context | Recasts the box score as JSON; instructs the LLM to check sentence-by-sentence against JSON fields |
 | **p3** | LLM-as-Judge | Persona prompt: "You are a senior sports fact-checker with 20 years experience…" |
+| **p4** | Strategy / anchoring | Explicit field-by-field checking strategy (`p4_strat_1` in `prompts.py`). Shown simply as **P4** in the comparison sheet. |
 
-Each has a `_sent` variant (`p0_sent`, `p1_sent`, …) auto-derived in `prompts.py`.
-The `_sent` variant prepends a header forcing the LLM to fact-check **one sentence
-at a time**, with `SENTENCE_ID` locked to the loop value (not LLM-decided).
+p0–p3 each have a `_sent` variant (`p0_sent`, `p1_sent`, …) auto-derived in
+`prompts.py`. The `_sent` variant prepends a header forcing the LLM to fact-check
+**one sentence at a time**, with `SENTENCE_ID` locked to the loop value (not
+LLM-decided). p4 is currently run in full-story mode only.
 
 ---
 
@@ -241,9 +243,15 @@ wraps that:
 5. **Master comparison** built at the end:
    - Reads the "combined" row (the one whose `categories` field contains `|`)
      from each successful eval CSV.
-   - Produces `results/eval_outputs/master_comparison.xlsx` with columns:
-     `Model | Size | Prompt | Mode | Stage | Recall | Precision | Token Recall | Token Precision`.
+   - Produces `results/eval_outputs/master_comparison.xlsx`.
    - Color-scaled (red → yellow → green) so visual comparison is instant.
+
+**Two report layouts:**
+- `batch_evaluate.py` → flat table, one row per (model, size, prompt, mode, stage).
+- `batch_evaluate_format.py` → pivoted table: left columns are **Prompt | Mode
+  | Stages**; across the top each **model** is a group (model name → size
+  small/medium → recall, token_recall, precision, token_precision). Stray runs
+  with no prompt in the filename are skipped automatically.
 
 > **Why so many crashes?** Stages with blank rows (`raw`, `ordered`, `a`, `ab`,
 > `abc`) often crash because `evaluate.py` cannot handle missing token IDs or
@@ -410,9 +418,29 @@ TYPE, CORRECTION, COMMENT
 
 ---
 
-*End of workflow guide. Last updated 2026-05-26.*
+## 14. Handy One-Off Commands
 
+Run the p4 (strategy) prompt on a single small model, full-story:
+```bash
+python pipeline/ollama_pipeline_strat_1.py \
+  --games data/games_30_rows.csv \
+  --jsonl data/shared_task.jsonl \
+  --model llama_small \
+  --rows 30 \
+  --prompt p4_strat_1 \
+  --by_sent no
+```
 
-python pipeline/ollama_pipeline_strat_1.py --games data/games_30_rows.csv --jsonl data/shared_task.jsonl -- model llama_small --rows 30 --prompt p4_strat_1 --by_sent no
+Score one stage manually with the canonical scorer:
+```bash
+python evaluation/evaluate.py \
+  --gsml data/gsml_30_rows.csv \
+  --submitted results/formatted/ordered/results_llama_small_p4_run1_ordered.csv \
+  --token_lookup data/token_lookup.yaml \
+  --text_dir data/texts \
+  --csv_out results/eval_outputs/eval_llama_small_p4_run1.csv
+```
 
-python evaluation/evaluate.py --gsml data/gsml_30_rows.csv --submitted results/formatted/ordered/results_llama_small_p4_strat_1_run1_ordered.csv --token_lookup data/token_lookup.yaml --text_dir data/texts --csv_out results/eval_outputs/eval_llama_small_p4_strat_1_run1.csv
+---
+
+*End of workflow guide. Last updated 2026-06-02.*
