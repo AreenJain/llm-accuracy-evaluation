@@ -237,6 +237,10 @@ def build_master_excel(success_log):
                 continue
             r = combined.iloc[0]
             model, size, prompt, mode = parse_run_id(run_id)
+            # Skip stray runs that have no prompt in their name (e.g.
+            # "qwen_medium_run1") — they would add empty/garbage rows.
+            if not prompt:
+                continue
             rows.append({
                 "Model": model, "Size": size, "Prompt": prompt, "Mode": mode, "Stage": stage,
                 "Recall": fnum(r.get("recall")),
