@@ -2,8 +2,6 @@
 
 > **Project:** Factual error detection in computer-generated NBA basketball summaries
 > using LLMs (Llama-3.1, Qwen-2.5).
-> **Author:** Areen Jain (MSc Computing, AI with NLP, DCU)
-> **Supervisor:** Craig Thomson · **Co-supervisor:** Anya Belz · **Partner:** Harshal Ahire
 > **GitHub:** https://github.com/AreenJain/llm-accuracy-evaluation
 
 ---
@@ -27,7 +25,7 @@ and score every combination through the shared task's official scorer.
 PRACTICUM/
 ├── docs/                        ← documentation (this file, Project Flow.md, logs.txt)
 ├── data/                        ← inputs (read-only)
-│   ├── gsml.csv                 ← original 60-story GSML (Craig's gold standard)
+│   ├── gsml.csv                 ← original 60-story GSML (gold standard)
 │   ├── gsml_30_rows.csv         ← 30-story subset we use
 │   ├── games.csv                ← full 60-game box scores + GENERATED_TEXT
 │   ├── games_30_rows.csv        ← 30-game subset
@@ -50,7 +48,7 @@ PRACTICUM/
 │   └── stage_e_drop_unmatched.py   ← helper (drop_unmatched)
 │
 ├── evaluation/                  ← scoring + comparison
-│   ├── evaluate.py              ← Craig's canonical scorer (NEVER MODIFY)
+│   ├── evaluate.py              ← canonical shared-task scorer (NEVER MODIFY)
 │   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage) — flat Excel
 │   ├── batch_evaluate_format.py ← same run, but pivoted Excel (model groups across top)
 │   └── LLM_evaluate.py          ← legacy wrapper (kept for reference)
@@ -159,7 +157,6 @@ LLM-decided). p4 is currently run in full-story mode only.
 - Files: `results_<model>_<prompt>_sent_run<N>.csv` (note `_sent`).
 - `SENTENCE_ID` in the output is **forced** to the loop value — the LLM's
   reported `SENTENCE_ID` is ignored.
-- Tests Craig's "start good, end bad?" hypothesis: do LLMs get worse at later sentences?
 
 ---
 
@@ -179,7 +176,7 @@ LLM outputs cannot be fed directly into `evaluate.py` because:
 
 **Solution:** a 5-step cleanup pipeline applied serially. Stage A, B, C are
 recovery/validation steps; Stage D, E are a forced-convert tail that always
-runs after each. Craig's instruction: D and E are single-method only;
+runs after each. Design rule: D and E are single-method only;
 variant exploration is reserved for A, B, C.
 
 ### Stage 0 — `format_converter.py`
@@ -219,7 +216,7 @@ variant exploration is reserved for A, B, C.
 - After this stage the CSV has no blanks → ready for `evaluate.py`.
 
 > Why `_ade`, `_abde`, `_abcde` and not `_a`, `_ab`, `_abc`?
-> Per Craig (May 2026): **D and E together = "forced convert" layer**. Every
+> Design decision: **D and E together = "forced convert" layer**. Every
 > intermediate stage gets its own evaluable variant by applying D+E at the end.
 > The `_a`/`_ab`/`_abc` files are kept as diagnostics only (they contain blank
 > rows the evaluator can't handle).
@@ -252,11 +249,6 @@ wraps that:
   | Stages**; across the top each **model** is a group (model name → size
   small/medium → recall, token_recall, precision, token_precision). Stray runs
   with no prompt in the filename are skipped automatically.
-
-> **Why so many crashes?** Stages with blank rows (`raw`, `ordered`, `a`, `ab`,
-> `abc`) often crash because `evaluate.py` cannot handle missing token IDs or
-> non-integer values. That's expected. The `_ade`, `_abde`, `_abcde` stages —
-> which apply D+E — are the reliably evaluable ones.
 
 ---
 
@@ -372,7 +364,7 @@ TYPE, CORRECTION, COMMENT
   - Sentence-by-sentence for Qwen-72B and the small models (Llama-8B, Qwen-7B).
   - Phase-2 variants: A (add `document_only`), B (add `nearest_with_backoff`),
     C (add `casefold`, `normalized`).
-- **Diagnostic metrics to add** (per Craig's design doc):
+- **Diagnostic metrics to add** (planned):
   - % initially valid · % repaired by B · % blanked by C · % dropped by D/E
   - Mean repair shift distance (B)
 
@@ -392,19 +384,7 @@ TYPE, CORRECTION, COMMENT
 
 ---
 
-## 12. Quick Troubleshooting
-
-| Symptom | Likely cause | Fix |
-|---------|--------------|-----|
-| Empty CSV (~30 bytes) after a Grove run | `extract_json` failed (e.g. LLM returned bare object, or stale `grove_pipeline.py` on Grove) | Make sure the latest `grove_pipeline.py` is uploaded to Grove and re-run the job |
-| `KeyError: 'p2_sent'` on Grove | `prompts.py` not synced to Grove | `scp` the latest `prompts.py` over |
-| `ImportError: cannot import name 'drop_unmatched'` | Old version of `stage_e_drop_unmatched.py` (missing helper) | Confirm `drop_unmatched(df)` function exists at top of file |
-| Crashes in `evaluate.py` for `raw`/`ordered`/`a`/`ab`/`abc` stages | Expected — these stages have blank rows the scorer can't handle | Use `_ade`/`_abde`/`_abcde` (D+E-applied) for evaluation |
-| `master_comparison.xlsx` rows with empty metric cells | The eval CSV succeeded but had no "combined" category row (no mistakes detected) | Inspect the per-stage CSV manually |
-
----
-
-## 13. Glossary
+## 12. Glossary
 
 - **GSML** — Gold-Standard Mistake List. The 60-story human-annotated dataset from Thomson & Reiter 2021.
 - **Annotation** — A single mistake marked by a human (or LLM) with a token span, type, and correction.
@@ -413,12 +393,12 @@ TYPE, CORRECTION, COMMENT
 - **Span** — A `(SENT_TOKEN_START, SENT_TOKEN_END)` pair marking the wrong word(s).
 - **Stage** — A single processing step (raw, ordered, a, ade, ab, abde, abc, abcde).
 - **Mode** — Either `full` (whole-story per LLM call) or `sent` (sentence-by-sentence).
-- **Prompt key** — `p0`/`p1`/`p2`/`p3` for full-story or `p0_sent`/etc. for sentence mode.
+- **Prompt key** — `p0`/`p1`/`p2`/`p3`/`p4` for full-story, or `p0_sent`/etc. for sentence mode (p0–p3 only). p4 is the strategy prompt (`p4_strat_1`), shown as **P4**.
 - **Run ID** — `<model>_<size>_<prompt_key>_run<N>`, e.g. `llama_medium_p0_sent_run1`.
 
 ---
 
-## 14. Handy One-Off Commands
+## 13. Handy One-Off Commands
 
 Run the p4 (strategy) prompt on a single small model, full-story:
 ```bash
