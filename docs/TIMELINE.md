@@ -51,6 +51,12 @@ Each completed run is then scored at **8 post-processing stages**
 | 3 | Jun 17 – Jun 23 | **Diagnostic metrics + full evaluation.** Add % initially valid, % repaired by B, % blanked by C, % dropped by D/E, mean repair-shift distance; run batch evaluation across the whole grid; regenerate the master comparison sheet. | Final `master_comparison.xlsx` + diagnostics |
 | 4 | Jun 24 – Jun 30 | **Analysis + error analysis.** Compare models/prompts/modes/stages; early vs. late-sentence behaviour; identify best configurations and common failure types; any quick follow-up runs. | Analysis notes, key plots, error summary |
 
+> **Note on the bigger models:** the 70B / 72B models are slow and expensive to
+> run, so during testing we explore the full grid mainly on the small models.
+> Once we find the **best-performing combination** (prompt × mode ×
+> post-processing stage), we run only that **one optimized/top combination** on
+> the bigger models for the final comparison.
+
 ### Phase 2 — Research Paper (1 – 15 July)
 
 | Week | Dates | Focus | Deliverable |
