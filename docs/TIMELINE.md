@@ -38,7 +38,7 @@ Each completed run is then scored at **8 post-processing stages**
 ### What the stages mean
 
 A → B → C are recovery/validation steps; D + E are a fixed "forced-convert" tail
-applied after each (see [WORKFLOW.md](WORKFLOW.md) §6 for full detail).
+applied after each (see [WORKFLOW.md](WORKFLOW.md) Section 6 for full detail).
 
 | Stage | Meaning |
 |-------|---------|
@@ -111,7 +111,3 @@ P0–P3 each also have a `_sent` (sentence-by-sentence) variant auto-derived in
   - Is the experiment grid above complete, or should any dimension be added/dropped?
   - Which metrics matter most for the final comparison?
   - Preferred venue / format for the research paper.
-
----
-
-*Proposed timeline — to be confirmed. Last updated 2026-06-03.*
