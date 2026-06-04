@@ -114,4 +114,4 @@ P0–P3 each also have a `_sent` (sentence-by-sentence) variant auto-derived in
 
 ---
 
-*Proposed timeline — to be confirmed. Last updated 2026-06-03.*
+
