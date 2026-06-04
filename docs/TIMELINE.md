@@ -111,3 +111,6 @@ P0–P3 each also have a `_sent` (sentence-by-sentence) variant auto-derived in
   - Is the experiment grid above complete, or should any dimension be added/dropped?
   - Which metrics matter most for the final comparison?
   - Preferred venue / format for the research paper.
+
+---
+
