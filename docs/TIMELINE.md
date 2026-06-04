@@ -35,6 +35,41 @@ The full experiment space is:
 Each completed run is then scored at **8 post-processing stages**
 (`raw, ordered, a, ade, ab, abde, abc, abcde`).
 
+### What the stages mean
+
+A → B → C are recovery/validation steps; D + E are a fixed "forced-convert" tail
+applied after each (see [WORKFLOW.md](WORKFLOW.md) §6 for full detail).
+
+| Stage | Meaning |
+|-------|---------|
+| `raw` | Straight LLM output, no processing |
+| `ordered` | Columns reordered to the GSML schema + integer cast (`format_converter.py`) |
+| `a` | Stage A only — map each span to its sentence; blank cross-sentence spans (diagnostic) |
+| `ade` | A + D + E — forced-convert applied → evaluable |
+| `ab` | A + B — B recovers token positions by nearest fixed-n search (diagnostic) |
+| `abde` | A + B + D + E — evaluable |
+| `abc` | A + B + C — C blanks spans whose tokens don't exactly match the story (diagnostic) |
+| `abcde` | A + B + C + D + E — final, fully cleaned, evaluable |
+
+> D = greedy overlap resolver, E = drop unmatched rows. The `_ade / _abde / _abcde`
+> variants are the ones the scorer can actually run; the bare `a / ab / abc` files
+> are kept for diagnostics only.
+
+### What the prompts are
+
+Each P-code links to its template in `prompts.py`.
+
+| P-code | What the prompt does |
+|--------|----------------------|
+| [P0](../pipeline/prompts.py#L20) | **Baseline** — shared-task instructions verbatim; minimal output rules |
+| [P1](../pipeline/prompts.py#L103) | **Strict-rules** — same as P0 plus strict JSON-only output (no markdown/preamble) |
+| [P2](../pipeline/prompts.py#L206) | **JSON-context** — recasts the box score as JSON; check each sentence against the JSON fields |
+| [P3](../pipeline/prompts.py#L286) | **LLM-as-judge** — senior sports fact-checker persona |
+| [P4](../pipeline/prompts.py#L337) | **Strategy / anchoring** — explicit field-by-field checking strategy |
+
+P0–P3 each also have a `_sent` (sentence-by-sentence) variant auto-derived in
+[`prompts.py`](../pipeline/prompts.py#L433); P4 is full-story only.
+
 ---
 
 ## 3. Proposed Plan

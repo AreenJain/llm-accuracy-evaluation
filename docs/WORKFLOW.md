@@ -133,7 +133,7 @@ PRACTICUM/
 | **p1** | Strict-rules | Same as p0 + strict JSON-only output instructions (no markdown, no preamble) |
 | **p2** | JSON-context | Recasts the box score as JSON; instructs the LLM to check sentence-by-sentence against JSON fields |
 | **p3** | LLM-as-Judge | Persona prompt: "You are a senior sports fact-checker with 20 years experience…" |
-| **p4** | Strategy / anchoring | Explicit field-by-field checking strategy (`p4_strat_1` in `prompts.py`). Shown simply as **P4** in the comparison sheet. |
+| **p4** | Strategy / anchoring | Explicit field-by-field checking strategy (`p4` in `prompts.py`). Shown as **P4** in the comparison sheet. |
 
 p0–p3 each have a `_sent` variant (`p0_sent`, `p1_sent`, …) auto-derived in
 `prompts.py`. The `_sent` variant prepends a header forcing the LLM to fact-check
@@ -393,7 +393,7 @@ TYPE, CORRECTION, COMMENT
 - **Span** — A `(SENT_TOKEN_START, SENT_TOKEN_END)` pair marking the wrong word(s).
 - **Stage** — A single processing step (raw, ordered, a, ade, ab, abde, abc, abcde).
 - **Mode** — Either `full` (whole-story per LLM call) or `sent` (sentence-by-sentence).
-- **Prompt key** — `p0`/`p1`/`p2`/`p3`/`p4` for full-story, or `p0_sent`/etc. for sentence mode (p0–p3 only). p4 is the strategy prompt (`p4_strat_1`), shown as **P4**.
+- **Prompt key** — `p0`/`p1`/`p2`/`p3`/`p4` for full-story, or `p0_sent`/etc. for sentence mode (p0–p3 only). p4 is the strategy prompt, shown as **P4**.
 - **Run ID** — `<model>_<size>_<prompt_key>_run<N>`, e.g. `llama_medium_p0_sent_run1`.
 
 ---
@@ -407,7 +407,7 @@ python pipeline/ollama_pipeline_strat_1.py \
   --jsonl data/shared_task.jsonl \
   --model llama_small \
   --rows 30 \
-  --prompt p4_strat_1 \
+  --prompt p4 \
   --by_sent no
 ```
 
