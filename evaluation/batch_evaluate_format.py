@@ -260,7 +260,7 @@ def build_master_excel(success_log):
     stage_order = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     df["_so"] = df["Stage"].map({s: i for i, s in enumerate(stage_order)})
     size_order = {"Small": 0, "Medium": 1}
-    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4": 4}
+    prompt_order = {"P0": 0, "P0A": 1, "P1": 2, "P2": 3, "P3": 4, "P4": 5}
     mode_order = {"full": 0, "sent": 1}
     df["_sz"] = df["Size"].map(size_order)
     df["_pr"] = df["Prompt"].map(prompt_order)
@@ -379,7 +379,7 @@ def write_excel(df, out_path):
 
     # ── Build row order: (prompt, mode, stage) ────────────────────────────
     stage_order  = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
-    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3, "P4": 4}
+    prompt_order = {"P0": 0, "P0A": 1, "P1": 2, "P2": 3, "P3": 4, "P4": 5}
     mode_order   = {"full": 0, "sent": 1}
 
     keys = (df[["Prompt", "Mode", "Stage"]]

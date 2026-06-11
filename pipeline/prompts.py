@@ -17,6 +17,7 @@
 # (used in p2's JSON schema example).
 
 PROMPTS = {
+    
     "p0": """Finding Mistakes in Basketball Stories: Text {text_id}
 
 In this document you will find:
@@ -283,7 +284,8 @@ If you find no mistakes, output: []
     
     
     
-    "p3": """You are a senior sports journalism fact-checker with an IQ of 165 and 20 years of 
+    "p3": """
+     You are a senior sports journalism fact-checker with an IQ of 165 and 20 years of 
     experience verifying NBA game reports for major outlets like ESPN, The Athletic, and Sports 
     Illustrated. You have personally fact-checked over 15,000 basketball game summaries. Your 
     reputation depends on catching every factual error; wrong scores, wrong names, wrong dates,
@@ -334,7 +336,8 @@ Critical output rules:
 - Match capitalization, punctuation, and spacing exactly as in the story
 - One annotation per mistake : if a sentence has multiple mistakes, create separate annotations
 """,
-"p4": """
+ 
+   "p4": """
 You are a fact-checker for AI-generated basketball game summaries.
 
 You will be given:
@@ -415,6 +418,27 @@ Return ONLY the JSON array. No schema. No explanation. Nothing else.
 }
 
 
+# p0a = p0 plus a tail (per Craig, Jun 2026) that spells out exactly which
+# tokens to record in the TOKENS field for each mistake category. TOKENS is
+# the key our schema uses for the wrong word(s) the model copies from the story.
+_P0A_TAIL = """
+
+For each error, include as the TOKENS annotation only the sequential span of tokens of the given category.
+
+For example;
+
+If the mistake is that a named entity is incorrect, then the category is NAME and only the token(s) matching that single named entity should be included, e.g., "LeBron James", "Dallas Mavericks", "Monday", etc.
+
+If the mistake is that a numeric value is incorrect, then the category is NUMBER and only the token(s) that are inaccurate numbers should be included, e.g., "1", "two", "3 - point", etc.
+
+If the mistake is that any other word or phrase is incorrect, then the category is WORD, and only the token(s) that are part of the inaccurate word or phrase should be included, e.g., "on the road", "return home".
+
+Any fact in the text that cannot be verified against the data tables should be marked as NOT_CHECKABLE, following the token inclusion rules as if it were a NAME, NUMBER, or WORD error.
+"""
+
+PROMPTS["p0a"] = PROMPTS["p0"] + _P0A_TAIL
+
+
 # Build the sentence-by-sentence variants programmatically. Each one is
 # the full-story prompt with two tweaks:
 #   1. A short header is prepended that tells the model it is seeing
@@ -430,5 +454,5 @@ _SENT_HEADER = (
     "TOKENS must be copied EXACTLY from this sentence (not from any other text).\n\n"
 )
 
-for _k in ["p0", "p1", "p2", "p3"]:
+for _k in ["p0", "p0a", "p1", "p2", "p3"]:
     PROMPTS[_k + "_sent"] = _SENT_HEADER + PROMPTS[_k].replace("{story}", "{sentence}")
