@@ -9,6 +9,16 @@ llama_medium_p0_sent_run1,ordered,CRASH,Exception: You must provide either docum
 llama_medium_p0_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_medium_p0_sent_run1_a.csv row 1
 llama_medium_p0_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_llama_medium_p0_sent_run1_ab.csv row 1
 llama_medium_p0_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_llama_medium_p0_sent_run1_abc.csv row 1
+llama_medium_p0a_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '18.0'
+llama_medium_p0a_run1,ordered,CRASH,Exception: Token 49 already used, duplicate on S001:2
+llama_medium_p0a_run1,a,CRASH,Exception: Token 49 already used, duplicate on S001:2
+llama_medium_p0a_run1,ab,CRASH,Exception: Token 49 already used, duplicate on S001:2
+llama_medium_p0a_run1,abc,CRASH,Exception: Token 49 already used, duplicate on S001:2
+llama_medium_p0a_sent_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: 'NAME'
+llama_medium_p0a_sent_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_llama_medium_p0a_sent_run1_ordered.csv row 0
+llama_medium_p0a_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_medium_p0a_sent_run1_a.csv row 0
+llama_medium_p0a_sent_run1,ab,CRASH,Exception: Token 110 already used, duplicate on S001:5
+llama_medium_p0a_sent_run1,abc,CRASH,Exception: Token 110 already used, duplicate on S001:5
 llama_medium_p1_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: 'NAME'
 llama_medium_p1_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_llama_medium_p1_run1_ordered.csv row 0
 llama_medium_p1_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_medium_p1_run1_a.csv row 0
@@ -74,6 +84,16 @@ qwen_medium_p0_sent_run1,ordered,CRASH,Exception: You must provide either docume
 qwen_medium_p0_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_medium_p0_sent_run1_a.csv row 3
 qwen_medium_p0_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_qwen_medium_p0_sent_run1_ab.csv row 3
 qwen_medium_p0_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_qwen_medium_p0_sent_run1_abc.csv row 3
+qwen_medium_p0a_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '18.0'
+qwen_medium_p0a_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_qwen_medium_p0a_run1_ordered.csv row 2
+qwen_medium_p0a_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_medium_p0a_run1_a.csv row 2
+qwen_medium_p0a_run1,ab,CRASH,Exception: Token 3 already used, duplicate on S002:14
+qwen_medium_p0a_run1,abc,CRASH,Exception: Token 3 already used, duplicate on S002:14
+qwen_medium_p0a_sent_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '18.0'
+qwen_medium_p0a_sent_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_qwen_medium_p0a_sent_run1_ordered.csv row 1
+qwen_medium_p0a_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_medium_p0a_sent_run1_a.csv row 1
+qwen_medium_p0a_sent_run1,ab,CRASH,Exception: Token 107 already used, duplicate on S001:10
+qwen_medium_p0a_sent_run1,abc,CRASH,Exception: Token 107 already used, duplicate on S001:10
 qwen_medium_p1_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '18.0'
 qwen_medium_p1_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_qwen_medium_p1_run1_ordered.csv row 2
 qwen_medium_p1_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_medium_p1_run1_a.csv row 2

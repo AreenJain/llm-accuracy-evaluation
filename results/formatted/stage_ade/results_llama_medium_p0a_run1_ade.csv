@@ -1,0 +1,40 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,1,1,Wednesday,18,18,,,NAME,Tuesday,Incorrect day of the week
+S001,2,2,Friday,30,30,,,NAME,Wednesday,Incorrect day of the week
+S003,1,1,Saturday,17,17,,,NAME,Sunday,Incorrect day of the week
+S003,2,2,Friday,32,32,,,NAME,Tuesday,Incorrect day of the week
+S008,1,1,Saturday,19,19,,,NAME,Tuesday,Incorrect day of the week
+S008,11,7,Monday,17,17,,,NAME,Saturday,Incorrect day of the week for the next game
+S009,1,1,122,10,10,,,NUMBER,122-114,Incorrect score
+S009,1,2,Tuesday,20,20,,,NAME,Friday,Incorrect day of the week
+S009,4,3,29,14,14,,,NUMBER,52,Incorrect shooting percentage
+S009,4,4,17,22,22,,,NUMBER,17,Incorrect number of turnovers
+S009,6,5,41,13,13,,,NUMBER,26,Incorrect number of points
+S009,9,7,Sunday,16,16,,,NAME,Tuesday,Incorrect day of the week
+S009,14,8,Friday,10,10,,,NAME,Tuesday,Incorrect day of the week
+S012,1,0,Friday,19,19,,,WORD,Saturday,"The game was played on Saturday, not Friday."
+S013,1,1,Wednesday,22,22,,,NAME,Saturday,Incorrect day of the week
+S013,9,2,Monday,18,18,,,NAME,Saturday,Incorrect day of the week
+S014,1,1,Friday,24,24,,,NAME,Saturday,Incorrect day of the week
+S019,3,2,outscored,17,17,,,WORD,out-scored,Typo in the word 'out-scored'
+S019,9,3,Friday,14,14,,,NAME,Wednesday,Incorrect day of the week
+S019,14,4,Thursday,8,8,,,NAME,Monday,Incorrect day of the week
+S021,1,1,Saturday,18,18,,,NAME,Friday,Incorrect day of the week
+S022,1,1,Friday,18,18,,,NAME,Wednesday,Incorrect day of the week
+S023,1,0,Wednesday,19,19,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+S024,1,1,Saturday,18,18,,,NAME,Friday,Incorrect day of the week
+S024,2,2,Wednesday,10,10,,,NAME,Friday,Incorrect day of the week
+S025,1,1,Friday,18,18,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+S025,3,3,35,43,43,,,NUMBER,36,"Kawhi Leonard played 36 minutes, not 35."
+S025,6,4,36,24,24,,,NUMBER,37,"Isaiah Thomas played 37 minutes, not 36."
+S025,9,5,46,10,10,,,NUMBER,47,"The Celtics shot 47 percent from the field, not 46."
+S026,1,1,Wednesday,22,22,,,NAME,Tuesday,Incorrect day of the week
+S027,1,5,Wednesday,23,23,,,NAME,Sunday,The day of the week is incorrect.
+S028,1,1,Saturday,17,17,,,NAME,Wednesday,Incorrect day of the week
+S028,17,2,Detroit,11,11,,,NAME,Indiana,Incorrect team name
+S028,17,3,Phoenix,25,25,,,NAME,Miami,Incorrect team name
+S030,1,0,Wednesday,18,18,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+S030,3,2,34,21,21,,,NUMBER,21,"The Pacers outscored the Hornets 21-20 in the fourth quarter, not 34-21."
+S030,4,3,42,17,17,,,NUMBER,46,"The Pacers won the rebounding battle 46-34, not 42-34."
+S030,9,4,Monday,15,15,,,NAME,Wednesday,"The Hornets have a road matchup with the Los Angeles Clippers on Wednesday, not Monday."
+S030,5,5,11,6,6,,,NUMBER,2,"Cody Zeller accrued 2 blocks, not 11."
