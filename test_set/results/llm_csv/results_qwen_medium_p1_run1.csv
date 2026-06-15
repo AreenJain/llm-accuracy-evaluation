@@ -1,0 +1,494 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T001,1,1,defeated,9.0,9.0,WORD,lost to,"The Kings lost to the Nets, not defeated them.",qwen_medium,p1,9367.69
+T001,1,2,107 - 99,18.0,20.0,NUMBER,99 - 107,The score is reversed; the Kings lost 99-107.,qwen_medium,p1,9367.69
+T001,1,3,Wednesday,22.0,22.0,NAME,Monday,"The game was played on Monday, not Wednesday.",qwen_medium,p1,9367.69
+T001,2,4,28 - 28,47.0,49.0,NUMBER,27 - 28,"The first quarter score was 27-28, not 28-28.",qwen_medium,p1,9367.69
+T001,3,5,Nets,12.0,12.0,WORD,Kings,"The Kings, not the Nets, shot 45% from the floor.",qwen_medium,p1,9367.69
+T001,3,6,Nets,12.0,12.0,WORD,Kings,"The Kings, not the Nets, shot 38% from the three-point line.",qwen_medium,p1,9367.69
+T001,4,7,Nets,12.0,12.0,WORD,Kings,"The Kings, not the Nets, shot 45% from the floor.",qwen_medium,p1,9367.69
+T001,4,8,Nets,12.0,12.0,WORD,Kings,"The Kings, not the Nets, shot 38% from the three-point line.",qwen_medium,p1,9367.69
+T001,5,9,Nets,12.0,12.0,WORD,Kings,"The Kings, not the Nets, were led by DeMarcus Cousins and Rudy Gay.",qwen_medium,p1,9367.69
+T001,5,10,9 - for - 12,162.0,166.0,NUMBER,9 - 21,"Cousins' field goal percentage is 9-21, not 9-12.",qwen_medium,p1,9367.69
+T001,5,11,6 - for - 9,171.0,175.0,NUMBER,0 - 3,"Cousins' three-point shooting is 0-3, not 6-9.",qwen_medium,p1,9367.69
+T001,5,12,24,189.0,189.0,NUMBER,25,"Cousins scored 25 points, not 24.",qwen_medium,p1,9367.69
+T001,5,13,four,198.0,198.0,NUMBER,2,"Cousins had 2 blocks, not 4.",qwen_medium,p1,9367.69
+T001,6,14,second,205.0,205.0,NUMBER,third,"Cousins posted the third double-double in his last four games, not the second.",qwen_medium,p1,9367.69
+T001,7,15,Net,232.0,232.0,WORD,King,"Ben McLemore is a King, not a Net.",qwen_medium,p1,9367.69
+T001,7,16,11,246.0,246.0,NUMBER,11,"Ben McLemore scored 11 points, which is correct.",qwen_medium,p1,9367.69
+T001,7,17,4 - 9,249.0,251.0,NUMBER,4 - 9,"Ben McLemore's field goal percentage is 4-9, which is correct.",qwen_medium,p1,9367.69
+T001,7,18,3 - 7,254.0,256.0,NUMBER,3 - 7,"Ben McLemore's three-point shooting is 3-7, which is correct.",qwen_medium,p1,9367.69
+T001,7,19,0 - 2,259.0,261.0,NUMBER,0 - 2,"Ben McLemore's free throw percentage is 0-2, which is correct.",qwen_medium,p1,9367.69
+T001,8,20,second,205.0,205.0,NUMBER,first,"This is the first double-double for Ben McLemore in the story, not the second.",qwen_medium,p1,9367.69
+T001,8,21,21 points,288.0,289.0,NUMBER,11 points,"Ben McLemore averaged 11 points, not 21 points, in his last two games.",qwen_medium,p1,9367.69
+T001,8,22,12 rebounds,291.0,292.0,NUMBER,2 rebounds,"Ben McLemore averaged 2 rebounds, not 12 rebounds, in his last two games.",qwen_medium,p1,9367.69
+T001,9,23,Net,232.0,232.0,WORD,King,"Ben McLemore is a King, not a Net.",qwen_medium,p1,9367.69
+T001,10,24,Toronto Raptors,345.0,346.0,NAME,Chicago Bulls,"The Nets' next game is against the Chicago Bulls, not the Toronto Raptors.",qwen_medium,p1,9367.69
+T001,10,25,Friday,348.0,348.0,,,,qwen_medium,p1,9367.69
+T002,1,1,118,12.0,12.0,NUMBER,118,The score for the Mavericks is correct.,qwen_medium,p1,9367.69
+T002,1,2,Wednesday,19.0,19.0,NAME,March 29,"The game was played on March 29, 2017, not Wednesday.",qwen_medium,p1,9367.69
+T002,4,3,12,45.0,45.0,NUMBER,11,"The maximum lead was 11 points, not 12.",qwen_medium,p1,9367.69
+T002,5,4,48,83.0,83.0,NUMBER,48,The field goal percentage for the Mavericks is correct.,qwen_medium,p1,9367.69
+T002,5,5,52,89.0,89.0,NUMBER,52,The three-point percentage for the Mavericks is correct.,qwen_medium,p1,9367.69
+T002,6,6,44 34,,,NUMBER,"44, 38","The rebound totals are correct, but the Mavericks had 38 rebounds, not 34.",qwen_medium,p1,9367.69
+T002,7,7,32 43,,,NUMBER,"32, 43",The record for the Pelicans is correct.,qwen_medium,p1,9367.69
+T002,7,8,four,126.0,126.0,NUMBER,six,"The Pelicans have lost four of their last six games, not won four of their last five.",qwen_medium,p1,9367.69
+T002,8,9,19,150.0,150.0,NUMBER,19,Harrison Barnes' points are correct.,qwen_medium,p1,9367.69
+T002,8,10,eight,153.0,153.0,NUMBER,8,Harrison Barnes' rebounds are correct.,qwen_medium,p1,9367.69
+T002,8,11,three,92.0,92.0,NUMBER,3,Harrison Barnes' assists are correct.,qwen_medium,p1,9367.69
+T002,9,12,18,168.0,168.0,NUMBER,18,Seth Curry's points are correct.,qwen_medium,p1,9367.69
+T002,9,13,two,23.0,23.0,NUMBER,2,Seth Curry's rebounds are correct.,qwen_medium,p1,9367.69
+T002,9,14,three,92.0,92.0,NUMBER,3,Seth Curry's assists are correct.,qwen_medium,p1,9367.69
+T002,10,15,19,150.0,150.0,NUMBER,19,Harrison Barnes' points are correct.,qwen_medium,p1,9367.69
+T002,10,16,eight,153.0,153.0,NUMBER,8,Harrison Barnes' rebounds are correct.,qwen_medium,p1,9367.69
+T002,10,17,three,92.0,92.0,NUMBER,3,Harrison Barnes' assists are correct.,qwen_medium,p1,9367.69
+T002,11,18,Los,210.0,210.0,NAME,Los Angeles,The city name is incomplete.,qwen_medium,p1,9367.69
+T002,12,19,32 43,,,NUMBER,"32, 43",The record for the Pelicans is correct.,qwen_medium,p1,9367.69
+T002,12,20,four,126.0,126.0,NUMBER,six,"The Pelicans have lost four of their last six games, not won four of their last five.",qwen_medium,p1,9367.69
+T002,13,21,29,252.0,252.0,NUMBER,29,DeMarcus Cousins' points are correct.,qwen_medium,p1,9367.69
+T002,13,22,16,255.0,255.0,NUMBER,16,DeMarcus Cousins' rebounds are correct.,qwen_medium,p1,9367.69
+T002,13,23,six,230.0,230.0,NUMBER,6,DeMarcus Cousins' assists are correct.,qwen_medium,p1,9367.69
+T002,14,24,18,168.0,168.0,NUMBER,18,Jrue Holiday's points are correct.,qwen_medium,p1,9367.69
+T002,14,25,five,130.0,130.0,NUMBER,5,Jrue Holiday's rebounds are correct.,qwen_medium,p1,9367.69
+T002,14,26,seven,278.0,278.0,NUMBER,7,Jrue Holiday's assists are correct.,qwen_medium,p1,9367.69
+T002,15,27,29,252.0,252.0,,,,qwen_medium,p1,9367.69
+T003,1,1,Wednesday,22.0,22.0,NAME,Thursday,"The game was played on Thursday, not Wednesday.",qwen_medium,p1,9367.69
+T003,2,2,out - scoring the Raptors,,,WORD,out - scoring the Magic,"The sentence incorrectly states that the Magic out-scored the Raptors, when it should be the opposite.",qwen_medium,p1,9367.69
+T003,3,3,41,92.0,92.0,NUMBER,45,"The Magic shot 45% from the field, not 41%.",qwen_medium,p1,9367.69
+T003,3,4,39,118.0,118.0,NUMBER,39,"The Magic shot 39% from the three-point line, which is correct, but the Raptors also shot 33%, not 39%.",qwen_medium,p1,9367.69
+T003,4,5,18,49.0,49.0,NUMBER,15,"The Magic committed 15 turnovers, not 18.",qwen_medium,p1,9367.69
+T003,5,6,40,183.0,183.0,NUMBER,13,"DeMar DeRozan scored 13 points, not 40.",qwen_medium,p1,9367.69
+T003,5,7,11,189.0,189.0,NUMBER,11,"DeMar DeRozan did indeed get 11 rebounds, but this is a context mistake as it contradicts the earlier statement about 40 points.",qwen_medium,p1,9367.69
+T003,5,8,4,156.0,156.0,NUMBER,4,"DeMar DeRozan did indeed get 4 assists, but this is a context mistake as it contradicts the earlier statement about 40 points.",qwen_medium,p1,9367.69
+T003,6,9,13,241.0,241.0,NUMBER,13,"DeMar DeRozan did indeed score 13 points, but this is a context mistake as it contradicts the earlier statement about 40 points.",qwen_medium,p1,9367.69
+T003,6,10,4,156.0,156.0,NUMBER,4,"DeMar DeRozan did indeed get 4 assists, but this is a context mistake as it contradicts the earlier statement about 40 points.",qwen_medium,p1,9367.69
+T003,7,11,James Johnson,285.0,286.0,NAME,Kyle Lowry,James Johnson did not play in this game; Kyle Lowry did and scored 24 points.,qwen_medium,p1,9367.69
+T003,7,12,17,303.0,303.0,NUMBER,24,"Kyle Lowry scored 24 points, not 17.",qwen_medium,p1,9367.69
+T003,7,13,8 - 22,306.0,308.0,NUMBER,5 - 11,"Kyle Lowry went 5 - 11 from the field, not 8 - 22.",qwen_medium,p1,9367.69
+T003,7,14,1 - 1,311.0,313.0,NUMBER,0 - 1,"Kyle Lowry went 0 - 1 from the three-point line, not 1 - 1.",qwen_medium,p1,9367.69
+T003,7,15,12 - 14,316.0,318.0,NUMBER,12 - 14,"Kyle Lowry went 12 - 14 from the free-throw line, which is correct.",qwen_medium,p1,9367.69
+T003,8,16,13,241.0,241.0,NUMBER,13,"Jonas Valanciunas did indeed score 13 points, but this is a context mistake as it contradicts the earlier statement about 17 points.",qwen_medium,p1,9367.69
+T003,8,17,6 - 11,348.0,350.0,NUMBER,6 - 11,"Jonas Valanciunas did indeed go 6 - 11 from the field, but this is a context mistake as it contradicts the earlier statement about 17 points.",qwen_medium,p1,9367.69
+T003,8,18,1 - 3,353.0,355.0,NUMBER,1 - 3,"Jonas Valanciunas did indeed go 1 - 3 from the three-point line, but this is a context mistake as it contradicts the earlier statement about 17 points.",qwen_medium,p1,9367.69
+T003,8,19,1 - 2,358.0,360.0,NUMBER,1 - 2,"Jonas Valanciunas did indeed go 1 - 2 from the free-throw line, but this is a context mistake as it contradicts the earlier statement about 17 points.",qwen_medium,p1,9367.69
+T003,9,20,Cleveland Cavaliers,379.0,380.0,NAME,Brooklyn Nets,"The Raptors' next game is against the Brooklyn Nets, not the Cleveland Cavaliers.",qwen_medium,p1,9367.69
+T003,9,21,Friday,382.0,382.0,NAME,Monday,"The Raptors' next game is on Monday, not Friday.",qwen_medium,p1,9367.69
+T003,9,22,Cleveland Cavaliers,379.0,380.0,NAME,Atlanta Hawks,"The Magic's next game is against the Atlanta Hawks, not the Cleveland Cavaliers.",qwen_medium,p1,9367.69
+T004,1,1,1 - 0,5.0,7.0,NUMBER,10,"The Heat's record should be 10, not 1-0.",qwen_medium,p1,9367.69
+T004,1,2,Tuesday,22.0,22.0,NAME,Wednesday,"The game was played on Wednesday, not Tuesday.",qwen_medium,p1,9367.69
+T004,2,3,Wizards got off to a,31.0,35.0,WORD,Heat got off to a,"The Heat, not the Wizards, got off to a quick start.",qwen_medium,p1,9367.69
+T004,2,4,28 - 28,47.0,49.0,NUMBER,22 - 28,The correct score for the first quarter is 22 - 28.,qwen_medium,p1,9367.69
+T004,3,5,35 - 25,67.0,69.0,NUMBER,31 - 24,The correct score for the second quarter is 31 - 24.,qwen_medium,p1,9367.69
+T004,3,6,Wizards were able to coast,77.0,81.0,WORD,Heat were able to coast,"The Heat, not the Wizards, were able to coast to a victory.",qwen_medium,p1,9367.69
+T004,4,7,Wizards were able to out,58.0,62.0,WORD,Heat were able to out,"The Heat, not the Wizards, out-rebounded the Wizards.",qwen_medium,p1,9367.69
+T004,5,8,Wizards were also able to,125.0,129.0,WORD,Heat were also able to,"The Heat, not the Wizards, shot 48% from the field.",qwen_medium,p1,9367.69
+T004,6,9,Heat were led by the,165.0,169.0,WORD,Wizards were led by the,"The Wizards, not the Heat, were led by John Wall and Bradley Beal.",qwen_medium,p1,9367.69
+T004,6,10,John Wall,172.0,173.0,NAME,Bradley Beal,"Bradley Beal, not John Wall, is a Wizard player.",qwen_medium,p1,9367.69
+T004,6,11,6 - for - 13,180.0,184.0,NUMBER,16 - 13,"Bradley Beal's shooting stats are 16 - 13, not 6 - 13.",qwen_medium,p1,9367.69
+T004,6,12,0 - for - 2,189.0,193.0,NUMBER,0 - 1,"Bradley Beal's 3-point shooting stats are 0 - 1, not 0 - 2.",qwen_medium,p1,9367.69
+T004,6,13,16 points,207.0,208.0,NUMBER,13 points,"Bradley Beal scored 13 points, not 16.",qwen_medium,p1,9367.69
+T004,6,14,11 assists,213.0,214.0,NUMBER,2 assists,"Bradley Beal had 2 assists, not 11.",qwen_medium,p1,9367.69
+T004,6,15,54 points,235.0,236.0,NUMBER,29 points,"Bradley Beal combined for 29 points over his last two games, not 54.",qwen_medium,p1,9367.69
+T004,6,16,14 rebounds,238.0,239.0,NUMBER,7 rebounds,"Bradley Beal combined for 7 rebounds over his last two games, not 14.",qwen_medium,p1,9367.69
+T004,7,17,Marcin Gortat,246.0,247.0,NAME,Drew Gooden,"Drew Gooden, not Marcin Gortat, is a Heat player.",qwen_medium,p1,9367.69
+T004,7,18,7 - for - 14,256.0,260.0,NUMBER,8 - 11,"Drew Gooden's shooting stats are 8 - 11, not 7 - 14.",qwen_medium,p1,9367.69
+T004,7,19,4 - for - 5,265.0,269.0,NUMBER,1 - 4,"Drew Gooden's 3-point shooting stats are 1 - 4, not 4 - 5.",qwen_medium,p1,9367.69
+T004,7,20,18 points,278.0,279.0,NUMBER,18 points,"Drew Gooden scored 18 points, which is correct.",qwen_medium,p1,9367.69
+T004,7,21,17 points,295.0,296.0,NUMBER,18 points,"Drew Gooden averaged 18 points, not 17.",qwen_medium,p1,9367.69
+T004,7,22,8 rebounds,298.0,299.0,NUMBER,5 rebounds,"Drew Gooden had 5 rebounds, not 8.",qwen_medium,p1,9367.69
+T004,8,23,Danny Granger,309.0,310.0,,,,qwen_medium,p1,9367.69
+T005,1,1,Saturday,17.0,17.0,NAME,Monday,"The game was played on Monday, not Saturday.",qwen_medium,p1,9367.69
+T005,2,2,Tuesday,30.0,30.0,NAME,Monday,"The game was played on Monday, not Tuesday.",qwen_medium,p1,9367.69
+T005,3,3,Tuesday,30.0,30.0,NAME,Monday,"The game was played on Monday, not Tuesday.",qwen_medium,p1,9367.69
+T005,4,4,20,25.0,25.0,NUMBER,14,"John Wall had 14 rebounds, not 20.",qwen_medium,p1,9367.69
+T005,5,5,John Wall,167.0,168.0,CONTEXT,Kemba Walker,"Kemba Walker led the way for the Hornets, not John Wall.",qwen_medium,p1,9367.69
+T005,6,6,Cody Zeller,283.0,284.0,CONTEXT,Frank Kaminsky III,"Frank Kaminsky III led the second unit with 13 points, not Cody Zeller.",qwen_medium,p1,9367.69
+T005,7,7,New York Knicks,351.0,353.0,NAME,Boston Celtics,"The Wizards' next game is against the Boston Celtics, not the New York Knicks.",qwen_medium,p1,9367.69
+T005,7,8,New York Knicks,351.0,353.0,NAME,Golden State Warriors,"The Hornets' next game is against the Golden State Warriors, not the New York Knicks.",qwen_medium,p1,9367.69
+T006,1,1,Memphis Grizzlies,2.0,3.0,NAME,New York Knicks,"The home team is the New York Knicks, not the Memphis Grizzlies.",qwen_medium,p1,9367.69
+T006,2,2,Marc Gasol and Zach Randolph,22.0,26.0,NUMBER,Zach Randolph and Langston Galloway,Only Zach Randolph and Langston Galloway scored in double figures for the Grizzlies.,qwen_medium,p1,9367.69
+T006,2,3,21 and 12,40.0,42.0,NUMBER,23 and 19,"Zach Randolph scored 23 points, and Langston Galloway scored 19 points.",qwen_medium,p1,9367.69
+T006,3,4,Zach Randolph,25.0,26.0,NUMBER,Langston Galloway,"Langston Galloway, not Zach Randolph, scored 19 points.",qwen_medium,p1,9367.69
+T006,3,5,12,42.0,42.0,NUMBER,19,Langston Galloway scored 19 points.,qwen_medium,p1,9367.69
+T006,4,6,52 percent from the field,95.0,99.0,NUMBER,42 percent,"The Knicks shot 42 percent from the field, not 52 percent.",qwen_medium,p1,9367.69
+T006,4,7,22 percent from beyond the,119.0,123.0,NUMBER,22 percent from three-point range,"The Knicks shot 22 percent from three-point range, not 58 percent.",qwen_medium,p1,9367.69
+T006,5,8,Marc Gasol,22.0,23.0,NUMBER,Langston Galloway,"Langston Galloway, not Marc Gasol, scored 19 points.",qwen_medium,p1,9367.69
+T006,5,9,21,7.0,7.0,NUMBER,19,Langston Galloway scored 19 points.,qwen_medium,p1,9367.69
+T006,6,10,23 points,79.0,80.0,NUMBER,19 points,"Zach Randolph scored 23 points, but the sentence incorrectly repeats this for Langston Galloway.",qwen_medium,p1,9367.69
+T006,6,11,23 points,79.0,80.0,NUMBER,19 points,"Zach Randolph scored 23 points, but the sentence incorrectly repeats this for Langston Galloway.",qwen_medium,p1,9367.69
+T006,7,12,52 percent from the field,95.0,99.0,NUMBER,42 percent,"The Knicks shot 42 percent from the field, not 52 percent.",qwen_medium,p1,9367.69
+T006,7,13,58 percent from beyond the,254.0,258.0,NUMBER,22 percent from three-point range,"The Knicks shot 22 percent from three-point range, not 58 percent.",qwen_medium,p1,9367.69
+T006,8,14,Monday,266.0,266.0,NAME,Wednesday,"The Grizzlies' next game is on Wednesday, not Monday.",qwen_medium,p1,9367.69
+T006,8,15,Trail Blazers,274.0,275.0,NAME,Cleveland Cavaliers,"The Grizzlies' next game is against the Cleveland Cavaliers, not the Trail Blazers.",qwen_medium,p1,9367.69
+T006,9,16,Sunday,286.0,286.0,NAME,Wednesday,"The Knicks' next game is on Wednesday, not Sunday.",qwen_medium,p1,9367.69
+T007,1,1,Moda Center,,,NAME,Moda Center,"The venue name is correct, but the story incorrectly states the Nuggets held off the Blazers, which is a context mistake.",qwen_medium,p1,9367.69
+T007,2,2,Nuggets were able to hold,44.0,48.0,CONTEXT,Blazers were able to hold,"The context is incorrect; the Blazers held off the Nuggets, not the other way around.",qwen_medium,p1,9367.69
+T007,2,3,32 - 20,64.0,66.0,NUMBER,26 - 26,The score in the fourth quarter is incorrect; both teams scored 26 points.,qwen_medium,p1,9367.69
+T007,3,4,Nuggets,13.0,13.0,NAME,Blazers,"The team name is incorrect; Kenneth Faried played for the Blazers, not the Nuggets.",qwen_medium,p1,9367.69
+T007,3,5,12 points,86.0,87.0,NUMBER,8 points,"Kenneth Faried scored 8 points, not 12.",qwen_medium,p1,9367.69
+T007,3,6,4 - 12 shooting,,,NUMBER,4 - 12 shooting,"The shooting stats are correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,3,7,12 rebounds,100.0,101.0,NUMBER,12 rebounds,"The rebound count is correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,4,8,Nuggets,13.0,13.0,NAME,Blazers,"The team name is incorrect; Darrell Arthur played for the Blazers, not the Nuggets.",qwen_medium,p1,9367.69
+T007,4,9,12 points,86.0,87.0,NUMBER,14 points,"Darrell Arthur scored 14 points, not 12.",qwen_medium,p1,9367.69
+T007,4,10,6 - 11 shooting,,,NUMBER,6 - 12 shooting,The shooting stats are incorrect; Darrell Arthur shot 6 - 12.,qwen_medium,p1,9367.69
+T007,4,11,4 - 7 from long range,,,NUMBER,2 - 6 from long range,The three-point shooting stats are incorrect; Darrell Arthur shot 2 - 6 from long range.,qwen_medium,p1,9367.69
+T007,4,12,33 minutes,138.0,139.0,NUMBER,36 minutes,"Darrell Arthur played 36 minutes, not 33.",qwen_medium,p1,9367.69
+T007,5,13,Nuggets,13.0,13.0,NAME,Blazers,"The team name is incorrect; Kenneth Faried played for the Blazers, not the Nuggets.",qwen_medium,p1,9367.69
+T007,5,14,13 points,148.0,149.0,NUMBER,8 points,"Kenneth Faried scored 8 points, not 13.",qwen_medium,p1,9367.69
+T007,5,15,4 - 12 shooting,,,NUMBER,4 - 12 shooting,"The shooting stats are correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,5,16,0 - 6 from long range,,,NUMBER,0 - 6 from long range,"The three-point shooting stats are correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,5,17,5 - 6 FT,199.0,202.0,NUMBER,5 - 6 FT,"The free throw stats are correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,5,18,seven rebounds,205.0,206.0,NUMBER,12 rebounds,"Kenneth Faried had 12 rebounds, not 7.",qwen_medium,p1,9367.69
+T007,5,19,off the bench,140.0,142.0,WORD,,"Kenneth Faried started the game, not coming off the bench.",qwen_medium,p1,9367.69
+T007,6,20,Nuggets,13.0,13.0,NAME,Blazers,"The team name is incorrect; Kenneth Faried played for the Blazers, not the Nuggets.",qwen_medium,p1,9367.69
+T007,6,21,13 points,148.0,149.0,NUMBER,8 points,"Kenneth Faried scored 8 points, not 13.",qwen_medium,p1,9367.69
+T007,6,22,4 - 12 shooting,,,NUMBER,4 - 12 shooting,"The shooting stats are correct, but the points scored is incorrect.",qwen_medium,p1,9367.69
+T007,6,23,0 - 6 3Pt,194.0,197.0,,,,qwen_medium,p1,9367.69
+T008,3,1,52 42,,,NUMBER,42 52,"The Pacers won the rebounding battle, not the Nets.",qwen_medium,p1,9367.69
+T008,4,2,four,101.0,101.0,NUMBER,six,"The Nets have lost six of their last six games, not four.",qwen_medium,p1,9367.69
+T008,5,3,Brook Lopez,120.0,121.0,CONTEXT,Paul George,"Paul George, not Brook Lopez, was the player of the game for the Pacers.",qwen_medium,p1,9367.69
+T008,6,4,Thaddeus Young,141.0,142.0,CONTEXT,Paul George,"Paul George, not Thaddeus Young, was the only other starter in double figures for the Pacers.",qwen_medium,p1,9367.69
+T008,7,5,Andrea Bargnani,161.0,162.0,CONTEXT,Jarrett Jack,"Jarrett Jack, not Andrea Bargnani, was the only other starter in double figures for the Nets.",qwen_medium,p1,9367.69
+T008,10,6,Paul George,223.0,224.0,CONTEXT,Brook Lopez,"Brook Lopez, not Paul George, was the player of the game for the Pacers.",qwen_medium,p1,9367.69
+T008,11,7,George Hill,251.0,252.0,CONTEXT,Thaddeus Young,"Thaddeus Young, not George Hill, was the only other starter in double figures for the Pacers.",qwen_medium,p1,9367.69
+T008,12,8,Myles Turner,271.0,272.0,CONTEXT,CJ Miles,"CJ Miles, not Myles Turner, was the only other Pacer in double figures.",qwen_medium,p1,9367.69
+T009,1,1,defeated the host,4.0,6.0,WORD,,The Timberwolves did not defeat themselves; this is a context mistake.,qwen_medium,p1,9367.69
+T009,1,2,Saturday,18.0,18.0,NAME,Monday,"The game was played on Monday, not Saturday.",qwen_medium,p1,9367.69
+T009,2,3,Friday,47.0,47.0,NAME,Monday,"The game was played on Monday, not Friday.",qwen_medium,p1,9367.69
+T009,3,4,outscoring the Heat,84.0,86.0,WORD,,"The Heat outscored the Timberwolves, not the other way around.",qwen_medium,p1,9367.69
+T009,10,5,sixth,209.0,209.0,NUMBER,11th,"The Heat are currently slotted in the 11th seed in the conference, not the 6th.",qwen_medium,p1,9367.69
+T009,11,6,Friday,47.0,47.0,NAME,Monday,"The game against the Houston Rockets is on Monday, not Friday.",qwen_medium,p1,9367.69
+T009,14,7,14 point 13 assist,,,NUMBER,"14 points, 13 assists","Ricky Rubio had 14 points and 13 assists, not 14 points and 2 assists.",qwen_medium,p1,9367.69
+T010,1,1,Wednesday,22.0,22.0,NAME,Monday,"The game was played on Monday, not Wednesday.",qwen_medium,p1,9367.69
+T010,3,2,Rockets into 17,62.0,64.0,CONTEXT,,The sentence incorrectly states that the Rockets forced the Rockets into turnovers.,qwen_medium,p1,9367.69
+T010,3,3,Bucks went,103.0,104.0,CONTEXT,,"The sentence incorrectly states that the Bucks went 42% from the floor and 42% from deep, which should refer to the Rockets.",qwen_medium,p1,9367.69
+T010,4,4,Rockets into 17,62.0,64.0,CONTEXT,,"The sentence incorrectly states that the Rockets committed 17 turnovers, which should be the Bucks.",qwen_medium,p1,9367.69
+T010,5,5,James Harden,148.0,149.0,CONTEXT,,"The sentence incorrectly states that James Harden led the Bucks, which should be Jabari Parker.",qwen_medium,p1,9367.69
+T010,5,6,26,48.0,48.0,NUMBER,36,"Jabari Parker scored 36 points, not 26.",qwen_medium,p1,9367.69
+T010,5,7,9,300.0,300.0,NUMBER,5,"Jabari Parker had 5 assists, not 9.",qwen_medium,p1,9367.69
+T010,5,8,6,298.0,298.0,NUMBER,2,"Jabari Parker had 2 steals, not 6.",qwen_medium,p1,9367.69
+T010,6,9,16 25,,,NUMBER,16-25,"Jabari Parker's shooting was 16-25, not 16-25 (repeated).",qwen_medium,p1,9367.69
+T010,6,10,1,226.0,226.0,NUMBER,1,"Jabari Parker's three-point shooting was 1-1, not 1-1 (repeated).",qwen_medium,p1,9367.69
+T010,7,11,20,199.0,199.0,NUMBER,20,"Trevor Ariza scored 20 points, but the stats are correct.",qwen_medium,p1,9367.69
+T010,8,12,Rockets next game will be on the road against the Detroit Pistons on Friday,,,CONTEXT,,"The sentence incorrectly states that the Rockets' next game is against the Pistons, which should be the Pelicans.",qwen_medium,p1,9367.69
+T010,8,13,Rockets will be at home against the Detroit Pistons on Friday,336.0,346.0,CONTEXT,,"The sentence incorrectly states that the Rockets will play at home against the Pistons, which should be the Pelicans.",qwen_medium,p1,9367.69
+T011,1,1,defeated,4.0,4.0,WORD,lost to,"The Hawks lost the game, not defeated.",qwen_medium,p1,9367.69
+T011,1,2,Wednesday,18.0,18.0,NAME,Friday,"The game was played on Friday, not Wednesday.",qwen_medium,p1,9367.69
+T011,2,3,Atlanta,2.0,2.0,NAME,Cleveland,"The Cavaliers, not the Hawks, were expected to win.",qwen_medium,p1,9367.69
+T011,3,4,the Hawks,,,CONTEXT,the Cavaliers,"The Cavaliers led for the majority of the game, not the Hawks.",qwen_medium,p1,9367.69
+T011,4,5,seven points,,,NUMBER,25 points,"The Cavaliers never led by more than 25 points, not seven.",qwen_medium,p1,9367.69
+T011,5,6,(42 - 18),,,NUMBER,(34 - 27),"The Hawks' record is 34-27, not 42-18.",qwen_medium,p1,9367.69
+T011,5,7,without Kyrie Irving,,,CONTEXT,with Kyrie Irving,Kyrie Irving played in the game.,qwen_medium,p1,9367.69
+T011,6,8,Kyrie Irving,,,CONTEXT,LeBron James,"LeBron James was the player of the game, not Kyrie Irving.",qwen_medium,p1,9367.69
+T011,7,9,Kyrie Irving,,,CONTEXT,LeBron James,"LeBron James scored 38 points, not Kyrie Irving.",qwen_medium,p1,9367.69
+T011,7,10,14 - of - 21,,,NUMBER,14 - of - 21,"This is correct, but the sentence is misleading as it refers to Kyrie Irving, not LeBron James.",qwen_medium,p1,9367.69
+T011,8,11,Richard Jefferson,,,CONTEXT,Deron Williams,"Deron Williams scored 9 points, not Richard Jefferson.",qwen_medium,p1,9367.69
+T011,8,12,Channing Frye,,,CONTEXT,Deron Williams,"Deron Williams scored 9 points, not Channing Frye.",qwen_medium,p1,9367.69
+T011,9,13,Channing Frye,,,CONTEXT,Deron Williams,"Deron Williams led the bench in scoring, not Channing Frye.",qwen_medium,p1,9367.69
+T011,10,14,Orlando Magic,,,NAME,Miami,"The Cavaliers are playing against Miami, not Orlando Magic.",qwen_medium,p1,9367.69
+T011,10,15,Friday,193.0,193.0,NAME,Saturday,"The game is on Saturday, not Friday.",qwen_medium,p1,9367.69
+T011,11,16,(34 - 27),,,NUMBER,(34 - 27),"This is correct, but the sentence is misleading as it refers to the Hawks, not the Cavaliers.",qwen_medium,p1,9367.69
+T011,11,17,five of their last six games,,,NUMBER,4 - 6 in their last 10,"The Hawks are 4-6 in their last 10 games, not 5-6.",qwen_medium,p1,9367.69
+T011,12,18,Paul Millsap,,,CONTEXT,Tim Hardaway Jr.,"Tim Hardaway Jr. was the high-point man for Atlanta, not Paul Millsap.",qwen_medium,p1,9367.69
+T011,13,19,Dennis Schroder,,,CONTEXT,Paul Millsap,"Paul Millsap was second on the team, not Dennis Schroder.",qwen_medium,p1,9367.69
+T011,14,20,two steals,,,NUMBER,1 block,"Dwight Howard recorded 1 block, not two steals.",qwen_medium,p1,9367.69
+T011,15,21,Ersan Ilyasova,,,CONTEXT,Tim Hardaway Jr.,"Tim Hardaway Jr. provided 36 points, not Ersan Ilyasova.",qwen_medium,p1,9367.69
+T012,2,1,Wednesday,22.0,22.0,NAME,Saturday,"The game was played on Saturday, not Wednesday.",qwen_medium,p1,9367.69
+T012,3,2,strong first half,34.0,36.0,WORD,poor first half,"The Raptors did not have a strong first half; they outscored the Heat 58-52, not 50-38.",qwen_medium,p1,9367.69
+T012,3,3,50 - 38,44.0,46.0,NUMBER,58-52,"The Raptors outscored the Heat 58-52 in the first half, not 50-38.",qwen_medium,p1,9367.69
+T012,3,4,coast to an easy victory,51.0,55.0,WORD,struggle to win,"The game was close, and the Raptors did not coast to an easy victory.",qwen_medium,p1,9367.69
+T012,3,5,in front of their home crowd,56.0,61.0,CONTEXT,in front of the Heat's home crowd,"The game was played in Miami, not Toronto.",qwen_medium,p1,9367.69
+T012,4,6,Kyle Lowry,68.0,69.0,NAME,Lou Williams,"Lou Williams, not Kyle Lowry, led the Raptors with 29 points.",qwen_medium,p1,9367.69
+T012,4,7,12 points,74.0,75.0,NUMBER,29 points,"Lou Williams scored 29 points, not Kyle Lowry with 12 points.",qwen_medium,p1,9367.69
+T012,4,8,3 - 14 FG,77.0,80.0,NUMBER,9-18 FG,"Lou Williams shot 9-18 from the field, not Kyle Lowry with 3-14 FG.",qwen_medium,p1,9367.69
+T012,4,9,0 - 8 3Pt,82.0,85.0,NUMBER,4-7 3Pt,"Lou Williams shot 4-7 from three-point range, not Kyle Lowry with 0-8 3Pt.",qwen_medium,p1,9367.69
+T012,4,10,6 - 7 FT,87.0,90.0,NUMBER,7-7 FT,"Lou Williams shot 7-7 from the free-throw line, not Kyle Lowry with 6-7 FT.",qwen_medium,p1,9367.69
+T012,4,11,seven rebounds,93.0,94.0,NUMBER,1 rebound,"Lou Williams had 1 rebound, not 7.",qwen_medium,p1,9367.69
+T012,4,12,three steals,96.0,97.0,NUMBER,0 steals,"Lou Williams had 0 steals, not 3.",qwen_medium,p1,9367.69
+T012,5,13,It was his second game,99.0,103.0,WORD,It was Lou Williams' game,The statement about Kyle Lowry's recent performance is incorrect.,qwen_medium,p1,9367.69
+T012,5,14,54 points,120.0,121.0,NUMBER,29 points,"Lou Williams scored 29 points in this game, not 54 points over two games.",qwen_medium,p1,9367.69
+T012,5,15,19 rebounds,123.0,124.0,NUMBER,1 rebound,"Lou Williams had 1 rebound, not 19 over two games.",qwen_medium,p1,9367.69
+T012,6,16,DeRozan,131.0,131.0,NAME,Lou Williams,"Lou Williams, not DeRozan, posted 29 points.",qwen_medium,p1,9367.69
+T012,6,17,24 points,139.0,140.0,NUMBER,29 points,"Lou Williams scored 29 points, not DeRozan with 24 points.",qwen_medium,p1,9367.69
+T012,6,18,1 - 1 3Pt,147.0,150.0,NUMBER,1-1 3Pt,"DeRozan shot 1-1 from three-point range, which is correct.",qwen_medium,p1,9367.69
+T012,6,19,9 - 11 FT,152.0,155.0,NUMBER,9-11 FT,"DeRozan shot 9-11 from the free-throw line, which is correct.",qwen_medium,p1,9367.69
+T012,6,20,six rebounds,158.0,159.0,NUMBER,6 rebounds,"DeRozan had 6 rebounds, which is correct.",qwen_medium,p1,9367.69
+T012,6,21,four steals,161.0,162.0,NUMBER,0 steals,"DeRozan had 0 steals, not 4.",qwen_medium,p1,9367.69
+T012,7,22,It marked his second double - double,164.0,170.0,WORD,It marked his game,DeRozan did not have a double-double in this game.,qwen_medium,p1,9367.69
+T012,7,23,averaging 24 points,180.0,182.0,,,,qwen_medium,p1,9367.69
+T013,1,1,Saturday,17.0,17.0,NAME,Sunday,"The game was played on Sunday, not Saturday.",qwen_medium,p1,9367.69
+T013,2,2,Monday,29.0,29.0,NAME,Sunday,"The game was played on Sunday, not Monday.",qwen_medium,p1,9367.69
+T013,2,3,( 23 - 16 ),,,NUMBER,( 24 - 16 ),"The Grizzlies' record should be 24-16, not 23-16.",qwen_medium,p1,9367.69
+T013,3,4,American Airlines Arena,,,NAME,FedEx Forum,"The game was played at FedEx Forum, not American Airlines Arena.",qwen_medium,p1,9367.69
+T013,4,5,Jazz,7.0,7.0,CONTEXT,Grizzlies,"The Grizzlies outscored the Jazz, not the other way around.",qwen_medium,p1,9367.69
+T013,4,6,59 - 38,,,NUMBER,44 - 34,"The Grizzlies outscored the Jazz 44-34 in the second and third quarters, not 59-38.",qwen_medium,p1,9367.69
+T013,5,7,59 - 38,,,NUMBER,44 - 34,"The Grizzlies outscored the Jazz 44-34 in the second and third quarters, not 59-38.",qwen_medium,p1,9367.69
+T013,6,8,15 points,,,NUMBER,"15 points, 4 rebounds, 2 assists","George Hill had 15 points, 4 rebounds, and 2 assists, not just 15 points.",qwen_medium,p1,9367.69
+T013,7,9,15 points,,,NUMBER,3 points,"Rudy Gobert had 3 points, not 15 points.",qwen_medium,p1,9367.69
+T013,7,10,four rebounds,,,NUMBER,12 rebounds,"Rudy Gobert had 12 rebounds, not four rebounds.",qwen_medium,p1,9367.69
+T013,7,11,two assists,,,NUMBER,2 assists,"Rudy Gobert had 2 assists, not four rebounds.",qwen_medium,p1,9367.69
+T013,7,12,three steals,,,NUMBER,3 steals,"Rudy Gobert had 3 steals, not four rebounds.",qwen_medium,p1,9367.69
+T013,10,13,Friday evening,,,NAME,Wednesday evening,"The Grizzlies play the Thunder on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T014,1,1,defeated,5.0,5.0,WORD,lost to,"The Knicks lost to the Bucks, not defeated them.",qwen_medium,p1,9367.69
+T014,2,2,( 26 - 39 ),,,NUMBER,( 26 - 33 ),"The Knicks' record is 26-33, not 26-39.",qwen_medium,p1,9367.69
+T014,3,3,won five of their last six games,,,CONTEXT,lost five of their last six games,The sentence contradicts itself by saying they have won and lost five of their last six games.,qwen_medium,p1,9367.69
+T014,4,4,( 30 - 33 ),,,NUMBER,( 30 - 33 ),"The Bucks' record is 30-33, but this is already correct.",qwen_medium,p1,9367.69
+T014,4,5,have now won five of their last six games,,,CONTEXT,have now lost five of their last six games,The sentence contradicts itself by saying they have won and lost five of their last six games.,qwen_medium,p1,9367.69
+T014,6,6,two assists and three blocks,,,NUMBER,two assists and three blocks,"The stats for Giannis Antetokounmpo are correct, but the sentence is redundant.",qwen_medium,p1,9367.69
+T015,1,1,Wednesday,23.0,23.0,NAME,Tuesday,"The game was played on Tuesday, not Wednesday.",qwen_medium,p1,9367.69
+T015,2,2,three - game,,,NUMBER,two-game,"The Lakers had lost their last two games, not three.",qwen_medium,p1,9367.69
+T015,4,3,Nick Young,,,NAME,Kobe Bryant,"Kobe Bryant, not Nick Young, led the Lakers with 12 points.",qwen_medium,p1,9367.69
+T015,4,4,19 points,,,NUMBER,12 points,"Kobe Bryant scored 12 points, not 19.",qwen_medium,p1,9367.69
+T015,4,5,( 5 - 13 FG,,,NUMBER,(4 - 11 FG,"Kobe Bryant's field goal stats were 4-11, not 5-13.",qwen_medium,p1,9367.69
+T015,4,6,3 - 6 3Pt,,,NUMBER,1 - 3 3Pt,"Kobe Bryant made 1 three-pointer, not 3.",qwen_medium,p1,9367.69
+T015,4,7,6 - 7 FT,,,NUMBER,3 - 3 FT,"Kobe Bryant made 3 free throws, not 6.",qwen_medium,p1,9367.69
+T015,4,8,13 rebounds,,,NUMBER,5 rebounds,"Kobe Bryant had 5 rebounds, not 13.",qwen_medium,p1,9367.69
+T015,5,9,Greg Monroe,,,NAME,Jordan Hill,"Jordan Hill, not Greg Monroe, scored 8 points for the Lakers.",qwen_medium,p1,9367.69
+T015,5,10,2 - for - 7,,,NUMBER,10 - 15,"Jordan Hill's field goal stats were 10-15, not 2-7.",qwen_medium,p1,9367.69
+T015,5,11,4 - for - 6,,,NUMBER,2 - 2,"Jordan Hill made 2 free throws, not 4.",qwen_medium,p1,9367.69
+T015,5,12,52 points,,,NUMBER,22 points,"Jordan Hill combined for 22 points in the last two games, not 52.",qwen_medium,p1,9367.69
+T015,6,13,Brandon Jennings,,,NAME,Brandon Jennings,"This is a duplicate mention of Brandon Jennings, which is redundant.",qwen_medium,p1,9367.69
+T015,6,14,off the bench,,,WORD,in the starting lineup,"Brandon Jennings started the game, not coming off the bench.",qwen_medium,p1,9367.69
+T015,8,15,Friday,246.0,246.0,NAME,Wednesday,"The next game for the Lakers is on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T015,8,16,Boston Celtics,,,NAME,Washington Wizards,"The Lakers' next game is against the Washington Wizards, not the Boston Celtics.",qwen_medium,p1,9367.69
+T016,1,1,defeated,4.0,4.0,WORD,lost to,"The Kings won, not the 76ers.",qwen_medium,p1,9367.69
+T016,1,2,100 - 102,9.0,11.0,NUMBER,102 - 100,The score is reversed; the Kings won 102-100.,qwen_medium,p1,9367.69
+T016,2,3,( 7 - 23 ),,,NUMBER,(14 - 17),"The 76ers' record is 7-23, not 14-17.",qwen_medium,p1,9367.69
+T016,2,4,( 14 - 17 ),,,NUMBER,(7 - 23),"The 76ers' record is 7-23, not 14-17.",qwen_medium,p1,9367.69
+T016,3,5,( 14 - 17 ),,,NUMBER,(7 - 23),"The 76ers' record is 7-23, not 14-17.",qwen_medium,p1,9367.69
+T016,3,6,pull away,50.0,51.0,WORD,hold on,The 76ers did not pull away; they lost the game.,qwen_medium,p1,9367.69
+T016,4,7,( 14 - 17 ),,,NUMBER,(7 - 23),"The 76ers' record is 7-23, not 14-17.",qwen_medium,p1,9367.69
+T016,4,8,pull away,50.0,51.0,WORD,hold on,The 76ers did not pull away; they lost the game.,qwen_medium,p1,9367.69
+T016,6,9,20,119.0,119.0,NUMBER,25,"Jahlil Okafor played 25 minutes, not 20.",qwen_medium,p1,9367.69
+T016,6,10,off the bench,121.0,123.0,WORD,in the starting lineup,"Jahlil Okafor started the game, not coming off the bench.",qwen_medium,p1,9367.69
+T016,7,11,48,134.0,134.0,NUMBER,49,"The 76ers shot 49% from the field, not 48%.",qwen_medium,p1,9367.69
+T016,7,12,4 - 15,,,NUMBER,5 - 15,"The 76ers made 5 out of 15 three-point attempts, not 4.",qwen_medium,p1,9367.69
+T016,8,13,seven,170.0,170.0,NUMBER,9,"DeMarcus Cousins had 9 rebounds, not 7.",qwen_medium,p1,9367.69
+T016,8,14,five,112.0,112.0,NUMBER,2,"DeMarcus Cousins had 2 steals, not 5.",qwen_medium,p1,9367.69
+T016,8,15,two,179.0,179.0,NUMBER,1,"DeMarcus Cousins had 1 block, not 2.",qwen_medium,p1,9367.69
+T016,8,16,34,183.0,183.0,NUMBER,36,"DeMarcus Cousins played 36 minutes, not 34.",qwen_medium,p1,9367.69
+T016,9,17,four,194.0,194.0,NUMBER,5,"Ty Lawson had 5 assists, not 4.",qwen_medium,p1,9367.69
+T016,9,18,two,179.0,179.0,NUMBER,3,"Ty Lawson had 3 steals, not 2.",qwen_medium,p1,9367.69
+T016,10,19,28,215.0,215.0,NUMBER,29,"Darren Collison played 29 minutes, not 28.",qwen_medium,p1,9367.69
+T017,1,1,44,17.0,17.0,NUMBER,43,"The Pelicans' record is 26-43, not 26-44.",qwen_medium,p1,9367.69
+T017,2,2,Friday,23.0,23.0,NAME,Tuesday,"The game was played on Tuesday, not Friday.",qwen_medium,p1,9367.69
+T017,3,3,29 - 13,51.0,53.0,NUMBER,35-21,"The Heat outscored the Pelicans 35-21 in the first quarter, not 29-13.",qwen_medium,p1,9367.69
+T017,4,4,29 - 13,51.0,53.0,NUMBER,27-33,"The Pelicans outscored the Heat 33-27 in the third quarter, not 29-13.",qwen_medium,p1,9367.69
+T017,5,5,31 - 19,96.0,98.0,NUMBER,26-26,"The final quarter was tied 26-26, not 31-19.",qwen_medium,p1,9367.69
+T017,6,6,25,119.0,119.0,NUMBER,21,"Dwyane Wade scored 21 points, not 25.",qwen_medium,p1,9367.69
+T017,6,7,10 - 21,122.0,124.0,NUMBER,8-18,"Dwyane Wade shot 8-18 FG, not 10-21.",qwen_medium,p1,9367.69
+T017,6,8,5 - 6,132.0,134.0,NUMBER,2-6,"Dwyane Wade shot 2-6 FT, not 5-6.",qwen_medium,p1,9367.69
+T017,6,9,three,141.0,141.0,NUMBER,1,"Dwyane Wade had 1 steal, not three.",qwen_medium,p1,9367.69
+T017,7,10,54,184.0,184.0,NUMBER,47,"Hassan Whiteside combined for 47 points in the last two games, not 54.",qwen_medium,p1,9367.69
+T017,8,11,Anthony Davis,203.0,204.0,CONTEXT,Jrue Holiday,Anthony Davis did not play in this game; Jrue Holiday scored 24 points for the Pelicans.,qwen_medium,p1,9367.69
+T017,8,12,10 - 11,161.0,163.0,NUMBER,7-11,"Jrue Holiday shot 7-11 FG, not 10-11.",qwen_medium,p1,9367.69
+T017,8,13,4 - 6,166.0,168.0,NUMBER,4-6,"Jrue Holiday shot 4-6 FT, not 4-6.",qwen_medium,p1,9367.69
+T017,8,14,three,141.0,141.0,NUMBER,0,"Jrue Holiday had 0 blocks, not three.",qwen_medium,p1,9367.69
+T017,10,15,Wednesday,251.0,251.0,NAME,Friday,"The Heat will play against the Dallas Mavericks on Friday, not Wednesday.",qwen_medium,p1,9367.69
+T017,11,16,four,258.0,258.0,NUMBER,1,"The Pelicans have lost 1 of their last 4 games, not 4.",qwen_medium,p1,9367.69
+T017,12,17,Anthony Davis,203.0,204.0,WORD,None,Anthony Davis did not play in this game due to a knee injury.,qwen_medium,p1,9367.69
+T017,13,18,Anthony Davis,203.0,204.0,WORD,None,Anthony Davis did not play in this game; the only other player to reach double figures was Jrue Holiday.,qwen_medium,p1,9367.69
+T017,13,19,N/A,312.0,312.0,NUMBER,None,The stats for Anthony Davis are not applicable since he did not play.,qwen_medium,p1,9367.69
+T017,14,20,Friday,23.0,23.0,NAME,Thursday,"The Pelicans will play against the Oklahoma City Thunder on Thursday, not Friday.",qwen_medium,p1,9367.69
+T018,2,1,was n't,,,WORD,was,"The Rockets won the game, so the statement that it wasn't enough to pull out the win is incorrect.",qwen_medium,p1,9367.69
+T018,4,2,8 - 7,,,NUMBER,8 - 6,"James Harden's free throw line stats were 5 - 6, not 8 - 7.",qwen_medium,p1,9367.69
+T018,5,3,8 - 12,,,NUMBER,8 - 13,"Eric Gordon's three-point shooting stats were 8 - 13, not 8 - 12.",qwen_medium,p1,9367.69
+T018,6,4,"21 points ( 9 - 19 FG , 3 - 4 FT ) and 10 rebounds , in 37 minutes",,,NUMBER,"21 points ( 9 - 19 FG , 3 - 4 FT ) and 10 rebounds, in 29 minutes","Julius Randle played 29 minutes, not 37.",qwen_medium,p1,9367.69
+T018,7,5,"24 points ( 7 - 12 FG , 8 - 8 FT ) and 10 rebounds",,,NUMBER,"24 points ( 7 - 12 FG , 8 - 8 FT ) and 2 rebounds","Lou Williams had 2 rebounds, not 10.",qwen_medium,p1,9367.69
+T018,8,6,"24 points ( 7 - 12 FG , 8 - 8 FT ) and 10 rebounds",,,NUMBER,"24 points ( 7 - 12 FG , 8 - 8 FT ) and 2 rebounds","Lou Williams had 2 rebounds, not 10.",qwen_medium,p1,9367.69
+T018,9,7,9 - 21,,,NUMBER,9 - 21,"The Rockets' three-point shooting stats were 9 - 21, not 9 - 21. However, the story incorrectly states they struggled, which is a context mistake.",qwen_medium,p1,9367.69
+T018,9,8,struggled,231.0,231.0,CONTEXT,excelled,"The Rockets shot 42% from three-point range, which is good, not struggling.",qwen_medium,p1,9367.69
+T019,1,1,36,14.0,14.0,NUMBER,35,"The Nets' record should be 35-42, not 36-42.",qwen_medium,p1,9367.69
+T019,1,2,Friday,26.0,26.0,NAME,Wednesday,"The game was played on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T019,2,3,five,40.0,40.0,NUMBER,four,"The Hawks won four of their last five games, not five.",qwen_medium,p1,9367.69
+T019,3,4,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,4,5,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,5,6,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,6,7,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,7,8,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,8,9,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,9,10,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,10,11,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,11,12,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,12,13,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,13,14,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,14,15,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,15,16,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,16,17,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,17,18,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,18,19,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,19,20,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,20,21,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,21,22,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,22,23,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,23,24,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,24,25,Al Horford,,,CONTEXT,Brook Lopez,"Al Horford played for the Hawks, not the Nets.",qwen_medium,p1,9367.69
+T019,25,26,Al Horford,,,,,,qwen_medium,p1,9367.69
+T020,1,1,Tuesday,22.0,22.0,NAME,Thursday,"The game was played on Thursday, not Tuesday.",qwen_medium,p1,9367.69
+T020,2,2,72 - 68,33.0,35.0,NUMBER,53 - 56,"The halftime score was 56-53, not 72-68.",qwen_medium,p1,9367.69
+T020,2,3,third,46.0,46.0,NUMBER,fourth,"The Hornets outscored the Heat in the fourth quarter, not the third.",qwen_medium,p1,9367.69
+T020,2,4,34 - 19,54.0,56.0,NUMBER,28 - 21,"The Hornets outscored the Heat 28-21 in the fourth quarter, not 34-19.",qwen_medium,p1,9367.69
+T020,3,5,meager 50,90.0,91.0,WORD,41,"The Heat shot 41% from the three-point line, not 50%.",qwen_medium,p1,9367.69
+T020,4,6,Nicolas Batum,106.0,107.0,CONTEXT,Luol Deng,"Luol Deng led the Heat with 22 points, not Nicolas Batum.",qwen_medium,p1,9367.69
+T020,4,7,team - high,116.0,118.0,WORD,second-highest,"Nicolas Batum scored 19 points, which was the second-highest for the Hornets, not the team-high.",qwen_medium,p1,9367.69
+T020,4,8,2 - 7,128.0,130.0,NUMBER,0 - 7,"Nicolas Batum shot 0-7 from the three-point line, not 2-7.",qwen_medium,p1,9367.69
+T020,4,9,3 - 3,133.0,135.0,NUMBER,3 - 3,"Nicolas Batum shot 3-3 from the free-throw line, which is correct.",qwen_medium,p1,9367.69
+T020,5,10,Marvin Williams,150.0,151.0,CONTEXT,Luol Deng,"Luol Deng scored 22 points, not Marvin Williams.",qwen_medium,p1,9367.69
+T020,5,11,12,153.0,153.0,NUMBER,22,"Luol Deng scored 22 points, not 12.",qwen_medium,p1,9367.69
+T020,5,12,Courtney Lee,156.0,157.0,CONTEXT,Josh Richardson,"Josh Richardson scored 18 points, not Courtney Lee.",qwen_medium,p1,9367.69
+T020,5,13,13,159.0,159.0,NUMBER,18,"Josh Richardson scored 18 points, not 13.",qwen_medium,p1,9367.69
+T020,5,14,3 - 6,162.0,164.0,NUMBER,7 - 9,"Josh Richardson shot 7-9 from the field, not 3-6.",qwen_medium,p1,9367.69
+T020,5,15,2 - 3,167.0,169.0,NUMBER,3 - 4,"Josh Richardson shot 3-4 from the three-point line, not 2-3.",qwen_medium,p1,9367.69
+T020,5,16,5 - 6,172.0,174.0,NUMBER,5 - 6,"Josh Richardson shot 5-6 from the free-throw line, which is correct.",qwen_medium,p1,9367.69
+T020,6,17,Goran Dragic,192.0,193.0,CONTEXT,Kemba Walker,"Kemba Walker led the Hornets with 21 points, not Goran Dragic.",qwen_medium,p1,9367.69
+T020,6,18,16,198.0,198.0,NUMBER,21,"Kemba Walker scored 21 points, not 16.",qwen_medium,p1,9367.69
+T020,6,19,0 - 3,206.0,208.0,NUMBER,4 - 9,"Kemba Walker shot 4-9 from the three-point line, not 0-3.",qwen_medium,p1,9367.69
+T020,6,20,seven rebounds,212.0,213.0,NUMBER,7 assists and 7 rebounds,"Kemba Walker had 7 assists and 7 rebounds, not just 7 rebounds.",qwen_medium,p1,9367.69
+T020,6,21,eight assists,215.0,216.0,NUMBER,7 assists,"Kemba Walker had 7 assists, not 8.",qwen_medium,p1,9367.69
+T020,6,22,two steals,218.0,219.0,NUMBER,2 steals,"Kemba Walker had 2 steals, which is correct.",qwen_medium,p1,9367.69
+T020,7,23,Deng,222.0,222.0,CONTEXT,Kemba Walker,"Kemba Walker scored 21 points, not Deng.",qwen_medium,p1,9367.69
+T020,7,24,22,246.0,246.0,,,,qwen_medium,p1,9367.69
+T021,1,1,7 - 3,6.0,8.0,NUMBER,6 - 3,The correct record for Portland is 6-3.,qwen_medium,p1,9367.69
+T021,1,2,4 - 5,15.0,17.0,NUMBER,4 - 4,The correct record for Brooklyn is 4-4.,qwen_medium,p1,9367.69
+T021,2,3,lost five of their last six games,35.0,41.0,WORD,won four straight games,The statement contradicts the previous sentence which states they have won four straight games.,qwen_medium,p1,9367.69
+T021,1,4,Friday,23.0,23.0,NAME,Saturday,"The game was played on Saturday, not Friday.",qwen_medium,p1,9367.69
+T021,10,5,Toronto Raptors,261.0,262.0,NAME,New Orleans Pelicans,"The next game for Portland is against the New Orleans Pelicans, not the Toronto Raptors.",qwen_medium,p1,9367.69
+T021,10,6,Friday,23.0,23.0,NAME,Monday,"The next game for Portland is on Monday, not Friday.",qwen_medium,p1,9367.69
+T021,11,7,Friday,23.0,23.0,NAME,Monday,"The next game for Brooklyn is on Monday, not Friday.",qwen_medium,p1,9367.69
+T022,1,1,Wednesday,23.0,23.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",qwen_medium,p1,9367.69
+T022,1,2,Energy Solutions Arena in Salt,25.0,29.0,NAME,AT & T Center in San Antonio,"The game was played at the AT & T Center in San Antonio, not at Energy Solutions Arena in Salt Lake City.",qwen_medium,p1,9367.69
+T022,4,3,Rudy Gobert,112.0,113.0,CONTEXT,Tiago Splitter,"Rudy Gobert played for the Jazz, not the Spurs. Tiago Splitter was the leading scorer for the Spurs.",qwen_medium,p1,9367.69
+T022,4,4,13,144.0,144.0,NUMBER,14,"Tiago Splitter scored 14 points, not 13.",qwen_medium,p1,9367.69
+T022,4,5,5 - 10,,,NUMBER,5 - 12,"Tiago Splitter went 5 - 12 from the field, not 5 - 10.",qwen_medium,p1,9367.69
+T022,4,6,0 - 0,,,NUMBER,4 - 4,"Tiago Splitter went 4 - 4 from the free throw line, not 0 - 0.",qwen_medium,p1,9367.69
+T022,5,7,second double - double,205.0,208.0,NUMBER,one rebound shy of a double-double,"Kawhi Leonard was one rebound shy of a double-double, not having a second double-double in a row.",qwen_medium,p1,9367.69
+T022,5,8,36 points,218.0,219.0,NUMBER,24 points,"Kawhi Leonard combined for 24 points over the last two games, not 36.",qwen_medium,p1,9367.69
+T022,5,9,10 rebounds,221.0,222.0,NUMBER,18 rebounds,"Kawhi Leonard combined for 18 rebounds over the last two games, not 10.",qwen_medium,p1,9367.69
+T022,6,10,4 - 10,240.0,242.0,NUMBER,4 - 12,"Aron Baynes went 4 - 12 from the field, not 4 - 10.",qwen_medium,p1,9367.69
+T022,6,11,0 - 1,245.0,247.0,NUMBER,0 - 3,"Aron Baynes went 0 - 3 from the three-point line, not 0 - 1.",qwen_medium,p1,9367.69
+T022,6,12,4 - 5,250.0,252.0,NUMBER,4 - 6,"Aron Baynes went 4 - 6 from the free throw line, not 4 - 5.",qwen_medium,p1,9367.69
+T022,7,13,Portland Trail Blazers,271.0,273.0,NAME,Denver Nuggets,"The Spurs' next game is against the Denver Nuggets, not the Portland Trail Blazers.",qwen_medium,p1,9367.69
+T022,7,14,Friday,275.0,275.0,NAME,Tuesday,"The Spurs' next game is on Tuesday, not Friday.",qwen_medium,p1,9367.69
+T022,7,15,Friday,275.0,275.0,NAME,Wednesday,"The Jazz's next game is on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T023,1,1,Wednesday,23.0,23.0,NAME,Saturday,"The game was played on Saturday, not Wednesday.",qwen_medium,p1,9367.69
+T023,1,2,American Airlines Arena,25.0,27.0,NAME,American Airlines Center,The correct name of the arena is American Airlines Center.,qwen_medium,p1,9367.69
+T023,4,3,It was his second double - double in a row,155.0,164.0,CONTEXT,,Curry did not have a double-double in the previous game.,qwen_medium,p1,9367.69
+T023,4,4,45 points and 21 rebounds,171.0,175.0,NUMBER,29 points and 8 rebounds,The correct stats for Curry's last two games are 29 points and 8 rebounds.,qwen_medium,p1,9367.69
+T023,5,5,Richard Jefferson,193.0,194.0,NAME,Dirk Nowitzki,"Dirk Nowitzki, not Richard Jefferson, scored 23 points and 8 rebounds.",qwen_medium,p1,9367.69
+T023,5,6,"13 points ( 5 - 8 FG , 2 - 4 3Pt , 1 - 4 FT )",199.0,216.0,NUMBER,"23 points (11-20 FG, 0-0 3Pt, 2-2 FT)","The correct stats for Dirk Nowitzki are 23 points (11-20 FG, 0-0 3Pt, 2-2 FT).",qwen_medium,p1,9367.69
+T023,5,7,35 minutes,221.0,222.0,NUMBER,33 minutes,"Dirk Nowitzki played 33 minutes, not 35.",qwen_medium,p1,9367.69
+T023,6,8,Harrison Barnes,235.0,236.0,NAME,Harrison Barnes,Harrison Barnes did indeed score 12 points and 9 rebounds.,qwen_medium,p1,9367.69
+T023,7,9,Portland Trail Blazers on Wednesday,270.0,274.0,NAME,New Orleans Pelicans on Sunday,"The Warriors' next game is against the New Orleans Pelicans on Sunday, not the Portland Trail Blazers on Wednesday.",qwen_medium,p1,9367.69
+T023,7,10,Portland Trail Blazers on Friday,285.0,289.0,NAME,New York Knicks on Friday,"The Mavericks' next game is against the New York Knicks on Friday, not the Portland Trail Blazers on Friday.",qwen_medium,p1,9367.69
+T024,1,1,Wednesday,23.0,23.0,NAME,Friday,"The game was played on Friday, not Wednesday.",qwen_medium,p1,9367.69
+T024,3,2,Jazz,13.0,13.0,CONTEXT,Thunder,"The Thunder, not the Jazz, were the superior shooters in this game.",qwen_medium,p1,9367.69
+T024,3,3,Jazz,13.0,13.0,CONTEXT,Thunder,"The Thunder, not the Jazz, went 49 percent from the floor.",qwen_medium,p1,9367.69
+T024,4,4,Kevin Durant,111.0,112.0,CONTEXT,Russell Westbrook,"Russell Westbrook, not Kevin Durant, was part of the duo leading the Thunder.",qwen_medium,p1,9367.69
+T024,5,5,It was his second double,153.0,157.0,WORD,It was his second game with the Thunder,The sentence incorrectly states that Durant achieved a double-double in his last two games.,qwen_medium,p1,9367.69
+T024,6,6,Trey Burke,191.0,192.0,CONTEXT,Gordon Hayward,"Gordon Hayward, not Trey Burke, was the leading scorer for the Jazz.",qwen_medium,p1,9367.69
+T024,7,7,Dion Waiters,232.0,233.0,CONTEXT,Trevor Booker,"Trevor Booker, not Dion Waiters, was the only other Jazz player to reach double figures.",qwen_medium,p1,9367.69
+T024,8,8,Denver Nuggets,282.0,283.0,NAME,Houston Rockets,"The Thunder's next game is against the Houston Rockets, not the Denver Nuggets.",qwen_medium,p1,9367.69
+T024,8,9,San Antonio,293.0,294.0,NAME,Houston,"The Jazz's next game is in Houston, not San Antonio.",qwen_medium,p1,9367.69
+T025,1,1,Sunday,22.0,22.0,NAME,Friday,"The game was played on Friday, not Sunday.",qwen_medium,p1,9367.69
+T025,5,2,Tony Wroten,108.0,109.0,NAME,Markieff Morris,Tony Wroten did not lead the Suns; Markieff Morris did.,qwen_medium,p1,9367.69
+T025,5,3,28,143.0,143.0,NUMBER,21,"Markieff Morris scored 21 points, not 28.",qwen_medium,p1,9367.69
+T025,5,4,10 - 19,,,NUMBER,7 - 12,"Markieff Morris went 7-for-12 from the field, not 10-for-19.",qwen_medium,p1,9367.69
+T025,5,5,4 - 9,,,NUMBER,3 - 4,"Markieff Morris went 3-for-4 from the three-point line, not 4-for-9.",qwen_medium,p1,9367.69
+T025,6,6,19 points and 8 rebounds,159.0,163.0,NUMBER,21 points and 3 rebounds,"Markieff Morris scored 21 points and had 3 rebounds, not 19 points and 8 rebounds.",qwen_medium,p1,9367.69
+T025,7,7,It was his second double - double in a row,209.0,218.0,CONTEXT,,This statement is contextually incorrect as Markieff Morris did not have a double-double in the previous game.,qwen_medium,p1,9367.69
+T025,8,8,Robert Covington,247.0,248.0,NAME,Michael Carter-Williams,"Michael Carter-Williams, not Robert Covington, had a double-double.",qwen_medium,p1,9367.69
+T025,8,9,"10 points ( 3 - 7 FG , 2 - 5 3Pt , 2 - 2 FT )",264.0,281.0,NUMBER,"17 points (8 - 20 FG, 1 - 4 3Pt, 0 - 0 FT)","Michael Carter-Williams scored 17 points, not 10, with different shooting stats.",qwen_medium,p1,9367.69
+T025,9,10,Goran Dragic,303.0,304.0,NAME,Henry Sims,"Henry Sims, not Goran Dragic, scored 12 points.",qwen_medium,p1,9367.69
+T025,9,11,"12 points ( 4 - 6 FG , 2 - 3 3Pt , 2 - 2 FT )",309.0,326.0,NUMBER,"16 points (6 - 7 FG, 0 - 0 3Pt, 4 - 4 FT)","Henry Sims scored 16 points, not 12, with different shooting stats.",qwen_medium,p1,9367.69
+T025,10,12,Portland Trail Blazers,370.0,372.0,NAME,Toronto Raptors,"The Suns' next game is against the Toronto Raptors, not the Portland Trail Blazers.",qwen_medium,p1,9367.69
+T025,10,13,Friday,374.0,374.0,NAME,Sunday,"The Suns' next game is on Sunday, not Friday.",qwen_medium,p1,9367.69
+T026,1,1,( 2 - 3 ),,,NUMBER,( 1 - 3 ),"The Pistons' record should be 1-3, not 2-3.",qwen_medium,p1,9367.69
+T026,2,2,out - scoring the Knicks,,,WORD,out - scoring the Pistons,The sentence incorrectly states that the Knicks out-scored the Knicks.,qwen_medium,p1,9367.69
+T026,3,3,37 percent,70.0,71.0,NUMBER,43 percent,"The Pistons shot 43% from the field, not 37%.",qwen_medium,p1,9367.69
+T026,3,4,45 percent,76.0,77.0,NUMBER,48 percent,"The Pistons shot 48% from the three-point line, not 45%.",qwen_medium,p1,9367.69
+T026,4,5,Kentavious Caldwell-Pope,107.0,108.0,CONTEXT,Tim Hardaway Jr.,"The story incorrectly attributes the leading scorer to Kentavious Caldwell-Pope, but it should be Tim Hardaway Jr.",qwen_medium,p1,9367.69
+T026,4,6,( 8 - 14 FG 4 - 7 3Pt 0 - 2 FT ),,,NUMBER,"( 8 - 15 FG, 4 - 7 3Pt, 0 - 0 FT )",The shooting stats for Kentavious Caldwell-Pope are incorrect.,qwen_medium,p1,9367.69
+T026,5,7,It was his second double - double,147.0,153.0,CONTEXT,It was Tim Hardaway Jr.'s second double-double,The context mistake incorrectly attributes the double-double to Kentavious Caldwell-Pope.,qwen_medium,p1,9367.69
+T026,6,8,He 's now averaging 12 points,215.0,220.0,CONTEXT,He's now averaging 20 points,The context mistake incorrectly states Tim Hardaway Jr.'s average points.,qwen_medium,p1,9367.69
+T026,7,9,Iman Shumpert,228.0,229.0,CONTEXT,Jason Smith,The context mistake incorrectly attributes the 15 points to Iman Shumpert.,qwen_medium,p1,9367.69
+T026,7,10,( 5 - 13 FG 4 - 6 3Pt 1 - 2 FT ),,,NUMBER,"( 5 - 13 FG, 1 - 6 3Pt, 1 - 2 FT )",The shooting stats for Iman Shumpert are incorrect.,qwen_medium,p1,9367.69
+T026,8,11,Pistons,3.0,3.0,WORD,Knicks,"The sentence incorrectly states that the Pistons' next game is against the Raptors, but it should be the Knicks.",qwen_medium,p1,9367.69
+T026,8,12,Toronto Raptors,267.0,268.0,NAME,Miami Heat,"The next game for the Pistons is against the Miami Heat, not the Toronto Raptors.",qwen_medium,p1,9367.69
+T026,8,13,Pistons,3.0,3.0,WORD,Knicks,"The sentence incorrectly states that the Pistons will be at home against the Miami Heat, but it should be the Knicks.",qwen_medium,p1,9367.69
+T027,1,1,Friday,18.0,18.0,NAME,Wednesday,"The game was played on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T027,2,2,Monday,31.0,31.0,NAME,Wednesday,"The game was played on Wednesday, not Monday.",qwen_medium,p1,9367.69
+T027,2,3,faint,41.0,41.0,WORD,strong,"The Rockets' playoff hopes were strong, not faint.",qwen_medium,p1,9367.69
+T027,2,4,Wednesday,70.0,70.0,NAME,Wednesday,"This is a repetition error, but the day is correct.",qwen_medium,p1,9367.69
+T027,2,5,Gregg Popovich,74.0,75.0,NAME,Mike D'Antoni,Gregg Popovich is not the coach of the Rockets; it's Mike D'Antoni.,qwen_medium,p1,9367.69
+T027,3,6,Gordon Davis,115.0,116.0,NAME,Eric Gordon,"The player's name is Eric Gordon, not Gordon Davis.",qwen_medium,p1,9367.69
+T027,3,7,19,52.0,52.0,NUMBER,29,"Eric Gordon scored 29 points, not 19.",qwen_medium,p1,9367.69
+T027,4,8,Alexis Ajinca,194.0,195.0,NAME,Terrence Jones,"The player who scored 20 points off the bench was Terrence Jones, not Alexis Ajinca.",qwen_medium,p1,9367.69
+T027,4,9,20,24.0,24.0,NUMBER,16,"Terrence Jones scored 16 points, not 20.",qwen_medium,p1,9367.69
+T027,5,10,Buddy Hield,154.0,155.0,NAME,Eric Gordon,"The player who led the second unit with 29 points was Eric Gordon, not Buddy Hield.",qwen_medium,p1,9367.69
+T027,5,11,11,100.0,100.0,NUMBER,29,"Eric Gordon scored 29 points, not 11.",qwen_medium,p1,9367.69
+T027,6,12,Jrue Holiday,179.0,180.0,NAME,Buddy Hield,"The player who scored 11 points off the bench was Buddy Hield, not Jrue Holiday.",qwen_medium,p1,9367.69
+T027,6,13,11,100.0,100.0,NUMBER,11,"Buddy Hield scored 11 points, which is correct.",qwen_medium,p1,9367.69
+T027,7,14,Alexis Ajinca,194.0,195.0,NAME,Buddy Hield,"The player who led the second unit with 20 points was Buddy Hield, not Alexis Ajinca.",qwen_medium,p1,9367.69
+T027,7,15,20,24.0,24.0,NUMBER,11,"Buddy Hield scored 11 points, not 20.",qwen_medium,p1,9367.69
+T027,8,16,Eric Gordon,270.0,271.0,NAME,Buddy Hield,"The player who led the second unit with 29 points was Buddy Hield, not Eric Gordon.",qwen_medium,p1,9367.69
+T027,8,17,29,96.0,96.0,NUMBER,11,"Buddy Hield scored 11 points, not 29.",qwen_medium,p1,9367.69
+T027,9,18,Trevor Ariza,131.0,132.0,NAME,Buddy Hield,"The player who supplied 20 points was Buddy Hield, not Trevor Ariza.",qwen_medium,p1,9367.69
+T027,9,19,20,24.0,24.0,NUMBER,11,"Buddy Hield scored 11 points, not 20.",qwen_medium,p1,9367.69
+T027,10,20,Buddy Hield,154.0,155.0,NAME,Buddy Hield,"This is a repetition error, but the name is correct.",qwen_medium,p1,9367.69
+T027,10,21,11,100.0,100.0,NUMBER,11,"Buddy Hield scored 11 points, which is correct.",qwen_medium,p1,9367.69
+T027,11,22,Alexis Ajinca,194.0,195.0,NAME,Buddy Hield,"The player who led the second unit with 20 points was Buddy Hield, not Alexis Ajinca.",qwen_medium,p1,9367.69
+T027,11,23,20,24.0,24.0,NUMBER,11,"Buddy Hield scored 11 points, not 20.",qwen_medium,p1,9367.69
+T027,12,24,Cheick Diallo,339.0,340.0,NAME,Buddy Hield,"The player who led the second unit with 10 points was Buddy Hield, not Cheick Diallo.",qwen_medium,p1,9367.69
+T027,12,25,10,343.0,343.0,,,,qwen_medium,p1,9367.69
+T028,2,1,eliminated from playoff,30.0,32.0,CONTEXT,,The Spurs were not eliminated from playoff contention.,qwen_medium,p1,9367.69
+T028,2,2,Spurs ( 35 - 13 ),37.0,42.0,NUMBER,Spurs (44-13),The record for the Spurs is incorrect.,qwen_medium,p1,9367.69
+T028,3,3,Spurs ( 35 - 13 ),37.0,42.0,NUMBER,Spurs (44-13),The record for the Spurs is incorrect.,qwen_medium,p1,9367.69
+T028,4,4,Spurs ( 35 - 13 ),37.0,42.0,NUMBER,Spurs (44-13),The record for the Spurs is incorrect.,qwen_medium,p1,9367.69
+T028,5,5,Spurs ( 44 - 13 ),22.0,27.0,NUMBER,Spurs (44-13),The record for the Spurs is incorrect.,qwen_medium,p1,9367.69
+T028,6,6,Blake Griffin,124.0,125.0,NAME,Kawhi Leonard,Blake Griffin did not play for the Spurs.,qwen_medium,p1,9367.69
+T028,6,7,Spurs,4.0,4.0,NAME,Clippers,Blake Griffin played for the Clippers.,qwen_medium,p1,9367.69
+T028,7,8,LaMarcus Aldridge,157.0,158.0,NAME,Kawhi Leonard,LaMarcus Aldridge did not lead the Spurs with 15 points.,qwen_medium,p1,9367.69
+T028,7,9,15 points,162.0,163.0,NUMBER,21 points,Kawhi Leonard scored 21 points.,qwen_medium,p1,9367.69
+T028,8,10,Tony Parker,178.0,179.0,WORD,Pau Gasol,Tony Parker did not come off the bench.,qwen_medium,p1,9367.69
+T028,8,11,off the bench,197.0,199.0,WORD,,Tony Parker started the game.,qwen_medium,p1,9367.69
+T028,9,12,Blake Griffin,124.0,125.0,NAME,Kawhi Leonard,Blake Griffin did not lead the Spurs.,qwen_medium,p1,9367.69
+T028,9,13,Spurs,4.0,4.0,NAME,Clippers,Blake Griffin played for the Clippers.,qwen_medium,p1,9367.69
+T028,10,14,Austin Rivers,237.0,238.0,NAME,Pau Gasol,Austin Rivers did not score 23 points.,qwen_medium,p1,9367.69
+T028,10,15,23 points,242.0,243.0,NUMBER,17 points,Pau Gasol scored 17 points.,qwen_medium,p1,9367.69
+T028,10,16,off the bench,197.0,199.0,WORD,,Pau Gasol did not come off the bench.,qwen_medium,p1,9367.69
+T028,11,17,Chris Paul,260.0,261.0,NAME,Tony Parker,Chris Paul did not play for the Spurs.,qwen_medium,p1,9367.69
+T029,1,1,defeated,9.0,9.0,WORD,lost to,"The Suns lost to the Magic, not defeated them.",qwen_medium,p1,9367.69
+T029,3,2,out - scoring the Magic,,,WORD,out - scored by the Magic,"The Magic out-scored the Suns, not the other way around.",qwen_medium,p1,9367.69
+T029,4,3,20,105.0,105.0,NUMBER,19,"The Suns committed 19 turnovers, not 20.",qwen_medium,p1,9367.69
+T029,5,4,Victor Oladipo,124.0,125.0,CONTEXT,Brandon Knight,Victor Oladipo did not lead the Suns; Brandon Knight did.,qwen_medium,p1,9367.69
+T029,5,5,28,159.0,159.0,NUMBER,19,"PJ Tucker scored 19 points, not 28.",qwen_medium,p1,9367.69
+T029,5,6,7 rebounds,178.0,179.0,NUMBER,4 rebounds,"PJ Tucker had 4 rebounds, not 7.",qwen_medium,p1,9367.69
+T029,6,7,7 for 15,,,NUMBER,11 for 17,"Brandon Knight went 11 for 17 from the field, not 7 for 15.",qwen_medium,p1,9367.69
+T029,6,8,4 for 9,,,NUMBER,4 for 8,"Brandon Knight went 4 for 8 from the three-point line, not 4 for 9.",qwen_medium,p1,9367.69
+T029,6,9,team - high,,,WORD,high,"Brandon Knight scored the high points, not the team-high.",qwen_medium,p1,9367.69
+T029,7,10,7 for 10,,,NUMBER,7 for 10,"PJ Tucker went 7 for 10 from the field, not 7 for 15.",qwen_medium,p1,9367.69
+T029,7,11,1 for 2,,,NUMBER,1 for 2,"PJ Tucker went 1 for 2 from the three-point line, not 1 for 2.",qwen_medium,p1,9367.69
+T029,8,12,Wednesday,22.0,22.0,NAME,Friday,"The Suns' next game is on Friday, not Wednesday.",qwen_medium,p1,9367.69
+T029,8,13,New Orleans Pelicans,265.0,267.0,NAME,Brooklyn Nets,"The Suns' next game is against the Brooklyn Nets, not the New Orleans Pelicans.",qwen_medium,p1,9367.69
+T030,1,1,Wednesday,22.0,22.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",qwen_medium,p1,9367.69
+T030,2,2,40,42.0,42.0,NUMBER,40%,"The Grizzlies shot 40% from the field, not 40.",qwen_medium,p1,9367.69
+T030,2,3,33,48.0,48.0,NUMBER,33%,"The Grizzlies shot 33% from the three-point line, not 33.",qwen_medium,p1,9367.69
+T030,2,4,44,61.0,61.0,NUMBER,44%,"The Suns shot 44% from the field, not 44.",qwen_medium,p1,9367.69
+T030,3,5,Eric Bledsoe,83.0,84.0,CONTEXT,Eric Bledsoe,"Eric Bledsoe played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,3,6,(8 - 22 FG 2 - 6 3Pt 5 - 7 FT),,,NUMBER,"(8-22 FG, 2-6 3Pt, 5-7 FT)","The stats for Eric Bledsoe are correct, but he played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,3,7,seven rebounds,111.0,112.0,NUMBER,7 rebounds,"The stats for Eric Bledsoe are correct, but he played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,3,8,six assists,114.0,115.0,NUMBER,6 assists,"The stats for Eric Bledsoe are correct, but he played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,4,9,It was his second double - double in a row,141.0,150.0,CONTEXT,It was his second double-double in a row,The context is incorrect because Marc Gasol did not have a double-double in the previous game.,qwen_medium,p1,9367.69
+T030,4,10,40 points and 12 rebounds,157.0,161.0,NUMBER,40 points and 12 rebounds,The combined stats for Marc Gasol over the last two games are incorrect.,qwen_medium,p1,9367.69
+T030,5,11,Brandon Knight,168.0,169.0,CONTEXT,Brandon Knight,"Brandon Knight played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,5,12,17 points,184.0,185.0,NUMBER,17 points,"The stats for Brandon Knight are correct, but he played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,5,13,six rebounds,203.0,204.0,NUMBER,4 rebounds,The stats for Brandon Knight are incorrect.,qwen_medium,p1,9367.69
+T030,6,14,The Grizzlies,31.0,32.0,CONTEXT,The Suns,The Grizzlies did not lose three of their last three games; the Suns did.,qwen_medium,p1,9367.69
+T030,7,15,Eric Bledsoe,83.0,84.0,CONTEXT,Eric Bledsoe,"Eric Bledsoe played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,7,16,12 points and 5 rebounds,334.0,338.0,NUMBER,12 points and 5 rebounds,"The stats for Eric Bledsoe are correct, but he played for the Suns, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,8,17,Courtney Lee,343.0,344.0,CONTEXT,Courtney Lee,"Courtney Lee played for the Grizzlies, not the Suns.",qwen_medium,p1,9367.69
+T030,8,18,18 points,347.0,348.0,NUMBER,18 points,"The stats for Courtney Lee are correct, but he played for the Grizzlies, not the Suns.",qwen_medium,p1,9367.69
+T030,9,19,The Grizzlies,31.0,32.0,CONTEXT,The Suns,"The Grizzlies' next game is against the Denver Nuggets, not the Suns.",qwen_medium,p1,9367.69
+T030,9,20,Portland Trail Blazers,221.0,223.0,NAME,Denver Nuggets,"The Grizzlies' next game is against the Denver Nuggets, not the Portland Trail Blazers.",qwen_medium,p1,9367.69
+T030,9,21,Friday,240.0,240.0,NAME,Wednesday,"The Grizzlies' next game is on Wednesday, not Friday.",qwen_medium,p1,9367.69
+T030,10,22,The Suns,,,CONTEXT,The Grizzlies,"The Suns' next game is against the Los Angeles Clippers, not the Grizzlies.",qwen_medium,p1,9367.69
+T030,10,23,Los Angeles Clippers,395.0,397.0,,,,qwen_medium,p1,9367.69

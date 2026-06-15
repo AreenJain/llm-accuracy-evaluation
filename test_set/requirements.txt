@@ -1,0 +1,9 @@
+huggingface_hub==1.14.0
+langchain_core==1.4.0
+ollama==0.6.2
+openpyxl==3.1.5
+pandas==3.0.3
+pydantic==2.13.4
+PyYAML==6.0.3
+torch==2.11.0
+transformers==5.8.0

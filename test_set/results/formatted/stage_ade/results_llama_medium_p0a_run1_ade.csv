@@ -1,0 +1,55 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,Incorrect day of the week
+T003,12,3,Friday,16,16,,,NAME,Monday,Incorrect day of the week
+T005,1,0,Saturday,17,17,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T006,1,1,Grizzlies,3,3,,,NAME,Knicks,Incorrect team name
+T006,13,4,Suns,8,8,,,NAME,"Suns is correct, but the team is not mentioned in the original text",Incorrect team name
+T010,1,0,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T011,1,0,Wednesday,18,18,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T012,1,1,Wednesday,22,22,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T012,4,3,55,11,11,,,NUMBER,41,"Kyle Lowry shot 41 percent from the field, not 55 percent."
+T012,5,4,17,14,14,,,NUMBER,12,"DeRozan averaged 12 rebounds, not 17 rebounds."
+T012,15,6,Friday,16,16,,,NAME,Saturday,"The Raptors' next game will be on Saturday, not Friday."
+T013,1,0,Saturday,17,17,,,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,2,1,Monday,11,11,,,NAME,Tuesday,"The Grizzlies head down to Central Florida for a showdown with the Orlando Magic on Tuesday evening, not Monday."
+T013,3,2,59 - 38,31,33,,,NUMBER,39,"The Grizzlies held the Jazz to only 39 percent from the field, not 59-38."
+T013,8,3,12,11,11,,,NUMBER,13,"Rudy Gobert hauled in 13 rebounds, not 12."
+T013,8,4,three,20,20,,,NUMBER,one,"Rudy Gobert mustered only one point, not three."
+T013,14,6,Central,23,23,,,NAME,,The text does not mention Central Florida.
+T013,14,7,Friday,33,33,,,NAME,,The text does not mention Friday.
+T014,1,1,Knicks,4,4,,,NAME,"Knicks is incorrect, the team name is Knicks",The team name is misspelled as 'Knicks' instead of 'Knicks'
+T017,1,0,Friday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T018,3,2,30,41,41,,,NUMBER,31,"James Harden played 31 minutes, not 30."
+T018,4,3,24,37,37,,,NUMBER,26,"Eric Gordon played 26 minutes, not 24."
+T018,5,4,37,23,23,,,NUMBER,29,"Julius Randle played 29 minutes, not 37."
+T018,7,5,29,40,40,,,NUMBER,Not Checkable,The number of minutes played by Lou Williams is not available in the box score data.
+T018,9,6,Friday,10,10,,,WORD,Not Checkable,The schedule of the next games is not available in the box score data.
+T019,1,0,59 - 19,5,7,,,NUMBER,59-19,The score is incorrect.
+T019,1,1,114 - 111,18,20,,,NUMBER,114-111,The score is incorrect.
+T019,1,2,Friday,26,26,,,NAME,Wednesday,The day of the week is incorrect.
+T019,3,4,24,11,11,,,NUMBER,24,The number of points is correct.
+T019,3,5,seven,14,14,,,NUMBER,7,The number of rebounds is correct.
+T019,2,6,four,9,9,,,NUMBER,4,The number of assists is correct.
+T019,3,7,33,26,26,,,NUMBER,33,The number of minutes played is correct.
+T019,4,9,nine,18,18,,,NUMBER,9,The number of rebounds is correct.
+T019,2,10,five,13,13,,,NUMBER,5,The number of assists is correct.
+T019,4,11,37,27,27,,,NUMBER,37,The number of minutes played is correct.
+T019,5,12,26,9,9,,,NUMBER,26,The number of points is correct.
+T019,5,13,10,17,17,,,NUMBER,10,The number of rebounds is correct.
+T019,3,14,two,20,20,,,NUMBER,2,The number of assists is correct.
+T019,5,15,39,38,38,,,NUMBER,39,The number of minutes played is correct.
+T019,6,16,14,5,5,,,NUMBER,14,The number of points is correct.
+T019,5,17,three,34,34,,,NUMBER,3,The number of assists is correct.
+T019,6,18,21,31,31,,,NUMBER,21,The number of points is correct.
+T019,8,21,Indiana,8,8,,,NAME,Indiana,The location is correct.
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,Incorrect day of the week
+T020,11,2,Wednesday,16,16,,,NAME,Saturday,Incorrect day of the week
+T020,11,3,Friday,30,30,,,NAME,Saturday,Incorrect day of the week
+T021,1,2,Friday,23,23,,,NAME,Saturday,Incorrect day of the week
+T023,1,1,Wednesday,23,23,,,NAME,Saturday,Incorrect day of the week
+T025,1,1,Sunday,22,22,,,NAME,Friday,Incorrect day of the week
+T025,13,6,Friday,17,17,,,NAME,Sunday,Incorrect day of the week
+T030,1,0,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,2,2,40,12,12,,,NUMBER,43,"The Grizzlies shot 43 percent from the field, not 40."
+T030,2,3,33,18,18,,,NUMBER,29,"The Suns shot 29 percent from beyond the arc, not 33."
+T030,7,5,Friday,32,32,,,NAME,Not checkable,The next game information is not checkable.

@@ -1,0 +1,352 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,CONTEXT,Monday,"The game was played on Monday, not Wednesday."
+T001,2,1,28,18,18,,,NUMBER,16,"The Nets scored 16 points in the first quarter, not 28."
+T001,3,1,49 percent from the field,12,16,,,NUMBER,45,"The Nets went 45 percent from the field, not 49."
+T001,3,1,49,12,12,,,NUMBER,45,"The Nets shot 45 percent from the field, not 49."
+T001,,1,The Nets were led by the duo of DeMarcus Cousins and Rudy Gay.,,,,,NOT_CHECKABLE,,No information about the Nets' leading players is available in the box score data.
+T001,,1,9 - 12 from the field,,,,,NUMBER,9-12,"The story says 9-12 from the field, but the JSON says 9-12 from the field is actually for McLemore, not Cousins."
+T001,7,1,second double - double,4,7,,,NUMBER,third,"The story says it was his second double-double, but the JSON says it was his third double-double."
+T001,8,1,Ben McLemore,12,13,,,NAME,Ben McLemore,The story misspells the player's name.
+T001,7,1,second double - double,4,7,,,NUMBER,third,"The story says it was his second double-double in a row, but the JSON says it was his third double-double."
+T001,8,1,Ben McLemore,12,13,,,NAME,Ben McLemore,The story misspells the player's name.
+T001,11,1,Friday,16,16,,,NOT_CHECKABLE,,The JSON does not contain information about the Nets' next game.
+T002,,1,New Orleans Pelicans defeated Dallas Mavericks,,,,,CONTEXT,,The JSON does not contain the information to verify the result of the game.
+T002,2,1,two teams,3,4,,,CONTEXT,,The sentence is literally true but misleading due to surrounding context.
+T002,3,1,11 ties and 11 lead changes,16,21,,,NUMBER,11 ties and 11 lead changes,"The story says 11 ties and 11 lead changes, but the JSON does not provide this information."
+T002,4,1,48 percent,14,15,,,NUMBER,50,The Pelicans held the Mavericks to 50 percent from the field.
+T002,5,1,44 - 34,16,18,,,NUMBER,44-38,The Pelicans won the rebounding battle 44-38.
+T002,6,1,four of their last five,11,15,,,NUMBER,none,The Pelicans have won 32 games and lost 43 games.
+T002,7,1,Harrison Barnes,1,2,,,NAME,Harrison Barnes,Player name misspelled
+T002,8,1,second on the team,4,7,,,CONTEXT,,"The story says Seth Curry finished second on the team, but the box score data does not provide information about player rankings."
+T002,9,1,starter,7,7,,,WORD,bench,Harrison Barnes was the only other starter in double figures.
+T002,10,1,Los Angeles,11,12,,,NAME,Los Angeles,The team name is correct but the city is incorrect.
+T002,,1,four six,,,,,NUMBER,six,The Pelicans have lost six of their last six games.
+T002,12,1,DeMarcus Cousins,1,2,,,NAME,DeMarcus Cousins,Player name misspelled.
+T002,8,1,second on the team,4,7,,,CONTEXT,,"The story says Jrue Holiday was second on the team, but the box score does not provide information about player rankings."
+T002,12,1,DeMarcus Cousins,1,2,,,NAME,DeMarcus Cousins,Player name misspelled.
+T002,15,1,On deck for New Orleans,1,5,,,CONTEXT,,"The game is actually at home, not on deck."
+T003,,1,Wednesday Amway Center in Orlando,,,,,CONTEXT,Thursday afternoon in London,"The game was played on Thursday afternoon in London, not Wednesday at the Amway Center in Orlando."
+T003,2,1,31,18,18,,,NUMBER,31,The Raptors scored 31 points in the first quarter.
+T003,,1,Magic Raptors,,,,,CONTEXT,"The Magic came out firing in this one, out - scoring the Raptors 31 - 18 right away in the first quarter.",The sentence is literally true but misleading due to surrounding context.
+T003,4,1,41,12,12,,,NUMBER,45,"Raptors field goal percentage is 45, not 41."
+T003,4,2,33,18,18,,,NUMBER,39,"Raptors three-point percentage is 39, not 33."
+T003,4,3,41,12,12,,,NUMBER,45,"Magic field goal percentage is 45, not 41."
+T003,4,4,39,38,38,,,NUMBER,33,"Magic three-point percentage is 33, not 39."
+T003,5,1,18 turnovers,11,12,,,NUMBER,15,"The Magic had 15 turnovers, not the Raptors."
+T003,,1,DeMar DeRozan 4 - 19 5 - 6,,,,,NUMBER,4-for-19 from the field and 5-for-6 from the three-point line,"The story says DeRozan went 4-for-19 from the field and 5-for-6 from the three-point line, but the box score data says he went 4-for-19 from the field and 5-for-6 from the three-point line."
+T003,,1,25 8,,,,,NUMBER,25.0,The player is averaging 25.0 points and 8 rebounds on the season.
+T003,,1,4 - 19 5 - 6,,,,,NUMBER,4 - for - 19 from the field and 0 - for - 6 from the three - point line,DeRozan went 4 - for - 19 from the field and 0 - for - 6 from the three - point line.
+T003,9,1,second double - double,4,7,,,NUMBER,first,"The player had his first double-double in a row, not his second."
+T003,10,1,James Johnson,6,7,,,NAME,James Johnson,Player name is correct.
+T003,,1,Jonas Valanciunas finished with 13 points,,,,,NUMBER,13,"The story says Jonas Valanciunas finished with 13 points, which is correct."
+T003,12,1,Friday,16,16,,,NOT_CHECKABLE,,The JSON does not contain information about the next game.
+T004,1,1,Tuesday,22,22,,,WORD,Wednesday,"The game was played on Wednesday, not Tuesday."
+T004,2,1,28 - 28,18,20,,,NUMBER,24,"The Wizards scored 24 points in the first quarter, not 28."
+T004,3,1,Wizards were able to out - score the Wizards,2,10,,,CONTEXT,,"The sentence is misleading as it implies the Wizards outscored the Heat, but the Heat actually won the game."
+T004,,1,out-rebound the Wizards,,,,,NUMBER,The Heat out-rebounded the Wizards 44-36,The story incorrectly states that the Wizards out-rebounded the Heat.
+T004,5,1,48 percent from the field,8,12,,,NUMBER,48,The Wizards shot 48 percent from the field.
+T004,6,1,John Wall and Bradley Beal,9,13,,,CONTEXT,,"The story says the duo of John Wall and Bradley Beal led the Heat, but the JSON does not support this claim."
+T004,,1,6 - 13,,,,,NUMBER,2,Wall went 2-for-2 from the three-point line.
+T004,8,1,second,4,4,,,NUMBER,first,The JSON does not mention this being his second double-double in a row.
+T004,9,1,7 - for - 14,11,15,,,NUMBER,4 - for - 5,The story says 7 - for - 14 but the JSON says 4 - for - 5.
+T004,10,1,17 points and 8 rebounds,5,9,,,NUMBER,8 rebounds and 17 points,The player is averaging 17 points and 8 rebounds.
+T004,11,1,Danny Granger had 21 points,6,10,,,NUMBER,,The JSON does not have any data for Danny Granger.
+T004,12,1,Milwaukee Bucks,13,14,,,NAME,Orlando Magic,"The Wizards will play the Orlando Magic, not the Milwaukee Bucks."
+T005,1,1,Saturday,17,17,,,WORD,Monday,"The game was played on Monday, not Saturday."
+T005,2,1,30 - point,16,18,,,NUMBER,30,The Wizards scored 30 points in the first quarter.
+T005,3,1,30 - 22,17,19,,,NUMBER,30,The Wizards had a 30-26 lead after one quarter.
+T005,3,1,30 - 22,17,19,,,NUMBER,30,The Wizards had a 30-22 lead after one quarter.
+T005,,1,game-high,,,,,WORD,game high,The story says 'game-high' but the JSON says 'highly effective third wheel'.
+T005,6,1,20 - rebound,10,12,,,NUMBER,seven rebounds,The story says 20 rebounds but the JSON says seven rebounds.
+T005,7,1,"23 points , eight rebounds , two assists and one block",4,14,,,NUMBER,"23 points, eight rebounds, two assists and one block",The story says Markieff Morris had 2 assists but the box score says he had 1 assist.
+T005,8,1,"13 points , seven rebounds , one assist and one block",4,14,,,NUMBER,8,"Marcin Gortat had 8 points, 7 rebounds, 1 assist and 1 block."
+T005,9,1,Jason Smith,1,2,,,NAME,Jason Smith is not present in the box score data,The player is not present in the box score data
+T005,8,1,one assist,10,11,,,NUMBER,one,"The story says one assist but the box score says Kelly Oubre, Jr had one assist."
+T005,11,1,John Wall led the way for Charlotte,1,7,,,NAME,Washington,"The story says John Wall led the way for Charlotte, but the JSON says he played for Washington."
+T005,12,1,nine rebounds,8,9,,,NUMBER,8,"The JSON says Cody Zeller had 8 rebounds, not 9."
+T005,12,1,nine rebounds,8,9,,,NUMBER,8,"The JSON says Cody Zeller had 8 rebounds, not 9."
+T005,14,1,Frank Kaminsky III,1,3,,,NAME,Frank Kaminsky,The story says 'Frank Kaminsky III' but the JSON says 'Frank Kaminsky'.
+T005,15,1,New York Knicks,11,13,,,NAME,Boston Celtics,"The Wizards head back home to face off with the Boston Celtics on Tuesday evening, not the New York Knicks."
+T006,1,1,Memphis,2,2,,,NAME,Grizzlies,"The team name is Grizzlies, not Memphis."
+T006,2,1,21 and 12,19,21,,,NUMBER,21 and 23,"The story says 21 and 12, but the JSON says 21 and 23."
+T006,,1,team-high,,,,,WORD,team high,The story says 'team-high' but the JSON says 'team high'.
+T006,,1,9 - 12,,,,,NUMBER,9-12,The box score shows 9-12 FG for Zach Randolph.
+T006,5,1,52 percent from the field and 58 percent from three - point range,4,16,,,NUMBER,52 percent from the field and 22 percent from beyond the arc,"The story says 58 percent from three-point range, but the JSON says 22 percent from beyond the arc."
+T006,,1,Marc Gasol 21 9 -of- 17,,,,,NUMBER,21,The box score says Marc Gasol scored 21 points on 9-of-17 shooting.
+T006,,1,23 seven five one one,,,,,NUMBER,"23, 7, 5, 1, 1","The JSON says Zach Randolph finished with 23 points, 7 rebounds, 5 assists, 1 steal and 1 block in 35 minutes."
+T006,8,1,"21 points , eight rebounds , three assists , one steal and one block",5,18,,,NUMBER,"21 points, eight rebounds, three assists, one steal and one block",The story lists the wrong stats for Marc Gasol.
+T006,7,1,"23 points , seven rebounds , five assists , one steal and one block",5,18,,,NUMBER,"23 points, 7 rebounds, 5 assists, 0 steals, 0 blocks","The story says Zach Randolph had 1 steal and 1 block, but the JSON says he had 0 steals and 0 blocks."
+T006,5,1,52 percent from the field,4,8,,,NUMBER,42,"The Knicks shot 42 percent from the field, not 52."
+T006,,1,52 percent from the field and 58 percent from the three - point line,,,,,NUMBER,52,The Grizzlies shot 52 percent from the field and 58 percent from beyond the arc.
+T006,13,1,Sunday,10,10,,,NOT_CHECKABLE,,No information about the game schedule in the box score data.
+T007,1,1,Moda Center,23,24,,,CONTEXT,,The JSON does not mention the venue name.
+T007,2,1,second half,12,13,,,CONTEXT,fourth quarter,"The story says the Nuggets closed out the game in the second half, but the JSON says they outscored the Nuggets 32-20 in the fourth quarter."
+T007,3,1,Kenneth Faried,6,7,,,NAME,Kenneth Faried,The story misspells the first name.
+T007,,1,12 points on 6 - 11,,,,,NUMBER,3,"Darrell Arthur scored 3 points, not 12."
+T007,6,1,4 - 12,15,17,,,NUMBER,0,"Kenneth Faried shot 0 for 6 from long range, not 0 for 6."
+T007,,1,Kenneth Faried finished with 13 points,,,,,NUMBER,8,"Kenneth Faried scored 8 points, not 13."
+T007,7,1,"13 points ( 4 - 12 FG , 5 - 6 FT",5,16,,,NUMBER,8,"Kenneth Faried scored 8 points, not 13."
+T007,8,1,43 percent from the field and 44 percent from long range,4,14,,,NUMBER,47,The Trail Blazers shot 47 percent from the field and 38 percent from long range.
+T007,,1,"Will Barton was the high - point man for Denver, with 31 points ( 12 - 22 FG, 4 - 6 3Pt, 1 - 2 FT ), along with four assists, five rebounds and one steal, in 36 minutes.",,,,,NOT_CHECKABLE,,The sentence is not verifiable from the box score data.
+T007,10,1,"19 points ( 6 - 11 FG , 4 - 6 3Pt , 3 - 4 FT",5,21,,,NUMBER,19,"Gary Harris scored 19 points, not 19 points with the specified breakdown."
+T007,6,1,"13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT",12,28,,,NUMBER,8,"Kenneth Faried scored 8 points, not 13"
+T007,,1,43 44,,,,,NUMBER,43,The Nuggets shot 43 percent from the field and 44 percent from long range.
+T007,13,1,Sunday,10,10,,,NOT_CHECKABLE,,No information about the next game date in the JSON.
+T008,1,1,104 - 97,18,20,,,NUMBER,104-97,"The story says the Pacers won 104-97, which is correct."
+T008,,1,double-digit,,,,,NUMBER,10-point,"The Pacers were 10-point favorites, not double-digit favorites."
+T008,3,1,42 percent from the field,16,20,,,NUMBER,42,The Pacers held the Nets to 42 percent from the field.
+T008,4,1,52 - 42,12,14,,,NUMBER,52-42,"The JSON says the Pacers won the rebounding battle 52-42, not the Nets."
+T008,,1,four of their last six games four of their last four games,,,,,CONTEXT,four of their last four games,The story is literally true but misleading due to surrounding context.
+T008,6,1,Brook Lopez,1,2,,,NAME,Brook Lopez is not present in the box score data. The player mentioned in the box score data with the most similar name is Brook Lopez.,The box score data does not mention a player named Brook Lopez.
+T008,7,1,Thaddeus Young,1,2,,,NAME,Thaddeus Young,Player name misspelled.
+T008,8,1,Andrea Bargnani,1,2,,,NAME,Andrea Bargnani,Player name is correct
+T008,9,1,Saturday,14,14,,,NOT_CHECKABLE,,The JSON does not contain information about the day of the week.
+T008,10,1,dominant,10,10,,,WORD,strong,"The story says the Pacers have been dominant, but the JSON says they have been strong."
+T008,11,1,"23 points , 11 rebounds and three assists",13,20,,,NUMBER,"23 points, 10 rebounds and 3 assists","The JSON says 23 points, 10 rebounds and 3 assists, but the story says 23 points, 11 rebounds and three assists."
+T008,12,1,George Hill,1,2,,,NAME,Jordan Hill,The story says George Hill but the JSON says Jordan Hill.
+T008,13,1,Myles Turner,1,2,,,NAME,CJ Miles,"The story mentions Myles Turner, but the box score data lists CJ Miles as the player with 15 points and seven rebounds."
+T008,9,1,Saturday,14,14,,,NOT_CHECKABLE,,The JSON does not contain information about the next game.
+T009,1,1,Minnesota Timberwolves,2,3,,,CONTEXT,Heat,"The sentence says the Timberwolves defeated the Timberwolves, but the JSON says the Heat played the Timberwolves."
+T009,2,1,sizable,14,14,,,WORD,large,"The Heat were a large favorite, not sizable."
+T009,3,1,31 - 22,20,22,,,NUMBER,31-24,The Heat outscored the Timberwolves by a 31-24 margin over the final 12 minutes.
+T009,4,1,two rebounds,19,20,,,NUMBER,9,The story says two rebounds but the JSON says nine.
+T009,5,1,"12 points ,",5,7,,,NUMBER,12,The box score data shows Dion Waiters scored 12 points.
+T009,6,1,"19 - point , 13 - rebound",5,11,,,NUMBER,"19 points, 13 rebounds","The story says Hassan Whiteside posted a 19-point, 13-rebound double-double, but the box score data says he scored 19 points and had 13 rebounds."
+T009,7,1,Wayne Ellington,1,2,,,NAME,Wayne Ellington,The player name is correct.
+T009,8,1,sixth seed,20,21,,,NUMBER,sixth,"The story says sixth seed, but the JSON does not provide this information."
+T009,,1,Karl-Anthony Town,,,,,NAME,Karl-Anthony Towns,The player name is misspelled in the story.
+T009,11,1,Andrew Wiggins,1,2,,,NAME,Andrew Wiggins,The JSON does not contain this player name.
+T009,12,1,Ricky Rubio,1,2,,,NAME,Ricky Rubio,The JSON spells the name as Ricky Rubio.
+T009,13,1,"Ricky Rubio posted a 14 - point , 13 - assist double - double",1,14,,,NUMBER,13 assists,"Ricky Rubio had 13 assists, not a double-double."
+T009,14,1,Shabazz Muhammad,1,2,,,NAME,Shabazz Muhammad,Player name misspelled.
+T010,,1,Wednesday BMO Harris Bradley Center in Milwaukee,,,,,CONTEXT,Monday,"The game was played on Monday, not Wednesday, and at the BMO Harris Bradley Center in Milwaukee."
+T010,2,1,32 - 26,15,17,,,NUMBER,38,"The Bucks scored 38 points in the first quarter, not 32."
+T010,3,1,17 turnovers,10,11,,,NUMBER,16,"The Rockets forced 16 turnovers, not 17."
+T010,4,1,42 percent,28,29,,,NUMBER,59,"The Bucks shot 59 percent from the field, not 42."
+T010,,1,17 16,,,,,NUMBER,16,"The Bucks forced the Rockets into 16 turnovers, not 17."
+T010,6,1,James Harden and Dwight Howard,9,13,,,NAME,"Jabari Parker, Khris Middleton and Giannis Antetokounmpo","The story mentions Harden and Howard, but the box score says the Bucks were led by Parker, Middleton and Antetokounmpo."
+T010,,1,8 - 16 from the field,,,,,NUMBER,6,Harden went 6-for-16 from the field.
+T010,8,1,20 points and 8 assists,5,9,,,NUMBER,20 points and 11 assists,"The story says 20 points and 8 assists, but the JSON says 20 points and 11 assists."
+T010,,1,16 - 25 from the field,,,,,NUMBER,16-25,"Jabari Parker shot 16-25 from the field, not 16-for-25."
+T010,10,1,his second double - double in a row,3,10,,,CONTEXT,his second triple-double in a row,The story says double-double but the JSON says triple-double.
+T010,,1,6 - 9 FG 4 - 7 3Pt 4 - 4 FT,,,,,NUMBER,"6 - 9 FG, 4 - 7 3Pt, 4 - 4 FT","The box score data does not provide the exact field goal, three-point, and free throw numbers for Trevor Ariza."
+T010,12,1,Friday,16,16,,,NOT_CHECKABLE,,The JSON does not contain information about the Rockets' next game.
+T011,1,1,Atlanta Hawks defeated the visiting Cleveland Cavaliers,2,8,,,CONTEXT,The Cleveland Cavaliers defeated the host Atlanta Hawks,"The story says Atlanta won, but the JSON says Cleveland won."
+T011,2,1,easily,8,8,,,CONTEXT,The Cavaliers won the game 135-130.,"The story says Atlanta was expected to win, but they actually lost."
+T011,3,1,majority of the game,9,12,,,CONTEXT,The Cavaliers never led by more than seven points for the entirety of the second half.,"The story says the Hawks led for the majority of the game, but the JSON says the Cavaliers never led by more than seven points for the entirety of the second half."
+T011,4,1,Hawks (,2,3,,,NAME,Cavaliers,"The team that had to play without Kyrie Irving is actually the Cavaliers, not the Hawks."
+T011,5,1,"38 points , 13 rebounds and eight assists",13,20,,,NUMBER,"38 points, 13 rebounds and eight assists","The JSON says 38 points, 13 rebounds and eight assists, but the story says 38 points, 13 rebounds and eight assists."
+T011,4,1,n't,21,21,,,WORD,wasn't,The sentence says 'n't' but the JSON says 'wasn't'.
+T011,7,1,Richard Jefferson and Channing Frye,1,5,,,NUMBER,11,"The story says Richard Jefferson and Channing Frye scored 11 points each, but the box score data says they scored 11 points each."
+T011,8,1,led the bench in scoring,3,7,,,CONTEXT,,The sentence is literally true but misleading due to surrounding context.
+T011,,1,road game,,,,,CONTEXT,,"The story does not mention the opponent, but the JSON does not provide this information either."
+T011,10,1,five,11,11,,,NUMBER,four,"The Hawks have won four of their last six games, not five."
+T011,11,1,Paul Millsap,1,2,,,NAME,Paul Millsap,"The story mentions Paul Millsap, but the box score data lists him as Paul Millsap."
+T011,12,1,second on the team,4,7,,,NUMBER,seventh,Schroder was seventh on the team in assists.
+T011,13,1,Dwight Howard,1,2,,,NAME,Dwight Howard,Player name misspelled
+T011,14,1,Ersan Ilyasova,1,2,,,NAME,Ersan Ilyasova,Player name is correct but not present in the box score data.
+T012,1,1,Wednesday,22,22,,,NOT_CHECKABLE,,Date is not verifiable from the box score data.
+T012,2,1,50 - 38,15,17,,,NUMBER,31,The Raptors outscored the Heat 31-29 in the first half.
+T012,,1,Kyle Lowry who finished with 12 points,,,,,NUMBER,12,"The story says Kyle Lowry finished with 12 points, which is correct."
+T012,4,1,55 percent,11,12,,,NUMBER,50,"The player shot 50 percent from the field, not 55."
+T012,5,1,"24 points ( 7 - 17 FG , 1 - 1 3Pt , 9 - 11 FT",9,25,,,NUMBER,24,"DeRozan scored 24 points, not 24 points with 7-17 FG, 1-1 3Pt, 9-11 FT."
+T012,6,1,24 points and 12 rebounds,18,22,,,NUMBER,"30 points, six rebounds and five assists","The story says 24 points and 12 rebounds, but the JSON says 30 points, six rebounds and five assists."
+T012,5,1,"24 points ( 7 - 17 FG , 1 - 1 3Pt , 9 - 11 FT",9,25,,,NUMBER,24,"DeRozan scored 24 points, not 24 points from 7-17 FG, 1-1 3Pt, 9-11 FT."
+T012,8,1,17 points and 12 rebounds,18,22,,,NUMBER,17 points and 12 rebounds,"The story says 17 points and 12 rebounds, but the JSON says 16 points and 18 rebounds."
+T012,9,1,Dwyane Dragic,12,13,,,NAME,Goran Dragic,The story says Dwyane Dragic but the JSON says Goran Dragic.
+T012,10,1,"44 points , 13 rebounds and five assists",15,22,,,NUMBER,"44 points, 13 rebounds and five assists","The story says 44 points, 13 rebounds and five assists, but the box score data does not contain this information."
+T012,11,1,Goran Dragic,1,2,,,NAME,Goran Dragic,"The JSON spells the name as Goran Dragic, not Goren Dragic."
+T012,10,1,"44 points , 13 rebounds and five assists",15,22,,,NUMBER,"30 points, six rebounds and five assists","The story incorrectly states the player's stats over two games, while the JSON only provides stats for one game."
+T012,9,1,Dragic,13,13,,,NAME,Goran Dragic,"The JSON has Goran Dragic, but the story has Dragic."
+T012,14,1,21,23,23,,,NUMBER,17,Minutes played per game
+T012,,1,Friday Friday,,,,,CONTEXT,,"The story says the Raptors and Heat both play the Cavaliers on Friday, but the JSON does not provide this information."
+T013,1,1,Saturday,17,17,,,WORD,Sunday,"The game was played on Sunday, not Saturday."
+T013,,1,four six,,,,,NUMBER,six,"The Grizzlies lost six of their last 10 games, not four."
+T013,3,1,59 - 38,31,33,,,NUMBER,,The JSON does not contain information about the score margin between the second and third quarters.
+T013,4,1,second half,18,19,,,CONTEXT,,"The story says the Grizzlies outscored the Jazz in the second half, but the JSON does not provide this information."
+T013,,1,"Gordon Hayward led the way with 22 points, which he supplemented with five rebounds, two assists, two steals and a block.",,,,,NUMBER,22,"The story says Hayward had 22 points but the box score says he had 22 points, which is correct. However, the story also says he had 5 rebounds, 2 assists, 2 steals, and 1 block, but the box score says he had 5 rebounds, 2 assists, 2 steals, and 0 blocks."
+T013,6,1,George Hill,1,2,,,NAME,George Hill,The JSON spells the name as 'George Hill'.
+T013,7,1,"Rudy Gobert supplied 15 points , four rebounds and two assists",1,11,,,NUMBER,"3 points, 13 rebounds, 2 assists","The story says Gobert had 15 points, 4 rebounds and 2 assists, but the JSON says he had 3 points, 13 rebounds and 2 assists."
+T013,,1,five boards,,,,,NUMBER,12,"Rudy Gobert hauled in 12 rebounds, not five boards."
+T013,9,1,Trey Lyles was productive in a reserve role as well,1,10,,,CONTEXT,,The sentence is true but the word 'as well' is misleading.
+T013,,1,"Mike Conley led the way for the Grizzlies with 19 points, nine assists, two rebounds and a steal.",,,,,NUMBER,"19 points, 9 assists, 2 rebounds, and 1 steal","The box score data shows Mike Conley had 19 points, 9 assists, 2 rebounds, and 1 steal."
+T013,11,1,"13 - point , 11 - rebound double - double",7,16,,,NUMBER,"13 points, 11 rebounds","The story says Zach Randolph had a 13-point, 11-rebound double-double, but the JSON says he had 13 points and 11 rebounds, not a double-double."
+T013,6,1,four rebounds,9,10,,,NUMBER,one,"The story says Marc Gasol had four rebounds, but the JSON says he had one."
+T013,,1,11 rebound,,,,,NUMBER,11,The story says Zach Randolph had 11 rebounds but the box score says he had 11 rebounds.
+T013,2,1,Monday,11,11,,,NOT_CHECKABLE,,The JSON does not contain information about the Jazz's next game.
+T014,1,1,New York Knicks,2,4,,,NAME,New York Knicks,"The team name is New York Knicks, not just New York."
+T014,2,1,worst record,15,16,,,OTHER,worst,The Knicks are tied for the worst record in the Eastern Conference.
+T014,2,1,five of their last six games,33,38,,,NUMBER,none,The JSON does not contain information about the Knicks winning or losing their last six games.
+T014,,1,game-high,,,,,NUMBER,26,The story says 'game-high' but the JSON says 26 points.
+T014,5,1,"Carmelo Anthony followed up with 16 points , four rebounds and three assists",1,13,,,NUMBER,16,"The story says Carmelo Anthony had 16 points, four rebounds and three assists, but the box score data says he had 16 points, four rebounds and three assists, which is correct."
+T014,6,1,Willy Hernangomez chipped,1,3,,,WORD,,The JSON does not contain the word 'chipped'.
+T014,,1,five six,,,,,NUMBER,six,The Bucks have won six of their last seven games.
+T014,8,1,four steals,18,19,,,NUMBER,four,"The JSON says Giannis Antetokounmpo had 4 steals, but the story says four steals."
+T014,9,1,four assists,9,10,,,NUMBER,three assists,"Khris Middleton had three assists, not four."
+T014,10,1,"Greg Monroe was next with 17 points , eight rebounds , three assists and a steal",1,16,,,NUMBER,"17 points, eight rebounds, three assists","The story says Greg Monroe had a steal, but the box score data does not include steals for him."
+T014,11,1,Matthew Dellavedova,1,2,,,NAME,Matthew Dellavedova,"Player name is correct, but not found in the JSON."
+T014,12,1,Friday evening,13,14,,,NOT_CHECKABLE,,The JSON does not contain information about the schedule of the teams.
+T015,1,1,Wednesday at the Palace of Auburn Hills,23,29,,,CONTEXT,,"The game was played on Tuesday, not Wednesday, and the location is not specified in the JSON."
+T015,2,1,three - game,9,11,,,NUMBER,none,The Lakers had a three-game losing streak before this game.
+T015,,1,47 percent 37 percent,,,,,NUMBER,48,"The Lakers were the superior shooters in this game, going 48 percent from the field, while the Pistons went 37 percent."
+T015,,1,Nick Young who finished with 19 points,,,,,NUMBER,19,The JSON does not contain the information to verify the points scored by Nick Young.
+T015,,1,2-for-7 4-for-6,,,,,NUMBER,2-for-7 from the field and 4-for-4 from the free throw line,Greg Monroe shot 2-for-7 from the field and 4-for-4 from the free throw line.
+T015,6,1,52,6,6,,,NUMBER,,The JSON does not contain information about the player's consistency or the total points in the last two games.
+T015,7,1,"Brandon Jennings chipped in with 10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT )",1,23,,,NUMBER,4,"Brandon Jennings scored 4 points, not 10."
+T015,,1,Friday Friday,,,,,NOT_CHECKABLE,,The JSON does not contain information about the next game.
+T016,,1,Philadelphia 76ers defeated Sacramento Kings,,,,,CONTEXT,,"The Kings won the game, not the 76ers."
+T016,2,1,worst team in the NBA,14,18,,,CONTEXT,worst team in the league,"The story says the Sixers were the worst team in the NBA, but the JSON does not provide this information."
+T016,3,1,able to stave off a late rally late in the game,9,19,,,CONTEXT,The Sixers were able to pull away in the second half.,"The sentence is misleading as it implies the Sixers were able to stave off a late rally, but the JSON does not provide information about a late rally."
+T016,4,1,high - point man,5,8,,,NUMBER,18,The story says 18 points but also incorrectly says he was the high-point man.
+T016,5,1,a lowly 48 percent,8,11,,,NUMBER,36,The 76ers shot 36 percent from the field.
+T016,,1,high-point man,,,,,WORD,"high-point man is correct, but the sentence should be 'DeMarcus Cousins led the way for the Kings with 30 points, to go along with seven rebounds, five assists, three steals and two blocks, in 34 minutes.'",The story says 'high-point man' but the JSON says 'led the way'
+T016,,1,"Ty Lawson followed up with 12 points, four rebounds, four assists and two steals, while Darren Collison finished with nine points and four assists, in 28 minutes off the bench.",,,,,NOT_CHECKABLE,,The sentence cannot be verified from the box score data.
+T016,8,1,Sunday,17,17,,,NOT_CHECKABLE,,No information about the next game in the box score data.
+T017,1,1,Friday,23,23,,,CONTEXT,Tuesday,"The game was played on Tuesday, not Friday."
+T017,2,1,29 - 13,18,20,,,NUMBER,29-13,The Heat outscored the Pelicans 29-13 in the first quarter.
+T017,3,1,out - scored,14,16,,,CONTEXT,,"The story says the Pelicans out-scored the Heat, but the JSON says the Heat won."
+T017,4,1,25 points (,12,14,,,NUMBER,25,"The JSON says 25 points but the sentence says 25 points (10-21 FG, 0-0 3Pt, 5-6 FT)."
+T017,5,1,three blocked shots,29,31,,,NUMBER,three,"The story says Hassan Whiteside had three blocked shots, but the box score data says he had one."
+T017,6,1,54,6,6,,,NUMBER,46,"The story says he has combined for 54 points in the last two games, but the JSON says he combined for 46 points."
+T017,,1,"Anthony Davis had a strong showing as well, finishing with 24 points ( 10 - 11 FG, 4 - 6 FT ), 14 rebounds and three blocks.",,,,,NOT_CHECKABLE,,The JSON does not contain the information to verify this claim.
+T017,8,1,Wednesday,18,18,,,NOT_CHECKABLE,,The JSON does not contain information about future games.
+T017,9,1,four of its last four games,6,11,,,NUMBER,three,The Pelicans have lost three of their last four games.
+T017,10,1,Anthony Davis ( knee ),5,9,,,NOT_CHECKABLE,,The JSON does not contain information about Anthony Davis' injury.
+T017,7,1,Anthony Davis,1,2,,,NUMBER,,"Anthony Davis did not play, so he could not have scored any points."
+T017,1,1,Friday,23,23,,,NOT_CHECKABLE,,The JSON does not contain information about future games.
+T018,,1,Houston Rockets defeated visiting Los Angeles Lakers,,,,,CONTEXT,The home team won the game.,"The story says the home team won, but the JSON does not provide the outcome of the game."
+T018,2,1,five of their last six games,14,19,,,NUMBER,six of their last seven games,"The Rockets won 6 of their last 7 games, not 5 of their last 6."
+T018,,1,25 8 - 14 FG,,,,,NUMBER,25,James Harden scored 25 points.
+T018,4,1,8 - of - 12,17,21,,,NUMBER,8 - of - 12,The story says 8 - of - 12 but the JSON says 8 - of - 12.
+T018,5,1,"21 points ( 9 - 19 FG , 3 - 4 FT",5,16,,,NUMBER,21,"Julius Randle scored 21 points, not 21 points ( 9 - 19 FG, 3 - 4 FT )"
+T018,6,1,7 - 12 FG,17,20,,,NUMBER," Lou Williams had a great game off the bench as he finished with 24 points ( 7 - 12 FG, 8 - 8 FT ) and 1 rebounds."," Lou Williams had 1 rebound, not 10."
+T018,,1,"Lou Williams had 24 points ( 7 - 12 FG, 8 - 8 FT ), and Julius Randle had a double - double with 21 points ( 9 - 19 FG ) and 10 rebounds, in 29 minutes.",,,,,NOT_CHECKABLE,,The sentence contains multiple claims that cannot be verified from the box score data.
+T018,8,1,9 - of - 21,11,15,,,NUMBER,9-of-21,The Rockets went 9-of-21 from long range.
+T018,9,1,Friday,10,10,,,NOT_CHECKABLE,,No information about the next game in the JSON.
+T019,1,1,Friday,26,26,,,WORD,Wednesday,"The game was played on Wednesday, not Friday."
+T019,2,1,five,13,13,,,NUMBER,four,"The Hawks won four of their last five games, not five."
+T019,3,1,Al Horford,6,7,,,NAME,Brook Lopez,The story says Al Horford but the JSON says Brook Lopez led the Nets.
+T019,,1,nine rebounds five assists one steal,,,,,NUMBER,"nine rebounds, four assists and one steal","The story says nine rebounds, five assists and one steal, but the JSON says nine rebounds, four assists and one steal."
+T019,5,1,two assists,28,29,,,NUMBER,one,"The story says Brook Lopez had two assists, but the JSON says he had one."
+T019,6,1,"3 - 10 FG , 8 - 8 FT",8,16,,,NUMBER,"3 - 10 FG, 8 - 8 FT","The story says 3 - 10 FG, 8 - 8 FT but the box score data says 3 - 10 FG, 8 - 8 FT which is correct."
+T019,7,1,six players,4,5,,,NUMBER,six,"The Nets had six players score in double figures, but the JSON does not provide this information."
+T019,8,1,Indiana,8,8,,,NAME,Brooklyn,"The Nets will play in Brooklyn, not Indiana."
+T019,9,1,Knicks,6,6,,,NAME,Hornets,"The Hawks will host the Hornets, not the Knicks."
+T020,1,1,Tuesday,22,22,,,CONTEXT,Thursday,"The game was played on Thursday, not Tuesday."
+T020,2,1,34 - 19,25,27,,,NUMBER,34-19,The box score data shows the Heat outscored the Hornets 34-19 in the third quarter.
+T020,3,1,53 percent from the field,7,11,,,NUMBER,47,"The Hornets shot 47 percent from the field, not 53."
+T020,4,1,Nicolas Batum and Kemba Walker,9,13,,,NAME,Nicolas Batum and Kemba Walker,"The story mentions the duo of Nicolas Batum and Kemba Walker, but the box score data does not mention a duo."
+T020,,1,team-high of 19 points,,,,,NUMBER,19,Batum scored 19 points.
+T020,6,1,six,4,4,,,NUMBER,five,"The story says six players reached double figures, but the JSON shows five players reached double figures."
+T020,7,1,16 points (,7,9,,,NUMBER,"8-16 FG, 0-3 3PT","Goran Dragic's points are 16 but the box score says 8-16 FG, 0-3 3PT"
+T020,7,1,22 points,55,56,,,NUMBER,17,"Hassan Whiteside scored 17 points, not 22."
+T020,9,1,"17 points , 9 rebounds and 3 assists",9,16,,,NUMBER,9 rebounds and 3 assists,"The JSON says 9 rebounds and 3 assists, but the story says 17 points, 9 rebounds and 3 assists."
+T020,10,1,17 points (,11,13,,,NUMBER,17,The JSON says Hassan Whiteside scored 17 points.
+T020,,1,Wednesday Friday,,,,,CONTEXT,Thursday,"The story says the game is on Wednesday and Friday, but the JSON says it is on Thursday."
+T021,1,1,7 - 3,6,8,,,NUMBER,6-3,"The Trail Blazers record is 6-3, not 7-3."
+T021,2,1,"four straight games , and they 've lost five of their last six games",4,17,,,CONTEXT,"Portland has won four straight games, and they've lost five of their last six games.",The sentence is literally true but misleading due to surrounding context.
+T021,3,1,28 points (,7,9,,,NUMBER,28,The JSON says Damian Lillard scored 28 points.
+T021,4,1,Joe Johnson,1,2,,,NAME,Kevin,The story says Joe Johnson but the JSON says Kevin Johnson.
+T021,5,1,Deron Williams,1,2,,,NAME,Deron Williams is not mentioned in the box score data,The box score data does not mention Deron Williams.
+T021,5,1,19 points (,17,19,,,NUMBER,19,The box score data says Deron Williams scored 19 points.
+T021,7,1,Jarrett Jack,12,13,,,NAME,Jarrett Jack,"Player name is correct, but the JSON does not contain the information to verify the rest of the sentence."
+T021,8,1,Toronto Raptors,13,14,,,NAME,Nets,"The Trail Blazers' next game will be at home against the Nets, not the Raptors."
+T022,,1,Wednesday Energy Solutions Arena in Salt Lake City,,,,,CONTEXT,Sunday at the AT & T Center in San Antonio,"The story says the game was played on Wednesday in Salt Lake City, but the JSON says it was played on Sunday in San Antonio."
+T022,2,1,23 - 15,18,20,,,NUMBER,23-15,The Spurs scored 23 points and the Jazz scored 15 points in the first quarter.
+T022,3,1,39 percent from the field and 47 percent from the three - point line,12,25,,,NUMBER,39,The Spurs went 39 percent from the floor and 47 percent from the three-point line.
+T022,4,1,5 - for - 10,15,19,,,NUMBER,5-for-7,"Rudy Gobert went 5-for-7 from the field, not 5-for-10."
+T022,5,1,1 - 2,26,28,,,NUMBER,"1 - 2 3Pt, 3 - 4 FT","The story says Kawhi Leonard made 1 - 2 3Pt, 3 - 4 FT but the box score says 1 - 2 3Pt, 3 - 4 FT."
+T022,6,1,second double - double,4,7,,,NUMBER,sixth,"The Spurs have 6 double-doubles this season, and this is the sixth one."
+T022,,1,4 - 10 FG 0 - 1 3Pt 4 - 5 FT,,,,,NUMBER,"4 - 10 FG, 0 - 0 3Pt, 4 - 5 FT","The story incorrectly states Aron Baynes' 3Pt as 0 - 1, when in fact it was 0 - 0."
+T022,8,1,Portland Trail Blazers,13,15,,,NAME,Denver Nuggets,"The Spurs' next game will be against the Denver Nuggets, not the Portland Trail Blazers."
+T023,1,1,Wednesday at American Airlines Arena in Dallas,23,29,,,CONTEXT,,The JSON does not provide information about the date or location of the game.
+T023,2,1,39 - 18,18,20,,,NUMBER,39,"The Warriors scored 39 points in the first quarter, not the Mavericks."
+T023,3,1,45 percent from the field,12,16,,,NUMBER,40,"The Warriors were the superior shooters in this game, going 45 percent from the field and 31 percent from the three-point line, while the Mavericks went 40 percent from the floor and 20 percent from beyond the arc."
+T023,2,1,The Warriors,1,2,,,NAME,Golden State Warriors,"The story says Warriors, but the JSON says Golden State Warriors"
+T023,,1,9 - 22 3 - 11,,,,,NUMBER,9-22 and 3-11,Curry went 9-22 from the field and 3-11 from the three-point line.
+T023,6,1,45 points and 21 rebounds,17,21,,,NUMBER,45 points and 21 rebounds,The player had 45 points and 21 rebounds over his last two games.
+T023,,1,Richard Jefferson finished with 13 points,,,,,NUMBER,13,"The story says Richard Jefferson finished with 13 points, which is correct."
+T023,8,1,Harrison Barnes,12,13,,,NAME,Harrison Barnes,Player name misspelled
+T023,9,1,Portland Trail Blazers,13,15,,,NAME,Portland Trail Blazers,The team name is correct but the city is not mentioned in the box score data.
+T024,1,1,Wednesday,23,23,,,NOT_CHECKABLE,,Date is not verifiable from the JSON.
+T024,2,1,27 - 27,18,20,,,NUMBER,17,"The Thunder scored 17 points in the first quarter, not 27."
+T024,3,1,46 percent from the field,12,16,,,NUMBER,49,"The Thunder shot 49 percent from the field, not 46."
+T024,4,1,Kevin Durant and Russell Westbrook,9,13,,,NAME,Kevin Durant and Russel Westbrook,"The story mentions Kevin Durant and Russell Westbrook as a duo, but the box score data does not support this claim."
+T024,,1,14 - 21 from the field,,,,,NUMBER,21 - for - 21 from the field,"The story says 14 - 21 from the field, but the box score says 21 - 21 from the field."
+T024,6,1,his second double - double,3,7,,,NUMBER,second,"The story says'second double-double in a row', but the JSON does not contain this information."
+T024,7,1,Trey Burke,12,13,,,NAME,Trey Burke,Player name misspelled.
+T024,8,1,"7 - 14 FG , 1 - 4 3Pt , 0 - 1 FT",20,33,,,NUMBER,"1 - 4 3Pt, 0 - 1 FT","The story says 7 - 14 FG, 1 - 4 3Pt, 0 - 1 FT, but the JSON says 1 - 4 3Pt, 0 - 1 FT."
+T024,1,1,Wednesday,23,23,,,NOT_CHECKABLE,,No information about the next game in the JSON.
+T025,1,1,Sunday,22,22,,,CONTEXT,Friday,"The game was played on Friday, not Sunday."
+T025,2,1,34 - 29,18,20,,,NUMBER,30,"The Suns scored 30 points in the first quarter, not 34."
+T025,3,1,50 percent from the field and 44 percent from the three - point line,12,25,,,NUMBER,50,"The Suns had a very strong second half on Friday, out-scoring the Sixers 55-37 over that span. They were able to use superior shooting all game, going 50 percent from the field and 44 percent from the three-point line compared to the Sixers who shot 43 percent from the field and only 27 percent from beyond the arc."
+T025,4,1,Tony Wroten,9,10,,,NAME,Markieff Morris,"The Suns were led by Markieff Morris and Gerald Green, not Tony Wroten."
+T025,,1,three rebounds three steals,,,,,NUMBER,three rebounds and three steals are not present in the box score data,The box score data does not contain information about steals.
+T025,6,1,19 points and 8 rebounds,5,9,,,NUMBER,14,"The story says he is averaging 19 points and 8 rebounds, but the JSON says he is averaging 14 points."
+T025,7,1,solid,6,6,,,WORD,strong,"The story says Eric Bledsoe had a solid game, but the JSON says he had a strong game."
+T025,5,1,adding,35,35,,,WORD,recording,The story says 'adding' but the JSON says'recording'.
+T025,9,1,27 points and 16 rebounds,17,21,,,NUMBER,10 points and 10 rebounds,"The story says 27 points and 16 rebounds, but the JSON says 10 points and 10 rebounds."
+T025,10,1,Robert Covington,12,13,,,NAME,Robert Covington is not the only player to reach double figures in points,"The story says Robert Covington is the only player to reach double figures in points, but the box score data does not support this claim."
+T025,11,1,"10 points ( 3 - 7 FG , 2 - 5 3Pt , 2 - 2 FT )",4,21,,,NUMBER,"10 points ( 3 - 7 FG, 2 - 5 3Pt, 2 - 2 FT )",The story incorrectly listed the number of free throws made and attempted.
+T025,12,1,"12 points ( 4 - 6 FG , 2 - 3 3Pt , 2 - 2 FT )",18,35,,,NUMBER,10,"Goran Dragic scored 10 points, not 12."
+T025,13,1,Portland,13,13,,,NAME,Toronto,"The Suns' next game will be against the Toronto Raptors, not the Portland Trail Blazers."
+T025,13,2,Minnesota,28,28,,,NAME,Los Angeles,"The 76ers will be at home against the Los Angeles Clippers, not the Minnesota Timberwolves."
+T026,,1,Detroit Pistons 2 - 3,,,,,CONTEXT,,"The Pistons are 1-3, not 2-3."
+T026,2,1,quick start,7,8,,,CONTEXT,,The Knicks outscored the Pistons 25-20 in the first half.
+T026,,1,"37 percent from the field , and 45 percent from the three - point line",,,,,NUMBER,"37, 45",The Pistons shot 37 percent from the field and 45 percent from the three-point line.
+T026,4,1,"8 - 14 FG , 4 - 7 3Pt , 0 - 2 FT",20,33,,,NUMBER,"8-15 FG, 4-7 3Pt, 0-2 FT",Incorrect free throw count.
+T026,5,1,second double - double,4,7,,,NUMBER,first,"The Pistons had their first double-double in a row, not their second."
+T026,6,1,solid,6,6,,,OTHER,,The JSON does not contain information about the quality of Tim Hardaway Jr.
+T026,,1,8 - 15 from the field and 4 - 7 from the three - point line,,,,,NUMBER,"8-15 FG, 4-7 3Pt",The story incorrectly breaks up the numbers.
+T026,8,1,12 points and 2 rebounds,5,9,,,NUMBER,12 points and 1 rebound,The player is averaging 12 points and 1 rebound.
+T026,9,1,"15 points ( 5 - 13 FG , 4 - 6 3Pt , 1 - 2 FT",4,20,,,NUMBER,"15 points ( 5 - 13 FG, 4 - 6 3Pt, 1 - 2 FT )","The story incorrectly states Iman Shumpert had 15 points ( 5 - 13 FG, 4 - 6 3Pt, 1 - 2 FT ) and six assists as well."
+T026,10,1,Pistons will be at home,20,24,,,CONTEXT,,The sentence is literally true but misleading due to surrounding context.
+T027,,1,Houston Rockets defeated New Orleans Pelicans,,,,,CONTEXT,The Rockets won the game.,"The story says the Rockets won, but the JSON does not provide the outcome of the game."
+T027,2,1,122 points,63,64,,,NUMBER,122,The Rockets scored 122 points.
+T027,,1,11 assist double-double,,,,,NUMBER,13,The story says 11 assists but the JSON says 13.
+T027,4,1,Gordon Davis,1,2,,,NAME,Eric Gordon,The story says Gordon Davis but the JSON says Eric Gordon.
+T027,5,1,near double - double,7,10,,,WORD,near double-double,The story says 'near double-double' but the JSON says 'double-double'.
+T027,6,1,Buddy Hield,1,2,,,NAME,Buddy Hield,"Player name is correct, but the JSON does not contain the information to verify the rest of the sentence."
+T027,7,1,"11 points , five rebounds , an assist and a block",4,14,,,NUMBER,"11 points, five rebounds, one assist and one block","The story says Jrue Holiday contributed 11 points, five rebounds, an assist and a block, but the box score data says Jrue Holiday contributed 11 points, five rebounds, one assist and one block."
+T027,8,1,Alexis Ajinca,1,2,,,NUMBER,8,The story says Alexi Ajinca had 20 points but the box score data says he had 8 points.
+T027,9,1,11 - point efforts,10,13,,,NUMBER,11,"The story says 11-point efforts, but the box score data says 11 points."
+T027,8,1,Alexis Ajinca,1,2,,,NUMBER,8,The story says Alexi Ajinca had 20 points but the box score says he had 8.
+T027,11,1,"Eric Gordon led the second unit with 29 points , one assist , one steal and one block",1,18,,,NUMBER,"29 points, 1 assist, 1 steal and 1 block","The story says Eric Gordon had 29 points, one assist, one steal and one block, but the box score data says he had 29 points, 1 assist, 1 steal and 1 block."
+T027,9,1,one assist,22,23,,,NUMBER,three,Trevor Ariza had three steals and one assist.
+T027,,1,"Buddy Hield led the second unit with 11 points, five rebounds and one assist.",,,,,NOT_CHECKABLE,,The JSON does not contain information about the second unit.
+T027,8,1,Alexis Ajinca,1,2,,,NUMBER,8,The story says Alexi Ajinca had 20 points but the box score says he had 8.
+T027,15,1,Cheick Diallo,1,2,,,NAME,Cheick Diallo,Player name misspelled.
+T027,,1,"Buddy Hield led the second unit with 11 points, five rebounds and one assist.",,,,,NOT_CHECKABLE,,No information about the first unit is provided in the box score data.
+T027,17,1,"Buddy Hield led the second unit with a season - high 29 points , along with one assist , one rebound and one steal",1,24,,,NUMBER,11,"Buddy Hield scored 11 points, not 29."
+T027,,1,11 - point - double - double,,,,,NUMBER,11,"Jrue Holiday had 11 points, 1 assist, 5 rebounds and 1 block."
+T027,15,1,Cheick Diallo,1,2,,,NAME,Cheick Diallo,Player name misspelled.
+T027,20,1,Buddy Hield tallied,1,3,,,NUMBER,11,The story says Budy Hield tallied 11 points but the box score data says he scored 11 points.
+T028,1,1,Los Angeles,7,8,,,NAME,LA,The team name is abbreviated as LA in the JSON.
+T028,2,1,eighth seed,29,30,,,NUMBER,8,Spurs are 8th in the Western Conference standings.
+T028,,1,one-point game,,,,,CONTEXT,,"The Spurs were not down by one point with 2:56 to go, they were up by 5 points."
+T028,1,1,Spurs,4,4,,,NAME,Clippers,The sentence incorrectly states that Blake Griffin was the high-point man for the Spurs.
+T028,5,1,"15 points , 11 rebounds",6,10,,,NUMBER,"15 points, 11 rebounds",The JSON says LaMarcus Aldridge had 15 points and 11 rebounds.
+T028,6,1,two rebounds,8,9,,,NUMBER,11,"Tony Parker had 11 rebounds, not two."
+T028,1,1,Spurs,4,4,,,NAME,Clippers,"The team name is Clippers, not Spurs."
+T028,8,1,27,17,17,,,NUMBER,27,Austin Rivers played 27 minutes off the bench.
+T029,1,1,32 - 30,5,7,,,NUMBER,105,The story says 32-30 but the box score says 105-100.
+T029,2,1,Magic 22 - 25,17,20,,,NUMBER,25,"The Magic scored 25 points in the first quarter, not 22."
+T029,3,1,47 percent from the field,12,16,,,NUMBER,65,The Suns field goal percentage is actually 65 percent.
+T029,,1,20 20,,,,,NUMBER,19,"The Suns forced the Magic into 19 turnovers, not 20."
+T029,5,1,Victor Oladipo and Markieff Morris,9,13,,,NAME,Brandon Knight,"The story incorrectly states that Victor Oladipo and Markieff Morris led the Suns, when in fact it was Brandon Knight."
+T029,,1,7 - 15,,,,,NUMBER,11,Morris went 11 for 17 from the field.
+T029,7,1,19 points and 7 rebounds,5,9,,,NUMBER,19 points and 7 rebounds,The JSON says he is averaging 19 points and 7 rebounds.
+T029,8,1,PJ Tucker,1,2,,,NAME,PJ Tucker,Player name is correct but first name is abbreviated in the story.
+T029,,1,Wednesday Friday Friday Friday,,,,,CONTEXT,Wednesday,The sentence contains multiple errors in the dates of the games.
+T030,,1,Wednesday Fed Ex Forum Arena,,,,,CONTEXT,Sunday,"The game was played on Sunday, not Wednesday, and the location is not specified in the JSON."
+T030,2,1,40 percent from the field,12,16,,,NUMBER,43,"The Grizzlies shot 43 percent from the field, not 40."
+T030,3,1,Eric Bledsoe and Marc Gasol,9,13,,,NAME,Eric Bledsoe and Brandon Knight,The story incorrectly states the duo that led the Grizzlies.
+T030,4,1,"23 points ( 8 - 22 FG , 2 - 6 3Pt , 5 - 7 FT )",4,21,,,NUMBER,23,"The story says Bledsoe finished with 23 points, but the box score data says he finished with 17 points."
+T030,5,1,40 points and 12 rebounds,17,21,,,NUMBER,,The JSON does not contain the information to verify this claim.
+T030,6,1,"7 - 15 FG , 2 - 7 3Pt , 1 - 1 FT",20,33,,,NUMBER,"7-15 FG, 2-7 3Pt, 1-1 FT","Brandon Knight shot 7-15 FG, 2-7 3Pt, 1-1 FT."
+T030,,1,Wednesday Friday,,,,,NOT_CHECKABLE,,No information about the next games in the box score data.
+T030,2,1,three,22,22,,,NUMBER,eight,The Grizzlies have now lost eight of their last nine games.
+T030,,1,Eric Bledsoe 8 - 22 2 - 6,,,,,NUMBER,"8-22, 2-6",Eric Bledsoe shot 8-22 from the field and 2-6 from the three-point line.
+T030,10,1,12 points and 5 rebounds,5,9,,,NUMBER,12 points and 5 rebounds on the year is not present in the JSON data,The JSON does not contain the player's average points and rebounds for the year.
+T030,11,1,"18 points ( 7 - 12 FG , 2 - 2 3Pt , 2 - 2 FT",5,21,,,NUMBER,18,The box score data does not contain the player's 3Pt and FT stats.
+T030,1,1,Wednesday,22,22,,,NOT_CHECKABLE,,No information about the Grizzlies' next game is available in the box score data.

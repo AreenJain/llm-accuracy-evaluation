@@ -1,0 +1,118 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,3,Wednesday,22,22,,,NOT_CHECKABLE,The day of the week is not provided in the box score data,The day of the week is not provided in the box score data
+T001,2,4,28 - 28,18,20,,,NUMBER,The score is not provided in the box score data,The score is not provided in the box score data
+T001,3,5,49 percent,12,13,,,NUMBER,The shooting percentage is not provided in the box score data,The shooting percentage is not provided in the box score data
+T001,3,6,38 percent,18,19,,,NUMBER,The shooting percentage is not provided in the box score data,The shooting percentage is not provided in the box score data
+T001,5,7,DeMarcus Cousins,9,10,,,NAME,DeMarcus Cousins,The player's name is misspelled
+T001,6,10,24,30,30,,,NUMBER,The player's points are not provided in the box score data,The player's points are not provided in the box score data
+T001,8,11,Ben McLemore,12,13,,,NAME,Ben McLemore,The player's name is misspelled
+T001,8,12,4 - 9 FG,21,24,,,NUMBER,The player's field goal attempts are not provided in the box score data,The player's field goal attempts are not provided in the box score data
+T001,8,13,3 - 7 3Pt,26,29,,,NUMBER,The player's three-point attempts are not provided in the box score data,The player's three-point attempts are not provided in the box score data
+T001,8,14,11,18,18,,,NUMBER,The player's points are not provided in the box score data,The player's points are not provided in the box score data
+T003,1,1,Wednesday at the Amway Center in Orlando,22,28,,,CONTEXT,Thursday afternoon in London,Incorrect date and location
+T003,1,2,106 -,18,19,,,NUMBER,106-103,Missing hyphen
+T003,4,3,41 percent,12,13,,,NUMBER,45,Incorrect shooting percentage
+T003,4,4,33 percent,18,19,,,NUMBER,39,Incorrect three-point shooting percentage
+T003,5,5,18 turnovers,11,12,,,NUMBER,10,Incorrect number of turnovers
+T003,6,6,40 points,38,39,,,NUMBER,13,Incorrect number of points
+T003,10,7,17 points,24,25,,,NUMBER,27,Incorrect number of points
+T003,12,8,Friday,16,16,,,CONTEXT,Monday,Incorrect day of the week
+T004,1,1,The Miami Heat ( 1 - 0 ),1,8,,,NUMBER,The Miami Heat ( 10 ),Incorrect win-loss record
+T004,1,3,on Tuesday,21,22,,,WORD,on Wednesday,Incorrect day of the week
+T005,1,1,Saturday evening,17,18,,,CONTEXT,Monday,"The game was played on Monday, not Saturday."
+T005,15,3,New York Knicks,11,13,,,CONTEXT,Boston,"The Wizards head back home to face off with the Boston Celtics on Monday evening, not the New York Knicks."
+T005,15,4,Monday evening,15,16,,,CONTEXT,Tuesday,"The Hornets remain home to face off with the Golden State Warriors on Wednesday night, not the New York Knicks on Monday evening."
+T006,1,1,Memphis Grizzlies ( 50 - 21 ) defeated the Memphis Grizzlies ( 50 - 21 ),2,17,,,CONTEXT,The Memphis Grizzlies (50-21) defeated the New York Knicks (14-57),The sentence is literally true but the context is misleading because it incorrectly states the opponent.
+T006,12,3,The Grizzlies are off until Monday,1,6,,,CONTEXT,The Grizzlies' next game will be at home against the Cleveland Cavaliers on Wednesday,The sentence is literally true but the context is misleading because it incorrectly states the next game.
+T006,13,4,New York remains home to host the Suns on Sunday,1,10,,,CONTEXT,The Knicks will be at home against the Los Angeles Clippers on Wednesday,The sentence is literally true but the context is misleading because it incorrectly states the next game.
+T007,1,1,Portland Trail Blazers ( 14 - 20 ),2,9,,,CONTEXT,Portland Trail Blazers (14-20),Added unnecessary space between team name and record
+T007,1,2,defeated the Denver Nuggets ( 12 - 21 ),10,18,,,CONTEXT,defeated the Denver Nuggets (12-21),Added unnecessary space between team name and record
+T007,1,3,110 - 103,19,21,,,CONTEXT,110-103,Added unnecessary space between numbers
+T008,1,1,The Indiana Pacers ( 16 - 9 ),1,8,,,CONTEXT,"The Pacers are 16-9, but the context is that they are the home team, which is not clear from the sentence.",The sentence does not make it clear that the Pacers are the home team.
+T009,1,1,The Minnesota Timberwolves defeated the host Minnesota Timberwolves,1,8,,,CONTEXT,The Heat defeated the host Timberwolves,The sentence is literally true but misleading because of surrounding context.
+T009,2,2,The Heat ( 22 - 30 ) came into this game as a sizable favorite,1,15,,,CONTEXT,The Heat ( 22 - 30 ) came into this game as a sizable underdog,The sentence is literally true but misleading because of surrounding context.
+T009,5,4,Dion Waiters followed with 12 points,1,6,,,CONTEXT,Dion Waiters followed with 12 points for the Heat,The sentence is literally true but misleading because of surrounding context.
+T009,7,6,Wayne Ellington paced the bench with 12 points,1,8,,,CONTEXT,Wayne Ellington paced the Heat bench with 12 points,The sentence is literally true but misleading because of surrounding context.
+T009,9,8,They head home to face the Houston Rockets on Friday,1,10,,,CONTEXT,They head home to face the Houston Rockets on Friday after the game,The sentence is literally true but misleading because of surrounding context.
+T009,10,9,Karl-Anthony Towns led the way for the Timberwolves with a game - high 35 points,1,15,,,CONTEXT,Karl-Anthony Towns led the Timberwolves with a game-high 35 points,The sentence is literally true but misleading because of surrounding context.
+T009,11,10,Andrew Wiggins followed with 27 points,1,6,,,CONTEXT,Andrew Wiggins followed with 27 points for the Timberwolves,The sentence is literally true but misleading because of surrounding context.
+T009,12,11,Ricky Rubio was right behind him with 14 points,1,9,,,CONTEXT,Ricky Rubio was right behind him with 14 points for the Timberwolves,The sentence is literally true but misleading because of surrounding context.
+T009,14,13,Shabazz Muhammad paced the bench with 12 points,1,8,,,CONTEXT,Shabazz Muhammad paced the Timberwolves bench with 12 points,The sentence is literally true but misleading because of surrounding context.
+T010,1,1,Wednesday at the BMO Harris Bradley Center,22,28,,,CONTEXT,Monday,Incorrect day of the week
+T010,2,2,32 - 26,15,17,,,NUMBER,38-26,Incorrect score
+T010,9,6,Jabari Parker,1,2,,,NAME,James Harden,Incorrect player name
+T010,10,8,54 points and 13 rebounds,17,21,,,NUMBER,"36 points, 5 rebounds and 5 assists",Incorrect stats
+T010,11,9,Trevor Ariza,12,13,,,NAME,Dwight Howard,Incorrect player name
+T010,11,10,"6 - 9 FG , 4 - 7 3Pt , 4 - 4 FT",21,34,,,NUMBER,"8-for-16 FG, 3-for-7 3Pt, 4-for-4 FT",Incorrect shooting stats
+T010,12,11,Friday,16,16,,,NAME,Wednesday,Incorrect day of the week
+T011,1,1,Atlanta Hawks defeated the visiting Cleveland Cavaliers,2,8,,,CONTEXT,The Cavaliers defeated the Hawks,The story incorrectly states the winner of the game.
+T011,1,2,130 - 135,10,12,,,NUMBER,135 - 130,The story incorrectly states the score of the game.
+T011,1,3,Wednesday,18,18,,,NAME,Friday,The story incorrectly states the day of the week the game was played.
+T011,4,4,42 - 18,4,6,,,NUMBER,The Hawks did not have to play this game without Kyrie Irving,The story incorrectly states that the Hawks played without Kyrie Irving.
+T011,6,5,14 - of - 21,20,24,,,NUMBER,21,The story incorrectly states the number of shots Kyrie Irving took.
+T011,9,6,On deck for the Cavaliers is a road matchup against the Orlando Magic on Friday,1,15,,,CONTEXT,The Cavaliers visit the Miami Heat on Saturday,The story incorrectly states the Cavaliers next matchup.
+T011,10,7,have now won five of their last six games,8,16,,,CONTEXT,The Hawks have not won five of their last six games,The story incorrectly states the Hawks recent win-loss record.
+T013,1,1,Saturday,17,17,,,WORD,Sunday,Incorrect day of the week.
+T016,1,2,Friday,18,18,,,NOT_CHECKABLE,,The box score data does not provide the day of the week.
+T017,1,1,Friday night at the Smoothie King Center in New Orleans,23,32,,,CONTEXT,Tuesday night at the Smoothie King Center in New Orleans,Incorrect day of the week
+T017,1,2,New Orleans Pelicans ( 26 - 44 ),11,18,,,NUMBER,New Orleans Pelicans ( 26 - 43 ),Incorrect score
+T017,10,5,The Pelicans were without Anthony Davis ( knee ),1,9,,,CONTEXT,Anthony Davis was not mentioned as being injured in the box score,Incorrect context
+T017,12,6,The Pelicans will have a few days off before taking on the Oklahoma City Thunder on the road on Friday night,1,21,,,CONTEXT,The Pelicans will travel to Indiana on Thursday,Incorrect next game information
+T019,1,1,Atlanta Hawks ( 59 - 19 ),2,8,,,NUMBER,Atlanta Hawks (59-19),Score format is incorrect
+T019,1,2,Brooklyn Nets ( 36 - 42 ),11,17,,,NUMBER,Brooklyn Nets (35-42),Score format is incorrect
+T019,1,3,Friday,26,26,,,WORD,Wednesday,Incorrect day of the week
+T019,1,5,Barclays Center,23,24,,,NAME,"Barclays is not present in the box score, but the home team is Brooklyn, so the game was likely played at Barclays Center",Arena name is not present in the box score
+T019,3,6,Al Horford,6,7,,,NAME,"Al Horford played for Atlanta, not Brooklyn",Incorrect player
+T020,11,2,Friday,30,30,,,CONTEXT,Saturday,"The story says the Heat will be at home against the Miami Heat on Friday, but the box score says the Heat will be at home against the Cavaliers on Saturday."
+T020,3,4,50 percent,13,14,,,CONTEXT,41 percent,"The story says the Heat went 50 percent from beyond the arc, but the box score says the Heat went 41 percent from beyond the arc."
+T020,5,5,Marvin Williams,39,40,,,CONTEXT,Nicolas Batum,"The story says Marvin Williams finished with a team-high of 19 points, but the box score says Nicolas Batum finished with a team-high of 19 points."
+T020,5,6,Courtney Lee,45,46,,,CONTEXT,Kemba Walker,"The story says Courtney Lee had 13 points, but the box score says Kemba Walker had 21 points."
+T020,7,7,Goran Dragic,1,2,,,CONTEXT,Luol Deng,"The story says Goran Dragic led the way with 16 points, but the box score says Luol Deng led the way with 22 points."
+T020,8,8,Hassan Whiteside,1,2,,,CONTEXT,Josh Richardson,"The story says Hassan Whiteside had a solid showing, but the box score says Josh Richardson had a solid showing."
+T023,1,1,Wednesday at American Airlines Arena in Dallas,23,29,,,CONTEXT,Saturday,Incorrect day of the week.
+T023,3,2,45 percent,12,13,,,NUMBER,40,Incorrect field goal percentage.
+T023,3,3,31 percent,18,19,,,NUMBER,20,Incorrect three-point percentage.
+T023,7,4,Richard Jefferson,12,13,,,NAME,Jameer Nelson,Incorrect player name.
+T023,7,5,13 points,18,19,,,NUMBER,6,Incorrect points scored.
+T023,7,6,13 rebounds,37,38,,,NUMBER,4,Incorrect rebounds.
+T023,9,7,Portland Trail Blazers,13,15,,,NAME,New Orleans Pelicans,Incorrect team name.
+T023,9,10,Friday,32,32,,,WORD,Sunday,Incorrect day of the week.
+T024,3,3,The Jazz were the superior shooters,1,6,,,WORD,The Thunder were the superior shooters,"The story says the Jazz were the superior shooters, but the box score says the Thunder were."
+T024,3,4,49 percent,31,32,,,NUMBER,46,"The story says the Thunder shot 49 percent from the field, but the box score says 46 percent."
+T024,3,5,33 percent,18,19,,,NUMBER,33,"The story says the Jazz shot 33 percent from the three-point line, but the box score says the Thunder shot 33 percent."
+T024,5,6,Durant went 14 - for - 21,1,7,,,NUMBER,14-for-21,"The story says Durant went 14-for-21 from the field, but the box score says Durant went 14-for-21 from the field."
+T024,5,7,2 - for - 7,12,16,,,NUMBER,2-for-7,"The story says Durant went 2-for-7 from the three-point line, but the box score says Durant went 2-for-7 from the three-point line."
+T024,7,8,Trey Burke,12,13,,,NAME,Trey Burke,"The story says Burke finished with 20 points, but the box score says Burke finished with 20 points (8-15 FG, 2-4 3Pt, 2-2 FT) and five assists in 38 minutes."
+T024,8,9,Dion Waiters,11,12,,,NAME,Dion Waiters,"The story says Waiters finished with 15 points and four steals, but the box score says Waiters finished with 15 points (7-14 FG, 1-4 3Pt, 0-1 FT, 0-4 3Pt, 0-1 FT) and four steals."
+T024,1,10,Wednesday,23,23,,,WORD,Friday,"The story says the Thunder's next game will be on Wednesday, but the box score says the game was played on Friday."
+T024,9,11,Denver Nuggets,13,14,,,NAME,Not mentioned,"The story says the Thunder's next game will be against the Denver Nuggets, but the box score does not mention the Nuggets."
+T025,1,1,Sunday at the US Airways Center in Phoenix,22,29,,,CONTEXT,Friday,"The game was played on Friday, not Sunday."
+T026,1,1,The Detroit Pistons ( 2 - 3 ),1,8,,,NUMBER,The Detroit Pistons ( 1 - 3 ),Incorrect win-loss record for the Pistons.
+T027,1,1,Friday evening,18,19,,,CONTEXT,"The day of the week is not provided in the box score, but the date is.","The story says the game was played on Friday, but the box score only provides the date."
+T027,1,2,122 - 100,10,12,,,NUMBER,"The Rockets won 122-100, but the box score does not provide the score.","The story says the Rockets won 122-100, but the box score does not provide the score."
+T027,1,3,Toyota Center,15,16,,,NAME,The box score does not provide the name of the arena.,"The story says the game was played at Toyota Center, but the box score does not provide the name of the arena."
+T027,2,4,Gregg Popovich,54,55,,,NAME,Gregg Popovich is not a real person.,"The story says Gregg Popovich is the coach, but Gregg Popovich is not a real person."
+T027,3,5,James Harden,5,6,,,NAME,"James Harden is a real player, but the box score does not provide his name.","The story says James Harden is a player, but the box score does not provide his name."
+T027,4,7,Gordon Davis,1,2,,,NAME,There is no player named Gordon Davis in the box score.,"The story says Gordon Davis is a player, but there is no player named Gordon Davis in the box score."
+T027,5,9,Trevor Ariza,1,2,,,NAME,"Trevor Ariza is a real player, but the box score does not provide his name.","The story says Trev Ariza is a player, but the box score does not provide his name."
+T027,6,11,Buddy Hield,1,2,,,NAME,"Buddy Hield is a real player, but the box score does not provide his name.","The story says Buddy Hield is a player, but the box score does not provide his name."
+T027,7,13,Jrue Holiday,1,2,,,NAME,"Jrue Holiday is a real player, but the box score does not provide his name.","The story says Jrue Holiday is a player, but the box score does not provide his name."
+T027,8,15,Alexis Ajinca,1,2,,,NAME,"Alexis Ajinca is a real player, but the box score does not provide his name.","The story says Alexis Ajinca is a player, but the box score does not provide his name."
+T027,11,17,Eric Gordon,1,2,,,NAME,"Eric Gordon is a real player, but the box score does not provide his name.","The story says Eric Gordon is a player, but the box score does not provide his name."
+T027,15,19,Cheick Diallo,1,2,,,NAME,"Cheick Diallo is a real player, but the box score does not provide his name.","The story says Cheick Diallo is a player, but the box score does not provide his name."
+T028,3,5,Spurs battled back to make it a one - point game with 2:56 to go,26,40,,,CONTEXT,The Spurs battled back to make it a one-point game with 2:56 to go,"The Spurs were behind, not the Clippers."
+T028,4,7,Blake Griffin was the high - point man for the Spurs,1,11,,,CONTEXT,Blake Griffin was the high-point man for the Clippers,"Blake Griffin is a Clipper, not a Spur."
+T028,5,8,LaMarcus Aldridge followed up with 15 points,1,7,,,NUMBER,"LaMarcus Aldridge followed up with 15 points, 11 rebounds, one assist and one steal","LaMarcus Aldridge had 15 points, but also had other stats."
+T028,6,9,Tony Parker chipped in 17 points,1,6,,,NUMBER,"Tony Parker chipped in 17 points, two rebounds, three assists and two steals","Tony Parker had 17 points, but also had other stats."
+T028,8,10,Austin Rivers followed up with 23 points,1,7,,,NUMBER,Austin Rivers followed up with 23 points on 8-of-14 shooting,"Austin Rivers had 23 points, but also had other stats."
+T028,8,11,Chris Paul added 17 points,24,28,,,NUMBER,"Chris Paul added 17 points, five assists, six rebounds and two steals","Chris Paul had 17 points, but also had other stats."
+T029,1,1,32 - 30,5,7,,,NUMBER,105,The story incorrectly states the Suns' score.
+T029,1,2,19 - 43,14,16,,,NUMBER,100,The story incorrectly states the Magic's score.
+T030,1,1,Wednesday,22,22,,,WORD,Sunday,Incorrect day of the week
+T030,1,2,Fed Ex Forum Arena,24,27,,,NAME,Not available in the box score,Arena name not provided in the box score
+T030,2,3,40 percent,12,13,,,NUMBER,43 percent,Incorrect shooting percentage
+T030,2,4,33 percent,18,19,,,NUMBER,33 percent,Incorrect three-point shooting percentage
+T030,3,5,Eric Bledsoe and Marc Gasol,9,13,,,NAME,Eric Bledsoe,Incorrect player name
+T030,7,7,Portland Trail Blazers,13,15,,,NAME,Not available in the box score,Team name not provided in the box score
+T030,7,8,Friday,32,32,,,WORD,Not available in the box score,Day of the week not provided in the box score
+T030,8,9,three of their last three games,12,17,,,NUMBER,eight of their last nine games,Incorrect number of games

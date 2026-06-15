@@ -1,0 +1,97 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T003,1,1,Wednesday,,,22,22,NAME,Thursday,Incorrect day of the week
+T003,1,2,Amway Center,,,,,NAME,Unknown,Unknown arena name
+T003,10,3,Friday,,,382,382,NAME,Monday,Incorrect day of the week
+T003,10,4,Friday,,,382,382,NAME,Monday,Incorrect day of the week
+T005,0,0,Saturday,,,17,17,NAME,Monday,"The game was played on Monday, not Saturday."
+T006,0,0,New York Grizzlies,,,,,NAME,Memphis Grizzlies,Incorrect team name
+T006,0,1,Grizzlies,,,3,3,NAME,Knicks,Incorrect team name
+T006,0,2,Grizzlies,,,3,3,NAME,Knicks,Incorrect team name
+T006,0,3,Trail Blazers,,,,,NAME,"Trail Blazers is correct, but the team is not mentioned in the original text",Incorrect team name
+T006,0,4,Suns,,,284,284,NAME,"Suns is correct, but the team is not mentioned in the original text",Incorrect team name
+T007,1,1,Kenneth Faried,,,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name
+T007,2,2,Darrell Arthur,,,,,NAME,Darrell Arthur is not a player in the game,Incorrect player name
+T007,3,3,Kenneth Faried,,,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name
+T007,4,4,Will Barton,,,,,NAME,Will Barton is not the high-point man for Denver,Incorrect player name
+T007,5,5,Gary Harris,,,,,NAME,Gary Harris is not a player in the game,Incorrect player name
+T007,6,6,Kenneth Faried,,,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name
+T010,0,0,Wednesday,,,22,22,NAME,Monday,"The game was played on Monday, not Wednesday."
+T011,0,0,Wednesday,,,18,18,NAME,Friday,"The game was played on Friday, not Wednesday."
+T012,1,1,Wednesday,,,22,22,NAME,Friday,"The game was played on Friday, not Wednesday."
+T012,2,2,American Airlines Arena,,,,,NAME,US Airways Arena,"The game was played at US Airways Arena, not American Airlines Arena."
+T012,3,3,55,,,109,109,NUMBER,41,"Kyle Lowry shot 41 percent from the field, not 55 percent."
+T012,4,4,17,,,144,144,NUMBER,12,"DeRozan averaged 12 rebounds, not 17 rebounds."
+T012,5,5,Dwyane Dragic,,,,,NAME,Goran Dragic,"The player's name is Goran Dragic, not Dwyane Dragic."
+T012,6,6,Friday,,,443,443,NAME,Saturday,"The Raptors' next game will be on Saturday, not Friday."
+T013,0,0,Saturday,,,17,17,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,1,1,Monday,,,29,29,NAME,Tuesday,"The Grizzlies head down to Central Florida for a showdown with the Orlando Magic on Tuesday evening, not Monday."
+T013,2,2,59 - 38,,,100,102,NUMBER,39,"The Grizzlies held the Jazz to only 39 percent from the field, not 59-38."
+T013,3,3,12,,,215,215,NUMBER,13,"Rudy Gobert hauled in 13 rebounds, not 12."
+T013,4,4,three,,,224,224,NUMBER,one,"Rudy Gobert mustered only one point, not three."
+T013,5,5,three,,,224,224,NUMBER,one,"Rudy Gobert recorded three steals, but it should be one block."
+T013,6,6,Central,,,353,353,NAME,,The text does not mention Central Florida.
+T013,7,7,Friday,,,363,363,NAME,,The text does not mention Friday.
+T014,1,1,Knicks,,,4,4,NAME,"Knicks is incorrect, the team name is Knicks",The team name is misspelled as 'Knicks' instead of 'Knicks'
+T014,2,2,30 33,,,,,NUMBER,"The Knicks have now won five of their last six games is incorrect, the correct record is not provided","The record of the Knicks is not provided in the data tables, so it cannot be verified"
+T014,3,3,30 33,,,,,NUMBER,"The Bucks have now won five of their last six games is incorrect, the correct record is not provided","The record of the Bucks is not provided in the data tables, so it cannot be verified"
+T014,4,4,Giannis Antetokounmpo,,,,,NAME,"Giannis Antetokounmpo is correct, but the data tables do not provide information about the player of the game","The data tables do not provide information about the player of the game, so it cannot be verified"
+T014,5,5,Matthew Dellavedova,,,,,NAME,"Matthew Dellavedova is correct, but the data tables do not provide information about the player's performance","The data tables do not provide information about the player's performance, so it cannot be verified"
+T017,0,0,Friday,,,23,23,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T018,1,1,Toyota Center,,,,,NAME,Toyota Center is not the home arena of the Houston Rockets,"The home arena of the Houston Rockets is the Toyota Center, but it is not explicitly mentioned in the box score data."
+T018,2,2,30,,,90,90,NUMBER,31,"James Harden played 31 minutes, not 30."
+T018,3,3,24,,,129,129,NUMBER,26,"Eric Gordon played 26 minutes, not 24."
+T018,4,4,37,,,154,154,NUMBER,29,"Julius Randle played 29 minutes, not 37."
+T018,5,5,29,,,226,226,NUMBER,Not Checkable,The number of minutes played by Lou Williams is not available in the box score data.
+T018,6,6,Friday,,,257,257,WORD,Not Checkable,The schedule of the next games is not available in the box score data.
+T019,0,0,59 - 19,,,5,7,NUMBER,59-19,The score is incorrect.
+T019,0,1,114 - 111,,,18,20,NUMBER,114-111,The score is incorrect.
+T019,1,2,Friday,,,26,26,NAME,Wednesday,The day of the week is incorrect.
+T019,2,3,Barclays Center,,,,,NAME,"Barclays is not the correct arena, but the text does not specify the arena, so this is a NOT_CHECKABLE error","The arena is not specified in the text, but the default arena for the Nets is the Barclays Center."
+T019,3,4,24,,,65,65,NUMBER,24,The number of points is correct.
+T019,4,5,seven,,,68,68,NUMBER,7,The number of rebounds is correct.
+T019,5,6,four,,,36,36,NUMBER,4,The number of assists is correct.
+T019,6,7,33,,,80,80,NUMBER,33,The number of minutes played is correct.
+T019,7,8,19,,,7,7,NUMBER,19,The number of points is correct.
+T019,8,9,nine,,,100,100,NUMBER,9,The number of rebounds is correct.
+T019,9,10,five,,,40,40,NUMBER,5,The number of assists is correct.
+T019,10,11,37,,,109,109,NUMBER,37,The number of minutes played is correct.
+T019,11,12,26,,,120,120,NUMBER,26,The number of points is correct.
+T019,12,13,10,,,128,128,NUMBER,10,The number of rebounds is correct.
+T019,13,14,two,,,74,74,NUMBER,2,The number of assists is correct.
+T019,14,15,39,,,149,149,NUMBER,39,The number of minutes played is correct.
+T019,15,16,14,,,156,156,NUMBER,14,The number of points is correct.
+T019,16,17,three,,,145,145,NUMBER,3,The number of assists is correct.
+T019,17,18,21,,,182,182,NUMBER,21,The number of points is correct.
+T019,18,19,eight,,,,,NUMBER,8,The number of rebounds is correct.
+T019,19,20,Friday,,,26,26,NAME,Friday,The day of the week is correct.
+T019,20,21,Indiana,,,212,212,NAME,Indiana,The location is correct.
+T019,21,22,Friday,,,26,26,NAME,Friday,The day of the week is correct.
+T020,1,1,Tuesday,,,22,22,NAME,Thursday,Incorrect day of the week
+T020,2,2,Wednesday,,,382,382,NAME,Saturday,Incorrect day of the week
+T020,3,3,Friday,,,396,396,NAME,Saturday,Incorrect day of the week
+T021,1,1,7 - 3,,,,,NUMBER,6 - 3,Incorrect win-loss record for the Trail Blazers
+T021,1,2,Friday,,,23,23,NAME,Saturday,Incorrect day of the week
+T021,1,3,4 - 5,,,,,NUMBER,4 - 4,Incorrect win-loss record for the Nets
+T021,1,4,Friday,,,23,23,NAME,Monday,Incorrect day of the week for the next game
+T023,1,1,Wednesday,,,23,23,NAME,Saturday,Incorrect day of the week
+T023,2,2,Wednesday,,,23,23,NAME,Saturday,Incorrect day of the week
+T025,1,1,Sunday,,,22,22,NAME,Friday,Incorrect day of the week
+T025,2,2,Tony Wroten,,,,,NAME,Michael Carter-Williams,Incorrect player name
+T025,3,3,Robert Covington,,,,,NAME,Luc Mbah a Moute,Incorrect player name
+T025,4,4,Goran Dragic,,,,,NAME,Markieff Morris,Incorrect player name
+T025,5,5,Portland Trail Blazers,,,,,NAME,Toronto Raptors,Incorrect team name
+T025,6,6,Friday,,,374,374,NAME,Sunday,Incorrect day of the week
+T025,7,7,Minnesota Timberwolves,,,,,NAME,Golden State Warriors,Incorrect team name
+T025,8,8,Friday,,,374,374,NAME,Tuesday,Incorrect day of the week
+T027,1,1,Toyota Center,,,,,NAME,Toyota Center is not the correct venue,The game was played at a different venue
+T027,2,2,Gregg Popovich,,,,,NAME,Gregg Popovich is not a real person,The correct name is Gregg Popovich
+T027,3,3,Gordon Davis,,,,,NAME,Gordon Davis is not a player on the team,The correct player is Anthony Davis
+T030,0,0,Wednesday,,,22,22,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,0,1,Fed Ex Forum Arena,,,,,NAME,"FedEx Forum Arena is not a valid arena name. The game was played in Memphis, but the arena name is not specified in the data.",The arena name is not valid.
+T030,0,2,40,,,42,42,NUMBER,43,"The Grizzlies shot 43 percent from the field, not 40."
+T030,0,3,33,,,48,48,NUMBER,29,"The Suns shot 29 percent from beyond the arc, not 33."
+T030,0,4,Portland Trail Blazers,,,,,NAME,Not checkable,The next game information is not checkable.
+T030,0,5,Friday,,,240,240,NAME,Not checkable,The next game information is not checkable.
+T030,0,6,San Antonio,,,,,NAME,Not checkable,The next game information is not checkable.
+T030,0,7,Denver Nuggets,,,,,NAME,Not checkable,The next game information is not checkable.
+T030,0,8,Los Angeles Clippers,,,,,NAME,Not checkable,The next game information is not checkable.

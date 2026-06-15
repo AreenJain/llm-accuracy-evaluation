@@ -1,0 +1,385 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,defeated,9,9,,,WORD,lost to,"The Kings lost to the Nets, not defeated them."
+T001,1,2,107 - 99,18,20,,,NUMBER,99 - 107,The score is reversed; the Kings lost 99-107.
+T001,1,3,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T001,2,4,28 - 28,18,20,,,NUMBER,27 - 28,"The score in the first quarter was 27-28, not 28-28."
+T001,1,5,Nets,12,12,,,NAME,Kings,"The Kings shot 45% from the floor and 38% from beyond the arc, not the Nets."
+T001,1,6,Nets,12,12,,,NAME,Kings,"The Kings shot 45% from the floor and 38% from beyond the arc, not the Nets."
+T001,1,7,Nets,12,12,,,NAME,Kings,"The Kings shot 45% from the floor and 38% from beyond the arc, not the Nets."
+T001,1,8,Nets,12,12,,,NAME,Kings,"The Kings shot 45% from the floor and 38% from beyond the arc, not the Nets."
+T001,1,9,Nets,12,12,,,NAME,Kings,"The Kings were led by DeMarcus Cousins and Rudy Gay, not the Nets."
+T001,6,10,24,30,30,,,NUMBER,25,"Rudy Gay scored 25 points, not 24."
+T001,6,11,6 - for - 9,12,16,,,NUMBER,0 - for - 3,"Rudy Gay made 0 of 3 three-point attempts, not 6 of 9."
+T001,6,12,four,39,39,,,NUMBER,0,"Rudy Gay had 0 blocks, not four."
+T001,8,13,Net,4,4,,,NAME,King,"Ben McLemore is a King, not a Net."
+T001,8,14,11,18,18,,,NUMBER,11,"Ben McLemore scored 11 points, which is correct."
+T001,7,15,second double - double in a row,4,10,,,WORD,,This is a context mistake. Ben McLemore did not have a double-double in this game.
+T001,9,16,averaging 21 points and 12 rebounds,17,22,,,WORD,,This is a context mistake. Ben McLemore did not average 21 points and 12 rebounds over his last two games.
+T001,8,17,Net,4,4,,,NAME,King,"Ben McLemore is a King, not a Net."
+T001,11,18,Toronto Raptors,13,14,,,NAME,Chicago Bulls,"The Nets' next game is against the Chicago Bulls, not the Toronto Raptors."
+T001,11,19,Friday,16,16,,,NAME,Tuesday,"The Nets' next game is on Tuesday, not Friday."
+T001,11,20,Cleveland Cavaliers,27,28,,,NAME,Boston Celtics,"The Kings' next game is against the Boston Celtics, not the Cleveland Cavaliers."
+T002,1,1,118,12,12,,,NUMBER,118,"The final score for the Mavericks was 118, but the story states 118, which is correct. However, the story should state 118 to match the provided box score."
+T002,3,2,12,10,10,,,NUMBER,12,"The story states that neither team led by more than 12 points, which is correct according to the box score."
+T002,3,3,11,16,16,,,NUMBER,11,"The story states that there were 11 ties and 11 lead changes, which is correct according to the box score."
+T002,4,4,48 percent from the field,14,18,,,NUMBER,48%,"The story states that the Mavericks shot 48% from the field, which is correct according to the box score."
+T002,4,5,52 percent from three - point range,20,26,,,NUMBER,52%,"The story states that the Mavericks shot 52% from three-point range, which is correct according to the box score."
+T002,5,6,44 - 34,16,18,,,NUMBER,44-34,"The story states that the Pelicans won the rebounding battle 44-34, which is correct according to the box score."
+T002,6,7,32 - 43,4,6,,,NUMBER,32-43,"The story states that the Pelicans' record is 32-43, which is correct according to the box score."
+T002,6,8,won four of their last five games,10,16,,,WORD,lost four of their last six games,"The story incorrectly states that the Pelicans have won four of their last five games, when they have actually lost four of their last six games."
+T002,7,9,Harrison Barnes,1,2,,,NAME,Harrison Barnes,The story correctly identifies Harrison Barnes as the leading scorer for the Mavericks.
+T002,,10,19 points eight rebounds three assists,,,,,NUMBER,"19 points, 8 rebounds, 3 assists","The story correctly states Harrison Barnes' stats: 19 points, 8 rebounds, and 3 assists."
+T002,8,11,Seth Curry,1,2,,,NAME,Seth Curry,The story correctly identifies Seth Curry as the second-leading scorer for the Mavericks.
+T002,,12,18 points two rebounds three assists,,,,,NUMBER,"18 points, 2 rebounds, 3 assists","The story correctly states Seth Curry's stats: 18 points, 2 rebounds, and 3 assists."
+T002,7,13,Harrison Barnes,1,2,,,NAME,Harrison Barnes,"The story incorrectly repeats Harrison Barnes' stats, which is redundant and misleading."
+T002,6,14,32 - 43,4,6,,,NUMBER,32-43,The story correctly states the Pelicans' record as 32-43.
+T002,11,15,lost four of their last six games,10,16,,,WORD,lost four of their last six games,The story correctly states that the Pelicans have lost four of their last six games.
+T002,12,16,DeMarcus Cousins,1,2,,,NAME,DeMarcus Cousins,The story correctly identifies DeMarcus Cousins as a key player for the Pelicans.
+T002,,17,29 points 16 rebounds six assists,,,,,NUMBER,"29 points, 16 rebounds, 6 assists","The story correctly states DeMarcus Cousins' stats: 29 points, 16 rebounds, and 6 assists."
+T002,13,18,Jrue Holiday,1,2,,,NAME,Jrue Holiday,The story correctly identifies Jrue Holiday as the second-leading scorer for the Pelicans.
+T002,,19,18 points five rebounds seven assists,,,,,NUMBER,"18 points, 5 rebounds, 7 assists","The story correctly states Jrue Holiday's stats: 18 points, 5 rebounds, and 7 assists."
+T002,12,20,DeMarcus Cousins,1,2,,,NAME,DeMarcus Cousins,"The story incorrectly repeats DeMarcus Cousins' stats, which is redundant and misleading."
+T002,,21,29 points 17 rebounds six assists,,,,,,,
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Wednesday."
+T003,2,2,out - scoring the Raptors 31 - 18 right away in the first quarter,13,26,,,WORD,out-scoring the Magic 31-18 right away in the first quarter,"The Raptors out-scored the Magic, not the other way around."
+T003,4,3,41 percent from the field and 33 percent from the three - point line,12,25,,,NUMBER,41 percent from the field and 33 percent from the three-point line,"The Raptors' shooting percentages are correct, but the Magic's percentages are incorrect. The Magic shot 45% from the field and 39% from three."
+T003,5,4,18 turnovers,11,12,,,NUMBER,15 turnovers,"The Magic committed 15 turnovers, not 18."
+T003,,5,DeMar DeRozan 4 - for - 19 5 - for - 6 40 points 11 rebounds four assists,,,,,NUMBER,"DeMar DeRozan, 4-for-19, 0-for-6, 13 points, 11 rebounds, 4 assists","DeMar DeRozan's stats are incorrect. He actually scored 13 points, went 4-for-19 from the field, and 0-for-6 from three-point range."
+T003,,6,4 - for - 19 5 - for - 6 13 points four rebounds four assists,,,,,NUMBER,"4-for-19, 0-for-6, 13 points, 11 rebounds, 4 assists","DeMar DeRozan's stats are incorrect. He actually scored 13 points, went 4-for-19 from the field, and 0-for-6 from three-point range."
+T003,,7,James Johnson 17 points 8 - 22 FG 1 - 1 3Pt 12 - 14 FT,,,,,NAME,"Kyle Lowry, 24 points, 5-for-19 FG, 2-for-6 3Pt, 12-for-14 FT","James Johnson did not play in this game. The correct player is Kyle Lowry, who scored 24 points."
+T003,,8,Jonas Valanciunas 13 points 6 - 11 FG 1 - 3 3Pt 1 - 2 FT,,,,,NUMBER,"Jonas Valanciunas, 13 points, 6-for-11 FG, 0-for-3 3Pt, 1-for-2 FT","Jonas Valanciunas' stats are incorrect. He actually scored 13 points, went 6-for-11 from the field, and 0-for-3 from three-point range."
+T003,12,9,Cleveland Cavaliers,13,14,,,NAME,Brooklyn Nets,"The Raptors' next game is against the Brooklyn Nets, not the Cleveland Cavaliers."
+T003,12,10,Cleveland Cavaliers,13,14,,,NAME,Atlanta Hawks,"The Magic's next game is against the Atlanta Hawks, not the Cleveland Cavaliers."
+T004,1,1,1 - 0,5,7,,,NUMBER,10,"The Heat's record should be 10, not 1 - 0."
+T004,1,2,Tuesday,22,22,,,NAME,Wednesday,"The game was played on Wednesday, not Tuesday."
+T004,,3,Wizards got off to a quick start in this one out - scoring the Wizards 28 - 28 right away in the first quarter,,,,,WORD,"Heat got off to a quick start in this one, out-scoring the Wizards 28 - 22 right away in the first quarter","The Wizards did not get off to a quick start; the Heat did. The score was 28 - 22, not 28 - 28."
+T004,3,4,Wizards were able to out - score the Wizards 35 - 25 in the first quarter,2,17,,,WORD,Heat were able to out-score the Wizards 35 - 25 in the fourth quarter,"The Heat out-scored the Wizards 35 - 25 in the fourth quarter, not the first quarter."
+T004,3,5,Wizards were able to coast to a victory in front of their home crowd,21,34,,,WORD,Heat were able to coast to a victory in front of their home crowd,"The Heat, not the Wizards, won the game."
+T004,4,6,Wizards were able to out - rebound the Wizards 44 - 36,2,13,,,WORD,Heat were able to out-rebound the Wizards 44 - 36,"The Heat, not the Wizards, out-rebounded the Wizards."
+T004,5,7,Wizards were also able to shoot 48 percent from the field and 32 percent from the three - point line,2,21,,,WORD,Heat were also able to shoot 48 percent from the field and 32 percent from the three-point line,"The Heat, not the Wizards, had these shooting percentages."
+T004,5,8,Wizards went 48 percent from the floor and just 32 percent from beyond the arc,25,39,,,WORD,Wizards went 48 percent from the floor and just 32 percent from beyond the arc,"This is correct, but the previous sentence incorrectly attributed these stats to the Heat."
+T004,6,9,Heat were led by the duo of John Wall and Bradley Beal,2,13,,,WORD,Heat were led by the duo of Chris Bosh and Dwyane Wade,"John Wall and Bradley Beal played for the Wizards, not the Heat. The Heat leaders were Chris Bosh and Dwyane Wade."
+T004,7,10,Wall went 6 - for - 13 from the field and 0 - for - 2 from the three - point line to score a game - high of 16 points,1,31,,,WORD,Bosh went 9 - for - 18 from the field and 3 - for - 4 from the three-point line to score a game-high of 26 points,John Wall's stats are incorrect and should be replaced with Chris Bosh's correct stats.
+T004,,11,It was his second double - double in a row as he 's combined for 54 points and 14 rebounds over his last two games,,,,,WORD,"It was his first double-double of the season, as he combined for 26 points and 15 rebounds in this game",This statement is incorrect and should reflect Bosh's actual performance.
+T004,,12,Marcin Gortat had a solid showing as well going 7 - for - 14 from the field and 4 - for - 5 from the three - point line to score 18 points,,,,,WORD,"Marcin Gortat had a solid showing as well, going 7 - for - 14 from the field to score 18 points",Marcin Gortat did not make any three-point shots.
+T004,10,13,He 's now averaging 17 points and 8 rebounds on the year,1,12,,,WORD,He also added seven rebounds and a blocked shot,This statement is incorrect and should reflect Gortat's actual performance in this game.
+T004,11,14,"Danny Granger had 21 points ( 8 - 16 FG , 2 - 3 3Pt , 3 - 3 FT ) and three rebounds in 31 minutes",6,32,,,,,
+T005,1,1,Saturday,17,17,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T005,2,2,Tuesday,11,11,,,NAME,Monday,"The game was played on Monday, not Tuesday."
+T005,2,3,Tuesday,11,11,,,NAME,Monday,"The game was played on Monday, not Tuesday."
+T005,2,4,20,6,6,,,NUMBER,7,"John Wall had 7 rebounds, not 20."
+T005,6,5,John Wall,1,2,,,NAME,Kemba Walker,"Kemba Walker led the way for Charlotte, not John Wall."
+T005,14,6,Frank Kaminsky III,1,3,,,NAME,Marco Belinelli,"Marco Belinelli led the second unit for Charlotte, not Frank Kaminsky III."
+T005,15,7,New York Knicks,11,13,,,NAME,Boston Celtics,"The Wizards' next game is against the Boston Celtics, not the New York Knicks."
+T005,15,8,New York Knicks,11,13,,,NAME,Golden State Warriors,"The Hornets' next game is against the Golden State Warriors, not the New York Knicks."
+T006,1,1,Memphis Grizzlies,2,3,,,NAME,New York Knicks,"The home team is the New York Knicks, not the Memphis Grizzlies."
+T006,,2,"Marc Gasol and Zach Randolph were the only other Memphis players to score in double figures, with 21 and 12 points respectively",,,,,WORD,"Langston Galloway and Andrea Bargnani were the only other New York players to score in double figures, with 19 and 18 points respectively",The statement incorrectly attributes the scoring to Memphis players instead of New York players.
+T006,,3,"Gasol added eight rebounds, three assists and a block to his team - high scoring total",,,,,WORD,Galloway added seven rebounds and five assists to his team - high scoring total,The statement incorrectly attributes the stats to Gasol instead of Galloway.
+T006,,4,"Zach Randolph was the only other Memphis player to score in double figures, scoring 23 points on 9 - of - 12 shooting in 35 minutes",,,,,WORD,"Andrea Bargnani was the only other New York player to score in double figures, scoring 18 points on 8 - of - 18 shooting in 31 minutes",The statement incorrectly attributes the stats to Randolph instead of Bargnani.
+T006,,5,"The Grizzlies shot 52 percent from the field and 58 percent from three - point range, while the Grizzlies shot 52 percent from the field and 22 percent from beyond the arc",,,,,WORD,"The Grizzlies shot 52 percent from the field and 58 percent from three - point range, while the Knicks shot 42 percent from the field and 22 percent from beyond the arc",The statement incorrectly repeats the Grizzlies' shooting percentages for the Knicks.
+T006,,6,"Memphis was led by Marc Gasol, who scored a game - high 21 points on 9 - of - 17 shooting, to go along with eight rebounds and three assists in 32 minutes",,,,,WORD,"New York was led by Langston Galloway, who scored a game - high 19 points on 7 - of - 16 shooting, to go along with seven rebounds and five assists in 43 minutes",The statement incorrectly attributes the stats to Gasol instead of Galloway.
+T006,,7,"Zach Randolph finished with 23 points, seven rebounds, five assists, one steal and one block in 35 minutes",,,,,WORD,"Andrea Bargnani finished with 18 points, two rebounds, and two blocks in 31 minutes",The statement incorrectly attributes the stats to Randolph instead of Bargnani.
+T006,,8,"Marc Gasol finished with 21 points, eight rebounds, three assists, one steal and one block in 32 minutes",,,,,WORD,"Langston Galloway finished with 19 points, seven rebounds, and five assists in 43 minutes",The statement incorrectly attributes the stats to Gasol instead of Galloway.
+T006,,9,"Zach Randolph chipped in 23 points, seven rebounds, five assists, one steal and one block in 35 minutes",,,,,WORD,"Andrea Bargnani chipped in 18 points, two rebounds, and two blocks in 31 minutes",The statement incorrectly attributes the stats to Randolph instead of Bargnani.
+T006,10,10,The Knicks shot 52 percent from the field and 58 percent from three - point range,1,16,,,NUMBER,The Knicks shot 42 percent from the field and 22 percent from three - point range,The shooting percentages for the Knicks are incorrect.
+T006,11,11,The Grizzlies shot 52 percent from the field and 58 percent from beyond the arc,1,15,,,WORD,The Grizzlies shot 52 percent from the field and 58 percent from three - point range,The statement is redundant and should not be repeated.
+T006,,12,"The Grizzlies are off until Monday, when they play host to the Trail Blazers",,,,,NOT_CHECKABLE,,This fact cannot be verified against the provided data tables.
+T006,13,13,New York remains home to host the Suns on Sunday,1,10,,,NOT_CHECKABLE,,This fact cannot be verified against the provided data tables.
+T007,1,1,Moda Center,23,24,,,NAME,Moda Center,"The venue name is correct, but it should be noted that the game was played in Portland."
+T007,2,2,Nuggets were able to close out the game in the second half,2,13,,,WORD,Blazers were able to close out the game in the second half,"The sentence incorrectly states that the Nuggets closed out the game, when it was actually the Blazers."
+T007,2,3,Nuggets were able to hold off the Nuggets,17,24,,,WORD,Blazers were able to hold off the Nuggets,"The sentence incorrectly states that the Nuggets held off the Nuggets, when it was actually the Blazers holding off the Nuggets."
+T007,2,4,32 - 20,37,39,,,NUMBER,26 - 20,The score in the fourth quarter is incorrect. The correct score is 26 - 20 in favor of the Blazers.
+T007,,5,Kenneth Faried who scored a game - high 12 points,,,,,NUMBER,"Kenneth Faried, who scored 8 points",Kenneth Faried did not score a game-high 12 points; he scored 8 points.
+T007,3,6,12 rebounds,29,30,,,NUMBER,12 rebounds,"The number of rebounds is correct, but the points scored by Kenneth Faried is incorrect."
+T007,4,7,Darrell Arthur chipped in 12 points,1,6,,,NUMBER,Darrell Arthur chipped in 3 points,Darrell Arthur did not score 12 points; he scored 3 points.
+T007,4,8,"6 - of - 11 shooting , including 4 - of - 7 from long range",8,23,,,NUMBER,"1 - of - 2 shooting, including 0 - of - 1 from long range",The shooting stats for Darrell Arthur are incorrect. He shot 1 - of - 2 from the field and 0 - of - 1 from long range.
+T007,4,9,33 minutes off the bench,26,30,,,NUMBER,13 minutes off the bench,"Darrell Arthur played 13 minutes off the bench, not 33 minutes."
+T007,5,10,Kenneth Faried chipped in 13 points,1,6,,,NUMBER,Kenneth Faried chipped in 8 points,Kenneth Faried did not chip in 13 points; he scored 8 points.
+T007,5,11,"4 - of - 12 shooting , including 0 - of - 6 from long range",8,23,,,NUMBER,"4 - of - 12 shooting, including 0 - of - 6 from long range","The shooting stats for Kenneth Faried are correct, but the points scored is incorrect."
+T007,5,12,30 minutes off the bench,26,30,,,NUMBER,30 minutes,"Kenneth Faried played 30 minutes, but he started the game, not coming off the bench."
+T007,5,13,Kenneth Faried chipped in 13 points,1,6,,,NUMBER,Kenneth Faried chipped in 8 points,Kenneth Faried did not chip in 13 points; he scored 8 points.
+T007,,14,"4 - of - 12 shooting , 0 - of - 6 from long range , 5 - 6 FT",,,,,NUMBER,"4 - of - 12 shooting, 0 - of - 6 from long range, 5 - of - 6 FT","The shooting stats for Kenneth Faried are correct, but the points scored is incorrect."
+T007,5,15,30 minutes off the bench,26,30,,,NUMBER,30 minutes,"Kenneth Faried played 30 minutes, but he started the game, not coming off the bench."
+T007,8,16,Nuggets shot 43 percent from the field and 44 percent from long range,2,14,,,NUMBER,Nuggets shot 43 percent from the field and 44 percent from long range,"The shooting percentages for the Nuggets are correct, but the context is redundant."
+T007,,17,Will Barton was the high - point man for Denver with 31 points,,,,,NUMBER,Will Barton was the high-point man for Denver with 31 points,The points scored by Will Barton are correct.
+T007,9,18,"12 - 22 FG , 4 - 6 3Pt , 1 - 2 FT",16,29,,,,,
+T008,4,1,52 - 42,12,14,,,NUMBER,42 - 52,"The Pacers actually won the rebounding battle 52-42, not the Nets."
+T008,1,2,Brooklyn,11,11,,,NAME,Indiana,"The Pacers, not the Nets, dominated the rebounding battle."
+T008,6,3,Brook Lopez,1,2,,,NAME,Paul George,"Paul George, not Brook Lopez, was the player of the game for the Pacers."
+T008,,4,18 points five rebounds five assists,,,,,NUMBER,"23 points, 11 rebounds, 3 assists",Brook Lopez did not have these stats; Paul George did.
+T008,7,5,Thaddeus Young,1,2,,,NAME,CJ Miles,"CJ Miles, not Thaddeus Young, was the only other starter in double figures for the Pacers."
+T008,,6,14 points five rebounds,,,,,NUMBER,"15 points, 7 rebounds","Myles Turner, not Thaddeus Young, had these stats."
+T008,8,7,Andrea Bargnani,1,2,,,NAME,,Andrea Bargnani did not play in this game.
+T008,,8,12 points five rebounds,,,,,NUMBER,,Andrea Bargnani did not play in this game.
+T008,9,9,Atlanta Hawks,11,12,,,NAME,Minnesota Timberwolves,"The Nets' next game is against the Minnesota Timberwolves, not the Atlanta Hawks."
+T008,11,10,Paul George,1,2,,,NAME,Brook Lopez,"Brook Lopez, not Paul George, was the player of the game for the Nets."
+T008,,11,23 points 11 rebounds three assists,,,,,NUMBER,"18 points, 5 rebounds, 1 assist","Brook Lopez, not Paul George, had these stats."
+T008,12,12,George Hill,1,2,,,NAME,Jarrett Jack,"Jarrett Jack, not George Hill, was the only other starter in double figures for the Nets."
+T008,,13,14 points four rebounds,,,,,NUMBER,"26 points, 9 rebounds","Jarrett Jack, not George Hill, had these stats."
+T008,13,14,Myles Turner,1,2,,,NAME,Rodney Stuckey,"Rodney Stuckey, not Myles Turner, was the only other Pacer in double figures."
+T008,,15,15 points seven rebounds,,,,,NUMBER,"15 points, 7 rebounds","This is correct, but the previous mistake about Myles Turner being the only other Pacer in double figures is incorrect."
+T008,14,16,Toronto Raptors,11,12,,,NAME,Memphis Grizzlies,"The Pacers' next game is against the Memphis Grizzlies, not the Toronto Raptors."
+T009,1,1,defeated the host Minnesota Timberwolves,4,8,,,WORD,lost to,"The Timberwolves lost to the Heat, not defeated them."
+T009,1,2,Saturday,18,18,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T009,2,3,Friday,28,28,,,NAME,Monday,"The game was played on Monday, not Friday."
+T009,3,4,outscoring the Heat,15,17,,,WORD,outscoring the Timberwolves,"The Heat outscored the Timberwolves, not themselves."
+T009,3,5,31 - 22,20,22,,,NUMBER,25 - 22,"The Heat outscored the Timberwolves 25 - 22 in the fourth quarter, not 31 - 22."
+T009,4,6,two rebounds,19,20,,,NUMBER,no rebounds,"Goran Dragic had no rebounds, not two."
+T009,4,7,a steal,22,23,,,NUMBER,no steals,"Goran Dragic had no steals, not one."
+T009,5,8,two steals,14,15,,,NUMBER,one steal,"Dion Waiters had one steal, not two."
+T009,5,9,a pair of blocks,17,20,,,NUMBER,two blocks,"Dion Waiters had two blocks, not a pair of blocks."
+T009,6,10,two assists,18,19,,,NUMBER,one assist,"Hassan Whiteside had one assist, not two."
+T009,4,11,a steal,22,23,,,NUMBER,no steals,"Hassan Whiteside had no steals, not one."
+T009,6,12,a block,24,25,,,NUMBER,one block,"Hassan Whiteside had one block, not a block."
+T009,,13,Miami remains in last place in the Eastern Conference ' s Southeast Division,,,,,WORD,Miami is not in last place in the Southeast Division.,This statement is not accurate based on the provided data.
+T009,8,14,currently slotted in the sixth seed in the conference,16,24,,,WORD,Miami is not currently slotted in the sixth seed in the conference.,This statement is not accurate based on the provided data.
+T009,13,15,"Ricky Rubio posted a 14 - point , 13 - assist double - double",1,14,,,NUMBER,"Ricky Rubio had 14 points and 13 assists, but not a double-double.",Ricky Rubio did not achieve a double-double in this game.
+T009,,16,The Timberwolves remain in last place in the Western Conference ' s Northwest Division,,,,,WORD,The Timberwolves are not necessarily in last place in the Northwest Division.,This statement is not accurate based on the provided data.
+T010,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T010,3,2,Rockets into 17 turnovers,8,11,,,WORD,Bucks into 17 turnovers,"The Bucks forced the Rockets into 17 turnovers, not the other way around."
+T010,3,3,Rockets into 17,8,10,,,WORD,Bucks into 17,"The Bucks forced the Rockets into 17 turnovers, not the other way around."
+T010,4,4,Bucks went just 42 percent from the floor and a meager 42 percent from deep,25,39,,,NUMBER,Rockets went just 47 percent from the floor and a meager 42 percent from deep,"The Rockets, not the Bucks, shot 47% from the field and 42% from three-point range."
+T010,6,5,Bucks were led by the duo of James Harden and Dwight Howard,2,13,,,NAME,"Bucks were led by the trio of Jabari Parker, Khris Middleton, and Giannis Antetokounmpo","James Harden and Dwight Howard played for the Rockets, not the Bucks. The Bucks were led by Jabari Parker, Khris Middleton, and Giannis Antetokounmpo."
+T010,7,6,Harden went 8 - for - 16 from the field and 3 - for - 7 from the three - point line to score a game - high of 26 points,1,31,,,NUMBER,Harden went 8-for-16 from the field and 3-for-7 from the three-point line to score 26 points,"The stats for James Harden are correct, but he played for the Rockets, not the Bucks."
+T010,8,7,He 's now averaging 20 points and 8 assists on the season,1,12,,,NOT_CHECKABLE,,This fact cannot be verified against the provided data tables.
+T010,,8,Parker also had a solid game going 16 - for - 25 from the field and 1 - for - 1 from the three - point line to score 36 points,,,,,NUMBER,"Parker also had a solid game, going 16-for-25 from the field and 1-for-1 from the three-point line to score 36 points","The stats for Jabari Parker are correct, but the sentence incorrectly implies that he had a double-double in the previous game."
+T010,10,9,"It was his second double - double in a row ,",1,11,,,WORD,It was his second double-double of the season,"The sentence incorrectly implies that Parker had a double-double in the previous game, which is not supported by the provided data."
+T010,11,10,only other Rocket to reach double figures in points was Trevor Ariza,2,13,,,WORD,other Bucks to reach double figures in points was Khris Middleton,"Trevor Ariza played for the Rockets, not the Bucks. Khris Middleton was the other Bucks player to reach double figures in points."
+T010,,11,Rockets next game will be on the road against the Detroit Pistons on Friday,,,,,WORD,Rockets' next game will be at home against the Pelicans on Wednesday,"The Rockets' next game is at home against the Pelicans on Wednesday, not on the road against the Detroit Pistons on Friday."
+T010,12,12,Rockets will be at home against the Detroit Pistons on Friday,20,30,,,WORD,Bucks will be at home against the Pacers on Wednesday,"The Bucks' next game is at home against the Pacers on Wednesday, not the Rockets against the Detroit Pistons on Friday."
+T011,1,1,defeated the visiting Cleveland Cavaliers,4,8,,,WORD,were defeated by the Cleveland Cavaliers,"The Hawks lost the game, not won."
+T011,1,2,Wednesday,18,18,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T011,2,3,Atlanta were expected to win this game easily,1,8,,,WORD,The Cavaliers were expected to win this game easily,"The Cavaliers were the favorites, not the Hawks."
+T011,3,4,the Cavaliers never led by more than seven points,15,23,,,WORD,the Cavaliers led by as many as 25 points,The Cavaliers had a significant lead at one point.
+T011,,5,The Hawks (42-18),,,,,NUMBER,The Cavaliers (42-18),"The record is for the Cavaliers, not the Hawks."
+T011,4,6,without Kyrie Irving,13,15,,,WORD,with Kyrie Irving,Kyrie Irving played in the game.
+T011,,7,Kyrie Irving wasn't far behind,,,,,WORD,LeBron James wasn't far behind,"LeBron James was the second-highest scorer, not Kyrie Irving."
+T011,,8,14 - 21,,,,,NUMBER,14-of-21,Corrected the hyphenation for consistency.
+T011,7,9,Richard Jefferson and Channing Frye,1,5,,,WORD,Channing Frye and Richard Jefferson,Corrected the order of the players.
+T011,9,10,On deck for the Cavaliers is a road matchup against the Orlando Magic on Friday,1,15,,,WORD,The Cavaliers will visit Miami on Saturday,"The Cavaliers are playing in Miami, not Orlando, and on Saturday, not Friday."
+T011,,11,The Hawks (34-27),,,,,NUMBER,The Hawks (34-27),"The record is correct, but the context is misleading."
+T011,10,12,have now won five of their last six games,8,16,,,WORD,have lost 6 of their last 10 games,The Hawks have not been winning recently.
+T011,11,13,Paul Millsap was the player of the game,1,8,,,WORD,LeBron James was the player of the game,"LeBron James had the best performance, not Paul Millsap."
+T011,,14,Dwight Howard recorded a double - double amassing 15 points 10 rebounds and two steals,,,,,NUMBER,Dwight Howard recorded 15 points and 10 rebounds,Dwight Howard did not record two steals.
+T011,,15,Ersan Ilyasova was a nice spark off the bench providing 10 points and eight rebounds,,,,,NUMBER,Ersan Ilyasova provided 10 points and 8 rebounds,Corrected the phrasing for clarity.
+T012,1,1,Wednesday,22,22,,,NAME,Saturday,"The game was played on Saturday, not Wednesday."
+T012,2,2,50 - 38,15,17,,,NUMBER,58 - 52,"The Raptors outscored the Heat 58-52 in the first half, not 50-38."
+T012,2,3,coast to an easy victory,22,26,,,WORD,maintain a close lead,"The game was close, not an easy victory for the Raptors."
+T012,2,4,in front of their home crowd,27,32,,,WORD,in front of the Heat's home crowd,"The game was played in Miami, not Toronto."
+T012,4,5,55 percent,11,12,,,NUMBER,21 percent,"Kyle Lowry shot 21% from the field, not 55%."
+T012,4,6,54 points and 19 rebounds,22,26,,,NUMBER,12 points and 7 rebounds,"Kyle Lowry combined for 12 points and 7 rebounds over his last two games, not 54 points and 19 rebounds."
+T012,6,7,second double - double in a row,4,10,,,WORD,no double-double,DeRozan did not have a double-double in this game or the previous one.
+T012,6,8,averaging 24 points and 12 rebounds,17,22,,,NUMBER,averaging 24 points and 6 rebounds,"DeRozan averaged 24 points and 6 rebounds over his last two games, not 24 points and 12 rebounds."
+T012,9,9,Dwyane Dragic,12,13,,,NAME,Lou Williams,"Lou Williams, not Dwyane Dragic, came off the bench for 22 points."
+T012,9,10,"22 points ( 9 - 17 FG , 3 - 7 3Pt , 3 - 3 FT )",21,38,,,NUMBER,"29 points ( 9 - 18 FG , 4 - 7 3Pt , 7 - 7 FT )","Lou Williams scored 29 points, not 22, with different shooting stats."
+T012,10,11,13 rebounds,18,19,,,NUMBER,1 rebound,"Lou Williams had 1 rebound, not 13, over his last two games."
+T012,11,12,Goran Dragic,1,2,,,NAME,Goran Dragic,This is a repetition error. Goran Dragic is already mentioned correctly earlier in the text.
+T012,11,13,"22 points ( 9 - 16 FG , 3 - 7 3Pt , 3 - 3 FT )",12,29,,,NUMBER,"22 points ( 8 - 16 FG , 3 - 7 3Pt , 3 - 3 FT )",Goran Dragic scored 22 points with slightly different shooting stats.
+T012,10,14,13 rebounds,18,19,,,NUMBER,6 rebounds,"Goran Dragic had 6 rebounds, not 13, over his last two games."
+T012,14,15,"34 points , 13 rebounds and five assists",11,18,,,NUMBER,"22 points, 6 rebounds, and 5 assists","Goran Dragic combined for 22 points, 6 rebounds, and 5 assists over his last three games, not 34 points, 13 rebounds, and 5 assists."
+T012,15,16,Cleveland Cavaliers on Friday,13,16,,,NAME,Boston Celtics on Tuesday,"The Raptors' next game is against the Boston Celtics on Tuesday, not the Cleveland Cavaliers on Friday."
+T012,15,17,Cleveland to play the Cavaliers on Friday,24,30,,,NAME,Orlando to play the Magic on Monday,"The Heat's next game is against the Orlando Magic on Monday, not the Cleveland Cavaliers on Friday."
+T013,1,1,Saturday,17,17,,,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,2,2,Monday,11,11,,,NAME,Sunday,"The game was played on Sunday, not Monday."
+T013,2,3,American Airlines Arena,48,50,,,NAME,FedEx Forum,"The game was played at FedEx Forum, not American Airlines Arena."
+T013,2,4,23 - 16,27,29,,,NUMBER,24 - 16,"The Grizzlies' record should be 24-16, not 23-16."
+T013,2,5,23 - 16,27,29,,,NUMBER,24 - 16,"The Grizzlies' record should be 24-16, not 23-16."
+T013,2,6,23 - 16,27,29,,,NUMBER,24 - 16,"The Grizzlies' record should be 24-16, not 23-16."
+T013,3,7,59 - 38,31,33,,,NUMBER,44 - 34,"The Grizzlies outscored the Jazz by 44-34 in the second and third quarters, not 59-38."
+T013,2,8,23 - 16,27,29,,,NUMBER,24 - 16,"The Grizzlies' record should be 24-16, not 23-16."
+T013,3,9,59 - 38,31,33,,,NUMBER,44 - 34,"The Grizzlies outscored the Jazz by 44-34 in the second and third quarters, not 59-38."
+T013,6,10,15 points,6,7,,,NUMBER,"15 points, 4 rebounds, 2 assists","George Hill had 15 points, 4 rebounds, and 2 assists, not just 15 points."
+T013,6,11,15 points,6,7,,,NUMBER,3 points,"Rudy Gobert had 3 points, not 15 points."
+T013,8,12,12 boards,11,12,,,NUMBER,13 rebounds,"Rudy Gobert had 13 rebounds, not 12 boards."
+T013,,13,3 steals,,,,,NUMBER,"3 steals, 2 assists, 1 block","Rudy Gobert had 3 steals, 2 assists, and 1 block, not just 3 steals."
+T013,11,14,"13 - point , 11 - rebound double - double",7,16,,,NUMBER,"13 points, 11 rebounds","Zach Randolph had 13 points and 11 rebounds, not a 13-point, 11-rebound double-double."
+T013,,15,3 steals,,,,,NUMBER,"3 steals, 1 assist","Zach Randolph had 3 steals and 1 assist, not just 3 steals."
+T013,11,16,"13 - point , 11 - rebound double - double",7,16,,,NUMBER,"13 points, 11 rebounds","Zach Randolph had 13 points and 11 rebounds, not a 13-point, 11-rebound double-double."
+T013,,17,3 steals,,,,,NUMBER,"3 steals, 1 assist","Zach Randolph had 3 steals and 1 assist, not just 3 steals."
+T013,14,18,Monday night,14,15,,,NAME,Tuesday,"The Jazz will play the Atlanta Hawks on Tuesday, not Monday night."
+T013,14,19,Friday evening,33,34,,,NAME,Wednesday,"The Grizzlies will play the Orlando Magic on Wednesday, not Friday evening."
+T014,1,1,defeated,5,5,,,WORD,lost to,The Knicks did not defeat the Bucks; they lost to them.
+T014,1,2,93 - 104,10,12,,,NUMBER,104 - 93,The score is reversed; the Bucks won 104-93.
+T014,2,3,( 26 - 39 ),3,7,,,NUMBER,( 26 - 39 ),"The Knicks' record is 26-39, not 30-33."
+T014,2,4,( 30 - 33 ),25,29,,,NUMBER,( 30 - 33 ),"The Bucks' record is 30-33, not 26-39."
+T014,2,5,won five of their last six games,32,38,,,WORD,lost five of their last six games,"The Knicks have lost five of their last six games, not won."
+T014,2,6,won five of their last six games,32,38,,,WORD,lost five of their last six games,"The Knicks have lost five of their last six games, not won."
+T014,2,7,( 30 - 33 ),25,29,,,NUMBER,( 30 - 33 ),"The Bucks' record is 30-33, not 26-39."
+T014,2,8,won five of their last six games,32,38,,,WORD,lost five of their last six games,"The Bucks have lost five of their last six games, not won."
+T014,5,9,Kristaps Porzingis,16,17,,,NAME,Giannis Antetokounmpo,Kristaps Porzingis did not play in this game; Giannis Antetokounmpo did.
+T014,,10,13 points eight boards two assists and three blocks,,,,,NUMBER,"32 points, 13 rebounds, 7 assists, 4 steals, and 2 blocks",The stats for Giannis Antetokounmpo are incorrect.
+T014,6,11,Courtney Lee,12,13,,,NAME,Khris Middleton,Courtney Lee did not play in this game; Khris Middleton did.
+T014,,12,12 points seven rebounds and five assists,,,,,NUMBER,"18 points, 3 rebounds, 4 assists, and 1 steal",The stats for Khris Middleton are incorrect.
+T014,11,13,Matthew Dellavedova,1,2,,,NAME,Greg Monroe,Matthew Dellavedova did not play in this game; Greg Monroe did.
+T014,,14,10 points three assists and two rebounds,,,,,NUMBER,"17 points, 8 rebounds, 3 assists, and 1 steal",The stats for Greg Monroe are incorrect.
+T015,1,1,Wednesday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Wednesday."
+T015,2,2,three - game losing streak,9,13,,,NUMBER,two-game losing streak,"The Lakers had lost their last two games, not three."
+T015,4,3,Nick Young,6,7,,,NAME,Kobe Bryant,"Kobe Bryant, not Nick Young, led the Lakers with 12 points."
+T015,4,4,"19 points ( 5 - 13 FG , 3 - 6 3Pt , 6 - 7 FT ) and 13 rebounds",12,32,,,NUMBER,"12 points (4-11 FG, 1-3 3Pt, 3-3 FT) and 0 rebounds","Nick Young's stats are incorrect. Kobe Bryant had 12 points, 13 assists, and 10 turnovers."
+T015,5,5,Greg Monroe,1,2,,,NAME,Jordan Hill,"Jordan Hill, not Greg Monroe, scored 8 points for the Lakers."
+T015,6,6,52 points in the last two games,6,12,,,NUMBER,Not applicable,This statement is not checkable with the provided data.
+T015,7,7,Brandon Jennings,1,2,,,NAME,Brandon Jennings,The second mention of Brandon Jennings is redundant and should be removed.
+T015,7,8,"10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT )",6,23,,,NUMBER,"10 points (2-10 FG, 0-1 3Pt, 6-6 FT)","The stats for Brandon Jennings are correct, but the redundancy should be addressed."
+T015,8,9,Friday,16,16,,,NAME,Wednesday,"The Lakers' next game is on Wednesday, not Friday."
+T015,8,10,Boston Celtics,13,14,,,NAME,Washington Wizards,"The Lakers' next game is against the Washington Wizards, not the Boston Celtics."
+T015,8,11,Friday,16,16,,,NAME,Wednesday,"The Pistons' next game is on Wednesday, not Friday."
+T016,1,1,defeated,4,4,,,WORD,lost to,"The Kings won the game, not the 76ers."
+T016,1,2,100 - 102,9,11,,,NUMBER,102 - 100,The final score is incorrect. The Kings won 102-100.
+T016,2,3,( 7 - 23 ),3,7,,,NUMBER,(7 - 23),"The record is correct, but it should not be repeated in the same sentence."
+T016,2,4,( 14 - 17 ),23,27,,,NUMBER,(14 - 17),"The record is correct, but it should not be repeated in the same sentence."
+T016,2,5,( 14 - 17 ),23,27,,,NUMBER,(14 - 17),"The record is correct, but it should not be repeated in the same sentence."
+T016,2,6,pull away late in the fourth quarter,31,37,,,WORD,hold on to their lead,The 76ers did not pull away; they held on to their lead.
+T016,2,7,( 14 - 17 ),23,27,,,NUMBER,(14 - 17),"The record is correct, but it should not be repeated in the same sentence."
+T016,3,8,pull away in the second half,32,37,,,WORD,maintain their lead,The 76ers did not pull away; they maintained their lead.
+T016,4,9,Sergio Rodriguez,1,2,,,NAME,DeMarcus Cousins,"DeMarcus Cousins was the high-point man for the Kings, not Sergio Rodriguez."
+T016,4,10,18 points and five assists,14,18,,,NUMBER,"30 points, to go along with seven rebounds, five assists, three steals and two blocks",Sergio Rodriguez did not score 18 points and have 5 assists; DeMarcus Cousins did.
+T016,4,11,Jahlil Okafor logged 20 minutes off the bench,21,28,,,NUMBER,Jahlil Okafor logged 20 minutes,Jahlil Okafor did not log 20 minutes off the bench; he started the game.
+T016,5,12,48 percent from the field,10,14,,,NUMBER,49 percent from the field,"The 76ers shot 49% from the field, not 48%."
+T016,5,13,4 - of - 15 from long range,17,24,,,NUMBER,4 - of - 11 from long range,"The 76ers shot 4-of-11 from long range, not 4-of-15."
+T016,6,14,seven rebounds,21,22,,,NUMBER,9 rebounds,"DeMarcus Cousins had 9 rebounds, not 7."
+T016,4,15,five assists,17,18,,,NUMBER,5 assists,"DeMarcus Cousins had 5 assists, which is correct."
+T016,6,16,three steals,27,28,,,NUMBER,2 steals,"DeMarcus Cousins had 2 steals, not 3."
+T016,6,17,two blocks,30,31,,,NUMBER,2 blocks,"DeMarcus Cousins had 2 blocks, which is correct."
+T016,7,18,four rebounds,9,10,,,NUMBER,0 rebounds,"Ty Lawson had 0 rebounds, not 4."
+T016,7,19,four assists,12,13,,,NUMBER,4 assists,"Ty Lawson had 4 assists, which is correct."
+T016,7,20,two steals,15,16,,,NUMBER,2 steals,"Ty Lawson had 2 steals, which is correct."
+T016,7,21,in 28 minutes off the bench,29,34,,,NUMBER,in 28 minutes,Darren Collison did not play off the bench; he started the game.
+T017,1,1,44,17,17,,,NUMBER,43,"The Pelicans' record is 26-43, not 26-44."
+T017,1,2,Friday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T017,2,3,29 - 13,18,20,,,NUMBER,35 - 21,"The Heat outscored the Pelicans 35-21 in the first quarter, not 29-13."
+T017,2,4,29 - 13,18,20,,,NUMBER,27 - 19,"The Pelicans outscored the Heat 27-19 in the second quarter, not 29-13."
+T017,3,5,31 - 19,19,21,,,NUMBER,26 - 33,"The Pelicans outscored the Heat 33-26 in the fourth quarter, not 31-19."
+T017,4,6,25,12,12,,,NUMBER,21,"Dwyane Wade scored 21 points, not 25."
+T017,4,7,10 - 21,15,17,,,NUMBER,8 - 18,"Dwyane Wade's shooting line was 8-18, not 10-21."
+T017,4,8,0 - 0,20,22,,,NUMBER,3 - 7,"Dwyane Wade made 3 free throws, not 0."
+T017,4,9,5 - 6,25,27,,,NUMBER,4 - 6,"Hassan Whiteside made 4 free throws, not 5."
+T017,6,10,54,6,6,,,NUMBER,47,"Hassan Whiteside combined for 47 points in the last two games, not 54."
+T017,7,11,Anthony Davis,1,2,,,NAME,Jrue Holiday,"Jrue Holiday, not Anthony Davis, had 24 points, 14 rebounds, and 3 blocks."
+T017,8,12,Wednesday,18,18,,,NAME,Thursday,"The Heat will play against the Dallas Mavericks on Thursday, not Wednesday."
+T017,1,13,Friday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T017,7,14,Anthony Davis,1,2,,,NAME,Jrue Holiday,"Jrue Holiday, not Anthony Davis, was the only other player to reach double figures in points."
+T017,11,15,,18,18,,,NUMBER,24 - 23,"Jrue Holiday's shooting line was 24-23, not N/A."
+T017,11,16,,18,18,,,NUMBER,7 - 8,"Jrue Holiday made 7 free throws, not N/A."
+T017,11,17,,18,18,,,NUMBER,4 - 5,"Jrue Holiday had 4 steals, not N/A."
+T017,1,18,Friday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T018,2,1,was n't enough to pull out the win,23,30,,,WORD,was enough to secure the win,"The Rockets won the game, so the statement that it wasn't enough to pull out the win is incorrect."
+T018,4,2,"26 points on 9 - of - 13 shooting , including 8 - of - 12 from long range",6,24,,,NUMBER,"26 points on 9 - of - 13 shooting , including 8 - of - 13 from long range","Eric Gordon made 8 of 13 three-point shots, not 8 of 12."
+T018,5,3,"Julius Randle chipped in 21 points ( 9 - 19 FG , 3 - 4 FT ) and 10 rebounds , in 37 minutes",1,24,,,NUMBER,"Julius Randle chipped in 21 points ( 9 - 19 FG , 3 - 4 FT ) and 10 rebounds , in 29 minutes","Julius Randle played 29 minutes, not 37 minutes."
+T018,8,4,"The Rockets struggled shooting the ball , as they went 9 - of - 21 from long range",1,18,,,NUMBER,"The Rockets shot well from long range, making 18 of 35 three-point attempts","The Rockets actually shot 18 of 35 from three-point range, not 9 of 21."
+T019,1,1,36,14,14,,,NUMBER,35,"The Nets' record should be 35-42, not 36-42."
+T019,1,2,Friday,26,26,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T019,2,3,five of their last five games,21,26,,,NOT_CHECKABLE,,This fact cannot be verified with the provided data.
+T019,3,4,Al Horford,6,7,,,NAME,Brook Lopez,"Brook Lopez led the Nets in scoring, not Al Horford."
+T019,1,5,Nets,12,12,,,NAME,Hawks,"Al Horford played for the Hawks, not the Nets."
+T019,2,6,five,13,13,,,NUMBER,four,"DeMarre Carroll had four assists, not five."
+T019,1,7,Nets,12,12,,,NAME,Hawks,"Brook Lopez led the Hawks in scoring, not the Nets."
+T019,6,8,21,31,31,,,NUMBER,24,"Jarrett Jack played 24 minutes, not 21."
+T019,6,9,3 - 10 FG,8,11,,,NUMBER,3 - 10 FG,"Jarrett Jack made 3 of 10 field goals, not 3 of 10."
+T019,6,10,8 - 8 FT,13,16,,,NUMBER,8 - 8 FT,"Jarrett Jack made 8 of 8 free throws, not 8 of 8."
+T019,7,11,six players,4,5,,,NUMBER,six players,"The Nets had six players score in double figures, which is correct."
+T019,7,12,48 percent,15,16,,,NUMBER,47 percent,"The Nets shot 47% from the field, not 48%."
+T019,8,13,Indiana,8,8,,,NAME,Washington,"The Nets will play the Wizards, not in Indiana."
+T019,1,14,Friday,26,26,,,NAME,Friday,"The Nets will play the Wizards on Friday, which is correct."
+T019,9,15,Knicks,6,6,,,NAME,Hornets,"The Hawks will host the Hornets, not the Knicks."
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Tuesday."
+T020,2,2,72 - 68,4,6,,,NUMBER,53 - 56,"The halftime score was 56-53 in favor of the Hornets, not 72-68."
+T020,,3,third quarter 34 - 19,,,,,NUMBER,"third quarter, 28 - 21","The Hornets outscored the Heat 28-21 in the third quarter, not 34-19."
+T020,3,4,50 percent,13,14,,,NUMBER,41 percent,"The Heat shot 41% from the three-point line, not 50%."
+T020,,5,Nicolas Batum team - high of 19 points 7 - 19 FG 2 - 7 3Pt 3 - 3 FT,,,,,NUMBER,"Nicolas Batum, 19 points, 7 - 19 FG, 2 - 7 3PT, 3 - 3 FT","Nicolas Batum indeed scored 19 points, but the specific shooting stats are correct."
+T020,,6,Marvin Williams 12 points,,,,,NUMBER,"Marvin Williams, 12 points","Marvin Williams indeed scored 12 points, but he is not a Hornet in this game."
+T020,,7,Courtney Lee 13 points 3 - 6 FG 2 - 3 3Pt 5 - 6 FT,,,,,NUMBER,"Courtney Lee, 13 points, 3 - 6 FG, 2 - 3 3PT, 5 - 6 FT","Courtney Lee indeed scored 13 points, but he is not a Hornet in this game."
+T020,,8,Goran Dragic 16 points 8 - 16 FG 0 - 3 3Pt,,,,,NUMBER,"Goran Dragic, 16 points, 8 - 16 FG, 0 - 3 3PT","Goran Dragic indeed scored 16 points, but he is a Heat player, not a Hornet."
+T020,,9,Deng 22 points 7 - 13 FG 2 - 5 3Pt,,,,,NUMBER,"Luol Deng, 22 points, 7 - 13 FG, 2 - 5 3PT","Luol Deng indeed scored 22 points, but he is a Heat player, not a Hornet."
+T020,,10,Hassan Whiteside 22 points 7 - 13 FG 2 - 5 3Pt,,,,,NUMBER,"Hassan Whiteside, 17 points, 6 - 10 FG, 5 - 6 FT","Hassan Whiteside scored 17 points, not 22, and his shooting stats are different."
+T020,,11,Hassan Whiteside 17 points 6 - 10 FG 5 - 6 FT,,,,,NUMBER,"Hassan Whiteside, 17 points, 6 - 10 FG, 5 - 6 FT","Hassan Whiteside indeed scored 17 points, but this is a repeat of the previous mistake."
+T020,11,12,Wednesday,16,16,,,NAME,Saturday,"The Hornets' next game is on Saturday, not Wednesday."
+T020,11,13,Friday,30,30,,,NAME,Saturday,"The Heat's next game is on Saturday, not Friday."
+T021,1,1,7 - 3,6,8,,,NUMBER,6 - 3,The record for the Portland Trail Blazers is incorrect.
+T021,1,2,4 - 5,15,17,,,NUMBER,4 - 4,The record for the Brooklyn Nets is incorrect.
+T021,,3,they ' ve lost five of their last six games,,,,,WORD,,This statement is not supported by the provided data and is not checkable.
+T021,1,4,Friday,23,23,,,NAME,Saturday,The day of the game is incorrect.
+T021,8,5,Toronto Raptors,13,14,,,NAME,New Orleans Pelicans,"The next game for the Trail Blazers is against the New Orleans Pelicans, not the Toronto Raptors."
+T021,1,6,Friday,23,23,,,NAME,Monday,"The day of the next game for the Trail Blazers is Monday, not Friday."
+T021,1,7,Friday,23,23,,,NAME,Monday,"The day of the next game for the Nets is Monday, not Friday."
+T022,1,1,Wednesday,23,23,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T022,1,2,Energy Solutions Arena in Salt Lake City,25,31,,,NAME,AT & T Center in San Antonio,"The game was played at the AT & T Center in San Antonio, not at Energy Solutions Arena in Salt Lake City."
+T022,4,3,Rudy Gobert,10,11,,,NAME,Tiago Splitter,Rudy Gobert did not lead the Spurs in this game; Tiago Splitter did.
+T022,,4,"5 - 10 FG , 0 - 0 3Pt",,,,,NUMBER,"5 - 12 FG, 4 - 4 FT",Rudy Gobert did not have these stats; Tiago Splitter had 5 - 12 FG and 4 - 4 FT.
+T022,4,5,13 points,42,43,,,NUMBER,14 points,Rudy Gobert did not score 13 points; Tiago Splitter scored 14 points.
+T022,4,6,four blocked shots,51,53,,,NUMBER,0 blocked shots,Rudy Gobert did not have 4 blocked shots; Tiago Splitter had 0 blocked shots.
+T022,6,7,"It was his second double - double in a row ,",1,11,,,WORD,It was a productive outing for him.,The statement about Rudy Gobert having a double-double in a row is incorrect and misleading.
+T022,7,8,Aron Baynes,6,7,,,NAME,Danny Green,Aron Baynes did not chip in with 12 points and 11 rebounds; Danny Green did.
+T022,7,9,"4 - 10 FG , 0 - 1 3Pt , 4 - 5 FT",14,27,,,NUMBER,"5 - 7 FG, 3 - 4 3Pt, 0 - 0 FT","Aron Baynes did not have these stats; Danny Green had 5 - 7 FG, 3 - 4 3Pt, and 0 - 0 FT."
+T022,8,10,The Spurs ' next game will be on the road against the Portland Trail Blazers on Friday,1,17,,,NAME,The Spurs' next game will be on the road against the Denver Nuggets on Tuesday,"The next game for the Spurs is against the Denver Nuggets on Tuesday, not the Portland Trail Blazers on Friday."
+T022,8,11,the Jazz will be at home against the Portland Trail Blazers on Friday,20,32,,,NAME,the Jazz will travel to Cleveland to play the Cavaliers on Wednesday,"The next game for the Jazz is against the Cleveland Cavaliers on Wednesday, not the Portland Trail Blazers on Friday."
+T026,1,1,2 - 3,5,7,,,NUMBER,1 - 3,"The Pistons' record should be 1-3, not 2-3."
+T026,2,2,Knicks 25 - 20,17,20,,,NUMBER,Pistons 25 - 20,The sentence incorrectly states that the Knicks outscored the Pistons 25-20 in the first half. It should state that the Pistons outscored the Knicks 25-20.
+T026,3,3,37 percent,12,13,,,NUMBER,43 percent,"The Pistons' field goal percentage was 43%, not 37%."
+T026,3,4,45 percent,18,19,,,NUMBER,48 percent,"The Pistons' three-point percentage was 48%, not 45%."
+T026,4,5,Kentavious Caldwell-Pope,6,7,,,NAME,Tim Hardaway Jr.,"The story incorrectly attributes the team-high 20 points to Kentavious Caldwell-Pope, but it should be Tim Hardaway Jr."
+T026,,6,"(8 - 14 FG , 4 - 7 3Pt , 0 - 2 FT)",,,,,NUMBER,"(8 - 15 FG, 4 - 7 3Pt)","The shooting stats for Kentavious Caldwell-Pope are incorrect. They should be for Tim Hardaway Jr., who went 8-15 from the field and 4-7 from three."
+T026,5,7,"It was his second double - double in a row ,",1,11,,,WORD,,This statement is not supported by the provided data and is not checkable.
+T026,5,8,43 points and 25 rebounds,17,21,,,NUMBER,,This statement is not supported by the provided data and is not checkable.
+T026,8,9,He 's now averaging 12 points and 2 rebounds on the year .,1,13,,,WORD,,This statement is not supported by the provided data and is not checkable.
+T026,9,10,Iman Shumpert,1,2,,,NAME,Jason Smith,"The story incorrectly attributes 15 points to Iman Shumpert, but it should be Jason Smith."
+T026,,11,"(5 - 13 FG , 4 - 6 3Pt , 1 - 2 FT)",,,,,NUMBER,(5 - 13 FG),"The shooting stats for Iman Shumpert are incorrect. They should be for Jason Smith, who went 5-13 from the field."
+T026,10,12,"The Pistons ' next game will be on the road against the Toronto Raptors on Friday ,",1,17,,,WORD,The Pistons host the Bucks at The Palace of Auburn Hills on Friday.,"The story incorrectly states the Pistons' next game is on the road against the Raptors, but it should be at home against the Bucks."
+T026,10,13,while the Pistons will be at home against the Miami Heat on Friday .,18,31,,,WORD,The Knicks return to New York to face the Nets at the Barclays Center Friday.,"The story incorrectly states the Pistons' next game is against the Heat, but it should be the Knicks' next game against the Nets."
+T027,1,1,122 - 100,10,12,,,NUMBER,122 - 100,"The score is correct, but the story mentions a 122-point performance by the Pelicans, which is incorrect."
+T027,2,2,Monday,11,11,,,NAME,Friday,"The game was played on Friday, not Monday."
+T027,,3,pierce Houston's armor Wednesday,,,,,WORD,,"This sentence is confusing and incorrect. The Pelicans did not play on Wednesday, and the game was on Friday."
+T027,,4,Gregg Popovich's crew,,,,,NAME,,"Gregg Popovich is the coach of the San Antonio Spurs, not the Pelicans."
+T027,4,5,Gordon Davis,1,2,,,NAME,Eric Gordon,"The player's name is Eric Gordon, not Gordon Davis."
+T027,4,6,19 points,5,6,,,NUMBER,29 points,"Eric Gordon scored 29 points, not 19."
+T027,6,7,Buddy Hield was next with a bench - leading 11 points,1,11,,,WORD,,"This sentence is redundant and incorrect. Buddy Hield did score 11 points, but it is already mentioned later in the text."
+T027,7,8,Jrue Holiday contributed 11 points,1,5,,,NUMBER,11 points,"Jrue Holiday did contribute 11 points, but this is redundant and already mentioned later in the text."
+T027,8,9,Alexis Ajinca paced the reserves with 20 points,1,8,,,NUMBER,10 points,"Alexis Ajinca scored 10 points, not 20."
+T027,9,10,Buddy Hield and Jrue Holiday supplied a pair of 11 - point efforts,1,13,,,NUMBER,,This sentence is redundant and already mentioned earlier in the text.
+T027,10,11,Alexis Ajinca led the second unit with 20 points,1,9,,,NUMBER,10 points,"Alexis Ajinca scored 10 points, not 20."
+T027,11,12,Eric Gordon led the second unit with 29 points,1,9,,,NUMBER,29 points,"Eric Gordon did lead the second unit with 29 points, but this is redundant and already mentioned earlier in the text."
+T027,13,13,Buddy Hield led the second unit with 11 points,1,9,,,NUMBER,11 points,"Buddy Hield did lead the second unit with 11 points, but this is redundant and already mentioned earlier in the text."
+T027,10,14,Alexis Ajinca led the second unit with 20 points,1,9,,,NUMBER,10 points,"Alexis Ajinca scored 10 points, not 20."
+T027,17,15,Buddy Hield led the second unit with a season - high 29 points,1,13,,,NUMBER,11 points,Buddy Hield did not score 29 points; he scored 11 points.
+T027,18,16,"Jrue Holiday tallied a 11 - point , 1 - assist double - double",1,14,,,WORD,,"Jrue Holiday did not achieve a double-double; he had 11 points, 5 rebounds, and 1 assist."
+T027,19,17,"Cheick Diallo tallied a 10 - point , 1 - assist double - double",1,14,,,WORD,,"Cheick Diallo did not achieve a double-double; he had 10 points, 7 rebounds, and 1 assist."
+T027,20,18,"Buddy Hield tallied 11 points , five rebounds and one assist in 26 minutes",1,14,,,WORD,,This sentence is redundant and already mentioned earlier in the text.
+T028,2,1,( 44 - 13 ),3,7,,,NUMBER,( 44 - 13 ),"The record for the Spurs should be 44-13, not 35-13."
+T028,2,2,( 35 - 13 ),18,22,,,NUMBER,( 35 - 23 ),"The record for the Clippers should be 35-23, not 35-13."
+T028,2,3,( 35 - 13 ),18,22,,,NUMBER,( 35 - 23 ),"The record for the Clippers should be 35-23, not 35-13."
+T028,2,4,( 35 - 13 ),18,22,,,NUMBER,( 35 - 23 ),"The record for the Clippers should be 35-23, not 35-13."
+T028,2,5,( 44 - 13 ),3,7,,,NUMBER,( 44 - 13 ),"The record for the Spurs should be 44-13, not 35-13."
+T028,4,6,Blake Griffin,1,2,,,NAME,Kawhi Leonard,Blake Griffin is incorrectly credited as the high-point man for the Spurs. It should be Kawhi Leonard.
+T028,4,7,29 points,14,15,,,NUMBER,21 points,"Blake Griffin is credited with 29 points, but it should be 21 points for Kawhi Leonard."
+T028,4,8,one steal,27,28,,,NUMBER,1 steal,"The number of steals for Kawhi Leonard is correct, but the context is wrong as it is attributed to Blake Griffin."
+T028,5,9,LaMarcus Aldridge,1,2,,,NAME,LaMarcus Aldridge,"LaMarcus Aldridge's stats are correct, but the context is wrong as he is not the second-highest scorer for the Spurs."
+T028,6,10,Tony Parker,1,2,,,NAME,Tony Parker,"Tony Parker's stats are correct, but the context is wrong as he is not the third-highest scorer for the Spurs."
+T028,6,11,off the bench,20,22,,,WORD,starting lineup,"Tony Parker started the game, not coming off the bench."
+T028,4,12,Blake Griffin,1,2,,,NAME,Blake Griffin,"Blake Griffin's stats are correct, but the context is wrong as he is not the high-point man for the Spurs."
+T028,3,13,for the Spurs,59,61,,,WORD,for the Clippers,"Blake Griffin played for the Clippers, not the Spurs."
+T028,8,14,Austin Rivers,1,2,,,NAME,Austin Rivers,"Austin Rivers' stats are correct, but the context is wrong as he is not the second-highest scorer for the Spurs."
+T028,3,15,for the Spurs,59,61,,,WORD,for the Clippers,"Austin Rivers played for the Clippers, not the Spurs."
+T028,8,16,Chris Paul,24,25,,,NAME,Chris Paul,"Chris Paul's stats are correct, but the context is wrong as he is not the third-highest scorer for the Spurs."
+T028,3,17,for the Spurs,59,61,,,WORD,for the Clippers,"Chris Paul played for the Clippers, not the Spurs."
+T029,2,1,"The Magic got off to a quick start in this one , out - scoring the Magic 22 - 25 in the first quarter alone .",1,26,,,WORD,"The Suns got off to a quick start in this one, out-scoring the Magic 25 - 22 in the first quarter alone.","The sentence incorrectly states that the Magic out-scored the Magic, which is a logical error. It should state that the Suns out-scored the Magic."
+T029,4,2,20,8,8,,,NUMBER,19,"The number of turnovers committed by the Suns is incorrect. According to the box score, the Suns committed 19 turnovers, not 20."
+T029,5,3,Victor Oladipo and Markieff Morris,9,13,,,NAME,Brandon Knight and Markieff Morris,"The sentence incorrectly attributes the leading performance to Victor Oladipo, who actually played for the Magic. The correct leading scorer for the Suns was Brandon Knight."
+T029,6,4,28,30,30,,,NUMBER,28,"The number of points scored by Markieff Morris is incorrect. According to the box score, Brandon Knight scored 28 points, not Markieff Morris."
+T029,6,5,7 - for - 15 from the field and 4 - for - 9 from the three - point line,3,22,,,NUMBER,10 - for - 12 from the field and 4 - for - 9 from the three - point line,"The shooting statistics for Markieff Morris are incorrect. According to the box score, Brandon Knight went 10-for-12 from the field and 4-for-9 from the three-point line."
+T029,7,6,19 points and 7 rebounds on the year,5,12,,,NUMBER,28 points and 7 assists and 3 steals,"The statistics for Markieff Morris are incorrect. According to the box score, Brandon Knight scored 28 points, had 7 assists, and 3 steals."
+T029,8,7,PJ Tucker was the only other starter in double figures for points,1,12,,,WORD,Brandon Knight was the only other starter in double figures for points,"The sentence incorrectly states that PJ Tucker was the only other starter in double figures for points. According to the box score, Brandon Knight was the only other starter in double figures for points."
+T029,9,8,The Suns ' next game will be on the road against the Miami Heat on Wednesday,1,16,,,WORD,The Suns' next game will be on the road against the Brooklyn Nets on Friday,"The sentence incorrectly states the next game for the Suns. According to the schedule, the Suns will play the Brooklyn Nets on Friday, not the Miami Heat on Wednesday."
+T029,9,9,"while the Magic will be at home against the Miami Heat on Friday , while the Suns will be at home against the New Orleans Pelicans on Friday , while the Magic will be at home against the Miami Heat on Friday .",18,60,,,WORD,while the Magic will be at home against the Sacramento Kings on Friday.,"The sentence incorrectly states the next game for the Magic. According to the schedule, the Magic will play the Sacramento Kings on Friday."
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,2,2,40,12,12,,,NUMBER,40.0,"The Grizzlies' field goal percentage was 40.0%, not 40%."
+T030,2,3,44,31,31,,,NUMBER,43.0,"The Suns' field goal percentage was 43.0%, not 44%."
+T030,3,4,Eric Bledsoe,9,10,,,NAME,Courtney Lee,Eric Bledsoe did not play for the Grizzlies; Courtney Lee did.
+T030,4,5,"23 points ( 8 - 22 FG , 2 - 6 3Pt , 5 - 7 FT )",4,21,,,NUMBER,"18 points ( 7 - 12 FG , 2 - 2 3Pt , 2 - 2 FT )","Courtney Lee scored 18 points, not 23, with the correct shooting stats."
+T030,4,6,seven rebounds and six assists,23,27,,,NUMBER,four rebounds and six assists,"Courtney Lee had 4 rebounds and 6 assists, not 7 rebounds and 6 assists."
+T030,5,7,"It was his second double - double in a row , as he 's combined for 40 points and 12 rebounds over his last two games .",1,27,,,NOT_CHECKABLE,,This statement cannot be verified with the provided data.
+T030,6,8,Brandon Knight,1,2,,,NAME,Jon Leuer,Brandon Knight did not play for the Grizzlies; Jon Leuer did.
+T030,6,9,"17 points ( 7 - 15 FG , 2 - 7 3Pt , 1 - 1 FT ) and six rebounds in 37 minutes",17,40,,,NUMBER,"10 points ( 3 - 11 FG , 1 - 3 3Pt , 3 - 5 FT ) and 11 rebounds in 41 minutes","Jon Leuer had 10 points, 11 rebounds, and the correct shooting stats."
+T030,7,10,The Grizzlies ' next game will be on the road against the Portland Trail Blazers on Wednesday,1,17,,,WORD,The Grizzlies' next game will be at home against the Oklahoma City Thunder on Tuesday,"The Grizzlies' next game is at home against the Thunder, not on the road against the Trail Blazers."
+T030,8,11,"The Grizzlies , on the other hand , have now lost three of their last three games",1,17,,,NUMBER,The Grizzlies have now won nine of their last 12 games,"The Grizzlies have won nine of their last 12 games, not lost three of their last three."
+T030,10,12,He 's now averaging 12 points and 5 rebounds on the year,1,12,,,NOT_CHECKABLE,,This statement cannot be verified with the provided data.
+T030,12,13,The Grizzlies ' next game will be on the road against the Denver Nuggets on Wednesday,1,16,,,WORD,The Grizzlies' next game will be at home against the Oklahoma City Thunder on Tuesday,"The Grizzlies' next game is at home against the Thunder, not on the road against the Nuggets."
+T030,12,14,while the Suns will be at home against the Los Angeles Clippers on Friday,18,31,,,WORD,while the Suns will wind up their six-game road trip with the second game of a back-to-back on Monday in Chicago,"The Suns' next game is in Chicago, not at home against the Clippers."

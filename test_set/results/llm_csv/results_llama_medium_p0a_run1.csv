@@ -1,0 +1,97 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T003,1,1,Wednesday,22.0,22.0,NAME,Thursday,Incorrect day of the week,llama_medium,p0a,3084.15
+T003,1,2,Amway Center,,,NAME,Unknown,Unknown arena name,llama_medium,p0a,3084.15
+T003,10,3,Friday,382.0,382.0,NAME,Monday,Incorrect day of the week,llama_medium,p0a,3084.15
+T003,10,4,Friday,382.0,382.0,NAME,Monday,Incorrect day of the week,llama_medium,p0a,3084.15
+T005,0,0,Saturday,17.0,17.0,NAME,Monday,"The game was played on Monday, not Saturday.",llama_medium,p0a,3084.15
+T006,0,0,New York Grizzlies,,,NAME,Memphis Grizzlies,Incorrect team name,llama_medium,p0a,3084.15
+T006,0,1,Grizzlies,3.0,3.0,NAME,Knicks,Incorrect team name,llama_medium,p0a,3084.15
+T006,0,2,Grizzlies,3.0,3.0,NAME,Knicks,Incorrect team name,llama_medium,p0a,3084.15
+T006,0,3,Trail Blazers,,,NAME,"Trail Blazers is correct, but the team is not mentioned in the original text",Incorrect team name,llama_medium,p0a,3084.15
+T006,0,4,Suns,284.0,284.0,NAME,"Suns is correct, but the team is not mentioned in the original text",Incorrect team name,llama_medium,p0a,3084.15
+T007,1,1,Kenneth Faried,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name,llama_medium,p0a,3084.15
+T007,2,2,Darrell Arthur,,,NAME,Darrell Arthur is not a player in the game,Incorrect player name,llama_medium,p0a,3084.15
+T007,3,3,Kenneth Faried,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name,llama_medium,p0a,3084.15
+T007,4,4,Will Barton,,,NAME,Will Barton is not the high-point man for Denver,Incorrect player name,llama_medium,p0a,3084.15
+T007,5,5,Gary Harris,,,NAME,Gary Harris is not a player in the game,Incorrect player name,llama_medium,p0a,3084.15
+T007,6,6,Kenneth Faried,,,NAME,Kenneth Faried is not a player in the game,Incorrect player name,llama_medium,p0a,3084.15
+T010,0,0,Wednesday,22.0,22.0,NAME,Monday,"The game was played on Monday, not Wednesday.",llama_medium,p0a,3084.15
+T011,0,0,Wednesday,18.0,18.0,NAME,Friday,"The game was played on Friday, not Wednesday.",llama_medium,p0a,3084.15
+T012,1,1,Wednesday,22.0,22.0,NAME,Friday,"The game was played on Friday, not Wednesday.",llama_medium,p0a,3084.15
+T012,2,2,American Airlines Arena,,,NAME,US Airways Arena,"The game was played at US Airways Arena, not American Airlines Arena.",llama_medium,p0a,3084.15
+T012,3,3,55,109.0,109.0,NUMBER,41,"Kyle Lowry shot 41 percent from the field, not 55 percent.",llama_medium,p0a,3084.15
+T012,4,4,17,144.0,144.0,NUMBER,12,"DeRozan averaged 12 rebounds, not 17 rebounds.",llama_medium,p0a,3084.15
+T012,5,5,Dwyane Dragic,,,NAME,Goran Dragic,"The player's name is Goran Dragic, not Dwyane Dragic.",llama_medium,p0a,3084.15
+T012,6,6,Friday,443.0,443.0,NAME,Saturday,"The Raptors' next game will be on Saturday, not Friday.",llama_medium,p0a,3084.15
+T013,0,0,Saturday,17.0,17.0,NAME,Sunday,"The game was played on Sunday, not Saturday.",llama_medium,p0a,3084.15
+T013,1,1,Monday,29.0,29.0,NAME,Tuesday,"The Grizzlies head down to Central Florida for a showdown with the Orlando Magic on Tuesday evening, not Monday.",llama_medium,p0a,3084.15
+T013,2,2,59 - 38,100.0,102.0,NUMBER,39,"The Grizzlies held the Jazz to only 39 percent from the field, not 59-38.",llama_medium,p0a,3084.15
+T013,3,3,12,215.0,215.0,NUMBER,13,"Rudy Gobert hauled in 13 rebounds, not 12.",llama_medium,p0a,3084.15
+T013,4,4,three,224.0,224.0,NUMBER,one,"Rudy Gobert mustered only one point, not three.",llama_medium,p0a,3084.15
+T013,5,5,three,224.0,224.0,NUMBER,one,"Rudy Gobert recorded three steals, but it should be one block.",llama_medium,p0a,3084.15
+T013,6,6,Central,353.0,353.0,NAME,None,The text does not mention Central Florida.,llama_medium,p0a,3084.15
+T013,7,7,Friday,363.0,363.0,NAME,None,The text does not mention Friday.,llama_medium,p0a,3084.15
+T014,1,1,Knicks,4.0,4.0,NAME,"Knicks is incorrect, the team name is Knicks",The team name is misspelled as 'Knicks' instead of 'Knicks',llama_medium,p0a,3084.15
+T014,2,2,30 33,,,NUMBER,"The Knicks have now won five of their last six games is incorrect, the correct record is not provided","The record of the Knicks is not provided in the data tables, so it cannot be verified",llama_medium,p0a,3084.15
+T014,3,3,30 33,,,NUMBER,"The Bucks have now won five of their last six games is incorrect, the correct record is not provided","The record of the Bucks is not provided in the data tables, so it cannot be verified",llama_medium,p0a,3084.15
+T014,4,4,Giannis Antetokounmpo,,,NAME,"Giannis Antetokounmpo is correct, but the data tables do not provide information about the player of the game","The data tables do not provide information about the player of the game, so it cannot be verified",llama_medium,p0a,3084.15
+T014,5,5,Matthew Dellavedova,,,NAME,"Matthew Dellavedova is correct, but the data tables do not provide information about the player's performance","The data tables do not provide information about the player's performance, so it cannot be verified",llama_medium,p0a,3084.15
+T017,0,0,Friday,23.0,23.0,NAME,Tuesday,"The game was played on Tuesday, not Friday.",llama_medium,p0a,3084.15
+T018,1,1,Toyota Center,,,NAME,Toyota Center is not the home arena of the Houston Rockets,"The home arena of the Houston Rockets is the Toyota Center, but it is not explicitly mentioned in the box score data.",llama_medium,p0a,3084.15
+T018,2,2,30,90.0,90.0,NUMBER,31,"James Harden played 31 minutes, not 30.",llama_medium,p0a,3084.15
+T018,3,3,24,129.0,129.0,NUMBER,26,"Eric Gordon played 26 minutes, not 24.",llama_medium,p0a,3084.15
+T018,4,4,37,154.0,154.0,NUMBER,29,"Julius Randle played 29 minutes, not 37.",llama_medium,p0a,3084.15
+T018,5,5,29,226.0,226.0,NUMBER,Not Checkable,The number of minutes played by Lou Williams is not available in the box score data.,llama_medium,p0a,3084.15
+T018,6,6,Friday,257.0,257.0,WORD,Not Checkable,The schedule of the next games is not available in the box score data.,llama_medium,p0a,3084.15
+T019,0,0,59 - 19,5.0,7.0,NUMBER,59-19,The score is incorrect.,llama_medium,p0a,3084.15
+T019,0,1,114 - 111,18.0,20.0,NUMBER,114-111,The score is incorrect.,llama_medium,p0a,3084.15
+T019,1,2,Friday,26.0,26.0,NAME,Wednesday,The day of the week is incorrect.,llama_medium,p0a,3084.15
+T019,2,3,Barclays Center,,,NAME,"Barclays is not the correct arena, but the text does not specify the arena, so this is a NOT_CHECKABLE error","The arena is not specified in the text, but the default arena for the Nets is the Barclays Center.",llama_medium,p0a,3084.15
+T019,3,4,24,65.0,65.0,NUMBER,24,The number of points is correct.,llama_medium,p0a,3084.15
+T019,4,5,seven,68.0,68.0,NUMBER,7,The number of rebounds is correct.,llama_medium,p0a,3084.15
+T019,5,6,four,36.0,36.0,NUMBER,4,The number of assists is correct.,llama_medium,p0a,3084.15
+T019,6,7,33,80.0,80.0,NUMBER,33,The number of minutes played is correct.,llama_medium,p0a,3084.15
+T019,7,8,19,7.0,7.0,NUMBER,19,The number of points is correct.,llama_medium,p0a,3084.15
+T019,8,9,nine,100.0,100.0,NUMBER,9,The number of rebounds is correct.,llama_medium,p0a,3084.15
+T019,9,10,five,40.0,40.0,NUMBER,5,The number of assists is correct.,llama_medium,p0a,3084.15
+T019,10,11,37,109.0,109.0,NUMBER,37,The number of minutes played is correct.,llama_medium,p0a,3084.15
+T019,11,12,26,120.0,120.0,NUMBER,26,The number of points is correct.,llama_medium,p0a,3084.15
+T019,12,13,10,128.0,128.0,NUMBER,10,The number of rebounds is correct.,llama_medium,p0a,3084.15
+T019,13,14,two,74.0,74.0,NUMBER,2,The number of assists is correct.,llama_medium,p0a,3084.15
+T019,14,15,39,149.0,149.0,NUMBER,39,The number of minutes played is correct.,llama_medium,p0a,3084.15
+T019,15,16,14,156.0,156.0,NUMBER,14,The number of points is correct.,llama_medium,p0a,3084.15
+T019,16,17,three,145.0,145.0,NUMBER,3,The number of assists is correct.,llama_medium,p0a,3084.15
+T019,17,18,21,182.0,182.0,NUMBER,21,The number of points is correct.,llama_medium,p0a,3084.15
+T019,18,19,eight,,,NUMBER,8,The number of rebounds is correct.,llama_medium,p0a,3084.15
+T019,19,20,Friday,26.0,26.0,NAME,Friday,The day of the week is correct.,llama_medium,p0a,3084.15
+T019,20,21,Indiana,212.0,212.0,NAME,Indiana,The location is correct.,llama_medium,p0a,3084.15
+T019,21,22,Friday,26.0,26.0,NAME,Friday,The day of the week is correct.,llama_medium,p0a,3084.15
+T020,1,1,Tuesday,22.0,22.0,NAME,Thursday,Incorrect day of the week,llama_medium,p0a,3084.15
+T020,2,2,Wednesday,382.0,382.0,NAME,Saturday,Incorrect day of the week,llama_medium,p0a,3084.15
+T020,3,3,Friday,396.0,396.0,NAME,Saturday,Incorrect day of the week,llama_medium,p0a,3084.15
+T021,1,1,7 - 3,,,NUMBER,6 - 3,Incorrect win-loss record for the Trail Blazers,llama_medium,p0a,3084.15
+T021,1,2,Friday,23.0,23.0,NAME,Saturday,Incorrect day of the week,llama_medium,p0a,3084.15
+T021,1,3,4 - 5,,,NUMBER,4 - 4,Incorrect win-loss record for the Nets,llama_medium,p0a,3084.15
+T021,1,4,Friday,23.0,23.0,NAME,Monday,Incorrect day of the week for the next game,llama_medium,p0a,3084.15
+T023,1,1,Wednesday,23.0,23.0,NAME,Saturday,Incorrect day of the week,llama_medium,p0a,3084.15
+T023,2,2,Wednesday,23.0,23.0,NAME,Saturday,Incorrect day of the week,llama_medium,p0a,3084.15
+T025,1,1,Sunday,22.0,22.0,NAME,Friday,Incorrect day of the week,llama_medium,p0a,3084.15
+T025,2,2,Tony Wroten,,,NAME,Michael Carter-Williams,Incorrect player name,llama_medium,p0a,3084.15
+T025,3,3,Robert Covington,,,NAME,Luc Mbah a Moute,Incorrect player name,llama_medium,p0a,3084.15
+T025,4,4,Goran Dragic,,,NAME,Markieff Morris,Incorrect player name,llama_medium,p0a,3084.15
+T025,5,5,Portland Trail Blazers,,,NAME,Toronto Raptors,Incorrect team name,llama_medium,p0a,3084.15
+T025,6,6,Friday,374.0,374.0,NAME,Sunday,Incorrect day of the week,llama_medium,p0a,3084.15
+T025,7,7,Minnesota Timberwolves,,,NAME,Golden State Warriors,Incorrect team name,llama_medium,p0a,3084.15
+T025,8,8,Friday,374.0,374.0,NAME,Tuesday,Incorrect day of the week,llama_medium,p0a,3084.15
+T027,1,1,Toyota Center,,,NAME,Toyota Center is not the correct venue,The game was played at a different venue,llama_medium,p0a,3084.15
+T027,2,2,Gregg Popovich,,,NAME,Gregg Popovich is not a real person,The correct name is Gregg Popovich,llama_medium,p0a,3084.15
+T027,3,3,Gordon Davis,,,NAME,Gordon Davis is not a player on the team,The correct player is Anthony Davis,llama_medium,p0a,3084.15
+T030,0,0,Wednesday,22.0,22.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",llama_medium,p0a,3084.15
+T030,0,1,Fed Ex Forum Arena,,,NAME,"FedEx Forum Arena is not a valid arena name. The game was played in Memphis, but the arena name is not specified in the data.",The arena name is not valid.,llama_medium,p0a,3084.15
+T030,0,2,40,42.0,42.0,NUMBER,43,"The Grizzlies shot 43 percent from the field, not 40.",llama_medium,p0a,3084.15
+T030,0,3,33,48.0,48.0,NUMBER,29,"The Suns shot 29 percent from beyond the arc, not 33.",llama_medium,p0a,3084.15
+T030,0,4,Portland Trail Blazers,,,NAME,Not checkable,The next game information is not checkable.,llama_medium,p0a,3084.15
+T030,0,5,Friday,240.0,240.0,NAME,Not checkable,The next game information is not checkable.,llama_medium,p0a,3084.15
+T030,0,6,San Antonio,,,NAME,Not checkable,The next game information is not checkable.,llama_medium,p0a,3084.15
+T030,0,7,Denver Nuggets,,,NAME,Not checkable,The next game information is not checkable.,llama_medium,p0a,3084.15
+T030,0,8,Los Angeles Clippers,,,NAME,Not checkable,The next game information is not checkable.,llama_medium,p0a,3084.15
