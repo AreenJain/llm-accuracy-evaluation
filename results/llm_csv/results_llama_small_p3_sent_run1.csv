@@ -1,0 +1,430 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S001,1,1,Los Angeles,6.0,7.0,NAME,Boston,"The box score indicates the game was played in Boston, not Los Angeles.",llama_small,p3_sent,3916.35
+S001,2,1,Celtics came in to Friday,,,NAME,"Celtics came into this game as a double-digit favorite, but the Celtics came in to Friday's contest with a 30-point win over the Lakers (17-36).",The Celtics' name should be consistent throughout the sentence.,llama_small,p3_sent,3916.35
+S001,3,1,six assists,82.0,83.0,NUMBER,two,"Isaiah Thomas had two assists, not six.",llama_small,p3_sent,3916.35
+S001,4,1,Horford was right behind him,92.0,96.0,NAME,Al Horford,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S001,5,1,Crowder was next with a,111.0,115.0,NAME,Jae Crowder,"The player's name is correct, but the sentence structure is incorrect.",llama_small,p3_sent,3916.35
+S001,6,1,Crowder,111.0,111.0,NAME,Jae Crowder,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S001,7,1,Crowder,111.0,111.0,NAME,Jae Crowder,Player name is incorrect,llama_small,p3_sent,3916.35
+S001,8,1,Horford supplied eight rebounds eight,,,NAME,Horford,"The box score shows Al Horford as the player, not Horford supplied.",llama_small,p3_sent,3916.35
+S001,9,1,Kelly Olynyk,189.0,190.0,NAME,"Kelly Olynyk is not the player who led the second unit, but rather the player who led the second unit is not specified in the box score.",The box score does not specify the player who led the second unit.,llama_small,p3_sent,3916.35
+S001,10,1,Lakers head back home to,211.0,215.0,NAME,Celtics,The Lakers are not the team playing at home.,llama_small,p3_sent,3916.35
+S001,10,2,Detroit Pistons,220.0,221.0,NAME,Raptors,"The opposing team is the Toronto Raptors, not the Detroit Pistons.",llama_small,p3_sent,3916.35
+S001,10,3,Friday night,223.0,224.0,NOT_CHECKABLE,,The day of the week and time of the game are not specified in the box score.,llama_small,p3_sent,3916.35
+S001,10,4,Wednesday night,238.0,239.0,NOT_CHECKABLE,,The day of the week and time of the game are not specified in the box score.,llama_small,p3_sent,3916.35
+S001,10,5,face off,216.0,217.0,WORD,play,The correct phrase is 'play' instead of 'face off'.,llama_small,p3_sent,3916.35
+S001,10,6,Detroit Pistons,220.0,221.0,NAME,Raptors,"The opposing team is the Toronto Raptors, not the Detroit Pistons.",llama_small,p3_sent,3916.35
+S001,10,7,Friday night,223.0,224.0,NOT_CHECKABLE,,The day of the week and time of the game are not specified in the box score.,llama_small,p3_sent,3916.35
+S001,10,8,Wednesday night,238.0,239.0,NOT_CHECKABLE,,The day of the week and time of the game are not specified in the box score.,llama_small,p3_sent,3916.35
+S002,1,1,Atlanta Hawks,2.0,3.0,NAME,Cavaliers,"The Hawks defeated the Cavaliers, not the Hawks.",llama_small,p3_sent,3916.35
+S002,2,1,two struggling,25.0,26.0,WORD,struggling teams,"The teams were not necessarily struggling, but the sentence implies they were.",llama_small,p3_sent,3916.35
+S002,3,1,Hawks outscored the Hawks,45.0,48.0,WORD,Cavaliers,"The Hawks outscored the Cavaliers, not the Hawks.",llama_small,p3_sent,3916.35
+S002,4,1,21 assists to 19 turnovers,75.0,79.0,NUMBER,19,The Hawks actually committed 19 turnovers to 21 assists.,llama_small,p3_sent,3916.35
+S002,5,1,three of their last five,102.0,106.0,NUMBER,two,The Hawks have now won two of their last five games.,llama_small,p3_sent,3916.35
+S002,6,1,17 rebounds,130.0,131.0,NUMBER,17,"The box score shows Dwight Howard hauled in 17 rebounds, not 17 points.",llama_small,p3_sent,3916.35
+S002,7,1,Kent Bazemore,143.0,144.0,NAME,Kent Bazemore,Incorrect spelling of player name,llama_small,p3_sent,3916.35
+S002,8,1,Kent Bazemore was the only,160.0,164.0,NAME,LeBron,The box score indicates that LeBron James was the only other starter in double figures.,llama_small,p3_sent,3916.35
+S002,9,1,Sunday,188.0,188.0,WORD,Wednesday,The story incorrectly states the day of the next game.,llama_small,p3_sent,3916.35
+S002,10,1,three of their last five,102.0,106.0,NUMBER,two of their last five,"The Cavaliers have now won two of their last five games, not three.",llama_small,p3_sent,3916.35
+S002,11,1,all he could,224.0,226.0,WORD,did,The sentence should read 'did all he could' instead of 'did all he could for Cleveland'.,llama_small,p3_sent,3916.35
+S002,12,1,four rebounds,259.0,260.0,NUMBER,three,"The box score shows Kyrie Irving had three rebounds, not four.",llama_small,p3_sent,3916.35
+S002,13,1,11 rebounds,277.0,278.0,NUMBER,9,"The box score shows Kevin Love collected 9 rebounds, not 11.",llama_small,p3_sent,3916.35
+S002,14,1,Tristan Thompson,283.0,284.0,NAME,Kevin Love,"The box score shows Kevin Love, not Tristan Thompson, with 24 points, 12 rebounds, three assists, and two steals.",llama_small,p3_sent,3916.35
+S002,15,1,Sunday,188.0,188.0,WORD,Sunday,"The game was actually on Tuesday, not Sunday.",llama_small,p3_sent,3916.35
+S003,1,1,Saturday evening,17.0,18.0,WORD,Sunday,"The game was played on Sunday, not Saturday evening.",llama_small,p3_sent,3916.35
+S003,2,1,Raptors,3.0,3.0,NAME,Magic,The team name is incorrect.,llama_small,p3_sent,3916.35
+S003,3,1,game-high,,,WORD,game-high,"The phrase 'game-high' is correct, but it's worth noting that the story is describing DeMar DeRozan's performance as the best of the game, not necessarily the highest score of the game.",llama_small,p3_sent,3916.35
+S003,4,1,16 point 10 assist,,,NUMBER,"16-point, 10-assist","The box score shows a 16-point, 10-assist double-double, not 16-point, 10-assist.",llama_small,p3_sent,3916.35
+S003,5,1,16 13 block block block,,,NUMBER,13,"The box score shows 13 rebounds, not 16.",llama_small,p3_sent,3916.35
+S003,6,1,16 13 block block block,,,NUMBER,13,The box score only shows 1 block for Jonas Valanciunas.,llama_small,p3_sent,3916.35
+S003,7,1,11 points,194.0,195.0,NUMBER,10,"The box score shows Terrence Ross had 10 points, not 11.",llama_small,p3_sent,3916.35
+S003,8,1,third place,209.0,210.0,NUMBER,second,The Toronto Raptors are in second place in the Eastern Conference's Atlantic Division.,llama_small,p3_sent,3916.35
+S003,9,1,Charlotte to take on the,236.0,240.0,NAME,Charlotte,The team name should be 'Hornets' instead of 'Charlotte'.,llama_small,p3_sent,3916.35
+S003,10,1,Elfrid Payton,252.0,253.0,NAME,"Elfrid Payton's teammate, Nikola Vucevic, came off the bench to provide 10 points and nine rebounds.",The story incorrectly identifies Elfrid Payton as the player who came off the bench to provide 10 points and nine rebounds.,llama_small,p3_sent,3916.35
+S003,11,1,Aaron Gordon,269.0,270.0,NAME,Aaron Gordon,"The player's name is Aaron Gordon, not just Aaron.",llama_small,p3_sent,3916.35
+S003,12,1,Elfrid Payton,252.0,253.0,NAME,"Elfrid Payton was not the player with 13 points, two assists, two rebounds and a steal. The correct player is not mentioned in the provided box score data.","The box score data does not provide information about the player with 13 points, two assists, two rebounds and a steal.",llama_small,p3_sent,3916.35
+S003,13,1,Aaron Gordon,269.0,270.0,NAME,Aaron Gordon,"Incorrect name, should be Aaron Gordon",llama_small,p3_sent,3916.35
+S003,14,1,productive in a reserve role,186.0,190.0,WORD,unproductive,The player was not productive in the game.,llama_small,p3_sent,3916.35
+S003,15,1,last place,371.0,372.0,WORD,first,"The Raptors are not in last place in the Eastern Conference's Southeast Division, they are in first place.",llama_small,p3_sent,3916.35
+S003,16,1,Friday,51.0,51.0,WORD,Friday,"The game was actually on Sunday, not Friday.",llama_small,p3_sent,3916.35
+S004,1,1,Utah Jazz,3.0,4.0,NAME,Los Angeles,The team that played at home was incorrectly identified as Utah Jazz.,llama_small,p3_sent,3916.35
+S004,2,1,Jazz have been one of,,,NUMBER,Jazz (1-1),"The correct score is Jazz (1-1), not just 'one of the best teams'.",llama_small,p3_sent,3916.35
+S004,3,1,majority,61.0,61.0,WORD,fourth,"The Jazz led for the majority of the game, but the box score indicates the Lakers led for the majority of the game.",llama_small,p3_sent,3916.35
+S004,4,1,25 percent,,,NUMBER,24,The box score shows the Lakers shot 24% from three-point range.,llama_small,p3_sent,3916.35
+S004,5,1,43 -,120.0,121.0,NUMBER,24,"The box score shows the Jazz won the rebounding battle 47-47, not 43-24.",llama_small,p3_sent,3916.35
+S004,6,1,Kobe Bryant,137.0,138.0,NAME,"Kobe is not in the box score, but the Lakers (1-1) had to play this game without him",Kobe Bryant is not mentioned in the box score,llama_small,p3_sent,3916.35
+S004,7,1,17 five rebounds five assists,,,NUMBER,"17 points, four rebounds and five assists",Incorrect number of rebounds and assists for D'Angelo Russell,llama_small,p3_sent,3916.35
+S004,8,1,12 12,,,NUMBER,12 points and 10 rebounds,"The box score shows 10 rebounds, not 12.",llama_small,p3_sent,3916.35
+S004,9,1,17 five rebounds five assists,,,NUMBER,"17 points, four rebounds and five assists",Incorrect number of rebounds and assists for D'Angelo Russell,llama_small,p3_sent,3916.35
+S004,10,1,12 12,,,NUMBER,12,The box score shows Luol Deng had 12 points and 10 rebounds.,llama_small,p3_sent,3916.35
+S004,11,1,young Lakers,,,WORD,,"The sentence describes the Lakers as 'young', but the box score does not provide information about the age of the team.",llama_small,p3_sent,3916.35
+S004,12,1,four of their last five,260.0,264.0,NUMBER,three of their last five,"The Jazz have now won three of their last five games, not four.",llama_small,p3_sent,3916.35
+S004,13,1,23 points three rebounds three,,,NUMBER,"23 points, two rebounds and three assists",Incorrect number of rebounds and assists,llama_small,p3_sent,3916.35
+S004,14,1,13 points 13 rebounds,,,NUMBER,"13 points, 13 rebounds and four blocks",The story incorrectly states the number of rebounds as 13 instead of 7.,llama_small,p3_sent,3916.35
+S004,15,1,13 points,313.0,314.0,NUMBER,13,"The box score shows that Rudy Gobert recorded 13 points, not a double-double.",llama_small,p3_sent,3916.35
+S004,16,1,13 13,,,NUMBER,11,"The box score shows Rudy Gobert had 11 rebounds, not 13.",llama_small,p3_sent,3916.35
+S004,17,1,young Lakers,,,WORD,,"The story incorrectly describes the Lakers as 'young', which is not a characteristic of the team.",llama_small,p3_sent,3916.35
+S005,1,1,Hawks,2.0,2.0,NAME,Magic,The Hawks should be the Magic.,llama_small,p3_sent,3916.35
+S005,2,1,game -high 21 points,,,NUMBER,21,"The box score shows that Paul Millsap scored 21 points, but the sentence incorrectly uses the phrase 'game-high'.",llama_small,p3_sent,3916.35
+S005,3,1,Millsap was right behind him,67.0,71.0,NAME,Paul,The box score lists Paul Millsap as the player who scored 21 points.,llama_small,p3_sent,3916.35
+S005,4,1,11 point,,,NUMBER,"11-point, 13-rebound double-double that also included three assists, one steal and one block.","The box score shows Dwight Howard had 13 rebounds, not 11.",llama_small,p3_sent,3916.35
+S005,5,1,Kent Bazemore,111.0,112.0,NAME,Kent Bazemore,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S005,6,1,Kent Bazemore,111.0,112.0,NAME,Kent Bazemore,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S005,7,1,Paul Millsap,38.0,39.0,NAME,"Paul Millsap led the way for the Hawks with 21 points, five rebounds, four assists, one steal and one block.","The sentence incorrectly states that Paul Millsap led the way for Orlando, when in fact he led the way for the Hawks.",llama_small,p3_sent,3916.35
+S005,8,1,11 point,,,NUMBER,"11-point, 13-rebound double-double that also included three assists, one steal and one block.","The box score shows Dwight Howard had 13 rebounds, not 11.",llama_small,p3_sent,3916.35
+S005,9,1,Kent Bazemore,111.0,112.0,NAME,Malcolm Delaney,"The box score shows Malcolm Delaney led the second unit, not Kent Bazemore.",llama_small,p3_sent,3916.35
+S005,10,1,New York Knicks,229.0,231.0,NAME,Toronto Raptors,"The Hawks are playing the Toronto Raptors, not the New York Knicks.",llama_small,p3_sent,3916.35
+S006,1,1,Friday,22.0,22.0,NUMBER,Tuesday,"The game was played on Tuesday, not Friday.",llama_small,p3_sent,3916.35
+S006,2,1,double digit,,,WORD,double-digit,The Nets came into this game as a double-digit favorite and they didn't disappoint.,llama_small,p3_sent,3916.35
+S006,3,1,10 points,51.0,52.0,NUMBER,6,"The box score shows James Harden scored 6 points, not 10.",llama_small,p3_sent,3916.35
+S006,4,1,Trevor Ariza,66.0,67.0,NAME,"Trevor Ariza was the only other starter in double figures, as he tallied 2 points, four rebounds and four assists in the defeat.",The player's name should be spelled as 'Ariza' instead of 'Ariza's'.,llama_small,p3_sent,3916.35
+S006,5,1,nine point,,,NUMBER,10,"The box score shows James Harden's season-low points as 10, not nine.",llama_small,p3_sent,3916.35
+S006,6,1,The Nets,24.0,25.0,NAME,Brooklyn,The team name is incorrect.,llama_small,p3_sent,3916.35
+S006,7,1,Brook Lopez did all he,134.0,138.0,NAME,"Brook Lopez did all he could to keep the Nets in this game, as he tallied 24 points, eight rebounds and five blocks in the win.","The box score does not mention Lopez's full name, but the story does.",llama_small,p3_sent,3916.35
+S006,8,1,20 points,177.0,178.0,NUMBER,12,"Thaddeus Young actually had 12 rebounds, not 20 points.",llama_small,p3_sent,3916.35
+S006,9,1,10 points,51.0,52.0,NUMBER,6,"The box score shows James Harden scored 6 points, not 10.",llama_small,p3_sent,3916.35
+S007,1,1,Russell Westbrook and Russell Westbrook,1.0,5.0,NAME,Russell Westbrook,The name 'Russell Westbrook and Russell Westbrook' is incorrect; it should be 'Russell Westbrook'.,llama_small,p3_sent,3916.35
+S007,2,1,36 minutes,85.0,86.0,NUMBER,11-of-21 shooting,The story incorrectly states the number of minutes Westbrook played.,llama_small,p3_sent,3916.35
+S007,3,1,29 points on 10 -of- 18,,,NUMBER,12,The box score shows Enes Kanter scored 12 points on 12-of-18 shooting.,llama_small,p3_sent,3916.35
+S007,4,1,shot 46 percent from the,125.0,129.0,NUMBER,46,The box score shows the Kings shot 46 percent from the field and 36 percent from long range.,llama_small,p3_sent,3916.35
+S007,5,1,11 of 20,,,NUMBER,11-of-21,"The box score shows DeMarcus Cousins shot 11-of-21, not 11-of-20.",llama_small,p3_sent,3916.35
+S007,6,1,Steven Adams,209.0,210.0,NAME,Enes Kanter,"The story incorrectly identifies the player who chipped in 21 points, four rebounds and one steal.",llama_small,p3_sent,3916.35
+S008,1,1,Memphis Grizzlies,2.0,3.0,NAME,Utah,"The Grizzlies are actually the Utah Jazz's opponent, not the Memphis Grizzlies.",llama_small,p3_sent,3916.35
+S008,1,2,Vivint Smart Home Arena,14.0,17.0,NAME,Vivint Arena,"The correct name of the arena is Vivint Arena, not Vivint Smart Home Arena.",llama_small,p3_sent,3916.35
+S008,1,3,Saturday,19.0,19.0,WORD,Monday,"The game was played on Monday, not Saturday.",llama_small,p3_sent,3916.35
+S008,2,1,20-point performance on Monday,,,NUMBER,"20-point performance on Monday is correct, but the game was played on Tuesday, not Monday.","The game was played on Tuesday, not Monday.",llama_small,p3_sent,3916.35
+S008,3,1,20 points,,,NUMBER,9,"The box score shows Carter's average points per game was 9, not 20.",llama_small,p3_sent,3916.35
+S008,4,1,20 points,,,NUMBER,18,"The box score shows Mike Conley scored 18 points, not 20.",llama_small,p3_sent,3916.35
+S008,5,1,7 -of- 13,,,NUMBER,7-of-13,Incorrect shooting percentage format,llama_small,p3_sent,3916.35
+S008,6,1,20 points,,,NUMBER,20-point performance,"The box score shows a 20-point performance, not just 20 points.",llama_small,p3_sent,3916.35
+S008,7,1,2013 14,,,NUMBER,2013-14,The year should be in the format 'year-year'.,llama_small,p3_sent,3916.35
+S008,8,1,Gordon Hayward,265.0,266.0,NAME,Grizzlies,The player's name is incorrect.,llama_small,p3_sent,3916.35
+S008,8,2,13 points,275.0,276.0,NUMBER,13,The correct number of points is 13.,llama_small,p3_sent,3916.35
+S008,8,3,on 4 -of- 14,,,NUMBER,on 14/14,The correct shooting percentage is 14/14.,llama_small,p3_sent,3916.35
+S008,8,4,four rebounds,289.0,290.0,NUMBER,4,The correct number of rebounds is 4.,llama_small,p3_sent,3916.35
+S008,8,5,three assists,292.0,293.0,NUMBER,3,The correct number of assists is 3.,llama_small,p3_sent,3916.35
+S008,8,6,one steal,124.0,125.0,NUMBER,1,The correct number of steals is 1.,llama_small,p3_sent,3916.35
+S008,8,7,36 minutes,299.0,300.0,NUMBER,36,The correct number of minutes is 36.,llama_small,p3_sent,3916.35
+S008,9,1,22 points,104.0,105.0,NUMBER,20,"The box score shows that Rudy Gobert scored 20 points, not 22.",llama_small,p3_sent,3916.35
+S008,10,1,48 percent,207.0,208.0,NUMBER,48,"The Jazz's field goal percentage is correct, but the percentage from long range is incorrect.",llama_small,p3_sent,3916.35
+S008,11,1,2013 14,,,NUMBER,2014,"The correct season is 2014, not 2013-14.",llama_small,p3_sent,3916.35
+S009,1,1,Milwaukee Bucks,2.0,3.0,NAME,Los Angeles Lakers,The team that won the game was incorrectly identified as the Bucks.,llama_small,p3_sent,3916.35
+S009,2,1,struggling,27.0,27.0,WORD,struggling teams,"The teams were not necessarily struggling, but the sentence implies they are.",llama_small,p3_sent,3916.35
+S009,3,1,led for the majority of,47.0,51.0,CONTEXT,,"The sentence is misleading because the Bucks actually led for the majority of the game, but the sentence implies they led the entire game.",llama_small,p3_sent,3916.35
+S009,4,1,29 percent,83.0,84.0,NUMBER,52,The Lakers actually shot 52 percent from the floor.,llama_small,p3_sent,3916.35
+S009,5,1,four of their last five,104.0,108.0,NUMBER,three,The Lakers have actually won three of their last five games.,llama_small,p3_sent,3916.35
+S009,6,1,11-of-20 shooting,,,WORD,11/20,The correct shooting percentage format is 'x/x'.,llama_small,p3_sent,3916.35
+S009,7,1,26 three rebounds,,,NUMBER,2,"The box score shows Luol Deng had 2 rebounds, not 3.",llama_small,p3_sent,3916.35
+S009,8,1,D'Angelo Russell,117.0,118.0,NAME,Giannis Antetokounmpo,The box score shows Giannis Antetokounmpo as the only other starter in double figures.,llama_small,p3_sent,3916.35
+S009,9,1,New Orleans Pelicans,199.0,201.0,NAME,Pelicans,"The correct opponent is the Pelicans, not the New Orleans Pelicans.",llama_small,p3_sent,3916.35
+S009,10,1,Milwaukee has now lost three,,,NUMBER,two,The box score shows the Bucks have lost two of their last five games.,llama_small,p3_sent,3916.35
+S009,11,1,double -digit,,,WORD,double-digit,The correct phrase is 'double-digit scoring'.,llama_small,p3_sent,3916.35
+S009,13,1,Greg Monroe,268.0,269.0,NAME,Greg Monroe,"The player's name is correct, but the sentence implies he was the only other starter in double figures, which is incorrect.",llama_small,p3_sent,3916.35
+S009,14,1,Milwaukee will look to build,291.0,295.0,NAME,Orlando,"The Bucks are playing the Orlando Magic, not the Milwaukee Magic.",llama_small,p3_sent,3916.35
+S010,1,1,Atlanta Hawks,2.0,3.0,NAME,Magic,The team that won the game was incorrectly identified as the Atlanta Hawks.,llama_small,p3_sent,3916.35
+S010,1,2,111 -,10.0,11.0,NUMBER,92,The score was incorrectly reported as 111-92.,llama_small,p3_sent,3916.35
+S010,1,3,Amway Center,15.0,16.0,NAME,"Amway Center is correct, but the location is not specified in the box score.","The venue was correctly identified as Amway Center, but the location was not specified.",llama_small,p3_sent,3916.35
+S010,1,4,Friday,18.0,18.0,DAY,The day of the week was not specified in the box score.,The day of the week was not specified in the box score.,llama_small,p3_sent,3916.35
+S010,2,1,Hawks,3.0,3.0,NAME,Magic,"The Hawks should be the Magic, as per the box score.",llama_small,p3_sent,3916.35
+S010,3,1,In fact,40.0,41.0,CONTEXT,,"The sentence is literally true but misleading because it implies the game was close until the final minutes, which is not supported by the box score data.",llama_small,p3_sent,3916.35
+S010,4,1,53 percent,81.0,82.0,NUMBER,32,"The box score shows that Orlando's three-point field goal percentage was 32, not 53.",llama_small,p3_sent,3916.35
+S010,5,1,27 assists,101.0,102.0,NUMBER,12,The box score shows the Magic committed 17 turnovers to just 12 assists.,llama_small,p3_sent,3916.35
+S010,6,1,19 -16,,,NUMBER,19-17,"The Hawks' record should be 19-17, not 19-16.",llama_small,p3_sent,3916.35
+S010,7,1,7 -of- 13,,,NUMBER,7-of-13,The correct shooting percentage is 7-of-13.,llama_small,p3_sent,3916.35
+S010,8,1,double double,,,WORD,double-double,"The correct term is 'double-double', which refers to a statistical achievement in basketball.",llama_small,p3_sent,3916.35
+S010,9,1,Kent Bazemore,184.0,185.0,NAME,Kent Bazemore,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S010,10,1,New Orleans Pelicans,214.0,216.0,NAME,New Orleans Pelicans,Incorrect team name,llama_small,p3_sent,3916.35
+S010,11,1,16 -,223.0,224.0,NUMBER,21,The Magic's record is incorrect.,llama_small,p3_sent,3916.35
+S010,12,1,Nikola Vucevic,240.0,241.0,NAME,"Nikola Vucevic was not the player of the game, as he collected 10 points, 12 rebounds and six assists.",The sentence incorrectly identifies Nikola Vucevic as the player of the game.,llama_small,p3_sent,3916.35
+S010,12,2,10 points,252.0,253.0,NUMBER,"10 points, 12 rebounds and six assists.",The sentence incorrectly states the number of points collected by Nikola Vucevic.,llama_small,p3_sent,3916.35
+S010,12,3,12 rebounds,181.0,182.0,NUMBER,"10 points, 12 rebounds and six assists.",The sentence incorrectly states the number of rebounds collected by Nikola Vucevic.,llama_small,p3_sent,3916.35
+S010,12,4,six assists,258.0,259.0,NUMBER,"10 points, 12 rebounds and six assists.",The sentence incorrectly states the number of assists collected by Nikola Vucevic.,llama_small,p3_sent,3916.35
+S010,13,1,Evan Fournier,261.0,262.0,NAME,Evan Fournier,Incorrect spelling of player's name,llama_small,p3_sent,3916.35
+S010,14,1,Nikola Vucevic,240.0,241.0,NAME,Nikola Vucevic,Player name is incorrect; the correct name is Nikola Vucevic.,llama_small,p3_sent,3916.35
+S010,15,1,Evan Fournier,261.0,262.0,NAME,Elfrid Payton,The player's name is incorrect.,llama_small,p3_sent,3916.35
+S010,16,1,Eflrid Payton,,,NAME,Elfrid,Incorrect spelling of the player's name,llama_small,p3_sent,3916.35
+S011,1,1,Tuesday,22.0,22.0,WORD,Wednesday,"The game was played on Wednesday, not Tuesday.",llama_small,p3_sent,3916.35
+S011,2,1,quick start,35.0,36.0,WORD,slow,The Hawks did not get off to a slow start in the first quarter.,llama_small,p3_sent,3916.35
+S011,3,1,first game,,,WORD,,"The sentence implies the Hawks lost their first game of the season, but the box score does not provide information about the season's start date.",llama_small,p3_sent,3916.35
+S011,4,1,48 percent,93.0,94.0,NUMBER,48,"The Hawks shot 48 percent from the field, but the box score does not provide the exact percentage.",llama_small,p3_sent,3916.35
+S011,5,1,14 turnovers,135.0,136.0,NUMBER,12,"The box score shows the Hawks committed 12 turnovers, not 14.",llama_small,p3_sent,3916.35
+S011,6,1,Jeff Teague,,,NAME,John Wall,"The top scorer against the Wizards was incorrectly identified as Jeff Teague, when it should be John Wall.",llama_small,p3_sent,3916.35
+S011,7,1,9 -for- 15,,,NUMBER,9 - 13,"The box score shows Wall shot 9 - 13 from the field, not 9 - 15.",llama_small,p3_sent,3916.35
+S011,8,1,second double - double,205.0,208.0,WORD,,The box score does not provide information about double-doubles.,llama_small,p3_sent,3916.35
+S011,9,1,double -,206.0,207.0,WORD,triple,"The box score shows a triple-double, not a double-double.",llama_small,p3_sent,3916.35
+S011,10,1,21 points,281.0,282.0,NUMBER,26,"The box score shows Jeff Teague scored 26 points, not 21.",llama_small,p3_sent,3916.35
+S011,11,1,23 points,300.0,301.0,NUMBER,17,"Bradley Beal actually scored 17 points, not 23.",llama_small,p3_sent,3916.35
+S011,12,1,16 points,326.0,327.0,NUMBER,26,"The box score shows Jeff Teague scored 26 points, not 16.",llama_small,p3_sent,3916.35
+S011,13,1,21 points,281.0,282.0,NUMBER,21,"The box score shows Al Horford scored 21 points, not 21 points.",llama_small,p3_sent,3916.35
+S011,14,1,New Orleans Pelicans,390.0,392.0,NAME,Cleveland Cavaliers,The team the Wizards will be playing against on Friday is incorrect.,llama_small,p3_sent,3916.35
+S012,1,1,Friday evening,19.0,20.0,WORD,Saturday evening,"The game was played on Saturday, not Friday.",llama_small,p3_sent,3916.35
+S012,2,1,21 -,25.0,26.0,NUMBER,15-32,"The Suns' record should be 15-32, not 21-25.",llama_small,p3_sent,3916.35
+S012,3,1,eight rebounds,78.0,79.0,NUMBER,six,"The box score shows that Danilo Gallinari had six rebounds, not eight.",llama_small,p3_sent,3916.35
+S012,4,1,Gary Harris,84.0,85.0,NAME,Wilson Chandler,"The story incorrectly states that Gary Harris followed up with 15 points, while the box score indicates that Wilson Chandler did.",llama_small,p3_sent,3916.35
+S012,5,1,Jameer Nelson,115.0,116.0,NAME,Jameer Nelson,"The player's name is spelled correctly, but the context is incorrect because the box score data shows Jameer Nelson played for the Suns, but the story implies he played for Phoenix.",llama_small,p3_sent,3916.35
+S012,6,1,Jameer Nelson chipped in 17,115.0,119.0,NAME,Jameer Nelson,"The box score shows Jameer Nelson's stats, but the story incorrectly uses 'chipped in' and the wrong points value.",llama_small,p3_sent,3916.35
+S012,7,1,The Nuggets were led by Devin Booker,,,NAME,The Nuggets were led by Devin Booker,Incorrect team name,llama_small,p3_sent,3916.35
+S012,8,1,Tyson Chandler finished with 15,188.0,192.0,NAME,Tyson Chandler,The player's name should be 'Tyson Chandler' instead of 'Tyson Chandler' twice.,llama_small,p3_sent,3916.35
+S012,9,1,Tyson Chandler finished with 12,,,NUMBER,15,"Tyson Chandler actually finished with 15 points, not 12.",llama_small,p3_sent,3916.35
+S012,10,1,host the Phoenix Suns,233.0,236.0,NAME,Suns,The team name should be 'Suns' instead of 'Phoenix Suns'.,llama_small,p3_sent,3916.35
+S013,1,1,Wednesday,22.0,22.0,WORD,Saturday,"The game was played on Saturday, not Wednesday.",llama_small,p3_sent,3916.35
+S013,2,1,31 -,45.0,46.0,NUMBER,19,The box score shows the Magic scored 19 points in the first half.,llama_small,p3_sent,3916.35
+S013,3,1,13 points,64.0,65.0,NUMBER,13,"The box score shows Kyrie Irving scored 13 points, not 13 points.",llama_small,p3_sent,3916.35
+S013,4,1,29 minutes,126.0,127.0,NUMBER,29,"The box score shows LeBron James played 29 minutes, but the story says 29 minutes.",llama_small,p3_sent,3916.35
+S013,5,1,29 minutes,126.0,127.0,NUMBER,29,"The box score shows Kevin Love played 29 minutes, but the story says 29 minutes.",llama_small,p3_sent,3916.35
+S013,6,1,Nikola Vucevic,165.0,166.0,NAME,Nikola Vucevic,Incorrect spelling of Nikola Vucevic's name,llama_small,p3_sent,3916.35
+S013,7,1,29 minutes,126.0,127.0,NUMBER,21,"Aaron Gordon played 21 minutes, not 29.",llama_small,p3_sent,3916.35
+S013,8,1,21 minutes,89.0,90.0,NUMBER,21,"The box score shows that Nikola Vucevic played 21 minutes, but the story says 21 minutes.",llama_small,p3_sent,3916.35
+S013,9,1,The Magic,49.0,50.0,NAME,Cavaliers,The team name is incorrect.,llama_small,p3_sent,3916.35
+S014,1,1,Portland Trail Blazers,2.0,4.0,NAME,Trail Blazers,Incorrect team name,llama_small,p3_sent,3916.35
+S014,2,1,Trail Blazers,3.0,4.0,NAME,Trail Blazers,Incorrect team name,llama_small,p3_sent,3916.35
+S014,3,1,49 percent,72.0,73.0,NUMBER,49,"The Trail Blazers' field goal percentage is actually 49%, not the percentage of the Lakers' field goal percentage.",llama_small,p3_sent,3916.35
+S014,4,1,The Trail Blazers,32.0,34.0,NAME,Trail Blazers,Incorrect team name,llama_small,p3_sent,3916.35
+S014,5,1,9 - 19,,,NUMBER,7-19,"Lillard's field goal attempts were 7-19, not 9-19.",llama_small,p3_sent,3916.35
+S014,6,1,37 points,160.0,161.0,NUMBER,29,"The box score shows that Lillard and McCollum combined for 57 points, not 37 points.",llama_small,p3_sent,3916.35
+S014,7,1,12 -for- 20,,,NUMBER,12-20,Incorrect shooting percentage format,llama_small,p3_sent,3916.35
+S014,8,1,56 points,225.0,226.0,NUMBER,16,The box score shows that the player scored 16 points in the last game.,llama_small,p3_sent,3916.35
+S014,9,1,21 points,256.0,257.0,NUMBER,16,"The box score shows Kobe Bryant scored 16 points, not 21.",llama_small,p3_sent,3916.35
+S014,10,1,far and away,,,WORD,far-and-away,"The phrase 'far-and-away' is a common idiomatic expression, but it's not a literal description of the game's outcome.",llama_small,p3_sent,3916.35
+S014,11,1,19 points,328.0,329.0,NUMBER,19,"The box score shows 19 points, not 19.",llama_small,p3_sent,3916.35
+S014,12,1,20 point,,,NUMBER,16,"The player's actual points scored this season was 16, not 20.",llama_small,p3_sent,3916.35
+S014,13,1,strong contributions,386.0,387.0,WORD,weak,"The sentence implies that the bench players made significant contributions, but the box score does not support this claim.",llama_small,p3_sent,3916.35
+S014,14,1,19 points,328.0,329.0,NUMBER,16,"The box score shows Jordan Clarkson scored 16 points, not 19.",llama_small,p3_sent,3916.35
+S014,15,1,Portland Trail Blazers,2.0,4.0,NAME,Trail Blazers,The team name should be 'Trail Blazers' instead of 'Portland Trail Blazers'.,llama_small,p3_sent,3916.35
+S015,1,1,Wednesday,22.0,22.0,WORD,Friday,"The game was played on Friday night, not Wednesday.",llama_small,p3_sent,3916.35
+S015,2,1,Raptors got off to a,31.0,35.0,NAME,Heat,The Raptors should be the Heat.,llama_small,p3_sent,3916.35
+S015,3,1,50 38,,,NUMBER,58,The box score shows the Heat outscored the Raptors 58-39 in the second half.,llama_small,p3_sent,3916.35
+S015,4,1,21 points,100.0,101.0,NUMBER,21,"The box score shows Kyle Lowry scored 21 points, not 8-18 FG, 1-4 3Pt, 4-4 FT.",llama_small,p3_sent,3916.35
+S015,5,1,30 points,132.0,133.0,NUMBER,21,"DeMar DeRozan's actual points were 21, not 30.",llama_small,p3_sent,3916.35
+S015,6,1,points 13,,,NUMBER,"points (5-9 FG, 1-2 3Pt, 2-2 FT)",The story incorrectly states the number of points DeMarre Carroll scored.,llama_small,p3_sent,3916.35
+S015,7,1,17 points,,,NUMBER,21,"The box score shows Dwyane Wade scored 21 points, not 17.",llama_small,p3_sent,3916.35
+S015,8,1,Gerald Green led the way,235.0,239.0,NAME,Dwyane Wade,"The sentence incorrectly states that Gerald Green led the way, when the box score actually shows Dwyane Wade leading the Heat in scoring.",llama_small,p3_sent,3916.35
+S015,9,1,back to back,,,WORD,back-to-back,The phrase 'back-to-back' is a common idiomatic expression meaning consecutive events.,llama_small,p3_sent,3916.35
+S015,10,1,three,301.0,301.0,NUMBER,two,"The story claims Miami has lost three straight games, but the box score indicates they have lost two.",llama_small,p3_sent,3916.35
+S015,11,1,Hassan Whiteside,305.0,306.0,NAME,Gerald Green,"The box score shows Gerald Green, not Hassan Whiteside, with 20 points.",llama_small,p3_sent,3916.35
+S015,12,1,37 points,345.0,346.0,NUMBER,21,The box score shows Dwyane Wade scored 21 points in the last two games.,llama_small,p3_sent,3916.35
+S015,13,1,Timberwolves,380.0,380.0,NAME,Trail Blazers,The team the Heat will host on Sunday is incorrect.,llama_small,p3_sent,3916.35
+S016,1,1,Utah Jazz,13.0,14.0,NAME,Thunder,The visiting team was incorrectly identified as Utah Jazz instead of Oklahoma City Thunder.,llama_small,p3_sent,3916.35
+S016,2,1,This marks Oklahoma City's,,,NAME,Oklahoma City's,"Incorrect team name, should be 'Oklahoma City's' instead of 'Oklahoma City's' (no correction needed)",llama_small,p3_sent,3916.35
+S016,3,1,Jazz,14.0,14.0,NAME,Thunder,"The team that came out strong in the third quarter is actually the Thunder, not the Jazz.",llama_small,p3_sent,3916.35
+S016,4,1,game-high 15 points,,,NUMBER,15,"The box score shows that Russell Westbrook scored 15 points, but the story claims it's game-high.",llama_small,p3_sent,3916.35
+S016,5,1,20 points,167.0,168.0,NUMBER,15,"The box score shows Kevin Durant scored 15 points, not 20.",llama_small,p3_sent,3916.35
+S016,6,1,seven eight nine,,,NUMBER,"20, 8, 9",Incorrect point and rebound totals for Durant and Westbrook.,llama_small,p3_sent,3916.35
+S016,7,1,sixth,,,NUMBER,fifth,The box score indicates the Thunder's winning streak is five games long.,llama_small,p3_sent,3916.35
+S016,8,1,sixth,,,NUMBER,fifth,"The box score indicates that Oklahoma City's winning streak is their fifth straight win, not sixth.",llama_small,p3_sent,3916.35
+S016,9,1,seven points,267.0,268.0,NUMBER,five,"The box score shows Derrick Favors scored five points, not seven.",llama_small,p3_sent,3916.35
+S016,10,1,sixth,,,NUMBER,six,"The correct number of consecutive wins is'six', not'sixth'.",llama_small,p3_sent,3916.35
+S016,11,1,seven eight,,,NUMBER,six,"The box score shows Gordon Hayward had six points, not seven.",llama_small,p3_sent,3916.35
+S016,12,1,two in a row,435.0,438.0,WORD,have now lost one in a row,"The Jazz have lost one in a row, not two.",llama_small,p3_sent,3916.35
+S016,13,1,Minnesota Timberwolves,,,NAME,Grizzlies,"The team that the Jazz will host on Saturday is actually the Grizzlies, not the Timberwolves.",llama_small,p3_sent,3916.35
+S016,14,1,Tuesday,464.0,464.0,WORD,Denver,"The Thunder will play in Denver, not on Tuesday.",llama_small,p3_sent,3916.35
+S017,1,1,Saturday,18.0,18.0,WORD,Tuesday,"The game was played on Tuesday, not Saturday.",llama_small,p3_sent,3916.35
+S017,2,1,Monday,31.0,31.0,WORD,Tuesday,"The game took place on Tuesday, not Monday.",llama_small,p3_sent,3916.35
+S017,3,1,Cavaliers 33 - 34,,,NUMBER,44-22,The Cavaliers' record was incorrect.,llama_small,p3_sent,3916.35
+S017,4,1,63 percent,140.0,141.0,NUMBER,60,The box score shows a 60 percent success rate from the field.,llama_small,p3_sent,3916.35
+S017,5,1,Andre Drummond,164.0,165.0,NAME,LeBron James,"The box score shows LeBron James led the way with a modest stat line, not Andre Drummond.",llama_small,p3_sent,3916.35
+S017,6,1,six,193.0,193.0,NUMBER,four,"The box score shows Reggie Jackson had four assists, not six.",llama_small,p3_sent,3916.35
+S017,7,1,Kentavious Caldwell-Pope,205.0,206.0,NAME,Kentavious Caldwell-Pope,"Incorrect name format, should be 'Kentavious Caldwell-Pope' instead of 'Kentavious Caldwell-Pope'",llama_small,p3_sent,3916.35
+S017,8,1,Marcus Morris,223.0,224.0,NAME,Maurice,The player's name is incorrect.,llama_small,p3_sent,3916.35
+S017,9,1,12 points,252.0,253.0,NUMBER,12,"The box score shows Ish Smith had 12 points, but the sentence incorrectly states it as 12 points.",llama_small,p3_sent,3916.35
+S017,10,1,Richard Jefferson,264.0,265.0,NAME,LeBron,"The box score shows LeBron James, not Richard Jefferson, with a 16-point effort.",llama_small,p3_sent,3916.35
+S017,11,1,Deron Williams,306.0,307.0,NAME,Deron Williams,"Player name is correct, but the box score data shows Deron Williams as a player, so the mistake is in the sentence's wording.",llama_small,p3_sent,3916.35
+S017,12,1,Kyle Korver,323.0,324.0,NAME,Kyle Korver,Player name is misspelled,llama_small,p3_sent,3916.35
+S017,13,1,Richard Jefferson,264.0,265.0,NAME,Reggie,"The box score shows Reggie Jefferson, not Richard Jefferson, led the bench.",llama_small,p3_sent,3916.35
+S017,14,1,Atlanta Hawks,365.0,366.0,NAME,76ers,"The Cavaliers are playing the 76ers, not the Atlanta Hawks.",llama_small,p3_sent,3916.35
+S018,1,1,Oracle Arena in Oakland,26.0,29.0,NAME,Chase Center,"The Warriors played at the Chase Center, not Oracle Arena.",llama_small,p3_sent,3916.35
+S018,2,1,42 percent,42.0,43.0,NUMBER,45,"The Warriors' field goal percentage was actually 45%, not 42%",llama_small,p3_sent,3916.35
+S018,3,1,Warriors,4.0,4.0,NAME,Warrior,The team name should be singular.,llama_small,p3_sent,3916.35
+S018,4,1,game-high,,,WORD,game-high,"The sentence correctly describes Curry's performance, but the word 'game-high' is not a specific error.",llama_small,p3_sent,3916.35
+S018,5,1,39 points 13 assists,,,NUMBER,33,"The box score shows Curry's actual points as 33, not 39.",llama_small,p3_sent,3916.35
+S018,6,1,12 points,161.0,162.0,NUMBER,12,"The box score shows Draymond Green had 12 points, not 12 points (4-8 FG, 0-2 3Pt, 4-6 FT).",llama_small,p3_sent,3916.35
+S018,7,1,29 points,197.0,198.0,NUMBER,33,"The box score shows Curry scored 33 points, not 29.",llama_small,p3_sent,3916.35
+S018,8,1,11 points,208.0,209.0,NUMBER,11,"The box score shows 11 points, not 11 points (3-11 FG, 2-4 3Pt, 3-4 FT).",llama_small,p3_sent,3916.35
+S018,9,1,Clippers,14.0,14.0,NAME,Warriors,The team that received strong contributions from their bench is actually the Warriors.,llama_small,p3_sent,3916.35
+S018,10,1,19 points,256.0,257.0,NUMBER,20,"The box score shows Jordan had 20 rebounds, not 19.",llama_small,p3_sent,3916.35
+S018,11,1,17 points,329.0,330.0,NUMBER,12,"The box score shows Curry averaging 12 rebounds, not 17.",llama_small,p3_sent,3916.35
+S018,12,1,12 points,161.0,162.0,NUMBER,11,"The box score shows that Jamal Crawford scored 11 points, not 12.",llama_small,p3_sent,3916.35
+S018,13,1,Minnesota Timberwolves,409.0,410.0,NAME,Portland Trail Blazers,The Clippers' next game will be against the wrong opponent.,llama_small,p3_sent,3916.35
+S019,1,1,Saturday evening,18.0,19.0,WORD,night,"The box score indicates the game was played on Saturday night, not Saturday evening.",llama_small,p3_sent,3916.35
+S019,2,1,wire to -,,,WORD,overtime,"The game was not won in overtime, but rather was a wire-to-wire win.",llama_small,p3_sent,3916.35
+S019,4,1,15 turnovers,98.0,99.0,NUMBER,16,"The box score shows 16 turnovers for the Pacers, not 15.",llama_small,p3_sent,3916.35
+S019,5,1,five of their last six,115.0,119.0,NUMBER,six,The Pacers have now won six of their last six games.,llama_small,p3_sent,3916.35
+S019,6,1,Paul George,128.0,129.0,NAME,James Johnson,"The box score shows James Johnson led the bench with 15 points, eight assists, seven rebounds, two steals, and two blocks.",llama_small,p3_sent,3916.35
+S019,7,1,six assists,164.0,165.0,NUMBER,eight,"The box score shows Jeff Teague had eight assists, not six.",llama_small,p3_sent,3916.35
+S019,8,1,13 five four,,,NUMBER,"13 points, five rebounds and two assists",Incorrect number of assists for Thaddeus Young,llama_small,p3_sent,3916.35
+S019,9,1,Atlanta Hawks,200.0,201.0,NAME,Pacers,"The Pacers should be the opponent, not the Atlanta Hawks.",llama_small,p3_sent,3916.35
+S019,10,1,four of their last six,215.0,219.0,NUMBER,six,The Heat have actually won six of their last six games.,llama_small,p3_sent,3916.35
+S019,11,1,21 points two rebounds,,,NUMBER,"21 points, four assists, two rebounds and two steals",Incorrect number of rebounds for Goran Dragic,llama_small,p3_sent,3916.35
+S019,12,1,22 points,265.0,266.0,NUMBER,22,"The box score shows that Hassan Whiteside scored 22 points, not just 22.",llama_small,p3_sent,3916.35
+S019,13,1,Dion Waiters was the only,271.0,275.0,NAME,James Johnson,"The box score shows James Johnson led the bench with 15 points, eight assists, seven rebounds, two steals, and two blocks.",llama_small,p3_sent,3916.35
+S019,14,1,Toronto Raptors,306.0,307.0,NAME,Toronto Raptors,"The team name should be 'Toronto Raptors', not just 'Raptors'.",llama_small,p3_sent,3916.35
+S020,1,1,Phoenix Suns,2.0,3.0,NAME,Pelicans,The home team was incorrectly identified as the Phoenix Suns.,llama_small,p3_sent,3916.35
+S020,2,1,Pelicans Pelicans,,,NAME,Suns,The opposing team was incorrectly named as the Pelicans instead of the Suns.,llama_small,p3_sent,3916.35
+S020,3,1,34 18,,,NUMBER,34-18,"The margin was 34-18, not 34-18 margin over the final 12 minutes.",llama_small,p3_sent,3916.35
+S020,4,1,34 18,,,NUMBER,18,"The box score shows the Pelicans outscored the Suns by a 34-18 margin over the final 12 minutes, but the margin is actually 34-18, not 34-18.",llama_small,p3_sent,3916.35
+S020,5,1,14 seven five a,,,NUMBER,"7, 5, and 0","The box score shows that Eric Bledsoe had 7 rebounds, 5 assists, and 0 blocks.",llama_small,p3_sent,3916.35
+S020,6,1,two rebounds,152.0,153.0,NUMBER,one,The story incorrectly states Devin Booker had two rebounds when the box score says he had one.,llama_small,p3_sent,3916.35
+S020,7,1,three rebounds,165.0,166.0,NUMBER,two,"The box score shows Marquese Chriss had two rebounds, not three.",llama_small,p3_sent,3916.35
+S020,8,1,Tucker led the bench with,178.0,182.0,NAME,PJ Tucker,The player's name is incorrect.,llama_small,p3_sent,3916.35
+S020,9,1,Phoenix was led by Eric,195.0,199.0,NAME,Pelicans,The team name is incorrect.,llama_small,p3_sent,3916.35
+S020,10,1,Marquese Chriss,,,NAME,"Marquese Chriss is not the player who followed with 12 points, three rebounds, two assists and a block.","The player who followed with 12 points, three rebounds, two assists and a block is not Marquese Chriss.",llama_small,p3_sent,3916.35
+S020,11,1,Marquese Chriss,,,NAME,"Marquese Chriss was not the player of the game, so the sentence should not mention him as the player of the game.",The sentence incorrectly identifies Marquese Chriss as the player of the game.,llama_small,p3_sent,3916.35
+S020,12,1,Brandon Knight,264.0,265.0,NAME,"Brandon Knight is not a player on the Suns, but rather on the Pelicans.",The sentence incorrectly states that Brandon Knight is a player for the Suns.,llama_small,p3_sent,3916.35
+S020,13,1,seven seven seven,,,NUMBER,seven,"The box score shows Eric Bledsoe had seven assists, not seven times seven.",llama_small,p3_sent,3916.35
+S020,15,1,Buddy Hield,328.0,329.0,NAME,Anthony Davis,The player who led the second unit was incorrectly identified as Buddy Hield.,llama_small,p3_sent,3916.35
+S020,16,1,34 points,381.0,382.0,NUMBER,34,"The box score shows Anthony Davis scored 34 points, but the story incorrectly states it as 34 points.",llama_small,p3_sent,3916.35
+S020,17,1,Minnesota to take on the,364.0,368.0,NAME,Timberwolves,The team name is incorrect.,llama_small,p3_sent,3916.35
+S020,18,1,Davis led the way for,373.0,377.0,NAME,Anthony,The player's name is incorrect.,llama_small,p3_sent,3916.35
+S020,19,1,20 seven four rebounds,,,NUMBER,nine,"Jrue Holiday's box score shows 9 rebounds, not 4.",llama_small,p3_sent,3916.35
+S020,20,1,Buddy Hield,328.0,329.0,NAME,Buddy Hield,The player's name is correctly spelled in the box score.,llama_small,p3_sent,3916.35
+S020,21,1,Buddy Hield,328.0,329.0,NAME,Anthony Davis,The player who led the bench was incorrectly identified as Buddy Hield.,llama_small,p3_sent,3916.35
+S020,22,1,Pelicans remain in last place,444.0,448.0,NAME,Pelicans,The Pelicans are not in last place in the Western Conference's Southwest Division.,llama_small,p3_sent,3916.35
+S020,23,1,They remain home to face,457.0,461.0,CONTEXT,,"The Pelicans are playing the Golden State Warriors, not the home team.",llama_small,p3_sent,3916.35
+S021,1,1,Saturday,18.0,18.0,WORD,Saturday,"The game was played on Friday, not Saturday.",llama_small,p3_sent,3916.35
+S021,2,1,Saturday,18.0,18.0,WORD,Sunday,The story incorrectly states the day of the game.,llama_small,p3_sent,3916.35
+S021,3,1,battled back to make it,90.0,94.0,WORD,lost,The sentence should read 'the Rockets battled back to lose it' to accurately reflect the box score.,llama_small,p3_sent,3916.35
+S021,4,1,38 19,,,NUMBER,31,The box score shows the Kings outscored the Rockets by a 31-19 margin over the final 12 minutes.,llama_small,p3_sent,3916.35
+S021,5,1,23 points,171.0,172.0,NUMBER,10,James Harden's points were incorrectly stated as 23 instead of 10.,llama_small,p3_sent,3916.35
+S021,6,1,14 points,188.0,189.0,NUMBER,14,"The box score shows Eric Gordon had 14 points, but the story incorrectly states it as 14 points.",llama_small,p3_sent,3916.35
+S021,7,1,17 points,204.0,205.0,NUMBER,17,"The box score shows Clint Capela had 17 points, but the story incorrectly states it as 17 points, three rebounds, three assists, two steals and two blocks.",llama_small,p3_sent,3916.35
+S021,8,1,double - double,225.0,227.0,WORD,triple-double,The story incorrectly describes Trevor Ariza's double-double as a 'double-double' when it should be a 'triple-double'.,llama_small,p3_sent,3916.35
+S021,9,1,18 points,229.0,230.0,NUMBER,10,"The box score shows Trevor Ariza had 10 rebounds, not 18.",llama_small,p3_sent,3916.35
+S021,10,1,Sam Dekker,266.0,267.0,NAME,Sam Dekker,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S021,11,1,five blocks,180.0,181.0,NUMBER,nine,"The box score shows James Harden had nine rebounds, not five blocks.",llama_small,p3_sent,3916.35
+S021,12,1,Gay was next with 10,313.0,317.0,NAME,"Rudy Gay was next with 10 points, four rebounds, three assists and three steals.",The player's name is incorrect.,llama_small,p3_sent,3916.35
+S021,13,1,18 point,,,NUMBER,10,"The box score shows Darren Collison had 10 rebounds, not 18.",llama_small,p3_sent,3916.35
+S021,14,1,Darren Collison,329.0,330.0,NAME,Darren Collison,"Incorrect name, should be Darren Collison",llama_small,p3_sent,3916.35
+S021,15,1,10 12,,,NUMBER,8,Rudy Gay's double-double stats are incorrect.,llama_small,p3_sent,3916.35
+S021,16,1,Darren Collison,329.0,330.0,NAME,Ty,The box score lists Ty Lawson as the player who led the bench.,llama_small,p3_sent,3916.35
+S021,17,1,San Antonio Spurs,430.0,432.0,NAME,Golden State Warriors,The team the Kings are awaiting is not the San Antonio Spurs.,llama_small,p3_sent,3916.35
+S022,1,1,New Orleans,2.0,3.0,NAME,Minnesota,The team name should be 'Minnesota' instead of 'New Orleans'.,llama_small,p3_sent,3916.35
+S022,2,1,12 minutes,,,NUMBER,12,"The Timberwolves led by 40-28 after 12 minutes of action, but the correct number of minutes is not provided in the box score.",llama_small,p3_sent,3916.35
+S022,3,1,12 minutes,,,NUMBER,12,The box score shows the Timberwolves led by 40-28 after 12 minutes of action.,llama_small,p3_sent,3916.35
+S022,4,1,22 percent,79.0,80.0,NUMBER,46,The box score shows the Timberwolves shot 46 percent from the field.,llama_small,p3_sent,3916.35
+S022,5,1,43 -,102.0,103.0,NUMBER,34,"The box score shows the Timberwolves rebounded 34 times, not 43.",llama_small,p3_sent,3916.35
+S022,6,1,16 -of- 22,,,NUMBER,16-of-22,"The box score shows Anthony Davis shot 16-of-22 from the field, not 16-of-11.",llama_small,p3_sent,3916.35
+S022,7,1,six rebounds,152.0,153.0,NUMBER,12,"The box score shows Jrue Holiday had 12 rebounds, not six.",llama_small,p3_sent,3916.35
+S022,8,1,17 points,169.0,170.0,NUMBER,12,"The box score shows Buddy Hield scored 12 points, not 17.",llama_small,p3_sent,3916.35
+S022,9,1,eight rebounds,186.0,187.0,NUMBER,eight,"The box score shows Gorgui Dieng had eight rebounds, but the story says eight rebounds and three steals.",llama_small,p3_sent,3916.35
+S022,10,1,Karl-Anthony Towns,,,NAME,Karl-Anthony Towns,The player's full name is Karl-Anthony Towns.,llama_small,p3_sent,3916.35
+S022,11,1,Gorgui Dieng,179.0,180.0,NAME,Karl-Anthony Towns,"The box score shows Karl-Anthony Towns, not Gorgui Dieng, amassed eight points, eight rebounds and three steals.",llama_small,p3_sent,3916.35
+S022,12,1,Oklahoma City Thunder,242.0,244.0,NAME,Pelicans,The team that Minnesota will host is incorrect.,llama_small,p3_sent,3916.35
+S022,13,1,17th,272.0,272.0,NUMBER,21,"The Pelicans have been one of the worst teams in the league, as this marks their 21st win at Verizon Center.",llama_small,p3_sent,3916.35
+S022,14,1,36 minutes,,,NUMBER,39,"Anthony Davis played 39 minutes, not 36.",llama_small,p3_sent,3916.35
+S022,15,1,second points,,,WORD,third,"The sentence incorrectly states that Jrue Holiday finished second on the team with 25 points, when in fact he finished third.",llama_small,p3_sent,3916.35
+S023,1,1,Wednesday,19.0,19.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",llama_small,p3_sent,3916.35
+S023,2,1,30-point,,,NUMBER,49-point,"The box score indicates the Mavericks' deficit was 49 points, not 30.",llama_small,p3_sent,3916.35
+S023,3,1,entirety,46.0,46.0,WORD,second half,The story incorrectly uses the word 'entirety' instead of'second half'.,llama_small,p3_sent,3916.35
+S023,4,1,49 point,,,NUMBER,30-point,"The box score indicates a 30-point deficit, not 49-point.",llama_small,p3_sent,3916.35
+S023,5,1,Justin Anderson,88.0,89.0,NAME,Justin Anderson,"The box score lists Justin Anderson's last name as 'Anderson', not 'Andersons'.",llama_small,p3_sent,3916.35
+S023,6,1,19 points,101.0,102.0,NUMBER,13,"Justin Anderson actually scored 13 points, not 19.",llama_small,p3_sent,3916.35
+S023,7,1,Deron Williams was the only,131.0,135.0,NAME,Julius Randle was the only productive starter,The story incorrectly identifies Deron Williams as the only starter in double figures.,llama_small,p3_sent,3916.35
+S023,8,1,Justin Anderson led the bench,154.0,158.0,NAME,"Justin Anderson led the bench in scoring for 19 points, while adding five rebounds and two assists.",The box score does not indicate that Justin Anderson led the bench in scoring.,llama_small,p3_sent,3916.35
+S023,9,1,double -,177.0,178.0,WORD,triple,"Julius Randle recorded a triple-double, not a double-double.",llama_small,p3_sent,3916.35
+S023,10,1,Lakers,8.0,8.0,NAME,Mavericks,The team name is incorrect.,llama_small,p3_sent,3916.35
+S023,11,1,other Laker,216.0,217.0,NAME,Mavericks,The team name should be 'Mavericks' instead of 'Laker'.,llama_small,p3_sent,3916.35
+S023,12,1,Portland Trail Blazers,243.0,245.0,NAME,Trailblazers,Incorrect team name,llama_small,p3_sent,3916.35
+S023,13,1,five straight,,,NUMBER,three,"The Mavericks have won three straight games, not five.",llama_small,p3_sent,3916.35
+S023,14,1,Justin Anderson was the player,272.0,276.0,NAME,Harrison,The box score indicates that Harrison Barnes led the team with 19 points and five rebounds.,llama_small,p3_sent,3916.35
+S023,15,1,19 points,101.0,102.0,NUMBER,13,"Justin Anderson actually scored 13 points, not 19.",llama_small,p3_sent,3916.35
+S024,1,1,Golden State Warriors,2.0,4.0,NAME,Warriors,Incorrect team name,llama_small,p3_sent,3916.35
+S024,2,1,Warriors Kings,,,NAME,"Warriors, Kings",Incorrect team names,llama_small,p3_sent,3916.35
+S024,3,1,12 assists,88.0,89.0,NUMBER,7,"The box score shows Stephen Curry had 7 assists, not 12.",llama_small,p3_sent,3916.35
+S024,4,1,Green followed with 23 points,97.0,101.0,NUMBER,23,"The box score shows Green scored 23 points, not 23 points.",llama_small,p3_sent,3916.35
+S024,5,1,Skal Labissiere,115.0,116.0,NAME,Langston Galloway,"The box score shows that Langston Galloway, not Skal Labissiere, played in this game.",llama_small,p3_sent,3916.35
+S024,6,1,22 points,145.0,146.0,NUMBER,10,"Buddy Hield scored 10 points, not 22 points.",llama_small,p3_sent,3916.35
+S024,7,1,23 points,100.0,101.0,NUMBER,23,"The box score shows Draymond Green scored 23 points, not 23 - point.",llama_small,p3_sent,3916.35
+S024,8,1,Skal Labissiere,,,NAME,Labissiere,Incorrect spelling of the player's last name,llama_small,p3_sent,3916.35
+S024,9,1,Ben McLemore,206.0,207.0,NAME,Ben McLemore,The player's full name is Ben McLemore.,llama_small,p3_sent,3916.35
+S024,10,1,Stephen Curry,76.0,77.0,NAME,"Stephen Curry paced the Kings with a 27 - point, 12 - assist double - double that also included seven rebounds and six steals.",The player's name is incorrect.,llama_small,p3_sent,3916.35
+S024,11,1,bench - leading,257.0,259.0,WORD,starting,"The player was a starter, not coming off the bench.",llama_small,p3_sent,3916.35
+S024,12,1,23 points,100.0,101.0,NUMBER,23,"The box score shows Draymond Green scored 23 points, but the sentence incorrectly states it as 23 points.",llama_small,p3_sent,3916.35
+S024,13,1,Willie Cauley-Stein,294.0,295.0,NAME,Willie Cauley-Stein,Incorrect name of the player,llama_small,p3_sent,3916.35
+S025,1,1,San Antonio,2.0,3.0,NAME,Boston,The team that won the game was actually the Boston Celtics.,llama_small,p3_sent,3916.35
+S025,2,1,Spurs 13 - 3,,,NUMBER,9-7,"The Spurs' actual record was 9-7, not 13-3.",llama_small,p3_sent,3916.35
+S025,3,1,8 -of- 18,,,NUMBER,35,"Kawhi Leonard played 35 minutes, not 8-of-18 minutes.",llama_small,p3_sent,3916.35
+S025,3,2,3 - 7,,,NUMBER,7,"Kawhi Leonard made 3-of-7 three-pointers, not 3-of-7.",llama_small,p3_sent,3916.35
+S025,4,1,added 25 points 10 rebounds,,,NUMBER,10 rebounds and four assists,The story incorrectly stated the number of rebounds and assists.,llama_small,p3_sent,3916.35
+S025,5,1,8 -of- 15,,,NUMBER,9,"Avery Bradley's actual points per shot is 19/9, not 19/15.",llama_small,p3_sent,3916.35
+S025,6,1,36 minutes,186.0,187.0,NUMBER,36,"The box score shows Isaiah Thomas played 36 minutes, not the stated 36 minutes.",llama_small,p3_sent,3916.35
+S025,7,1,eight rebounds,197.0,198.0,NUMBER,seven,The box score shows Avery Bradley had seven rebounds.,llama_small,p3_sent,3916.35
+S025,8,1,32 minutes,242.0,243.0,NUMBER,32 minutes,"The box score shows LaMarcus Aldridge played 32 minutes, which is correct.",llama_small,p3_sent,3916.35
+S025,9,1,47 percent,248.0,249.0,NUMBER,46,The Celtics' field goal percentage is incorrect.,llama_small,p3_sent,3916.35
+S025,9,2,46 percent,254.0,255.0,NUMBER,46,"The Celtics' field goal percentage is correct, but the Spurs' is incorrect.",llama_small,p3_sent,3916.35
+S025,9,3,46 percent,254.0,255.0,NUMBER,46,The Celtics' field goal percentage is correct.,llama_small,p3_sent,3916.35
+S026,1,1,The Phoenix Suns ( 11 - 8,1.0,7.0,NUMBER,11-8,Incorrect game record,llama_small,p3_sent,3916.35
+S026,2,1,quick start,37.0,38.0,WORD,slow,The Suns did not get off to a quick start in the first quarter.,llama_small,p3_sent,3916.35
+S026,3,1,12 for 12,,,NUMBER,12-8,"The correct score was 11-8, not 12-12.",llama_small,p3_sent,3916.35
+S026,4,1,The Suns were led by the duo of Eric Dragic and Goran Dragic,106.0,118.0,NAME,The Suns were led by the duo of Goran Dragic and Eric Bledsoe.,Incorrect player names,llama_small,p3_sent,3916.35
+S026,5,1,11 -for- 15,,,NUMBER,11-for-15,"The box score shows that Dragic shot 11-for-15 from the field, not 11-for-15 from the three-point line.",llama_small,p3_sent,3916.35
+S026,6,1,season high,,,WORD,second,"The story incorrectly states that it was a season-high in points for Dragic, when it was actually his second double-double in the last five games.",llama_small,p3_sent,3916.35
+S026,7,1,"Dragic had 34 points ( 11 - 15 FG , 5 - 6 3Pt , 7 - 7 FT )",185.0,204.0,NUMBER,"Dragic had 34 points (11-20 FG, 5-6 3Pt, 4-7 FT)",Incorrect FG and 3Pt numbers,llama_small,p3_sent,3916.35
+S026,8,1,second double,175.0,176.0,WORD,first,"The sentence incorrectly states that it was his second double-double in a row, when it should be his first.",llama_small,p3_sent,3916.35
+S026,9,1,Roy Hibbert,267.0,268.0,NAME,Roy Hibbert,Incorrect spelling of Roy Hibbert's name,llama_small,p3_sent,3916.35
+S026,10,1,second double,175.0,176.0,WORD,first,"The sentence incorrectly states that it was his second double-double in a row, when it should be his first.",llama_small,p3_sent,3916.35
+S026,11,1,17 points,335.0,336.0,NUMBER,17,"The box score shows CJ Miles scored 17 points, not just points.",llama_small,p3_sent,3916.35
+S026,12,1,second double,175.0,176.0,WORD,first,"The sentence incorrectly states that it was his second double-double in a row, when it should be his first.",llama_small,p3_sent,3916.35
+S026,13,1,Roy Hibbert,267.0,268.0,NAME,Roy Hibbert,Incorrect spelling of Roy Hibbert's name,llama_small,p3_sent,3916.35
+S026,14,1,10 points,316.0,317.0,NUMBER,15,"The player's actual average points per game is 15, not 10.",llama_small,p3_sent,3916.35
+S026,15,1,17 points,335.0,336.0,NUMBER,17,"The box score shows CJ Miles scored 17 points, but the story says 17 points.",llama_small,p3_sent,3916.35
+S026,16,1,15 points,276.0,277.0,NUMBER,27,"The box score shows Eric Bledsoe scored 27 points, not 15.",llama_small,p3_sent,3916.35
+S026,17,1,CJ Miles was the only,486.0,490.0,NAME,"Goran Dragic was the other member of the backcourt, as he finished with 27 points (11-20 FG, 1-4 3Pt, 4-5 FT) and seven assists.","The sentence incorrectly states that CJ Miles was the other starter to reach double figures in points, when in fact it was Goran Dragic.",llama_small,p3_sent,3916.35
+S026,18,1,17 points,335.0,336.0,NUMBER,17,"The box score shows CJ Miles scored 17 points, but the story says 17 points.",llama_small,p3_sent,3916.35
+S026,19,1,Toronto Raptors,547.0,548.0,NAME,Brooklyn Nets,The team name is incorrect.,llama_small,p3_sent,3916.35
+S027,1,1,New York,2.0,3.0,NAME,Houston,Incorrect team name,llama_small,p3_sent,3916.35
+S027,2,1,Knicks,4.0,4.0,NAME,Knicks,"Incorrect team name, should be 'Rockets'",llama_small,p3_sent,3916.35
+S027,3,1,superior shooters,62.0,63.0,WORD,superior,The sentence should use the correct word'superior' instead of'superior shooters'.,llama_small,p3_sent,3916.35
+S027,4,1,game-high,,,WORD,season-high,The story incorrectly uses 'game-high' instead of'season-high' to describe Arron Afflalo's points.,llama_small,p3_sent,3916.35
+S027,5,1,career-high 31 points,,,NUMBER,18,"The box score shows that the player had 18 points, not 31.",llama_small,p3_sent,3916.35
+S027,6,1,double double,,,WORD,double-double,"The correct phrase is 'double-double', not 'double'.",llama_small,p3_sent,3916.35
+S027,7,1,20 points,230.0,231.0,NUMBER,20,"The box score shows Kristaps Porzingis scored 20 points, not 8-13 points.",llama_small,p3_sent,3916.35
+S027,8,1,17 point,,,NUMBER,14,"The box score shows Kevin Seraphin scored 14 points, not 17.",llama_small,p3_sent,3916.35
+S028,1,1,Saturday,17.0,17.0,WORD,Wednesday,"The game was played on Wednesday, not Saturday.",llama_small,p3_sent,3916.35
+S028,2,1,six,167.0,167.0,NUMBER,four,"The box score says the deficit was 59-49, not 59-six.",llama_small,p3_sent,3916.35
+S028,3,1,9 -,70.0,71.0,NUMBER,9-44,"The Nets' record is 9-44, not 9-21.",llama_small,p3_sent,3916.35
+S028,4,1,Wizards 31 -44,,,NUMBER,31-21,"The Wizards' correct record is 31-21, not 31-44.",llama_small,p3_sent,3916.35
+S028,5,1,23 -point efforts,,,NUMBER,23-point,The box score shows that John Wall and Bradley Beal each scored 23 points.,llama_small,p3_sent,3916.35
+S028,6,1,six,167.0,167.0,NUMBER,four,"The box score shows that the shot was a four-foot jumper, not a six-foot jumper.",llama_small,p3_sent,3916.35
+S028,7,1,14 points,,,NUMBER,10,"The box score shows Sean Kilpatrick had 10 points, not 14.",llama_small,p3_sent,3916.35
+S028,8,1,Brooklyn,6.0,6.0,NAME,Washington,"The team that won the game was actually Washington, not Brooklyn.",llama_small,p3_sent,3916.35
+S028,9,1,20-point 10-rebound double-double,,,NUMBER,"20-point, 10-rebound double-double that also included one assist and a steal.",Incorrect number of assists in the double-double.,llama_small,p3_sent,3916.35
+S028,10,1,13-point 11-rebound,,,NUMBER,"13-point, 11-rebound double-double that also included two assists and one steal.","The box score shows a 13-point, 11-rebound double-double, but the story incorrectly includes a steal.",llama_small,p3_sent,3916.35
+S028,11,1,highly productive,,,WORD,productive,"The word 'highly' is not present in the box score data, and 'productive' is the correct word to describe Booker's performance.",llama_small,p3_sent,3916.35
+S028,12,1,15 points,293.0,294.0,NUMBER,10,"The box score shows Sean Kilpatrick had 10 points, not 15.",llama_small,p3_sent,3916.35
+S028,13,1,21 points,341.0,342.0,NUMBER,31,"The box score shows Bradley Beal scored 31 points, not 21.",llama_small,p3_sent,3916.35
+S028,14,1,21 points,341.0,342.0,NUMBER,13,"The box score shows Bogdanovic scored 13 points, not 21.",llama_small,p3_sent,3916.35
+S028,15,1,14 rebound,,,NUMBER,14 boards,"The box score shows Marcin Gortat had 14 boards, not 14 rebound.",llama_small,p3_sent,3916.35
+S028,16,1,14-point 11-rebound,,,NUMBER,"13-point, 11-rebound",Incorrect point total for Booker's double-double,llama_small,p3_sent,3916.35
+S028,17,1,Detroit Pistons,405.0,406.0,NAME,Phoenix Suns,The team the Nets are facing on Friday night is incorrect.,llama_small,p3_sent,3916.35
+S029,1,1,101 92,,,NUMBER,92,"The correct score was 92, not 101-92.",llama_small,p3_sent,3916.35
+S029,2,1,12 26,,,NUMBER,26,The Timberwolves' record is incorrect.,llama_small,p3_sent,3916.35
+S029,3,1,12 26,,,NUMBER,11,The Timberwolves' record is incorrect.,llama_small,p3_sent,3916.35
+S029,4,1,24 19,,,NUMBER,23,The box score shows the Mavericks outscored the Timberwolves by a 23-19 margin in the third quarter.,llama_small,p3_sent,3916.35
+S029,5,1,game -high 30 points,,,NUMBER,game-high 30 points,The box score does not provide the actual game-high points scored by Harrison Barnes.,llama_small,p3_sent,3916.35
+S029,6,1,Deron Williams,148.0,149.0,NAME,Deron Williams,"The player's name is correct, but the annotation is necessary to verify the name against the box score data.",llama_small,p3_sent,3916.35
+S029,7,1,bench leading 37 points,,,NUMBER,37,"The box score shows Wesley Matthews played 37 minutes, not 37 points.",llama_small,p3_sent,3916.35
+S029,8,1,Deron Williams,148.0,149.0,NAME,Deron Williams,"The player's name is correct, but the format should be 'Player Name' instead of 'Player Last Name, First Name'.",llama_small,p3_sent,3916.35
+S029,9,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,The player's name should be spelled as 'J.J. Barea' instead of 'JJ Barea'.,llama_small,p3_sent,3916.35
+S029,10,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,Incorrect capitalization of the player's name,llama_small,p3_sent,3916.35
+S029,11,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,The player's name should be spelled as 'J.J. Barea' instead of 'JJ Barea'.,llama_small,p3_sent,3916.35
+S029,12,1,double figures,,,WORD,single,"The story incorrectly states that Nowitzki scored in double figures, when the box score indicates he scored in single figures.",llama_small,p3_sent,3916.35
+S029,13,1,five rebounds,,,NUMBER,four,"The box score shows that Dirk Nowitzki had four rebounds, not five.",llama_small,p3_sent,3916.35
+S029,14,1,game -high 34 points,,,NUMBER,game-high 34 points,"The box score does not specify the game number, so it's not possible to verify the game-high points.",llama_small,p3_sent,3916.35
+S029,15,1,Wiggins,317.0,317.0,NAME,Andrew Wiggins,The player's name is misspelled.,llama_small,p3_sent,3916.35
+S029,16,1,Shabazz Muhammad,332.0,333.0,NAME,Shabazz Muhammad,"The player's name is correct, but the annotation is necessary to verify the name against the box score data.",llama_small,p3_sent,3916.35
+S029,17,1,Shabazz Muhammad,332.0,333.0,NAME,Shabazz Muhammad,The player's name is correctly spelled in the box score.,llama_small,p3_sent,3916.35
+S029,18,1,double figures,,,WORD,single,"The story incorrectly states that Nowitzki scored in double figures, when in fact the box score indicates he scored in single figures.",llama_small,p3_sent,3916.35
+S029,19,1,double figures,,,WORD,single,"The story incorrectly states that Nowitzki scored in double figures in five straight games, when in fact the box score only shows him scoring in double figures in four straight games.",llama_small,p3_sent,3916.35
+S030,1,1,Wednesday,18.0,18.0,NUMBER,Monday,"The game was played on Monday, not Wednesday.",llama_small,p3_sent,3916.35
+S030,2,1,Indiana was expected,20.0,22.0,CONTEXT,,"The story implies Indiana was expected to win easily, but the box score does not provide information about the expected outcome.",llama_small,p3_sent,3916.35
+S030,3,1,34 21,,,NUMBER,21,The Pacers outscored the Hornets by 13 points in the fourth quarter.,llama_small,p3_sent,3916.35
+S030,4,1,42 -,83.0,84.0,NUMBER,34,The box score shows the Hornets won the rebounding battle 46-34.,llama_small,p3_sent,3916.35
+S030,5,1,five of their last seven,97.0,101.0,NUMBER,three,The box score shows the Hornets have won three of their last seven games.,llama_small,p3_sent,3916.35
+S030,6,1,12 points,126.0,127.0,NUMBER,12,"The box score shows Kemba Walker had 12 points, not 12 points.",llama_small,p3_sent,3916.35
+S030,7,1,13 points 10 rebounds and,,,NUMBER,10,"The box score shows Nicolas Batum had 10 rebounds, not 13.",llama_small,p3_sent,3916.35
+S030,8,1,Cody Zeller,155.0,156.0,NAME,Cody Zeller,Incorrect spelling of the player's name,llama_small,p3_sent,3916.35
+S030,9,1,Los Angeles Clippers,188.0,190.0,NAME,Charlotte,The team name is incorrect.,llama_small,p3_sent,3916.35
+S030,10,1,16-point 11-assist,,,NUMBER,"16-point, 11-assist double-double",The box score shows that Jeff Teague's double-double included 16 points and 11 assists.,llama_small,p3_sent,3916.35
+S030,11,1,16-point 11-assist,,,NUMBER,"16-point, 11-assist double-double",The box score shows that Jeff Teague's double-double included 16 points and 11 assists.,llama_small,p3_sent,3916.35
+S030,12,1,seven rebounds,172.0,173.0,NUMBER,four,"The box score shows Myles Turner had four blocks, not seven rebounds.",llama_small,p3_sent,3916.35
+S030,13,1,seven rebounds,172.0,173.0,NUMBER,five,"The box score shows Myles Turner had five rebounds, not seven.",llama_small,p3_sent,3916.35
