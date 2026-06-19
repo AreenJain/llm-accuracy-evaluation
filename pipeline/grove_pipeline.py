@@ -64,7 +64,9 @@ MODELS = {
     "llama_medium": "/home/support/llm/Llama-3.1-70B-Instruct",
     "qwen_medium":  "/home/support/llm/Qwen2.5-72B-Instruct",
     "llama_small":  "/home/support/llm/Llama-3.1-8B-Instruct",
-    "qwen_small":   "/home/ajain/models/Qwen2.5-7B-Instruct",
+    # qwen 7B isn't in the shared dir, so each of us downloads it to our own
+    # home — expanduser resolves ~ to whoever is running (ajain or hahire).
+    "qwen_small":   os.path.expanduser("~/models/Qwen2.5-7B-Instruct"),
 }
 
 

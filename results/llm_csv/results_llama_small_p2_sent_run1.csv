@@ -1,0 +1,407 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+S001,1,1,Boston Celtics,2.0,3.0,NAME,Los Angeles,"The story incorrectly names the away team as Boston Celtics, when it should be Los Angeles Lakers.",llama_small,p2_sent,3886.88
+S001,2,1,33 - 21,,,NUMBER,33-21,"The JSON box score data shows the correct score as 33-21, not just 33-21.",llama_small,p2_sent,3886.88
+S001,3,1,six assists two rebounds and,,,NUMBER,three,"The story says Isaiah Thomas had six assists, but the box score says he had three.",llama_small,p2_sent,3886.88
+S001,4,1,Horford was right behind him,92.0,96.0,NAME,Al Horford,The story misspelled Al Horford's first name.,llama_small,p2_sent,3886.88
+S001,5,1,Crowder was next with a,111.0,115.0,NAME,Jae Crowder,The story misspelled Jae Crowder's name.,llama_small,p2_sent,3886.88
+S001,6,1,Jae Crowder,110.0,111.0,NAME,"Jae Crowder was not the player who scored 18 points, six rebounds, an assist and a pair of steals.","The JSON does not mention Jae Crowder's stats, but rather Jae Crowder's teammate, Jae Crowder is mentioned in the JSON with the key '13'.",llama_small,p2_sent,3886.88
+S001,7,1,Jae Crowder,110.0,111.0,NAME,"Jae Crowder was not the player who scored 18 points, six rebounds, an assist and two steals.","The JSON does not mention Jae Crowder's stats, but rather Jae Crowder's teammate, Jae Crowder is mentioned in the JSON with the key '13'.",llama_small,p2_sent,3886.88
+S001,8,1,supplied eight rebounds eight assists,,,NUMBER,six,"The JSON says Al Horford had six rebounds, not eight.",llama_small,p2_sent,3886.88
+S001,9,1,Kelly Olynyk,189.0,190.0,NAME,Isaiah Thomas,The story incorrectly identifies the player who led the second unit.,llama_small,p2_sent,3886.88
+S001,10,1,Boston await the Toronto Raptors,,,NAME,Detroit Pistons,"The story incorrectly mentions the opposing team as Toronto Raptors, when it should be Detroit Pistons.",llama_small,p2_sent,3886.88
+S002,1,1,Atlanta Hawks,2.0,3.0,NAME,Cleveland,"The story incorrectly names the home team as Atlanta Hawks, while the JSON data indicates it was the Cleveland Cavaliers.",llama_small,p2_sent,3886.88
+S002,2,1,struggling,26.0,26.0,NAME,Cavaliers,"The story says'struggling teams', but the box score data shows the Cavaliers as the home team.",llama_small,p2_sent,3886.88
+S002,3,1,Hawks,3.0,3.0,NAME,Cavaliers,The story incorrectly names the opposing team.,llama_small,p2_sent,3886.88
+S002,4,1,21 assists to 19 turnovers,75.0,79.0,NUMBER,21 assists to 19 turnovers,"The story says the Hawks had 21 assists to 19 turnovers, but the JSON says the Hawks had 22 assists to 19 turnovers.",llama_small,p2_sent,3886.88
+S002,5,1,Hawks have now won three,,,NUMBER,two,"The story says the Hawks have won three of their last five games, but the correct number is two.",llama_small,p2_sent,3886.88
+S002,6,1,points 17 rebounds,,,NUMBER,15,"The story says Dwight Howard had 17 points and 17 rebounds, but the JSON shows he had 17 rebounds and 7 points.",llama_small,p2_sent,3886.88
+S002,7,1,25 points,151.0,152.0,NUMBER,23,"The story says Kent Bazemore tallied 25 points, but the JSON says he tallied 23 points.",llama_small,p2_sent,3886.88
+S002,8,1,Kent Bazemore was the only,160.0,164.0,NAME,"Kent Bazemore was not the only other starter in double figures, but one of them was","The JSON shows multiple players with double figures, not just Kent Bazemore",llama_small,p2_sent,3886.88
+S002,9,1,Cleveland 's unblemished mark,,,NAME,Cleveland's (6-1),The story incorrectly capitalizes the 'C' in 'Cleveland',llama_small,p2_sent,3886.88
+S002,10,1,six 1,,,NUMBER,6,"The story says the Cavaliers have now won three of their last five games, as they continue to struggle, but the correct win-loss record is 6-1.",llama_small,p2_sent,3886.88
+S002,11,1,23 points,236.0,237.0,NUMBER,29,"The story says LeBron James had 23 points, but the box score says he had 29 points.",llama_small,p2_sent,3886.88
+S002,12,1,points four,,,NUMBER,three,"The story says Kyrie Irving accrued four rebounds, but the JSON says he had three rebounds.",llama_small,p2_sent,3886.88
+S002,13,1,second on the team collecting,,,NUMBER,11,"The story says Kevin Love finished second on the team with 24 points, 11 rebounds and three steals, but the JSON says 12 rebounds.",llama_small,p2_sent,3886.88
+S002,14,1,Tristan Thompson was a nice,283.0,287.0,NAME,"Tristan Thompson was a nice spark off the bench, providing 25 points, two rebounds and four assists.","The JSON lists Tristan Thompson's stats as 0 points, 2 rebounds, and 0 assists.",llama_small,p2_sent,3886.88
+S002,15,1,29 points which he needed,,,NUMBER,27,"The story says Kyrie Irving needed 29 shot attempts to get to his game-high 29 points, but the JSON says he needed 27.",llama_small,p2_sent,3886.88
+S003,1,1,Saturday,17.0,17.0,NUMBER,Sunday,"The story says the game was on Saturday, but the box score says it was on Sunday.",llama_small,p2_sent,3886.88
+S003,2,1,Raptors 19 -8,,,NAME,19-8,"The story incorrectly spells the team's record as '19-8' twice, when it should be '19-8' once.",llama_small,p2_sent,3886.88
+S003,3,1,game -high,,,NUMBER,31,"The story claims DeMar DeRozan posted a game-high 31 points, but the JSON shows he actually scored 31 points.",llama_small,p2_sent,3886.88
+S003,4,1,16 point 10 -,,,NUMBER,15,"The story says Kyle Lowry had 16 points and 10 assists, but the box score says he had 16 points and 10 assists in a different context.",llama_small,p2_sent,3886.88
+S003,5,1,Jonas Valanciunas,129.0,130.0,NAME,"Valanciunas, Jonas",The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S003,6,1,16 point 13 rebound,,,NUMBER,"16 point 13 rebound double-double that also included a block, a block, and a block","The JSON shows Jonas Valanciunas had 16 points and 13 rebounds, but the story incorrectly adds a block.",llama_small,p2_sent,3886.88
+S003,7,1,productive in a reserve role,186.0,190.0,WORD,"Terrence Ross was the player of the game, as he tallied 11 points, two rebounds, a steal and a block.","The story says Ross was productive in a reserve role, but the JSON says he was the player of the game.",llama_small,p2_sent,3886.88
+S003,8,1,third place,209.0,210.0,NUMBER,second,"The JSON says the Raptors are in second place, not third.",llama_small,p2_sent,3886.88
+S003,9,1,DeMar DeRozan,74.0,75.0,NAME,DeMar DeRozan,The story misspelled DeMar DeRozan's name.,llama_small,p2_sent,3886.88
+S003,10,1,Elfrid Payton,252.0,253.0,NAME,Elfrid Payton is not in the box score data. The correct player is Elfrid Payton is not in the box score data. The correct player is DeMarre Carroll.,"The story mentions Elfrid Payton, but the box score data does not have a player with that name. The correct player is DeMarre Carroll.",llama_small,p2_sent,3886.88
+S003,11,1,Aaron Gordon,269.0,270.0,NAME,"Aaron Gordon was next with a 10-point, 12-rebound double-double that also included an assist, a steal and a block.","The JSON does not have a player named Aaron Gordon, but rather Aaron Gordon is a player from the Orlando Magic.",llama_small,p2_sent,3886.88
+S003,12,1,Elfrid Payton,252.0,253.0,NAME,Elfrid Payton was not in the box score data. The correct player is Elfrid Payton was not in the box score data. The correct player is not mentioned in the JSON.,"The story mentions Elfrid Payton, but the JSON does not have a player with that name.",llama_small,p2_sent,3886.88
+S003,13,1,Aaron Gordon,269.0,270.0,NAME,Aaron Gordon,The story misspelled Aaron Gordon's name.,llama_small,p2_sent,3886.88
+S003,14,1,Augustin was productive in a,343.0,347.0,NAME,D.J. Augustin,The story misspelled the player's first name.,llama_small,p2_sent,3886.88
+S003,15,1,Raptors remain in last place,368.0,372.0,NAME,Magic,"The story incorrectly states the Raptors' position, while the box score data shows the Magic's position.",llama_small,p2_sent,3886.88
+S003,16,1,Tuesday,,,NUMBER,Monday,"The story says the game is on Tuesday, but the JSON says the game is on Sunday.",llama_small,p2_sent,3886.88
+S004,1,1,Utah,3.0,3.0,NAME,Los Angeles,The story incorrectly states the city where the game was played.,llama_small,p2_sent,3886.88
+S004,2,1,Jazz star Derrick Favors,,,NAME,Derrick Favors,"The JSON says the correct spelling is 'Derrick Favors', but the story has 'Favors' as a standalone name.",llama_small,p2_sent,3886.88
+S004,3,1,majority,61.0,61.0,WORD,majority of the preseason,The JSON says'majority of the preseason' but the story says'majority',llama_small,p2_sent,3886.88
+S004,4,1,key was key for the,,,WORD,rebounding,The story says 'key' instead of'rebounding',llama_small,p2_sent,3886.88
+S004,5,1,Jazz winning that battle 43 -,,,NUMBER,24,"The story says the Jazz won the rebounding battle 43-24, but the JSON shows the Jazz won 47-43.",llama_small,p2_sent,3886.88
+S004,6,1,15 points,,,NUMBER,14,"The JSON says Derrick Favors played 14 minutes, but the story says 20 minutes.",llama_small,p2_sent,3886.88
+S004,7,1,points five rebounds five,,,NUMBER,three,"The story says D'Angelo Russell had five points, five rebounds, and five assists, but the JSON says he had three assists.",llama_small,p2_sent,3886.88
+S004,8,1,Derrick Favors,,,NAME,Derrick Favors,"The JSON says 'Derrick Favors', but the story says 'Derrick Favors' is a 'Jazz star'",llama_small,p2_sent,3886.88
+S004,9,1,17 points five rebounds,,,NUMBER,"17 points, four rebounds and five assists","The story incorrectly states that D'Angelo Russell had five rebounds, when the JSON shows four rebounds.",llama_small,p2_sent,3886.88
+S004,10,1,Derrick Favors,,,NAME,Derrick Favors,"The JSON says 'Derrick Favors', but the story says 'Derrick Favors' is a 'Jazz star'",llama_small,p2_sent,3886.88
+S004,11,1,15 points,,,NUMBER,14,"The JSON says Favors played 14 minutes, but the story says 20 minutes.",llama_small,p2_sent,3886.88
+S004,12,1,15 points,,,NUMBER,20,"The story says Favors scored 15 points, but the box score says he scored 20 points.",llama_small,p2_sent,3886.88
+S004,13,1,George Hill,273.0,274.0,NAME,"George Hill was not the player of the game, as he led the team with 23 points, three rebounds and three assists on 7-of-14 shooting.",The story incorrectly identifies the player of the game.,llama_small,p2_sent,3886.88
+S004,14,1,points 13 rebounds,,,NUMBER,12,"The story says Rudy Gobert had 13 points and 13 rebounds, but the box score says he had 13 points and 12 rebounds.",llama_small,p2_sent,3886.88
+S004,15,1,13 points,313.0,314.0,NUMBER,9,"The JSON says Rudy Gobert had 9 points, but the story says 13 points.",llama_small,p2_sent,3886.88
+S004,16,1,13 points 13 rebounds,,,NUMBER,12,"The JSON says Rudy Gobert had 12 rebounds, not 13.",llama_small,p2_sent,3886.88
+S004,17,1,15 points and nine rebounds,,,NUMBER,20,"The story says Favors had 15 points and nine rebounds in 20 minutes, but the JSON says he had 20 minutes.",llama_small,p2_sent,3886.88
+S005,1,1,Hawks held the Magic to,2.0,6.0,NAME,Hawks (30-21),"The story incorrectly states the Hawks' record as (30-21), when the JSON shows it as (30-21)",llama_small,p2_sent,3886.88
+S005,2,1,Paul Millsap,38.0,39.0,NAME,"Tim Hardaway, Jr.","The story incorrectly names Paul Millsap as the player who led the Hawks with a game-high 21 points, when the JSON actually shows Tim Hardaway, Jr. as the player who achieved this feat.",llama_small,p2_sent,3886.88
+S005,3,1,Millsap was right behind him,67.0,71.0,NAME,Paul Millsap,The story incorrectly spells the player's name as 'Millsap' instead of 'Millsap' spelled correctly in the JSON.,llama_small,p2_sent,3886.88
+S005,4,1,11-point 13-rebound double-double,,,NUMBER,"11-point, 13-rebound, double-double that also included three assists, one steal and one block","The story says Dwight Howard posted a 11-point, 13-rebound double-double that also included three assists, one steal and one block, but the JSON says it included three assists, one steal and one block, not one block.",llama_small,p2_sent,3886.88
+S005,5,1,Kent Bazemore,111.0,112.0,NAME,Kent Bazemore,The story incorrectly spelled the name of the player.,llama_small,p2_sent,3886.88
+S005,6,1,Kent Bazemore led the second,129.0,133.0,NAME,Kent Bazemore,"The story says Kent Bazemore led the second unit, but the JSON says Kent Bazemore played for the Atlanta Hawks, not the second unit.",llama_small,p2_sent,3886.88
+S005,7,1,Paul Millsap led the way,38.0,42.0,NAME,"Tim Hardaway, Jr.","The story incorrectly names Paul Millsap as the leader, when the JSON data shows Tim Hardaway, Jr. as the player with 21 points.",llama_small,p2_sent,3886.88
+S005,8,1,11-point 13-rebound double-double,,,NUMBER,"11-point, 13-rebound, double-double that also included three assists, one steal and one block","The story says Dwight Howard posted a 11-point, 13-rebound double-double that also included three assists, one steal and one block, but the JSON says it included three assists, one steal and one block, not one block.",llama_small,p2_sent,3886.88
+S005,9,1,Kent Bazemore,111.0,112.0,NAME,"Kent Bazemore is not in the JSON data, but Kent is not present in the JSON either. The correct name is Kent Bazemore, but the JSON has Kent Bazemore as Kent Bazemore, not Kent.","The story mentions Kent Bazemore, but the JSON does not have a player named Kent, only Kent Bazemore.",llama_small,p2_sent,3886.88
+S005,10,1,Magic head back home to face,220.0,225.0,NAME,Hawks,The story incorrectly states the team the Magic will face on Monday night.,llama_small,p2_sent,3886.88
+S006,1,1,Houston Rockets,2.0,3.0,NAME,Brooklyn,"The story incorrectly names the visiting team as Houston Rockets, but the JSON data shows it as Brooklyn Nets.",llama_small,p2_sent,3886.88
+S006,2,1,came into this game as,26.0,30.0,WORD,came into the game as a double-digit underdog and they didn't disappoint.,"The story says the Nets came in as a double-digit favorite, but the JSON says they were underdogs.",llama_small,p2_sent,3886.88
+S006,3,1,Harden tallied 10 points nine,,,NUMBER,9,"The JSON says James Harden had 9 assists, not 9 points.",llama_small,p2_sent,3886.88
+S006,4,1,Trevor Ariza,66.0,67.0,NAME,"Trevor Ariza was the only other starter in double figures, as he tallied 2 points, four rebounds and four assists in the defeat.","The story says Trevor Ariza tallied 2 points, four rebounds and four assists, but the JSON says he tallied 2 points, four rebounds and four assists in the defeat.",llama_small,p2_sent,3886.88
+S006,5,1,10 points,51.0,52.0,NUMBER,11,"The story says James Harden had a season-low 10 points, but the JSON says he had 11 points.",llama_small,p2_sent,3886.88
+S006,6,1,Nets,12.0,12.0,NAME,Brooklyn,The story incorrectly names the home team as 'Nets' instead of 'Brooklyn'.,llama_small,p2_sent,3886.88
+S006,7,1,Brook Lopez,117.0,118.0,NAME,Brook Lopez,"The JSON says the correct spelling is 'Brook Lopez', but the story has 'Brook Lopez' as two separate words.",llama_small,p2_sent,3886.88
+S006,8,1,Young,164.0,164.0,NAME,Thaddeus Young,The story misspells the player's name.,llama_small,p2_sent,3886.88
+S006,9,1,10 points,51.0,52.0,NUMBER,11,"The story says James Harden had a season-low 10 points, but the JSON shows he had 11 points.",llama_small,p2_sent,3886.88
+S007,1,1,Russell Westbrook and Russell Westbrook,1.0,5.0,NAME,Westbrook,"The story incorrectly mentions Russell Westbrook twice, when it should be once.",llama_small,p2_sent,3886.88
+S007,2,1,36 points 11 rebounds seven assists four steals and one block,,,NUMBER,11,"The story says Westbrook played 36 minutes, but the box score says he played 34 minutes.",llama_small,p2_sent,3886.88
+S007,3,1,Kanter was the only other,89.0,93.0,NAME,"Kanter was the only other Thunder player to score in double digits, as he finished with 29 points on 10-of-18 shooting, in 32 minutes off the bench.","The JSON says Kanter's minutes were 32, but the story says 32 minutes off the bench.",llama_small,p2_sent,3886.88
+S007,4,1,Kings shot 46 percent from the field and 36 percent from long range,124.0,136.0,NUMBER,46,"The story claims the Kings shot 46 percent from the field and 36 percent from long range, but the JSON data shows the Kings shot 46 percent from the field and 36 percent from three-point range.",llama_small,p2_sent,3886.88
+S007,5,1,points on 11 - 20 shooting,,,NUMBER,11 - of 17,"The story claims Cousins shot 11 - of 20, but the JSON shows 11 - of 17.",llama_small,p2_sent,3886.88
+S007,6,1,Steven Adams,209.0,210.0,NAME,Enes Kanter,"The story incorrectly names the player who contributed 21 points, four rebounds and one steal, in 27 minutes.",llama_small,p2_sent,3886.88
+S008,1,1,Memphis Grizzlies,2.0,3.0,NAME,Utah,"The story incorrectly names the home team as Memphis Grizzlies, when the JSON says the home team is Utah Jazz.",llama_small,p2_sent,3886.88
+S008,2,1,20-point performance,,,NUMBER,19-point,"The story says Vince Carter had a 20-point performance, but the JSON says he had a 19-point performance.",llama_small,p2_sent,3886.88
+S008,3,1,Gasol,96.0,96.0,NAME,Marc Gasol,"The story mentions Marc Gasol, but the JSON has Marc Gasol as a player for the Jazz, not the away team.",llama_small,p2_sent,3886.88
+S008,4,1,18 points on 7 -of-,,,NUMBER,18 points on 7-of-14 shooting,"The story says 7-of-, but the JSON says 7-of-14.",llama_small,p2_sent,3886.88
+S008,5,1,chipped in 18 points on,175.0,179.0,NUMBER,7,"The story says 18 points, but the box score says 7 points.",llama_small,p2_sent,3886.88
+S008,6,1,48 percent from the field,207.0,211.0,NUMBER,48,"The story says the Jazz shot 48 percent from the field, but the JSON says the Jazz shot 48 percent from the field and 29 percent from long range.",llama_small,p2_sent,3886.88
+S008,7,1,third,,,NUMBER,four,"The story says the Grizzlies have lost four of their last five games, but the JSON says they have lost three of their last five games.",llama_small,p2_sent,3886.88
+S008,8,1,Gordon Hayward,265.0,266.0,NAME,"Hayward led the way for the Jazz, not the Grizzlies",The story incorrectly states the team Gordon Hayward played for,llama_small,p2_sent,3886.88
+S008,9,1,Gobert chipped in 22 points,312.0,316.0,NAME,Rudy Gobert,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S008,10,1,48 percent from the field,207.0,211.0,NUMBER,48,"The story says the Jazz shot 48 percent from the field, but the JSON says the Jazz shot 48 percent from the field and 29 percent from long range.",llama_small,p2_sent,3886.88
+S008,11,1,Carter has excelled and outscored,,,NAME,Carter has not excelled and outscored Parsons in each of the past three games.,"The story incorrectly states that Carter excelled and outscored Parsons, when in fact the box score data does not provide information about this.",llama_small,p2_sent,3886.88
+S009,1,1,Milwaukee Bucks,2.0,3.0,NAME,Los Angeles Lakers,"The story incorrectly names the away team as Milwaukee Bucks, while the JSON data shows the correct team as Los Angeles Lakers.",llama_small,p2_sent,3886.88
+S009,2,1,two struggling,26.0,27.0,WORD,struggling teams,"The JSON says 'two' teams, but the story says'struggling teams'.",llama_small,p2_sent,3886.88
+S009,3,1,led for the majority of,47.0,51.0,WORD,trailing,"The story says the Bucks led for the majority of the game, but the JSON shows they trailed in the second half.",llama_small,p2_sent,3886.88
+S009,4,1,29 percent,83.0,84.0,NUMBER,52,"The story says the Lakers held the Bucks to 29 percent shooting, but the JSON says they held them to 52 percent.",llama_small,p2_sent,3886.88
+S009,5,1,four of their last five,104.0,108.0,NUMBER,three,"The story claims the Lakers have won four of their last five games, but the JSON shows they have won three of their last five games.",llama_small,p2_sent,3886.88
+S009,6,1,41 points three rebounds and,,,NUMBER,14,"The JSON says D'Angelo Russell had 14 points, not 41.",llama_small,p2_sent,3886.88
+S009,7,1,second on the team as,,,NAME,third,"The story says Luol Deng was second on the team, but the box score says he was third.",llama_small,p2_sent,3886.88
+S009,8,1,D'Angelo Russell,117.0,118.0,NAME,Giannis Antetokounmpo,"The story incorrectly identifies D'Angelo Russell as the only other starter in double figures, when the JSON shows Giannis Antetokounmpo as the only Bucks starter to manage double-digit scoring.",llama_small,p2_sent,3886.88
+S009,9,1,New Orleans Pelicans,199.0,201.0,NAME,Sacramento Kings,The story mentions the wrong team for the upcoming game.,llama_small,p2_sent,3886.88
+S009,10,1,three of their last five,214.0,218.0,NUMBER,two,"The story claims Milwaukee has lost three of their last five games, but the JSON shows they have lost two of their last five games.",llama_small,p2_sent,3886.88
+S009,11,1,41 eight rebounds,,,NUMBER,7,"The JSON says Giannis Antetokounmpo had 7 rebounds, not 8.",llama_small,p2_sent,3886.88
+S009,12,1,Khris Middleton,248.0,249.0,NAME,Giannis Antetokounmpo,"The story incorrectly names the second-highest scorer as Khris Middleton, when the JSON data shows Giannis Antetokounmpo as the second-highest scorer.",llama_small,p2_sent,3886.88
+S009,13,1,Greg Monroe,268.0,269.0,NAME,Giannis Antetokounmpo,"The story incorrectly identifies Greg Monroe as the only other starter in double figures, when the JSON data shows Giannis Antetokounmpo as the only Bucks starter with double-digit scoring.",llama_small,p2_sent,3886.88
+S009,14,1,Thon Maker got first crack,,,NAME,Jabari Parker,"The story incorrectly states that Thon Maker got the first crack at the starting power forward job, when in fact it was Jabari Parker.",llama_small,p2_sent,3886.88
+S010,1,1,Atlanta Hawks,2.0,3.0,NAME,Magic,"The story incorrectly names the home team as Atlanta Hawks, while the JSON data shows it as Orlando Magic.",llama_small,p2_sent,3886.88
+S010,2,1,Eflrid Payton,,,NAME,Elfrid,The story misspelled the player's first name as 'Eflrid' instead of 'Elfrid'.,llama_small,p2_sent,3886.88
+S010,3,1,Eflrid Payton,,,NAME,Elfrid,The story misspelled the name of the player as 'Eflrid' instead of 'Elfrid'.,llama_small,p2_sent,3886.88
+S010,4,1,53 percent,81.0,82.0,NUMBER,32,"The JSON says the Hawks' three-point field goal percentage was 32, but the story says 53.",llama_small,p2_sent,3886.88
+S010,5,1,Hawks recorded 27 assists to,,,NAME,Magic,"The story incorrectly states the Hawks recorded assists, when in fact it was the Magic.",llama_small,p2_sent,3886.88
+S010,6,1,Eflrid Payton,,,NAME,Elfrid,The story misspelled the player's first name as 'Eflrid' instead of 'Elfrid'.,llama_small,p2_sent,3886.88
+S010,7,1,Dennis Schroder was the player,141.0,145.0,NAME,Schroeder,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S010,8,1,double double,,,NAME,double-double,The story incorrectly uses the word 'double' instead of the correct phrase 'double-double'.,llama_small,p2_sent,3886.88
+S010,9,1,Kent Bazemore was the only,184.0,188.0,NAME,"Kent Bazemore was the only other starter in double figures, as he totaled 17 points and four assists.","The JSON shows Kent Bazemore's stats as 17 points and 4 assists, but the story says he had four assists.",llama_small,p2_sent,3886.88
+S010,10,1,Eflrid Payton,,,NAME,Elfrid,The story misspelled the name of the player as 'Eflrid' instead of 'Elfrid'.,llama_small,p2_sent,3886.88
+S010,11,1,Magic have been struggling mightily,,,WORD,,"The story says the Magic have been struggling, but the JSON does not provide information about their recent performance.",llama_small,p2_sent,3886.88
+S010,12,1,Vucevic was the player of,241.0,245.0,NAME,Dennis Schroeder was the player of the game,"The story incorrectly identifies the player of the game as Nikola Vucevic, when the JSON says it was Dennis Schroeder.",llama_small,p2_sent,3886.88
+S010,13,1,Evan Fournier,261.0,262.0,NAME,Elfrid,The story incorrectly spelled the player's name as 'Evan Fournier' instead of 'Elfrid Payton'.,llama_small,p2_sent,3886.88
+S010,14,1,Vucevic recorded a double -,282.0,286.0,NAME,Vucevic,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S010,15,1,Evan Fournier,261.0,262.0,NAME,Elfrid,The story incorrectly spelled the name of the Magic player in double figures.,llama_small,p2_sent,3886.88
+S010,16,1,Eflrid Payton,,,NAME,Elfrid,The story misspelled the name of the player as 'Eflrid' instead of 'Elfrid'.,llama_small,p2_sent,3886.88
+S011,1,1,Tuesday,22.0,22.0,NAME,Wednesday,"The story says the game was on Tuesday, but the JSON says it was on Wednesday.",llama_small,p2_sent,3886.88
+S011,2,1,Hawks got off to a,30.0,34.0,NAME,Hawks,"The Hawks is the home team, which is already mentioned in the JSON as 'home_name': 'Hawks'.",llama_small,p2_sent,3886.88
+S011,3,1,third quarter,70.0,71.0,NUMBER,2,"The story says the Hawks out-scored the Wizards 28-18 in the third quarter, but the box score shows the Hawks out-scored the Wizards 28-18 in the fourth quarter.",llama_small,p2_sent,3886.88
+S011,4,1,48 percent from the field,93.0,97.0,NUMBER,48,"The story says 48, but the JSON says 48 is the Hawks' field goal percentage, which is actually 48.",llama_small,p2_sent,3886.88
+S011,5,1,The Hawks were also able,125.0,129.0,NUMBER,12,"The story says the Hawks forced 14 turnovers, but the JSON says 12.",llama_small,p2_sent,3886.88
+S011,6,1,The Hawks were led by the duo of John Wall and Bradley Beal,146.0,158.0,NAME,"Jeff Teague was Atlanta's top scorer against the Wizards, recording 26 points on 9-of-13 shooting from the field.","The story incorrectly states that John Wall and Bradley Beal led the Hawks, when in fact Jeff Teague was the top scorer.",llama_small,p2_sent,3886.88
+S011,7,1,Wall went 9 for 15,,,NUMBER,10,"The JSON says Wall went 10-for-15, not 9-for-15.",llama_small,p2_sent,3886.88
+S011,8,1,double double in a row,,,NUMBER,single,"The story claims it was his second double-double in a row, but the JSON shows it was a single-double in a row.",llama_small,p2_sent,3886.88
+S011,9,1,double double of his own,,,NAME,triple,"The story says Paul Millsap had a double-double, but the JSON says he had a triple-double.",llama_small,p2_sent,3886.88
+S011,10,1,21 points and 12 rebounds,281.0,285.0,NUMBER,21 points and 10 rebounds,The story incorrectly states the number of rebounds.,llama_small,p2_sent,3886.88
+S011,11,1,double double of his own,,,NAME,triple,"The story says Bradley Beal had a double-double, but the JSON says he had a triple-double.",llama_small,p2_sent,3886.88
+S011,12,1,six,,,NUMBER,16,"The story says he's averaging six points and six rebounds on the year, but the JSON says he's averaging 16 points and 6 rebounds on the year.",llama_small,p2_sent,3886.88
+S011,13,1,21 points,281.0,282.0,NUMBER,21,"The story says 21 points, but the box score says 21 points is actually scored by Al Horford, not the team.",llama_small,p2_sent,3886.88
+S011,14,1,26 points on 9 -of- 13,,,NUMBER,26 points on 9-of-13,"The JSON says 26 points on 9-of-13, but the story says 26 points on 9-of-13 shooting from the field.",llama_small,p2_sent,3886.88
+S012,1,1,Friday,19.0,19.0,NAME,Saturday,"The story says the game was on Friday, but the JSON says it was on Saturday.",llama_small,p2_sent,3886.88
+S012,2,1,21 -,25.0,26.0,NUMBER,15,"The story incorrectly states the record of the Nuggets, which is 15-32, not 21-25.",llama_small,p2_sent,3886.88
+S012,3,1,six players scored in double,,,NUMBER,four,"The story claims six players scored in double digits, but the JSON shows four other players scored in double digits.",llama_small,p2_sent,3886.88
+S012,4,1,Gary Harris,84.0,85.0,NAME,Wilson Chandler,"The story incorrectly names Gary Harris as the player who followed up with 15 points, seven rebounds, four assists and two steals, when the correct player is Wilson Chandler.",llama_small,p2_sent,3886.88
+S012,5,1,Jameer Nelson,115.0,116.0,NAME,"Nelson, Jameer is not in the JSON, but Nelson is. Jameer Nelson is not in the JSON, but Jameer is not in the JSON, but Nelson is.","The JSON does not have a player named Jameer Nelson, but it does have a player named Nelson.",llama_small,p2_sent,3886.88
+S012,6,1,Jameer Nelson chipped in 17,115.0,119.0,NAME,Jameer Nelson,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S012,7,1,four rebounds,176.0,177.0,NUMBER,three,"The story claims Devin Booker had four rebounds, but the JSON data shows he had three rebounds.",llama_small,p2_sent,3886.88
+S012,8,1,Tyson Chandler finished with 15 points 12 rebounds and two steals,,,NAME,Jamal Murray,"The story incorrectly states that Tyson Chandler finished with 15 points, 12 rebounds, and two steals, when in fact Jamal Murray did.",llama_small,p2_sent,3886.88
+S012,9,1,points 12 rebounds,,,NUMBER,13,"The story says Tyson Chandler finished with 15 points, 12 rebounds and two steals, but the JSON says he had 13 rebounds.",llama_small,p2_sent,3886.88
+S012,10,1,host Phoenix Suns,,,NAME,the Suns host the Phoenix Suns on Friday for their next game.,The story incorrectly states the home team as 'the Suns host the Phoenix Suns on Friday for their next game.' The JSON shows the home team as 'Phoenix'.,llama_small,p2_sent,3886.88
+S013,1,1,Wednesday,22.0,22.0,NAME,Saturday,"The story says the game was played on Wednesday, but the JSON says it was played on Saturday.",llama_small,p2_sent,3886.88
+S013,2,1,strong first,35.0,36.0,WORD,first,"The story says'strong first half' but the JSON says the Cavaliers came into the contest tied with the Heat as the stingiest Eastern Conference team in terms of points allowed, yielding only 95 per game.",llama_small,p2_sent,3886.88
+S013,3,1,points 4 12 FG 0 4 3Pt 5 7 FT,,,NUMBER,"4-12 FG, 0-3 3Pt, 5-7 FT","The story incorrectly states the number of field goals, three-pointers, and free throws made by Kyrie Irving.",llama_small,p2_sent,3886.88
+S013,4,1,29 minutes,126.0,127.0,NUMBER,29,"The JSON says LeBron James played 29 minutes, but the story says 29 minutes, which is correct.",llama_small,p2_sent,3886.88
+S013,5,1,points 2 5 FG 1,,,NUMBER,2-5 FG,"The story says 2-5 FG, but the JSON says 2-5 FG is not present in the box score data.",llama_small,p2_sent,3886.88
+S013,6,1,Vucevic was limited to just,166.0,170.0,NAME,Vucevic,The story incorrectly spelled the player's name.,llama_small,p2_sent,3886.88
+S013,7,1,29 minutes,126.0,127.0,NUMBER,21,"Aaron Gordon played 21 minutes, not 29 minutes.",llama_small,p2_sent,3886.88
+S013,8,1,Vucevic was limited to just,166.0,170.0,NAME,Vucevic,The story incorrectly spelled the player's name.,llama_small,p2_sent,3886.88
+S013,9,1,Monday,307.0,307.0,NAME,Toronto,"The story incorrectly states the opposing team as the Magic, which is the home team, when the correct team is the Toronto Raptors.",llama_small,p2_sent,3886.88
+S014,1,1,Portland Trail Blazers,2.0,4.0,NAME,Trail Blazers,The story misspells the team name.,llama_small,p2_sent,3886.88
+S014,2,1,Trail Blazers,3.0,4.0,NAME,Portland Trail Blazers,The story misspells the team name.,llama_small,p2_sent,3886.88
+S014,3,1,49 percent,72.0,73.0,NUMBER,40,"The story claims the Trail Blazers shot 49 percent from the field, but the JSON shows they shot 49 percent from the field and 40 percent from the three-point line.",llama_small,p2_sent,3886.88
+S014,4,1,Lillard and CJ McCollum,,,NAME,Damian Lillard and CJ McCollum,The story incorrectly spells the names of the players.,llama_small,p2_sent,3886.88
+S014,5,1,went 9 - 19 from the field,,,NUMBER,7-19,"The story incorrectly states Lillard went 9-19 from the field, when the correct value is 7-19.",llama_small,p2_sent,3886.88
+S014,6,1,37 points,160.0,161.0,NUMBER,57,"The story claims he has combined for 37 points over his last two games, but the JSON data shows he has combined for 57 points.",llama_small,p2_sent,3886.88
+S014,7,1,12 -for- 20,,,NUMBER,11,"The JSON says Lillard shot 11-for-20 from the field, not 12-for-20.",llama_small,p2_sent,3886.88
+S014,8,1,56 points and 22 rebounds,225.0,229.0,NUMBER,29 points and 11 rebounds,"The story claims the player combined for 56 points and 22 rebounds over his last two games, but the JSON shows 29 points and 11 rebounds.",llama_small,p2_sent,3886.88
+S014,9,1,21 points,256.0,257.0,NUMBER,16,"The story claims Kobe Bryant scored 21 points, but the JSON says he scored 16 points.",llama_small,p2_sent,3886.88
+S014,10,1,best game of the year,289.0,293.0,NUMBER,29,"The JSON says the player's best game was 29 points, but the story says it was a new season-high in points for the guard.",llama_small,p2_sent,3886.88
+S014,11,1,19 points,328.0,329.0,NUMBER,20,"The story says 19 points, but the box score says 20 points.",llama_small,p2_sent,3886.88
+S014,12,1,first time he 's surpassed,356.0,360.0,NUMBER,29,"The JSON says the player surpassed the 20-point mark in 29 minutes, but the story says it was the first time he's surpassed the 20-point mark this season.",llama_small,p2_sent,3886.88
+S014,13,1,strong contributions off their bench,386.0,390.0,WORD,bench,"The story says 'off their bench', but the JSON says 'bench' is where Meyers Leonard played, not where he came from.",llama_small,p2_sent,3886.88
+S014,14,1,19 points,328.0,329.0,NUMBER,18,"The story says 19 points, but the box score says 18 points.",llama_small,p2_sent,3886.88
+S014,15,1,Portland Trail Blazers,2.0,4.0,NAME,Trail Blazers,The story incorrectly spelled the team name as 'Portland Trail Blazers' instead of 'Trail Blazers',llama_small,p2_sent,3886.88
+S015,1,1,Toronto Raptors,2.0,3.0,NAME,Miami,"The story incorrectly names the home team as Toronto Raptors, while the JSON data indicates it was the Miami Heat.",llama_small,p2_sent,3886.88
+S015,2,1,Raptors got off to a,31.0,35.0,NAME,Heat,The story incorrectly names the opposing team.,llama_small,p2_sent,3886.88
+S015,3,1,They were also able to,56.0,60.0,WORD,,"The story says the Heat was outscored by 50-38, but the JSON says the Heat was outscored by 58-39.",llama_small,p2_sent,3886.88
+S015,4,1,points 8 18 FG 1 4,,,NUMBER,8-16,"The story incorrectly states Kyle Lowry's field goal attempts as 8-18, when the correct value is 8-16.",llama_small,p2_sent,3886.88
+S015,5,1,"30 points ( 10 - 17 FG , 0 - 1 3Pt , 10 - 13 FT )",,,NUMBER,"10-17 FG, 1-13 FT","The story incorrectly states DeMar DeRozan had 30 points with 0-1 3Pt, but the correct number of 3Pt is 10-13 FT.",llama_small,p2_sent,3886.88
+S015,6,1,points 13,,,NUMBER,20,"The story says DeMarre Carroll chipped in with 13 points, but the JSON says he scored 20 points.",llama_small,p2_sent,3886.88
+S015,7,1,bench,193.0,193.0,WORD,bench,The story says 'off the bench' but the JSON says'starter',llama_small,p2_sent,3886.88
+S015,8,1,led the way with 20,237.0,241.0,NAME,Goran Dragic,The story incorrectly states Gerald Green led the way when the JSON says Goran Dragic contributed 18 points off the bench.,llama_small,p2_sent,3886.88
+S015,9,1,back to back,,,WORD,back-to-back,The story incorrectly uses the phrase 'back to back' instead of the correct phrase 'back-to-back'.,llama_small,p2_sent,3886.88
+S015,10,1,three,301.0,301.0,NUMBER,two,"The story says Miami has now lost three straight games, but the JSON shows they lost two.",llama_small,p2_sent,3886.88
+S015,11,1,Hassan Whiteside,305.0,306.0,NAME,Beno Udrih,The story incorrectly names the player who had a strong showing.,llama_small,p2_sent,3886.88
+S015,12,1,37 points,345.0,346.0,NUMBER,21,"The story claims the player has combined for 37 points in the last two games, but the JSON shows he has 21 points.",llama_small,p2_sent,3886.88
+S015,13,1,Miami will host the Trail,,,NAME,Blazers,"The story mentions the wrong team, the correct team is Blazers.",llama_small,p2_sent,3886.88
+S016,1,1,Oklahoma City,2.0,3.0,NAME,Utah,"The story incorrectly names the visiting team as Oklahoma City, when it should be Utah.",llama_small,p2_sent,3886.88
+S016,2,1,This marks Oklahoma City 's,,,NAME,Oklahoma City's,"The JSON says 'Oklahoma City's', but the story says 'This marks Oklahoma City'",llama_small,p2_sent,3886.88
+S016,3,1,third quarter,49.0,50.0,NUMBER,second,"The story says the Jazz were out-scored 29-8 in the third quarter, but the correct quarter is the second quarter.",llama_small,p2_sent,3886.88
+S016,4,1,points 15,,,NUMBER,20,"The story claims Russell Westbrook scored 15 points, but the JSON shows he scored 20 points.",llama_small,p2_sent,3886.88
+S016,5,1,points seven,,,NUMBER,six,"The story says the Thunder will extend their winning streak to seven games, but the JSON says they will extend their winning streak to six games.",llama_small,p2_sent,3886.88
+S016,6,1,seven points,267.0,268.0,NUMBER,15,"The story says Gordon Hayward had seven points, but the box score says he had 15 points.",llama_small,p2_sent,3886.88
+S016,7,1,six players,297.0,298.0,NUMBER,five,"The story claims six players scored in double figures, but the box score data shows only five starters combined for 34 points.",llama_small,p2_sent,3886.88
+S016,8,1,six points,237.0,238.0,NUMBER,7,"The story says Hayward finished with six points, but the box score says he finished with 7 points.",llama_small,p2_sent,3886.88
+S016,9,1,30 minutes,199.0,200.0,NUMBER,22,"The story says Derrick Favors played 30 minutes, but the box score says he played 22 minutes.",llama_small,p2_sent,3886.88
+S016,10,1,six,237.0,237.0,NUMBER,six,"The story claims the Jazz had six players reach double figures in points, but the JSON shows only five starters combined for 34 points.",llama_small,p2_sent,3886.88
+S016,11,1,six points,237.0,238.0,NUMBER,7,"The story says Gordon Hayward had six points, but the box score says he had 7 points.",llama_small,p2_sent,3886.88
+S016,12,1,two in a row,435.0,438.0,NUMBER,three,"The story claims the Jazz have lost two in a row, but the box score shows they lost two games in a row, which is three.",llama_small,p2_sent,3886.88
+S016,13,1,sixth,,,NUMBER,fifth,"The story says the Thunder had a sixth straight win, but the JSON says it was the fifth straight win.",llama_small,p2_sent,3886.88
+S016,14,1,sixth,,,NUMBER,fifth,"The story says the Thunder had their sixth straight win, but the JSON says it was their fifth.",llama_small,p2_sent,3886.88
+S017,1,1,Saturday,18.0,18.0,NAME,Tuesday,"The story says the game was on Saturday, but the JSON says it was on Tuesday.",llama_small,p2_sent,3886.88
+S017,3,1,Cavaliers 33 -34,,,NUMBER,44-22,"The story incorrectly states the Cavaliers' record as 33-34, when the correct record is 44-22.",llama_small,p2_sent,3886.88
+S017,4,1,63 percent,140.0,141.0,NUMBER,60,"The story claims Cleveland posted a 63 percent success rate from three-point range, but the JSON says 63 percent is the Pistons' success rate from behind the arc.",llama_small,p2_sent,3886.88
+S017,5,1,Andre Drummond,164.0,165.0,NAME,LeBron James,"The story incorrectly identifies Andre Drummond as the player who led the way for the Cavs, when in fact it was LeBron James.",llama_small,p2_sent,3886.88
+S017,6,1,six,193.0,193.0,NUMBER,13,"The story says Reggie Jackson had six points, but the box score says he had 13 points.",llama_small,p2_sent,3886.88
+S017,7,1,Kentavious Caldwell-Pope,205.0,206.0,NAME,Tobias,"The story incorrectly names the player who led the bench with 11 points, two rebounds, three assists, and one steal.",llama_small,p2_sent,3886.88
+S017,8,1,Marcus Morris matched Morris 's,223.0,227.0,NAME,Maurice,The story incorrectly spelled the name of the player as 'Marcus' instead of 'Maurice'.,llama_small,p2_sent,3886.88
+S017,9,1,productive in a reserve role,244.0,248.0,WORD,as a starter,"The story says Ish Smith was productive in a reserve role, but the JSON says he started.",llama_small,p2_sent,3886.88
+S017,10,1,Richard Jefferson,264.0,265.0,NAME,"Jefferson, Beno","The JSON lists Beno Udrih as the player, not Richard Jefferson.",llama_small,p2_sent,3886.88
+S017,11,1,points three assists two rebounds,,,NUMBER,13,"The story says Deron Williams had 13 points, three assists, two rebounds and a steal, but the JSON says he had 13 points, three assists, two rebounds and a steal, which matches the story.",llama_small,p2_sent,3886.88
+S017,12,1,Korver totaled 12 points five,,,NAME,Kyle Korver,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S017,13,1,Richard Jefferson,264.0,265.0,NAME,LeBron,"The story incorrectly names the player who led the bench, while the box score data shows LeBron James led the bench.",llama_small,p2_sent,3886.88
+S017,14,1,Pistons head back home to,357.0,361.0,NAME,Atlanta,"The story incorrectly states the opponent as the Atlanta Hawks, while the JSON indicates the opponent is the Utah Jazz.",llama_small,p2_sent,3886.88
+S018,1,1,Oracle Arena in Oakland,26.0,29.0,NAME,Chase Center,"The story mentions Oracle Arena, but the correct venue is Chase Center.",llama_small,p2_sent,3886.88
+S018,2,1,42 percent,42.0,43.0,NUMBER,45,"The story claims the Warriors shot 42 percent from the field, but the JSON shows they shot 45 percent.",llama_small,p2_sent,3886.88
+S018,3,1,Warriors,4.0,4.0,NAME,Golden State,The story incorrectly names the team as 'Warriors' instead of 'Golden State'.,llama_small,p2_sent,3886.88
+S018,4,1,points 12 - 23 FG 4 - 10 3Pt,,,NUMBER,"12-23 FG, 4-10 3PtA","The JSON shows 12-23 FG, 4-10 3PtA, not 12-23 FG, 4-10 3Pt.",llama_small,p2_sent,3886.88
+S018,5,1,39 points 13 assists,,,NUMBER,"33 points, 5 assists, 4 rebounds and 3 steals","The story claims Curry had 39 points, 13 assists, and 3 steals, but the JSON shows he had 33 points, 5 assists, 4 rebounds, and 3 steals.",llama_small,p2_sent,3886.88
+S018,6,1,12 points ( 4 -,161.0,165.0,NUMBER,12,"The JSON says Draymond Green had 12 points, but the story says 12 points (4-8 FG, 0-2 3Pt, 4-6 FT)",llama_small,p2_sent,3886.88
+S018,7,1,two game,,,NUMBER,three,"The story says Stephen Curry is riding a two-game stretch, but the JSON shows he's actually riding a three-game stretch.",llama_small,p2_sent,3886.88
+S018,8,1,points 11 points six rebounds,,,NUMBER,"11 points ( 3 - 11 FG, 2 - 4 3Pt, 3 - 4 FT ) and six rebounds of his own.","The story says Harrison Barnes had 11 points and six rebounds, but the JSON says 11 points ( 3 - 11 FG, 2 - 4 3Pt, 3 - 4 FT ) and six rebounds.",llama_small,p2_sent,3886.88
+S018,9,1,Clippers,14.0,14.0,NAME,Warriors,The story incorrectly names the opposing team.,llama_small,p2_sent,3886.88
+S018,10,1,points 7 10 FG 5 10 FT,,,NUMBER,"7-10 FG, 5-10 FT",The story incorrectly states the number of field goals and free throws made by Jordan.,llama_small,p2_sent,3886.88
+S018,11,1,second double -,315.0,317.0,NUMBER,first,"The story says'second double-double', but the JSON says 'first double-double'.",llama_small,p2_sent,3886.88
+S018,12,1,points was next with a,,,NUMBER,11,"The story says Jamal Crawford scored 12 points, but the JSON says he scored 11 points.",llama_small,p2_sent,3886.88
+S018,13,1,Portland Trail Blazers,394.0,396.0,NAME,Minnesota Timberwolves,The story incorrectly states the opponent for the Clippers' next game.,llama_small,p2_sent,3886.88
+S019,1,1,evening,19.0,19.0,WORD,night,"The story says the game was played in the evening, but the JSON says it was played at night.",llama_small,p2_sent,3886.88
+S019,2,1,were expected,23.0,24.0,WORD,were not,"The story says the Heat were expected to win easily, but the JSON does not provide information about the Heat's expected performance.",llama_small,p2_sent,3886.88
+S019,3,1,entirely of the second half,,,WORD,first,"The story says the Heat led for the entirety of the second half, but the JSON shows they led for the entirety of the game.",llama_small,p2_sent,3886.88
+S019,4,1,assist to turnover,,,WORD,turnover to assist,"The JSON shows the number of assists and turnovers, but the story incorrectly describes the assist-to-turnover ratio.",llama_small,p2_sent,3886.88
+S019,5,1,six of their last six,,,NUMBER,five,"The story claims the Pacers have won five of their last six games, but the JSON shows they have won five of their last six games.",llama_small,p2_sent,3886.88
+S019,6,1,Paul George,128.0,129.0,NAME,James Johnson,The story incorrectly names the player who led the way for Indiana.,llama_small,p2_sent,3886.88
+S019,7,1,points three rebounds,,,NUMBER,two,"The story says Jeff Teague had three rebounds, but the JSON says he had two.",llama_small,p2_sent,3886.88
+S019,8,1,Thaddeus Young,167.0,168.0,NAME,Udonis Haslem,"The story mentions Thaddeus Young, but the JSON data shows Udonis Haslem as the player with the matching stats.",llama_small,p2_sent,3886.88
+S019,9,1,Hassan Whiteside and Dion Waiters,,,NAME,Hassan Whiteside and Dion Waiters co-led the Heat with matching 22-point efforts.,The JSON says 'co-led' but the story says 'co-led the Heat with matching 22-point efforts'.,llama_small,p2_sent,3886.88
+S019,10,1,four of their last six,215.0,219.0,NUMBER,six,"The story claims the Heat have won four of their last six games, but the correct number of games is six.",llama_small,p2_sent,3886.88
+S019,11,1,accumulated 21 points two rebounds,,,NUMBER,"21 points, four assists, two rebounds and two steals","The story incorrectly states Goran Dragic accumulated 21 points, two rebounds and four assists, when the JSON shows 21 points, four assists, two rebounds and two steals.",llama_small,p2_sent,3886.88
+S019,12,1,points and,266.0,267.0,WORD,rebounds,"The story says Hassan Whiteside recorded a double-double, totaling 22 points and and rebounds, but the JSON says he recorded a double-double, totaling 22 points and 17 rebounds.",llama_small,p2_sent,3886.88
+S019,13,1,Dion Waiters was the only,271.0,275.0,NAME,Hassan Whiteside,"The story incorrectly identifies Dion Waiters as the only other starter in double figures, when the JSON shows Hassan Whiteside as the other starter with 22 points.",llama_small,p2_sent,3886.88
+S019,14,1,22 -point,,,NUMBER,21,"The JSON says 21, but the story says 22",llama_small,p2_sent,3886.88
+S020,1,1,Phoenix Suns,2.0,3.0,NAME,Pelicans,"The story incorrectly names the home team as 'Phoenix Suns', which should be 'Pelicans'.",llama_small,p2_sent,3886.88
+S020,2,1,Pelicans,22.0,22.0,NAME,Suns,"The story incorrectly names the opposing team as Pelicans, when it should be Suns.",llama_small,p2_sent,3886.88
+S020,3,1,34 18,,,NUMBER,34-32,"The JSON says the margin was 34-32, but the story says 34-18.",llama_small,p2_sent,3886.88
+S020,4,1,back in the second,93.0,96.0,WORD,fourth,"The story says 'back in the second', but the correct term is 'fourth' quarter.",llama_small,p2_sent,3886.88
+S020,5,1,Bledsoe,119.0,119.0,NAME,Eric Bledsoe,The story misspells the player's name.,llama_small,p2_sent,3886.88
+S020,6,1,was right behind him with,141.0,145.0,WORD,was not,"The story says Devin Booker was right behind him, but the JSON says he was not.",llama_small,p2_sent,3886.88
+S020,7,1,Chriss followed with 12 points,159.0,163.0,NAME,Marquese Chriss,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S020,8,1,led the bench with 12,179.0,183.0,NAME,PJ Tucker,The story incorrectly spelled the player's name as 'led the bench' instead of 'led the bench with PJ Tucker',llama_small,p2_sent,3886.88
+S020,9,1,Phoenix,2.0,2.0,NAME,Pelicans,"The story incorrectly names the away team as Phoenix, while the JSON data shows it as Pelicans.",llama_small,p2_sent,3886.88
+S020,10,1,Chriss followed with 12 points,159.0,163.0,NAME,Marquese Chriss,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S020,11,1,Chriss,159.0,159.0,NAME,Marquese Chriss,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S020,13,1,seven seven seven seven seven,,,NUMBER,four,"The story says Eric Bledsoe had seven assists, but the JSON says he had four.",llama_small,p2_sent,3886.88
+S020,14,1,six,270.0,270.0,NUMBER,two,"The story says Terrence Jones had six assists, but the box score says he had zero assists.",llama_small,p2_sent,3886.88
+S020,15,1,Buddy Hield,328.0,329.0,NAME,Jrue Holiday,The story incorrectly identifies the player who led the second unit.,llama_small,p2_sent,3886.88
+S020,16,1,last place,351.0,352.0,NAME,Southwest Division,"The story says the Suns are in last place in the Western Conference's Southwest Division, but the JSON says the division is not specified.",llama_small,p2_sent,3886.88
+S020,17,1,Anthony Davis was the player,,,NAME,Jrue Holiday,"The story incorrectly identifies the player of the game as Anthony Davis, when the JSON data shows it was Jrue Holiday.",llama_small,p2_sent,3886.88
+S020,18,1,an assist,189.0,190.0,WORD,rebounds,The story says 'an assist' but the JSON says'rebounds'.,llama_small,p2_sent,3886.88
+S020,19,1,points seven assists four rebounds,,,NUMBER,six,"The story says Jrue Holiday had seven assists, but the JSON says he had six.",llama_small,p2_sent,3886.88
+S020,20,1,Hield followed with 11 points,410.0,414.0,NAME,Buddy Hield,The story incorrectly spelled the player's name.,llama_small,p2_sent,3886.88
+S020,21,1,Buddy Hield,328.0,329.0,NAME,Jrue Holiday,"The story incorrectly identifies the player who led the bench with 11 points, four assists, a rebound, and a steal.",llama_small,p2_sent,3886.88
+S020,22,1,Pelicans remain in last place,444.0,448.0,NAME,Pelicans,"The correct team name is 'Pelicans', not'remain in last place'",llama_small,p2_sent,3886.88
+S020,23,1,Warriors,465.0,465.0,NAME,Suns,"The story mentions the Golden State Warriors, but the box score data indicates the opposing team was the Suns.",llama_small,p2_sent,3886.88
+S021,1,1,Saturday,18.0,18.0,NAME,Friday,"The story says the game was on Saturday, but the box score says it was on Friday.",llama_small,p2_sent,3886.88
+S021,2,1,came in to Saturday's contest,,,WORD,Friday's,"The story says the Rockets came in to Saturday's contest, but the box score says the game was on Friday.",llama_small,p2_sent,3886.88
+S021,3,1,battled back to make it,90.0,94.0,WORD,led,"The JSON says the Rockets led by 18, but the story says they battled back to make it a one-point game.",llama_small,p2_sent,3886.88
+S021,4,1,fourth win,,,NUMBER,third,"The story claims the Rockets had their fourth win in five games, but the JSON shows they had their third win.",llama_small,p2_sent,3886.88
+S021,5,1,points nine an assist and,,,NUMBER,10 assists and 10 rebounds,"The story claims James Harden had 9 assists, but the JSON shows he had 10 assists and 10 rebounds.",llama_small,p2_sent,3886.88
+S021,6,1,points two an assist and,,,NUMBER,one,"The story says Eric Gordon had two assists, but the JSON says he had one.",llama_small,p2_sent,3886.88
+S021,7,1,points three rebounds three assists,,,NUMBER,"17 points, two rebounds, three assists, two steals and two blocks.",The story incorrectly states the number of rebounds and assists.,llama_small,p2_sent,3886.88
+S021,8,1,double double,,,NAME,triple,"The story incorrectly states that Trevor Ariza had a double-double, when in fact he had a triple-double.",llama_small,p2_sent,3886.88
+S021,9,1,double double,,,NAME,triple,The story incorrectly describes Trevor Ariza's double-double as a triple-double.,llama_small,p2_sent,3886.88
+S021,10,1,17 points three rebounds three assists two steals and two blocks,,,NUMBER,15,"The JSON says Sam Dekker had 15 points, but the story says 17 points.",llama_small,p2_sent,3886.88
+S021,11,1,five blocks,180.0,181.0,NUMBER,three,"The story claims James Harden had five blocks, but the JSON shows he had three.",llama_small,p2_sent,3886.88
+S021,12,1,Gay struggled in this one,,,NAME,Rudy Gay,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S021,13,1,Collison was next with a,330.0,334.0,NAME,Collison,The story misspelled Darren Collison's name.,llama_small,p2_sent,3886.88
+S021,14,1,Collison was next with 18,360.0,364.0,NAME,Darren Collison,The story misspelled Darren Collison's name.,llama_small,p2_sent,3886.88
+S021,15,1,Gay posted a 10 -point,,,NAME,"Rudy Gay posted a 10-point, 12-rebound double-double that also included three assists, three steals and three blocks.","The story incorrectly states the number of rebounds, which is 12 according to the JSON.",llama_small,p2_sent,3886.88
+S021,16,1,Collison,330.0,330.0,NAME,Collison,The story misspells the player's name as 'Collison' instead of 'Collison' in the JSON.,llama_small,p2_sent,3886.88
+S021,17,1,23 points,171.0,172.0,NUMBER,32,"The story claims DeMarcus Cousins scored 23 points, but the box score says he scored 32 points.",llama_small,p2_sent,3886.88
+S022,1,1,New Orleans,2.0,3.0,NAME,Minnesota,"The story incorrectly names the home team as New Orleans, when the JSON says Minnesota.",llama_small,p2_sent,3886.88
+S022,2,1,the Timberwolves looked great after,,,WORD,,"The Timberwolves did not look great after the first quarter, they led 40-28.",llama_small,p2_sent,3886.88
+S022,3,1,36 minutes,,,NUMBER,39,"The JSON says Anthony Davis played 39 minutes, but the story says 36 minutes.",llama_small,p2_sent,3886.88
+S022,4,1,22 percent,79.0,80.0,NUMBER,46,"The story claims the Pelicans held the Timberwolves to 22 percent from three-point range, but the JSON shows 22 percent is incorrect and the correct value is 46 percent from the field.",llama_small,p2_sent,3886.88
+S022,5,1,34,104.0,104.0,NUMBER,43,"The story says the Timberwolves were outrebounded by 34, but the JSON says they were outrebounded by 43.",llama_small,p2_sent,3886.88
+S022,6,1,Anthony Davis,106.0,107.0,NAME,Karl-Anthony Towns,The story incorrectly names the player who led the Timberwolves in scoring.,llama_small,p2_sent,3886.88
+S022,7,1,six rebounds,152.0,153.0,NUMBER,12,"The story says Jrue Holiday had six rebounds, but the JSON says he had 12 rebounds.",llama_small,p2_sent,3886.88
+S022,8,1,17 points on 7 -of-,,,NUMBER,17 points on 7-of-10 shooting,"The story says 7-of-, but the JSON says 7-of-10",llama_small,p2_sent,3886.88
+S022,9,1,eight rebounds three,,,NUMBER,seven,"The JSON says Gorgui Dieng had seven rebounds, not eight.",llama_small,p2_sent,3886.88
+S022,10,1,led Minnesota in scoring,194.0,197.0,NAME,led the team in scoring,The story incorrectly specifies the team name as Minnesota instead of the team that Buddy Hield played for.,llama_small,p2_sent,3886.88
+S022,11,1,Gorgui Dieng,179.0,180.0,NAME,Gorgui Dieng,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S022,12,1,Karl-Anthony Towns finished with a,,,NAME,Karl-Anthony Towns,"The JSON says Karl-Anthony Towns, but the story says Karl-Anthony Towns finished with a team-high 36 points, while Andrew Wiggins followed up with 29 points.",llama_small,p2_sent,3886.88
+S022,13,1,Pelicans,4.0,4.0,NAME,Timberwolves,"The story incorrectly names the home team as Pelicans, when the JSON says it's the Timberwolves.",llama_small,p2_sent,3886.88
+S022,14,1,Anthony Davis,106.0,107.0,NAME,Karl-Anthony Towns,The story incorrectly names the player who led the way for Minnesota.,llama_small,p2_sent,3886.88
+S022,15,1,Holiday finished second on the,296.0,300.0,NAME,"Jrue Holiday finished second on the team with 25 points, 12 assists and five steals.","The story incorrectly states Jrue Holiday finished second on the team, when in fact he was the first player mentioned in the sentence.",llama_small,p2_sent,3886.88
+S023,1,1,Wednesday,19.0,19.0,NAME,Sunday,"The story says the game was played on Wednesday, but the JSON says it was played on Sunday.",llama_small,p2_sent,3886.88
+S023,2,1,Dallas was expected,21.0,23.0,WORD,The Mavericks were expected,The story says 'Dallas was expected' but the JSON says 'The Mavericks were expected',llama_small,p2_sent,3886.88
+S023,3,1,entirety,46.0,46.0,WORD,half,"The JSON says 'half', but the story says 'entirety'",llama_small,p2_sent,3886.88
+S023,4,1,Defense was key for the,64.0,68.0,WORD,,"The story says 'Defense was key for the Mavericks', but the JSON does not provide information about the defense.",llama_small,p2_sent,3886.88
+S023,5,1,Justin Anderson,88.0,89.0,NAME,Justin Anderson,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S023,6,1,19 points,101.0,102.0,NUMBER,13,"The story says Justin Anderson dropped 19 points, but the box score says he scored 13 points.",llama_small,p2_sent,3886.88
+S023,7,1,was the only other,133.0,136.0,NAME,"Deron Williams was the only starter in double figures, as he accumulated 13 points, five rebounds and eight assists.",The story incorrectly states 'other' instead of'starter'.,llama_small,p2_sent,3886.88
+S023,8,1,led the bench,156.0,158.0,WORD,started,"The story says Justin Anderson led the bench, but the JSON says he started.",llama_small,p2_sent,3886.88
+S023,9,1,double double,,,WORD,triple,"The story says Julius Randle recorded a double-double, but the JSON shows he recorded a triple-double.",llama_small,p2_sent,3886.88
+S023,10,1,Lakers,8.0,8.0,NAME,Mavericks,The story incorrectly names the team that Justin Anderson played for.,llama_small,p2_sent,3886.88
+S023,11,1,only other,135.0,136.0,WORD,only,The story says 'only other Laker' but the JSON says 'only other' is not accurate since there are multiple non-starting players in double figures.,llama_small,p2_sent,3886.88
+S023,12,1,Portland Trail Blazers,243.0,245.0,NAME,Trail Blazers,The story misspells the name of the opposing team.,llama_small,p2_sent,3886.88
+S023,13,1,five straight,,,NUMBER,three,"The story claims the Mavericks have won five straight games, but the JSON shows they have won three straight games.",llama_small,p2_sent,3886.88
+S023,14,1,Justin Anderson was the player,272.0,276.0,NAME,Harrison Barnes,"The story incorrectly identifies Justin Anderson as the player of the game, when the correct player is Harrison Barnes.",llama_small,p2_sent,3886.88
+S023,15,1,points,102.0,102.0,NUMBER,13,"The story says 19 points, but the JSON says 13 points.",llama_small,p2_sent,3886.88
+S024,1,1,Golden State,2.0,3.0,NAME,Warriors,The story incorrectly spelled the team name as 'Golden State' instead of 'Warriors'.,llama_small,p2_sent,3886.88
+S024,2,1,Warriors,4.0,4.0,NAME,Kings,The story incorrectly names the visiting team.,llama_small,p2_sent,3886.88
+S024,3,1,Stephen Curry led the way,76.0,80.0,NAME,Klay Thompson,"The story incorrectly states that Stephen Curry led the way, when the JSON actually shows Klay Thompson as the top scorer.",llama_small,p2_sent,3886.88
+S024,4,1,points four,,,NUMBER,three,"The story says Green had four rebounds, but the box score says he had three.",llama_small,p2_sent,3886.88
+S024,5,1,minutes off the bench,132.0,135.0,WORD,bench,"The story says Skal Labissiere came off the bench, but the JSON says he played 27 minutes.",llama_small,p2_sent,3886.88
+S024,6,1,Hield's,,,NAME,Buddy,The story misspells the player's name.,llama_small,p2_sent,3886.88
+S024,7,1,23 points,100.0,101.0,NUMBER,27,"The story claims Draymond Green scored 23 points, but the JSON says he scored 27 points.",llama_small,p2_sent,3886.88
+S024,8,1,Labissiere led the second unit,188.0,192.0,NAME,"Kings' other rookie sensation, Skal Labissiere",The story incorrectly identifies the unit Skal Labissiere led.,llama_small,p2_sent,3886.88
+S024,9,1,Ben McLemore,206.0,207.0,NAME,Skal Labissiere,The story incorrectly names the player who led the second unit.,llama_small,p2_sent,3886.88
+S024,10,1,paced the Kings with a,227.0,231.0,NAME,played,"The story incorrectly states that Stephen Curry paced the Kings, when in fact he paced the Warriors.",llama_small,p2_sent,3886.88
+S024,11,1,bench - leading 22 points,257.0,261.0,NUMBER,22,"The story says Buddy Hield scored 22 points off the bench, but the JSON says he scored 22 points as a starter.",llama_small,p2_sent,3886.88
+S024,12,1,23 points,100.0,101.0,NUMBER,24,"The story says Draymond Green scored 23 points, but the box score says he scored 24 points.",llama_small,p2_sent,3886.88
+S024,13,1,Cauley-Stein totaled 12 points and,295.0,299.0,NUMBER,4,"The story claims Willie Cauley-Stein totaled 12 points and four rebounds, but the box score says he had 12 points and 4 rebounds.",llama_small,p2_sent,3886.88
+S025,1,1,San Antonio,2.0,3.0,NAME,Boston,"The story incorrectly names the home team as San Antonio, when the JSON says it's Boston.",llama_small,p2_sent,3886.88
+S025,2,1,Spurs 13 - 3,,,NAME,Celtics,"The story incorrectly names the away team as Spurs, while the JSON data indicates it was the Celtics.",llama_small,p2_sent,3886.88
+S025,3,1,8 of 18,,,NUMBER,18,"The story says Kawhi Leonard shot 8 of 18, but the box score says he shot 8 of 18 is incorrect, he actually shot 8 of 18 is correct, but the correct value is 18, which is correct.",llama_small,p2_sent,3886.88
+S025,4,1,added four,,,NUMBER,three,"The story says Kawhi Leonard added four assists, but the box score says he had three assists.",llama_small,p2_sent,3886.88
+S025,5,1,Avery Bradley added 19 points,139.0,143.0,NAME,"Avery Bradley added 19 points on 8-of-15 shooting, while David Lee chipped in 15 points off the bench.","The story incorrectly states Avery Bradley's points, which should be 19, not the number of points he added.",llama_small,p2_sent,3886.88
+S025,6,1,Isaiah Thomas,163.0,164.0,NAME,Marcus Smart,The story incorrectly names the player who led the Celtics in scoring.,llama_small,p2_sent,3886.88
+S025,7,1,19 points,133.0,134.0,NUMBER,15,"The story says Avery Bradley had 19 points, but the box score says he had 15 points.",llama_small,p2_sent,3886.88
+S025,8,1,points four,,,NUMBER,three,"The story says LaMarcus Aldridge had four points, but the box score says he had three points.",llama_small,p2_sent,3886.88
+S025,9,1,46 percent from the field,264.0,268.0,NUMBER,47,"The story claims the Celtics shot 46 percent from the field, but the JSON says 46 percent is the same as the Spurs' field goal percentage.",llama_small,p2_sent,3886.88
+S026,1,1,Phoenix Suns ( 11 - 8,2.0,7.0,NAME,,"The team name is correct, but the record is incorrect.",llama_small,p2_sent,3886.88
+S026,2,1,Suns got to a quick,,,NAME,Pacers,The story incorrectly names the opposing team.,llama_small,p2_sent,3886.88
+S026,3,1,48 percent,74.0,75.0,NUMBER,50,"The story says the Suns shot 48 percent from the three-point line, but the JSON says 50 percent.",llama_small,p2_sent,3886.88
+S026,4,1,Dragic and Goran,115.0,117.0,NAME,Eric,"The story incorrectly names the player as Eric Dragic, when the correct name is Goran Dragic.",llama_small,p2_sent,3886.88
+S026,5,1,the three -point,,,WORD,three-point line,The story says 'three-point line' but the JSON says 'three-point arc',llama_small,p2_sent,3886.88
+S026,6,1,second double,175.0,176.0,WORD,,The story says'second double' but the JSON says 'fifth double-double'.,llama_small,p2_sent,3886.88
+S026,7,1,"Dragic had 34 points ( 11 - 15 FG , 5 - 6 3Pt , 7 - 7 FT )",185.0,204.0,NUMBER,"11-20 FG, 5-6 3Pt, 4-7 FT",The story incorrectly states Dragic's field goal attempts and free throw attempts.,llama_small,p2_sent,3886.88
+S026,8,1,double double,,,NAME,double-double,"The JSON says 'double-double', but the story says'second double'",llama_small,p2_sent,3886.88
+S026,9,1,15 points ( 6 -,276.0,280.0,NUMBER,14,"The story says Roy Hibbert recorded 15 points, but the box score says he recorded 14 points.",llama_small,p2_sent,3886.88
+S026,10,1,double double,,,NAME,double-double,"The JSON says 'double-double', but the story says'second double'",llama_small,p2_sent,3886.88
+S026,11,1,17 points,335.0,336.0,NUMBER,17,"The story says CJ Miles had 17 points, but the JSON says he had 17 points (6-9 FG, 1-3 3Pt, 4-4 FT) and a pair of rebounds.",llama_small,p2_sent,3886.88
+S026,12,1,double double,,,NAME,double-double,"The JSON says 'double-double', but the story says'second double'",llama_small,p2_sent,3886.88
+S026,13,1,15 points,276.0,277.0,NUMBER,14,"The story says Roy Hibbert recorded 15 points, but the JSON says he recorded 14 points.",llama_small,p2_sent,3886.88
+S026,14,1,year,431.0,431.0,NUMBER,season,The story says 'year' but the JSON says'season',llama_small,p2_sent,3886.88
+S026,15,1,17 points,335.0,336.0,NUMBER,17,"The story says CJ Miles scored 17 points, but the JSON says he scored 17 points (6-9 FG, 1-3 3Pt, 4-4 FT)",llama_small,p2_sent,3886.88
+S026,16,1,year,431.0,431.0,NUMBER,season,The story says 'year' but the JSON says'season',llama_small,p2_sent,3886.88
+S026,17,1,CJ Miles was the only,486.0,490.0,NAME,Gerald Green,"The story incorrectly states CJ Miles was the only other starter to reach double figures in points, when the JSON shows Gerald Green also reached double figures.",llama_small,p2_sent,3886.88
+S026,18,1,17 points while also adding,,,NUMBER,17 points while also adding seven rebounds and a steal,"The story says 17 points while also adding seven rebounds and a steal, but the JSON says 17 points while also adding seven rebounds and a steal, which is correct.",llama_small,p2_sent,3886.88
+S026,19,1,Mavericks on Friday while the,,,NAME,Dallas,"The story incorrectly names the opposing team as the Mavericks instead of the correct team, the Dallas Mavericks.",llama_small,p2_sent,3886.88
+S027,1,1,New York,2.0,3.0,NAME,Houston,"The story incorrectly names the away team as New York, while the JSON data indicates it was Houston.",llama_small,p2_sent,3886.88
+S027,2,1,Knicks,4.0,4.0,NAME,Houston,"The story incorrectly names the visiting team as Knicks, while the JSON shows it as Rockets.",llama_small,p2_sent,3886.88
+S027,3,1,superior shooters,62.0,63.0,WORD,"The Rockets were the superior shooters in this game, going 58 percent from the field and 33 percent from the three-point line, while the Knicks went 58 percent from the floor and 33 percent from beyond the arc.","The story says the Rockets were the superior shooters, but the JSON shows the Knicks were the superior shooters.",llama_small,p2_sent,3886.88
+S027,4,1,31 points,138.0,139.0,NUMBER,31,"The story says 31 points, but the JSON says 26 points for James Harden.",llama_small,p2_sent,3886.88
+S027,5,1,career-high of 31 points,,,NUMBER,31,"The JSON box score shows a season-high and game-high 31 points, but the story mentions a career-high of 31 points.",llama_small,p2_sent,3886.88
+S027,6,1,second consecutive,,,NUMBER,third,"The JSON says the double-double was the third in a row, but the story says it was the second.",llama_small,p2_sent,3886.88
+S027,7,1,Kristaps Porzingis,217.0,218.0,NAME,"Porzingis was the only other starter in double figures, finishing with 20 points (8-13 FG, 0-1 3Pt, 4-4 FT), 13 rebounds and two blocked shots.","The JSON says Porzingis' last name is spelled 'Porzingis', but the story says it's spelled 'Porzingis' with a capital 'P'.",llama_small,p2_sent,3886.88
+S027,8,1,Anthony,,,NAME,Afflalo,The story incorrectly names the player who posted a season-high and game-high 31 points.,llama_small,p2_sent,3886.88
+S028,1,1,Saturday,17.0,17.0,NAME,Wednesday,"The story says the game was on Saturday, but the JSON says it was on Wednesday.",llama_small,p2_sent,3886.88
+S028,2,1,Wizards ( 31 - 21 ),21.0,26.0,NUMBER,31-21,"The story says the Wizards' record is 31-21, but the JSON says it's 31-21 in the vis_line field.",llama_small,p2_sent,3886.88
+S028,3,1,Nets ( 9 - 44 ),,,NAME,Washington,The story incorrectly names the opposing team as Nets instead of Washington.,llama_small,p2_sent,3886.88
+S028,4,1,Wizards 31 -44,,,NUMBER,31-21,"The story says the Wizards' record is 31-44, but the JSON says it's 31-21.",llama_small,p2_sent,3886.88
+S028,5,1,23 -point efforts,,,NUMBER,"23-point, 12-assist double-double","The story says John Wall posted a 23-point, 12-assist double-double, but the JSON says 12-assist double-double included six rebounds, two blocks and one steal.",llama_small,p2_sent,3886.88
+S028,6,1,14 point a steal,,,NUMBER,1,"The JSON says Marcin Gortat posted 14 points, 14 rebounds, one assist, one steal and one block. The story says one steal.",llama_small,p2_sent,3886.88
+S028,7,1,led the second unit with,204.0,208.0,NAME,led the first unit,"The JSON says the second unit, but the story says the first unit.",llama_small,p2_sent,3886.88
+S028,8,1,Bradley Beal,148.0,149.0,NAME,Bojan Bogdanovic,The story incorrectly names the player who led the way for Brooklyn.,llama_small,p2_sent,3886.88
+S028,9,1,point 10 rebound double that,,,NUMBER,10,"The story says 10, but the JSON says 20.",llama_small,p2_sent,3886.88
+S028,10,1,point 11 rebound double,,,NUMBER,10,"The JSON says Rondae Hollis-Jefferson posted 10 points, 11 rebounds, but the story says 13 points.",llama_small,p2_sent,3886.88
+S028,11,1,led the second unit with,204.0,208.0,NAME,led the first unit with,"The JSON says Jason Smith led the second unit, but the story says he led the first unit.",llama_small,p2_sent,3886.88
+S028,12,1,led the second unit with,204.0,208.0,NAME,paced,"The JSON says Sean Kilpatrick led the second unit, but the story says he paced the Nets.",llama_small,p2_sent,3886.88
+S028,13,1,Bradley Beal,148.0,149.0,NAME,Bojan Bogdanovic,"The story incorrectly names the player who led the Nets with 31 points, six rebounds, two assists, and two steals.",llama_small,p2_sent,3886.88
+S028,14,1,21 points five rebounds four,,,NUMBER,20,"The story says Bojan Bogdanovic had 21 points, five rebounds, four assists and two steals, but the box score says he had 20 points.",llama_small,p2_sent,3886.88
+S028,15,1,14 boards,,,NUMBER,14,"The JSON says Marcin Gortat posted 14 points and 14 boards, but the story says 14 - point, 14 - rebound double-double.",llama_small,p2_sent,3886.88
+S028,16,1,led the second unit,204.0,207.0,NAME,"led the second unit with 10 points, four rebounds and two assists.","The JSON says the second unit was led by Jason Smith, not Sean Kilpatrick.",llama_small,p2_sent,3886.88
+S028,17,1,Pistons,406.0,406.0,NAME,Pacers,"The story mentions the wrong team, the correct team is Pacers.",llama_small,p2_sent,3886.88
+S029,1,1,Minnesota Timberwolves,2.0,3.0,NAME,Dallas,"The story incorrectly identifies the away team as Minnesota Timberwolves, when it should be Dallas Mavericks.",llama_small,p2_sent,3886.88
+S029,2,1,26 points,,,NUMBER,25,"The story says Dirk Nowitzki scored 26 points, but the box score says he scored 25 points.",llama_small,p2_sent,3886.88
+S029,3,1,26 points on top of,,,NUMBER,25,"The JSON says Dirk Nowitzki scored 25 points, not 26.",llama_small,p2_sent,3886.88
+S029,4,1,24 19,,,NUMBER,23,"The story says the Mavericks outscored the Timberwolves by a 24-19 margin in the third quarter, but the JSON shows the margin was 24-23.",llama_small,p2_sent,3886.88
+S029,5,1,Harrison Barnes led the way,120.0,124.0,NAME,Harrison Barnes,"The JSON lists the player's name as 'Harrison Barnes', not 'Barnes'.",llama_small,p2_sent,3886.88
+S029,6,1,Deron Williams,148.0,149.0,NAME,Deron Williams,The story misspells the player's last name.,llama_small,p2_sent,3886.88
+S029,7,1,37 points,173.0,174.0,NUMBER,37,"The box score shows Wesley Matthews played 37 minutes, not 37 points.",llama_small,p2_sent,3886.88
+S029,8,1,Deron Williams,148.0,149.0,NAME,Deron Williams,The story misspells the player's last name.,llama_small,p2_sent,3886.88
+S029,9,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S029,10,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S029,11,1,JJ Barea,204.0,205.0,NAME,J.J. Barea,The story misspelled the player's name.,llama_small,p2_sent,3886.88
+S029,12,1,26 points,,,NUMBER,25,"The JSON says Dirk Nowitzki scored 25 points, but the story says 26 points.",llama_small,p2_sent,3886.88
+S029,13,1,Minnesota,2.0,2.0,NAME,Dallas,"The story incorrectly states the city of the away team as Minnesota, when the JSON data shows it as Dallas.",llama_small,p2_sent,3886.88
+S029,14,1,Karl-Anthony Towns,285.0,286.0,NAME,Karl-Anthony Towns,The story misspelled Karl-Anthony Towns' last name.,llama_small,p2_sent,3886.88
+S029,15,1,thirteen four one one,,,NUMBER,"12, 4, 1, 1","The story incorrectly states Andrew Wiggins had 13 points, four rebounds, one assist, and one block, but the box score shows he had 13 points, 4 rebounds, 0 assists, and 1 block.",llama_small,p2_sent,3886.88
+S029,16,1,Shabazz Muhammad,332.0,333.0,NAME,Shabazz Muhammad,"The JSON lists the player's name as 'Shabazz Muhammad', not just 'Shabazz'.",llama_small,p2_sent,3886.88
+S029,17,1,Shabazz Muhammad,332.0,333.0,NAME,Shabazz Muhammad,The story misspelled the name of the player.,llama_small,p2_sent,3886.88
+S029,18,1,26 points on top of,,,NUMBER,25,"The JSON says Dirk Nowitzki scored 25 points, not 26.",llama_small,p2_sent,3886.88
+S029,19,1,26 points,,,NUMBER,25,"The JSON says Dirk Nowitzki scored 25 points, but the story says 26 points.",llama_small,p2_sent,3886.88
+S030,1,1,Wednesday,18.0,18.0,NUMBER,Monday,"The story says the game was played on Wednesday, but the box score data says it was played on Monday.",llama_small,p2_sent,3886.88
+S030,2,1,Indiana,2.0,2.0,NAME,Charlotte,"The story says Indiana, but the box score says Charlotte is the away team.",llama_small,p2_sent,3886.88
+S030,3,1,entirely of the second half,,,WORD,third,"The story says the Pacers led for the entirety of the second half, but the JSON shows they led for the third quarter.",llama_small,p2_sent,3886.88
+S030,4,1,42 34,,,NUMBER,42-46,"The story says the Pacers won the rebounding battle 42-34, but the box score shows they won 42-46.",llama_small,p2_sent,3886.88
+S030,5,1,five of their last seven,97.0,101.0,NUMBER,three,"The story claims the Hornets have won five of their last seven games, but the box score data shows they have won three of their last seven games.",llama_small,p2_sent,3886.88
+S030,6,1,12 points,126.0,127.0,NUMBER,13,"The story says Kemba Walker led the team with 12 points, but the box score says he led with 13 points.",llama_small,p2_sent,3886.88
+S030,7,1,second on the team,138.0,141.0,NAME,first,"The JSON says the team was led by a pair of 13-point efforts from Marvin Williams and Nicolas Batum, with the former adding two assists, two rebounds and two steals while the latter hauled in 10 boards and dished out three assists. The story says the team was led by a pair of 13-point efforts from Marvin Williams and Nicolas Batum, with the former adding two assists, two rebounds and two steals while the latter hauled in 10 boards and dished out three assists.",llama_small,p2_sent,3886.88
+S030,8,1,Cody Zeller,155.0,156.0,NAME,"Cody Zeller was the only other starter in double figures, as he accrued 11 points, seven rebounds and two blocks.","The JSON says the other starter was CJ Miles, not Cody Zeller.",llama_small,p2_sent,3886.88
+S030,9,1,Myles Turner,242.0,243.0,NAME,Paul George,"The story incorrectly names the player who has begun to blossom, providing Indiana with a much more well-rounded first unit.",llama_small,p2_sent,3886.88
+S030,10,1,five of their last six,204.0,208.0,NUMBER,three,"The story claims the Pacers have won five of their last six games, but the correct number is three.",llama_small,p2_sent,3886.88
+S030,11,1,points five rebounds,,,NUMBER,four,"The story says Paul George accumulated 22 points, five rebounds and three assists, but the JSON shows he had four rebounds.",llama_small,p2_sent,3886.88
+S030,12,1,22 seven rebounds,,,NUMBER,11,"The JSON says Myles Turner had 11 rebounds, not seven.",llama_small,p2_sent,3886.88
+S030,13,1,Turner accrued 22 points seven rebounds,,,NUMBER,"22 points, five rebounds and four blocks","The story incorrectly states that Myles Turner accrued 22 points, seven rebounds, but the JSON says 22 points, five rebounds, and four blocks.",llama_small,p2_sent,3886.88
