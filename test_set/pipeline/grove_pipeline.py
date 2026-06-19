@@ -64,7 +64,7 @@ MODELS = {
     "llama_medium": "/home/support/llm/Llama-3.1-70B-Instruct",
     "qwen_medium":  "/home/support/llm/Qwen2.5-72B-Instruct",
     "llama_small":  "/home/support/llm/Llama-3.1-8B-Instruct",
-    "qwen_small":   "/home/ajain/models/Qwen2.5-7B-Instruct",
+    "qwen_small":   os.path.expanduser("~/models/Qwen2.5-7B-Instruct"),
 }
 
 
