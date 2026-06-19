@@ -173,21 +173,41 @@ def parse_run_id(run_id):
     """Break a run id into (model_label, size, prompt, mode).
 
     Examples:
-      'qwen_medium_p1_run1'        -> ('Qwen-2.5-72B', 'Medium', 'P1', 'full')
-      'llama_medium_p2_sent_run1'  -> ('Llama-3.1-70B', 'Medium', 'P2', 'sent')
+      'qwen_medium_p1_run1'             -> ('Qwen-2.5-72B',  'Medium', 'P1',         'full')
+      'llama_medium_p2_sent_run1'       -> ('Llama-3.1-70B', 'Medium', 'P2',         'sent')
+      'llama_small_p4_strat_1_run1'     -> ('Llama-3.1-8B',  'Small',  'P4_STRAT_1', 'full')
+      'llama_small_p4_strat_1_sent_run1'-> ('Llama-3.1-8B',  'Small',  'P4_STRAT_1', 'sent')
+
+    Structure: <model>_<size>_<prompt...>_[sent_]run<n>
+    The prompt portion is everything between size (parts[1]) and the first
+    token that is either "sent" or starts with "run".  This correctly handles
+    multi-part prompt names like "p4_strat_1".
     """
     parts = run_id.split("_")
     size_map = {
-        ("llama", "small"): "Llama-3.1-8B",
+        ("llama", "small"):  "Llama-3.1-8B",
         ("llama", "medium"): "Llama-3.1-70B",
-        ("qwen", "small"): "Qwen-2.5-7B",
-        ("qwen", "medium"): "Qwen-2.5-72B",
+        ("qwen",  "small"):  "Qwen-2.5-7B",
+        ("qwen",  "medium"): "Qwen-2.5-72B",
     }
     model_label = size_map.get((parts[0], parts[1]), run_id)
     size = parts[1].capitalize()
-    prompt = parts[2].upper()
-    # The "_sent" tag, if present, always sits in parts[3:].
-    mode = "sent" if "sent" in parts[3:] else "full"
+
+    # Collect prompt tokens: everything after size until we hit "sent" or "run*"
+    prompt_parts = []
+    mode = "full"
+    for tok in parts[2:]:
+        if tok == "sent":
+            mode = "sent"
+        elif tok.startswith("run"):
+            break           # run number — stop here
+        else:
+            prompt_parts.append(tok)
+
+    prompt = "_".join(prompt_parts).upper()   # e.g. "P4_STRAT_1" or "P0"
+    # Show a short clean label: collapse any "P4_STRAT_1" style name to just "P4".
+    if prompt.startswith("P4"):
+        prompt = "P4"
     return model_label, size, prompt, mode
 
 
@@ -217,6 +237,10 @@ def build_master_excel(success_log):
                 continue
             r = combined.iloc[0]
             model, size, prompt, mode = parse_run_id(run_id)
+            # Skip stray runs that have no prompt in their name (e.g.
+            # "qwen_medium_run1") — they would add empty/garbage rows.
+            if not prompt:
+                continue
             rows.append({
                 "Model": model, "Size": size, "Prompt": prompt, "Mode": mode, "Stage": stage,
                 "Recall": fnum(r.get("recall")),
@@ -236,7 +260,7 @@ def build_master_excel(success_log):
     stage_order = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     df["_so"] = df["Stage"].map({s: i for i, s in enumerate(stage_order)})
     size_order = {"Small": 0, "Medium": 1}
-    prompt_order = {"P0": 0, "P1": 1, "P2": 2, "P3": 3}
+    prompt_order = {"P0": 0, "P0A": 1, "P1": 2, "P2": 3, "P3": 4, "P4": 5}
     mode_order = {"full": 0, "sent": 1}
     df["_sz"] = df["Size"].map(size_order)
     df["_pr"] = df["Prompt"].map(prompt_order)
@@ -252,82 +276,188 @@ def build_master_excel(success_log):
 
 
 def write_excel(df, out_path):
-    """Render df to a single-sheet Excel with header styling, frozen panes,
-    and a red→yellow→green colour scale across every metric column."""
+    """Render df to a pivoted Excel layout matching the design spec:
+
+    Row headers  : Prompt (col A) | Mode (col B) | Stage (col C)
+    Column groups: one group per (model, size) combo, e.g. Llama/small,
+                   Llama/medium, Qwen/small, Qwen/medium.
+    Each group   : recall | token_recall | precision | token_precision
+
+    Header rows  :
+      Row 1 – blank | blank | blank | <model> (merged across 4 cols) | ...
+      Row 2 – blank | blank | blank | <size>  (merged across 4 cols) | ...
+      Row 3 – Mode  | Stage |        recall | token_recall | precision | token_precision | ...
+
+    Data rows start at row 4.
+    Prompt label is written only on the first row of each prompt group.
+    """
     wb = Workbook()
     ws = wb.active
     ws.title = "Master Comparison"
 
-    # Styling shortcuts.
-    h_font = Font(bold=True, color="FFFFFF", size=11)
-    h_fill = PatternFill("solid", start_color="2C3E50")
-    title_font = Font(bold=True, size=14)
-    body_font = Font(size=10)
-    center = Alignment(horizontal="center", vertical="center")
-    left = Alignment(horizontal="left", vertical="center")
-    thin = Border(
+    # ── Styling shortcuts ──────────────────────────────────────────────────
+    h_font_white = Font(bold=True, color="FFFFFF", size=10)
+    h_font_dark  = Font(bold=True, color="FFFFFF", size=10)
+    h_fill_dark  = PatternFill("solid", start_color="2C3E50")
+    h_fill_mid   = PatternFill("solid", start_color="4A6FA5")
+    h_fill_light = PatternFill("solid", start_color="6B8CBA")
+    body_font    = Font(name="Arial", size=10)
+    center       = Alignment(horizontal="center", vertical="center")
+    left         = Alignment(horizontal="left",   vertical="center")
+    thin         = Border(
         left=Side(style="thin", color="CCCCCC"),
         right=Side(style="thin", color="CCCCCC"),
         top=Side(style="thin", color="CCCCCC"),
         bottom=Side(style="thin", color="CCCCCC"),
     )
 
-    # Top title row.
-    ws["A1"] = "Master Comparison — Evaluation Metrics by Stage"
-    ws["A1"].font = title_font
-    ws.merge_cells("A1:I1")
+    METRICS = ["recall", "token_recall", "precision", "token_precision"]
+    METRIC_LABELS = ["recall", "token_recall", "precision", "token_precision"]
 
-    # Description row right below the title.
-    ws["A2"] = ("Each row = (model, prompt, mode, stage). Mode = full (full-story per LLM call) or "
-                "sent (sentence-by-sentence). Stage = point in the post-processing pipeline: "
-                "raw → ordered → a → ade → ab → abde → abc → abcde.")
-    ws["A2"].font = Font(size=9, italic=True, color="666666")
-    ws.merge_cells("A2:I2")
-    ws.row_dimensions[2].height = 30
-    ws["A2"].alignment = Alignment(wrap_text=True, vertical="top")
+    # ── Determine column groups from data ─────────────────────────────────
+    # Model order: Llama before Qwen; size order: small before medium.
+    model_order = {"Llama-3.1-8B": (0, 0), "Llama-3.1-70B": (0, 1),
+                   "Qwen-2.5-7B":  (1, 0), "Qwen-2.5-72B":  (1, 1)}
+    size_label  = {"Llama-3.1-8B": "small", "Llama-3.1-70B": "medium",
+                   "Qwen-2.5-7B":  "small", "Qwen-2.5-72B":  "medium"}
+    model_name  = {"Llama-3.1-8B": "Llama", "Llama-3.1-70B": "Llama",
+                   "Qwen-2.5-7B":  "Qwen",  "Qwen-2.5-72B":  "Qwen"}
 
-    # Column headers go on row 4 (row 3 is left blank for spacing).
-    headers = ["Model", "Size", "Prompt", "Mode", "Stage",
-               "Recall", "Precision", "Token Recall", "Token Precision"]
-    for i, h in enumerate(headers, start=1):
-        c = ws.cell(row=4, column=i, value=h)
-        c.font = h_font; c.fill = h_fill; c.alignment = center; c.border = thin
-    ws.row_dimensions[4].height = 22
+    present_models = sorted(df["Model"].unique(),
+                            key=lambda m: model_order.get(m, (99, 99)))
 
-    # Data rows.
-    row_idx = 5
-    for _, r in df.iterrows():
-        vals = [r["Model"], r["Size"], r["Prompt"], r["Mode"], r["Stage"],
-                r["Recall"], r["Precision"], r["Token_Recall"], r["Token_Precision"]]
-        for col_idx, v in enumerate(vals, start=1):
-            c = ws.cell(row=row_idx, column=col_idx, value=v)
-            c.font = body_font; c.border = thin
-            # Categorical columns left-aligned, metric columns centered.
-            c.alignment = left if col_idx <= 5 else center
-            # Format metric columns to 3 decimal places.
-            if col_idx in (6, 7, 8, 9) and v is not None:
-                c.number_format = "0.000"
+    # Fixed row structure  ─────────────────────────────────────────────────
+    # Rows 1-3 = headers; data starts at row 4.
+    ROW_MODEL  = 1
+    ROW_SIZE   = 2
+    ROW_METRIC = 3
+    DATA_START = 4
+
+    # Fixed left columns: Prompt (A=1), Mode (B=2), Stage (C=3)
+    LEFT_COLS = 3
+
+    def col_for(model_idx, metric_idx):
+        """1-based Excel column for a given model group and metric."""
+        return LEFT_COLS + 1 + model_idx * len(METRICS) + metric_idx
+
+    # ── Row 1: model names (merged across 4 metric cols each) ─────────────
+    # Rows 1-2: left three cells are empty but styled.
+    for r in (ROW_MODEL, ROW_SIZE, ROW_METRIC):
+        for c in range(1, LEFT_COLS + 1):
+            cell = ws.cell(row=r, column=c)
+            cell.fill = h_fill_dark
+            cell.border = thin
+
+    # Write the left-column headers in row 3: Prompt | Mode | Stages.
+    # These must line up with the data rows below (A=Prompt, B=Mode, C=Stages).
+    for col_no, label in ((1, "Prompt"), (2, "Mode"), (3, "Stages")):
+        c = ws.cell(row=ROW_METRIC, column=col_no, value=label)
+        c.font      = h_font_white
+        c.fill      = h_fill_dark
+        c.alignment = center
+
+    for mi, model in enumerate(present_models):
+        start_col = col_for(mi, 0)
+        end_col   = col_for(mi, len(METRICS) - 1)
+        start_ltr = get_column_letter(start_col)
+        end_ltr   = get_column_letter(end_col)
+
+        # Row 1: model family name, merged.
+        ws.merge_cells(f"{start_ltr}{ROW_MODEL}:{end_ltr}{ROW_MODEL}")
+        c1 = ws.cell(row=ROW_MODEL, column=start_col, value=model_name[model])
+        c1.font = h_font_white; c1.fill = h_fill_dark; c1.alignment = center; c1.border = thin
+
+        # Row 2: size label, merged.
+        ws.merge_cells(f"{start_ltr}{ROW_SIZE}:{end_ltr}{ROW_SIZE}")
+        c2 = ws.cell(row=ROW_SIZE, column=start_col, value=size_label[model])
+        c2.font = h_font_white; c2.fill = h_fill_mid; c2.alignment = center; c2.border = thin
+
+        # Row 3: individual metric labels.
+        for ki, label in enumerate(METRIC_LABELS):
+            c3 = ws.cell(row=ROW_METRIC, column=col_for(mi, ki), value=label)
+            c3.font = h_font_dark; c3.fill = h_fill_light; c3.alignment = center; c3.border = thin
+
+    # ── Build row order: (prompt, mode, stage) ────────────────────────────
+    stage_order  = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
+    prompt_order = {"P0": 0, "P0A": 1, "P1": 2, "P2": 3, "P3": 4, "P4": 5}
+    mode_order   = {"full": 0, "sent": 1}
+
+    keys = (df[["Prompt", "Mode", "Stage"]]
+            .drop_duplicates()
+            .assign(_pr=lambda x: x["Prompt"].map(prompt_order),
+                    _mo=lambda x: x["Mode"].map(mode_order),
+                    _so=lambda x: x["Stage"].map({s: i for i, s in enumerate(stage_order)}))
+            .sort_values(["_pr", "_mo", "_so"])
+            .drop(columns=["_pr", "_mo", "_so"])
+            .itertuples(index=False))
+
+    # Index the df for fast lookup: (Prompt, Mode, Stage, Model) → row
+    lookup = {(r.Prompt, r.Mode, r.Stage, r.Model): r
+              for r in df.itertuples(index=False)}
+
+    # Write data rows 
+    row_idx = DATA_START
+    prev_prompt = None
+    prev_mode   = None
+
+    for prompt, mode, stage in keys:
+        # Prompt label only on first row of each prompt block.
+        prompt_val = prompt if prompt != prev_prompt else None
+        mode_val   = mode   if (prompt, mode) != (prev_prompt, prev_mode) else None
+        prev_prompt, prev_mode = prompt, mode
+
+        # Col A – Prompt
+        ca = ws.cell(row=row_idx, column=1, value=prompt_val)
+        ca.font = body_font; ca.border = thin; ca.alignment = left
+
+        # Col B – Mode
+        cb = ws.cell(row=row_idx, column=2, value=mode_val)
+        cb.font = body_font; cb.border = thin; cb.alignment = left
+
+        # Col C – Stage  (always shown)
+        cc = ws.cell(row=row_idx, column=3, value=stage)
+        cc.font = body_font; cc.border = thin; cc.alignment = left
+
+        # Metric columns
+        for mi, model in enumerate(present_models):
+            rec = lookup.get((prompt, mode, stage, model))
+            for ki, metric_key in enumerate(["Recall", "Token_Recall", "Precision", "Token_Precision"]):
+                val = getattr(rec, metric_key, None) if rec else None
+                cm = ws.cell(row=row_idx, column=col_for(mi, ki), value=val)
+                cm.font = body_font; cm.border = thin; cm.alignment = center
+                if val is not None:
+                    cm.number_format = "0.000"
+
         row_idx += 1
 
-    # Column widths tuned by hand so the sheet doesn't need resizing.
-    widths = [16, 10, 10, 8, 10, 11, 11, 14, 16]
-    for i, w in enumerate(widths, start=1):
-        ws.column_dimensions[get_column_letter(i)].width = w
+    #  Column widths 
+    ws.column_dimensions["A"].width = 7   # Prompt
+    ws.column_dimensions["B"].width = 7   # Mode
+    ws.column_dimensions["C"].width = 10  # Stage
+    metric_width = 14
+    for mi in range(len(present_models)):
+        for ki in range(len(METRICS)):
+            ws.column_dimensions[get_column_letter(col_for(mi, ki))].width = metric_width
 
-    # Heatmap colour scale for the metric columns (F..I).
+    # Heatmap colour scale per metric column 
     last_row = row_idx - 1
-    for col in ["F", "G", "H", "I"]:
-        ws.conditional_formatting.add(
-            f"{col}5:{col}{last_row}",
-            ColorScaleRule(
-                start_type="min", start_color="F8D7DA",
-                mid_type="percentile", mid_value=50, mid_color="FFF3CD",
-                end_type="max", end_color="D4EDDA",
+    for mi in range(len(present_models)):
+        for ki in range(len(METRICS)):
+            col_ltr = get_column_letter(col_for(mi, ki))
+            ws.conditional_formatting.add(
+                f"{col_ltr}{DATA_START}:{col_ltr}{last_row}",
+                ColorScaleRule(
+                    start_type="min",        start_color="F8D7DA",
+                    mid_type="percentile",   mid_value=50, mid_color="FFF3CD",
+                    end_type="max",          end_color="D4EDDA",
+                )
             )
-        )
 
-    # Freeze everything above the data so headers stay visible when scrolling.
-    ws.freeze_panes = "A5"
+    # Row heights & freeze panes
+    for r in (ROW_MODEL, ROW_SIZE, ROW_METRIC):
+        ws.row_dimensions[r].height = 18
+    ws.freeze_panes = f"D{DATA_START}"
+
     wb.save(out_path)
 
 

@@ -454,5 +454,5 @@ _SENT_HEADER = (
     "TOKENS must be copied EXACTLY from this sentence (not from any other text).\n\n"
 )
 
-for _k in ["p0", "p0a", "p1", "p2", "p3"]:
+for _k in ["p0", "p0a", "p1", "p2", "p3", "p4"]:
     PROMPTS[_k + "_sent"] = _SENT_HEADER + PROMPTS[_k].replace("{story}", "{sentence}")

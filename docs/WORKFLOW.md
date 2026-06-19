@@ -35,9 +35,11 @@ PRACTICUM/
 │
 ├── pipeline/                    ← LLM-call layer (runs on Grove HPC)
 │   ├── grove_pipeline.py        ← MAIN: dispatches LLM, writes raw JSONL + CSV
-│   ├── prompts.py               ← base prompts p0–p3 (+ _sent variants) + p4 strategy prompt
+│   ├── prompts.py               ← prompts p0, p0a, p1, p2, p3 (+ _sent variants) + p4 strategy prompt
 │   ├── Huggingface_pipeline.py  ← older HF inference script
-│   └── ollama_pipeline.py       ← small-model variant via Ollama
+│   ├── ollama_pipeline.py       ← small-model variant via Ollama
+│   ├── ollama_pipeline_sent.py  ← Ollama sentence-by-sentence variant
+│   └── ollama_pipeline_strat_1.py ← Ollama strategy/anchoring (p4) variant
 │
 ├── post_processing/             ← 3-stage cleanup pipeline (A→B→C, each with D+E inline)
 │   ├── format_converter.py      ← Stage 0: rearrange columns + cast ints
@@ -130,15 +132,16 @@ PRACTICUM/
 | Key | Style | Description |
 |-----|-------|-------------|
 | **p0** | Baseline | Shared-task instructions verbatim; minimal output rules |
+| **p0a** | Short-span | p0 + a tail spelling out exactly which tokens to record for each category (NAME / NUMBER / WORD / NOT_CHECKABLE), to keep the TOKENS span minimal. Aimed at improving token precision. |
 | **p1** | Strict-rules | Same as p0 + strict JSON-only output instructions (no markdown, no preamble) |
 | **p2** | JSON-context | Recasts the box score as JSON; instructs the LLM to check sentence-by-sentence against JSON fields |
 | **p3** | LLM-as-Judge | Persona prompt: "You are a senior sports fact-checker with 20 years experience…" |
 | **p4** | Strategy / anchoring | Explicit field-by-field checking strategy (`p4` in `prompts.py`). Shown as **P4** in the comparison sheet. |
 
-p0–p3 each have a `_sent` variant (`p0_sent`, `p1_sent`, …) auto-derived in
-`prompts.py`. The `_sent` variant prepends a header forcing the LLM to fact-check
-**one sentence at a time**, with `SENTENCE_ID` locked to the loop value (not
-LLM-decided). p4 is currently run in full-story mode only.
+p0, p0a, p1, p2 and p3 each have a `_sent` variant (`p0_sent`, `p0a_sent`, …)
+auto-derived in `prompts.py`. The `_sent` variant prepends a header forcing the
+LLM to fact-check **one sentence at a time**, with `SENTENCE_ID` locked to the
+loop value (not LLM-decided). p4 is currently run in full-story mode only.
 
 ---
 
@@ -200,6 +203,13 @@ variant exploration is reserved for A, B, C.
 - Fallback: doc-wide scan if sentence-level search fails.
 - **Output:** `_ab.csv`. Then **D + E** → `_abde.csv` (evaluable).
 
+> **Known issue (June 2026):** for some runs `_abde` scores *lower* than `_ade`
+> (and `_abcde` lower than `_abde`). Stage B is recovering rows, but several of
+> the recovered positions are not good matches — they land on the wrong span, so
+> the scorer counts them as false positives and precision drops. In other words
+> the extra recall from B/C is coming from low-quality recoveries. This needs to
+> be investigated (tighten B's match acceptance, or only accept exact matches).
+
 ### Stage C — `stage_c_strict_match.py`
 - For every row that still has a populated `SENT_TOKEN_START/END`, looks up
   the actual story tokens at that position and compares to the `TOKENS` field.
@@ -213,7 +223,12 @@ variant exploration is reserved for A, B, C.
 
 ### Stage E (inline helper) — `drop_unmatched(df)`
 - Drops every row where `SENT_TOKEN_START` is `NaN`.
-- After this stage the CSV has no blanks → ready for `evaluate.py`.
+- Also drops rows whose tokens don't actually match the story at their position
+  (the same check `evaluate.py` runs). This catches tokenization mismatches
+  (e.g. the LLM wrote "11 point" but the story tokenizes it as "11-point") that
+  would otherwise crash the scorer with an `AssertionError`. Uses `data/texts`
+  and `data/token_lookup.yaml`, loaded once and cached.
+- After this stage the CSV has no blanks and no mismatches → ready for `evaluate.py`.
 
 > Why `_ade`, `_abde`, `_abcde` and not `_a`, `_ab`, `_abc`?
 > Design decision: **D and E together = "forced convert" layer**. Every
@@ -283,6 +298,8 @@ python3 grove_pipeline.py \
   --prompt p0 \
   --by_sent yes
 ```
+`--prompt` accepts: `p0`, `p0a`, `p1`, `p2`, `p3`, `p4`. `--model` accepts:
+`llama_small`, `llama_medium`, `qwen_small`, `qwen_medium`.
 Outputs land in `results/llm_raw/` (raw JSONL) and `results/llm_csv/` (CSV).
 Download these back to local before running post-processing.
 
@@ -303,7 +320,7 @@ No CLI args needed — defaults are wired to the new folder layout.
 ```bash
 python3 evaluation/batch_evaluate.py
 ```
-Takes 5–10 min for 20 runs × 8 stages = ~160 attempts.
+Takes 5–10 min for 32 runs × 8 stages = ~256 attempts.
 Final output: `results/eval_outputs/master_comparison.xlsx`.
 
 ---
@@ -354,16 +371,35 @@ TYPE, CORRECTION, COMMENT
 
 ---
 
-## 10. Current Status (as of May 2026)
+## 10. Current Status (as of June 2026)
 
-- **Pipeline:** working end-to-end for all 20 detected runs (16 full-story +
-  4 sentence-mode for Llama-70B).
-- **Best metrics so far:** Qwen-2.5-72B, P0, full-pipeline (`_abcde`):
-  Token Recall 0.416, Mistake Precision 0.677.
-- **Pending experiments:**
-  - Sentence-by-sentence for Qwen-72B and the small models (Llama-8B, Qwen-7B).
-  - Phase-2 variants: A (add `document_only`), B (add `nearest_with_backoff`),
-    C (add `casefold`, `normalized`).
+- **Pipeline:** working end-to-end for all 32 detected runs across the grid
+  (Llama-3.1 / Qwen-2.5 × small / medium × P0, P0a, P1–P4 × full / sentence).
+  Sentence mode is run for P0–P3 and P0a on the medium models; P4 is full-story
+  only (small + medium).
+- **Best metrics so far (full pipeline `_abcde`):**
+  - Highest token recall: Qwen-2.5-72B, P0, **sentence mode** — Token Recall 0.751, Mistake Precision 0.761.
+  - Best full-story: Qwen-2.5-72B, P0 — Token Recall 0.416, Mistake Precision 0.677.
+- **P0a (short-span prompt) result:** raises **token precision** as intended
+  (e.g. Qwen-72B sentence: token precision 0.122 → 0.234) but lowers recall —
+  shorter, more accurate spans but the model flags fewer errors.
+- **Known issues:**
+  - `results_llama_medium_p4_run1.csv` and `results_qwen_medium_p4_run1.csv` are
+    empty (CSV conversion failed); the raw JSONL is intact, so they can be
+    re-converted.
+  - Post-processing anomaly: `_abde` can score lower than `_ade` (and `_abcde`
+    lower than `_abde`) — Stage B/C are recovering low-quality rows (see Stage B
+    note above). Needs investigation.
+  - Models over-predict CONTEXT (precision ~0.07) and sometimes flag correct
+    statements; some runs show degenerate repetition (the same annotation many
+    times) — a decoding issue.
+- **Next steps (decided 12 June, before Grove goes offline on 22 June):**
+  - Run the **test set** on the HPC.
+  - Prioritise the run order by importance using the current results — most
+    important experiments first, since Grove time is limited.
+  - Run **all prompts on default settings first**; keep decoding fixes
+    (temperature, repetition penalty) for later.
+  - Still pending: sentence mode + P0a on the small models (Llama-8B, Qwen-7B).
 - **Diagnostic metrics to add** (planned):
   - % initially valid · % repaired by B · % blanked by C · % dropped by D/E
   - Mean repair shift distance (B)
@@ -393,7 +429,7 @@ TYPE, CORRECTION, COMMENT
 - **Span** — A `(SENT_TOKEN_START, SENT_TOKEN_END)` pair marking the wrong word(s).
 - **Stage** — A single processing step (raw, ordered, a, ade, ab, abde, abc, abcde).
 - **Mode** — Either `full` (whole-story per LLM call) or `sent` (sentence-by-sentence).
-- **Prompt key** — `p0`/`p1`/`p2`/`p3`/`p4` for full-story, or `p0_sent`/etc. for sentence mode (p0–p3 only). p4 is the strategy prompt, shown as **P4**.
+- **Prompt key** — `p0`/`p0a`/`p1`/`p2`/`p3`/`p4` for full-story, or `p0_sent`/`p0a_sent`/etc. for sentence mode (p0–p3 and p0a). p0a is the short-span prompt; p4 is the strategy prompt, shown as **P4**.
 - **Run ID** — `<model>_<size>_<prompt_key>_run<N>`, e.g. `llama_medium_p0_sent_run1`.
 
 ---
@@ -423,4 +459,4 @@ python evaluation/evaluate.py \
 
 ---
 
-*End of workflow guide. Last updated 2026-06-02.*
+*End of workflow guide. Last updated 2026-06-12.*
