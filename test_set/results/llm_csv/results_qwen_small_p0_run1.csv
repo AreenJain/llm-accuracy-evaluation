@@ -1,0 +1,353 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T001,1,1,Wednesday,22.0,22.0,Name,Monday,"The game was played on Monday, not Wednesday.",qwen_small,p0,2332.04
+T001,2,2,28 28,,,Number,"27, 28","The first quarter score should be 27-28, not 28-28.",qwen_small,p0,2332.04
+T001,3,3,"49 percent from the field and 38 percent from the three - point line , while the Nets went just 45 percent from the floor and just 38 percent from beyond the arc",68.0,100.0,Word,"49, 38, 45, 38",The percentages should be separated by commas and not words.,qwen_small,p0,2332.04
+T001,4,4,"Cousins went 9 - for - 12 from the field and 6 - for - 9 from the three - point line to score a game - high of 24 points , while also adding 13 rebounds and four blocked shots",160.0,200.0,Word,"Cousins went 9 for 12 from the field and 6 for 9 from the three-point line to score a game-high of 24 points, while also adding 13 rebounds and four blocked shots",The sentence structure is incorrect and the statistics should be separated by spaces.,qwen_small,p0,2332.04
+T001,5,5,"It was his second double - double in a row , as he 's combined for 54 points and 13 rebounds over his last two games",202.0,227.0,Word,"It was his second double-double in a row, as he's combined for 54 points and 13 rebounds over his last two games",The sentence structure is incorrect and the statistics should be separated by spaces.,qwen_small,p0,2332.04
+T001,6,6,"The only other Net to reach double - figures in points was Ben McLemore , who finished with 11 points 4 - 9 FG , 3 - 7 3Pt , 0 - 2 FT",,,Word,"The only other Net to reach double figures in points was Ben McLemore, who finished with 11 points (4-9 FG, 3-7 3Pt, 0-2 FT)",The sentence structure is incorrect and the statistics should be separated by spaces.,qwen_small,p0,2332.04
+T001,7,7,"It was his second double - double in a row , a stretch where he 's averaging 21 points and 12 rebounds",271.0,292.0,Word,"It was his second double-double in a row, a stretch where he's averaging 21 points and 12 rebounds",The sentence structure is incorrect and the statistics should be separated by spaces.,qwen_small,p0,2332.04
+T001,8,8,"The Nets ' next game will be on the road against the Toronto Raptors on Friday , while the Kings will be at home against the Cleveland Cavaliers on Friday",333.0,362.0,Name,"The Nets' next game will be on the road against the Toronto Raptors on Friday, while the Kings will be at home against the Cleveland Cavaliers on Friday",The team names and locations are incorrect.,qwen_small,p0,2332.04
+T003,1,1,Wednesday,22.0,22.0,Name,Thursday,"The game was played on Thursday, not Wednesday.",qwen_small,p0,2332.04
+T003,1,2,Amway Center,,,Name,London,"The game was played in London, not at the Amway Center.",qwen_small,p0,2332.04
+T003,2,3,Raptors,3.0,3.0,Name,Magic,"The Raptors scored 31 points in the first quarter, not the Magic.",qwen_small,p0,2332.04
+T003,2,4,Raptors,3.0,3.0,Name,Magic,"The Magic scored 31 points in the first quarter, not the Raptors.",qwen_small,p0,2332.04
+T003,3,5,41 percent,92.0,93.0,Number,45,"The Raptors shot 45% from the field, not 41%. The Magic shot 39%, not 39%.",qwen_small,p0,2332.04
+T003,3,6,33 percent,98.0,99.0,Number,39,"The Magic shot 39% from the three-point line, not 33%. The Raptors shot 33%, not 39%.",qwen_small,p0,2332.04
+T003,4,7,18,49.0,49.0,Number,10,"The Raptors committed 10 turnovers, not 18. The Magic committed 18 turnovers, not 10.",qwen_small,p0,2332.04
+T003,5,8,DeMar DeRozan,151.0,152.0,Name,DeRozan,The sentence incorrectly states DeMar DeRozan twice. It should only mention DeRozan once.,qwen_small,p0,2332.04
+T003,5,9,40 points,183.0,184.0,Number,24,"DeRozan scored 24 points, not 40 points.",qwen_small,p0,2332.04
+T003,5,10,11 rebounds,189.0,190.0,Number,13,"DeRozan had 13 rebounds, not 11 rebounds.",qwen_small,p0,2332.04
+T003,6,11,DeRozan,152.0,152.0,Name,DeRozan,The sentence incorrectly states DeMar DeRozan twice. It should only mention DeRozan once.,qwen_small,p0,2332.04
+T003,6,12,13 points,241.0,242.0,Number,24,"DeRozan scored 24 points, not 13 points.",qwen_small,p0,2332.04
+T003,6,13,4 rebounds,,,Number,11,"DeRozan had 11 rebounds, not 4 rebounds.",qwen_small,p0,2332.04
+T003,6,14,4 assists,,,Number,7,"DeRozan had 7 assists, not 4 assists.",qwen_small,p0,2332.04
+T003,7,15,James Johnson,285.0,286.0,Name,Luis Scola,James Johnson did not score 17 points. Luis Scola scored 11 points.,qwen_small,p0,2332.04
+T003,7,16,17 points,303.0,304.0,Number,11,"Luis Scola scored 11 points, not 17 points.",qwen_small,p0,2332.04
+T003,7,17,8 rebounds,202.0,203.0,Number,2,"Luis Scola had 2 rebounds, not 8 rebounds.",qwen_small,p0,2332.04
+T003,7,18,2 steals,,,Number,3,"Luis Scola had 3 steals, not 2 steals.",qwen_small,p0,2332.04
+T003,8,19,Jonas Valanciunas,339.0,340.0,Name,DeMar DeRozan,The sentence incorrectly mentions Jonas Valanciunas twice. It should only mention DeRozan once.,qwen_small,p0,2332.04
+T003,8,20,13 points,241.0,242.0,Number,24,"DeRozan scored 24 points, not 13 points.",qwen_small,p0,2332.04
+T003,8,21,11 rebounds,189.0,190.0,Number,13,"DeRozan had 13 rebounds, not 11 rebounds.",qwen_small,p0,2332.04
+T004,1,1,The Miami Heat ( 1 - 0 ),1.0,8.0,Number,The Miami Heat (10),The Heat's record should be 10 wins and 0 losses.,qwen_small,p0,2332.04
+T004,1,2,defeated the Washington Wizards ( 0 - 1 ),9.0,17.0,Number,defeated the Washington Wizards (0-1),The Wizards' record should be 0 wins and 1 loss.,qwen_small,p0,2332.04
+T004,1,3,107 - 95 on Tuesday,18.0,22.0,Date,107-95 on Wednesday,"The game was played on Wednesday, not Tuesday.",qwen_small,p0,2332.04
+T004,2,4,"The Wizards got off to a quick start in this one , out - scoring the Wizards 28 - 28 right away in the first quarter .",30.0,56.0,Word,"The Wizards got off to a quick start in this one, out-scoring the Heat 28-28 right away in the first quarter.","The Heat, not the Wizards, out-scored the other team 28-28 in the first quarter.",qwen_small,p0,2332.04
+T004,2,5,"The Wizards were able to out - score the Wizards 35 - 25 in the first quarter ,",57.0,74.0,Word,"The Wizards were able to out-score the Heat 35-25 in the first quarter,","The Heat, not the Wizards, out-scored the other team 35-25 in the first quarter.",qwen_small,p0,2332.04
+T004,2,6,The Wizards were able to coast to a victory in front of their home crowd .,,,Word,The Heat were able to coast to a victory in front of their home crowd.,"The Heat, not the Wizards, won the game and played in front of their home crowd.",qwen_small,p0,2332.04
+T004,2,7,"The Wizards were able to out - rebound the Wizards 44 - 36 ,",92.0,105.0,Word,"The Heat were able to out-rebound the Wizards 44-36,","The Heat, not the Wizards, out-rebounded the other team 44-36.",qwen_small,p0,2332.04
+T004,2,8,giving them just enough of an advantage to secure the victory in front of their home crowd .,106.0,123.0,Word,giving them just enough of an advantage to secure the victory in front of their home crowd.,"The Heat, not the Wizards, secured the victory in front of their home crowd.",qwen_small,p0,2332.04
+T004,2,9,"The Wizards were also able to shoot 48 % from the field and 32 % from the three - point line ,",,,Percentage,"The Heat were able to shoot 48% from the field and 32% from the three-point line,","The Heat, not the Wizards, shot 48% from the field and 32% from the three-point line.",qwen_small,p0,2332.04
+T004,2,10,while the Wizards went 48 % from the floor and just 32 % from beyond the arc .,,,Percentage,while the Heat went 48% from the floor and just 32% from beyond the arc.,"The Heat, not the Wizards, shot 48% from the floor and 32% from beyond the arc.",qwen_small,p0,2332.04
+T004,3,11,The Heat were led by the duo of John Wall and Bradley Beal .,164.0,177.0,Name,The Heat were led by the duo of Dwyane Wade and Marcin Gortat.,"The correct duo leading the Heat was Dwyane Wade and Marcin Gortat, not John Wall and Bradley Beal.",qwen_small,p0,2332.04
+T004,3,12,"Wall went 6 - for - 13 from the field and 0 - for - 2 from the three - point line to score a game - high of 16 points ,",178.0,209.0,Number,"Wade went 6-for-13 from the field and 0-for-2 from the three-point line to score a game-high of 21 points,",John Wall's stats are incorrect. Dwyane Wade scored 21 points in the game.,qwen_small,p0,2332.04
+T004,3,13,while also adding 11 assists and two steals .,210.0,218.0,Number,while also adding 11 assists and three steals.,"John Wall had 11 assists and 3 steals, not 2 steals.",qwen_small,p0,2332.04
+T004,3,14,"It was his second double - double in a row ,",219.0,229.0,,,,qwen_small,p0,2332.04
+T005,1,1,Saturday evening,17.0,18.0,Name,Monday,"The game was played on Monday night, not Saturday evening.",qwen_small,p0,2332.04
+T005,2,2,30 -22,,,Number,30-22,"The score after the first quarter is correct, no need to change.",qwen_small,p0,2332.04
+T005,2,3,30 -20,,,Number,20-30,"The score in the fourth quarter is reversed, the Wizards scored 20 and the Hornets scored 30.",qwen_small,p0,2332.04
+T005,3,4,30 -22,,,Number,30-22,"The score after the first quarter is correct, no need to change.",qwen_small,p0,2332.04
+T005,4,5,30 -20,,,Number,20-30,"The score in the fourth quarter is reversed, the Wizards scored 20 and the Hornets scored 30.",qwen_small,p0,2332.04
+T005,5,6,18 points,151.0,152.0,Number,18 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,6,7,24 - 20,23.0,25.0,Number,24-20,"No change needed, the record is correctly written.",qwen_small,p0,2332.04
+T005,7,8,24 points,271.0,272.0,Number,24 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,8,9,24 points,271.0,272.0,Number,24 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,9,10,23 points,197.0,198.0,Number,23 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,10,11,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,11,12,10 points,230.0,231.0,Number,10 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,12,13,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,13,14,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,14,15,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,15,16,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,16,17,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,17,18,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,18,19,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,19,20,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,20,21,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,21,22,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,22,23,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,23,24,13 points,212.0,213.0,Number,13 points,"No change needed, the number is correctly written.",qwen_small,p0,2332.04
+T005,24,25,13 points,212.0,213.0,,,,qwen_small,p0,2332.04
+T007,1,1,"The Nuggets were able to hold off the Nuggets in the second half ,",,,Name,,The second occurrence of 'Nuggets' should be 'Trail Blazers'.,qwen_small,p0,2332.04
+T007,1,2,"Kenneth Faried chipped in 12 points on 4 - of - 12 shooting ,",,,Number,13,"Kenneth Faried scored 13 points, not 12.",qwen_small,p0,2332.04
+T007,1,3,"Darrell Arthur chipped in 12 points on 6 - of - 11 shooting ,",113.0,126.0,Number,13,"Darrell Arthur scored 13 points, not 12.",qwen_small,p0,2332.04
+T007,1,4,"Kenneth Faried chipped in 13 points on 4 - of - 12 shooting ,",144.0,157.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,5,"Kenneth Faried chipped in 13 points on 4 - of - 12 shooting ,",144.0,157.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,6,"Kenneth Faried finished with 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",,,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,7,"Kenneth Faried finished with 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",,,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,8,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,9,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,10,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,11,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,12,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,13,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,14,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,15,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,Number,12,"Kenneth Faried scored 12 points, not 13.",qwen_small,p0,2332.04
+T007,1,16,"Kenneth Faried chipped in 13 points ( 4 - 12 FG , 0 - 6 3Pt , 5 - 6 FT )",366.0,387.0,,,,qwen_small,p0,2332.04
+T009,1,1,host,6.0,6.0,Name,visiting,The visiting team is not the host.,qwen_small,p0,2332.04
+T009,1,2,115 - 113,,,Number,113 - 115,The scores are reversed.,qwen_small,p0,2332.04
+T009,1,3,Saturday,18.0,18.0,Name,Monday,"The game was played on Monday, not Saturday.",qwen_small,p0,2332.04
+T009,2,4,depleted,52.0,52.0,Word,depleted,"The word 'depleted' is used incorrectly, it should be 'depleted' but the context suggests it should be 'healthy'.",qwen_small,p0,2332.04
+T009,3,5,31 - 22,,,Number,22 - 31,The scores are reversed.,qwen_small,p0,2332.04
+T009,4,6,Goran Dragic,104.0,105.0,Name,Dion Waiters,"The player leading the Heat is Dion Waiters, not Goran Dragic.",qwen_small,p0,2332.04
+T009,4,7,33,57.0,57.0,Number,12,The points scored by Goran Dragic are incorrect.,qwen_small,p0,2332.04
+T009,4,8,nine,114.0,114.0,Word,eight,The assists by Goran Dragic are incorrect.,qwen_small,p0,2332.04
+T009,5,9,12,96.0,96.0,Number,19,The points scored by Dion Waiters are incorrect.,qwen_small,p0,2332.04
+T009,5,10,five,63.0,63.0,Word,twelve,The assists by Dion Waiters are incorrect.,qwen_small,p0,2332.04
+T009,6,11,19,55.0,55.0,Number,35,The points scored by Karl-Anthony Towns are incorrect.,qwen_small,p0,2332.04
+T009,6,12,eight,244.0,244.0,Word,three,The rebounds by Karl-Anthony Towns are incorrect.,qwen_small,p0,2332.04
+T009,6,13,two,117.0,117.0,Word,eight,The assists by Karl-Anthony Towns are incorrect.,qwen_small,p0,2332.04
+T009,7,14,27,259.0,259.0,Number,14,The points scored by Andrew Wiggins are incorrect.,qwen_small,p0,2332.04
+T009,7,15,four,262.0,262.0,Word,two,The rebounds by Andrew Wiggins are incorrect.,qwen_small,p0,2332.04
+T009,7,16,two,117.0,117.0,Word,four,The assists by Andrew Wiggins are incorrect.,qwen_small,p0,2332.04
+T009,8,17,14,278.0,278.0,Number,35,The points scored by Ricky Rubio are incorrect.,qwen_small,p0,2332.04
+T009,8,18,13,152.0,152.0,Number,14,The assists by Ricky Rubio are incorrect.,qwen_small,p0,2332.04
+T009,8,19,three,133.0,133.0,Word,two,The rebounds by Ricky Rubio are incorrect.,qwen_small,p0,2332.04
+T009,9,20,12,96.0,96.0,Number,12,The points scored by Shabazz Muhammad are correct.,qwen_small,p0,2332.04
+T011,1,1,"The Atlanta Hawks defeated the visiting Cleveland Cavaliers , 130 - 135 , at Philips Arena on Wednesday .",1.0,19.0,Name,"The Atlanta Hawks defeated the visiting Cleveland Cavaliers, 135 - 130, at Philips Arena on Wednesday.","The home team is the Atlanta Hawks, not the visiting team.",qwen_small,p0,2332.04
+T011,1,2,Wednesday,18.0,18.0,Word,Friday,"The game was played on Friday, not Wednesday.",qwen_small,p0,2332.04
+T013,1,1,Saturday,17.0,17.0,Name,Sunday,"The game was played on Sunday, not Saturday.",qwen_small,p0,2332.04
+T013,1,2,24 - 16,,,Number,24-16,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,1,3,23 - 16,,,Number,23-16,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,2,4,four of their last six games,,,Context,four of their last six games,"This statement is contextually misleading as it refers to the Grizzlies' recent performance, not the Jazz's.",qwen_small,p0,2332.04
+T013,3,5,23 - 16,,,Number,23-16,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,4,6,59 - 38,,,Number,59-38,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,4,7,59 - 38,,,Number,59-38,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,5,8,59 - 38,,,Number,59-38,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,5,9,59 - 38,,,Number,59-38,There is a space between the numbers.,qwen_small,p0,2332.04
+T013,6,10,22 points,,,Word,22 points,The word 'points' is missing after '22'.,qwen_small,p0,2332.04
+T013,6,11,five rebounds,,,Word,five rebounds,The word 'points' is missing before 'five'.,qwen_small,p0,2332.04
+T013,6,12,two assists,,,Word,two assists,The word 'points' is missing before 'two'.,qwen_small,p0,2332.04
+T013,6,13,two steals,,,Word,two steals,The word 'points' is missing before 'two'.,qwen_small,p0,2332.04
+T013,6,14,a block,,,Word,a block,The word 'points' is missing before 'a'.,qwen_small,p0,2332.04
+T013,7,15,15 points,,,Word,15 points,The word 'points' is missing after '15'.,qwen_small,p0,2332.04
+T013,7,16,four rebounds,,,Word,four rebounds,The word 'points' is missing before 'four'.,qwen_small,p0,2332.04
+T013,7,17,two assists,,,Word,two assists,The word 'points' is missing before 'two'.,qwen_small,p0,2332.04
+T013,8,18,five points,,,Word,five points,The word 'points' is missing after 'five'.,qwen_small,p0,2332.04
+T013,8,19,12 boards,,,Word,12 rebounds,The word 'rebounds' should replace 'boards'.,qwen_small,p0,2332.04
+T013,8,20,two assists,,,Word,two assists,The word 'points' is missing before 'two'.,qwen_small,p0,2332.04
+T013,8,21,three steals,,,Word,three steals,The word 'points' is missing before 'three'.,qwen_small,p0,2332.04
+T013,9,22,11 points,,,Word,11 points,The word 'points' is missing after '11'.,qwen_small,p0,2332.04
+T013,9,23,two rebounds,,,Word,two rebounds,The word 'points' is missing before 'two'.,qwen_small,p0,2332.04
+T013,9,24,an assist,,,Word,an assist,The word 'points' is missing before 'an'.,qwen_small,p0,2332.04
+T013,10,25,19 points,,,Word,19 points,The word 'points' is missing after '19'.,qwen_small,p0,2332.04
+T013,10,26,nine assists,,,,,,qwen_small,p0,2332.04
+T014,1,1,"The New York Knicks defeated the Milwaukee Bucks , 93 - 104 , at BMO Harris Bradley Center on Friday .",1.0,21.0,Number,"The New York Knicks defeated the Milwaukee Bucks, 104-93, at BMO Harris Bradley Center on Friday.",The score was reversed in the original text.,qwen_small,p0,2332.04
+T014,1,2,The Knicks ( 26 - 39 ),22.0,28.0,Number,The New York Knicks (26-39),The parentheses were incorrectly placed in the original text.,qwen_small,p0,2332.04
+T014,1,3,The Knicks ( 30 - 33 ),61.0,67.0,Number,The New York Knicks (30-33),The parentheses were incorrectly placed in the original text.,qwen_small,p0,2332.04
+T014,2,4,The Knicks ( 30 - 33 ),61.0,67.0,Number,The New York Knicks (30-33),The parentheses were incorrectly placed in the original text.,qwen_small,p0,2332.04
+T014,2,5,have now won five of their last six games . The Knicks ( 30 - 33 ),51.0,67.0,Number,have now won five of their last six games. The New York Knicks (30-33),The parentheses were incorrectly placed in the original text and the team name was missing.,qwen_small,p0,2332.04
+T014,3,6,"Derrick Rose led the way for New York , scoring a game - high 26 points on 13 - of - 16 shooting from the field .",90.0,116.0,Number,"Derrick Rose led the way for New York, scoring a game-high 26 points on 13-of-16 shooting from the field.",The order of the score and shooting percentage was reversed in the original text.,qwen_small,p0,2332.04
+T014,3,7,"Carmelo Anthony followed up with 16 points , four rebounds and three assists , while Kristaps Porzingis added 13 points , eight boards , two assists and three blocks .",117.0,146.0,Name,"Carmelo Anthony followed up with 16 points, four rebounds and three assists, while Kristaps Porzingis added 13 points, eight boards, two assists and three blocks.",The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T014,3,8,Willy Hernangomez chipped in 13 points and 12 rebounds .,,,Number,Willy Hernangomez chipped in 13 points and 12 rebounds.,The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T014,4,9,The Bucks ( 30 - 33 ),171.0,177.0,Number,The Milwaukee Bucks (30-33),The parentheses were incorrectly placed in the original text and the team name was missing.,qwen_small,p0,2332.04
+T014,4,10,"have now won five of their last six games , as they continue to fall down the standings .",178.0,196.0,Context,"have now won five of their last six games, as they continue to fall down the standings.","The context suggests that the Bucks have been performing well recently, contradicting the statement.",qwen_small,p0,2332.04
+T014,5,11,"Giannis Antetokounmpo led the way for Milwaukee with 32 points , 13 rebounds , seven assists , four steals and two blocks .",197.0,219.0,Number,"Giannis Antetokounmpo led the way for Milwaukee with 32 points, 13 rebounds, seven assists, four steals and two blocks.",The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T014,5,12,"Khris Middleton was next with 18 points , four assists , three rebounds and a steal .",220.0,236.0,Number,"Khris Middleton was next with 18 points, four assists, three rebounds and a steal.",The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T014,5,13,"Greg Monroe was next with 17 points , eight rebounds , three assists and a steal .",237.0,253.0,Number,"Greg Monroe was next with 17 points, eight rebounds, three assists and a steal.",The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T014,6,14,"Matthew Dellavedova was productive in a reserve role as well , supplying 10 points , three assists and two rebounds .",254.0,274.0,Number,"Matthew Dellavedova was productive in a reserve role as well, supplying 10 points, three assists and two rebounds.",The order of the statistics was mixed up in the original text.,qwen_small,p0,2332.04
+T015,1,1,Wednesday,23.0,23.0,Name,Tuesday,"The game was played on Tuesday, not Wednesday.",qwen_small,p0,2332.04
+T015,1,2,Palace of Auburn Hills,26.0,29.0,Name,The Palace of Auburn Hills,"The venue is known as the Palace of Auburn Hills, not just Palace of Auburn Hills.",qwen_small,p0,2332.04
+T015,2,3,three game losing streak,,,Word,four-game losing streak,"The Lakers had a four-game losing streak, not a three-game losing streak.",qwen_small,p0,2332.04
+T015,3,4,Nick Young,89.0,90.0,Name,Nick Young,"No correction needed, as the name is correct.",qwen_small,p0,2332.04
+T015,3,5,"5 - 13 FG , 3 - 6 3Pt , 6 - 7 FT",98.0,111.0,Number,"5-13 FG, 3-6 3Pt, 6-7 FT","The format of the shooting stats is correct, no correction needed.",qwen_small,p0,2332.04
+T015,4,6,Greg Monroe,117.0,118.0,Name,Greg Monroe,"No correction needed, as the name is correct.",qwen_small,p0,2332.04
+T015,4,7,combined for 52 points,161.0,164.0,Number,combined for 52 points,"The number of points is correct, no correction needed.",qwen_small,p0,2332.04
+T015,5,8,Brandon Jennings,182.0,183.0,Name,Brandon Jennings,"No correction needed, as the name is correct.",qwen_small,p0,2332.04
+T015,5,9,10 points,187.0,188.0,Number,10 points,"The number of points is correct, no correction needed.",qwen_small,p0,2332.04
+T015,6,10,The Lakers 's next game will be on the road against the Boston Celtics on Friday,,,Date,The Lakers' next game will be on the road against the Boston Celtics on Saturday,"The next game is on Saturday, not Friday.",qwen_small,p0,2332.04
+T015,6,11,Brooklyn,254.0,254.0,Name,Brooklyn,"No correction needed, as the name is correct.",qwen_small,p0,2332.04
+T016,1,1,"The Philadelphia 76ers defeated the Sacramento Kings , 100 - 102 , at Golden 1 Center on Friday .",1.0,19.0,Name,"The Philadelphia 76ers defeated the Sacramento Kings, 100-102, at Golden 1 Center on Friday.",Incorrect team names and punctuation.,qwen_small,p0,2332.04
+T016,1,2,The Sixers ( 7 - 23 ),20.0,26.0,Number,The Sixers (7-23),Incorrect team record.,qwen_small,p0,2332.04
+T016,1,3,The Sixers ( 14 - 17 ),58.0,64.0,Number,The Sixers (14-17),Incorrect team record.,qwen_small,p0,2332.04
+T016,1,4,The Sixers ( 14 - 17 ),58.0,64.0,Number,The Sixers (14-17),Incorrect team record.,qwen_small,p0,2332.04
+T016,1,5,The Sixers ( 14 - 17 ),58.0,64.0,Number,The Sixers (14-17),Incorrect team record.,qwen_small,p0,2332.04
+T016,1,6,"Sergio Rodriguez was the high - point man for the 76ers ,",96.0,107.0,Name,"Sergio Rodriguez was the high-point man for the 76ers,",Incorrect team name.,qwen_small,p0,2332.04
+T016,1,7,"Sergio Rodriguez was the high - point man for the 76ers , with 18 points and five assists ,",96.0,114.0,Number,"Sergio Rodriguez was the high-point man for the 76ers, with 18 points and five assists,",Incorrect number of points.,qwen_small,p0,2332.04
+T016,1,8,Jahlil Okafor logged 20 minutes off the bench .,116.0,124.0,Number,Jahlil Okafor logged 20 minutes off the bench.,Incorrect number of minutes.,qwen_small,p0,2332.04
+T016,2,9,"DeMarcus Cousins was the high - point man for the Kings , with 30 points , to go along with seven rebounds , five assists , three steals and two blocks , in 34 minutes .",150.0,185.0,Number,"DeMarcus Cousins was the high-point man for the Kings, with 30 points, to go along with seven rebounds, five assists, three steals and two blocks, in 34 minutes.","Incorrect number of points, rebounds, assists, steals, and blocks.",qwen_small,p0,2332.04
+T016,2,10,"Ty Lawson followed up with 12 points , four rebounds , four assists and two steals , while Darren Collison finished with nine points and four assists , in 28 minutes off the bench .",186.0,220.0,Number,"Ty Lawson followed up with 12 points, four rebounds, four assists and two steals, while Darren Collison finished with nine points and four assists, in 28 minutes off the bench.","Incorrect number of points, rebounds, assists, and steals.",qwen_small,p0,2332.04
+T016,3,11,Next up for the Kings is a trip to Orlando to take on the Magic on Sunday .,221.0,238.0,Name,Next up for the Kings is a trip to Orlando to take on the Magic on Sunday.,Incorrect team name.,qwen_small,p0,2332.04
+T016,4,12,The 76ers will host the Suns on Friday for their next game .,239.0,251.0,Name,The 76ers will host the Suns on Friday for their next game.,Incorrect team name.,qwen_small,p0,2332.04
+T017,1,1,The Miami Heat ( 41 - 29 ),1.0,8.0,Number,41-29,The score format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,1,2,defeated the New Orleans Pelicans ( 26 - 44 ),9.0,18.0,Number,26-43,The Pelicans' record should be 26-43 according to the provided box score.,qwen_small,p0,2332.04
+T017,1,3,113 - 99,19.0,21.0,Number,113-99,The score format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,2,4,"The Heat got off to a hot start in this game , out - scoring the Pelicans 29 - 13 in the first quarter ,",34.0,58.0,Number,29-13,The score format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,2,5,"but the Pelicans battled back in the second half , out - scoring the Pelicans 29 - 13 .",59.0,77.0,Number,29-13,The score format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,3,6,"The Pelicans were able to get it within striking distance , as they out - scored the Pelicans 31 - 19 in the final quarter to seal the win .",78.0,107.0,Number,31-19,The score format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,4,7,"Dwyane Wade led the way for the Heat , finishing with 25 points (",108.0,121.0,Number,25,The number of points should match the provided box score.,qwen_small,p0,2332.04
+T017,4,8,"10 - 21 FG , 0 - 0 3Pt , 5 - 6 FT )",122.0,136.0,Number,"10-21 FG, 0-0 3Pt, 5-6 FT",The format of shooting stats should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,5,9,"Hassan Whiteside had a strong showing as well , finishing with 24 points (",147.0,160.0,Number,24,The number of points should match the provided box score.,qwen_small,p0,2332.04
+T017,5,10,"10 - 11 FG , 4 - 6 FT )",161.0,170.0,Number,"10-11 FG, 4-6 FT",The format of shooting stats should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,6,11,"Anthony Davis had a strong showing as well , finishing with 24 points (",203.0,216.0,Number,24,The number of points should match the provided box score.,qwen_small,p0,2332.04
+T017,6,12,"10 - 11 FG , 4 - 6 FT )",161.0,170.0,Number,"10-11 FG, 4-6 FT",The format of shooting stats should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T017,7,13,The Heat will look to continue their winning ways on the road against the Dallas Mavericks on Wednesday .,234.0,252.0,Word,Saturday,"The game against the Dallas Mavericks is on Saturday, not Wednesday.",qwen_small,p0,2332.04
+T017,8,14,"New Orleans has now lost four of its last four games , with the Pelicans coming out of the All-Star break .",253.0,274.0,Word,All-Star break,"The phrase 'All-Star break' is correctly used, no correction needed.",qwen_small,p0,2332.04
+T017,9,15,The Pelicans were without Anthony Davis ( knee ),275.0,283.0,Word,knee injury,The term 'knee injury' is more precise than just 'knee'.,qwen_small,p0,2332.04
+T017,10,16,"The only other player to reach double figures in points was Anthony Davis , who shot just N/A , going N/A , going just N/A .",295.0,320.0,Word,"N/A, going N/A, going N/A","The phrase 'N/A, going N/A, going N/A' is redundant and should be simplified.",qwen_small,p0,2332.04
+T018,1,1,The Houston Rockets defeated the visiting Los Angeles Lakers 134 - 95 at Toyota Center on Wednesday .,1.0,18.0,Name,The Houston Rockets defeated the visiting Los Angeles Lakers 134-95 at Toyota Center on Wednesday.,Los Angeles Lakers should be capitalized.,qwen_small,p0,2332.04
+T018,1,2,The Houston Rockets ( 15 - 7 ),,,Number,The Houston Rockets (15-7),The number of wins and losses should be separated by a hyphen without spaces.,qwen_small,p0,2332.04
+T018,1,3,James Harden led the way for the Rockets with 25 points (,50.0,61.0,Number,"James Harden led the way for the Rockets with 25 points (8-14 FG, 4-7 3Pt, 5-6 FT)",The statistics for James Harden should be included as provided in the box score.,qwen_small,p0,2332.04
+T018,1,4,Eric Gordon followed up with 26 points on 9 - of - 13 shooting from the field .,,,Number,Eric Gordon followed up with 26 points on 9-of-13 shooting from the field.,The shooting percentage should be in the format of X-of-Y.,qwen_small,p0,2332.04
+T018,1,5,Julius Randle chipped in 21 points (,132.0,138.0,Number,"Julius Randle chipped in 21 points (9-19 FG, 3-4 FT)",The statistics for Julius Randle should be included as provided in the box score.,qwen_small,p0,2332.04
+T018,1,6,Lou Williams had 24 points (,187.0,192.0,Number,"Lou Williams had 24 points (7-12 FG, 8-8 FT)",The statistics for Lou Williams should be included as provided in the box score.,qwen_small,p0,2332.04
+T018,1,7,"The Rockets struggled shooting the ball , as they went 9 - of - 21 from long range .",229.0,247.0,Number,"The Rockets struggled shooting the ball, as they went 9-of-21 from long range.",The shooting percentage should be in the format of X-of-Y.,qwen_small,p0,2332.04
+T018,2,8,"Next , the Lakers will host the Timberwolves on Friday .",248.0,258.0,Name,"Next, the Lakers will host the Timberwolves on Friday.",The team name 'Timberwolves' should be capitalized.,qwen_small,p0,2332.04
+T018,2,9,The Rockets will host the Timberwolves on Friday .,259.0,267.0,Name,The Rockets will host the Timberwolves on Friday.,The team name 'Timberwolves' should be capitalized.,qwen_small,p0,2332.04
+T019,1,1,Brooklyn Nets,11.0,12.0,Name,Nets,The Nets' record should be 35-42.,qwen_small,p0,2332.04
+T019,1,2,Friday,26.0,26.0,Word,Wednesday,"The game was played on Wednesday, not Friday.",qwen_small,p0,2332.04
+T019,2,3,Al Horford,60.0,61.0,Name,DeMarre Carroll,Al Horford did not lead the Hawks in scoring. DeMarre Carroll did.,qwen_small,p0,2332.04
+T019,2,4,seven rebounds,68.0,69.0,Word,nine,"DeMarre Carroll had nine rebounds, not seven.",qwen_small,p0,2332.04
+T019,3,5,Brook Lopez,112.0,113.0,Name,Al Horford,Brook Lopez did not lead the Hawks in scoring. Al Horford did.,qwen_small,p0,2332.04
+T019,3,6,10 rebounds,136.0,137.0,Number,7,"Brook Lopez had 7 rebounds, not 10.",qwen_small,p0,2332.04
+T019,4,7,14 points,156.0,157.0,Number,10,"Jarrett Jack had 10 points, not 14.",qwen_small,p0,2332.04
+T019,5,8,Indiana,212.0,212.0,Name,Atlanta,"The Nets will play against the Hawks in Atlanta, not Indiana.",qwen_small,p0,2332.04
+T019,6,9,Knicks,221.0,221.0,Name,Hawks,"The Hawks will host the Hawks, not the Knicks.",qwen_small,p0,2332.04
+T020,1,1,Tuesday,22.0,22.0,Word,Thursday,"The game was played on Thursday, not Tuesday.",qwen_small,p0,2332.04
+T020,1,2,Miami,11.0,11.0,Name,Charlotte,"The game was played in Charlotte, not Miami.",qwen_small,p0,2332.04
+T020,2,3,34 - 19,54.0,56.0,Number,28,"The visiting team Hornets out-scored the home team Heat by 28 points in the third quarter, not 34-19.",qwen_small,p0,2332.04
+T020,2,4,53 % from the field and 50 % from beyond the arc,,,Word,53%,"The Heat's shooting percentage from beyond the arc is 53%, not 50%.",qwen_small,p0,2332.04
+T020,3,5,Nicolas Batum and Kemba Walker,106.0,110.0,Name,Kemba Walker and Nicolas Batum,The order of the names is incorrect. Kemba Walker and Nicolas Batum led the Hornets.,qwen_small,p0,2332.04
+T020,3,6,team-high,,,Word,team-high of 19 points,The phrase 'team-high' is not specific enough. It should specify the points scored.,qwen_small,p0,2332.04
+T020,3,7,"7 - 19 FG , 2 - 7 3Pt , 3 - 3 FT",123.0,136.0,Number,"7-19 FG, 2-7 3Pt, 3-3 FT","The free throw attempts are incorrect. Nicolas Batum made 3 free throws, not 3 attempts.",qwen_small,p0,2332.04
+T020,4,8,Marvin Williams added 12 points,150.0,154.0,Name,Marvin Williams added 12 points,"The name 'Marvin Williams' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,4,9,Courtney Lee had 13 points,156.0,160.0,Name,Courtney Lee had 13 points,"The name 'Courtney Lee' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,5,10,six players reach double figures in points,184.0,190.0,Word,six players reached double figures in points,The word 'reach' should be used instead of 'reach'.,qwen_small,p0,2332.04
+T020,5,11,Goran Dragic led the way with 16 points,192.0,199.0,Name,Goran Dragic led the way with 16 points,"The name 'Goran Dragic' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,5,12,Luol Deng went 7 - for - 13 from the field and 2 - for - 5 from the three - point line,,,Name,Luol Deng went 7-for-13 from the field and 2-for-5 from the three-point line,"The name 'Luol Deng' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,6,13,Hassan Whiteside had a solid showing as well,262.0,269.0,Name,Hassan Whiteside had a solid showing as well,"The name 'Hassan Whiteside' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,6,14,going 7 - for - 13 from the field and 2 - for - 5 from the three - point line,271.0,291.0,Number,7-13 from the field and 2-5 from the three-point line,"The free throw attempts are incorrect. Hassan Whiteside made 2 free throws, not 2 attempts.",qwen_small,p0,2332.04
+T020,7,15,"Over his last three games he 's averaging 17 points , 9 rebounds and 3 assists , but has now recorded double - digit points in three straight games",310.0,338.0,Word,"Over his last three games he's averaging 17 points, 9 rebounds and 3 assists, but has now recorded double-digit points in three straight games",The sentence structure is awkward and the word 'digit' should be hyphenated.,qwen_small,p0,2332.04
+T020,8,16,Hassan Whiteside also had a strong showing in the third quarter,,,Name,Hassan Whiteside also had a strong showing in the third quarter,"The name 'Hassan Whiteside' is correct, but the sentence structure is awkward.",qwen_small,p0,2332.04
+T020,8,17,"finishing with 17 points ( 6 - 10 FG , 5 - 6 FT )",348.0,362.0,,,,qwen_small,p0,2332.04
+T022,1,1,Wednesday,23.0,23.0,Name,Sunday,"The game was played on Sunday, not Wednesday.",qwen_small,p0,2332.04
+T022,1,2,Energy Solutions Arena,,,Name,AT & T Center,"The game was played at the AT & T Center, not Energy Solutions Arena.",qwen_small,p0,2332.04
+T022,2,3,23 - 15,,,Number,23 - 15,"The score difference in the first quarter is correct, but the sentence structure implies a different meaning.",qwen_small,p0,2332.04
+T022,2,4,23 - 15 in the first quarter alone,,,Context,23 - 15 in the first quarter,The phrase 'alone' is misleading and not necessary.,qwen_small,p0,2332.04
+T022,3,5,The Spurs were the superior shooters in this game,,,Word,The Spurs were better shooters in this game,The word 'superior' is less clear and can be replaced with 'better'.,qwen_small,p0,2332.04
+T022,4,6,5 - for - 10 from the field and 0 - for - 0 from the three - point line,,,Number,5 - for - 10 from the field and 0 - for - 0 from the three - point line,"The sentence structure is correct, but the phrase '5 - for - 10' is awkward.",qwen_small,p0,2332.04
+T022,4,7,5 - for - 10 from the field and 0 - for - 0 from the three - point line to score a game - high of 13 points,,,Number,5 - for - 10 from the field and 0 - for - 0 from the three - point line to score 13 points,The phrase 'game-high of' is redundant and can be simplified.,qwen_small,p0,2332.04
+T022,5,8,It was his second double - double in a row,,,Context,It was his second double-double in a row,The hyphen in 'double-double' is unnecessary and can be removed.,qwen_small,p0,2332.04
+T022,6,9,"Aron Baynes chipped in with 12 points ( 4 - 10 FG , 0 - 1 3Pt , 4 - 5 FT ) and 11 rebounds",,,Number,"Aron Baynes chipped in with 12 points (4 - 10 FG, 0 - 1 3Pt, 4 - 5 FT) and 11 rebounds",The parentheses around the shooting stats are unnecessary and can be removed.,qwen_small,p0,2332.04
+T022,7,10,The Spurs ' next game will be on the road against the Portland Trail Blazers on Friday,,,Name,The Spurs' next game will be on the road against the Portland Trail Blazers on Friday,The possessive apostrophe is missing before 'next game'.,qwen_small,p0,2332.04
+T023,1,1,Wednesday,23.0,23.0,Name,Saturday,"The game was played on Saturday, not Wednesday.",qwen_small,p0,2332.04
+T023,1,2,American Airlines Arena,,,Name,Talking Stick Resort Arena,"The game was played at Talking Stick Resort Arena, not American Airlines Arena.",qwen_small,p0,2332.04
+T023,2,3,39 - 18,,,Number,39-18,No space between the numbers.,qwen_small,p0,2332.04
+T023,2,4,45 percent,,,Word,45%,Percentage should be represented as 45%.,qwen_small,p0,2332.04
+T023,2,5,31 percent,,,Word,31%,Percentage should be represented as 31%.,qwen_small,p0,2332.04
+T023,2,6,40 percent,,,Word,40%,Percentage should be represented as 40%.,qwen_small,p0,2332.04
+T023,2,7,20 percent,,,Word,20%,Percentage should be represented as 20%.,qwen_small,p0,2332.04
+T023,3,8,duo,106.0,106.0,Word,pair,The term 'duo' is not appropriate here; 'pair' is more accurate.,qwen_small,p0,2332.04
+T023,3,9,9 - for - 22,,,Number,9-for-22,No space between the numbers.,qwen_small,p0,2332.04
+T023,3,10,3 - for - 11,,,Number,3-for-11,No space between the numbers.,qwen_small,p0,2332.04
+T023,3,11,game - high,,,Word,game-high,Hyphen should be removed for compound words.,qwen_small,p0,2332.04
+T023,3,12,eight assists and three rebounds,,,Word,eight assists and three rebounds,This sentence is correct.,qwen_small,p0,2332.04
+T023,4,13,45 points and 21 rebounds over his last two games,,,Word,45 points and 21 rebounds over his last two games,This sentence is correct.,qwen_small,p0,2332.04
+T023,5,14,5 - 8 FG,,,Number,5-for-8 FG,No space between the numbers.,qwen_small,p0,2332.04
+T023,5,15,2 - 4 3Pt,,,Number,2-for-4 3Pt,No space between the numbers.,qwen_small,p0,2332.04
+T023,5,16,1 - 4 FT,,,Number,1-for-4 FT,No space between the numbers.,qwen_small,p0,2332.04
+T023,6,17,"12 points ( 6 - 11 FG , 0 - 2 3Pt ) and nine rebounds",,,Number,"12 points (6-for-11 FG, 0-for-2 3Pt) and nine rebounds",No space between the numbers.,qwen_small,p0,2332.04
+T024,1,1,Wednesday,23.0,23.0,Name,Friday,"The game was played on Friday, not Wednesday.",qwen_small,p0,2332.04
+T024,1,2,99 - 94,,,Number,99 - 94,"The score is correct, but the format is inconsistent with the rest of the document.",qwen_small,p0,2332.04
+T024,2,3,27 - 27,,,Number,27-27,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,2,4,46 percent,,,Word,46%,The percentage should be formatted without a space.,qwen_small,p0,2332.04
+T024,2,5,33 percent,,,Word,33%,The percentage should be formatted without a space.,qwen_small,p0,2332.04
+T024,3,6,Kevin Durant and Russell Westbrook,,,Name,Durant and Westbrook,The names should be in the correct order.,qwen_small,p0,2332.04
+T024,3,7,14 - for - 21,,,Number,14-for-21,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,3,8,2 - for - 7,,,Number,2-for-7,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,3,9,32 points,,,Number,32 points,"The score is correct, but the format is consistent with the rest of the document.",qwen_small,p0,2332.04
+T024,3,10,five assists and five rebounds,,,Word,five assists and five rebounds,The sentence is correct.,qwen_small,p0,2332.04
+T024,4,11,14 - for - 21,,,Number,14-for-21,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,4,12,2 - for - 4,,,Number,2-for-4,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,4,13,2 - 2 FT,,,Number,2-2 FT,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,14,20 points,,,Number,20 points,"The score is correct, but the format is consistent with the rest of the document.",qwen_small,p0,2332.04
+T024,5,15,8 - 15 FG,,,Number,8-15 FG,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,16,2 - 4 3Pt,,,Number,2-4 3Pt,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,17,2 - 2 FT,,,Number,2-2 FT,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,18,0 - 1 FT,,,Number,0-1 FT,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,19,0 - 4 3Pt,,,Number,0-4 3Pt,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,5,20,0 - 1 FT,,,Number,0-1 FT,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,6,21,15 points,,,Number,15 points,"The score is correct, but the format is consistent with the rest of the document.",qwen_small,p0,2332.04
+T024,6,22,7 - 14 FG,,,Number,7-14 FG,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,6,23,1 - 4 3Pt,,,Number,1-4 3Pt,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,6,24,0 - 1 FT,,,Number,0-1 FT,The score format should use hyphens instead of spaces.,qwen_small,p0,2332.04
+T024,6,25,0 - 4 3Pt,,,,,,qwen_small,p0,2332.04
+T025,1,1,Sunday,22.0,22.0,Name,Friday,"The game was played on Friday, not Sunday.",qwen_small,p0,2332.04
+T025,1,2,US Airways Center,,,Name,U.S. Airways Center,The correct name of the arena is U.S. Airways Center.,qwen_small,p0,2332.04
+T025,2,3,34 - 29,,,Number,34-29,The format should be consistent with the rest of the document.,qwen_small,p0,2332.04
+T025,2,4,50 percent from the field and 44 percent from the three - point line,,,Word,50% from the field and 44% from the three-point line,The percentage symbols should be used without spaces.,qwen_small,p0,2332.04
+T025,2,5,43 percent from the floor and 27 percent from beyond the arc,,,Word,43% from the field and 27% from beyond the arc,The percentage symbols should be used without spaces and 'floor' should be 'field'.,qwen_small,p0,2332.04
+T025,3,6,Tony Wroten and Gerald Green,,,Name,Tony Wroten and Markieff Morris,"The correct lead scorers were Markieff Morris and Gerald Green, not just Tony Wroten and Gerald Green.",qwen_small,p0,2332.04
+T025,3,7,10 - for - 19 from the field and 4 - for - 9 from the three - point line,,,Word,10-for-19 from the field and 4-for-9 from the three-point line,The hyphens should be removed between numbers and units.,qwen_small,p0,2332.04
+T025,3,8,19 points and 8 rebounds on the season,,,Number,17 points and 8 rebounds on the season,"Tony Wroten actually scored 17 points, not 19.",qwen_small,p0,2332.04
+T025,4,9,6 - for - 14 from the field and 3 - for - 5 from the three - point line,,,Word,6-for-14 from the field and 3-for-5 from the three-point line,The hyphens should be removed between numbers and units.,qwen_small,p0,2332.04
+T025,4,10,27 points and 16 rebounds over his last two games,,,Number,22 points and 7 rebounds over his last two games,"Eric Bledsoe actually scored 22 points and had 7 rebounds over his last two games, not 27 and 16.",qwen_small,p0,2332.04
+T025,5,11,Robert Covington,,,Name,Goran Dragic,"The only other Sixer to reach double figures in points was Goran Dragic, not Robert Covington.",qwen_small,p0,2332.04
+T025,5,12,"3 - 7 FG , 2 - 5 3Pt , 2 - 2 FT",,,Word,"3-7 FG, 2-5 3Pt, 2-2 FT",The hyphens should be removed between numbers and units.,qwen_small,p0,2332.04
+T025,5,13,"10 points ( 4 - 6 FG , 2 - 3 3Pt , 2 - 2 FT )",,,Word,"12 points (4-6 FG, 2-3 3Pt, 2-2 FT)","Goran Dragic actually scored 12 points, not 10.",qwen_small,p0,2332.04
+T025,6,14,5 assists,,,Number,8 assists,"Goran Dragic had 8 assists, not 5.",qwen_small,p0,2332.04
+T025,7,15,"6 - 7 FG , 0 - 0 3Pt , 4 - 4 FT",,,Word,"6-7 FG, 0-0 3Pt, 4-4 FT",The hyphens should be removed between numbers and units.,qwen_small,p0,2332.04
+T025,8,16,Portland Trail Blazers,,,Name,Portland Trail Blazers,"The name is correct, but the sentence structure implies the Suns are playing away, which is not accurate based on the provided information.",qwen_small,p0,2332.04
+T026,1,1,The Detroit Pistons ( 2 - 3 ),1.0,8.0,Number,1-3,"The Pistons' record is 1-3, not 2-3.",qwen_small,p0,2332.04
+T026,1,2,defeated the New York Knicks ( 2 - 3 ),9.0,18.0,Number,1-3,"The Knicks' record is 1-3, not 2-3.",qwen_small,p0,2332.04
+T026,1,3,98 - 95,19.0,21.0,Number,98-95,"The score is 98-95, not 98 - 95.",qwen_small,p0,2332.04
+T026,2,4,"The Knicks got off to a quick start in this one , out - scoring the Knicks 25 - 20 in the first half alone .",33.0,58.0,Word,out-scoring,"The correct phrase is 'out-scoring', not 'out scoring'.",qwen_small,p0,2332.04
+T026,2,5,25 - 20,50.0,52.0,Number,25-20,"The correct score difference in the first half is 25-20, not 25 - 20.",qwen_small,p0,2332.04
+T026,3,6,"The Pistons 're the superior shooters in this game , going 37 % from the field and 45 % from the three - point line , while the Knicks went 43 % from the floor and 45 % from beyond the arc .",,,Word,went 43%,"The correct phrase is 'went 43%', not 'went 43 %'.",qwen_small,p0,2332.04
+T026,3,7,45 % from beyond the arc .,,,Word,45% from beyond the arc,"The correct phrase is '45% from beyond the arc', not '45 % from beyond the arc'.",qwen_small,p0,2332.04
+T026,4,8,"The Knicks were led by Kentavious Caldwell-Pope , who finished with a team - high of 20 points ( 8 - 14 FG , 4 - 7 3Pt , 0 - 2 FT )",102.0,135.0,Word,"8-14 FG, 4-7 3Pt, 0-2 FT","The correct format for shooting percentages is '8-14 FG, 4-7 3Pt, 0-2 FT'.",qwen_small,p0,2332.04
+T026,4,9,0 - 2 FT,131.0,134.0,Number,0-2 FT,The correct format for free throw attempts is '0-2 FT'.,qwen_small,p0,2332.04
+T026,5,10,"It was his second double - double in a row , as he 's combined for 43 points and 25 rebounds over his last two games .",147.0,173.0,Word,double-double,"The correct term is 'double-double', not 'double-double'.",qwen_small,p0,2332.04
+T026,6,11,"Tim Hardaway Jr had a solid game . He went 8 - for - 15 from the field and 4 - for - 7 from the three - point line to score 20 points , while also adding three assists .",174.0,214.0,Word,8-for-15 from the field and 4-for-7 from the three-point line,The correct format for shooting percentages is '8-for-15 from the field and 4-for-7 from the three-point line'.,qwen_small,p0,2332.04
+T026,6,12,4 - for - 7,193.0,197.0,Number,4-for-7,The correct format for shooting percentages is '4-for-7'.,qwen_small,p0,2332.04
+T026,7,13,He 's now averaging 12 points and 2 rebounds on the year .,215.0,227.0,Word,12 points and 2 rebounds,The correct format for averages is '12 points and 2 rebounds'.,qwen_small,p0,2332.04
+T026,8,14,"Iman Shumpert had 15 points ( 5 - 13 FG , 4 - 6 3Pt , 1 - 2 FT )",228.0,248.0,Word,"5-13 FG, 4-6 3Pt, 1-2 FT","The correct format for shooting percentages is '5-13 FG, 4-6 3Pt, 1-2 FT'.",qwen_small,p0,2332.04
+T026,8,15,1 - 2 FT,244.0,247.0,,,,qwen_small,p0,2332.04
+T028,1,1,"The San Antonio Spurs defeated the Los Angeles Clippers , 105 - 97 , at Staples Center on Friday .",1.0,20.0,Number,105-97,Incorrect score. The actual score was 105-97.,qwen_small,p0,2332.04
+T028,1,2,The Spurs ( 44 - 13 ),21.0,27.0,Number,The Spurs (44-13),Incorrect team record. The actual record was 44-13.,qwen_small,p0,2332.04
+T028,1,3,The Spurs ( 35 - 13 ),57.0,63.0,Number,The Spurs (35-13),Incorrect team record. The actual record was 35-13.,qwen_small,p0,2332.04
+T028,1,4,The Spurs ( 35 - 13 ),57.0,63.0,Number,The Spurs (35-13),Incorrect team record. The actual record was 35-13.,qwen_small,p0,2332.04
+T028,1,5,The Spurs ( 44 - 13 ),21.0,27.0,Number,The Spurs (44-13),Incorrect team record. The actual record was 44-13.,qwen_small,p0,2332.04
+T028,2,6,The Spurs ( 44 - 13 ),21.0,27.0,Number,The Spurs (44-13),Incorrect team record. The actual record was 44-13.,qwen_small,p0,2332.04
+T028,2,7,The Spurs ( 35 - 13 ),57.0,63.0,Number,The Spurs (35-13),Incorrect team record. The actual record was 35-13.,qwen_small,p0,2332.04
+T028,3,8,The Spurs ( 35 - 13 ),57.0,63.0,Number,The Spurs (35-13),Incorrect team record. The actual record was 35-13.,qwen_small,p0,2332.04
+T028,3,9,The Spurs ( 44 - 13 ),21.0,27.0,Number,The Spurs (44-13),Incorrect team record. The actual record was 44-13.,qwen_small,p0,2332.04
+T028,4,10,The Spurs ( 35 - 13 ),57.0,63.0,Number,The Spurs (35-13),Incorrect team record. The actual record was 35-13.,qwen_small,p0,2332.04
+T028,4,11,The Spurs ( 44 - 13 ),21.0,27.0,Number,The Spurs (44-13),Incorrect team record. The actual record was 44-13.,qwen_small,p0,2332.04
+T028,5,12,"Blake Griffin was the high - point man for the Spurs , with 29 points , to go along with nine rebounds , five assists and one steal , in 38 minutes .",124.0,156.0,Number,29 points,Incorrect points scored by Blake Griffin. The actual points were 29.,qwen_small,p0,2332.04
+T028,5,13,"nine rebounds , five assists and one steal , in 38 minutes .",144.0,156.0,Number,"nine rebounds, five assists and one steal, in 38 minutes.","Incorrect stats for Blake Griffin. The actual stats were nine rebounds, five assists and one steal.",qwen_small,p0,2332.04
+T028,6,14,"LaMarcus Aldridge followed up with 15 points , 11 rebounds , one assist and one steal , in 34 minutes .",157.0,177.0,Number,"15 points, 11 rebounds, one assist and one steal, in 34 minutes.","Incorrect stats for LaMarcus Aldridge. The actual stats were 15 points, 11 rebounds, one assist and one steal.",qwen_small,p0,2332.04
+T028,7,15,"Tony Parker chipped in 17 points , two rebounds , three assists and two steals , in 31 minutes off the bench .",178.0,200.0,Number,"17 points, two rebounds, three assists and two steals, in 31 minutes off the bench.","Incorrect stats for Tony Parker. The actual stats were 17 points, two rebounds, three assists and two steals.",qwen_small,p0,2332.04
+T028,8,16,"Meanwhile , Blake Griffin led the way for the Spurs with 29 points on 9 - of - 17 shooting , along with five assists , nine rebounds and one steal , in 38 minutes .",201.0,236.0,,,,qwen_small,p0,2332.04
+T029,1,1,105 - 100,18.0,20.0,Number,105 - 100,Incorrect score difference. The actual score was 105-100.,qwen_small,p0,2332.04
+T029,1,2,Wednesday,22.0,22.0,Name,Wednesday,"Correct day of the week, no change needed.",qwen_small,p0,2332.04
+T029,2,3,22 - 25,47.0,49.0,Number,25 - 22,Incorrect order of points scored in the first quarter. The actual score was 25-22.,qwen_small,p0,2332.04
+T029,3,4,47 % from the field and 38 % from the three - point line,,,Number,47% from the field and 38% from the three-point line,Incorrect order of shooting percentages. The actual shooting percentages were 47% from the field and 38% from the three-point line.,qwen_small,p0,2332.04
+T029,3,5,47 % from the floor and just 25 % from deep,,,Number,47% from the floor and just 25% from deep,Incorrect order of shooting percentages. The actual shooting percentages were 47% from the floor and 25% from deep.,qwen_small,p0,2332.04
+T029,4,6,20 turnovers,105.0,106.0,Number,20 turnovers,Correct number of turnovers. The actual number of turnovers was 20.,qwen_small,p0,2332.04
+T029,5,7,Victor Oladipo and Markieff Morris,124.0,128.0,Name,Victor Oladipo and Markieff Morris,Incorrect names. The correct names are Victor Oladipo and Markieff Morris.,qwen_small,p0,2332.04
+T029,5,8,7 - for - 15 from the field and 4 - for - 9 from the three - point line,132.0,151.0,Number,7 for 15 from the field and 4 for 9 from the three-point line,Incorrect format of shooting statistics. The actual shooting statistics were 7 for 15 from the field and 4 for 9 from the three-point line.,qwen_small,p0,2332.04
+T029,5,9,28 points,159.0,160.0,Number,28 points,Correct number of points. The actual number of points was 28.,qwen_small,p0,2332.04
+T029,5,10,7 assists and 3 steals,,,Number,7 assists and 3 steals,Correct number of assists and steals. The actual number of assists and steals was 7 and 3 respectively.,qwen_small,p0,2332.04
+T029,6,11,7 - for - 10 from the field and 1 - for - 2 from the three - point line,200.0,219.0,Number,7 for 10 from the field and 1 for 2 from the three-point line,Incorrect format of shooting statistics. The actual shooting statistics were 7 for 10 from the field and 1 for 2 from the three-point line.,qwen_small,p0,2332.04
+T029,6,12,19 points,175.0,176.0,Number,19 points,Correct number of points. The actual number of points was 19.,qwen_small,p0,2332.04
+T029,7,13,20 turnovers,105.0,106.0,Number,20 turnovers,Correct number of turnovers. The actual number of turnovers was 20.,qwen_small,p0,2332.04
+T029,8,14,PJ Tucker,184.0,185.0,Name,PJ Tucker,Correct name. The correct name is PJ Tucker.,qwen_small,p0,2332.04
+T029,8,15,7 points,,,Number,7 points,Correct number of points. The actual number of points was 7.,qwen_small,p0,2332.04
+T029,8,16,4 rebounds,,,Number,4 rebounds,Correct number of rebounds. The actual number of rebounds was 4.,qwen_small,p0,2332.04
+T029,9,17,Victor Oladipo put on a show but it was n't enough to overcome an 11 - point deficit in the fourth quarter,,,Context,Victor Oladipo put on a show but it wasn't enough to overcome an 11-point deficit in the fourth quarter,Incorrect punctuation and context. The sentence is grammatically correct but the context is clear.,qwen_small,p0,2332.04
+T029,10,18,17 of his 38 points,,,Number,17 of his 38 points,Incorrect format of points scored. The actual format was 17 of his 38 points.,qwen_small,p0,2332.04
+T029,10,19,4 rebounds,,,,,,qwen_small,p0,2332.04
+T030,1,1,Wednesday,22.0,22.0,Name,Sunday,"The game was played on Sunday, not Wednesday.",qwen_small,p0,2332.04
+T030,1,2,Fed Ex Forum Arena,,,Name,FedExForum,"The correct name of the arena is FedExForum, without spaces.",qwen_small,p0,2332.04
+T030,2,3,40 percent,42.0,43.0,Number,40%,The percentage should be written with a % sign.,qwen_small,p0,2332.04
+T030,2,4,33 percent,48.0,49.0,Number,33%,The percentage should be written with a % sign.,qwen_small,p0,2332.04
+T030,3,5,Eric Bledsoe,83.0,84.0,Name,Eric Bledsoe,"No change needed, but the full name is used consistently.",qwen_small,p0,2332.04
+T030,3,6,23 points,92.0,93.0,Number,23 points,The number should be followed by a space and the word 'points'.,qwen_small,p0,2332.04
+T030,3,7,"8 - 22 FG , 2 - 6 3Pt , 5 - 7 FT",95.0,108.0,Number,"8-22 FG, 2-6 3Pt, 5-7 FT",The format of the statistics should be consistent and use hyphens for the numbers.,qwen_small,p0,2332.04
+T030,4,8,"9 - 17 FG , 4 - 6 FT",123.0,131.0,Number,"9-17 FG, 4-6 FT",The format of the statistics should be consistent and use hyphens for the numbers.,qwen_small,p0,2332.04
+T030,5,9,22 points,120.0,121.0,Number,22 points,The number should be followed by a space and the word 'points'.,qwen_small,p0,2332.04
+T030,6,10,seven rebounds,111.0,112.0,Word,8 rebounds,"The correct number of rebounds is 8, not 7.",qwen_small,p0,2332.04
+T030,7,11,two blocked shots,137.0,139.0,Word,two blocks,The term 'blocks' is more commonly used in basketball statistics.,qwen_small,p0,2332.04
+T030,8,12,Wednesday,22.0,22.0,Name,Friday,"The game is scheduled for Friday, not Wednesday.",qwen_small,p0,2332.04
+T030,9,13,Wednesday,22.0,22.0,Name,Wednesday,"The game is scheduled for Wednesday, not Friday.",qwen_small,p0,2332.04
+T030,10,14,Wednesday,22.0,22.0,Name,Wednesday,"The game is scheduled for Wednesday, not Friday.",qwen_small,p0,2332.04
