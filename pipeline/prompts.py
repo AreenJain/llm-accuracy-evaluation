@@ -346,10 +346,16 @@ You will be given:
 
 Your job is to find factual errors in the STORY by comparing it against the GAME DATA.
 
-For each error you find, return a JSON object with these exact fields:
+For each error you find, return a JSON object with these exact fields (ALL REQUIRED):
+
+- TEXT_ID: copy this directly from the input. Do NOT change it.
 
 - SENTENCE_ID: the sentence number (starting from 1) in the STORY where the error appears.
   Count sentences by splitting on ".", "!" or "?". The first sentence is 1.
+
+- ANNOTATION_ID: a sequential integer starting from 1. The first error you find gets
+  ANNOTATION_ID=1, the second error gets ANNOTATION_ID=2, etc. MUST be included in
+  every single annotation.
 
 - TOKENS: a JSON array of the exact wrong word(s), copied verbatim from the story,
   as individual whitespace-separated items.
@@ -376,6 +382,8 @@ For each error you find, return a JSON object with these exact fields:
   "points in". If the error is at the very end of the story, use "".
 
 Rules:
+- TEXT_ID and ANNOTATION_ID MUST appear in every single annotation you return.
+- ANNOTATION_ID must be sequential integers (1, 2, 3, ...) with no gaps or duplicates.
 - TOKENS must be copied character-for-character from the story. Do NOT paraphrase,
   correct, lowercase, or alter them in any way.
 - LEFT_CONTEXT and RIGHT_CONTEXT must also be copied exactly from the story,

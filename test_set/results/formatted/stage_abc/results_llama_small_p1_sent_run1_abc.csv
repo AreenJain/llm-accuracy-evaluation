@@ -1,0 +1,265 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T001,,1,45 38,,,,,NUMBER,"49, 45",The Kings' field goal percentage and three-point percentage are incorrect.
+T001,,1,6 for 9,,,,,NUMBER,,The correct number of three-point shot attempts and makes for Cousins are not available in the box score data.
+T001,6,2,9,3,3,,,NUMBER,,The correct number of three-point shot attempts and makes for Cousins are not available in the box score data.
+T001,6,3,24,30,30,,,NUMBER,,The correct number of points scored by Cousins is not available in the box score data.
+T001,1,4,13,5,5,,,NUMBER,,The correct number of rebounds grabbed by Cousins is not available in the box score data.
+T001,6,5,four,39,39,,,NUMBER,,The correct number of blocked shots by Cousins is not available in the box score data.
+T001,8,1,11,18,18,,,NUMBER,10,The correct number of points Ben McLemore scored.
+T001,7,1,second double,4,5,,,NUMBER,first,Cousins had only one double-double in his last four games.
+T001,8,1,11,18,18,,,NUMBER,10,The correct number of points Ben McLemore scored.
+T002,1,1,Wednesday,19,19,,,NAME,03_29_17,"The game was played on 03_29_17, not Wednesday."
+T002,10,1,Los Angeles Lakers,11,13,,,NAME,Mavericks,"The visiting team is actually the Mavericks, not the Lakers."
+T002,11,1,six,15,15,,,NUMBER,13,"The box score shows DeMarcus Cousins had 13 rebounds, not 6."
+T002,8,1,second,4,4,,,NAME,third,The player who was second on the team is not mentioned in the story.
+T002,,1,17 six,,,,,NUMBER,16,"The box score data shows that DeMarcus Cousins accumulated 16 rebounds, not 17."
+T002,,1,Before the All-Star break,,,,,CONTEXT,,The sentence is comparing Davis's performance after the All-Star break to his performance before the trade for Cousins.
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Wednesday."
+T003,4,1,41,12,12,,,NUMBER,45,"The Magic shot 45% from the field, not 41%"
+T003,2,1,18,20,20,,,NUMBER,15,"The Raptors forced 15 turnovers, not 18."
+T003,5,2,10,17,17,,,NUMBER,15,"The Raptors committed 10 turnovers, not 15."
+T003,6,1,40,38,38,,,NUMBER,27,"The box score shows that Oladipo scored 27 points, not 40."
+T003,6,1,4 - for - 19,11,15,,,NUMBER,4-for-19,The correct format for a shooting percentage is 'x-for-y'.
+T003,4,1,33,18,18,,,NUMBER,27,The number of points Oladipo scored in his last two games is incorrect.
+T003,9,2,14,20,20,,,NUMBER,6,The number of rebounds Oladipo had in his last two games is incorrect.
+T003,,1,8 22 1 1 12 14,,,,,NUMBER,"0-4, 0-0, 0-0, 0, 2","The number of FG, 3Pt, FT, REB, and STL made by James Johnson are incorrect."
+T003,,2,8 22 1 1 12 14,,,,,NUMBER,"0-4, 0-0, 0-0, 0, 2","The number of FG, 3Pt, FT, REB, and STL made by James Johnson are incorrect."
+T003,,3,8 22 1 1 12 14,,,,,NUMBER,"0-4, 0-0, 0-0, 0, 2","The number of FG, 3Pt, FT, REB, and STL made by James Johnson are incorrect."
+T003,,4,8 22 1 1 12 14,,,,,NUMBER,"0-4, 0-0, 0-0, 0, 2","The number of FG, 3Pt, FT, REB, and STL made by James Johnson are incorrect."
+T003,,5,8 22 1 1 12 14,,,,,,,
+T003,12,1,Cavaliers,14,14,,,NAME,Cavaliers,"The visiting team is actually the Raptors, not the Cavaliers."
+T003,12,2,Cavaliers,14,14,,,NAME,Cavaliers,"The home team is actually the Magic, not the Cavaliers."
+T004,1,1,Tuesday,22,22,,,NOT_CHECKABLE,10/29/14,The date of the game is not specified in the box score data.
+T004,,1,Wizards Wizards,,,,,NUMBER,Heat,The Wizards did not out-score the Heat 28-28 in the first quarter.
+T004,7,1,13,7,7,,,NUMBER,10,"The box score shows that Wall had 10 field goal attempts, not 13."
+T004,8,1,54,17,17,,,NUMBER,47,"The player scored a total of 47 points in the last two games, not 54."
+T004,,1,7-for-14,,,,,NUMBER,2-for-14,The number of field goals made by Marcin Gortat is incorrect.
+T004,,2,4-for-5,,,,,NUMBER,0-for-5,The number of three-point field goals made by Marcin Gortat is incorrect.
+T004,,1,17 8,,,,,NUMBER,The actual stats are not available for this player.,The stats mentioned in the sentence do not match the stats of any player in the box score data.
+T005,1,1,Saturday,17,17,,,NAME,Monday,The day of the week is incorrect.
+T005,,1,30 22,,,,,NUMBER,109-99,The score is incorrect.
+T005,,2,30 20,,,,,NUMBER,20,The score is incorrect.
+T005,,1,30 22,,,,,NUMBER,109-99,The score is incorrect.
+T005,5,1,game - high,11,13,,,WORD,game-high,The correct phrase should be 'game-high' (no hyphen).
+T005,,1,20 rebounds,,,,,NUMBER,4 rebounds,The number of rebounds is incorrect.
+T005,6,2,four steals,22,23,,,NUMBER,0 steals,The number of steals is incorrect.
+T005,6,3,one block,25,26,,,NUMBER,0 blocks,The number of blocks is incorrect.
+T005,3,1,one,22,22,,,NUMBER,0,The box score shows that Markieff Morris had 0 blocks.
+T005,,1,23-22,,,,,NUMBER,23-21,"The correct record for the Hornets is 23-21, not 23-22."
+T005,9,1,10 points,7,8,,,NUMBER,,The number of points Jason Smith scored is not available in the box score data.
+T005,7,1,two,10,10,,,NUMBER,2,The number of rebounds is incorrect.
+T005,1,1,Charlotte,6,6,,,NAME,Washington,"The team John Wall played for is actually Washington, not Charlotte."
+T005,8,1,13,4,4,,,NUMBER,8,"The box score data shows that Frank Kaminsky III had 8 points, not 13."
+T005,15,1,New York,11,12,,,NAME,Charlotte,"The visiting team is actually the Wizards, not the New York Knicks."
+T005,15,2,New York,11,12,,,NAME,Charlotte,"The home team is actually the Hornets, not the New York Knicks."
+T005,15,3,Monday,15,15,,,NAME,Tuesday,"The day of the week is incorrect, the Wizards play on Tuesday evening."
+T006,1,1,Memphis Grizzlies,2,3,,,NAME,Knicks,"The home team is actually the Knicks, not the Grizzlies."
+T006,2,1,12,21,21,,,NUMBER,23,"The box score data shows that Zach Randolph scored 23 points, not 12."
+T006,4,1,35,26,26,,,NUMBER,,The number of minutes played is likely incorrect.
+T006,,1,58 22,,,,,NUMBER,52,The percentages are incorrect.
+T006,,1,game-high,,,,,CONTEXT,,The box score data does not provide information about the game-high points.
+T006,13,1,Suns,8,8,,,NAME,Knicks,"The Grizzlies played the Knicks, not the Suns."
+T007,1,1,Nuggets,13,13,,,NAME,Trail Blazers,"The home team is the Trail Blazers, not the Nuggets."
+T007,1,2,Nuggets,13,13,,,NAME,Trail Blazers,"The home team is the Trail Blazers, not the Nuggets."
+T007,1,3,Nuggets,13,13,,,NAME,Trail Blazers,"The home team is the Trail Blazers, not the Nuggets."
+T007,,4,32 20,,,,,NUMBER,26,"The correct score in the second half is 26-20, not 32-20."
+T007,3,1,game - high,12,14,,,WORD,game-high,"The correct phrase is 'game-high', not 'game - high'."
+T007,1,2,12,15,15,,,NUMBER,29,"Kenneth Faried scored 29 points, not 12."
+T007,3,3,4 - of - 12,18,22,,,NUMBER,4/12,"The correct notation is '4/12', not '4 - of - 12'."
+T007,1,4,12,15,15,,,NUMBER,12,"Kenneth Faried had 12 rebounds, not 12."
+T007,3,5,two assists,32,33,,,NUMBER,2,"Kenneth Faried had 2 assists, not two."
+T007,3,6,two blocks,35,36,,,NUMBER,2,"Kenneth Faried had 2 blocks, not two."
+T007,3,7,30 minutes,39,40,,,NUMBER,30,"Kenneth Faried played 30 minutes, not 30 minutes."
+T007,,1,50,,,,,NUMBER,47,"The Trail Blazers shot 47% from the field, not nearly 50%."
+T007,5,1,13,5,5,,,NUMBER,8,"The box score shows that Kenneth Faried had 8 points, not 13."
+T007,1,1,Nuggets,13,13,,,NAME,Denver,"The visiting team is the Nuggets, not the home team."
+T007,1,2,Nuggets,13,13,,,NAME,Denver,"The visiting team is the Nuggets, not the home team."
+T007,1,3,Nuggets,13,13,,,NAME,Denver,"The visiting team is the Nuggets, not the home team."
+T007,1,4,Nuggets,13,13,,,NAME,Denver,"The visiting team is the Nuggets, not the home team."
+T007,,5,43 44,,,,,NUMBER,"43, 44","The percentages are correct, but the word order is incorrect."
+T007,,6,43 44,,,,,NUMBER,"43, 44","The percentages are correct, but the word order is incorrect."
+T007,,7,43 44,,,,,NUMBER,"43, 44","The percentages are correct, but the word order is incorrect."
+T007,,8,43 44,,,,,NUMBER,"43, 44","The percentages are correct, but the word order is incorrect."
+T007,1,1,Denver,12,12,,,NAME,Nuggets,The team name is incorrect.
+T007,8,1,43,4,4,,,NUMBER,43,The box score shows the Nuggets shot 43 percent from the field.
+T007,8,2,44,10,10,,,NUMBER,44,The box score shows the Nuggets shot 44 percent from long range.
+T007,,1,50,,,,,NUMBER,43,"The Nuggets' field goal percentage was 43%, not 50%"
+T008,,1,double digit,,,,,NUMBER,,The box score data does not specify the exact number of points.
+T008,3,1,50 percent from three -,22,26,,,NUMBER,25,The box score data shows that the Nets' three-point field goal percentage was 50% is incorrect.
+T008,4,1,52,12,12,,,NUMBER,42,The box score shows the Nets won the rebounding battle 42-52.
+T008,,1,six four,,,,,NOT_CHECKABLE,,The statement about the Nets' previous record is not checkable.
+T008,,1,16 9,,,,,NUMBER,17-8,The Pacers' record is incorrect.
+T008,,1,23 11 3,,,,,NUMBER,"9, 7, 3","The box score data shows that Paul George had 9 points, 7 rebounds, and 3 assists, not 23 points, 11 rebounds, and 3 assists."
+T008,7,1,double figures,9,10,,,WORD,double-digit figures,The phrase 'double figures' can be misinterpreted as 'double the number of figures'.
+T008,,1,Cavaliers,,,,,CONTEXT,,The sentence is literally true but the context implies that the reader will misinterpret the sentence.
+T009,2,1,five,44,44,,,NUMBER,six,"The Timberwolves had won six of their last seven games, according to the box score."
+T009,2,2,seven,48,48,,,NUMBER,six,"The Timberwolves had won six of their last seven games, according to the box score."
+T009,,1,Heat Heat,,,,,NAME,Timberwolves,"The Heat played the Timberwolves, not themselves."
+T009,4,1,two,19,19,,,NUMBER,three,"The Heat won by three points, not two."
+T009,1,1,Timberwolves,3,3,,,NAME,Timberwolves,The team name is incorrect.
+T009,3,1,12,27,27,,,NUMBER,6,"The box score data shows that Wayne Ellington had 6 points, not 12."
+T009,,1,game-high,,,,,WORD,game-high 27,The sentence incorrectly uses the phrase 'game-high' when the correct number is 27.
+T010,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T010,2,1,32,15,15,,,NUMBER,26,The Bucks out-scored the Rockets 26-32 in the first quarter alone.
+T010,,1,17 17,,,,,NUMBER,16,The number of turnovers forced by the Rockets is incorrect.
+T010,4,1,42,28,28,,,NUMBER,47,The Bucks' field goal percentage is incorrect.
+T010,4,2,42,28,28,,,NUMBER,42,The Rockets' three-point line percentage is incorrect.
+T010,7,1,six,39,39,,,NUMBER,3,"The number of steals for James Harden is 3, not 6."
+T010,,1,20 8,,,,,NUMBER,not available,The player's average is not available in the box score data.
+T010,,1,16 for 25,,,,,NUMBER,12-25,The number of field goals made by Jabari Parker is incorrect.
+T010,,1,double-double,,,,,NUMBER,triple-double,"The box score shows that Giannis Antetokounmpo had a triple-double, not a double-double."
+T010,7,1,six,39,39,,,NUMBER,eight,The Rockets have been slouching lately as they barley hang on to the eight spot in the West.
+T011,3,1,second,29,29,,,NUMBER,game,The Cavaliers never led by more than seven points for the entirety of the game.
+T011,7,1,a piece,18,19,,,WORD,each,"The word 'a piece' is incorrect, it should be 'each'."
+T011,8,1,four rebounds,13,14,,,NUMBER,assists,"The box score data shows that Channing Frye had 4 assists, not rebounds."
+T011,12,1,team,7,7,,,NAME,Hawks,The team name is incorrect.
+T011,13,1,two steals,16,17,,,NUMBER,1 steal,"The box score data shows that Dwight Howard had 1 steal, not 2."
+T012,2,1,38,17,17,,,NUMBER,29,"The Heat's first half score was 29, not 38."
+T012,4,1,55,11,11,,,NUMBER,43,The player's field goal percentage is lower than 55%
+T012,,1,24 12,,,,,NUMBER,16 and 18,"The player who had a double-double was not specified, but the numbers 24 and 12 are incorrect."
+T012,9,1,Dwyane,12,12,,,NAME,Goran,"The box score data shows that the player's name is Goran Dragic, not Dwyane Dragic."
+T012,10,1,44 points,15,16,,,NUMBER,107 points,The Raptors scored 107 points in the game.
+T012,10,2,13 rebounds,18,19,,,NUMBER,47 rebounds,The Raptors had 47 rebounds in the game.
+T012,9,3,five assists,43,44,,,NUMBER,12 assists,The Raptors had 12 assists in the game.
+T012,9,1,Dragic,13,13,,,NAME,Goran Dragic,The player's name is incorrect.
+T012,14,1,21,23,23,,,NUMBER,54,"The player played a total of 54 minutes, not 21 minutes."
+T013,2,1,Monday,11,11,,,NAME,Sunday,"The game was played on Sunday, not Monday."
+T013,2,2,American Airlines Arena,48,50,,,NAME,FedEx Forum,"The game was played at FedEx Forum, not American Airlines Arena."
+T013,1,1,Jazz,7,7,,,NAME,Grizzlies,"The Jazz played against the Grizzlies, not themselves."
+T013,2,2,23 - 16,27,29,,,NAME,24-16,"The Grizzlies' record is 24-16, not 23-16."
+T013,,1,23-16,,,,,NUMBER,24-16,"The Grizzlies' record is actually 24-16, not 23-16."
+T013,5,1,two assists,17,18,,,NUMBER,rebounds,"The box score data shows that Gordon Hayward had 5 rebounds, not 2 assists."
+T013,,1,15 four,,,,,NUMBER,3,The number of points and rebounds is incorrect.
+T013,8,1,12 boards,11,12,,,NUMBER,13,"The box score data shows that Rudy Gobert hauled in 13 rebounds, not 12."
+T013,1,1,Utah,6,6,,,NAME,the Jazz,"Utah is the city, not the team."
+T013,,1,double-double that also included an assist and three steals,,,,,OTHER,,The box score does not mention an assist and three steals in Zach Randolph's double-double.
+T013,12,1,three steals and a block,10,14,,,OTHER,,The box score data does not mention three steals and a block.
+T014,6,1,12,8,8,,,NUMBER,11,"The margin of victory was 11 points, not 12."
+T014,,1,five five,,,,,NUMBER,four,"The Knicks have won four of their last six games, but they have also lost five of their last six games."
+T014,,1,game-high,,,,,NUMBER,game-high 32 points,"The sentence says the game-high score is 26 points, but the box score data shows it is 32 points."
+T014,,1,12 seven,,,,,NUMBER,7,The number of rebounds for Courtney Lee is incorrect.
+T014,,1,four two,,,,,NUMBER,seven assists,"The box score data shows that Giannis Antetokounmpo had 7 assists, not 4 steals and 2 blocks."
+T014,4,1,a,11,11,,,OTHER,no steal,Khris Middleton did not have a steal.
+T014,4,1,a,11,11,,,OTHER,block,"The box score data shows that Greg Monroe had a block, not a steal."
+T015,6,1,52,6,6,,,NUMBER,106,The total points scored by the Lakers in the last two games is not mentioned in the box score data.
+T015,,1,10 10,,,,,NUMBER,10,"The sentence says Brandon Jennings had 10 points twice, but the box score only shows 10 points."
+T015,,1,Wizards,,,,,NAME,Celtics,"The Lakers' next game is actually against the Celtics, not the Wizards."
+T016,1,1,Friday,18,18,,,NAME,12/26/16,"The game was played on 12/26/16, not on Friday."
+T016,,1,7 23,,,,,NUMBER,14-17,The Sixers' record was incorrect.
+T016,,2,14 17,,,,,NUMBER,7-23,The Sixers' record was incorrect.
+T016,,1,14 17,,,,,NUMBER,14-7,The Sixers' win-loss record is incorrect.
+T016,,2,14 17,,,,,NUMBER,14-7,The Sixers' win-loss record is incorrect.
+T016,3,1,off,12,12,,,WORD,while,"The word 'off' is incorrect, it should be 'while'."
+T016,5,1,48,10,10,,,NUMBER,49,"The 76ers shot 49% from the field, not 48%."
+T016,7,1,28,30,30,,,NUMBER,20,"The box score data shows that Ty Lawson played 20 minutes, not 28 minutes."
+T016,2,1,Sixers,2,2,,,NAME,76ers,The team name is incorrect.
+T017,,1,26-44,,,,,NUMBER,26-43,The New Orleans Pelicans' record is incorrect.
+T017,,1,29 13,,,,,NOT_CHECKABLE,,The correct score in the first quarter is not provided in the box score data.
+T017,5,1,strong,5,5,,,WORD,,The sentence uses a subjective description instead of a specific stat.
+T017,6,1,54,6,6,,,NUMBER,113,"The Heat's total points in the game were 113, not 54."
+T017,,1,weak,,,,,WORD,week,The word 'weak' should be 'week' to indicate a time period.
+T017,1,1,Friday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+T017,,1,N/A N/A N/A,,,,,NUMBER,points,The box score does not provide the number of points Anthony Davis scored.
+T018,1,1,Rockets,3,3,,,NAME,Rockets,The team name is missing from the sentence.
+T018,,1,four two,,,,,NOT_CHECKABLE,,Rebounds and assists are not checkable from the box score data
+T018,1,1,Rockets,3,3,,,NAME,Rockets,The team name is missing from the sentence.
+T018,1,1,Rockets,3,3,,,NAME,Rockets,The team name is missing from the sentence.
+T018,2,1,six games,18,19,,,NOT_CHECKABLE,,The average points per game and field percentage are not checkable.
+T018,,1,53,,,,,NOT_CHECKABLE,,Field goal percentage is not checkable from the box score data
+T019,,1,36 42,,,,,NUMBER,35-42,The Nets' record is incorrect.
+T019,4,1,five assists,21,22,,,NUMBER,four assists,"The box score data shows that DeMarre Carroll had four assists, not five."
+T019,6,1,14,5,5,,,NUMBER,14,The sentence incorrectly states the number of points as part of the FG stats.
+T019,7,1,six,4,4,,,NUMBER,seven,The box score shows that seven Nets players scored in double figures.
+T019,,1,60,,,,,NUMBER,59,"The Hawks' win-loss record is 59-19, not 60 wins."
+T020,1,1,Tuesday,22,22,,,NAME,03_17_16,"The day of the week is incorrect, it should be the date of the game."
+T020,2,1,72,4,4,,,NUMBER,29,"The Heat's score at halftime was 29, not 72."
+T020,3,1,50 percent,13,14,,,NUMBER,41,"The Heat actually shot 41 percent from beyond the arc, not 50 percent."
+T020,,1,7 7,,,,,NUMBER,2,Incorrect number of 3-pointers made by Nicolas Batum
+T020,7,1,35,68,68,,,NUMBER,36,"The box score data shows that Deng played 36 minutes, not 35."
+T020,7,1,35,68,68,,,NUMBER,27,"The box score data shows that Hassan Whiteside played 27 minutes, not 35 minutes."
+T020,9,1,17,9,9,,,NUMBER,not available,The number of points averaged over the last three games is not available in the box score data.
+T021,1,1,7 - 3,6,8,,,NUMBER,6-3,The Trail Blazers' record is incorrect.
+T021,,1,five six,,,,,NUMBER,six,The Trail Blazers have lost six of their last six games.
+T021,3,1,6,17,17,,,NUMBER,13,The number of field goals made (FGM) is incorrect.
+T022,1,1,Wednesday,23,23,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T022,,1,scoring 23 15,,,,,NUMBER,out-scoring the Jazz 26-16 in the first quarter alone,"The correct margin of victory is 26-16, not 23-15."
+T022,3,1,beyond the arc,41,43,,,WORD,three-point line,"The correct phrase is 'three-point line', not 'beyond the arc'."
+T022,5,1,double,7,7,,,WORD,figures,"The correct phrase is 'double figures in points', not just 'double'."
+T022,5,2,assist,41,41,,,WORD,rebounds,"Kawhi Leonard did not have an assist, he had rebounds."
+T022,4,1,10,19,19,,,NUMBER,9,"The box score data shows that Kawhi Leonard had 9 rebounds, not 10."
+T022,,1,Portland Trail Blazers Friday Portland Trail Blazers Friday,,,,,NAME,Denver Nuggets and Cavaliers,"The teams' next games are not against the Portland Trail Blazers, but against the Denver Nuggets and the Cavaliers, respectively."
+T022,,2,Portland Trail Blazers Friday,,,,,NAME,Denver Nuggets and Cavaliers,"The teams' next games are not against the Portland Trail Blazers, but against the Denver Nuggets and the Cavaliers, respectively."
+T022,,3,Portland Trail Blazers Friday,,,,,NAME,Denver Nuggets and Cavaliers,"The teams' next games are not against the Portland Trail Blazers, but against the Denver Nuggets and the Cavaliers, respectively."
+T023,3,1,45,12,12,,,NUMBER,29,"The correct number of points is 29, not 45."
+T023,7,1,13,18,18,,,NUMBER,12,"The box score shows Richard Jefferson had 12 points, not 13."
+T023,7,2,13,18,18,,,NUMBER,13,"The box score shows Richard Jefferson had 13 rebounds, not 13."
+T023,8,1,12,18,18,,,NUMBER,12,The number of points Harrison Barnes scored is correct.
+T023,5,2,9,3,3,,,NUMBER,9,The number of rebounds Harrison Barnes grabbed is correct.
+T023,,3,6-11 FG,,,,,NUMBER,6-11 FG,The number of field goals made by Harrison Barnes is correct.
+T023,,4,0-2 3Pt,,,,,NUMBER,0-2 3Pt,The number of three-pointers made by Harrison Barnes is correct.
+T024,3,1,46,12,12,,,NUMBER,49,The Jazz's field goal percentage is actually 49%
+T024,3,2,46,12,12,,,NUMBER,33,The Jazz's three-point field goal percentage is actually 33%
+T024,3,3,33,18,18,,,,,
+T024,1,1,Jazz,13,13,,,NAME,Thunder,"The Jazz are actually the visiting team, and Kevin Durant and Russell Westbrook played for the Thunder."
+T024,4,2,Westbrook,13,13,,,NAME,Westbrook played for the Thunder,"Russell Westbrook played for the Thunder, not the Jazz."
+T024,,1,14 for 21,,,,,NUMBER,17,Durant's field goal attempts are listed as 17 in the box score.
+T024,6,1,53,17,17,,,NUMBER,32,"The Thunder's Kevin Durant had 32 points, not 53 points."
+T024,6,1,20,20,20,,,NUMBER,22,"The box score shows that Trey Burke scored 22 points, not 20."
+T024,7,2,8 - 15,21,23,,,NUMBER,8 - 14,"The box score shows that Trey Burke made 8 out of 14 field goals, not 8 out of 15."
+T024,7,3,2 - 4,26,28,,,NUMBER,2 - 5,"The box score shows that Trey Burke made 2 out of 5 three-pointers, not 2 out of 4."
+T024,7,4,2 - 2,31,33,,,NUMBER,2 - 0,"The box score shows that Trey Burke made 2 out of 2 free throws, not 2 out of 2."
+T024,7,5,38,40,40,,,NUMBER,37,"The box score shows that Trey Burke played 37 minutes, not 38."
+T024,,1,7 14,,,,,NUMBER,7-13,The correct number of field goals made by Dion Waiters.
+T024,,2,1 4,,,,,NUMBER,1-3,The correct number of three-pointers made by Dion Waiters.
+T024,,3,0 1,,,,,NUMBER,0-0,The correct number of free throws made by Dion Waiters.
+T024,,4,0 4,,,,,NUMBER,0-2,The correct number of three-pointers missed by Dion Waiters.
+T024,,5,0 1,,,,,NUMBER,0-1,The correct number of free throws missed by Dion Waiters.
+T025,2,1,first quarter,23,24,,,CONTEXT,,"The sentence implies that the Suns out-scored the Sixers in the entire game, but the box score only shows that they out-scored the Sixers in the first quarter."
+T025,3,1,floor,35,35,,,WORD,field,The word 'floor' should be 'field'.
+T025,4,1,Tony,9,9,,,NAME,Markieff,"The box score shows that Markieff Morris led the Suns, not Tony Wroten."
+T025,5,1,three rebounds and three steals,36,40,,,NUMBER,3 rebounds and 0 steals,"The box score shows that Wroten had 3 rebounds and 0 steals, not 3 rebounds and 3 steals."
+T025,,1,19 8,,,,,NUMBER,"17.5, 4.5","The player's average points and rebounds per game are not 19 and 8, but rather 17.5 and 4.5."
+T025,1,1,27,16,16,,,NUMBER,46,"The correct number of points is 46, not 27."
+T025,9,1,double,5,5,,,NUMBER,single,"Robert Covington only had a single double-double, not double-double."
+T025,5,2,points,31,31,,,NUMBER,points,Robert Covington did reach double figures in points.
+T025,,1,five two,,,,,NUMBER,"5, 2",The number of rebounds and assists is incorrect.
+T025,,1,Saturday,,,,,NUMBER,Sunday,"The Sixers played the Clippers on Sunday, not Saturday."
+T026,,1,2-3,,,,,NUMBER,1-3,"The Pistons' record is 1-3, not 2-3."
+T026,,1,25-20,,,,,NUMBER,25-22,"The correct score is 25-22, not 25-20."
+T026,3,1,superior,5,5,,,WORD,,The sentence is incorrect in stating that the Pistons were the superior shooters. The box score data shows that the Pistons and the Knicks had similar shooting percentages.
+T026,3,1,43,31,31,,,NUMBER,25,"The correct number of rebounds is 25, not 43."
+T026,7,1,He,1,1,,,NAME,Tim Hardaway Jr.,The player who scored 20 points is actually Tim Hardaway Jr.
+T026,8,1,12 points and 2 rebounds,5,9,,,NUMBER,7 points and 13 rebounds,"The box score data shows that Andre Drummond had 7 points and 13 rebounds in 29 minutes, not 12 points and 2 rebounds."
+T026,,1,4-6 3Pt,,,,,NUMBER,4-7,The number of 3-pointers made by Iman Shumpert is incorrect.
+T027,,1,20 7,,,,,NUMBER,20-8,The Rockets' record is incorrect.
+T027,2,2,Monday,11,11,,,NAME,Wednesday,The day of the week is incorrect.
+T027,1,3,New Orleans,6,7,,,NAME,Pelicans,The team name is incorrect.
+T027,11,1,29 points,8,9,,,NUMBER,11,"The box score shows James Harden had 11 rebounds, not 29 points."
+T027,5,1,an assist,18,19,,,WORD,one assist,The sentence says 'an assist' instead of 'one assist'.
+T027,4,1,five,8,8,,,NUMBER,4,"The box score data shows that Alexis Ajinca had 4 rebounds, not 5."
+T027,2,1,20,4,4,,,NUMBER,8,"The box score data shows that Alexis Ajinca had 8 points, not 20."
+T027,2,1,20,4,4,,,NUMBER,8,"The box score data shows that Alexis Ajinca had 8 points, not 20."
+T027,3,1,29,11,11,,,NUMBER,11,"The box score data shows that Buddy Hield had 11 points, not 29."
+T027,,1,10 - point 1 - assist,,,,,WORD,"10-point, 1-assist",The hyphen is missing in the phrase 'double-double'.
+T028,,1,44 13,,,,,NUMBER,35-13,The Spurs' win-loss record is incorrect.
+T028,,2,44 13,,,,,NUMBER,35-13,The Spurs' win-loss record is incorrect.
+T028,,1,35 13,,,,,NUMBER,44-13,The Spurs' record is incorrect.
+T028,1,1,Spurs,4,4,,,NAME,Clippers,"The box score data shows that Blake Griffin played for the Clippers, not the Spurs."
+T028,5,1,LaMarcus Aldridge,1,2,,,NAME,San Antonio Spurs,The player's team is incorrect.
+T028,6,1,17,5,5,,,NUMBER,8,"The margin of victory is 8 points, not 17 points."
+T028,1,1,Spurs,4,4,,,NAME,Clippers,"The player Blake Griffin played for the Clippers, not the Spurs."
+T028,8,1,27 minutes off the bench,17,21,,,CONTEXT,,The box score data does not provide information about the minutes played by Austin Rivers.
+T029,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T029,,1,22 25,,,,,NUMBER,a higher score,"The Magic out-scored the Magic, but the score is incorrect."
+T029,5,1,Morris,13,13,,,NAME,Marcus Morris,"The name 'Morris' is incorrect, it should be 'Marcus Morris'."
+T029,1,1,19,14,14,,,NUMBER,18,"The correct average points per game for Brandon Knight is 18, not 19."
+T029,6,2,7,3,3,,,NUMBER,4,"The correct average rebounds per game for Brandon Knight is 4, not 7."
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,2,1,40,12,12,,,NUMBER,43,"The Grizzlies shot 43% from the field, not 40%"
+T030,2,2,33,18,18,,,NUMBER,29,"The Suns shot 29% from beyond the arc, not 33%"
+T030,2,3,44,31,31,,,NUMBER,40,"The Suns shot 40% from the floor, not 44%"
+T030,2,4,29,38,38,,,NUMBER,43,"The Suns shot 43% from the field, not 29%"
+T030,,1,40 12,,,,,NUMBER,"22, 8","The player's stats in the last game are 22 points and 8 rebounds, not 40 points and 12 rebounds."
+T030,2,1,three,22,22,,,NUMBER,eight,The Grizzlies have now lost eight of their last nine games.
+T030,4,1,23,4,4,,,NUMBER,22,"The box score shows Eric Bledsoe scored 22 points, not 23."

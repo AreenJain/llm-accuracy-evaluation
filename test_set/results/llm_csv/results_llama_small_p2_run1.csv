@@ -1,0 +1,610 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T001,1,1,Sacramento Kings 13 - 18,,,NAME,Brooklyn,"The story says the Kings played at home, but the JSON says the Kings played away.",llama_small,p2,2946.98
+T001,1,2,14 - 16,14.0,16.0,NAME,14-16,"The story says the Nets' record is 14-16, but the JSON says the Nets' record is 14-16.",llama_small,p2,2946.98
+T001,1,3,107 - 99,18.0,20.0,NUMBER,107-99,"The story says the final score is 107-99, but the JSON says the final score is 107-99.",llama_small,p2,2946.98
+T001,1,4,Wednesday,22.0,22.0,WORD,Monday,"The story says the game was on Wednesday, but the JSON says the game was on Monday.",llama_small,p2,2946.98
+T001,2,5,Nets got off to a,31.0,35.0,WORD,"The Nets benefitted from the Kings' turnover troubles, scoring 25 points off of 21 turnovers.","The story says the Nets got off to a quick start, but the JSON says the Nets benefitted from the Kings' turnover troubles.",llama_small,p2,2946.98
+T001,3,6,28 -,47.0,48.0,NUMBER,27,"The story says the Nets out-scored the Kings 28-28 in the first quarter, but the JSON says the Nets out-scored the Kings 27-28 in the first quarter.",llama_small,p2,2946.98
+T001,4,7,49 percent,68.0,69.0,NUMBER,45,"The story says the Nets shot 49 percent from the field, but the JSON says the Kings shot 45 percent from the field.",llama_small,p2,2946.98
+T001,4,8,38 percent,74.0,75.0,NUMBER,38,"The story says the Nets shot 38 percent from the three-point line, but the JSON says the Kings shot 38 percent from the three-point line.",llama_small,p2,2946.98
+T001,4,9,45 percent,88.0,89.0,NUMBER,49,"The story says the Kings shot 45 percent from the floor, but the JSON says the Nets shot 49 percent from the floor.",llama_small,p2,2946.98
+T001,4,10,38 percent,74.0,75.0,NUMBER,38,"The story says the Kings shot 38 percent from beyond the arc, but the JSON says the Nets shot 38 percent from beyond the arc.",llama_small,p2,2946.98
+T001,5,11,Cousins went 9 - 12,,,NAME,Cousins went 9-for-12 from the field and 6-for-9 from the three-point line,"The story says Cousins went 9-for-12 from the field, but the JSON says Cousins went 9-for-12 from the field and 6-for-9 from the three-point line.",llama_small,p2,2946.98
+T001,5,12,6 - 9,,,NUMBER,6-for-9,"The story says Cousins went 6-for-9 from the three-point line, but the JSON says Cousins went 6-for-9 from the three-point line.",llama_small,p2,2946.98
+T001,5,13,24 points,189.0,190.0,NUMBER,24,"The story says Cousins scored a game-high of 24 points, but the JSON says Cousins scored 24 points.",llama_small,p2,2946.98
+T001,5,14,13 rebounds,195.0,196.0,NUMBER,13,"The story says Cousins added 13 rebounds, but the JSON says Cousins added 13 rebounds.",llama_small,p2,2946.98
+T001,5,15,four blocked shots,198.0,200.0,WORD,four blocked shots,"The story says Cousins added four blocked shots, but the JSON says Cousins added four blocked shots.",llama_small,p2,2946.98
+T001,6,16,second double - double,205.0,208.0,WORD,second double-double,"The story says Cousins posted the third double-double of his last four games, but the JSON says Cousins posted the third double-double of his last four games.",llama_small,p2,2946.98
+T001,7,17,Ben McLemore,240.0,241.0,NAME,Ben McLemore,"The story says Ben McLemore finished with 11 points, but the JSON says Ben McLemore finished with 11 points.",llama_small,p2,2946.98
+T001,7,18,11 points,246.0,247.0,NUMBER,11,"The story says Ben McLemore finished with 11 points, but the JSON says Ben McLemore finished with 11 points.",llama_small,p2,2946.98
+T001,7,19,4 - 9,249.0,251.0,NUMBER,4-9,"The story says Ben McLemore finished with 4-9 FG, but the JSON says Ben McLemore finished with 4-9 FG.",llama_small,p2,2946.98
+T001,7,20,3 - 7,254.0,256.0,NUMBER,3-7,"The story says Ben McLemore finished with 3-7 3Pt, but the JSON says Ben McLemore finished with 3-7 3Pt.",llama_small,p2,2946.98
+T001,7,21,0 - 2,259.0,261.0,,,,llama_small,p2,2946.98
+T002,1,1,New Orleans Pelicans defeated the Dallas,2.0,7.0,NAME,Pelicans,The story says 'New Orleans Pelicans' but the JSON says 'Pelicans',llama_small,p2,2946.98
+T002,1,2,Dallas Mavericks,7.0,8.0,NAME,Mavericks,The story says 'Dallas Mavericks' but the JSON says 'Mavericks',llama_small,p2,2946.98
+T002,1,3,121 -,10.0,11.0,NUMBER,121,The story says '121 - 118' but the JSON says '121',llama_small,p2,2946.98
+T002,1,4,118,12.0,12.0,NUMBER,118,The story says '121 - 118' but the JSON says '118',llama_small,p2,2946.98
+T002,2,5,four of their last five,126.0,130.0,NUMBER,five,The story says 'four of their last five games' but the JSON says 'five',llama_small,p2,2946.98
+T002,2,6,32 -,119.0,120.0,NUMBER,32,The story says '32 - 43' but the JSON says '32',llama_small,p2,2946.98
+T002,2,7,43,121.0,121.0,NUMBER,43,The story says '32 - 43' but the JSON says '43',llama_small,p2,2946.98
+T002,3,8,Harrison Barnes,139.0,140.0,NAME,Barnes,The story says 'Harrison Barnes' but the JSON says 'Barnes',llama_small,p2,2946.98
+T002,3,9,19 points,150.0,151.0,NUMBER,19,The story says '19 points' but the JSON says '19',llama_small,p2,2946.98
+T002,3,10,eight rebounds,153.0,154.0,NUMBER,eight,The story says 'eight rebounds' but the JSON says 'eight',llama_small,p2,2946.98
+T002,3,11,three assists,156.0,157.0,NUMBER,three,The story says 'three assists' but the JSON says 'three',llama_small,p2,2946.98
+T002,4,12,Seth Curry,159.0,160.0,NAME,Curry,The story says 'Seth Curry' but the JSON says 'Curry',llama_small,p2,2946.98
+T002,4,13,18 points,168.0,169.0,NUMBER,18,The story says '18 points' but the JSON says '18',llama_small,p2,2946.98
+T002,4,14,two rebounds,171.0,172.0,NUMBER,two,The story says 'two rebounds' but the JSON says 'two',llama_small,p2,2946.98
+T002,4,15,three assists,156.0,157.0,NUMBER,three,The story says 'three assists' but the JSON says 'three',llama_small,p2,2946.98
+T002,5,16,Harrison Barnes,139.0,140.0,NAME,Barnes,The story says 'Harrison Barnes' but the JSON says 'Barnes',llama_small,p2,2946.98
+T002,5,17,19 points,150.0,151.0,NUMBER,19,The story says '19 points' but the JSON says '19',llama_small,p2,2946.98
+T002,5,18,eight rebounds,153.0,154.0,NUMBER,eight,The story says 'eight rebounds' but the JSON says 'eight',llama_small,p2,2946.98
+T002,5,19,three assists,156.0,157.0,NUMBER,three,The story says 'three assists' but the JSON says 'three',llama_small,p2,2946.98
+T002,6,20,DeMarcus Cousins,239.0,240.0,NAME,Cousins,The story says 'DeMarcus Cousins' but the JSON says 'Cousins',llama_small,p2,2946.98
+T002,6,21,29 points,252.0,253.0,NUMBER,29,The story says '29 points' but the JSON says '29',llama_small,p2,2946.98
+T002,6,22,16 rebounds,255.0,256.0,NUMBER,16,The story says '16 rebounds' but the JSON says '16',llama_small,p2,2946.98
+T002,6,23,six assists,258.0,259.0,NUMBER,six,The story says'six assists' but the JSON says'six',llama_small,p2,2946.98
+T002,7,24,Jrue Holiday,261.0,262.0,NAME,Holiday,The story says 'Jrue Holiday' but the JSON says 'Holiday',llama_small,p2,2946.98
+T002,7,25,18 points,168.0,169.0,NUMBER,18,The story says '18 points' but the JSON says '18',llama_small,p2,2946.98
+T002,7,26,five rebounds,275.0,276.0,,,,llama_small,p2,2946.98
+T004,1,1,Miami Heat ( 1 -,2.0,6.0,NUMBER,0,"The story says the Heat's record is 1-0, but the JSON says it's 0-0.",llama_small,p2,2946.98
+T004,1,2,Washington Wizards ( 0 -,11.0,15.0,NUMBER,1,"The story says the Wizards' record is 0-1, but the JSON says it's 1-0.",llama_small,p2,2946.98
+T004,1,3,Wednesday at American Airlines Arena in Miami,,,NOT_CHECKABLE,,"The story mentions the date and location of the game, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,2,4,first LeBron-less regular season game,,,NOT_CHECKABLE,,"The story mentions LeBron, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,3,5,Dwyane Wade had to go to the locker room with a left calf contusion,,,NOT_CHECKABLE,,"The story mentions Dwyane Wade's injury, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,4,6,three players score over 20 points,,,NUMBER,two,"The story says three players scored over 20 points, but the JSON says two players scored over 20 points.",llama_small,p2,2946.98
+T004,5,7,"Drew Gooden , who started for the suspended Nene",,,NAME,Nene,"The story says Drew Gooden started for the suspended Nene, but the JSON says Nene started.",llama_small,p2,2946.98
+T004,5,8,"18 points , going 8 - for - 11 from the field",,,NUMBER,18,"The story says Drew Gooden scored 18 points, but the JSON says he scored 18 points.",llama_small,p2,2946.98
+T004,6,9,Marcin Gortat played 40 minutes,,,NUMBER,40,"The story says Marcin Gortat played 40 minutes, but the JSON confirms this.",llama_small,p2,2946.98
+T004,6,10,18 points to go along with seven rebounds and a blocked shot,,,NUMBER,18,"The story says Marcin Gortat scored 18 points, but the JSON says he scored 18 points.",llama_small,p2,2946.98
+T004,7,11,John Wall finished with a double - double,,,NOT_CHECKABLE,,"The story mentions John Wall's double-double, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,7,12,scoring 16 points and adding 11 assists,,,NUMBER,16,"The story says John Wall scored 16 points, but the JSON says he scored 16 points.",llama_small,p2,2946.98
+T004,8,13,Otto Porter also finished in double - digits,,,NOT_CHECKABLE,,"The story mentions Otto Porter's double-digit performance, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,8,14,"13 points , while recording four rebounds and a steal",,,NUMBER,13,"The story says Otto Porter scored 13 points, but the JSON says he scored 13 points.",llama_small,p2,2946.98
+T004,9,15,Chris Bosh and Wade took the lead for the Heat,,,NOT_CHECKABLE,,"The story mentions Chris Bosh and Wade taking the lead, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,10,16,Bosh had his first double - double of the season,,,NOT_CHECKABLE,,"The story mentions Chris Bosh's double-double, but this information is not available in the JSON.",llama_small,p2,2946.98
+T004,10,17,"26 points ( 9 - 18 FG , 3 - 4 3Pt ) and 15 rebounds",,,NUMBER,26,"The story says Chris Bosh scored 26 points, but the JSON says he scored 26 points.",llama_small,p2,2946.98
+T004,11,18,Dwyane Wade was still able to finsh with 21 points,,,NUMBER,21,"The story says Dwyane Wade scored 21 points, but the JSON says he scored 21 points.",llama_small,p2,2946.98
+T004,11,19,as he shot 50 % from the field ( 8 - 16 FG ),,,,,,llama_small,p2,2946.98
+T005,1,1,Washington Wizards defeated the Charlotte,2.0,6.0,NAME,Washington Wizards,The story says 'Washington Wizards' but the JSON says 'Wizards (24-20)',llama_small,p2,2946.98
+T005,1,2,"Charlotte Hornets , 109 - 99 ,",6.0,12.0,NAME,"Charlotte Hornets, 109-99","The story says '109-99' but the JSON says '109-99, at Spectrum Center on Monday night.'",llama_small,p2,2946.98
+T005,1,3,at Spectrum Center on Monday,,,NAME,at Spectrum Center on Monday night,The story says 'Monday evening' but the JSON says 'Monday night',llama_small,p2,2946.98
+T005,2,4,The Wizards ( 24 - 20 ),20.0,26.0,NAME,Wizards (24-20),The story says '(24-20)' but the JSON says '(24-20)',llama_small,p2,2946.98
+T005,2,5,could hardly have been blamed,,,WORD,,The story says the Wizards could have been blamed but the JSON does not mention blame,llama_small,p2,2946.98
+T005,3,6,Washington saw a 112 - 111 lead,,,NUMBER,112-111,The story says '112-111 lead' but the JSON says '112-111 lead',llama_small,p2,2946.98
+T005,3,7,go by the wayside at the buzzer,,,WORD,,The story says the lead went by the wayside at the buzzer but the JSON does not mention the buzzer,llama_small,p2,2946.98
+T005,4,8,"However, the Wizards were up to the task",,,WORD,,The story says the Wizards were up to the task but the JSON does not mention the task,llama_small,p2,2946.98
+T005,5,9,jumping on their hosts from the opening quarter,,,WORD,,The story says the Wizards jumped on their hosts from the opening quarter but the JSON does not mention the hosts or the opening quarter,llama_small,p2,2946.98
+T005,5,10,and never letting up,,,WORD,,The story says the Wizards never let up but the JSON does not mention letting up,llama_small,p2,2946.98
+T005,6,11,Washington played very well on both sides of the ball,,,WORD,,The story says Washington played very well on both sides of the ball but the JSON does not mention the ball,llama_small,p2,2946.98
+T005,6,12,tallying 54 and 40 percent success rates,,,NUMBER,54 and 40 percent,The story says '54 and 40 percent success rates' but the JSON says '54 and 40 percent success rates',llama_small,p2,2946.98
+T005,6,13,from the field and three-point range,,,WORD,,The story says from the field and three-point range but the JSON does not mention three-point range,llama_small,p2,2946.98
+T005,6,14,respectively,,,WORD,,The story says respectively but the JSON does not mention it,llama_small,p2,2946.98
+T005,6,15,and also limiting Charlotte to,,,WORD,,The story says and also limiting Charlotte to but the JSON does not mention limiting or Charlotte,llama_small,p2,2946.98
+T005,6,16,39 and 25 percent figures,,,NUMBER,39 and 25 percent,The story says '39 and 25 percent figures' but the JSON says '39 and 25 percent figures',llama_small,p2,2946.98
+T005,7,17,John Wall and Markieff Morris,,,NAME,John Wall and Markieff Morris,The story says John Wall and Markieff Morris but the JSON says John Wall and Markieff Morris,llama_small,p2,2946.98
+T005,7,18,led the way by combining for 47 points,,,NUMBER,47 points,The story says '47 points' but the JSON says '47 points',llama_small,p2,2946.98
+T005,7,19,and 52 percent shooting,,,NUMBER,52 percent,The story says '52 percent shooting' but the JSON says '52 percent shooting',llama_small,p2,2946.98
+T005,8,20,Wall's 24 points,,,NUMBER,24 points,The story says '24 points' but the JSON says '24 points',llama_small,p2,2946.98
+T005,8,21,paced the Wizards,,,WORD,,The story says the Wizards but the JSON does not mention the Wizards,llama_small,p2,2946.98
+T005,8,22,and he added,,,,,,llama_small,p2,2946.98
+T006,1,1,Memphis Grizzlies ( 50 - 21 ),2.0,8.0,NUMBER,New York Knicks (14-57),"The story says the Grizzlies played against themselves, but the JSON says the Knicks had a 14-57 record.",llama_small,p2,2946.98
+T006,2,2,Marc Gasol and Zach Randolph,22.0,26.0,NAME,Zach Randolph and Marc Gasol,The story lists the players in the wrong order.,llama_small,p2,2946.98
+T006,3,3,21 and 12 points respectively,40.0,44.0,NUMBER,21 and 23 points,"The story says Gasol scored 12 points, but the JSON says he scored 21 points.",llama_small,p2,2946.98
+T006,4,4,eight rebounds three assists and a block,,,WORD,"eight rebounds, three assists, and one block","The story says Gasol had a block, but the JSON says he had one block.",llama_small,p2,2946.98
+T006,5,5,23 points on 9- of- 12 shooting in 35 minutes,,,NUMBER,23 points on 9-12 shooting in 35 minutes,"The story says Randolph scored 12 points, but the JSON says he scored 23 points.",llama_small,p2,2946.98
+T006,6,6,52 percent from the field and 58 percent from three- point range,,,NUMBER,52 percent from the field and 58 percent from three-point range,"The story says the Grizzlies shot 52 percent from the field and 58 percent from beyond the arc, but the JSON says they shot 52 percent from the field and 58 percent from three-point range.",llama_small,p2,2946.98
+T006,7,7,52 percent from the field and 22 percent from beyond the arc,113.0,124.0,NUMBER,52 percent from the field and 58 percent from three-point range,"The story says the Grizzlies shot 52 percent from the field and 22 percent from beyond the arc, but the JSON says they shot 52 percent from the field and 58 percent from three-point range.",llama_small,p2,2946.98
+T006,8,8,Memphis was led by Marc Gasol,126.0,131.0,NAME,Zach Randolph was led by,"The story says Gasol led the Grizzlies, but the JSON says Randolph led the Grizzlies.",llama_small,p2,2946.98
+T006,9,9,21 points on 9- of- 17 shooting to go along with eight rebounds and three assists in 32 minutes,,,NUMBER,"21 points on 9-17 shooting, to go along with eight rebounds and three assists in 32 minutes","The story says Gasol shot 9-17, but the JSON says he shot 9-17.",llama_small,p2,2946.98
+T006,10,10,23 points seven rebounds five assists one steal and one block in 35 minutes,,,NUMBER,"23 points, seven rebounds, five assists, one steal, and one block in 35 minutes","The story says Randolph scored 23 points, but the JSON says he scored 23 points.",llama_small,p2,2946.98
+T006,11,11,21 points eight rebounds three assists one steal and one block in 32 minutes,,,NUMBER,"21 points, eight rebounds, three assists, one steal, and one block in 32 minutes","The story says Gasol scored 21 points, but the JSON says he scored 21 points.",llama_small,p2,2946.98
+T006,12,12,23 points seven rebounds five assists one steal and one block in 35 minutes,,,NUMBER,"23 points, seven rebounds, five assists, one steal, and one block in 35 minutes","The story says Randolph scored 23 points, but the JSON says he scored 23 points.",llama_small,p2,2946.98
+T006,13,13,52 percent from the field and 58 percent from three- point range,,,NUMBER,52 percent from the field and 58 percent from three-point range,"The story says the Grizzlies shot 52 percent from the field and 58 percent from beyond the arc, but the JSON says they shot 52 percent from the field and 58 percent from three-point range.",llama_small,p2,2946.98
+T006,14,14,52 percent from the field and 58 percent from beyond the arc,248.0,259.0,NUMBER,52 percent from the field and 58 percent from three-point range,"The story says the Grizzlies shot 52 percent from the field and 22 percent from beyond the arc, but the JSON says they shot 52 percent from the field and 58 percent from three-point range.",llama_small,p2,2946.98
+T006,15,15,"The Grizzlies ' next game will be at home against the Cleveland Cavaliers on Wednesday , while the Knicks will be at home against the Los Angeles Clippers on Wednesday .",,,NOT_CHECKABLE,,"The story mentions upcoming games, but the JSON does not provide information about future games.",llama_small,p2,2946.98
+T006,16,16,New York remains home to host the Suns on Sunday .,277.0,287.0,,,,llama_small,p2,2946.98
+T007,1,1,Portland Trail Blazers ( 14 - 20 ),2.0,9.0,NUMBER,14-20,"The story says 14-20, but the JSON says 14-20",llama_small,p2,2946.98
+T007,1,2,defeated the Denver Nuggets ( 12 - 21 ),10.0,18.0,NUMBER,12-21,"The story says 12-21, but the JSON says 12-21",llama_small,p2,2946.98
+T007,1,3,110 - 103,19.0,21.0,NUMBER,110-103,"The story says 110-103, but the JSON says 110-103",llama_small,p2,2946.98
+T007,2,4,third -straight,,,NUMBER,third-straight,"The story says third-straight, but the JSON says third-straight",llama_small,p2,2946.98
+T007,3,5,76 - 53,,,NUMBER,76-53,"The story says 76-53, but the JSON says 76-53",llama_small,p2,2946.98
+T007,4,6,50 percent,,,NUMBER,47%,"The story says 50%, but the JSON says 47%",llama_small,p2,2946.98
+T007,5,7,Wednesday,26.0,26.0,NAME,12_30_15,"The story says Wednesday, but the JSON says 12_30_15",llama_small,p2,2946.98
+T007,6,8,third -straight,,,NUMBER,third-straight,"The story says third-straight, but the JSON says third-straight",llama_small,p2,2946.98
+T007,7,9,Damian Lillard,,,NAME,N/A,"The story mentions Damian Lillard, but the JSON says N/A",llama_small,p2,2946.98
+T007,8,10,76 - 53,,,NUMBER,76-53,"The story says 76-53, but the JSON says 76-53",llama_small,p2,2946.98
+T007,9,11,50 percent,,,NUMBER,47%,"The story says 50%, but the JSON says 47%",llama_small,p2,2946.98
+T007,10,12,Wednesday,26.0,26.0,NAME,12_30_15,"The story says Wednesday, but the JSON says 12_30_15",llama_small,p2,2946.98
+T007,11,13,third -straight,,,NUMBER,third-straight,"The story says third-straight, but the JSON says third-straight",llama_small,p2,2946.98
+T007,12,14,Damian Lillard,,,NAME,N/A,"The story mentions Damian Lillard, but the JSON says N/A",llama_small,p2,2946.98
+T007,13,15,76 - 53,,,NUMBER,76-53,"The story says 76-53, but the JSON says 76-53",llama_small,p2,2946.98
+T007,14,16,50 percent,,,NUMBER,47%,"The story says 50%, but the JSON says 47%",llama_small,p2,2946.98
+T007,15,17,Wednesday,26.0,26.0,NAME,12_30_15,"The story says Wednesday, but the JSON says 12_30_15",llama_small,p2,2946.98
+T007,16,18,third -straight,,,NUMBER,third-straight,"The story says third-straight, but the JSON says third-straight",llama_small,p2,2946.98
+T007,17,19,Damian Lillard,,,NAME,N/A,"The story mentions Damian Lillard, but the JSON says N/A",llama_small,p2,2946.98
+T007,18,20,76 - 53,,,NUMBER,76-53,"The story says 76-53, but the JSON says 76-53",llama_small,p2,2946.98
+T007,19,21,50 percent,,,NUMBER,47%,"The story says 50%, but the JSON says 47%",llama_small,p2,2946.98
+T007,20,22,Wednesday,26.0,26.0,NAME,12_30_15,"The story says Wednesday, but the JSON says 12_30_15",llama_small,p2,2946.98
+T007,21,23,third -straight,,,NUMBER,third-straight,"The story says third-straight, but the JSON says third-straight",llama_small,p2,2946.98
+T007,22,24,Damian Lillard,,,NAME,N/A,"The story mentions Damian Lillard, but the JSON says N/A",llama_small,p2,2946.98
+T007,23,25,76 - 53,,,,,,llama_small,p2,2946.98
+T008,1,1,The Indiana Pacers (16 -9),,,NUMBER,16-9,"The story says 16-9, but the JSON says 16-9",llama_small,p2,2946.98
+T008,1,2,dealt the Brooklyn Nets (7 -19),,,NUMBER,7-19,"The story says 7-19, but the JSON says 7-19",llama_small,p2,2946.98
+T008,1,3,on Friday,21.0,22.0,NOT_CHECKABLE,,The date is not verifiable from the box score data,llama_small,p2,2946.98
+T008,2,4,The Pacers came into this game as a double- digit favorite,,,WORD,,"The story says 'double-digit', but the JSON does not provide information about favorites",llama_small,p2,2946.98
+T008,2,5,and they took care of business in the fourth quarter,36.0,45.0,NOT_CHECKABLE,,The JSON does not provide information about the game's quarters,llama_small,p2,2946.98
+T008,3,6,The key for the Pacers was their defense,47.0,54.0,NOT_CHECKABLE,,The JSON does not provide information about the game's strategy,llama_small,p2,2946.98
+T008,3,7,as they held the Nets to,56.0,61.0,NOT_CHECKABLE,,The JSON does not provide information about the game's defense,llama_small,p2,2946.98
+T008,3,8,42 percent,62.0,63.0,NUMBER,42,"The story says 42 percent, but the JSON says 42",llama_small,p2,2946.98
+T008,3,9,from the field,64.0,66.0,NOT_CHECKABLE,,The JSON does not provide information about the field,llama_small,p2,2946.98
+T008,3,10,and,36.0,36.0,NOT_CHECKABLE,,The JSON does not provide information about the field,llama_small,p2,2946.98
+T008,3,11,50 percent,68.0,69.0,NUMBER,50,"The story says 50 percent, but the JSON says 50",llama_small,p2,2946.98
+T008,3,12,from three- point range,,,NOT_CHECKABLE,,The JSON does not provide information about the range,llama_small,p2,2946.98
+T008,4,13,The Nets also dominated the rebounding,76.0,81.0,NOT_CHECKABLE,,The JSON does not provide information about the rebounding,llama_small,p2,2946.98
+T008,4,14,winning that battle,83.0,85.0,NOT_CHECKABLE,,The JSON does not provide information about the battle,llama_small,p2,2946.98
+T008,4,15,52 -42,,,NUMBER,52-42,"The story says 52-42, but the JSON says 52-42",llama_small,p2,2946.98
+T008,5,16,The Nets (7 -19),,,NUMBER,7-19,"The story says 7-19, but the JSON says 7-19",llama_small,p2,2946.98
+T008,5,17,have now lost four of their last six games,98.0,106.0,NUMBER,4 of 6,"The story says 4 of 6, but the JSON says 4 of 6",llama_small,p2,2946.98
+T008,5,18,as they have now lost four of their last four games,108.0,118.0,NUMBER,4 of 4,"The story says 4 of 4, but the JSON says 4 of 4",llama_small,p2,2946.98
+T008,6,19,Brook Lopez,120.0,121.0,NAME,Brook Lopez,"The story says Brook Lopez, but the JSON says Brook Lopez",llama_small,p2,2946.98
+T008,6,20,was the player of the game,122.0,127.0,NOT_CHECKABLE,,The JSON does not provide information about the player of the game,llama_small,p2,2946.98
+T008,6,21,as he tallied,129.0,131.0,NOT_CHECKABLE,,The JSON does not provide information about the player's performance,llama_small,p2,2946.98
+T008,6,22,18 points,132.0,133.0,NUMBER,18,"The story says 18 points, but the JSON says 18",llama_small,p2,2946.98
+T008,6,23,five rebounds,135.0,136.0,NUMBER,5,"The story says 5 rebounds, but the JSON says 5",llama_small,p2,2946.98
+T008,6,24,and,36.0,36.0,,,,llama_small,p2,2946.98
+T009,1,1,Minnesota Timberwolves defeated the host,2.0,6.0,NAME,Heat,"The story says the Timberwolves defeated themselves, but the JSON says the Heat was the away team.",llama_small,p2,2946.98
+T009,1,2,115 - 113,10.0,12.0,NUMBER,113,"The story says the Timberwolves won by 2, but the JSON says they lost by 2.",llama_small,p2,2946.98
+T009,1,3,Saturday,18.0,18.0,NOT_CHECKABLE,,"The story mentions a specific date, but the JSON only provides the day of the week.",llama_small,p2,2946.98
+T009,2,4,Heat came into this game,,,NAME,Timberwolves,"The story says the Heat came into the game, but the JSON says the Timberwolves were the home team.",llama_small,p2,2946.98
+T009,2,5,22 - 30,23.0,25.0,NUMBER,19,"The story says the Heat had 22-30, but the JSON says the Timberwolves had 19-33.",llama_small,p2,2946.98
+T009,3,6,Heat were able to pull,73.0,77.0,NAME,Timberwolves,"The story says the Heat pulled away, but the JSON says the Timberwolves were the home team.",llama_small,p2,2946.98
+T009,3,7,31 - 22,89.0,91.0,NUMBER,22,"The story says the Heat outscored the Timberwolves by 9, but the JSON says the Timberwolves outscored the Heat by 8.",llama_small,p2,2946.98
+T009,4,8,Goran Dragic's 33 points,,,NUMBER,33,"The story says Dragic scored 33 points, which is correct.",llama_small,p2,2946.98
+T009,4,9,nine assists,114.0,115.0,NUMBER,9,"The story says Dragic dished out 9 assists, which is correct.",llama_small,p2,2946.98
+T009,4,10,two rebounds,117.0,118.0,NUMBER,2,"The story says Dragic had 2 rebounds, which is correct.",llama_small,p2,2946.98
+T009,4,11,a steal,120.0,121.0,NUMBER,1,"The story says Dragic had 1 steal, which is correct.",llama_small,p2,2946.98
+T009,5,12,Dion Waiters followed,123.0,125.0,NAME,Karl-Anthony Towns,"The story says Waiters followed Dragic, but the JSON says Towns led the Timberwolves.",llama_small,p2,2946.98
+T009,5,13,12 points,127.0,128.0,NUMBER,12,"The story says Waiters scored 12 points, which is correct.",llama_small,p2,2946.98
+T009,5,14,five assists,130.0,131.0,NUMBER,5,"The story says Waiters had 5 assists, which is correct.",llama_small,p2,2946.98
+T009,5,15,three rebounds,133.0,134.0,NUMBER,3,"The story says Waiters had 3 rebounds, which is correct.",llama_small,p2,2946.98
+T009,5,16,two steals,136.0,137.0,NUMBER,2,"The story says Waiters had 2 steals, which is correct.",llama_small,p2,2946.98
+T009,5,17,a pair of blocks,139.0,142.0,WORD,1 block,"The story says Waiters had a pair of blocks, but the JSON says he had 1 block.",llama_small,p2,2946.98
+T009,6,18,Hassan Whiteside posted,144.0,146.0,NAME,Andrew Wiggins,"The story says Whiteside posted a double-double, but the JSON says Wiggins did.",llama_small,p2,2946.98
+T009,6,19,19 - point,148.0,150.0,NUMBER,19,"The story says Whiteside had a 19-point double-double, which is correct.",llama_small,p2,2946.98
+T009,6,20,13 - rebound,152.0,154.0,NUMBER,13,"The story says Whiteside had 13 rebounds, which is correct.",llama_small,p2,2946.98
+T009,6,21,double -,155.0,156.0,WORD,double-double,"The story says Whiteside had a double, but the JSON says he had a double-double.",llama_small,p2,2946.98
+T009,6,22,two assists,161.0,162.0,NUMBER,2,"The story says Whiteside had 2 assists, which is correct.",llama_small,p2,2946.98
+T009,6,23,a steal,120.0,121.0,NUMBER,1,"The story says Whiteside had 1 steal, which is correct.",llama_small,p2,2946.98
+T009,6,24,a block,167.0,168.0,,,,llama_small,p2,2946.98
+T010,1,1,Milwaukee Bucks ( 25 - 35 ),2.0,8.0,NUMBER,25-35,"The story says 25-35, but the JSON says 25-35",llama_small,p2,2946.98
+T010,1,2,defeated the visiting Houston Rockets ( 29 - 31 ),,,NUMBER,29-31,"The story says 29-31, but the JSON says 29-31",llama_small,p2,2946.98
+T010,1,3,"128 - 121 ,",,,NUMBER,128-121,"The story says 128-121, but the JSON says 128-121",llama_small,p2,2946.98
+T010,2,4,BMO Harris Bradley Center,25.0,28.0,NAME,BMO Harris Bradley Center,"The story says BMO Harris Bradley Center, but the JSON says BMO Harris Bradley Center",llama_small,p2,2946.98
+T010,2,5,Milwaukee,2.0,2.0,NAME,Milwaukee,"The story says Milwaukee, but the JSON says Milwaukee",llama_small,p2,2946.98
+T010,3,6,32 - 26,46.0,48.0,NUMBER,32-26,"The story says 32-26, but the JSON says 32-26",llama_small,p2,2946.98
+T010,4,7,17 turnovers,64.0,65.0,NUMBER,17,"The story says 17 turnovers, but the JSON says 17",llama_small,p2,2946.98
+T010,4,8,17,64.0,64.0,NUMBER,16,"The story says 17, but the JSON says 16",llama_small,p2,2946.98
+T010,5,9,59 percent,86.0,87.0,NUMBER,59,"The story says 59 percent, but the JSON says 59",llama_small,p2,2946.98
+T010,5,10,53 percent,92.0,93.0,NUMBER,53,"The story says 53 percent, but the JSON says 53",llama_small,p2,2946.98
+T010,5,11,42 percent,106.0,107.0,NUMBER,42,"The story says 42 percent, but the JSON says 42",llama_small,p2,2946.98
+T010,6,12,James Harden,148.0,149.0,NAME,James Harden,"The story says James, but the JSON says James Harden",llama_small,p2,2946.98
+T010,6,13,Dwight Howard,151.0,152.0,NAME,Dwight Howard,"The story says Dwight, but the JSON says Dwight Howard",llama_small,p2,2946.98
+T010,7,14,8 - for - 16,156.0,160.0,NUMBER,8-16,"The story says 8-for-16, but the JSON says 8-16",llama_small,p2,2946.98
+T010,7,15,3 - for - 7,165.0,169.0,NUMBER,3-7,"The story says 3-for-7, but the JSON says 3-7",llama_small,p2,2946.98
+T010,8,16,26 points,183.0,184.0,NUMBER,26,"The story says 26 points, but the JSON says 26",llama_small,p2,2946.98
+T010,8,17,nine assists,189.0,190.0,WORD,9,"The story says nine assists, but the JSON says 9",llama_small,p2,2946.98
+T010,8,18,six rebounds,314.0,315.0,WORD,6,"The story says six rebounds, but the JSON says 6",llama_small,p2,2946.98
+T010,8,19,three steals,,,WORD,3,"The story says three steals, but the JSON says 3",llama_small,p2,2946.98
+T010,9,20,Jabari Parker,208.0,209.0,NAME,Jabari Parker,"The story says Jabari, but the JSON says Jabari Parker",llama_small,p2,2946.98
+T010,9,21,16 - 25,,,NUMBER,16-25,"The story says 16-25, but the JSON says 16-25",llama_small,p2,2946.98
+T010,9,22,1 - 1,,,NUMBER,1-1,"The story says 1-1, but the JSON says 1-1",llama_small,p2,2946.98
+T010,9,23,five assists,248.0,249.0,WORD,5,"The story says five assists, but the JSON says 5",llama_small,p2,2946.98
+T010,9,24,four rebounds,,,WORD,4,"The story says four rebounds, but the JSON says 4",llama_small,p2,2946.98
+T010,9,25,two steals,,,,,,llama_small,p2,2946.98
+T011,1,1,The Atlanta Hawks defeated the visiting Cleveland Cavaliers,1.0,8.0,NAME,Cavaliers,The story says 'visiting' which is not in the JSON,llama_small,p2,2946.98
+T011,1,2,135 -,,,NUMBER,130,"The story says the Hawks won, but the JSON says the Cavaliers won",llama_small,p2,2946.98
+T011,1,3,Philips Arena,15.0,16.0,NAME,Philips Arena,The story says 'Philips Arena' which is correct,llama_small,p2,2946.98
+T011,1,4,Friday,193.0,193.0,NAME,Friday,The story says 'Friday' which is correct,llama_small,p2,2946.98
+T011,2,5,The Cavs knocked down an NBA record 25 three-pointers,,,NUMBER,25,"The story says the Cavaliers made 25 three-pointers, but the JSON says they made 25-of-46",llama_small,p2,2946.98
+T011,2,6,25 -,,,NUMBER,46,"The story says the Cavaliers made 25 three-pointers, but the JSON says they made 25-of-46",llama_small,p2,2946.98
+T011,2,7,The Cavs were able to hang on largely thanks to a clutch three from none other than Kyle Korver,,,NAME,Kyle Korver,The story says 'none other than Kyle Korver' which is correct,llama_small,p2,2946.98
+T011,3,8,The Cavs ( 42 - 18 ),,,NUMBER,34-27,"The story says the Cavaliers' record is 42-18, but the JSON says the Hawks' record is 34-27",llama_small,p2,2946.98
+T011,3,9,shot a blistering 54 % from deep,,,NUMBER,54%,"The story says the Cavaliers shot 54% from deep, which is correct",llama_small,p2,2946.98
+T011,3,10,as they hit 25 - of - 46 of their three-point attempts,,,NUMBER,25-of-46,"The story says the Cavaliers hit 25-of-46 three-point attempts, which is correct",llama_small,p2,2946.98
+T011,4,11,Kyrie Irving and LeBron James,,,NAME,Kyrie Irving and LeBron James,The story says 'Kyrie Irving and LeBron James' which is correct,llama_small,p2,2946.98
+T011,4,12,combining for 81 points,,,NUMBER,81,"The story says Kyrie Irving and LeBron James combined for 81 points, which is correct",llama_small,p2,2946.98
+T011,5,13,Irving finished with a game-high 43 points,,,NUMBER,43,"The story says Irving finished with 43 points, which is correct",llama_small,p2,2946.98
+T011,5,14,while James filled the stat sheet with 38 points,,,NUMBER,38,"The story says James filled the stat sheet with 38 points, which is correct",llama_small,p2,2946.98
+T011,5,15,13 rebounds,112.0,113.0,NUMBER,13,"The story says James had 13 rebounds, which is correct",llama_small,p2,2946.98
+T011,5,16,and eight assists,114.0,116.0,NUMBER,8,"The story says James had eight assists, which is correct",llama_small,p2,2946.98
+T011,6,17,Channing Frye and Richard Jefferson,,,NAME,Channing Frye and Richard Jefferson,The story says 'Channing Frye and Richard Jefferson' which is correct,llama_small,p2,2946.98
+T011,6,18,were the only other players to score in double digits,,,WORD,double figures,The story says 'double digits' which is incorrect,llama_small,p2,2946.98
+T011,6,19,for Cleveland,,,NAME,Cleveland,The story says 'for Cleveland' which is correct,llama_small,p2,2946.98
+T011,6,20,finishing with 11 points,,,NUMBER,11,"The story says Frye and Jefferson each scored 11 points, which is correct",llama_small,p2,2946.98
+T011,7,21,The Cavs will look to build on the momentum from this win,,,WORD,loss,The story says 'build on the momentum from this win' which is incorrect,llama_small,p2,2946.98
+T011,8,22,as they visit Miami on Saturday,,,,,,llama_small,p2,2946.98
+T012,1,1,Toronto Raptors,2.0,3.0,NAME,Miami Heat,"The story says the Toronto Raptors, but the JSON says the Miami Heat.",llama_small,p2,2946.98
+T012,1,2,48 -,5.0,6.0,NUMBER,35,"The story says the Raptors have 48-32, but the JSON says the Heat have 35-45.",llama_small,p2,2946.98
+T012,1,3,107 -,18.0,19.0,NUMBER,104,"The story says the Raptors won 107-104, but the JSON says the Heat lost 104-107.",llama_small,p2,2946.98
+T012,1,4,Wednesday,22.0,22.0,WORD,04_11_15,"The story says the game was on Wednesday, but the JSON says the date is 04_11_15.",llama_small,p2,2946.98
+T012,1,5,American Airlines Arena,24.0,26.0,NAME,Miami,"The story says the game was at American Airlines Arena, but the JSON says the game was in Miami.",llama_small,p2,2946.98
+T012,2,6,50 -,44.0,45.0,NUMBER,29,"The story says the Raptors out-scored the Heat 50-38, but the JSON says the Heat scored 29 in the first half.",llama_small,p2,2946.98
+T012,2,7,38,46.0,46.0,NUMBER,38,"The story says the Heat scored 38 in the first half, which is correct.",llama_small,p2,2946.98
+T012,3,8,12,74.0,74.0,NUMBER,3,"The story says Kyle Lowry finished with 12 points, but the JSON says he committed 3 fouls.",llama_small,p2,2946.98
+T012,3,9,3 -,77.0,78.0,NUMBER,7,"The story says Kyle Lowry had 3 fouls, but the JSON says he had 7 rebounds.",llama_small,p2,2946.98
+T012,3,10,7,89.0,89.0,NUMBER,3,"The story says Kyle Lowry had 7 rebounds, but the JSON says he had 3 steals.",llama_small,p2,2946.98
+T012,4,11,24,139.0,139.0,NUMBER,7,"The story says DeRozan posted 24 points, but the JSON says he made 7 field goals.",llama_small,p2,2946.98
+T012,4,12,6,87.0,87.0,NUMBER,6,"The story says DeRozan posted 6 rebounds, which is correct.",llama_small,p2,2946.98
+T012,4,13,4,,,NUMBER,4,"The story says DeRozan posted 4 steals, which is correct.",llama_small,p2,2946.98
+T012,5,14,22,264.0,264.0,NUMBER,9,"The story says Dwyane Dragic came off the bench for 22 points, but the JSON says he made 9 field goals.",llama_small,p2,2946.98
+T012,5,15,6,87.0,87.0,NUMBER,6,"The story says Dwyane Dragic came off the bench for 6 rebounds, which is correct.",llama_small,p2,2946.98
+T012,5,16,5,,,NUMBER,5,"The story says Dwyane Dragic came off the bench for 5 assists, which is correct.",llama_small,p2,2946.98
+T012,6,17,22,264.0,264.0,NUMBER,9,"The story says Goran Dragic finished with 22 points, but the JSON says he made 9 field goals.",llama_small,p2,2946.98
+T012,6,18,6,87.0,87.0,NUMBER,6,"The story says Goran Dragic finished with 6 rebounds, which is correct.",llama_small,p2,2946.98
+T012,6,19,5,,,NUMBER,5,"The story says Goran Dragic finished with 5 assists, which is correct.",llama_small,p2,2946.98
+T012,7,20,34,411.0,411.0,NUMBER,44,"The story says Goran Dragic combined for 34 points, but the JSON says he combined for 44 points.",llama_small,p2,2946.98
+T012,7,21,13,306.0,306.0,NUMBER,13,"The story says Goran Dragic combined for 13 rebounds, which is correct.",llama_small,p2,2946.98
+T012,7,22,5,,,NUMBER,5,"The story says Goran Dragic combined for 5 assists, which is correct.",llama_small,p2,2946.98
+T012,8,23,21,423.0,423.0,NUMBER,30,"The story says Goran Dragic played 21 minutes per game, but the JSON says he played 30 minutes.",llama_small,p2,2946.98
+T012,9,24,Raptors,3.0,3.0,NAME,Raptors,"The story says the Raptors' next game will be on the road against the Cleveland Cavaliers, which is correct.",llama_small,p2,2946.98
+T012,10,25,Cavaliers,441.0,441.0,,,,llama_small,p2,2946.98
+T013,1,1,Memphis Grizzlies defeated the visiting,,,NAME,Utah,"The story says the Grizzlies played at home, but the JSON says the Jazz were the visiting team.",llama_small,p2,2946.98
+T013,1,2,88 -,9.0,10.0,NUMBER,79,"The story says the Grizzlies won 88-79, but the JSON says they won 88-79.",llama_small,p2,2946.98
+T013,1,3,Sunday,,,NAME,Saturday,"The story says the game was on Sunday, but the JSON says it was on a different day.",llama_small,p2,2946.98
+T013,2,4,second,106.0,106.0,WORD,first,"The story says the Grizzlies won the first three quarters, but the JSON says they won the first two quarters.",llama_small,p2,2946.98
+T013,2,5,straight,,,WORD,straight,"The story says the Grizzlies won their second straight win, which is correct.",llama_small,p2,2946.98
+T013,3,6,24 -,22.0,23.0,NUMBER,23,"The story says the Grizzlies have 24 wins, but the JSON says they have 23 wins.",llama_small,p2,2946.98
+T013,3,7,16,24.0,24.0,NUMBER,16,"The story says the Grizzlies have 24-16, but the JSON says they have 23-16.",llama_small,p2,2946.98
+T013,4,8,19,256.0,256.0,NUMBER,9,"The story says Mike Conley had 19 points, but the JSON says he had 9 assists.",llama_small,p2,2946.98
+T013,4,9,two,170.0,170.0,WORD,three,"The story says only two other players scored in double digits, but the JSON says three players scored in double digits.",llama_small,p2,2946.98
+T013,5,10,17,61.0,61.0,NUMBER,17,"The story says Marc Gasol finished with 17 points, which is correct.",llama_small,p2,2946.98
+T013,5,11,11,238.0,238.0,NUMBER,11,"The story says Zach Randolph added 13 points and 11 rebounds, which is correct.",llama_small,p2,2946.98
+T013,6,12,13,274.0,274.0,NUMBER,13,"The story says Zach Randolph added 13 points and 11 rebounds, which is correct.",llama_small,p2,2946.98
+T013,6,13,11,238.0,238.0,NUMBER,11,"The story says Zach Randolph added 13 points and 11 rebounds, which is correct.",llama_small,p2,2946.98
+T013,7,14,double,281.0,281.0,WORD,double-double,"The story says Zach Randolph posted a 13-point, 11-rebound double-double, which is correct.",llama_small,p2,2946.98
+T013,7,15,three,224.0,224.0,NUMBER,three,"The story says Zach Randolph posted a 13-point, 11-rebound double-double that also included three steals and a block, which is correct.",llama_small,p2,2946.98
+T013,7,16,block,177.0,177.0,WORD,block,"The story says Zach Randolph posted a 13-point, 11-rebound double-double that also included three steals and a block, which is correct.",llama_small,p2,2946.98
+T013,8,17,Monday,29.0,29.0,NAME,Tuesday,"The story says the Jazz head back home to face off with the Atlanta Hawks on Monday night, but the JSON says they will host the Cavaliers on Tuesday.",llama_small,p2,2946.98
+T013,8,18,Friday,363.0,363.0,NAME,Wednesday,"The story says the Grizzlies head down to Central Florida for a showdown with the Orlando Magic on Friday evening, but the JSON says they will face the Thunder in Oklahoma City on Wednesday.",llama_small,p2,2946.98
+T014,1,1,New York Knicks,2.0,4.0,NAME,Milwaukee,"The story says the Knicks played at home, but the JSON says the Bucks did.",llama_small,p2,2946.98
+T014,1,2,defeated the Milwaukee Bucks,5.0,8.0,NAME,Bucks,"The story says the Knicks defeated the Bucks, but the JSON says the Bucks won.",llama_small,p2,2946.98
+T014,1,3,93 -,10.0,11.0,NUMBER,104,"The story says the Knicks won 93-104, but the JSON says the Bucks won 104-93.",llama_small,p2,2946.98
+T014,1,4,at BMO Harris Bradley Center,14.0,18.0,NAME,at the BMO Harris Bradley Center,"The story says the game was at BMO Harris Bradley Center, but the JSON says the game was at the BMO Harris Bradley Center.",llama_small,p2,2946.98
+T014,1,5,on Friday,19.0,20.0,DAY,on the day of the week 'Friday',"The story says the game was on Friday, but the JSON does not specify the day of the week.",llama_small,p2,2946.98
+T014,2,6,the Knicks came into this game tied for the worst record in the Eastern Conference,,,NOT_CHECKABLE,,"The story says the Knicks came into the game tied for the worst record in the Eastern Conference, but this information is not verifiable from the JSON.",llama_small,p2,2946.98
+T014,3,7,the Knicks have now won five of their last six games,,,NOT_CHECKABLE,,"The story says the Knicks have now won five of their last six games, but this information is not verifiable from the JSON.",llama_small,p2,2946.98
+T014,3,8,the Knicks have now lost five of their last six games,,,NOT_CHECKABLE,,"The story says the Knicks have now lost five of their last six games, but this information is not verifiable from the JSON.",llama_small,p2,2946.98
+T014,4,9,Derrick Rose,90.0,91.0,NAME,Derrick Rose,"The story says Derrick Rose led the way for New York, but the JSON says Derrick Rose led the way for New York.",llama_small,p2,2946.98
+T014,4,10,scoring a game-high 26 points,,,NUMBER,26,"The story says Derrick Rose scored a game-high 26 points, but the JSON says Derrick Rose scored 26 points.",llama_small,p2,2946.98
+T014,4,11,on 13- - of- - 16,,,NUMBER,13-16,"The story says Derrick Rose scored on 13-of-16 shooting from the field, but the JSON says Derrick Rose scored on 13-of-16 shooting from the field.",llama_small,p2,2946.98
+T014,5,12,Carmelo Anthony,117.0,118.0,NAME,Carmelo Anthony,"The story says Carmelo Anthony followed up with 16 points, four rebounds and three assists, but the JSON says Carmelo Anthony accrued 16 points, four rebounds and three assists.",llama_small,p2,2946.98
+T014,5,13,Kristaps Porzingis,132.0,133.0,NAME,Kristaps Porzingis,"The story says Kristaps Porzingis added 13 points, eight boards, two assists and three blocks, but the JSON says Kristaps Porzingis added 13 points, eight boards, two assists and three blocks.",llama_small,p2,2946.98
+T014,6,14,Willy Hernangomez,147.0,148.0,NAME,Willy Hernangomez,"The story says Willy Hernangomez chipped in 13 points and 12 rebounds, but the JSON says Willy Hernangomez totaled 13 points and 12 rebounds.",llama_small,p2,2946.98
+T014,6,15,Courtney Lee,158.0,159.0,NAME,Courtney Lee,"The story says Courtney Lee chipped in 12 points, seven rebounds and five assists, but the JSON says Courtney Lee chipped in 12 points, seven rebounds and five assists.",llama_small,p2,2946.98
+T014,7,16,Giannis Antetokounmpo,197.0,198.0,NAME,Giannis Antetokounmpo,"The story says Giannis Antetokounmpo led the way for Milwaukee with 32 points, 13 rebounds, seven assists, four steals and two blocks, but the JSON says Giannis Antetokounmpo was the player of the game, collecting 32 points, 13 rebounds and seven assists.",llama_small,p2,2946.98
+T014,7,17,32 points,205.0,206.0,NUMBER,32,"The story says Giannis Antetokounmpo led the way for Milwaukee with 32 points, but the JSON says Giannis Antetokounmpo collected 32 points.",llama_small,p2,2946.98
+T014,7,18,13 rebounds,208.0,209.0,NUMBER,13,"The story says Giannis Antetokounmpo led the way for Milwaukee with 13 rebounds, but the JSON says Giannis Antetokounmpo collected 13 rebounds.",llama_small,p2,2946.98
+T014,7,19,seven assists,211.0,212.0,NUMBER,seven,"The story says Giannis Antetokounmpo led the way for Milwaukee with seven assists, but the JSON says Giannis Antetokounmpo collected seven assists.",llama_small,p2,2946.98
+T014,7,20,four steals,214.0,215.0,,,,llama_small,p2,2946.98
+T015,1,1,Los Angeles has won their,,,WORD,Detroit,"The story says the Lakers won, but the JSON says the Pistons won.",llama_small,p2,2946.98
+T015,1,2,last two games,167.0,169.0,WORD,last three games,"The story says the Lakers won their last two games, but the JSON says they won their last three games.",llama_small,p2,2946.98
+T015,1,3,Tuesday,,,WORD,Wednesday,"The story says the game was on Tuesday, but the JSON says it was on Wednesday.",llama_small,p2,2946.98
+T015,2,4,three -game losing streak,,,WORD,two-game losing streak,"The story says the Lakers were on a three-game losing streak, but the JSON says they were on a two-game losing streak.",llama_small,p2,2946.98
+T015,3,5,47 %,,,NUMBER,37%,"The story says the Lakers shot 47% from the field, but the JSON says they shot 37%.",llama_small,p2,2946.98
+T015,3,6,37 %,,,NUMBER,29%,"The story says the Pistons shot 37% from beyond the arc, but the JSON says they shot 29%.",llama_small,p2,2946.98
+T015,4,7,19 points,95.0,96.0,NUMBER,12 points,"The story says Nick Young finished with 19 points, but the JSON says he finished with 12 points.",llama_small,p2,2946.98
+T015,4,8,13 rebounds,114.0,115.0,NUMBER,13 rebounds,"The story says Nick Young finished with 13 rebounds, but the JSON says he finished with 13 rebounds.",llama_small,p2,2946.98
+T015,5,9,8 points,,,NUMBER,8 points,"The story says Greg Monroe scored eight points, but the JSON says he scored 8 points.",llama_small,p2,2946.98
+T015,6,10,52 points,163.0,164.0,NUMBER,16 points,"The story says Greg Monroe combined for 52 points in the last two games, but the JSON says he combined for 16 points in the last two games.",llama_small,p2,2946.98
+T015,7,11,10 points,187.0,188.0,NUMBER,10 points,"The story says Brandon Jennings chipped in with 10 points, but the JSON says he chipped in with 10 points.",llama_small,p2,2946.98
+T015,7,12,2 - 10 FG,190.0,193.0,NUMBER,2-10 FG,"The story says Brandon Jennings went 2-10 FG, but the JSON says he went 2-10 FG.",llama_small,p2,2946.98
+T015,7,13,0 - 1 3Pt,195.0,198.0,NUMBER,0-1 3Pt,"The story says Brandon Jennings went 0-1 3Pt, but the JSON says he went 0-1 3Pt.",llama_small,p2,2946.98
+T015,7,14,6 - 6 FT,200.0,203.0,NUMBER,6-6 FT,"The story says Brandon Jennings went 6-6 FT, but the JSON says he went 6-6 FT.",llama_small,p2,2946.98
+T015,8,15,Friday,246.0,246.0,WORD,Wednesday,"The story says the Lakers' next game will be on Friday, but the JSON does not provide information about the Lakers' next game.",llama_small,p2,2946.98
+T015,8,16,Friday,246.0,246.0,WORD,Wednesday,"The story says the Pistons will travel to Brooklyn to play the Nets on Friday, but the JSON does not provide information about the Pistons' next game.",llama_small,p2,2946.98
+T016,1,1,Philadelphia 76ers defeated the Sacramento,2.0,6.0,NAME,Sacramento Kings,"The story says the 76ers defeated the Sacramento 76ers, but the JSON says the Kings.",llama_small,p2,2946.98
+T016,1,2,100 -,9.0,10.0,NUMBER,102,"The story says the 76ers won 100-102, but the JSON says the Kings won 102-100.",llama_small,p2,2946.98
+T016,1,3,Friday,18.0,18.0,NAME,12_26_16,"The story says the game was on Friday, but the JSON says the game was on 12_26_16.",llama_small,p2,2946.98
+T016,2,4,the 76ers came into this game as the worst team in the NBA,,,NAME,the 76ers (7-23) came into this game as the worst team in the NBA,"The story says the 76ers came into the game as the worst team in the NBA, but the JSON says the 76ers (7-23) came into this game as the worst team in the NBA.",llama_small,p2,2946.98
+T016,2,5,the 76ers 14 - 17,,,NUMBER,the 76ers (14-17),"The story says the 76ers 14-17, but the JSON says the 76ers (14-17).",llama_small,p2,2946.98
+T016,3,6,the 76ers were able to pull away late in the fourth quarter,,,WORD,the 76ers were able to pull away late in the fourth quarter,"The story says the 76ers were able to pull away late in the fourth quarter, which is correct.",llama_small,p2,2946.98
+T016,3,7,the 76ers were able to stave off a late rally late in the game,,,WORD,the 76ers were able to stave off a late rally late in the game,"The story says the 76ers were able to stave off a late rally late in the game, which is correct.",llama_small,p2,2946.98
+T016,3,8,the 76ers were able to pull away in the second half,,,WORD,the 76ers were able to pull away in the second half,"The story says the 76ers were able to pull away in the second half, which is correct.",llama_small,p2,2946.98
+T016,4,9,Sergio Rodriguez was the high- point man for the 76ers with 18 points and five assists,,,NAME,"Sergio Rodriguez was the high-point man for the 76ers, with 18 points, to go along with five assists, while Jahlil Okafor logged 20 minutes off the bench.","The story says Sergio Rodriguez was the high-point man for the 76ers with 18 points and five assists, but the JSON says Sergio Rodriguez was the high-point man for the 76ers, with 18 points, to go along with five assists, while Jahlil Okafor logged 20 minutes off the bench.",llama_small,p2,2946.98
+T016,4,10,Jahlil Okafor logged 20 minutes,116.0,120.0,NUMBER,20 minutes off the bench,"The story says Jahlil Okafor logged 20 minutes, but the JSON says Jahlil Okafor logged 20 minutes off the bench.",llama_small,p2,2946.98
+T016,5,11,DeMarcus Cousins was the high- point man for the Kings with 30 points,,,NAME,"DeMarcus Cousins was the high-point man for the Kings, with 30 points, to go along with seven rebounds, five assists, three steals and two blocks, in 34 minutes.","The story says DeMarcus Cousins was the high-point man for the Kings with 30 points, but the JSON says DeMarcus Cousins was the high-point man for the Kings, with 30 points, to go along with seven rebounds, five assists, three steals and two blocks, in 34 minutes.",llama_small,p2,2946.98
+T016,5,12,seven rebounds,170.0,171.0,NUMBER,"seven rebounds, five assists, three steals and two blocks, in 34 minutes","The story says DeMarcus Cousins had seven rebounds, but the JSON says DeMarcus Cousins had seven rebounds, five assists, three steals and two blocks, in 34 minutes.",llama_small,p2,2946.98
+T016,5,13,five assists,112.0,113.0,NUMBER,"seven rebounds, five assists, three steals and two blocks, in 34 minutes","The story says DeMarcus Cousins had five assists, but the JSON says DeMarcus Cousins had seven rebounds, five assists, three steals and two blocks, in 34 minutes.",llama_small,p2,2946.98
+T016,5,14,three steals,176.0,177.0,NUMBER,"seven rebounds, five assists, three steals and two blocks, in 34 minutes","The story says DeMarcus Cousins had three steals, but the JSON says DeMarcus Cousins had seven rebounds, five assists, three steals and two blocks, in 34 minutes.",llama_small,p2,2946.98
+T016,5,15,two blocks,179.0,180.0,NUMBER,"seven rebounds, five assists, three steals and two blocks, in 34 minutes","The story says DeMarcus Cousins had two blocks, but the JSON says DeMarcus Cousins had seven rebounds, five assists, three steals and two blocks, in 34 minutes.",llama_small,p2,2946.98
+T016,5,16,34 minutes,183.0,184.0,,,,llama_small,p2,2946.98
+T017,1,1,Miami Heat ( 41 - 29 ),2.0,8.0,NUMBER,41-29,"The story says the Heat's win-loss record is 41-29, but the JSON says it's 41-29.",llama_small,p2,2946.98
+T017,1,2,New Orleans Pelicans ( 26 - 44 ),11.0,18.0,NUMBER,26-43,"The story says the Pelicans' win-loss record is 26-44, but the JSON says it's 26-43.",llama_small,p2,2946.98
+T017,2,3,Heat got off to a hot start,35.0,41.0,WORD,,"The story says the Heat got off to a hot start, but the JSON does not provide information about the start of the game.",llama_small,p2,2946.98
+T017,2,4,out-scoring the Pelicans 29 - 13 in the first quarter,,,NUMBER,21-13,"The story says the Heat out-scored the Pelicans 29-13 in the first quarter, but the JSON says they out-scored them 21-13.",llama_small,p2,2946.98
+T017,3,5,Pelicans battled back in the second half,61.0,67.0,WORD,,"The story says the Pelicans battled back in the second half, but the JSON does not provide information about the second half.",llama_small,p2,2946.98
+T017,3,6,out-scoring the Heat 29 - 13,,,NUMBER,26-19,"The story says the Pelicans out-scored the Heat 29-13, but the JSON says they out-scored them 26-19.",llama_small,p2,2946.98
+T017,4,7,Pelicans were able to get it within striking distance,79.0,87.0,WORD,,"The story says the Pelicans were able to get it within striking distance, but the JSON does not provide information about the distance.",llama_small,p2,2946.98
+T017,4,8,as they out-scoring the Heat 31 - 19 in the final quarter,,,NUMBER,26-19,"The story says the Pelicans out-scored the Heat 31-19 in the final quarter, but the JSON says they out-scored them 26-19.",llama_small,p2,2946.98
+T017,5,9,Dwyane Wade led the way for the Heat,108.0,115.0,NAME,,"The story says Dwyane Wade led the way for the Heat, but the JSON does not provide information about who led the Heat.",llama_small,p2,2946.98
+T017,5,10,finishing with 25 points,117.0,120.0,NUMBER,25,"The story says Dwyane Wade finished with 25 points, but the JSON confirms this.",llama_small,p2,2946.98
+T017,5,11,7 rebounds,,,NUMBER,7,"The story says Dwyane Wade had 7 rebounds, but the JSON confirms this.",llama_small,p2,2946.98
+T017,5,12,3 assists,,,NUMBER,3,"The story says Dwyane Wade had 3 assists, but the JSON confirms this.",llama_small,p2,2946.98
+T017,5,13,and one steal,143.0,145.0,WORD,,"The story says Dwyane Wade had one steal, but the JSON does not provide information about steals.",llama_small,p2,2946.98
+T017,6,14,Hassan Whiteside had a strong showing as well,147.0,154.0,NAME,,"The story says Hassan Whiteside had a strong showing as well, but the JSON does not provide information about who else had a strong showing.",llama_small,p2,2946.98
+T017,6,15,finishing with 24 points,156.0,159.0,NUMBER,24,"The story says Hassan Whiteside finished with 24 points, but the JSON confirms this.",llama_small,p2,2946.98
+T017,6,16,14 rebounds,172.0,173.0,NUMBER,14,"The story says Hassan Whiteside had 14 rebounds, but the JSON confirms this.",llama_small,p2,2946.98
+T017,6,17,and three blocked shots,174.0,177.0,WORD,,"The story says Hassan Whiteside had three blocked shots, but the JSON does not provide information about blocked shots.",llama_small,p2,2946.98
+T017,7,18,He's now combined for 54 points,,,NUMBER,54,"The story says Hassan Whiteside has now combined for 54 points, but the JSON does not provide information about Hassan Whiteside's points.",llama_small,p2,2946.98
+T017,7,19,in the last two games,186.0,190.0,WORD,,"The story says Hassan Whiteside has now combined for 54 points in the last two games, but the JSON does not provide information about Hassan Whiteside's games.",llama_small,p2,2946.98
+T017,8,20,Anthony Davis had a strong showing as well,203.0,210.0,,,,llama_small,p2,2946.98
+T018,1,1,The Houston Rockets defeated the visiting Los Angeles Lakers,1.0,9.0,NAME,Houston Rockets,The story misspells the team name as 'Rockets' instead of 'Rockets' in the JSON.,llama_small,p2,2946.98
+T018,1,2,visiting Los Angeles Lakers,6.0,9.0,NAME,Los Angeles Lakers,The story misspells the team name as 'Lakers' instead of 'Lakers' in the JSON.,llama_small,p2,2946.98
+T018,1,3,134 -,10.0,11.0,NUMBER,134,The story incorrectly includes a hyphen in the score.,llama_small,p2,2946.98
+T018,1,4,95,12.0,12.0,NUMBER,95,The story is correct.,llama_small,p2,2946.98
+T018,2,5,Rockets 15 - 7,,,NUMBER,15-7,The story is correct.,llama_small,p2,2946.98
+T018,3,6,James Harden,50.0,51.0,NAME,James Harden,The story misspells the player name as 'Harden' instead of 'Harden' in the JSON.,llama_small,p2,2946.98
+T018,3,7,25,59.0,59.0,NUMBER,25,The story is correct.,llama_small,p2,2946.98
+T018,3,8,points,60.0,60.0,WORD,points,The story is correct.,llama_small,p2,2946.98
+T018,3,9,(8 -,,,NUMBER,8-14,The story incorrectly includes a hyphen in the field goal percentage.,llama_small,p2,2946.98
+T018,3,10,14,64.0,64.0,NUMBER,14,The story is correct.,llama_small,p2,2946.98
+T018,3,11,FG,65.0,65.0,WORD,FG,The story is correct.,llama_small,p2,2946.98
+T018,3,12,4 -,67.0,68.0,NUMBER,4-7,The story incorrectly includes a hyphen in the three-point percentage.,llama_small,p2,2946.98
+T018,3,13,7,24.0,24.0,NUMBER,7,The story is correct.,llama_small,p2,2946.98
+T018,3,14,3Pt,70.0,70.0,WORD,3Pt,The story is correct.,llama_small,p2,2946.98
+T018,3,15,5 -,72.0,73.0,NUMBER,5-6,The story incorrectly includes a hyphen in the free throw percentage.,llama_small,p2,2946.98
+T018,3,16,6,74.0,74.0,NUMBER,6,The story is correct.,llama_small,p2,2946.98
+T018,3,17,FT,75.0,75.0,WORD,FT,The story is correct.,llama_small,p2,2946.98
+T018,4,18,Eric Gordon,93.0,94.0,NAME,Eric Gordon,The story misspells the player name as 'Gordon' instead of 'Gordon' in the JSON.,llama_small,p2,2946.98
+T018,4,19,26,98.0,98.0,NUMBER,26,The story is correct.,llama_small,p2,2946.98
+T018,4,20,points,60.0,60.0,WORD,points,The story is correct.,llama_small,p2,2946.98
+T018,4,21,on,16.0,16.0,WORD,on,The story is correct.,llama_small,p2,2946.98
+T018,4,22,9 -,101.0,102.0,NUMBER,9-13,The story incorrectly includes a hyphen in the field goal percentage.,llama_small,p2,2946.98
+T018,4,23,of,31.0,31.0,WORD,of,The story is correct.,llama_small,p2,2946.98
+T018,4,24,13,105.0,105.0,NUMBER,13,The story is correct.,llama_small,p2,2946.98
+T018,4,25,shooting,106.0,106.0,WORD,shooting,The story is correct.,llama_small,p2,2946.98
+T018,4,26,from,114.0,114.0,WORD,from,The story is correct.,llama_small,p2,2946.98
+T018,4,27,the,5.0,5.0,WORD,the,The story is correct.,llama_small,p2,2946.98
+T018,4,28,field,,,,,,llama_small,p2,2946.98
+T019,1,1,The Atlanta Hawks ( 59 - 19 ),1.0,8.0,NUMBER,59-19,"The story says 59-19, but the JSON says 59-19",llama_small,p2,2946.98
+T019,1,2,defeated the Brooklyn Nets ( 35 - 42 ),,,NUMBER,35-42,"The story says 35-42, but the JSON says 36-42",llama_small,p2,2946.98
+T019,1,3,114 - 111,18.0,20.0,NUMBER,114-111,"The story says 114-111, but the JSON says 114-111",llama_small,p2,2946.98
+T019,1,4,on Wednesday,,,WORD,Wednesday,"The story says on Wednesday, but the JSON says Wednesday",llama_small,p2,2946.98
+T019,1,5,in Brooklyn,,,WORD,Brooklyn,"The story says in Brooklyn, but the JSON says Brooklyn",llama_small,p2,2946.98
+T019,2,6,After a big fourth quarter,,,WORD,The JSON does not mention a big fourth quarter,"The story says a big fourth quarter, but the JSON does not mention it",llama_small,p2,2946.98
+T019,3,7,Horford led the way for the Hawks,,,NAME,Horford,"The story says Horford led the way for the Hawks, but the JSON says Horford",llama_small,p2,2946.98
+T019,3,8,posting 24 points,,,NUMBER,24,"The story says 24 points, but the JSON says 24 points",llama_small,p2,2946.98
+T019,3,9,"(11 - 20 FG , 1 - 1 3Pt)",,,NUMBER,"11-20 FG, 1-1 3Pt","The story says 11-20 FG, 1-1 3Pt, but the JSON says 11-20 FG, 1-1 3Pt",llama_small,p2,2946.98
+T019,3,10,seven rebounds,68.0,69.0,NUMBER,7,"The story says seven rebounds, but the JSON says 7 rebounds",llama_small,p2,2946.98
+T019,3,11,and,43.0,43.0,WORD,and,"The story says and, but the JSON says and",llama_small,p2,2946.98
+T019,3,12,four assists,71.0,72.0,NUMBER,4,"The story says four assists, but the JSON says 4 assists",llama_small,p2,2946.98
+T019,4,13,Teague recorded a double-double,,,NAME,Teague,"The story says Teague recorded a double-double, but the JSON says Teague",llama_small,p2,2946.98
+T019,4,14,in the winning effort,,,WORD,The JSON does not mention a winning effort,"The story says in the winning effort, but the JSON does not mention it",llama_small,p2,2946.98
+T019,4,15,of 15 points,,,NUMBER,15,"The story says 15 points, but the JSON says 15 points",llama_small,p2,2946.98
+T019,4,16,"(4 - 11 FG , 7 - 11 FT)",,,NUMBER,"4-11 FG, 7-11 FT","The story says 4-11 FG, 7-11 FT, but the JSON says 4-11 FG, 7-11 FT",llama_small,p2,2946.98
+T019,4,17,12 assists,,,NUMBER,12,"The story says 12 assists, but the JSON says 12 assists",llama_small,p2,2946.98
+T019,4,18,six rebounds,,,NUMBER,6,"The story says six rebounds, but the JSON says 6 rebounds",llama_small,p2,2946.98
+T019,4,19,and,43.0,43.0,WORD,and,"The story says and, but the JSON says and",llama_small,p2,2946.98
+T019,4,20,four steals,,,NUMBER,4,"The story says four steals, but the JSON says 4 steals",llama_small,p2,2946.98
+T019,5,21,DeMarre Carroll was the other Atlanta starter,,,NAME,DeMarre Carroll,"The story says DeMarre Carroll was the other Atlanta starter, but the JSON says DeMarre Carroll",llama_small,p2,2946.98
+T019,5,22,to score in double figures,,,WORD,The JSON does not mention double figures,"The story says to score in double figures, but the JSON does not mention it",llama_small,p2,2946.98
+T019,5,23,finishing with,,,,,,llama_small,p2,2946.98
+T020,1,1,Charlotte Hornets ( 39 - 29 ),2.0,8.0,NUMBER,39-29,"The story says the Hornets' record is (39-29), but the JSON says the Heat's record is (39-29)",llama_small,p2,2946.98
+T020,1,2,Miami Heat ( 39 - 29 ),11.0,17.0,NUMBER,39-29,"The story says the Heat's record is (39-29), but the JSON says the Heat's record is (39-29)",llama_small,p2,2946.98
+T020,1,3,"American Airlines Arena ,",,,NAME,AmericanAirlines Arena,"The story says American Airlines Arena, but the JSON says AmericanAirlines Arena",llama_small,p2,2946.98
+T020,1,4,109 -,18.0,19.0,NUMBER,106,"The story says the final score is 109-106, but the JSON says the final score is 106-109",llama_small,p2,2946.98
+T020,1,5,Thursday,,,WORD,03_17_16,"The story says the game was played on Thursday, but the JSON says the game was played on 03_17_16",llama_small,p2,2946.98
+T020,2,6,45 -,,,NUMBER,45-30,"The story says the Heat led 45-30, but the JSON says the Heat led 45-30",llama_small,p2,2946.98
+T020,2,7,halfway through the second quarter,,,WORD,halfway through the second quarter,"The story says the Heat led 45-30 halfway through the second quarter, which is correct",llama_small,p2,2946.98
+T020,3,8,two-point,,,WORD,two-point lead,"The story says the Hornets had a two-point lead, which is correct",llama_small,p2,2946.98
+T020,4,9,larger than eight,,,WORD,larger than eight points,"The story says the Hornets never held a lead larger than eight, which is correct",llama_small,p2,2946.98
+T020,5,10,two points,,,NUMBER,two points,"The story says the Heat pulled within two points, which is correct",llama_small,p2,2946.98
+T020,5,11,5:22,,,NUMBER,5:22,"The story says the Heat pulled within two points with 5:22 to go, which is correct",llama_small,p2,2946.98
+T020,5,12,one,,,NUMBER,one,"The story says the Heat pulled within one point, which is correct",llama_small,p2,2946.98
+T020,5,13,Dwyane Wade layup,,,NAME,Dwyane Wade layup,"The story says Dwyane Wade layup, which is correct",llama_small,p2,2946.98
+T020,5,14,11 seconds,,,NUMBER,11 seconds,"The story says the layup was with 11 seconds to go, which is correct",llama_small,p2,2946.98
+T020,6,15,three-pointer,,,WORD,three-pointer with 2 seconds,"The story says Wade's three-pointer with 2 seconds went begging, which is correct",llama_small,p2,2946.98
+T020,6,16,2 seconds,,,NUMBER,2 seconds,"The story says Wade's three-pointer with 2 seconds went begging, which is correct",llama_small,p2,2946.98
+T020,7,17,21 points,,,NUMBER,21 points,"The story says Kemba Walker and Al Jefferson led the Hornets with 21 points apiece, which is correct",llama_small,p2,2946.98
+T020,7,18,"7-18 FG , 4-9 3PT",,,NAME,"7-18 FG, 4-9 3PT","The story says Kemba Walker (7-18 FG, 4-9 3PT), which is correct",llama_small,p2,2946.98
+T020,7,19,10-16 FG,,,NAME,10-16 FG,"The story says Al Jefferson (10-16 FG), which is correct",llama_small,p2,2946.98
+T020,8,20,seven assists,143.0,144.0,WORD,seven assists,"The story says Walker added seven assists, which is correct",llama_small,p2,2946.98
+T020,8,21,seven rebounds,212.0,213.0,WORD,seven rebounds,"The story says Walker added seven rebounds, which is correct",llama_small,p2,2946.98
+T020,9,22,10 rebounds,,,NUMBER,10 rebounds,"The story says Jefferson grabbed 10 rebounds, which is correct",llama_small,p2,2946.98
+T020,9,23,second double-double,,,WORD,second double-double,"The story says Jefferson grabbed 10 rebounds for his second double-double, which is correct",llama_small,p2,2946.98
+T020,10,24,19 points,120.0,121.0,,,,llama_small,p2,2946.98
+T021,1,1,Portland Trail Blazers ( 6 - 3 ),,,NAME,Trail Blazers (7-3),"The story says the Blazers are 6-3, but the JSON says they are 7-3.",llama_small,p2,2946.98
+T021,1,2,6 - 3,,,NUMBER,7-3,"The story says the Blazers are 6-3, but the JSON says they are 7-3.",llama_small,p2,2946.98
+T021,1,3,defeated the Brooklyn Nets ( 4 - 4 ),,,NAME,Nets (4-5),"The story says the Nets are 4-4, but the JSON says they are 4-5.",llama_small,p2,2946.98
+T021,1,4,4 - 4,,,NUMBER,4-5,"The story says the Nets are 4-4, but the JSON says they are 4-5.",llama_small,p2,2946.98
+T021,1,5,97 - 87,19.0,21.0,NUMBER,97-87,"The story says the Blazers won 97-87, which is correct.",llama_small,p2,2946.98
+T021,2,6,four straight games,28.0,30.0,WORD,four straight games,"The story says the Blazers have won four straight games, which is correct.",llama_small,p2,2946.98
+T021,2,7,and they earned their latest win,,,WORD,and they earned their latest win,"The story says the Blazers earned their latest win, which is correct.",llama_small,p2,2946.98
+T021,2,8,with LaMarcus Aldridge ( illness ),,,NAME,LaMarcus Aldridge (illness),"The story says LaMarcus Aldridge was out with illness, which is correct.",llama_small,p2,2946.98
+T021,2,9,and Nicolas Batum ( knee ),,,NAME,Nicolas Batum (knee),"The story says Nicolas Batum was out with knee injury, which is correct.",llama_small,p2,2946.98
+T021,3,10,Allen Crabbe has been filling in,,,NAME,Allen Crabbe has been filling in,"The story says Allen Crabbe has been filling in, which is correct.",llama_small,p2,2946.98
+T021,3,11,as the starting small forward,,,WORD,as the starting small forward,"The story says Allen Crabbe has been filling in as the starting small forward, which is correct.",llama_small,p2,2946.98
+T021,3,12,while Batum has been out,,,NAME,Batum has been out,"The story says Nicolas Batum has been out, which is correct.",llama_small,p2,2946.98
+T021,3,13,the last three games,,,WORD,the last three games,"The story says Batum has been out the last three games, which is correct.",llama_small,p2,2946.98
+T021,4,14,Leonard pulled down 12 rebounds,,,NAME,Meyers Leonard pulled down 12 rebounds,"The story says Meyers Leonard pulled down 12 rebounds, which is correct.",llama_small,p2,2946.98
+T021,4,15,and showed off his new three-point shot,,,WORD,and showed off his new three-point shot,"The story says Meyers Leonard showed off his new three-point shot, which is correct.",llama_small,p2,2946.98
+T021,4,16,converting 1-of-3 attempts,,,WORD,converting 1-of-3 attempts,"The story says Meyers Leonard converted 1-of-3 attempts, which is correct.",llama_small,p2,2946.98
+T021,5,17,The Trail Blazers have two more games,,,NAME,The Trail Blazers have two more games,"The story says the Blazers have two more games, which is correct.",llama_small,p2,2946.98
+T021,5,18,on their homestand,,,WORD,on their homestand,"The story says the Blazers have two more games on their homestand, which is correct.",llama_small,p2,2946.98
+T021,6,19,with the next coming against,,,WORD,with the next coming against,"The story says the Blazers have two more games with the next coming against, which is correct.",llama_small,p2,2946.98
+T021,6,20,the New Orleans Pelicans on Monday,,,NAME,New Orleans Pelicans on Monday,"The story says the Blazers will play the New Orleans Pelicans on Monday, which is correct.",llama_small,p2,2946.98
+T021,7,21,Brooklyn dropped all three games,,,,,,llama_small,p2,2946.98
+T022,1,1,San Antonio Spurs ( 26 - 16 ),2.0,9.0,NAME,San Antonio Spurs (26-16),"The story has the Spurs' record as (26-16), but the JSON has it as (26-16)",llama_small,p2,2946.98
+T022,1,2,defeated the Utah Jazz ( 14 - 27 ),10.0,18.0,NAME,Utah Jazz (14-27),"The story has the Jazz's record as (14-27), but the JSON has it as (14-27)",llama_small,p2,2946.98
+T022,1,3,89 - 69,19.0,21.0,NUMBER,89,"The story has the Spurs' score as 89-69, but the JSON has it as 89",llama_small,p2,2946.98
+T022,1,4,on Sunday,,,WORD,on the day of the game,"The story says the game was on Sunday, but the JSON does not specify the day of the week",llama_small,p2,2946.98
+T022,1,5,at the AT & T Center,,,NAME,at the AT&T Center,"The story has the stadium name as AT&T Center, but the JSON has it as AT & T Center",llama_small,p2,2946.98
+T022,1,6,in San Antonio .,,,NAME,in San Antonio,"The story has the city as San Antonio, but the JSON does not specify the city",llama_small,p2,2946.98
+T022,2,7,both teams struggled from the field,,,WORD,"both teams struggled from the field, but the Spurs shot 39% and the Jazz shot 33%","The story says both teams struggled from the field, but the JSON provides the actual shooting percentages",llama_small,p2,2946.98
+T022,2,8,The Spurs went 39 percent from the floor,,,NUMBER,39%,"The story has the Spurs' shooting percentage as 39 percent, but the JSON has it as 39%",llama_small,p2,2946.98
+T022,2,9,and 47 percent from the three- point line,,,NUMBER,47%,"The story has the Spurs' three-point shooting percentage as 47 percent, but the JSON has it as 47%",llama_small,p2,2946.98
+T022,2,10,while the Jazz went just 33 percent from the field,,,NUMBER,33%,"The story has the Jazz's shooting percentage as 33 percent, but the JSON has it as 33%",llama_small,p2,2946.98
+T022,2,11,and 30 percent from the three- point line,,,NUMBER,30%,"The story has the Jazz's three-point shooting percentage as 30 percent, but the JSON has it as 30%",llama_small,p2,2946.98
+T022,3,12,The Spurs were able to take the advantage from the free throw line,,,WORD,"The Spurs made 19-of-23 free throws, while the Jazz made 10-of-16","The story says the Spurs took the advantage from the free throw line, but the JSON provides the actual free throw percentages",llama_small,p2,2946.98
+T022,3,13,as well,,,WORD,by making 19-of-23 free throws,"The story says the Spurs took the advantage from the free throw line as well, but the JSON only provides the free throw percentages",llama_small,p2,2946.98
+T022,3,14,converting on 19- of- 23 attempts,,,NUMBER,19-of-23,"The story has the Spurs' free throw attempts as 19-of-23, but the JSON has it as 19-of-23",llama_small,p2,2946.98
+T022,3,15,while the Jazz made only 10- of- 16 attempts,,,NUMBER,10-of-16,"The story has the Jazz's free throw attempts as 10-of-16, but the JSON has it as 10-of-16",llama_small,p2,2946.98
+T022,4,16,The Jazz also struggled with turnovers,,,WORD,The Jazz committed 15 turnovers,"The story says the Jazz struggled with turnovers, but the JSON provides the actual number of turnovers",llama_small,p2,2946.98
+T022,4,17,as they committed 15 throughout the game,,,NUMBER,15,"The story has the Jazz's turnovers as 15 throughout the game, but the JSON has it as 15",llama_small,p2,2946.98
+T022,5,18,The Spurs were led by Tiago Splitter,,,NAME,Tiago Splitter,"The story has the player's name as Tiago Splitter, but the JSON has it as Tiago Splitter",llama_small,p2,2946.98
+T022,5,19,who finished with 14 points,,,,,,llama_small,p2,2946.98
+T023,1,1,Golden State Warriors ( 20 - 2 ),2.0,9.0,NAME,Dallas,"The story says the Golden State Warriors, but the JSON says the Mavericks are the home team.",llama_small,p2,2946.98
+T023,1,2,20 - 2,6.0,8.0,NUMBER,17,"The story says the Warriors are 20-2, but the JSON says the Mavericks are 17-8.",llama_small,p2,2946.98
+T023,1,3,105 - 98,19.0,21.0,NUMBER,98,"The story says the Warriors won 105-98, but the JSON says the Mavericks won 98-105.",llama_small,p2,2946.98
+T023,2,4,Andrew Bogut,,,NAME,Draymond Green,"The story says Andrew Bogut was sidelined, but the JSON says Draymond Green was the one who played.",llama_small,p2,2946.98
+T023,3,5,29,143.0,143.0,NUMBER,25,"The story says Stephen Curry scored 29 points, but the JSON says he scored 25 points.",llama_small,p2,2946.98
+T023,4,6,20 - plus,,,NUMBER,20,"The story says Draymond Green and Klay Thompson both finished with 20-plus points, but the JSON says they both finished with 20 points.",llama_small,p2,2946.98
+T023,5,7,45 points and 21 rebounds,171.0,175.0,NUMBER,23,"The story says Stephen Curry combined for 45 points and 21 rebounds over his last two games, but the JSON says he combined for 23 points and 21 rebounds.",llama_small,p2,2946.98
+T023,6,8,13,199.0,199.0,NUMBER,13,"The story says Richard Jefferson finished with 13 points, which is correct.",llama_small,p2,2946.98
+T023,6,9,13 rebounds,218.0,219.0,NUMBER,12,"The story says Richard Jefferson finished with 13 rebounds, but the JSON says he finished with 12 rebounds.",llama_small,p2,2946.98
+T023,7,10,12,241.0,241.0,NUMBER,9,"The story says Harrison Barnes finished with 12 points, but the JSON says he finished with 9 points.",llama_small,p2,2946.98
+T023,7,11,nine rebounds,255.0,256.0,NUMBER,6,"The story says Harrison Barnes finished with 9 rebounds, but the JSON says he finished with 6 rebounds.",llama_small,p2,2946.98
+T023,9,12,Portland Trail Blazers,270.0,272.0,NAME,Pelicans,"The story says the Warriors' next game will be against the Portland Trail Blazers, but the JSON does not mention the Trail Blazers.",llama_small,p2,2946.98
+T023,9,13,Portland Trail Blazers,270.0,272.0,NAME,Warriors,"The story says the Mavericks will be at home against the Portland Trail Blazers, but the JSON says the Mavericks will be at home against the Warriors.",llama_small,p2,2946.98
+T023,9,14,Friday,289.0,289.0,WORD,Sunday,"The story says the Mavericks will be at home against the Trail Blazers on Friday, but the JSON does not mention the day of the game.",llama_small,p2,2946.98
+T024,1,1,Oklahoma City Thunder ( 18 - 19 ),2.0,9.0,NUMBER,18-19,"The story says the Thunder's record is (18-19), but the JSON says it's 18-19.",llama_small,p2,2946.98
+T024,1,2,defeated the Utah Jazz ( 13 - 24 ),10.0,18.0,NUMBER,13-24,"The story says the Jazz's record is (13-24), but the JSON says it's 13-24.",llama_small,p2,2946.98
+T024,1,3,99 - 94,19.0,21.0,NUMBER,99-94,"The story says the final score was 99-94, but the JSON says the Thunder scored 99 points and the Jazz scored 94 points.",llama_small,p2,2946.98
+T024,1,4,on Wednesday,22.0,23.0,WORD,on Friday,"The story says the game was on Wednesday, but the JSON says it was on Friday.",llama_small,p2,2946.98
+T024,1,5,at Chesapeake Energy Arena,24.0,27.0,NAME,at Chesapeake Energy Arena in Oklahoma City,"The story says the game was at Chesapeake Energy Arena, but the JSON says it was at Chesapeake Energy Arena in Oklahoma City.",llama_small,p2,2946.98
+T024,2,6,out - scoring the Jazz,44.0,48.0,WORD,out-scoring the Jazz 27-27,"The story says the Thunder out-scoring the Jazz, but the JSON says the Thunder out-scored the Jazz 27-27.",llama_small,p2,2946.98
+T024,2,7,27,49.0,49.0,NUMBER,27,"The story says the Thunder out-scored the Jazz 27-27, but the JSON says the Thunder out-scored the Jazz 27-27.",llama_small,p2,2946.98
+T024,3,8,46,69.0,69.0,NUMBER,46,"The story says the Jazz shot 46 percent from the field, but the JSON says the Thunder shot 46 percent from the field.",llama_small,p2,2946.98
+T024,3,9,33,75.0,75.0,NUMBER,33,"The story says the Jazz shot 33 percent from the three-point line, but the JSON says the Thunder shot 33 percent from the three-point line.",llama_small,p2,2946.98
+T024,3,10,49,88.0,88.0,NUMBER,49,"The story says the Thunder shot 49 percent from the floor, but the JSON says the Thunder shot 46 percent from the floor.",llama_small,p2,2946.98
+T024,3,11,33,75.0,75.0,NUMBER,33,"The story says the Thunder shot 33 percent from beyond the arc, but the JSON says the Jazz shot 33 percent from beyond the arc.",llama_small,p2,2946.98
+T024,4,12,32,141.0,141.0,NUMBER,32,"The story says Durant scored 32 points, but the JSON says Durant scored 32 points.",llama_small,p2,2946.98
+T024,4,13,5,,,NUMBER,5,"The story says Durant added five assists and five rebounds, but the JSON says Durant added five assists and five rebounds.",llama_small,p2,2946.98
+T024,5,14,53,169.0,169.0,NUMBER,53,"The story says Durant combined for 53 points and 20 rebounds over his last two games, but the JSON does not provide this information.",llama_small,p2,2946.98
+T024,6,15,20,172.0,172.0,NUMBER,20,"The story says Burke finished with 20 points, but the JSON says Burke finished with 20 points.",llama_small,p2,2946.98
+T024,6,16,5,,,NUMBER,5,"The story says Burke had five assists, but the JSON says Burke had five assists.",llama_small,p2,2946.98
+T024,7,17,15,202.0,202.0,NUMBER,15,"The story says Waiters finished with 15 points, but the JSON says Waiters finished with 15 points.",llama_small,p2,2946.98
+T024,7,18,4,207.0,207.0,NUMBER,4,"The story says Waiters had four steals, but the JSON says Waiters had four steals.",llama_small,p2,2946.98
+T024,8,19,25,,,NUMBER,25,"The story says Westbrook had 25 points, but the JSON says Westbrook had 25 points.",llama_small,p2,2946.98
+T024,8,20,12,,,NUMBER,12,"The story says Westbrook had 12 assists, but the JSON says Westbrook had 12 assists.",llama_small,p2,2946.98
+T024,9,21,32,141.0,141.0,NUMBER,32,"The story says Durant scored 32 points, but the JSON says Durant scored 32 points.",llama_small,p2,2946.98
+T024,9,22,6,,,NUMBER,6,"The story says Durant added six assists, but the JSON says Durant added six assists.",llama_small,p2,2946.98
+T024,9,23,5,,,NUMBER,5,"The story says Durant added five rebounds, but the JSON says Durant added five rebounds.",llama_small,p2,2946.98
+T024,10,24,12,,,,,,llama_small,p2,2946.98
+T025,1,1,Phoenix Suns ( 19 - 16 ),2.0,8.0,NUMBER,19-16,"The story says the Suns' record is (19-16), but the JSON says 19-16.",llama_small,p2,2946.98
+T025,1,2,Philadelphia 76ers ( 4 - 27 ),11.0,17.0,NUMBER,4-27,"The story says the 76ers' record is (4-27), but the JSON says 4-27.",llama_small,p2,2946.98
+T025,1,3,112 - 96,18.0,20.0,NUMBER,112-96,"The story says the final score is 112-96, but the JSON says 112-96.",llama_small,p2,2946.98
+T025,1,4,Friday the US Airways Center in Phoenix,,,NAME,Friday the US Airways Center in Phoenix,"The story says the game was on Sunday, but the JSON says Friday.",llama_small,p2,2946.98
+T025,2,5,out- scoring the Sixers 55 - 37,,,NUMBER,55-37,"The story says the Suns out-scored the Sixers 55-37, but the JSON says 55-37.",llama_small,p2,2946.98
+T025,3,6,50 percent from the field and 44 percent from the three- point line,,,NUMBER,50% from the field and 44% from the three-point line,"The story says the Suns shot 50 percent from the field and 44 percent from the three-point line, but the JSON says 50% from the field and 44% from the three-point line.",llama_small,p2,2946.98
+T025,3,7,43 percent from the field and only 27 percent from beyond the arc,,,NUMBER,43% from the field and 27% from beyond the arc,"The story says the Sixers shot 43 percent from the field and 27 percent from beyond the arc, but the JSON says 43% from the field and 27% from beyond the arc.",llama_small,p2,2946.98
+T025,4,8,48 - 41,,,NUMBER,48-41,"The story says the Suns out-rebounded the Sixers 48-41, but the JSON says 48-41.",llama_small,p2,2946.98
+T025,5,9,Markieff Morris,,,NAME,Markieff Morris,"The story says Markieff Morris, but the JSON says Markieff Morris.",llama_small,p2,2946.98
+T025,5,10,Gerald Green,111.0,112.0,NAME,Gerald Green,"The story says Gerald Green, but the JSON says Gerald Green.",llama_small,p2,2946.98
+T025,6,11,7- for - 12,,,NUMBER,7-for-12,"The story says Markieff Morris went 7-for-12, but the JSON says 7-for-12.",llama_small,p2,2946.98
+T025,6,12,3- for - 4,,,NUMBER,3-for-4,"The story says Markieff Morris went 3-for-4, but the JSON says 3-for-4.",llama_small,p2,2946.98
+T025,6,13,21,,,NUMBER,21,"The story says Markieff Morris scored 21 points, but the JSON says 21.",llama_small,p2,2946.98
+T025,7,14,21,,,NUMBER,21,"The story says Gerald Green played 21 minutes, but the JSON says 21.",llama_small,p2,2946.98
+T025,8,15,6- for - 14,,,NUMBER,6-for-14,"The story says Eric Bledsoe went 6-for-14, but the JSON says 6-for-14.",llama_small,p2,2946.98
+T025,8,16,3- for - 5,,,NUMBER,3-for-5,"The story says Eric Bledsoe went 3-for-5, but the JSON says 3-for-5.",llama_small,p2,2946.98
+T025,8,17,17,200.0,200.0,NUMBER,17,"The story says Eric Bledsoe scored 17 points, but the JSON says 17.",llama_small,p2,2946.98
+T025,9,18,22 points and 7 assists,,,NUMBER,22 points and 7 assists,"The story says Eric Bledsoe averaged 22 points and 7 assists, but the JSON says 22 points and 7 assists.",llama_small,p2,2946.98
+T025,10,19,10 points and 10 rebounds,,,NUMBER,10 points and 10 rebounds,"The story says Goran Dragic had a double-double, but the JSON says 10 points and 10 rebounds.",llama_small,p2,2946.98
+T025,11,20,Tony Wroten,108.0,109.0,NAME,Tony Wroten,"The story says Tony Wroten, but the JSON says Tony Wroten.",llama_small,p2,2946.98
+T025,12,21,10- for - 19,,,,,,llama_small,p2,2946.98
+T026,1,1,Detroit Pistons,2.0,3.0,NAME,Knicks,"The story says the Pistons won, but the JSON says the Knicks won.",llama_small,p2,2946.98
+T026,1,2,(2 -3),,,NUMBER,1-3,"The story says the Pistons are 2-3, but the JSON says they are 1-3.",llama_small,p2,2946.98
+T026,1,3,98 -95,,,NUMBER,98-95,"The story says the Pistons won 98-95, but the JSON confirms this.",llama_small,p2,2946.98
+T026,1,4,Wednesday,23.0,23.0,WORD,Wednesday night,"The story says the game was on Wednesday, but the JSON says it was on Wednesday night.",llama_small,p2,2946.98
+T026,2,5,Detroit,2.0,2.0,NAME,New York,"The story says the game was in Detroit, but the JSON says it was in New York.",llama_small,p2,2946.98
+T026,3,6,37,70.0,70.0,NUMBER,37,"The story says the Pistons shot 37 percent from the field, and the JSON confirms this.",llama_small,p2,2946.98
+T026,3,7,45,76.0,76.0,NUMBER,45,"The story says the Knicks shot 45 percent from three, and the JSON confirms this.",llama_small,p2,2946.98
+T026,3,8,43,89.0,89.0,NUMBER,43,"The story says the Knicks shot 43 percent from the floor, and the JSON confirms this.",llama_small,p2,2946.98
+T026,4,9,Kentavious Caldwell-Pope,107.0,108.0,NAME,Kentavious Caldwell-Pope,"The story says Kentavious Caldwell-Pope, but the JSON has the full name.",llama_small,p2,2946.98
+T026,4,10,20,52.0,52.0,NUMBER,20,"The story says Kentavious Caldwell-Pope finished with a team-high of 20 points, and the JSON confirms this.",llama_small,p2,2946.98
+T026,4,11,8-14,,,NUMBER,8-15,"The story says Kentavious Caldwell-Pope went 8-14 from the field, but the JSON says 8-15.",llama_small,p2,2946.98
+T026,4,12,4-7,,,NUMBER,4-7,"The story says Kentavious Caldwell-Pope went 4-7 from three, and the JSON confirms this.",llama_small,p2,2946.98
+T026,4,13,0-2,,,NUMBER,0-2,"The story says Kentavious Caldwell-Pope went 0-2 from the free throw line, and the JSON confirms this.",llama_small,p2,2946.98
+T026,4,14,two,140.0,140.0,NUMBER,2,"The story says Kentavious Caldwell-Pope added two rebounds, and the JSON confirms this.",llama_small,p2,2946.98
+T026,4,15,two,140.0,140.0,NUMBER,2,"The story says Kentavious Caldwell-Pope added two blocked shots, and the JSON confirms this.",llama_small,p2,2946.98
+T026,5,16,Tim Hardaway,174.0,175.0,NAME,Tim Hardaway Jr,"The story says Tim Hardaway, but the JSON has the full name.",llama_small,p2,2946.98
+T026,5,17,8-15,,,NUMBER,8-15,"The story says Tim Hardaway Jr went 8-15 from the field, and the JSON confirms this.",llama_small,p2,2946.98
+T026,5,18,4-7,,,NUMBER,4-7,"The story says Tim Hardaway Jr went 4-7 from three, and the JSON confirms this.",llama_small,p2,2946.98
+T026,5,19,three,80.0,80.0,NUMBER,3,"The story says Tim Hardaway Jr added three assists, and the JSON confirms this.",llama_small,p2,2946.98
+T026,6,20,Iman Shumpert,228.0,229.0,NAME,Iman Shumpert,"The story says Iman, but the JSON has the full name.",llama_small,p2,2946.98
+T026,6,21,15,188.0,188.0,NUMBER,15,"The story says Iman Shumpert had 15 points, and the JSON confirms this.",llama_small,p2,2946.98
+T026,6,22,5-13,,,NUMBER,5-13,"The story says Iman Shumpert went 5-13 from the field, and the JSON confirms this.",llama_small,p2,2946.98
+T026,6,23,4-6,,,NUMBER,4-6,"The story says Iman Shumpert went 4-6 from three, and the JSON confirms this.",llama_small,p2,2946.98
+T026,6,24,1-2,,,NUMBER,1-2,"The story says Iman Shumpert went 1-2 from the free throw line, and the JSON confirms this.",llama_small,p2,2946.98
+T026,6,25,six,250.0,250.0,,,,llama_small,p2,2946.98
+T027,1,1,The Houston Rockets defeated the New Orleans Pelicans,1.0,8.0,NAME,Houston Rockets,The story misspells the team name as 'New Orleans Pelicans' instead of 'Pelicans' in the JSON.,llama_small,p2,2946.98
+T027,2,2,The Rockets 20 - 7,,,NUMBER,20-7,The story incorrectly writes the team's record as '20-7' instead of '20-7' in the JSON.,llama_small,p2,2946.98
+T027,3,3,The Pelicans 9 - 19,,,NUMBER,9-19,The story incorrectly writes the team's record as '9-19' instead of '9-19' in the JSON.,llama_small,p2,2946.98
+T027,4,4,New Orleans were able to pierce Houston's armor Wednesday,,,NAME,New Orleans,The story incorrectly writes the team name as 'New Orleans' instead of 'Pelicans' in the JSON.,llama_small,p2,2946.98
+T027,5,5,"Houston was led by James Harden, who posted a 29- point, 11- assist double- double",,,NUMBER,"29 points, 11 assists, 11 rebounds","The story incorrectly writes the triple-double as '29-point, 11-assist double-double' instead of '29 points, 11 assists, 11 rebounds' in the JSON.",llama_small,p2,2946.98
+T027,6,6,"Gordon Davis followed with 19 points, five rebounds, three assists and a block",,,NUMBER,"19 points, 5 rebounds, 3 assists, 1 block","The story incorrectly writes the stats as '19 points, five rebounds, three assists and a block' instead of '19 points, 5 rebounds, 3 assists, 1 block' in the JSON.",llama_small,p2,2946.98
+T027,7,7,"Trevor Ariza was next with a near double- double of 20 points, five rebounds, an assist and three steals",,,NUMBER,"20 points, 5 rebounds, 1 assist, 3 steals","The story incorrectly writes the stats as '20 points, five rebounds, an assist and three steals' instead of '20 points, 5 rebounds, 1 assist, 3 steals' in the JSON.",llama_small,p2,2946.98
+T027,8,8,"Buddy Hield was next with a bench- leading 11 points, which he supplemented with five rebounds, an assist and a block",,,NUMBER,"11 points, 5 rebounds, 1 assist, 1 block","The story incorrectly writes the stats as '11 points, which he supplemented with five rebounds, an assist and a block' instead of '11 points, 5 rebounds, 1 assist, 1 block' in the JSON.",llama_small,p2,2946.98
+T027,9,9,"Jrue Holiday contributed 11 points, five rebounds, an assist and a block",,,NUMBER,"11 points, 5 rebounds, 1 assist, 1 block","The story incorrectly writes the stats as '11 points, five rebounds, an assist and a block' instead of '11 points, 5 rebounds, 1 assist, 1 block' in the JSON.",llama_small,p2,2946.98
+T027,10,10,"Alexis Ajinca paced the reserves with 20 points, five rebounds, an assist and a trio of steals",,,NUMBER,"20 points, 5 rebounds, 1 assist, 3 steals","The story incorrectly writes the stats as '20 points, five rebounds, an assist and a trio of steals' instead of '20 points, 5 rebounds, 1 assist, 3 steals' in the JSON.",llama_small,p2,2946.98
+T027,11,11,"Buddy Hield and Jrue Holiday supplied a pair of 11- point efforts, with the former adding five rebounds and one assist, and the latter supplying five rebounds, one assist and one block",,,NUMBER,"11 points, 5 rebounds, 1 assist, 1 block","The story incorrectly writes the stats as '11-point efforts, with the former adding five rebounds and one assist, and the latter supplying five rebounds, one assist and one block' instead of '11 points, 5 rebounds, 1 assist, 1 block' in the JSON.",llama_small,p2,2946.98
+T027,12,12,"Alexis Ajinca led the second unit with 20 points, five rebounds, one assist and three steals",,,NUMBER,"20 points, 5 rebounds, 1 assist, 3 steals","The story incorrectly writes the stats as '20 points, five rebounds, one assist and three steals' instead of '20 points, 5 rebounds, 1 assist, 3 steals' in the JSON.",llama_small,p2,2946.98
+T027,13,13,"Eric Gordon led the second unit with 29 points, one assist, one steal and one block",,,NUMBER,"29 points, 1 assist, 1 steal, 1 block","The story incorrectly writes the stats as '29 points, one assist, one steal and one block' instead of '29 points, 1 assist, 1 steal, 1 block' in the JSON.",llama_small,p2,2946.98
+T027,14,14,"Trevor Ariza supplied 20 points, five boards, one assist and three steals",,,,,,llama_small,p2,2946.98
+T028,1,1,The San Antonio Spurs defeated,1.0,5.0,NAME,Clippers,"The story says the Spurs defeated the Spurs, but the JSON says the Spurs defeated the Clippers.",llama_small,p2,2946.98
+T028,1,2,Spurs,4.0,4.0,NAME,Clippers,"The story says the Spurs defeated the Spurs, but the JSON says the Spurs defeated the Clippers.",llama_small,p2,2946.98
+T028,2,3,The Spurs 44 -,,,NUMBER,35,"The story says the Spurs have been eliminated from playoff contention, but the JSON says the Spurs have 35 wins.",llama_small,p2,2946.98
+T028,2,4,44,24.0,24.0,NUMBER,13,"The story says the Spurs have been eliminated from playoff contention, but the JSON says the Spurs have 13 losses.",llama_small,p2,2946.98
+T028,3,5,The Spurs 35 -,,,NUMBER,44,"The story says the Spurs have held on to the eighth seed in the Western Conference standings, but the JSON says the Spurs have 35 wins.",llama_small,p2,2946.98
+T028,3,6,35,39.0,39.0,NUMBER,13,"The story says the Spurs have held on to the eighth seed in the Western Conference standings, but the JSON says the Spurs have 13 losses.",llama_small,p2,2946.98
+T028,4,7,The Spurs battled back,,,WORD,The Spurs led the rest of the way.,"The story says the Spurs battled back, but the JSON says the Spurs led the rest of the way.",llama_small,p2,2946.98
+T028,5,8,Blake Griffin,124.0,125.0,NAME,Clippers,"The story says Blake Griffin was the high-point man for the Spurs, but the JSON says Blake Griffin was the high-point man for the Clippers.",llama_small,p2,2946.98
+T028,6,9,LaMarcus Aldridge,157.0,158.0,NAME,Clippers,"The story says LaMarcus Aldridge followed up with 15 points for the Spurs, but the JSON says LaMarcus Aldridge followed up with 15 points for the Clippers.",llama_small,p2,2946.98
+T028,7,10,Tony Parker,178.0,179.0,NAME,Clippers,"The story says Tony Parker chipped in 17 points for the Spurs, but the JSON says Tony Parker chipped in 17 points for the Clippers.",llama_small,p2,2946.98
+T028,8,11,Blake Griffin,124.0,125.0,NAME,Clippers,"The story says Blake Griffin led the way for the Spurs with 29 points, but the JSON says Blake Griffin led the way for the Clippers with 29 points.",llama_small,p2,2946.98
+T028,9,12,Austin Rivers,237.0,238.0,NAME,Clippers,"The story says Austin Rivers followed up with 23 points for the Spurs, but the JSON says Austin Rivers followed up with 23 points for the Clippers.",llama_small,p2,2946.98
+T028,10,13,Chris Paul,260.0,261.0,NAME,Clippers,"The story says Chris Paul added 17 points for the Spurs, but the JSON says Chris Paul added 17 points for the Clippers.",llama_small,p2,2946.98
+T028,11,14,The Clippers,,,NAME,Spurs,"The story says the Clippers only shot 44 percent, but the JSON says the Spurs only shot 44 percent.",llama_small,p2,2946.98
+T028,11,15,seven,,,NUMBER,three,"The story says the Clippers had just seven three-pointers, but the JSON says the Spurs had just seven three-pointers.",llama_small,p2,2946.98
+T028,11,16,three-pointers,,,WORD,three-pointers,"The story says the Clippers had just seven three-pointers, but the JSON says the Spurs had just seven three-pointers.",llama_small,p2,2946.98
+T029,1,1,Phoenix Suns ( 32 - 30 ),2.0,8.0,NUMBER,32-30,"The story says the Suns' record is (32-30), but the JSON says 32-30.",llama_small,p2,2946.98
+T029,1,2,Orlando Magic ( 19 - 43 ),11.0,17.0,NUMBER,19-43,"The story says the Magic's record is (19-43), but the JSON says 19-43.",llama_small,p2,2946.98
+T029,1,3,defeated the Orlando Magic,9.0,12.0,NAME,Orlando Magic,"The story says the Magic, but the JSON says Orlando Magic.",llama_small,p2,2946.98
+T029,1,4,on Wednesday,21.0,22.0,NOT_CHECKABLE,,"The story says the game was on Wednesday, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,2,5,Brandon Knight had his best game since being acquired in a deadline deal from the Milwaukee Bucks,,,NOT_CHECKABLE,,"The story says Brandon Knight had his best game since being acquired in a deadline deal from the Milwaukee Bucks, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,2,6,Knight finished Wednesday 's contest with 28 points,,,NUMBER,28,"The story says Knight finished with 28 points, but the JSON says 28.",llama_small,p2,2946.98
+T029,2,7,on 10 - of - 12 from the field,,,NUMBER,10-12,"The story says Knight finished with 10-of-12 from the field, but the JSON says 10-12.",llama_small,p2,2946.98
+T029,2,8,He also had seven assists and three steals,,,NUMBER,"7 assists, 3 steals","The story says Knight had 7 assists and 3 steals, but the JSON says 7 assists and 3 steals.",llama_small,p2,2946.98
+T029,3,9,Alex Len was available to play,,,NAME,Alex Len,"The story says Alex Len, but the JSON says Alex Len.",llama_small,p2,2946.98
+T029,3,10,as he was not suspended for his scuffle with Hassan Whiteside in Monday 's game with the Miami Heat,,,NOT_CHECKABLE,,"The story says Alex Len was not suspended for his scuffle with Hassan Whiteside in Monday's game with the Miami Heat, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,3,11,Len ended with two points,,,NUMBER,2,"The story says Len ended with 2 points, but the JSON says 2.",llama_small,p2,2946.98
+T029,3,12,and four rebounds,,,NUMBER,4,"The story says Len ended with 4 rebounds, but the JSON says 4.",llama_small,p2,2946.98
+T029,4,13,Victor Oladipo put on a show,,,NOT_CHECKABLE,,"The story says Victor Oladipo put on a show, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,4,14,but it wasn't enough to overcome an 11 - point deficit,,,NUMBER,11,"The story says an 11-point deficit, but the JSON says 11.",llama_small,p2,2946.98
+T029,4,15,in the fourth quarter,,,NOT_CHECKABLE,,"The story says the fourth quarter, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,5,16,He scored 17 of his 38 points,,,NUMBER,17,"The story says Oladipo scored 17 of his 38 points, but the JSON says 17.",llama_small,p2,2946.98
+T029,5,17,in the final period,,,NOT_CHECKABLE,,"The story says the final period, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,6,18,helping the Magic cut the Suns' lead to one point,,,NOT_CHECKABLE,,"The story says the Suns' lead, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,6,19,on two separate occasions,,,NOT_CHECKABLE,,"The story says two separate occasions, but this cannot be verified from the box score data.",llama_small,p2,2946.98
+T029,6,20,in the last minute of the game,,,,,,llama_small,p2,2946.98
+T030,1,1,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,2,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,3,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,4,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,5,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,6,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,7,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,8,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,9,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,10,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,11,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,12,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,13,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,14,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,15,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,16,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,17,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,18,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,19,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,20,12 - 9,5.0,7.0,NUMBER,12-9,"The story says the Grizzlies' record is (12-9), but the JSON says it is (12-9)",llama_small,p2,2946.98
+T030,1,21,Memphis Grizzlies ( 12 - 9 ),2.0,8.0,,,,llama_small,p2,2946.98

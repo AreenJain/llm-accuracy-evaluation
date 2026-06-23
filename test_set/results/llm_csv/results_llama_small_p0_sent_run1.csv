@@ -1,0 +1,138 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T001,4,1,"The Nets were the superior shooters in this game , going 49 percent from the field and 38 percent from the three - point line , while the Nets went just 45 percent from the floor and 38 percent from beyond the arc .",102.0,145.0,Number,The Kings were the superior shooters in this game,The statement is incorrect because the home team's field goal percentage is higher than the visiting team's.,llama_small,p0_sent,5115.54
+T001,7,1,his last four games,,,Context,his last three games,The statement 'his last four games' is incorrect because the Kings' last four games were not consecutive.,llama_small,p0_sent,5115.54
+T001,8,1,Ben McLemore,,,Name mistake,Brook Lopez,"The box score data shows that the only other Net to reach double figures in points was Brook Lopez, not Ben McLemore.",llama_small,p0_sent,5115.54
+T001,9,1,21 points and 12 rebounds,288.0,292.0,Not Checkable,,"The box score data only shows the player's performance in this one game, so we cannot verify the accuracy of the player's average points and rebounds in the previous games.",llama_small,p0_sent,5115.54
+T001,10,1,"The only other Net to reach double figures in points was Ben McLemore , who finished with 11 points ( 4 - 9 FG , 3 - 7 3Pt , 0 - 2 FT ) and two assists",294.0,331.0,Name,Brook Lopez,"Brook Lopez is the other Net to reach double figures in points, not Ben McLemore.",llama_small,p0_sent,5115.54
+T001,10,2,"The only other Net to reach double figures in points was Ben McLemore , who finished with <u>11</u> points ( 4 - 9 FG , 3 - 7 3Pt , 0 - 2 FT ) and two assists",,,Number,10,"The correct number of points is 10, not 11.",llama_small,p0_sent,5115.54
+T002,4,1,Wednesday,19.0,19.0,Name mistake,03_29_17,"The sentence incorrectly states the day of the week as 'Wednesday', when the actual date was 03_29_17.",llama_small,p0_sent,5115.54
+T002,5,1,Wednesday,19.0,19.0,Name mistake,03_29_17,"The sentence incorrectly states the day of the week as 'Wednesday', when the actual date was 03_29_17.",llama_small,p0_sent,5115.54
+T002,12,1,six,230.0,230.0,Number mistake,seven,"The box score data shows that DeMarcus Cousins had 6 assists, not 6.",llama_small,p0_sent,5115.54
+T002,14,1,17,298.0,298.0,Number,16,The number of rebounds DeMarcus Cousins accumulated is incorrect.,llama_small,p0_sent,5115.54
+T002,15,1,Wednesday,19.0,19.0,Name mistake,03/29/17,"The date of the game is actually 03/29/17, not Wednesday.",llama_small,p0_sent,5115.54
+T003,1,1,Wednesday,22.0,22.0,Context,Thursday,"The game was played in London and on Thursday, not in Orlando and on Wednesday.",llama_small,p0_sent,5115.54
+T003,1,2,Orlando,11.0,11.0,Context,London,"The game was played in London, not in Orlando.",llama_small,p0_sent,5115.54
+T003,1,3,on the same day,,,Context,in overtime,"The game was played in overtime, not on the same day.",llama_small,p0_sent,5115.54
+T003,4,1,41,92.0,92.0,Number,45,"The Magic shot 45% from the field, not 41%",llama_small,p0_sent,5115.54
+T003,5,1,18 10,,,Number,15,"The Magic committed 15 turnovers, not 10.",llama_small,p0_sent,5115.54
+T003,6,1,4 for 19,,,Number,19,"DeMar DeRozan's field goal attempts are actually 19 for 39, not 4 for 19.",llama_small,p0_sent,5115.54
+T003,7,1,25 points and 8 rebounds on the season,199.0,206.0,Not Checkable,,The box score data does not provide sufficient information to determine the player's season averages.,llama_small,p0_sent,5115.54
+T003,9,1,33 points and 14 rebounds,269.0,273.0,Number,17 points and 11 rebounds,The numbers mentioned in the sentence do not match the actual numbers for the player who achieved the double-double.,llama_small,p0_sent,5115.54
+T003,11,1,9 rebounds,,,Context,9 rebounds (total),"The sentence does not mention the other statistics that Valanciunas had, which could be considered a context mistake.",llama_small,p0_sent,5115.54
+T004,1,1,on Tuesday,,,Context,Wednesday,"The game was played on Wednesday, not Tuesday.",llama_small,p0_sent,5115.54
+T004,7,1,6 for - 13,,,Number,6,The number of field goals made by Wall is incorrect.,llama_small,p0_sent,5115.54
+T004,7,2,0 - 2,,,Number,0,The number of three-point field goals made by Wall is incorrect.,llama_small,p0_sent,5115.54
+T005,1,1,Monday,355.0,355.0,Name mistake,Saturday,"The game was played on Saturday, not Monday.",llama_small,p0_sent,5115.54
+T005,2,1,Tuesday,30.0,30.0,Name mistake,Monday,"The game was played on Monday, not Tuesday.",llama_small,p0_sent,5115.54
+T005,4,1,24 -20,,,Number,23-22,The home team's record is incorrect.,llama_small,p0_sent,5115.54
+T005,11,1,John Wall,167.0,168.0,Name mistake,Kemba Walker,"The player who led the way for Charlotte was actually Kemba Walker, not John Wall.",llama_small,p0_sent,5115.54
+T005,14,1,13,212.0,212.0,Number,8,The number of points Frank Kaminsky III had is incorrect.,llama_small,p0_sent,5115.54
+T006,1,1,The Memphis Grizzlies ( 50 - 21 ) defeated the Memphis Grizzlies ( 50 - 21 ) 103 - 82 .,1.0,21.0,Number,The Memphis Grizzlies (50-21) defeated the New York Knicks (14-57) 103-82.,"The home team and visiting team are the same, which is not possible in a basketball game.",llama_small,p0_sent,5115.54
+T006,2,1,12,42.0,42.0,Number,23,The number of points scored by Zach Randolph is incorrect.,llama_small,p0_sent,5115.54
+T006,5,1,Grizzlies shot 52 percent from the field and 58 percent from three - point range while the Grizzlies shot 52 percent from the field and 22 percent from beyond the arc,,,Name,Knicks,The word 'Grizzlies' should be 'Knicks' in the second part of the sentence.,llama_small,p0_sent,5115.54
+T006,10,1,52,95.0,95.0,Number,42,The Knicks shot 42 percent from the field.,llama_small,p0_sent,5115.54
+T007,2,1,the Nuggets were able to hold off the Nuggets,43.0,51.0,Number,Trail Blazers,"The sentence says the Nuggets were able to hold off the Nuggets, which is incorrect. The correct phrase should be the Trail Blazers.",llama_small,p0_sent,5115.54
+T007,3,1,12,15.0,15.0,Number,8,"The correct number of points scored by Kenneth Faried is 8, not 12.",llama_small,p0_sent,5115.54
+T007,8,1,"The Nuggets shot 43 percent from the field and 44 percent from long range , while the Nuggets shot 43 percent from the field and 44 percent from long range .",253.0,283.0,Number,"The Nuggets shot 43 percent from the field and 44 percent from long range, while the Trail Blazers shot 47 percent from the field and 38 percent from long range.","The sentence has a number mistake. The word 'Nuggets' should be marked as the team name, but it appears twice in the sentence. However, the mistake is in the fact that the sentence says 'The Nuggets shot 43 percent from the field and 44 percent from long range, while the Nuggets shot 43 percent from the field and 44 percent from long range.' which is a repetition of the same information.",llama_small,p0_sent,5115.54
+T007,12,1,43 percent,256.0,257.0,Number,43,"The correct percentage is 43, not 43 percent.",llama_small,p0_sent,5115.54
+T007,12,2,44 percent,262.0,263.0,Number,44,"The correct percentage is 44, not 44 percent.",llama_small,p0_sent,5115.54
+T008,4,1,52 42,,,Number,42-52,"The box score data shows that the Nets won the rebounding battle 42-52, not 52-42.",llama_small,p0_sent,5115.54
+T008,6,1,Brook Lopez,,,Context,Brooklyn Nets,"Brook Lopez played for the Brooklyn Nets, not the Indiana Pacers.",llama_small,p0_sent,5115.54
+T008,8,1,Andrea Bargnani was the only other starter in double figures as he amassed 12 points and five rebounds,,,Number,There were two starters in double figures: Andrea Bargnani and Brook Lopez.,"The sentence is incorrect because it states that Andrea Bargnani was the only other starter in double figures, when in fact there were two starters in double figures.",llama_small,p0_sent,5115.54
+T009,1,1,"The Minnesota Timberwolves defeated the host Minnesota Timberwolves , 115 - 113 , at Target Center on Saturday",1.0,18.0,Number,"The Minnesota Timberwolves defeated the host Heat, 115 - 113, at Target Center on Saturday.","The Minnesota Timberwolves played against themselves, which is not possible in a real basketball game.",llama_small,p0_sent,5115.54
+T009,3,1,31 22,,,Number,Timberwolves,"The Heat outscored the Timberwolves by a 31-22 margin, not the Heat.",llama_small,p0_sent,5115.54
+T009,6,1,Minnesota,2.0,2.0,Name mistake,Timberwolves,"The home team is actually the Timberwolves, not Minnesota.",llama_small,p0_sent,5115.54
+T009,15,1,Minnesota,2.0,2.0,Name mistake,Timberwolves,"The home team is the Timberwolves, not Minnesota.",llama_small,p0_sent,5115.54
+T010,1,1,Wednesday,22.0,22.0,Name mistake,Monday,"The game was played on Monday, not Wednesday.",llama_small,p0_sent,5115.54
+T010,1,2,25-35,,,Number mistake,25-31,"The Bucks' record is 25-31, not 25-35.",llama_small,p0_sent,5115.54
+T010,1,3,29-31,,,Number mistake,29-35,"The Rockets' record is 29-35, not 29-31.",llama_small,p0_sent,5115.54
+T010,3,1,17,64.0,64.0,Number,null,The number of turnovers forced by the home team and the visiting team cannot be the same.,llama_small,p0_sent,5115.54
+T010,3,2,17,64.0,64.0,Number,null,The number of turnovers forced by the home team and the visiting team cannot be the same.,llama_small,p0_sent,5115.54
+T010,9,1,five rebounds and five assists,245.0,249.0,Number,4 rebounds and 5 assists,The box score data shows that Jabari Parker had 4 rebounds and 5 assists.,llama_small,p0_sent,5115.54
+T010,10,1,54,267.0,267.0,Number,36,"The total points over two games is 36, not 54.",llama_small,p0_sent,5115.54
+T010,11,1,six,192.0,192.0,Number,eight,"The sentence says that Trevor Ariza finished with 20 points and six rebounds, but the box score data shows that he actually finished with 20 points and 8 rebounds.",llama_small,p0_sent,5115.54
+T011,1,1,Wednesday,18.0,18.0,Name mistake,Friday,"The game was played on Friday, not Wednesday.",llama_small,p0_sent,5115.54
+T011,3,1,"In fact, the Hawks led for the majority of the game, as the Cavaliers never led by more than seven points for the entirety of the second half.",,,Other,The Cavaliers led by more than seven points for the entirety of the second half.,"The box-score data shows that the Cavaliers led by more than seven points for the entirety of the second half, which contradicts the statement in the sentence.",llama_small,p0_sent,5115.54
+T011,6,1,Saturday,,,Name mistake,Friday,"The game was played on Friday, not Saturday.",llama_small,p0_sent,5115.54
+T011,7,1,11,159.0,159.0,Number,10,The number of points scored by Richard Jefferson and Channing Frye is incorrect.,llama_small,p0_sent,5115.54
+T012,2,1,50 38,,,Number,107-104,"The Raptors out-scored the Heat 107-104, not 50-38.",llama_small,p0_sent,5115.54
+T012,4,1,55,109.0,109.0,Context,,"The field goal percentage mentioned in the sentence is not the team's field goal percentage, but rather Lou Williams' shooting percentage.",llama_small,p0_sent,5115.54
+T012,14,1,21,423.0,423.0,Number,35,The number of minutes played by the player is incorrect.,llama_small,p0_sent,5115.54
+T013,1,1,Saturday,17.0,17.0,Name mistake,Sunday,"The game was played on Sunday, not Saturday.",llama_small,p0_sent,5115.54
+T013,3,1,"The Jazz ( 23 - 16 ) had a much more balanced attack in the first half , as they outscored the Jazz ( 23 - 16 ) by a 59 - 38 margin over the second and third quarters .",70.0,110.0,Context,,"The sentence states that the Jazz had a much more balanced attack in the first half, but the box score data does not provide information about the first half. However, it does show that the Grizzlies won the first three quarters and the Jazz outscored the Grizzlies in the fourth quarter.",llama_small,p0_sent,5115.54
+T013,4,1,23-16,,,Number,24-16,"The Grizzlies' record is 24-16, not 23-16.",llama_small,p0_sent,5115.54
+T013,4,2,23-16,,,Number,24-16,"The Jazz's record is 23-16, not 23-16.",llama_small,p0_sent,5115.54
+T013,4,3,59-38,,,Number,88-79,"The margin of victory is 88-79, not 59-38.",llama_small,p0_sent,5115.54
+T013,5,1,Memphis,2.0,2.0,Name,Utah,The team name is incorrect.,llama_small,p0_sent,5115.54
+T013,8,1,5 -5,,,Number,16-4,The Jazz's record in their last 10 games is incorrect.,llama_small,p0_sent,5115.54
+T014,1,1,93 104,,,Number,104,"The correct score is 104-93, not 93-104.",llama_small,p0_sent,5115.54
+T014,4,1,New York,,,Name mistake,Knicks,"The team that Derrick Rose played for is the Knicks, not New York.",llama_small,p0_sent,5115.54
+T014,6,1,12 points seven rebounds and five assists,,,Number,The actual number of assists is not available in the data.,"The sentence is partially correct, but the number of assists is not available in the data.",llama_small,p0_sent,5115.54
+T014,10,1,a steal,234.0,235.0,Other,1 steal,The box score data only shows 1 steal.,llama_small,p0_sent,5115.54
+T015,2,1,three,39.0,39.0,Number,two,"The Lakers came into this game riding a two-game losing streak, but were able to pull off the win on the road in Detroit.",llama_small,p0_sent,5115.54
+T015,3,1,47,70.0,70.0,Number,37,"The Lakers' field goal percentage was actually 48%, not 47%",llama_small,p0_sent,5115.54
+T015,6,1,"He 's now combined for 52 points in the last two games , as he continues to stay very consistent for the Lakers",158.0,180.0,Not Checkable,,The box score data does not provide information about the points scored by the Lakers in the last two games.,llama_small,p0_sent,5115.54
+T015,6,2,"He 's now combined for 52 points in the last two games , as he continues to stay very consistent for the Lakers",158.0,180.0,Not Checkable,,The box score data does not provide information about the consistency of the Lakers' performance.,llama_small,p0_sent,5115.54
+T015,7,1,"Brandon Jennings chipped in with 10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT ) and Brandon Jennings had 10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT ) off the bench",182.0,229.0,Number,"Brandon Jennings had 10 points ( 2 - 10 FG, 0 - 1 3Pt, 6 - 6 FT ) off the bench.",The sentence says Brandon Jennings had 10 points twice.,llama_small,p0_sent,5115.54
+T016,2,1,"The Sixers ( 7 - 23 ) came into this game as the worst team in the NBA , but the Sixers ( 14 - 17 ) were able to pull away late in the fourth quarter .",20.0,57.0,Name,Kings,The team name is incorrect.,llama_small,p0_sent,5115.54
+T017,3,1,Pelicans Pelicans,,,Number,Heat,"The Pelicans out-scored themselves, which is not possible.",llama_small,p0_sent,5115.54
+T017,6,1,"He 's now combined for 54 points in the last two games , as he continues to be a force for the Heat",179.0,201.0,Number,"The Heat scored 113 points in the last game, and the previous game's score is not provided in the box score data.","The sentence is incorrect because it implies that the Heat scored 54 points in the last two games, but the box score data only provides information about the last game.",llama_small,p0_sent,5115.54
+T017,11,1,N/A,312.0,312.0,Number,24,The player shot 24 points.,llama_small,p0_sent,5115.54
+T017,11,2,N/A,312.0,312.0,Number,14,The player went 14 rebounds.,llama_small,p0_sent,5115.54
+T017,11,3,N/A,312.0,312.0,Number,24 points and 14 rebounds,The player went 24 points and 14 rebounds.,llama_small,p0_sent,5115.54
+T018,4,1,Eric Gordon followed up with 26 points on 9 - of - 13 shooting including 8 - of - 12 from long range to go along with four rebounds and two assists in 24 minutes,,,Name,Eric Gordon (Rockets),The team Eric Gordon played for is not mentioned in the sentence.,llama_small,p0_sent,5115.54
+T018,7,1,21,136.0,136.0,Number,10,"The sentence incorrectly states that Julius Randle had 21 points, when in fact he had 21 points and 10 rebounds, implying that he had 10 rebounds, not 21 points.",llama_small,p0_sent,5115.54
+T019,1,1,36 42,,,Number,35-42,The Nets' record is incorrect.,llama_small,p0_sent,5115.54
+T019,4,1,five,40.0,40.0,Number,4,The number of assists DeMarre Carroll had is incorrect.,llama_small,p0_sent,5115.54
+T020,2,1,34 19,,,Number,33,"The Heat's score in the third quarter was 33, not 19.",llama_small,p0_sent,5115.54
+T020,2,2,34,54.0,54.0,Number,N/A,The box score data does not provide information on the Hornets' score in the third quarter.,llama_small,p0_sent,5115.54
+T020,6,1,six,184.0,184.0,Number,7,The correct number of players who reached double figures in points is 7.,llama_small,p0_sent,5115.54
+T020,7,1,35 minutes,259.0,260.0,Number,36,"The box score data shows that Luol Deng played 36 minutes, not 35 minutes.",llama_small,p0_sent,5115.54
+T020,8,1,22 points,246.0,247.0,Number,17,The number of points Hassan Whiteside scored is incorrect.,llama_small,p0_sent,5115.54
+T020,9,1,"Over his last three games he 's averaging 17 points , 9 rebounds and 3 assists , but has now recorded double - digit points in three straight games",310.0,338.0,Number,"The player is averaging 17 points, 7 rebounds, and 1 assist over his last game.","The player's statistics for the last game are 17 points, 7 rebounds, and 1 assist.",llama_small,p0_sent,5115.54
+T020,10,1,"Hassan Whiteside also had a strong showing, finishing with 17 points (6 - 10 FG, 5 - 6 FT) and seven rebounds.",,,Not Checkable,,The information about FG and FT is not verifiable from the box score data.,llama_small,p0_sent,5115.54
+T021,1,1,4 5,,,Number,4-4,"The Nets' record is 4-5, not 4-4.",llama_small,p0_sent,5115.54
+T021,7,1,10,68.0,68.0,Number,12,"The player Jarrett Jack scored 12 points, not 10.",llama_small,p0_sent,5115.54
+T022,1,1,Wednesday,23.0,23.0,Name mistake,Sunday,"The game was played on Sunday, not Wednesday.",llama_small,p0_sent,5115.54
+T022,4,1,4 for 4,,,Number,0,The number of blocked shots is incorrect.,llama_small,p0_sent,5115.54
+T022,5,1,3-4 FT,,,Not Checkable,,The box score data does not provide information on free throw attempts.,llama_small,p0_sent,5115.54
+T022,6,1,six,,,Number,7,"The correct number of times Tiago Splitter has reached double figures in points is 7, not 6.",llama_small,p0_sent,5115.54
+T022,8,1,Portland,271.0,271.0,Name,Utah,"The visiting team is actually the Utah Jazz, not the Portland Trail Blazers.",llama_small,p0_sent,5115.54
+T022,8,2,Portland,271.0,271.0,Name,Utah,"The home team is actually the Utah Jazz, not the Portland Trail Blazers.",llama_small,p0_sent,5115.54
+T023,1,1,Wednesday,23.0,23.0,Name mistake,Saturday,"The box score data indicates that the game was played on Saturday, not Wednesday.",llama_small,p0_sent,5115.54
+T023,3,1,45,68.0,68.0,Number,40,"The Mavericks' field goal percentage is actually 40%, not 45%",llama_small,p0_sent,5115.54
+T023,5,1,"Curry went 9 - for - 22 from the field and 3 - for - 11 from the three - point line to score a game - high of 29 points , while also adding eight assists and three rebounds",114.0,153.0,Number,22,The number of field goal attempts is incorrect.,llama_small,p0_sent,5115.54
+T023,6,1,45 points and 21 rebounds,171.0,175.0,Number,50 points and 20 rebounds,"The total points and rebounds for both players is 50 points and 20 rebounds, not 45 points and 21 rebounds.",llama_small,p0_sent,5115.54
+T023,7,1,13,199.0,199.0,Number,12,The number of points Richard Jefferson finished with is incorrect.,llama_small,p0_sent,5115.54
+T024,1,1,Wednesday,23.0,23.0,Context,Friday,"The game was played on Friday, not Wednesday.",llama_small,p0_sent,5115.54
+T024,7,1,20,172.0,172.0,Number,21,Number mistake: incorrect number of points scored by Trey Burke,llama_small,p0_sent,5115.54
+T024,8,1,The only other Jazz player to reach double figures was Dion Waiters,222.0,233.0,Name,Thunder,"Dion Waiters played for the Thunder, not the Jazz.",llama_small,p0_sent,5115.54
+T025,5,1,three rebounds and three steals,149.0,153.0,Number,none,The box score data does not mention Wroten having 3 rebounds and 3 steals.,llama_small,p0_sent,5115.54
+T025,10,1,double-double,,,Number,single-double,"Robert Covington did not have a double-double, he had 4 points and 1 rebound.",llama_small,p0_sent,5115.54
+T026,5,1,"It was his second double - double in a row , as he 's combined for 43 points and 25 rebounds over his last two games",147.0,172.0,Number,"The player has combined for 23 points and 18 rebounds in one game, and 20 points and 0 rebounds in another game.",The sentence is incorrect because the player has not combined for 43 points and 25 rebounds over his last two games.,llama_small,p0_sent,5115.54
+T026,9,1,4 6,,,Number,4-7,The number of 3Pt made by Iman Shumpert is incorrect.,llama_small,p0_sent,5115.54
+T027,2,1,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,Name,Wednesday,"The game was played on Wednesday, not Monday.",llama_small,p0_sent,5115.54
+T027,2,2,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,Number,available in the box score data,The Rockets' record is not available in the box score data.,llama_small,p0_sent,5115.54
+T027,2,3,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,Word,the Rockets' armor,The correct phrase should be 'pierce the Rockets' armor'.,llama_small,p0_sent,5115.54
+T027,2,4,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,Context,available,The coach of the Rockets is not available in the box score data.,llama_small,p0_sent,5115.54
+T027,2,5,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,Not Checkable,available,The season high points for the Rockets are not available in the box score data.,llama_small,p0_sent,5115.54
+T027,2,6,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",21.0,85.0,,,,llama_small,p0_sent,5115.54
+T027,3,1,11 assist,,,Number,13,"The player James Harden had 13 assists, not 11.",llama_small,p0_sent,5115.54
+T027,4,1,Gordon Davis,115.0,116.0,Name mistake,Anthony,"The correct name is Anthony Davis, not Gordon Davis.",llama_small,p0_sent,5115.54
+T027,5,1,an assist,148.0,149.0,Number mistake,1,"The box-score data shows that Trevor Ariza had 1 assist, not an unspecified number.",llama_small,p0_sent,5115.54
+T027,6,1,an assist and a block,173.0,177.0,Other,None,The box score data does not show that Buddy Hield had an assist or a block.,llama_small,p0_sent,5115.54
+T027,8,1,five rebounds,122.0,123.0,Number,4,The number of rebounds Alexis Ajinca had is incorrect.,llama_small,p0_sent,5115.54
+T027,9,1,11 point,,,Number,10,The number of points is incorrect.,llama_small,p0_sent,5115.54
+T027,10,1,Alexis Ajinca led the second unit with 20 points five rebounds one assist and three steals,,,Context,"Alexis Ajinca led the Pelicans' second unit with 20 points, five rebounds, one assist and three steals.",The team was not specified in the story.,llama_small,p0_sent,5115.54
+T027,14,1,Alexis Ajinca led the second unit with 20 points five rebounds one assist and three steals,,,Context,"Alexis Ajinca led the Pelicans' second unit with 20 points, five rebounds, one assist and three steals.",The team was not specified in the story.,llama_small,p0_sent,5115.54
+T027,17,1,Buddy Hield led the second unit with a season - high 29 points along with one assist one rebound and one steal,,,Number,11,"The box-score data shows that Buddy Hield had 11 points, not 29 points.",llama_small,p0_sent,5115.54
+T028,4,1,"Blake Griffin was the high - point man for the Spurs , with 29 points , to go along with nine rebounds , five assists and one steal , in 38 minutes",124.0,155.0,Name mistake,Los Angeles Clippers,"Blake Griffin is a player for the Los Angeles Clippers, not the San Antonio Spurs.",llama_small,p0_sent,5115.54
+T028,7,1,Spurs,4.0,4.0,Name,Clippers,"The team that Blake Griffin played for was actually the Clippers, not the Spurs.",llama_small,p0_sent,5115.54
+T028,8,1,in 27 minutes off the bench,,,Context,,"The sentence implies that Austin Rivers played off the bench, but the box score data does not provide information about his playing status.",llama_small,p0_sent,5115.54
+T029,2,1,out-scoring,,,word mistake,out-scored,"The correct verb to use in this context is 'out-scored', not 'out-scoring'.",llama_small,p0_sent,5115.54
+T029,2,2,22-25,,,number mistake,25-22,"The Magic were out-scored by the Suns in the first quarter, not the other way around.",llama_small,p0_sent,5115.54
+T029,3,1,Milwaukee Bucks,,,Name mistake,Detroit Pistons,"The box score data shows that Brandon Knight was acquired in a deadline deal from the Detroit Pistons, not the Milwaukee Bucks.",llama_small,p0_sent,5115.54
+T029,6,1,7 -for- 15,,,Number,11,The number of field goals made by Morris is incorrect. He actually made 11 field goals.,llama_small,p0_sent,5115.54
+T029,7,1,19 points and 7 rebounds,175.0,179.0,Number,28 points and 7 rebounds,"The sentence says that Brandon Knight is averaging 19 points and 7 rebounds on the year, but the box score data shows that he scored 28 points in this game.",llama_small,p0_sent,5115.54
+T030,2,1,going,41.0,41.0,word mistake,went,The correct phrase should be 'went 40 percent from the field' instead of 'going 40 percent from the field'.,llama_small,p0_sent,5115.54
+T030,8,1,three,52.0,52.0,Number,eight,The Grizzlies have now lost eight of their last nine games.,llama_small,p0_sent,5115.54

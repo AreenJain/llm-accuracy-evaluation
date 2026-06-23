@@ -1,0 +1,224 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T001,,1,28 -28,,,,,NUMBER,28-28,The correct score difference in the first quarter is 28-28.
+T001,2,1,The Nets,1,2,,,NAME,Brooklyn Nets,The Nets is not the full team name.
+T001,11,1,Toronto Raptors,13,14,,,NAME,Cleveland Cavaliers,Incorrect team name for the Nets' next game.
+T001,11,2,Friday,16,16,,,NAME,Wednesday,Incorrect day of the week for the Kings' next game.
+T002,1,1,defeated,5,5,,,NAME,beat,"The New Orleans Pelicans beat the Dallas Mavericks, not defeated them."
+T002,5,1,winning that,12,13,,,NUMBER,44-34,"The correct rebounding margin is 44-34, not winning."
+T002,7,1,Harrison Barnes,1,2,,,NAME,DeMarcus Cousins,"Harrison Barnes is not leading the way for Dallas, it's DeMarcus Cousins."
+T002,14,1,17,18,18,,,NUMBER,13,"Cousins had 13 rebounds, not 17."
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Wednesday."
+T003,,1,out-scoring,,,,,WORD,outscored,The correct term is 'outscored' based on the box score.
+T004,1,1,Tuesday,22,22,,,NAME,Wednesday,Incorrect day of the week.
+T004,2,1,out - scoring,13,15,,,NUMBER,outscored,Incorrect term used; should be 'outscored' based on the box score.
+T005,1,1,Saturday,17,17,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T005,,1,24 -20,,,,,NUMBER,24-20,Incorrect score format.
+T005,,2,30 -point,,,,,NUMBER,30-0,First quarter score should be 30-0.
+T005,15,1,New York Knicks,11,13,,,NAME,Boston Celtics and Golden State Warriors,Incorrect team names for the next games.
+T006,1,1,The Memphis Grizzlies,1,3,,,NAME,New York Knicks,Incorrect team name. The home team is the New York Knicks.
+T006,1,1,21,7,7,,,NUMBER,22,"Zach Randolph scored 23 points, not 21."
+T006,5,1,58 percent,10,11,,,NUMBER,52,The Grizzlies shot 52 percent from the field.
+T006,5,2,22 percent,28,29,,,NUMBER,42,The Knicks shot 42 percent from the field.
+T006,5,1,52 percent,4,5,,,NUMBER,52%,The correct shooting percentage should include the percent sign.
+T006,5,2,58 percent,10,11,,,NUMBER,58%,The correct shooting percentage should include the percent sign.
+T006,5,1,58,10,10,,,NUMBER,52,The Grizzlies shot 52 percent from the field and 58 percent from beyond the arc.
+T007,1,1,at Moda,22,23,,,NAME,at Moda Center,Moda Center is the correct venue.
+T007,2,1,the Nuggets,16,17,,,NAME,the Trail Blazers,"The Nuggets are the visiting team, not the home team."
+T007,13,1,Next,1,1,,,WORD,following,Incorrect word choice.
+T007,1,2,the,11,11,,,NAME,a,Incorrect article usage.
+T007,1,3,Nuggets,13,13,,,NAME,Blazers,Incorrect team name.
+T008,1,1,defeated,9,9,,,WORD,dealt,"Incorrect verb used, should be 'dealt' based on the box score."
+T008,2,1,double -,9,10,,,NUMBER,ten,"The Pacers were a ten-point favorite, not a double-digit favorite."
+T008,,1,fourth straight,,,,,NUMBER,four,"The Nets have lost four games, not four straight."
+T008,,2,fourth win,,,,,NUMBER,four,"The Pacers won four games, not a fourth win."
+T008,6,1,Brook Lopez,1,2,,,NAME,Thaddeus Young,Incorrect player name.
+T008,7,1,14 points,15,16,,,NUMBER,15 points,"Thaddeus Young scored 15 points, not 14."
+T008,6,2,five rebounds,16,17,,,NUMBER,nine rebounds,"Thaddeus Young had 9 rebounds, not 5."
+T008,8,1,12 points,15,16,,,NUMBER,12,"Andrea Bargnani scored 12 points, not 12 points and 5 rebounds."
+T008,11,1,23 points,13,14,,,NUMBER,26,Paul George actually scored 26 points.
+T008,11,2,11 rebounds,16,17,,,NUMBER,14,Paul George actually had 14 rebounds.
+T008,12,1,George Hill,1,2,,,NAME,Harden,George Hill is not a starter for the Pacers.
+T008,13,1,Myles Turner,1,2,,,NAME,Turner,Incorrect name for the player.
+T009,1,1,host,6,6,,,NAME,visiting,The visiting team is not the host.
+T009,2,1,Heat ( 22 - 30 ),2,7,,,NUMBER,Heat (22-30),Incorrect parentheses placement and space missing.
+T009,2,2,Timberwolves ( 19 - 33 ),34,39,,,NUMBER,Timberwolves (19-33),Incorrect parentheses placement and space missing.
+T009,2,1,33,38,38,,,NUMBER,35,"Dragic scored 35 points, not 33."
+T009,,2,9,,,,,NUMBER,17,"Dragic attempted 17 shots, not 9."
+T009,,3,17,,,,,NUMBER,17,"Dragic made 17 shots, not 13."
+T009,,4,55,,,,,NUMBER,55.0,"Dragic shot 55.0%, not 55%."
+T009,,5,55,,,,,NUMBER,55.0,"Dragic shot 55.0%, not 55%."
+T009,6,6,13,9,9,,,NUMBER,17,"Dragic made 17 shots, not 13."
+T010,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T010,2,1,32 -,15,16,,,NUMBER,32-26,Incorrect score difference in the first quarter.
+T010,2,2,26,17,17,,,NUMBER,26,Incorrect score difference in the first quarter.
+T010,4,1,42,28,28,,,NUMBER,59,"The Bucks shot 59 percent from the field, not 42."
+T010,4,2,42,28,28,,,NUMBER,53,"The Bucks shot 53 percent from three-point line, not 42."
+T010,8,1,20,5,5,,,NUMBER,18,"Trevor Ariza scored 18 points, not 20."
+T011,1,1,The Atlanta Hawks,1,3,,,NAME,Cleveland Cavaliers,The Hawks were the visiting team.
+T011,1,2,130 - 135,10,12,,,NUMBER,135-130,The score should be 135-130.
+T011,3,1,the Cavaliers,15,16,,,NAME,the Hawks,The Cavaliers did not lead for the majority of the game.
+T011,5,1,38,13,13,,,NUMBER,43,"LeBron James scored 43 points, not 38."
+T011,7,1,Richard Jefferson,1,2,,,NAME,Channing Frye,Richard Jefferson was not in double figures.
+T011,7,2,Channing Frye,4,5,,,NAME,Channing Frye,"Channing Frye was in double figures, not Richard Jefferson."
+T011,7,1,Channing Frye,4,5,,,NAME,Frye,Incorrect name for the player.
+T011,11,1,Paul Millsap,1,2,,,NAME,Tim Hardaway Jr.,Paul Millsap is not the player of the game.
+T012,,1,(48 -32,,,,,NUMBER,(48-32),Incorrect score format.
+T012,1,2,defeated,9,9,,,WORD,defeated,Incorrect verb used.
+T012,2,1,out - scored,10,12,,,NUMBER,outscored,Incorrect verb used; should be 'outscored'.
+T012,3,1,Kyle Lowry,6,7,,,NAME,Lou Williams,Kyle Lowry did not lead the Raptors in this game.
+T012,9,1,Dwyane Dragic,12,13,,,NAME,Dwyane Wade,Incorrect player name.
+T012,15,1,Friday,16,16,,,NAME,Friday's,"The game was on Friday, but the story says Friday without 's'."
+T013,1,1,Saturday,17,17,,,NAME,Sunday,The game was played on Sunday evening according to the story.
+T013,,1,24 -16,,,,,NUMBER,(23-16),Incorrect win-loss record for Grizzlies.
+T013,,2,23 -16,,,,,NUMBER,(24-16),Incorrect win-loss record for Jazz.
+T014,1,1,The New York Knicks,1,4,,,NAME,Milwaukee Bucks,"The visiting team was the Milwaukee Bucks, not the New York Knicks."
+T014,1,2,defeated,5,5,,,WORD,beat,"The Bucks won, so they beat the Knicks, not defeated them."
+T014,2,1,26 -,4,5,,,NUMBER,30-39,Incorrect win-loss record for the Knicks.
+T014,2,2,26 -,4,5,,,NUMBER,30-39,Incorrect win-loss record for the Bucks.
+T014,,1,30 -33,,,,,NUMBER,104-93,Incorrect win-loss record for the Bucks.
+T014,2,2,five,33,33,,,NUMBER,six,Incorrect number of games won/lost.
+T014,1,1,New York,2,3,,,NAME,Milwaukee,"The Bucks, not the Knicks, won the game."
+T014,2,1,30 - 33,26,28,,,NUMBER,30-33,The correct record is 30-33.
+T014,8,1,four steals,18,19,,,NUMBER,seven,"Giannis Antetokounmpo had seven steals, not four."
+T014,9,1,18 points,6,7,,,NUMBER,18,"Middleton scored 18 points, not 18 points."
+T014,9,2,four assists,9,10,,,NUMBER,three,"Middleton had three assists, not four."
+T014,9,3,three rebounds,12,13,,,NUMBER,four,"Middleton had four rebounds, not three."
+T014,10,1,Greg Monroe,1,2,,,NAME,Milwaukee,"Greg Monroe is from the Bucks, not the Knicks."
+T015,1,1,Wednesday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Wednesday."
+T015,7,1,Brandon Jennings,1,2,,,NAME,Kobe Bryant,Incorrect player name.
+T015,7,2,10 points,6,7,,,NUMBER,12 points,Incorrect points scored.
+T015,7,3,2 - 10 FG,9,12,,,NUMBER,2-10 FG,Incorrect FG stats.
+T015,7,4,0 - 1 3Pt,14,17,,,NUMBER,0-1 3Pt,Incorrect 3Pt stats.
+T015,7,5,6 - 6 FT,19,22,,,NUMBER,6-6 FT,Incorrect FT stats.
+T016,1,1,Philadelphia 76ers,2,3,,,NAME,Kings,"The visiting team was the Sacramento Kings, not the Philadelphia 76ers."
+T016,2,1,7 - 23,4,6,,,NUMBER,14 - 17,"The Sixers had 14 wins and 17 losses, not 7 wins and 23 losses."
+T016,2,2,14 - 17,24,26,,,NUMBER,7 - 23,"The Kings had 7 wins and 23 losses, not 14 wins and 17 losses."
+T016,2,1,The Sixers,1,2,,,NAME,Kings,The Sixers should be the Kings.
+T016,2,2,The Sixers,1,2,,,NAME,Kings,The Sixers should be the Kings.
+T016,4,1,Sergio Rodriguez,1,2,,,NAME,Embiid,Sergio Rodriguez is not the high-point man for the 76ers.
+T016,4,2,20,24,24,,,NUMBER,6,"Jahlil Okafor logged 6 minutes off the bench, not 20."
+T016,5,1,48,10,10,,,NUMBER,49,"The home team's shooting percentage was 49%, not 48%."
+T016,5,2,15,21,21,,,NUMBER,14,"The home team attempted 14 three-pointers, not 15."
+T016,6,1,seven rebounds,21,22,,,NUMBER,34,"Cousins played 34 minutes, not 7 rebounds."
+T016,4,2,five assists,17,18,,,NUMBER,12,"Lawson scored 12 points, not 5 assists."
+T016,6,3,three steals,27,28,,,NUMBER,1,"Collison had 1 steal, not 3 steals."
+T016,6,4,two blocks,30,31,,,NUMBER,9,"McLemore had 9 points, not 2 blocks."
+T016,7,1,Darren Collison,19,20,,,NAME,Ty Lawson,Ty Lawson is the correct player name.
+T016,7,2,nine points,23,24,,,NUMBER,12 points,"Ty Lawson scored 12 points, not 9."
+T017,,1,26 -44,,,,,NUMBER,26-43,Incorrect team record for the Pelicans.
+T017,1,2,Friday,23,23,,,NAME,Tuesday,Incorrect day of the week for the game.
+T017,2,1,out - scoring,13,15,,,NUMBER,outscoring,Incorrect hyphenation and word order.
+T017,3,1,out - scored,14,16,,,WORD,outscored,"Incorrect word used, should be 'outscored'."
+T017,4,1,25,12,12,,,NUMBER,46,"Wade scored 46 points, not 25."
+T017,4,2,10,15,15,,,NUMBER,21,"Wade made 10 field goals out of 21 attempts, not 10."
+T017,4,3,0,20,20,,,NUMBER,0,"Wade attempted 0 3-pointers, not 0."
+T017,4,4,5,25,25,,,NUMBER,6,"Wade made 5 free throws out of 6 attempts, not 5."
+T017,4,1,10 -,15,16,,,NUMBER,11,Incorrect field goal percentage. Should be 11.
+T017,5,2,4 -,20,21,,,NUMBER,14,Incorrect field goal percentage. Should be 14.
+T017,7,1,Anthony Davis,1,2,,,NAME,Dante Cunningham,Incorrect player name.
+T017,5,2,24 points,12,13,,,NUMBER,23 points,Incorrect points scored.
+T017,5,3,10 - 11,15,17,,,NUMBER,10-11,Incorrect FG percentage.
+T017,5,4,4 - 6,20,22,,,NUMBER,4-6,Incorrect FT percentage.
+T017,7,1,Anthony Davis,1,2,,,NAME,Chris Bosh,Anthony Davis is not the injured player mentioned in the context.
+T017,,1,,,,,,NUMBER,0,Anthony Davis did not score any points.
+T017,,2,,,,,,NUMBER,0,Anthony Davis did not attempt any free throws.
+T017,,3,,,,,,NUMBER,0,Anthony Davis did not get any rebounds.
+T018,1,1,defeated,4,4,,,NAME,beat,"The Rockets beat the Lakers, not defeated them."
+T018,4,1,24,37,37,,,NUMBER,29,"Lou Williams played 29 minutes, not 24."
+T018,6,2,7 - 12,17,19,,,NUMBER,9,"Lou Williams made 9 of 12 FG, not 7 of 12."
+T018,6,3,8 - 8,22,24,,,NUMBER,8,"Lou Williams made 8 of 8 FT, not 8 of 8."
+T019,,1,36 -42,,,,,NUMBER,35-42,Incorrect team record for the Nets.
+T019,1,2,Friday,26,26,,,NAME,Wednesday,Incorrect day of the week.
+T019,4,1,nine,18,18,,,NUMBER,seven,"Mike Scott had seven rebounds, not nine."
+T019,7,1,48,15,15,,,NUMBER,47,"The Nets shot 47% from the field, not 48%."
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Tuesday."
+T020,2,1,72 -,4,5,,,NUMBER,45-30,Incorrect score difference in the second quarter.
+T020,2,2,68,6,6,,,NUMBER,30,Incorrect score difference at halftime.
+T020,3,1,53 percent,7,8,,,NUMBER,53%,The percentage should be in the format of X%.
+T020,3,2,50 percent,13,14,,,NUMBER,50%,The percentage should be in the format of X%.
+T020,3,1,The Hornets,1,2,,,NAME,Charlotte Hornets,The Hornets refers to the Charlotte Hornets.
+T020,1,2,Miami,11,11,,,NAME,Heat,Miami refers to the Heat team.
+T020,6,1,six,4,4,,,NUMBER,five,"The Hornets had five players reach double figures in points, not six."
+T020,10,1,6 - 10,14,16,,,NUMBER,10,"Hassan Whiteside made 6 of 10 FG, not 6 of 10 FG and 5 of 6 FT."
+T020,5,2,5 - 6,61,63,,,NUMBER,6,"Hassan Whiteside made 6 of 6 FT, not 5 of 6 FT."
+T020,11,1,Wednesday,16,16,,,NAME,Friday,"The game was on Friday, not Wednesday."
+T021,1,1,7 -,6,7,,,NUMBER,6-3,Incorrect win-loss record for the Trail Blazers.
+T021,1,2,4 -,15,16,,,NUMBER,4-4,Incorrect win-loss record for the Nets.
+T021,1,3,Friday,23,23,,,NAME,Saturday,Incorrect day of the game.
+T021,2,1,four straight,4,5,,,NUMBER,seven,"The Trail Blazers have won seven straight games, not four."
+T022,1,1,Wednesday,23,23,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T022,3,1,39,12,12,,,NUMBER,33,The Spurs had a higher shooting percentage than the Jazz.
+T022,3,2,47,18,18,,,NUMBER,30,The Jazz had a lower shooting percentage from three-point line than the Spurs.
+T023,1,1,Wednesday,23,23,,,NAME,Saturday,"The game was played on Saturday, not Wednesday."
+T023,2,1,got off,3,4,,,WORD,started,Incorrect phrase 'got off' should be 'started'.
+T023,2,2,out - scoring,13,15,,,WORD,outscored,Incorrect phrase 'out-scoring' should be 'outscored'.
+T023,3,1,45,12,12,,,NUMBER,40,The Warriors had a lower field goal percentage.
+T023,3,2,31,18,18,,,NUMBER,20,The Warriors had a lower three-point shooting percentage.
+T023,,1,The duo,,,,,WORD,two players,"The term 'duo' implies two players, but the box score shows contributions from multiple players."
+T024,1,1,Wednesday,23,23,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T024,2,1,out - scoring,13,15,,,NUMBER,outscoring,Incorrect hyphenation and word order.
+T024,3,1,46,12,12,,,NUMBER,49,The home team had a higher shooting percentage.
+T024,3,2,33,18,18,,,NUMBER,33,The visiting team had the same three-point shooting percentage.
+T024,3,1,The Jazz,1,2,,,NAME,The Thunder,Incorrect team name.
+T024,8,1,15 points,17,18,,,NUMBER,27,"Waiters scored 27 points, not 15."
+T024,,2,4 steals,,,,,NUMBER,2,"Waiters had 2 steals, not 4."
+T024,1,1,Wednesday,23,23,,,NAME,Wednesday,Incorrect day of the week.
+T025,1,1,Sunday,22,22,,,NAME,Friday,"The game was played on Friday, not Sunday."
+T025,3,1,50,12,12,,,NUMBER,44,The Suns had a higher three-point shooting percentage.
+T025,3,2,44,18,18,,,NUMBER,50,The Suns had a higher overall shooting percentage.
+T025,1,3,27,16,16,,,NUMBER,29,The Sixers actually scored 29 points in the first quarter.
+T025,5,1,10 - for - 19,3,7,,,NUMBER,10-19,Incorrect field goal attempts.
+T025,5,2,4 - for - 9,12,16,,,NUMBER,4-9,Incorrect three-point attempts.
+T025,,1,8 - for - 14,,,,,NUMBER,6 - for - 14,Incorrect field goal attempts.
+T025,8,2,3 - for - 5,12,16,,,NUMBER,3 - for - 4,Incorrect three-point field goals made.
+T026,1,1,The Detroit Pistons,1,3,,,NAME,Pistons (1-3),Incorrect team name and record.
+T026,,2,knocked off,,,,,OTHER,defeated,Incorrect verb used.
+T026,1,3,98 - 95,19,21,,,NUMBER,98-95,Incorrect score format.
+T026,,1,out-scoring the Knicks,,,,,WORD,outscored,The correct term is 'outscored' rather than 'out-scoring'.
+T026,9,1,4 - 6,12,14,,,NUMBER,4 - 7,Incorrect 3-point shooting percentage.
+T027,1,1,defeated,4,4,,,NAME,beat,"Houston Rockets beat New Orleans Pelicans, not defeated."
+T027,2,1,Monday,11,11,,,NAME,Wednesday,"The game was played on Wednesday, not Monday."
+T027,2,2,Gregg,54,54,,,NAME,Mike,"Gregg Popovich is the coach of the Rockets, not the Pelicans."
+T027,3,1,29 -,11,12,,,NUMBER,29,Incorrect number of points.
+T027,3,2,11 -,15,16,,,NUMBER,11,Incorrect number of assists.
+T027,3,3,11 rebounds,24,25,,,NUMBER,11,Incorrect number of rebounds.
+T027,5,1,an assist,18,19,,,WORD,three,"Trevor Ariza had three assists, not one."
+T027,6,1,Buddy Hield,1,2,,,NAME,Eric Gordon,Buddy Hield is not the player who scored 29 points.
+T027,8,1,Alexis Ajinca,1,2,,,NAME,Alexis Ajinca,Incorrect name for the player.
+T027,8,1,Alexis Ajinca,1,2,,,NAME,KJ McDaniels,Incorrect player name.
+T027,11,1,29 points,8,9,,,NUMBER,10 points,"Eric Gordon scored 10 points, not 29."
+T027,,2,10 of 17,,,,,NUMBER,10 of 17,"Eric Gordon shot 10 of 17, not 10 of 10."
+T027,,3,17,,,,,NUMBER,17,"Eric Gordon shot 10 of 17, not 10 of 10."
+T027,,4,28 minutes,,,,,NUMBER,28 minutes,"Eric Gordon played 28 minutes, not 28 minutes."
+T027,9,1,one,22,22,,,NUMBER,three,"Trevor Ariza had 3 steals, not 1."
+T027,6,1,Buddy Hield,1,2,,,NAME,Eric Gordon,Buddy Hield is not the player who scored the most points.
+T027,8,1,Alexis Ajinca,1,2,,,NAME,KJ McDaniels,Incorrect player name.
+T027,6,1,Buddy Hield,1,2,,,NAME,Eric Gordon,Buddy Hield is not the player who scored 29 points.
+T027,10,1,led the second,3,5,,,NAME,notched his 15th triple-double,"Buddy Hield did not lead the second unit, but notched his 15th triple-double."
+T027,7,1,Jrue Holiday,1,2,,,NAME,Corey Brewer,Incorrect player name.
+T027,19,1,10 -,5,6,,,NUMBER,10 - of - 15,Incorrect points made from shooting.
+T027,,2,15,,,,,NUMBER,15,Incorrect total shooting attempts.
+T027,18,1,tallied,3,3,,,WORD,notched,"Incorrect verb used, should be 'notched' based on the box score."
+T028,,1,San Antonio defeated,,,,,NAME,Los Angeles Clippers,Incorrect team name for the visiting team.
+T028,2,1,( 35 - 13 ),18,22,,,NUMBER,( 44 - 13 ),Incorrect team record for the Spurs.
+T028,2,2,( 35 - 13 ),18,22,,,NUMBER,( 44 - 13 ),Incorrect team record for the Spurs.
+T028,3,3,18 - 13,15,17,,,NUMBER,13 - 18,Incorrect score after the first quarter.
+T028,3,4,18 - 13,15,17,,,NUMBER,13 - 18,Incorrect score after the first quarter.
+T028,3,5,18 - 13,15,17,,,NUMBER,13 - 18,Incorrect score after the first quarter.
+T028,3,6,18 - 13,15,17,,,NUMBER,13 - 18,Incorrect score after the first quarter.
+T028,3,7,18 - 13,15,17,,,NUMBER,13 - 18,Incorrect score after the first quarter.
+T028,1,1,Spurs,4,4,,,NAME,Clippers,"Blake Griffin is a player for the Clippers, not the Spurs."
+T028,6,1,two rebounds,8,9,,,NUMBER,six rebounds,"Tony Parker had six rebounds, not two."
+T028,1,1,Spurs,4,4,,,NAME,Clippers,Incorrect team name.
+T028,8,1,8 - of - 14,9,13,,,NUMBER,8 of 14,Incorrect shooting percentage format.
+T029,,1,105 -100,,,,,NUMBER,105-100,"Incorrect score format, should be 105-100."
+T029,1,2,Wednesday,22,22,,,NAME,Wednesday,"Incorrect day of the week, should be Wednesday."
+T029,,1,out scoring,,,,,NUMBER,outscored,Incorrect verb used; should be 'outscored'.
+T029,3,1,47 percent,12,13,,,NUMBER,47%,Incorrect shooting percentage.
+T029,3,2,38 percent,18,19,,,NUMBER,38%,Incorrect shooting percentage.
+T029,4,1,20,8,8,,,NUMBER,20 of their own,"The Suns committed 20 turnovers, not 20 of their own."
+T029,8,1,PJ Tucker,1,2,,,NAME,Markieff Morris,PJ Tucker is not a starter for the Suns.
+T029,1,1,Wednesday,22,22,,,NAME,Friday,Incorrect day of the week.
+T029,1,2,Wednesday,22,22,,,NAME,Friday,Incorrect day of the week.
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."

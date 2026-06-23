@@ -1,0 +1,138 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,4,1,"The Nets were the superior shooters in this game , going 49 percent from the field and 38 percent from the three - point line , while the Nets went just 45 percent from the floor and 38 percent from beyond the arc .",,,102,145,NUMBER,The Kings were the superior shooters in this game,The statement is incorrect because the home team's field goal percentage is higher than the visiting team's.
+T001,7,1,his last four games,,,,,CONTEXT,his last three games,The statement 'his last four games' is incorrect because the Kings' last four games were not consecutive.
+T001,8,1,Ben McLemore,,,,,NAME_MISTAKE,Brook Lopez,"The box score data shows that the only other Net to reach double figures in points was Brook Lopez, not Ben McLemore."
+T001,9,1,21 points and 12 rebounds,,,288,292,NOT_CHECKABLE,,"The box score data only shows the player's performance in this one game, so we cannot verify the accuracy of the player's average points and rebounds in the previous games."
+T001,10,1,"The only other Net to reach double figures in points was Ben McLemore , who finished with 11 points ( 4 - 9 FG , 3 - 7 3Pt , 0 - 2 FT ) and two assists",,,294,331,NAME,Brook Lopez,"Brook Lopez is the other Net to reach double figures in points, not Ben McLemore."
+T001,10,2,"The only other Net to reach double figures in points was Ben McLemore , who finished with <u>11</u> points ( 4 - 9 FG , 3 - 7 3Pt , 0 - 2 FT ) and two assists",,,,,NUMBER,10,"The correct number of points is 10, not 11."
+T002,4,1,Wednesday,,,19,19,NAME_MISTAKE,03_29_17,"The sentence incorrectly states the day of the week as 'Wednesday', when the actual date was 03_29_17."
+T002,5,1,Wednesday,,,19,19,NAME_MISTAKE,03_29_17,"The sentence incorrectly states the day of the week as 'Wednesday', when the actual date was 03_29_17."
+T002,12,1,six,,,230,230,NUMBER_MISTAKE,seven,"The box score data shows that DeMarcus Cousins had 6 assists, not 6."
+T002,14,1,17,,,298,298,NUMBER,16,The number of rebounds DeMarcus Cousins accumulated is incorrect.
+T002,15,1,Wednesday,,,19,19,NAME_MISTAKE,03/29/17,"The date of the game is actually 03/29/17, not Wednesday."
+T003,1,1,Wednesday,,,22,22,CONTEXT,Thursday,"The game was played in London and on Thursday, not in Orlando and on Wednesday."
+T003,1,2,Orlando,,,11,11,CONTEXT,London,"The game was played in London, not in Orlando."
+T003,1,3,on the same day,,,,,CONTEXT,in overtime,"The game was played in overtime, not on the same day."
+T003,4,1,41,,,92,92,NUMBER,45,"The Magic shot 45% from the field, not 41%"
+T003,5,1,18 10,,,,,NUMBER,15,"The Magic committed 15 turnovers, not 10."
+T003,6,1,4 for 19,,,,,NUMBER,19,"DeMar DeRozan's field goal attempts are actually 19 for 39, not 4 for 19."
+T003,7,1,25 points and 8 rebounds on the season,,,199,206,NOT_CHECKABLE,,The box score data does not provide sufficient information to determine the player's season averages.
+T003,9,1,33 points and 14 rebounds,,,269,273,NUMBER,17 points and 11 rebounds,The numbers mentioned in the sentence do not match the actual numbers for the player who achieved the double-double.
+T003,11,1,9 rebounds,,,,,CONTEXT,9 rebounds (total),"The sentence does not mention the other statistics that Valanciunas had, which could be considered a context mistake."
+T004,1,1,on Tuesday,,,,,CONTEXT,Wednesday,"The game was played on Wednesday, not Tuesday."
+T004,7,1,6 for - 13,,,,,NUMBER,6,The number of field goals made by Wall is incorrect.
+T004,7,2,0 - 2,,,,,NUMBER,0,The number of three-point field goals made by Wall is incorrect.
+T005,1,1,Monday,,,355,355,NAME_MISTAKE,Saturday,"The game was played on Saturday, not Monday."
+T005,2,1,Tuesday,,,30,30,NAME_MISTAKE,Monday,"The game was played on Monday, not Tuesday."
+T005,4,1,24 -20,,,,,NUMBER,23-22,The home team's record is incorrect.
+T005,11,1,John Wall,,,167,168,NAME_MISTAKE,Kemba Walker,"The player who led the way for Charlotte was actually Kemba Walker, not John Wall."
+T005,14,1,13,,,212,212,NUMBER,8,The number of points Frank Kaminsky III had is incorrect.
+T006,1,1,The Memphis Grizzlies ( 50 - 21 ) defeated the Memphis Grizzlies ( 50 - 21 ) 103 - 82 .,,,1,21,NUMBER,The Memphis Grizzlies (50-21) defeated the New York Knicks (14-57) 103-82.,"The home team and visiting team are the same, which is not possible in a basketball game."
+T006,2,1,12,,,42,42,NUMBER,23,The number of points scored by Zach Randolph is incorrect.
+T006,5,1,Grizzlies shot 52 percent from the field and 58 percent from three - point range while the Grizzlies shot 52 percent from the field and 22 percent from beyond the arc,,,,,NAME,Knicks,The word 'Grizzlies' should be 'Knicks' in the second part of the sentence.
+T006,10,1,52,,,95,95,NUMBER,42,The Knicks shot 42 percent from the field.
+T007,2,1,the Nuggets were able to hold off the Nuggets,,,43,51,NUMBER,Trail Blazers,"The sentence says the Nuggets were able to hold off the Nuggets, which is incorrect. The correct phrase should be the Trail Blazers."
+T007,3,1,12,,,15,15,NUMBER,8,"The correct number of points scored by Kenneth Faried is 8, not 12."
+T007,8,1,"The Nuggets shot 43 percent from the field and 44 percent from long range , while the Nuggets shot 43 percent from the field and 44 percent from long range .",,,253,283,NUMBER,"The Nuggets shot 43 percent from the field and 44 percent from long range, while the Trail Blazers shot 47 percent from the field and 38 percent from long range.","The sentence has a number mistake. The word 'Nuggets' should be marked as the team name, but it appears twice in the sentence. However, the mistake is in the fact that the sentence says 'The Nuggets shot 43 percent from the field and 44 percent from long range, while the Nuggets shot 43 percent from the field and 44 percent from long range.' which is a repetition of the same information."
+T007,12,1,43 percent,,,256,257,NUMBER,43,"The correct percentage is 43, not 43 percent."
+T007,12,2,44 percent,,,262,263,NUMBER,44,"The correct percentage is 44, not 44 percent."
+T008,4,1,52 42,,,,,NUMBER,42-52,"The box score data shows that the Nets won the rebounding battle 42-52, not 52-42."
+T008,6,1,Brook Lopez,,,,,CONTEXT,Brooklyn Nets,"Brook Lopez played for the Brooklyn Nets, not the Indiana Pacers."
+T008,8,1,Andrea Bargnani was the only other starter in double figures as he amassed 12 points and five rebounds,,,,,NUMBER,There were two starters in double figures: Andrea Bargnani and Brook Lopez.,"The sentence is incorrect because it states that Andrea Bargnani was the only other starter in double figures, when in fact there were two starters in double figures."
+T009,1,1,"The Minnesota Timberwolves defeated the host Minnesota Timberwolves , 115 - 113 , at Target Center on Saturday",,,1,18,NUMBER,"The Minnesota Timberwolves defeated the host Heat, 115 - 113, at Target Center on Saturday.","The Minnesota Timberwolves played against themselves, which is not possible in a real basketball game."
+T009,3,1,31 22,,,,,NUMBER,Timberwolves,"The Heat outscored the Timberwolves by a 31-22 margin, not the Heat."
+T009,6,1,Minnesota,,,2,2,NAME_MISTAKE,Timberwolves,"The home team is actually the Timberwolves, not Minnesota."
+T009,15,1,Minnesota,,,2,2,NAME_MISTAKE,Timberwolves,"The home team is the Timberwolves, not Minnesota."
+T010,1,1,Wednesday,,,22,22,NAME_MISTAKE,Monday,"The game was played on Monday, not Wednesday."
+T010,1,2,25-35,,,,,NUMBER_MISTAKE,25-31,"The Bucks' record is 25-31, not 25-35."
+T010,1,3,29-31,,,,,NUMBER_MISTAKE,29-35,"The Rockets' record is 29-35, not 29-31."
+T010,3,1,17,,,64,64,NUMBER,,The number of turnovers forced by the home team and the visiting team cannot be the same.
+T010,3,2,17,,,64,64,NUMBER,,The number of turnovers forced by the home team and the visiting team cannot be the same.
+T010,9,1,five rebounds and five assists,,,245,249,NUMBER,4 rebounds and 5 assists,The box score data shows that Jabari Parker had 4 rebounds and 5 assists.
+T010,10,1,54,,,267,267,NUMBER,36,"The total points over two games is 36, not 54."
+T010,11,1,six,,,192,192,NUMBER,eight,"The sentence says that Trevor Ariza finished with 20 points and six rebounds, but the box score data shows that he actually finished with 20 points and 8 rebounds."
+T011,1,1,Wednesday,,,18,18,NAME_MISTAKE,Friday,"The game was played on Friday, not Wednesday."
+T011,3,1,"In fact, the Hawks led for the majority of the game, as the Cavaliers never led by more than seven points for the entirety of the second half.",,,,,OTHER,The Cavaliers led by more than seven points for the entirety of the second half.,"The box-score data shows that the Cavaliers led by more than seven points for the entirety of the second half, which contradicts the statement in the sentence."
+T011,6,1,Saturday,,,,,NAME_MISTAKE,Friday,"The game was played on Friday, not Saturday."
+T011,7,1,11,,,159,159,NUMBER,10,The number of points scored by Richard Jefferson and Channing Frye is incorrect.
+T012,2,1,50 38,,,,,NUMBER,107-104,"The Raptors out-scored the Heat 107-104, not 50-38."
+T012,4,1,55,,,109,109,CONTEXT,,"The field goal percentage mentioned in the sentence is not the team's field goal percentage, but rather Lou Williams' shooting percentage."
+T012,14,1,21,,,423,423,NUMBER,35,The number of minutes played by the player is incorrect.
+T013,1,1,Saturday,,,17,17,NAME_MISTAKE,Sunday,"The game was played on Sunday, not Saturday."
+T013,3,1,"The Jazz ( 23 - 16 ) had a much more balanced attack in the first half , as they outscored the Jazz ( 23 - 16 ) by a 59 - 38 margin over the second and third quarters .",,,70,110,CONTEXT,,"The sentence states that the Jazz had a much more balanced attack in the first half, but the box score data does not provide information about the first half. However, it does show that the Grizzlies won the first three quarters and the Jazz outscored the Grizzlies in the fourth quarter."
+T013,4,1,23-16,,,,,NUMBER,24-16,"The Grizzlies' record is 24-16, not 23-16."
+T013,4,2,23-16,,,,,NUMBER,24-16,"The Jazz's record is 23-16, not 23-16."
+T013,4,3,59-38,,,,,NUMBER,88-79,"The margin of victory is 88-79, not 59-38."
+T013,5,1,Memphis,,,2,2,NAME,Utah,The team name is incorrect.
+T013,8,1,5 -5,,,,,NUMBER,16-4,The Jazz's record in their last 10 games is incorrect.
+T014,1,1,93 104,,,,,NUMBER,104,"The correct score is 104-93, not 93-104."
+T014,4,1,New York,,,,,NAME_MISTAKE,Knicks,"The team that Derrick Rose played for is the Knicks, not New York."
+T014,6,1,12 points seven rebounds and five assists,,,,,NUMBER,The actual number of assists is not available in the data.,"The sentence is partially correct, but the number of assists is not available in the data."
+T014,10,1,a steal,,,234,235,OTHER,1 steal,The box score data only shows 1 steal.
+T015,2,1,three,,,39,39,NUMBER,two,"The Lakers came into this game riding a two-game losing streak, but were able to pull off the win on the road in Detroit."
+T015,3,1,47,,,70,70,NUMBER,37,"The Lakers' field goal percentage was actually 48%, not 47%"
+T015,6,1,"He 's now combined for 52 points in the last two games , as he continues to stay very consistent for the Lakers",,,158,180,NOT_CHECKABLE,,The box score data does not provide information about the points scored by the Lakers in the last two games.
+T015,6,2,"He 's now combined for 52 points in the last two games , as he continues to stay very consistent for the Lakers",,,158,180,NOT_CHECKABLE,,The box score data does not provide information about the consistency of the Lakers' performance.
+T015,7,1,"Brandon Jennings chipped in with 10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT ) and Brandon Jennings had 10 points ( 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT ) off the bench",,,182,229,NUMBER,"Brandon Jennings had 10 points ( 2 - 10 FG, 0 - 1 3Pt, 6 - 6 FT ) off the bench.",The sentence says Brandon Jennings had 10 points twice.
+T016,2,1,"The Sixers ( 7 - 23 ) came into this game as the worst team in the NBA , but the Sixers ( 14 - 17 ) were able to pull away late in the fourth quarter .",,,20,57,NAME,Kings,The team name is incorrect.
+T017,3,1,Pelicans Pelicans,,,,,NUMBER,Heat,"The Pelicans out-scored themselves, which is not possible."
+T017,6,1,"He 's now combined for 54 points in the last two games , as he continues to be a force for the Heat",,,179,201,NUMBER,"The Heat scored 113 points in the last game, and the previous game's score is not provided in the box score data.","The sentence is incorrect because it implies that the Heat scored 54 points in the last two games, but the box score data only provides information about the last game."
+T017,11,1,,,,312,312,NUMBER,24,The player shot 24 points.
+T017,11,2,,,,312,312,NUMBER,14,The player went 14 rebounds.
+T017,11,3,,,,312,312,NUMBER,24 points and 14 rebounds,The player went 24 points and 14 rebounds.
+T018,4,1,Eric Gordon followed up with 26 points on 9 - of - 13 shooting including 8 - of - 12 from long range to go along with four rebounds and two assists in 24 minutes,,,,,NAME,Eric Gordon (Rockets),The team Eric Gordon played for is not mentioned in the sentence.
+T018,7,1,21,,,136,136,NUMBER,10,"The sentence incorrectly states that Julius Randle had 21 points, when in fact he had 21 points and 10 rebounds, implying that he had 10 rebounds, not 21 points."
+T019,1,1,36 42,,,,,NUMBER,35-42,The Nets' record is incorrect.
+T019,4,1,five,,,40,40,NUMBER,4,The number of assists DeMarre Carroll had is incorrect.
+T020,2,1,34 19,,,,,NUMBER,33,"The Heat's score in the third quarter was 33, not 19."
+T020,2,2,34,,,54,54,NUMBER,,The box score data does not provide information on the Hornets' score in the third quarter.
+T020,6,1,six,,,184,184,NUMBER,7,The correct number of players who reached double figures in points is 7.
+T020,7,1,35 minutes,,,259,260,NUMBER,36,"The box score data shows that Luol Deng played 36 minutes, not 35 minutes."
+T020,8,1,22 points,,,246,247,NUMBER,17,The number of points Hassan Whiteside scored is incorrect.
+T020,9,1,"Over his last three games he 's averaging 17 points , 9 rebounds and 3 assists , but has now recorded double - digit points in three straight games",,,310,338,NUMBER,"The player is averaging 17 points, 7 rebounds, and 1 assist over his last game.","The player's statistics for the last game are 17 points, 7 rebounds, and 1 assist."
+T020,10,1,"Hassan Whiteside also had a strong showing, finishing with 17 points (6 - 10 FG, 5 - 6 FT) and seven rebounds.",,,,,NOT_CHECKABLE,,The information about FG and FT is not verifiable from the box score data.
+T021,1,1,4 5,,,,,NUMBER,4-4,"The Nets' record is 4-5, not 4-4."
+T021,7,1,10,,,68,68,NUMBER,12,"The player Jarrett Jack scored 12 points, not 10."
+T022,1,1,Wednesday,,,23,23,NAME_MISTAKE,Sunday,"The game was played on Sunday, not Wednesday."
+T022,4,1,4 for 4,,,,,NUMBER,0,The number of blocked shots is incorrect.
+T022,5,1,3-4 FT,,,,,NOT_CHECKABLE,,The box score data does not provide information on free throw attempts.
+T022,6,1,six,,,,,NUMBER,7,"The correct number of times Tiago Splitter has reached double figures in points is 7, not 6."
+T022,8,1,Portland,,,271,271,NAME,Utah,"The visiting team is actually the Utah Jazz, not the Portland Trail Blazers."
+T022,8,2,Portland,,,271,271,NAME,Utah,"The home team is actually the Utah Jazz, not the Portland Trail Blazers."
+T023,1,1,Wednesday,,,23,23,NAME_MISTAKE,Saturday,"The box score data indicates that the game was played on Saturday, not Wednesday."
+T023,3,1,45,,,68,68,NUMBER,40,"The Mavericks' field goal percentage is actually 40%, not 45%"
+T023,5,1,"Curry went 9 - for - 22 from the field and 3 - for - 11 from the three - point line to score a game - high of 29 points , while also adding eight assists and three rebounds",,,114,153,NUMBER,22,The number of field goal attempts is incorrect.
+T023,6,1,45 points and 21 rebounds,,,171,175,NUMBER,50 points and 20 rebounds,"The total points and rebounds for both players is 50 points and 20 rebounds, not 45 points and 21 rebounds."
+T023,7,1,13,,,199,199,NUMBER,12,The number of points Richard Jefferson finished with is incorrect.
+T024,1,1,Wednesday,,,23,23,CONTEXT,Friday,"The game was played on Friday, not Wednesday."
+T024,7,1,20,,,172,172,NUMBER,21,Number mistake: incorrect number of points scored by Trey Burke
+T024,8,1,The only other Jazz player to reach double figures was Dion Waiters,,,222,233,NAME,Thunder,"Dion Waiters played for the Thunder, not the Jazz."
+T025,5,1,three rebounds and three steals,,,149,153,NUMBER,none,The box score data does not mention Wroten having 3 rebounds and 3 steals.
+T025,10,1,double-double,,,,,NUMBER,single-double,"Robert Covington did not have a double-double, he had 4 points and 1 rebound."
+T026,5,1,"It was his second double - double in a row , as he 's combined for 43 points and 25 rebounds over his last two games",,,147,172,NUMBER,"The player has combined for 23 points and 18 rebounds in one game, and 20 points and 0 rebounds in another game.",The sentence is incorrect because the player has not combined for 43 points and 25 rebounds over his last two games.
+T026,9,1,4 6,,,,,NUMBER,4-7,The number of 3Pt made by Iman Shumpert is incorrect.
+T027,2,1,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,NAME,Wednesday,"The game was played on Wednesday, not Monday."
+T027,2,2,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,NUMBER,available in the box score data,The Rockets' record is not available in the box score data.
+T027,2,3,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,WORD,the Rockets' armor,The correct phrase should be 'pierce the Rockets' armor'.
+T027,2,4,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,CONTEXT,available,The coach of the Rockets is not available in the box score data.
+T027,2,5,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,NOT_CHECKABLE,available,The season high points for the Rockets are not available in the box score data.
+T027,2,6,"The Rockets ( 20 - 7 ) checked in to Monday 's contest with a golden opportunity to keep their faint playoff hopes alive , as the Pelicans ( 9 - 19 ) , while New Orleans ( 9 - 19 ) were able to pierce Houston 's armor Wednesday , touching up Gregg Popovich 's crew for a season - high 122 points .",,,21,85,,,
+T027,3,1,11 assist,,,,,NUMBER,13,"The player James Harden had 13 assists, not 11."
+T027,4,1,Gordon Davis,,,115,116,NAME_MISTAKE,Anthony,"The correct name is Anthony Davis, not Gordon Davis."
+T027,5,1,an assist,,,148,149,NUMBER_MISTAKE,1,"The box-score data shows that Trevor Ariza had 1 assist, not an unspecified number."
+T027,6,1,an assist and a block,,,173,177,OTHER,,The box score data does not show that Buddy Hield had an assist or a block.
+T027,8,1,five rebounds,,,122,123,NUMBER,4,The number of rebounds Alexis Ajinca had is incorrect.
+T027,9,1,11 point,,,,,NUMBER,10,The number of points is incorrect.
+T027,10,1,Alexis Ajinca led the second unit with 20 points five rebounds one assist and three steals,,,,,CONTEXT,"Alexis Ajinca led the Pelicans' second unit with 20 points, five rebounds, one assist and three steals.",The team was not specified in the story.
+T027,14,1,Alexis Ajinca led the second unit with 20 points five rebounds one assist and three steals,,,,,CONTEXT,"Alexis Ajinca led the Pelicans' second unit with 20 points, five rebounds, one assist and three steals.",The team was not specified in the story.
+T027,17,1,Buddy Hield led the second unit with a season - high 29 points along with one assist one rebound and one steal,,,,,NUMBER,11,"The box-score data shows that Buddy Hield had 11 points, not 29 points."
+T028,4,1,"Blake Griffin was the high - point man for the Spurs , with 29 points , to go along with nine rebounds , five assists and one steal , in 38 minutes",,,124,155,NAME_MISTAKE,Los Angeles Clippers,"Blake Griffin is a player for the Los Angeles Clippers, not the San Antonio Spurs."
+T028,7,1,Spurs,,,4,4,NAME,Clippers,"The team that Blake Griffin played for was actually the Clippers, not the Spurs."
+T028,8,1,in 27 minutes off the bench,,,,,CONTEXT,,"The sentence implies that Austin Rivers played off the bench, but the box score data does not provide information about his playing status."
+T029,2,1,out-scoring,,,,,WORD_MISTAKE,out-scored,"The correct verb to use in this context is 'out-scored', not 'out-scoring'."
+T029,2,2,22-25,,,,,NUMBER_MISTAKE,25-22,"The Magic were out-scored by the Suns in the first quarter, not the other way around."
+T029,3,1,Milwaukee Bucks,,,,,NAME_MISTAKE,Detroit Pistons,"The box score data shows that Brandon Knight was acquired in a deadline deal from the Detroit Pistons, not the Milwaukee Bucks."
+T029,6,1,7 -for- 15,,,,,NUMBER,11,The number of field goals made by Morris is incorrect. He actually made 11 field goals.
+T029,7,1,19 points and 7 rebounds,,,175,179,NUMBER,28 points and 7 rebounds,"The sentence says that Brandon Knight is averaging 19 points and 7 rebounds on the year, but the box score data shows that he scored 28 points in this game."
+T030,2,1,going,,,41,41,WORD_MISTAKE,went,The correct phrase should be 'went 40 percent from the field' instead of 'going 40 percent from the field'.
+T030,8,1,three,,,52,52,NUMBER,eight,The Grizzlies have now lost eight of their last nine games.

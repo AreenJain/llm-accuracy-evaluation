@@ -48,6 +48,17 @@ def convert_file(input_path, output_path):
     """Read one LLM CSV, fix its layout, and write it back out."""
     df = pd.read_csv(input_path)
 
+    # If the file has no rows (e.g., only metadata header), create
+    # a sentinel row so downstream tools see an explicit "no
+    # annotations" record instead of an entirely empty CSV.
+    if df.shape[0] == 0:
+        sentinel = {col: pd.NA for col in GSML_COLS}
+        sentinel["TEXT_ID"] = "NO_ANNOTATIONS"
+        sentinel["COMMENT"] = f"Source file: {os.path.basename(input_path)} (no annotations)"
+        out_df = pd.DataFrame([sentinel])
+        out_df.to_csv(output_path, index=False)
+        return len(out_df)
+
     # If the LLM forgot any column, add it as empty so the schema still matches.
     for col in GSML_COLS:
         if col not in df.columns:
@@ -71,8 +82,8 @@ def convert_file(input_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default="results/llm_csv")
-    parser.add_argument("--output_dir", default="results/formatted/ordered")
+    parser.add_argument("--input_dir", default="test_set/results/llm_csv")
+    parser.add_argument("--output_dir", default="test_set/results/formatted/ordered")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)

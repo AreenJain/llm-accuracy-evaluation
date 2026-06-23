@@ -1,0 +1,727 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT,MODEL,PROMPT_KEY,TIME_SECONDS
+T001,1,1,Sacramento Kings,2.0,3.0,NAME,Nets,"The Kings played the Nets, not the Kings.",llama_small,p3,2786.73
+T001,1,2,Wednesday,22.0,22.0,DATE,Monday,"The game was played on Monday, not Wednesday.",llama_small,p3,2786.73
+T001,1,3,Barclays Center,25.0,26.0,NAME,the Barclays Center in Brooklyn,The correct name of the venue is the Barclays Center in Brooklyn.,llama_small,p3,2786.73
+T001,2,4,quick,36.0,36.0,WORD,big,"The Nets got off to a big start, not a quick start.",llama_small,p3,2786.73
+T001,3,5,49 percent,68.0,69.0,NUMBER,45,"The Kings shot 45 percent from the field, not 49 percent.",llama_small,p3,2786.73
+T001,3,6,38 percent,74.0,75.0,NUMBER,38,"The Kings shot 38 percent from the three-point line, not 38 percent from beyond the arc.",llama_small,p3,2786.73
+T001,4,7,49 percent,68.0,69.0,NUMBER,45,"The Nets shot 45 percent from the field, not 49 percent.",llama_small,p3,2786.73
+T001,4,8,38 percent,74.0,75.0,NUMBER,38,"The Nets shot 38 percent from the three-point line, not 38 percent from beyond the arc.",llama_small,p3,2786.73
+T001,5,9,24 points,189.0,190.0,NUMBER,25,"Cousins scored 25 points, not 24 points.",llama_small,p3,2786.73
+T001,5,10,13 rebounds,195.0,196.0,NUMBER,13,"Cousins had 13 rebounds, not 13 rebounds and four blocked shots.",llama_small,p3,2786.73
+T001,6,11,54 points,218.0,219.0,NUMBER,54,"Cousins combined for 54 points, not 54 points and 13 rebounds.",llama_small,p3,2786.73
+T001,7,12,Ben McLemore,240.0,241.0,NAME,Ben McLemore,The correct spelling of the player's name is Ben McLemore.,llama_small,p3,2786.73
+T001,7,13,11 points,246.0,247.0,NUMBER,11,"McLemore finished with 11 points, not 11 points (4-9 FG, 3-7 3Pt, 0-2 FT).",llama_small,p3,2786.73
+T001,7,14,two rebounds,265.0,266.0,NUMBER,two,"McLemore had two rebounds, not two rebounds and two assists.",llama_small,p3,2786.73
+T001,7,15,two assists,268.0,269.0,NUMBER,two,"McLemore had two assists, not two rebounds and two assists.",llama_small,p3,2786.73
+T001,8,16,21 points,288.0,289.0,NUMBER,21,"McLemore is averaging 21 points, not 21 points and 12 rebounds.",llama_small,p3,2786.73
+T001,8,17,12 rebounds,291.0,292.0,NUMBER,12,"McLemore is averaging 12 rebounds, not 21 points and 12 rebounds.",llama_small,p3,2786.73
+T001,9,18,Friday,348.0,348.0,DATE,Tuesday,"The Nets' next game will be on Tuesday, not Friday.",llama_small,p3,2786.73
+T001,9,19,Friday,348.0,348.0,DATE,Friday,"The Kings will be at home against the Cleveland Cavaliers on Friday, not Tuesday.",llama_small,p3,2786.73
+T002,1,1,New Orleans Pelicans,2.0,4.0,NAME,Pelicans,The Pelicans is the correct name of the team.,llama_small,p3,2786.73
+T002,1,2,Smoothie King Center,15.0,17.0,NAME,Smoothie King Center,Smoothie King Center is the correct name of the venue.,llama_small,p3,2786.73
+T002,2,3,Dallas Mavericks,7.0,8.0,NAME,Mavericks,The Mavericks is the correct name of the team.,llama_small,p3,2786.73
+T002,3,4,11 ties,51.0,52.0,NUMBER,11,"The number of ties is correct, but the context implies there were also 11 lead changes, which is incorrect.",llama_small,p3,2786.73
+T002,3,5,11 lead changes,54.0,56.0,NUMBER,12,The number of lead changes is incorrect.,llama_small,p3,2786.73
+T002,4,6,48,83.0,83.0,NUMBER,48,The percentage is correct.,llama_small,p3,2786.73
+T002,4,7,52,89.0,89.0,NUMBER,52,The percentage is correct.,llama_small,p3,2786.73
+T002,5,8,44 34,,,NUMBER,44,The number of rebounds is correct.,llama_small,p3,2786.73
+T002,6,9,32 - 43,119.0,121.0,NUMBER,32,The number of wins is correct.,llama_small,p3,2786.73
+T002,6,10,32 - 43,119.0,121.0,NUMBER,43,The number of losses is correct.,llama_small,p3,2786.73
+T002,7,11,four of their last five,126.0,130.0,WORD,six,"The Pelicans have lost four of their last six games, not five.",llama_small,p3,2786.73
+T002,8,12,19 points,150.0,151.0,NUMBER,19,The number of points is correct.,llama_small,p3,2786.73
+T002,8,13,eight rebounds,153.0,154.0,NUMBER,eight,The number of rebounds is correct.,llama_small,p3,2786.73
+T002,8,14,three assists,156.0,157.0,NUMBER,three,The number of assists is correct.,llama_small,p3,2786.73
+T002,9,15,18 points,168.0,169.0,NUMBER,18,The number of points is correct.,llama_small,p3,2786.73
+T002,9,16,two rebounds,171.0,172.0,NUMBER,two,The number of rebounds is correct.,llama_small,p3,2786.73
+T002,9,17,three assists,156.0,157.0,NUMBER,three,The number of assists is correct.,llama_small,p3,2786.73
+T002,10,18,29 points,252.0,253.0,NUMBER,29,The number of points is correct.,llama_small,p3,2786.73
+T002,10,19,16 rebounds,255.0,256.0,NUMBER,16,The number of rebounds is correct.,llama_small,p3,2786.73
+T002,10,20,six assists,258.0,259.0,NUMBER,six,The number of assists is correct.,llama_small,p3,2786.73
+T002,11,21,18 points,168.0,169.0,NUMBER,18,The number of points is correct.,llama_small,p3,2786.73
+T002,11,22,five rebounds,275.0,276.0,NUMBER,five,The number of rebounds is correct.,llama_small,p3,2786.73
+T002,11,23,seven assists,278.0,279.0,NUMBER,seven,The number of assists is correct.,llama_small,p3,2786.73
+T002,12,24,29 points,252.0,253.0,NUMBER,29,The number of points is correct.,llama_small,p3,2786.73
+T002,12,25,17 rebounds,298.0,299.0,NUMBER,17,The number of rebounds is incorrect.,llama_small,p3,2786.73
+T002,12,26,six assists,258.0,259.0,NUMBER,six,The number of assists is correct.,llama_small,p3,2786.73
+T002,13,27,New Orleans,2.0,3.0,NAME,New Orleans,The Pelicans is the correct name of the team.,llama_small,p3,2786.73
+T002,13,28,Pelicans,4.0,4.0,,,,llama_small,p3,2786.73
+T003,1,1,Wednesday,22.0,22.0,NAME,Thursday,"The game was played on Thursday, not Wednesday.",llama_small,p3,2786.73
+T003,1,2,Amway Center,,,NAME,London,"The game was played in London, not at the Amway Center.",llama_small,p3,2786.73
+T003,1,3,Orlando,11.0,11.0,NAME,Toronto,"The Raptors, not the Magic, played in Orlando.",llama_small,p3,2786.73
+T003,1,4,Orlando,11.0,11.0,NAME,Toronto,"The Raptors, not the Magic, played in Orlando.",llama_small,p3,2786.73
+T003,2,5,Raptors,3.0,3.0,NAME,Magic,"The Magic, not the Raptors, out-scored the Raptors in the first quarter.",llama_small,p3,2786.73
+T003,2,6,Raptors,3.0,3.0,NAME,Magic,"The Magic, not the Raptors, out-scored the Raptors in the first quarter.",llama_small,p3,2786.73
+T003,3,7,41,92.0,92.0,NUMBER,45,"The Magic's field goal percentage was 45%, not 41%.",llama_small,p3,2786.73
+T003,3,8,33,98.0,98.0,NUMBER,39,"The Magic's three-point percentage was 39%, not 33%.",llama_small,p3,2786.73
+T003,3,9,41,92.0,92.0,NUMBER,45,"The Magic's field goal percentage was 45%, not 41%.",llama_small,p3,2786.73
+T003,3,10,39,118.0,118.0,NUMBER,33,"The Magic's three-point percentage was 33%, not 39%.",llama_small,p3,2786.73
+T003,4,11,18,49.0,49.0,NUMBER,10,"The Raptors forced the Magic into 10 turnovers, not 18.",llama_small,p3,2786.73
+T003,4,12,10,141.0,141.0,NUMBER,15,"The Raptors committed 15 turnovers, not 10.",llama_small,p3,2786.73
+T003,5,13,40,183.0,183.0,NUMBER,13,"DeRozan scored 13 points, not 40.",llama_small,p3,2786.73
+T003,5,14,4-for-19,,,NUMBER,4-for-6,"DeRozan made 4 of 6 shots, not 4 of 19.",llama_small,p3,2786.73
+T003,5,15,5-for-6,,,NUMBER,5-for-19,"DeRozan made 5 of 19 shots from the three-point line, not 5 of 6.",llama_small,p3,2786.73
+T003,5,16,25,5.0,5.0,NUMBER,8,"DeRozan averaged 8 rebounds, not 25.",llama_small,p3,2786.73
+T003,6,17,4-for-19,,,NUMBER,4-for-6,"DeRozan made 4 of 6 shots, not 4 of 19.",llama_small,p3,2786.73
+T003,6,18,5-for-6,,,NUMBER,5-for-19,"DeRozan made 5 of 19 shots from the three-point line, not 5 of 6.",llama_small,p3,2786.73
+T003,6,19,25,5.0,5.0,NUMBER,8,"DeRozan averaged 8 rebounds, not 25.",llama_small,p3,2786.73
+T003,7,20,17,303.0,303.0,NUMBER,13,"James Johnson scored 13 points, not 17.",llama_small,p3,2786.73
+T003,7,21,8-22,,,NUMBER,6-11,"James Johnson made 6 of 11 shots, not 8 of 22.",llama_small,p3,2786.73
+T003,7,22,1-1,,,NUMBER,1-3,"James Johnson made 1 of 3 three-pointers, not 1 of 1.",llama_small,p3,2786.73
+T003,7,23,12-14,,,NUMBER,1-2,"James Johnson made 1 of 2 free throws, not 12 of 14.",llama_small,p3,2786.73
+T003,8,24,13,241.0,241.0,NUMBER,6,"Jonas Valanciunas scored 6 points, not 13.",llama_small,p3,2786.73
+T003,8,25,6-11,,,NUMBER,5-11,"Jonas Valanciunas made 5 of 11 shots, not 6 of 11.",llama_small,p3,2786.73
+T003,8,26,1-3,,,,,,llama_small,p3,2786.73
+T004,1,1,The Miami Heat ( 1 - 0 ),1.0,8.0,NUMBER,0-1,"The Heat's record should be 0-1, not 1-0.",llama_small,p3,2786.73
+T004,1,2,Tuesday,22.0,22.0,DAY,Wednesday,"The game was played on Wednesday, not Tuesday.",llama_small,p3,2786.73
+T004,1,3,American Airlines Arena,24.0,26.0,NAME,American Airlines Arena,"The arena name is correct, but it's not necessary to include the type.",llama_small,p3,2786.73
+T004,2,4,"The Wizards got off to a quick start in this one , out- scoring the Wizards 28- 28 right away in the first quarter .",,,CONTEXT,,"The sentence is literally true, but the context is misleading because it implies the Wizards were leading, when in fact they were tied.",llama_small,p3,2786.73
+T004,3,5,"The Wizards were able to out- score the Wizards 35- 25 in the first quarter , while the Wizards were able to coast to a victory in front of their home crowd .",,,CONTEXT,,"The sentence is literally true, but the context is misleading because it implies the Wizards were leading, when in fact they were tied.",llama_small,p3,2786.73
+T004,4,6,"The Wizards were able to out- rebound the Wizards 44- 36 , giving them just enough of an advantage to secure the victory in front of their home crowd .",,,CONTEXT,,"The sentence is literally true, but the context is misleading because it implies the Wizards were leading, when in fact they were tied.",llama_small,p3,2786.73
+T004,5,7,"The Wizards were also able to shoot 48 percent from the field and 32 percent from the three- point line , while the Wizards went 48 percent from the floor and just 32 percent from beyond the arc .",,,NUMBER,"48% from the field and 32% from the three-point line, while the Heat went 48% from the floor and just 32% from beyond the arc.","The percentages are correct, but the context is misleading because it implies the Wizards were shooting better than the Heat.",llama_small,p3,2786.73
+T004,6,8,The Heat were led by the duo of John Wall and Bradley Beal .,164.0,177.0,NAME,The Heat were led by the duo of John Wall and Otto Porter.,Bradley Beal is not a member of the Heat.,llama_small,p3,2786.73
+T004,7,9,"Wall went 6- for- 13 from the field and 0- for- 2 from the three- point line to score a game- high of 16 points , while also adding 11 assists and two steals .",,,NUMBER,"Wall went 6-for-13 from the field and 0-for-2 from the three-point line to score a game-high of 16 points, while also adding 11 assists and two steals.","The number of steals is correct, but the context is misleading because it implies Wall had two steals, when in fact he had one steal.",llama_small,p3,2786.73
+T004,8,10,"It was his second double- double in a row , as he 's combined for 54 points and 14 rebounds over his last two games .",,,NUMBER,"It was his second double-double in a row, as he's combined for 54 points and 14 rebounds over his last two games.","The number of rebounds is correct, but the context is misleading because it implies Wall had 14 rebounds, when in fact he had 13 rebounds.",llama_small,p3,2786.73
+T004,9,11,"Marcin Gortat had a solid showing as well , going 7- for- 14 from the field and 4- for- 5 from the three- point line to score 18 points , while also adding seven rebounds and a blocked shot .",,,NUMBER,"Marcin Gortat had a solid showing as well, going 7-for-14 from the field and 4-for-5 from the three-point line to score 18 points, while also adding seven rebounds and a blocked shot.","The number of three-pointers made is correct, but the context is misleading because it implies Gortat made 5 three-pointers, when in fact he made 4 three-pointers.",llama_small,p3,2786.73
+T004,10,12,"Coming off the bench , Danny Granger had 21 points ( 8- 16 FG , 2- 3 3Pt , 3- 3 FT ) and three rebounds in 31 minutes .",,,,,,llama_small,p3,2786.73
+T005,1,1,Saturday evening,17.0,18.0,CONTEXT,Monday night,"The game was played on Monday night, not Saturday evening.",llama_small,p3,2786.73
+T005,1,2,Spectrum Center,14.0,15.0,NAME,Spectrum Center,"The arena name is correct, but it should be a single entity.",llama_small,p3,2786.73
+T005,1,3,Saturday night,,,CONTEXT,Monday night,"The game was played on Monday night, not Saturday night.",llama_small,p3,2786.73
+T005,2,4,Tuesday,30.0,30.0,NAME,Monday,The day of the week is incorrect.,llama_small,p3,2786.73
+T005,2,5,Tuesday evening,,,CONTEXT,Monday evening,The day of the week is incorrect.,llama_small,p3,2786.73
+T005,3,6,30 -point,,,NUMBER,30,The first quarter score is missing the opponent's score.,llama_small,p3,2786.73
+T005,3,7,first quarter,38.0,39.0,WORD,first quarter,The phrase should be a single entity.,llama_small,p3,2786.73
+T005,4,8,30 -22 lead,,,NUMBER,30-22,The score is missing the opponent's score.,llama_small,p3,2786.73
+T005,4,9,Wizards responded,124.0,125.0,NAME,Wizards countered,The verb tense is incorrect.,llama_small,p3,2786.73
+T005,4,10,30 -20 fourth quarter,,,NUMBER,30-20 fourth quarter,The score is missing the opponent's score.,llama_small,p3,2786.73
+T005,5,11,game-high,,,WORD,game-high is not needed,The phrase is unnecessary.,llama_small,p3,2786.73
+T005,5,12,18 points,151.0,152.0,NUMBER,18,The number of points is missing the context of the game.,llama_small,p3,2786.73
+T005,5,13,five rebounds,158.0,159.0,NUMBER,five rebounds,The number of rebounds is missing the context of the game.,llama_small,p3,2786.73
+T005,5,14,four assists,161.0,162.0,NUMBER,four assists,The number of assists is missing the context of the game.,llama_small,p3,2786.73
+T005,5,15,one steal,164.0,165.0,NUMBER,one steal,The number of steals is missing the context of the game.,llama_small,p3,2786.73
+T005,6,16,24 -point,,,NUMBER,24,The number of points is missing the context of the game.,llama_small,p3,2786.73
+T005,6,17,20 -rebound,,,NUMBER,20,The number of rebounds is missing the context of the game.,llama_small,p3,2786.73
+T005,6,18,seven assists,185.0,186.0,NUMBER,seven assists,The number of assists is missing the context of the game.,llama_small,p3,2786.73
+T005,6,19,four steals,188.0,189.0,NUMBER,four steals,The number of steals is missing the context of the game.,llama_small,p3,2786.73
+T005,6,20,one block,191.0,192.0,NUMBER,one block,The number of blocks is missing the context of the game.,llama_small,p3,2786.73
+T005,7,21,23 points,197.0,198.0,NUMBER,23,The number of points is missing the context of the game.,llama_small,p3,2786.73
+T005,7,22,eight rebounds,200.0,201.0,NUMBER,eight rebounds,The number of rebounds is missing the context of the game.,llama_small,p3,2786.73
+T005,7,23,two assists,203.0,204.0,NUMBER,two assists,The number of assists is missing the context of the game.,llama_small,p3,2786.73
+T005,7,24,one block,191.0,192.0,NUMBER,one block,The number of blocks is missing the context of the game.,llama_small,p3,2786.73
+T005,8,25,13 points,212.0,213.0,NUMBER,13,The number of points is missing the context of the game.,llama_small,p3,2786.73
+T005,8,26,nine rebounds,290.0,291.0,NUMBER,nine rebounds,The number of rebounds is missing the context of the game.,llama_small,p3,2786.73
+T005,8,27,two assists,203.0,204.0,,,,llama_small,p3,2786.73
+T006,1,1,Memphis Grizzlies,2.0,3.0,NAME,New York Knicks,"The Grizzlies defeated the Knicks, but the Grizzlies are the team that won.",llama_small,p3,2786.73
+T006,1,2,50 - 21,5.0,7.0,NUMBER,14-57,The Grizzlies' record is incorrect.,llama_small,p3,2786.73
+T006,1,3,103 - 82,18.0,20.0,NUMBER,82-103,The Grizzlies' score is incorrect.,llama_small,p3,2786.73
+T006,2,4,Marc Gasol,22.0,23.0,NAME,Zach Randolph,Marc Gasol did not score in double figures.,llama_small,p3,2786.73
+T006,2,5,21,7.0,7.0,NUMBER,23,Zach Randolph's points are incorrect.,llama_small,p3,2786.73
+T006,2,6,12,42.0,42.0,NUMBER,7,Zach Randolph's rebounds are incorrect.,llama_small,p3,2786.73
+T006,2,7,5,,,NUMBER,5,Zach Randolph's assists are incorrect.,llama_small,p3,2786.73
+T006,2,8,1,,,NUMBER,1,Zach Randolph's steal is incorrect.,llama_small,p3,2786.73
+T006,2,9,1,,,NUMBER,0,Zach Randolph's block is incorrect.,llama_small,p3,2786.73
+T006,3,10,Marc Gasol,22.0,23.0,NAME,Zach Randolph,Marc Gasol did not score in double figures.,llama_small,p3,2786.73
+T006,3,11,21,7.0,7.0,NUMBER,23,Zach Randolph's points are incorrect.,llama_small,p3,2786.73
+T006,3,12,8,,,NUMBER,7,Zach Randolph's rebounds are incorrect.,llama_small,p3,2786.73
+T006,3,13,3,,,NUMBER,5,Zach Randolph's assists are incorrect.,llama_small,p3,2786.73
+T006,3,14,1,,,NUMBER,1,Zach Randolph's steal is incorrect.,llama_small,p3,2786.73
+T006,3,15,1,,,NUMBER,0,Zach Randolph's block is incorrect.,llama_small,p3,2786.73
+T006,4,16,Zach Randolph,25.0,26.0,NAME,Marc Gasol,Zach Randolph did not score in double figures.,llama_small,p3,2786.73
+T006,4,17,23,79.0,79.0,NUMBER,21,Marc Gasol's points are incorrect.,llama_small,p3,2786.73
+T006,4,18,7,,,NUMBER,8,Marc Gasol's rebounds are incorrect.,llama_small,p3,2786.73
+T006,4,19,5,,,NUMBER,3,Marc Gasol's assists are incorrect.,llama_small,p3,2786.73
+T006,4,20,1,,,NUMBER,1,Marc Gasol's steal is incorrect.,llama_small,p3,2786.73
+T006,4,21,1,,,NUMBER,0,Marc Gasol's block is incorrect.,llama_small,p3,2786.73
+T006,5,22,Zach Randolph,25.0,26.0,NAME,Marc Gasol,Zach Randolph did not score in double figures.,llama_small,p3,2786.73
+T006,5,23,23,79.0,79.0,NUMBER,21,Marc Gasol's points are incorrect.,llama_small,p3,2786.73
+T006,5,24,7,,,NUMBER,8,Marc Gasol's rebounds are incorrect.,llama_small,p3,2786.73
+T006,5,25,5,,,NUMBER,3,Marc Gasol's assists are incorrect.,llama_small,p3,2786.73
+T006,5,26,1,,,NUMBER,1,Marc Gasol's steal is incorrect.,llama_small,p3,2786.73
+T006,5,27,1,,,NUMBER,0,Marc Gasol's block is incorrect.,llama_small,p3,2786.73
+T006,6,28,The Grizzlies,92.0,93.0,NAME,The Knicks,The Grizzlies did not shoot 52 percent from the field.,llama_small,p3,2786.73
+T006,6,29,52,95.0,95.0,,,,llama_small,p3,2786.73
+T007,1,1,Portland Trail Blazers,2.0,4.0,NAME,Trail Blazers,Incorrect team name,llama_small,p3,2786.73
+T007,1,2,14 - 20,6.0,8.0,NUMBER,14-21,Incorrect opponent record,llama_small,p3,2786.73
+T007,1,3,Wednesday,26.0,26.0,NAME,Wednesday night,Incorrect day of the week,llama_small,p3,2786.73
+T007,2,4,third,,,NUMBER,third-straight,Incorrect word choice,llama_small,p3,2786.73
+T007,2,5,Damian Lillard,,,NAME,Damian Lillard,Incorrect player name,llama_small,p3,2786.73
+T007,3,6,76 - 53,,,NUMBER,76-53,Incorrect score,llama_small,p3,2786.73
+T007,4,7,50,,,NUMBER,nearly 50 percent,Incorrect word choice,llama_small,p3,2786.73
+T007,5,8,close,33.0,33.0,WORD,close throughout,Incorrect word choice,llama_small,p3,2786.73
+T007,6,9,seventh,,,NUMBER,seventh in their last eight games,Incorrect word choice,llama_small,p3,2786.73
+T007,7,10,defense,,,WORD,both ends of the floor,Incorrect word choice,llama_small,p3,2786.73
+T007,8,11,injuries,,,WORD,injuries and it's hard to imagine,Incorrect word choice,llama_small,p3,2786.73
+T007,9,12,homecoming,,,WORD,played his homecoming game here,Incorrect word choice,llama_small,p3,2786.73
+T007,10,13,31 points five rebounds and four assists,,,NUMBER,"31 points, five rebounds and four assists",Incorrect punctuation,llama_small,p3,2786.73
+T007,11,14,19 points and grabbed four rebounds,,,NUMBER,19 points and grabbed four rebounds,Incorrect punctuation,llama_small,p3,2786.73
+T007,12,15,"Danilo Gallinari , Emmanuel Mudiay and Jusuf Nurkic",,,NAME,"Danilo Gallinari, Emmanuel Mudiay and Jusuf Nurkic",Incorrect player names,llama_small,p3,2786.73
+T007,13,16,Saturday,,,NAME,Saturday when they take on,Incorrect day of the week,llama_small,p3,2786.73
+T007,14,17,Damian Lillard,,,NAME,Damian Lillard,Incorrect player name,llama_small,p3,2786.73
+T007,15,18,CJ McCollum,,,NAME,C.J. McCollum,Incorrect player name,llama_small,p3,2786.73
+T007,16,19,Allen Crabbe,,,NAME,Allen Crabbe,Incorrect player name,llama_small,p3,2786.73
+T007,17,20,Utah Jazz,,,NAME,Utah Jazz,Incorrect team name,llama_small,p3,2786.73
+T007,18,21,Sunday,428.0,428.0,NAME,Sunday when they host the Nuggets,Incorrect day of the week,llama_small,p3,2786.73
+T007,19,22,Memphis,436.0,436.0,NAME,Memphis on Sunday,Incorrect city name,llama_small,p3,2786.73
+T007,20,23,Nuggets,13.0,13.0,NAME,Nuggets on Sunday,Incorrect team name,llama_small,p3,2786.73
+T007,21,24,Nuggets,13.0,13.0,NAME,Nuggets,Incorrect team name,llama_small,p3,2786.73
+T007,22,25,Nuggets,13.0,13.0,NAME,Nuggets,Incorrect team name,llama_small,p3,2786.73
+T007,23,26,Nuggets,13.0,13.0,NAME,Nuggets,Incorrect team name,llama_small,p3,2786.73
+T007,24,27,Nuggets,13.0,13.0,NAME,Nuggets,Incorrect team name,llama_small,p3,2786.73
+T007,25,28,Nuggets,13.0,13.0,,,,llama_small,p3,2786.73
+T008,1,1,16 -,5.0,6.0,NUMBER,9,The Pacers' record is incorrect.,llama_small,p3,2786.73
+T008,1,2,7 -,14.0,15.0,NUMBER,19,The Nets' record is incorrect.,llama_small,p3,2786.73
+T008,1,3,Friday,22.0,22.0,NAME,12_18_15,The day of the game is incorrect.,llama_small,p3,2786.73
+T008,2,4,fourth,44.0,44.0,WORD,third,The number of consecutive losses is incorrect.,llama_small,p3,2786.73
+T008,2,5,seven,288.0,288.0,NUMBER,1,Paul George's turnovers are incorrect.,llama_small,p3,2786.73
+T008,2,6,1-for-8,,,WORD,0-for-8,Monta Ellis's shooting percentage is incorrect.,llama_small,p3,2786.73
+T008,3,7,14,155.0,155.0,NUMBER,6,Thaddeus Young's offensive rebounds are incorrect.,llama_small,p3,2786.73
+T008,4,8,nine,,,NUMBER,7,Thaddeus Young's rebounds per game are incorrect.,llama_small,p3,2786.73
+T008,5,9,26,,,NUMBER,26,Jarrett Jack's points are correct.,llama_small,p3,2786.73
+T008,5,10,nine,,,NUMBER,9,Jarrett Jack's rebounds are incorrect.,llama_small,p3,2786.73
+T008,5,11,six,105.0,105.0,NUMBER,6,Jarrett Jack's assists are incorrect.,llama_small,p3,2786.73
+T008,7,12,2015-16,,,WORD,2015-15,The season is incorrect.,llama_small,p3,2786.73
+T008,9,13,Saturday,194.0,194.0,NAME,12_19_15,The date is incorrect.,llama_small,p3,2786.73
+T008,10,14,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,11,15,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,12,16,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,13,17,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,14,18,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,15,19,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,16,20,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,17,21,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,18,22,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,19,23,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,20,24,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,21,25,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,22,26,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,23,27,Saturday,194.0,194.0,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,24,28,Sunday,,,NAME,12_20_15,The date is incorrect.,llama_small,p3,2786.73
+T008,25,29,Saturday,194.0,194.0,,,,llama_small,p3,2786.73
+T009,1,1,Minnesota Timberwolves,2.0,3.0,NAME,Heat,"The Heat played the Timberwolves, not the Minnesota Timberwolves.",llama_small,p3,2786.73
+T009,1,2,Saturday,18.0,18.0,WORD,Monday,"The game was played on Monday, not Saturday.",llama_small,p3,2786.73
+T009,2,3,22 -,23.0,24.0,NUMBER,19,"The Timberwolves' win-loss record was 19-33, not 22-30.",llama_small,p3,2786.73
+T009,2,4,22 -,23.0,24.0,NUMBER,30,"The Heat's win-loss record was 22-30, not 22-30.",llama_small,p3,2786.73
+T009,3,5,31 -,89.0,90.0,NUMBER,22,"The Heat outscored the Timberwolves by a 22-31 margin, not 31-22.",llama_small,p3,2786.73
+T009,4,6,two,117.0,117.0,WORD,three,"Goran Dragic scored a team-high 33 points, not two points.",llama_small,p3,2786.73
+T009,4,7,Monday,,,WORD,Saturday,"The game was played on Saturday, not Monday.",llama_small,p3,2786.73
+T009,5,8,7 -,,,NUMBER,9,"Dragic hit 7-of-9 shots from behind the arc, not 7-of-9.",llama_small,p3,2786.73
+T009,5,9,13 -,152.0,153.0,NUMBER,17,"Dragic hit 13-of-17 shots from the field, not 13-of-17.",llama_small,p3,2786.73
+T009,6,10,five,63.0,63.0,NUMBER,six,"Dragic has now shot at least 55 percent from the field in six of his last six contests, not five.",llama_small,p3,2786.73
+T009,6,11,60,,,NUMBER,75,"Dragic is shooting 75 percent from three-point range, not 60 percent.",llama_small,p3,2786.73
+T009,7,12,8,,,NUMBER,9,"Dragic has remained a playmaker, dishing out 9 assists per game over that same stretch, not 8.",llama_small,p3,2786.73
+T009,9,13,35,241.0,241.0,NUMBER,27,"Karl-Anthony Towns led the way for the Timberwolves with a game-high 35 points, not 27.",llama_small,p3,2786.73
+T009,10,14,27,259.0,259.0,NUMBER,35,"Andrew Wiggins followed with 27 points, not 35.",llama_small,p3,2786.73
+T009,11,15,14,278.0,278.0,NUMBER,14,"Ricky Rubio posted a 14-point, 13-assist double-double, not 14-point, 13-assist double-double.",llama_small,p3,2786.73
+T009,12,16,12,96.0,96.0,NUMBER,12,"Shabazz Muhammad paced the bench with 12 points, not 12 points.",llama_small,p3,2786.73
+T010,1,1,The Milwaukee Bucks,1.0,3.0,NAME,BMO Harris Bradley Center,Incorrect venue name,llama_small,p3,2786.73
+T010,1,2,25 - 35,5.0,7.0,NUMBER,25-31,Incorrect opponent record,llama_small,p3,2786.73
+T010,1,3,25 - 35,5.0,7.0,NUMBER,29-31,Incorrect Bucks record,llama_small,p3,2786.73
+T010,1,4,on Wednesday,21.0,22.0,WORD,on Monday night,Incorrect day of the week,llama_small,p3,2786.73
+T010,2,5,32 - 26,46.0,48.0,NUMBER,26-32,Incorrect score at the end of the first quarter,llama_small,p3,2786.73
+T010,2,6,the Rockets,44.0,45.0,NAME,the Bucks,Incorrect team name,llama_small,p3,2786.73
+T010,3,7,17,64.0,64.0,NUMBER,16,Incorrect number of turnovers forced by the Bucks,llama_small,p3,2786.73
+T010,3,8,the Rockets,44.0,45.0,NAME,the Bucks,Incorrect team name,llama_small,p3,2786.73
+T010,4,9,59,86.0,86.0,NUMBER,42,Incorrect percentage from the field for the Rockets,llama_small,p3,2786.73
+T010,4,10,53,92.0,92.0,NUMBER,42,Incorrect percentage from the three-point line for the Rockets,llama_small,p3,2786.73
+T010,5,11,the Bucks,102.0,103.0,NAME,the Rockets,Incorrect team name,llama_small,p3,2786.73
+T010,5,12,17,64.0,64.0,NUMBER,16,Incorrect number of turnovers committed by the Bucks,llama_small,p3,2786.73
+T010,6,13,James Harden,148.0,149.0,NAME,Dwight Howard,Incorrect player name,llama_small,p3,2786.73
+T010,6,14,26,48.0,48.0,NUMBER,30,Incorrect number of points scored by James Harden,llama_small,p3,2786.73
+T010,6,15,9,300.0,300.0,NUMBER,11,Incorrect number of assists by James Harden,llama_small,p3,2786.73
+T010,6,16,6,298.0,298.0,NUMBER,13,Incorrect number of rebounds by James Harden,llama_small,p3,2786.73
+T010,6,17,three steals,,,WORD,six steals,Incorrect number of steals by James Harden,llama_small,p3,2786.73
+T010,7,18,Jabari Parker,208.0,209.0,NAME,James Harden,Incorrect player name,llama_small,p3,2786.73
+T010,7,19,36,239.0,239.0,NUMBER,26,Incorrect number of points scored by Jabari Parker,llama_small,p3,2786.73
+T010,7,20,5,,,NUMBER,9,Incorrect number of rebounds by Jabari Parker,llama_small,p3,2786.73
+T010,7,21,5,,,NUMBER,7,Incorrect number of assists by Jabari Parker,llama_small,p3,2786.73
+T010,8,22,Trevor Ariza,289.0,290.0,NAME,Dwight Howard,Incorrect player name,llama_small,p3,2786.73
+T010,8,23,20,199.0,199.0,NUMBER,30,Incorrect number of points scored by Trevor Ariza,llama_small,p3,2786.73
+T010,8,24,6,298.0,298.0,NUMBER,13,Incorrect number of rebounds by Trevor Ariza,llama_small,p3,2786.73
+T010,9,25,the Detroit Pistons,328.0,330.0,NAME,the Pelicans,Incorrect opponent name,llama_small,p3,2786.73
+T010,9,26,the Detroit Pistons,328.0,330.0,,,,llama_small,p3,2786.73
+T011,1,1,Atlanta Hawks,2.0,3.0,NAME,Cavaliers,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,1,2,Philips Arena,15.0,16.0,NAME,State Farm Arena,"The arena is actually State Farm Arena, not Philips Arena.",llama_small,p3,2786.73
+T011,1,3,Friday,193.0,193.0,NAME,Wednesday,"The day of the week is actually Wednesday, not Friday.",llama_small,p3,2786.73
+T011,2,4,Cleveland,7.0,7.0,NAME,Atlanta,"The host team is actually the Hawks, not the Cavaliers.",llama_small,p3,2786.73
+T011,2,5,135 -,,,NUMBER,130,"The score is actually 130-135, not 135-130.",llama_small,p3,2786.73
+T011,3,6,NBA,,,NAME,NBA,"This is a correct statement, but it's not relevant to the game summary.",llama_small,p3,2786.73
+T011,3,7,25,,,NUMBER,25,"This is a correct statement, but it's not relevant to the game summary.",llama_small,p3,2786.73
+T011,4,8,Friday,193.0,193.0,NAME,Saturday,"The day of the week is actually Saturday, not Friday.",llama_small,p3,2786.73
+T011,5,9,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,5,10,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,6,11,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,6,12,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,7,13,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,7,14,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,8,15,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,8,16,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,9,17,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,9,18,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,10,19,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,10,20,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,11,21,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,11,22,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,12,23,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,12,24,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,13,25,Cleveland,7.0,7.0,NAME,Atlanta,"The visiting team is actually the Cavaliers, not the Hawks.",llama_small,p3,2786.73
+T011,13,26,42 - 18,71.0,73.0,NUMBER,34-27,"The Hawks' record is actually 34-27, not 42-18.",llama_small,p3,2786.73
+T011,14,27,Cleveland,7.0,7.0,,,,llama_small,p3,2786.73
+T012,1,1,Toronto Raptors,2.0,3.0,NAME,Heat,"The Heat played the Raptors, not the other way around.",llama_small,p3,2786.73
+T012,1,2,48 -,5.0,6.0,NUMBER,35-45,"The Heat's record is 35-45, not 48-32.",llama_small,p3,2786.73
+T012,2,3,American Airlines Arena,24.0,26.0,OTHER,None,"The game was played at the American Airlines Arena, which is correct.",llama_small,p3,2786.73
+T012,3,4,50 -,44.0,45.0,NUMBER,29-23,"The Heat outscored the Raptors 29-23 in the first half, not 50-38.",llama_small,p3,2786.73
+T012,4,5,Kyle Lowry,68.0,69.0,NAME,None,The box score does not mention Kyle Lowry's stats.,llama_small,p3,2786.73
+T012,5,6,12 points,74.0,75.0,NUMBER,None,The box score does not mention Kyle Lowry's stats.,llama_small,p3,2786.73
+T012,5,7,3- 14 FG,,,NUMBER,None,The box score does not mention Kyle Lowry's stats.,llama_small,p3,2786.73
+T012,5,8,0- 8 3Pt,,,NUMBER,None,The box score does not mention Kyle Lowry's stats.,llama_small,p3,2786.73
+T012,5,9,6- 7 FT,,,NUMBER,None,The box score does not mention Kyle Lowry's stats.,llama_small,p3,2786.73
+T012,6,10,DeRozan,131.0,131.0,NAME,DeMar DeRozan,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,6,11,24 points,139.0,140.0,NUMBER,24,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,6,12,7- 17 FG,,,NUMBER,7-17,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,6,13,1- 1 3Pt,,,NUMBER,1-1,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,6,14,9- 11 FT,,,NUMBER,9-11,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,7,15,DeRozan,131.0,131.0,NAME,DeMar DeRozan,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,7,16,24 points,139.0,140.0,NUMBER,24,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,7,17,7- 17 FG,,,NUMBER,7-17,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,7,18,1- 1 3Pt,,,NUMBER,1-1,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,7,19,9- 11 FT,,,NUMBER,9-11,The box score lists DeMar DeRozan's stats.,llama_small,p3,2786.73
+T012,8,20,Dwyane Dragic,255.0,256.0,NAME,Goran Dragic,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,8,21,22 points,264.0,265.0,NUMBER,22,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,8,22,9- 17 FG,,,NUMBER,9-16,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,8,23,3- 7 3Pt,,,NUMBER,3-7,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,8,24,3- 3 FT,,,NUMBER,3-3,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,9,25,Dragic,256.0,256.0,NAME,Goran Dragic,The box score lists Goran Dragic's stats.,llama_small,p3,2786.73
+T012,9,26,22 points,264.0,265.0,,,,llama_small,p3,2786.73
+T013,1,1,Saturday,17.0,17.0,NAME,Sunday,"The game was played on Sunday, not Saturday.",llama_small,p3,2786.73
+T013,1,2,FedEx Forum,,,NAME,FedExForum,"The correct name of the arena is FedExForum, not FedEx Forum.",llama_small,p3,2786.73
+T013,2,3,24 - 16,22.0,24.0,NUMBER,23-16,"The Grizzlies' record was 23-16, not 24-16.",llama_small,p3,2786.73
+T013,3,4,24 - 16,22.0,24.0,NUMBER,23-16,"The Grizzlies' record was 23-16, not 24-16.",llama_small,p3,2786.73
+T013,4,5,23 - 16,45.0,47.0,NUMBER,24-16,"The Grizzlies' record was 24-16, not 23-16.",llama_small,p3,2786.73
+T013,5,6,59 - 38,100.0,102.0,NUMBER,59-38,"The margin was 59-38, not 59-38.",llama_small,p3,2786.73
+T013,6,7,59 - 38,100.0,102.0,NUMBER,59-38,"The margin was 59-38, not 59-38.",llama_small,p3,2786.73
+T013,7,8,22 points,160.0,161.0,NUMBER,22,"Gordon Hayward scored 22 points, but the text also mentions the number of points.",llama_small,p3,2786.73
+T013,8,9,five rebounds,167.0,168.0,WORD,five rebounds and two assists,"The text only mentions five rebounds, but Gordon Hayward also had two assists.",llama_small,p3,2786.73
+T013,8,10,two assists,170.0,171.0,WORD,two assists and two steals,"The text only mentions two assists, but Gordon Hayward also had two steals.",llama_small,p3,2786.73
+T013,8,11,two steals,173.0,174.0,WORD,two assists and two steals,"The text only mentions two steals, but Gordon Hayward also had two assists.",llama_small,p3,2786.73
+T013,9,12,15 points,184.0,185.0,NUMBER,15,"George Hill scored 15 points, but the text also mentions the number of points.",llama_small,p3,2786.73
+T013,10,13,four rebounds,187.0,188.0,WORD,four rebounds and two assists,"The text only mentions four rebounds, but George Hill also had two assists.",llama_small,p3,2786.73
+T013,10,14,two assists,170.0,171.0,WORD,four rebounds and two assists,"The text only mentions two assists, but George Hill also had four rebounds.",llama_small,p3,2786.73
+T013,11,15,15 points,184.0,185.0,NUMBER,15,"Rudy Gobert scored 15 points, but the text also mentions the number of points.",llama_small,p3,2786.73
+T013,12,16,four rebounds,187.0,188.0,WORD,four rebounds and two assists,"The text only mentions four rebounds, but Rudy Gobert also had two assists.",llama_small,p3,2786.73
+T013,12,17,two assists,170.0,171.0,WORD,four rebounds and two assists,"The text only mentions two assists, but Rudy Gobert also had four rebounds.",llama_small,p3,2786.73
+T013,13,18,five points,209.0,210.0,WORD,five points and 12 rebounds,"The text only mentions five points, but Rudy Gobert also had 12 rebounds.",llama_small,p3,2786.73
+T013,13,19,12 boards,215.0,216.0,NUMBER,12,"Rudy Gobert hauled in 12 rebounds, but the text also mentions the number of boards.",llama_small,p3,2786.73
+T013,13,20,two assists,170.0,171.0,WORD,two assists and three steals,"The text only mentions two assists, but Rudy Gobert also had three steals.",llama_small,p3,2786.73
+T013,13,21,three steals,224.0,225.0,WORD,two assists and three steals,"The text only mentions three steals, but Rudy Gobert also had two assists.",llama_small,p3,2786.73
+T013,14,22,11 points,238.0,239.0,NUMBER,11,"Trey Lyles scored 11 points, but the text also mentions the number of points.",llama_small,p3,2786.73
+T013,15,23,19 points,256.0,257.0,NUMBER,19,"Mike Conley scored 19 points, but the text also mentions the number of points.",llama_small,p3,2786.73
+T013,16,24,nine assists,259.0,260.0,WORD,nine assists and two rebounds,"The text only mentions nine assists, but Mike Conley also had two rebounds.",llama_small,p3,2786.73
+T013,16,25,two rebounds,241.0,242.0,,,,llama_small,p3,2786.73
+T014,1,1,New York,,,NAME,Milwaukee,"The Knicks played at home, not away.",llama_small,p3,2786.73
+T014,1,2,BMO Harris Bradley Center,,,NAME,Fiserv Forum,"The Bucks play at Fiserv Forum, not BMO Harris Bradley Center.",llama_small,p3,2786.73
+T014,1,3,Friday,20.0,20.0,NAME,Wednesday,"The game was played on Wednesday, not Friday.",llama_small,p3,2786.73
+T014,2,4,26-39,,,NUMBER,30-33,"The Knicks' record was 30-33, not 26-39.",llama_small,p3,2786.73
+T014,2,5,30-33,,,NUMBER,30-33,"The Bucks' record was 30-33, not 30-33.",llama_small,p3,2786.73
+T014,3,6,five of their last six games,,,WORD,five of their last seven games,"The Bucks have won five of their last seven games, not six.",llama_small,p3,2786.73
+T014,3,7,five of their last six games,,,WORD,five of their last seven games,"The Bucks have won five of their last seven games, not six.",llama_small,p3,2786.73
+T014,4,8,13-of-16,,,NUMBER,13-of-16,"The correction is the same as the original, but the context is incorrect.",llama_small,p3,2786.73
+T014,4,9,"13 points, eight boards, two assists and three blocks",,,WORD,"13 points, eight boards, two assists and two blocks","Kristaps Porzingis had two blocks, not three.",llama_small,p3,2786.73
+T014,5,10,13 points and 12 rebounds,,,NUMBER,13 points and 12 rebounds,"The correction is the same as the original, but the context is incorrect.",llama_small,p3,2786.73
+T014,5,11,"12 points, seven rebounds and five assists",,,WORD,"12 points, seven rebounds and three assists","Courtney Lee had three assists, not five.",llama_small,p3,2786.73
+T014,6,12,five of their last six games,,,WORD,five of their last seven games,"The Bucks have won five of their last seven games, not six.",llama_small,p3,2786.73
+T014,7,13,"32 points, 13 rebounds, seven assists, four steals and two blocks",,,NUMBER,"32 points, 13 rebounds, seven assists, four steals and two blocks","The correction is the same as the original, but the context is incorrect.",llama_small,p3,2786.73
+T014,7,14,"18 points, four assists, three rebounds and a steal",,,WORD,"18 points, four assists, three rebounds and one steal","Khris Middleton had one steal, not a steal.",llama_small,p3,2786.73
+T014,8,15,"17 points, eight rebounds, three assists and a steal",,,WORD,"17 points, eight rebounds, three assists and one steal","Greg Monroe had one steal, not a steal.",llama_small,p3,2786.73
+T014,9,16,"10 points, three assists and two rebounds",,,NUMBER,"10 points, three assists and two rebounds","The correction is the same as the original, but the context is incorrect.",llama_small,p3,2786.73
+T015,1,1,Los Angeles Lakers,,,NAME,Detroit,"The Lakers are playing against the Pistons, not the Lakers.",llama_small,p3,2786.73
+T015,1,2,5 - 13,6.0,8.0,NUMBER,3-15,The Pistons' record is incorrect.,llama_small,p3,2786.73
+T015,1,3,Wednesday,23.0,23.0,NAME,Tuesday,"The game was played on Tuesday, not Wednesday.",llama_small,p3,2786.73
+T015,2,4,three,39.0,39.0,WORD,two,"The Lakers were riding a two-game losing streak, not a three-game losing streak.",llama_small,p3,2786.73
+T015,3,5,47,70.0,70.0,NUMBER,37,The Lakers' field goal percentage is incorrect.,llama_small,p3,2786.73
+T015,3,6,37,81.0,81.0,NUMBER,29,The Pistons' three-point percentage is incorrect.,llama_small,p3,2786.73
+T015,4,7,Nick Young,89.0,90.0,NAME,Kobe Bryant,"The leading scorer is Kobe Bryant, not Nick Young.",llama_small,p3,2786.73
+T015,4,8,19,95.0,95.0,NUMBER,12,Kobe Bryant's points are incorrect.,llama_small,p3,2786.73
+T015,4,9,13,8.0,8.0,NUMBER,13,Kobe Bryant's rebounds are incorrect.,llama_small,p3,2786.73
+T015,4,10,6 - 7,108.0,110.0,NUMBER,4-6,Kobe Bryant's free throw percentage is incorrect.,llama_small,p3,2786.73
+T015,5,11,Greg Monroe,117.0,118.0,NAME,Kobe Bryant,"The only other Laker to reach double figures in points is Kobe Bryant, not Greg Monroe.",llama_small,p3,2786.73
+T015,5,12,2 - 7,,,NUMBER,4-7,Greg Monroe's field goal percentage is incorrect.,llama_small,p3,2786.73
+T015,5,13,4 - 6,,,NUMBER,4-6,Greg Monroe's free throw percentage is incorrect.,llama_small,p3,2786.73
+T015,6,14,52,163.0,163.0,NUMBER,8,Greg Monroe's points in the last two games are incorrect.,llama_small,p3,2786.73
+T015,7,15,Brandon Jennings,182.0,183.0,NAME,Kobe Bryant,"The player who scored 10 points is Kobe Bryant, not Brandon Jennings.",llama_small,p3,2786.73
+T015,7,16,10,187.0,187.0,NUMBER,12,Kobe Bryant's points are incorrect.,llama_small,p3,2786.73
+T015,7,17,2 - 10,190.0,192.0,NUMBER,2-10,Kobe Bryant's field goal percentage is incorrect.,llama_small,p3,2786.73
+T015,7,18,0 - 1,195.0,197.0,NUMBER,0-1,Kobe Bryant's three-point percentage is incorrect.,llama_small,p3,2786.73
+T015,7,19,6 - 6,200.0,202.0,NUMBER,6-6,Kobe Bryant's free throw percentage is incorrect.,llama_small,p3,2786.73
+T015,8,20,Friday,246.0,246.0,NAME,Wednesday,"The Lakers' next game is on Wednesday, not Friday.",llama_small,p3,2786.73
+T015,8,21,Friday,246.0,246.0,NAME,Wednesday,"The Pistons' next game is on Wednesday, not Friday.",llama_small,p3,2786.73
+T016,1,1,Philadelphia 76ers,2.0,3.0,NAME,Sacramento,"The Kings, not the 76ers, played at home.",llama_small,p3,2786.73
+T016,1,2,100 -,9.0,10.0,NUMBER,102,"The final score was 102-100, not 100-100.",llama_small,p3,2786.73
+T016,1,3,Friday,18.0,18.0,NAME,Sunday,"The game was played on Sunday, not Friday.",llama_small,p3,2786.73
+T016,2,4,worst,33.0,33.0,WORD,14-17,"The 76ers were 14-17, not the worst team in the NBA.",llama_small,p3,2786.73
+T016,3,5,late,52.0,52.0,WORD,second,"The 76ers pulled away in the second half, not late in the game.",llama_small,p3,2786.73
+T016,4,6,lowly,133.0,133.0,WORD,49,"The 76ers shot 49% from the field, not lowly.",llama_small,p3,2786.73
+T016,4,7,4-of-15,,,WORD,28,"The 76ers shot 28% from long range, not 4-of-15.",llama_small,p3,2786.73
+T016,5,8,seven,170.0,170.0,NUMBER,34,"DeMarcus Cousins played 34 minutes, not 7 minutes.",llama_small,p3,2786.73
+T016,5,9,five,112.0,112.0,NUMBER,5,"DeMarcus Cousins had 5 assists, not 5 rebounds.",llama_small,p3,2786.73
+T016,5,10,three,176.0,176.0,NUMBER,2,"DeMarcus Cousins had 2 blocks, not 3 steals.",llama_small,p3,2786.73
+T016,6,11,four,194.0,194.0,NUMBER,4,"Ty Lawson had 4 rebounds, not 4 assists.",llama_small,p3,2786.73
+T016,6,12,two,179.0,179.0,NUMBER,2,"Ty Lawson had 2 steals, not 2 assists.",llama_small,p3,2786.73
+T016,7,13,four,194.0,194.0,NUMBER,4,"Darren Collison had 4 assists, not 4 rebounds.",llama_small,p3,2786.73
+T016,7,14,28,215.0,215.0,NUMBER,28,"Darren Collison played 28 minutes, not 28 points.",llama_small,p3,2786.73
+T016,8,15,Sunday,237.0,237.0,NAME,Friday,"The Kings will host the Magic on Sunday, not Friday.",llama_small,p3,2786.73
+T016,9,16,Friday,18.0,18.0,NAME,Sunday,"The 76ers will host the Suns on Sunday, not Friday.",llama_small,p3,2786.73
+T017,1,1,New Orleans Pelicans,11.0,13.0,NAME,Pelicans,Incorrect team name,llama_small,p3,2786.73
+T017,1,2,(26 - 44 ),,,NUMBER,(26-43),Incorrect win-loss record,llama_small,p3,2786.73
+T017,1,3,Smoothie King Center,27.0,29.0,NAME,Smoothie King Center,Incorrect venue name,llama_small,p3,2786.73
+T017,1,4,"Tuesday ,",,,DAY,Tuesday,Incorrect day of the week,llama_small,p3,2786.73
+T017,2,5,Dwyane Wade,108.0,109.0,NAME,Dwyane Wade,Incorrect player name,llama_small,p3,2786.73
+T017,2,6,Goran Dragic,,,NAME,Goran Dragic,Incorrect player name,llama_small,p3,2786.73
+T017,3,7,seven rebounds,138.0,139.0,NUMBER,7 rebounds,Incorrect number of rebounds,llama_small,p3,2786.73
+T017,3,8,one turnover,,,NUMBER,1 turnover,Incorrect number of turnovers,llama_small,p3,2786.73
+T017,3,9,31 minutes,,,NUMBER,31 minutes,Incorrect number of minutes played,llama_small,p3,2786.73
+T017,4,10,Hassan Whiteside,147.0,148.0,NAME,Hassan Whiteside,Incorrect player name,llama_small,p3,2786.73
+T017,4,11,24 - point,,,NUMBER,24-point,Incorrect point notation,llama_small,p3,2786.73
+T017,4,12,14 - rebound,,,NUMBER,14 rebounds,Incorrect rebound notation,llama_small,p3,2786.73
+T017,4,13,three shots,,,NUMBER,3 shots,Incorrect number of shots blocked,llama_small,p3,2786.73
+T017,5,14,Anthony Davis,203.0,204.0,NAME,Anthony Davis,Incorrect player name,llama_small,p3,2786.73
+T017,5,15,24 - point,,,NUMBER,24-point,Incorrect point notation,llama_small,p3,2786.73
+T017,5,16,14 - rebound,,,NUMBER,14 rebounds,Incorrect rebound notation,llama_small,p3,2786.73
+T017,5,17,three blocks,231.0,232.0,NUMBER,3 blocks,Incorrect number of blocks,llama_small,p3,2786.73
+T017,6,18,Anthony Davis,203.0,204.0,NAME,Anthony Davis,Incorrect player name,llama_small,p3,2786.73
+T017,6,19,knee,282.0,282.0,WORD,knee injury,Incorrect injury notation,llama_small,p3,2786.73
+T017,7,20,N/A,312.0,312.0,NOT_CHECKABLE,,Not checkable from box score,llama_small,p3,2786.73
+T017,7,21,N/A,312.0,312.0,NOT_CHECKABLE,,Not checkable from box score,llama_small,p3,2786.73
+T017,7,22,N/A,312.0,312.0,NOT_CHECKABLE,,Not checkable from box score,llama_small,p3,2786.73
+T017,8,23,four of its last four games,258.0,263.0,NUMBER,4 of its last 4 games,Incorrect number of games,llama_small,p3,2786.73
+T017,9,24,Anthony Davis,203.0,204.0,NAME,Anthony Davis,Incorrect player name,llama_small,p3,2786.73
+T017,9,25,knee,282.0,282.0,WORD,knee injury,Incorrect injury notation,llama_small,p3,2786.73
+T017,10,26,Oklahoma City Thunder,333.0,335.0,NAME,Oklahoma City Thunder,Incorrect team name,llama_small,p3,2786.73
+T018,1,1,Houston Rockets,2.0,3.0,NAME,Rockets,"The Rockets are the home team, not the Houston Rockets.",llama_small,p3,2786.73
+T018,1,2,Los Angeles,7.0,8.0,NAME,Lakers,"The visiting team is the Lakers, not the Los Angeles Lakers.",llama_small,p3,2786.73
+T018,1,3,Toyota Center,14.0,15.0,NAME,Toyota Center,"The stadium name is Toyota Center, not just Toyota.",llama_small,p3,2786.73
+T018,1,4,Wednesday,17.0,17.0,NAME,Wednesday,"The day of the week is correct, but the date is not provided.",llama_small,p3,2786.73
+T018,2,5,15 - 7,22.0,24.0,NUMBER,15-7,"The Rockets' win-loss record is correct, but the format is not standard.",llama_small,p3,2786.73
+T018,3,6,James Harden,50.0,51.0,NAME,James Harden,"The player's name is correct, but the last name is not provided.",llama_small,p3,2786.73
+T018,3,7,25 points,59.0,60.0,NUMBER,25,"The number of points is correct, but the unit is not necessary.",llama_small,p3,2786.73
+T018,3,8,8 - 14 FG,62.0,65.0,NUMBER,8-14,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,3,9,4 - 7 3Pt,67.0,70.0,NUMBER,4-7,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,3,10,5 - 6 FT,72.0,75.0,NUMBER,5-6,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,3,11,seven assists,80.0,81.0,WORD,7,"The number of assists is correct, but the word'seven' is not necessary.",llama_small,p3,2786.73
+T018,3,12,six rebounds,83.0,84.0,WORD,6,"The number of rebounds is correct, but the word'six' is not necessary.",llama_small,p3,2786.73
+T018,3,13,four steals,86.0,87.0,WORD,4,"The number of steals is correct, but the word 'four' is not necessary.",llama_small,p3,2786.73
+T018,4,14,Eric Gordon,93.0,94.0,NAME,Eric Gordon,"The player's name is correct, but the last name is not provided.",llama_small,p3,2786.73
+T018,4,15,26 points,98.0,99.0,NUMBER,26,"The number of points is correct, but the unit is not necessary.",llama_small,p3,2786.73
+T018,4,16,9 - of - 13 shooting,101.0,106.0,NUMBER,9-13,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,4,17,four rebounds,122.0,123.0,WORD,4,"The number of rebounds is correct, but the word 'four' is not necessary.",llama_small,p3,2786.73
+T018,4,18,two assists,125.0,126.0,WORD,2,"The number of assists is correct, but the word 'two' is not necessary.",llama_small,p3,2786.73
+T018,5,19,Julius Randle,132.0,133.0,NAME,Julius Randle,"The player's name is correct, but the last name is not provided.",llama_small,p3,2786.73
+T018,5,20,21 points,136.0,137.0,NUMBER,21,"The number of points is correct, but the unit is not necessary.",llama_small,p3,2786.73
+T018,5,21,9 - 19 FG,139.0,142.0,NUMBER,9-19,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,5,22,10 rebounds,150.0,151.0,NUMBER,10,"The number of rebounds is correct, but the word 'ten' is not necessary.",llama_small,p3,2786.73
+T018,6,23,Lou Williams,157.0,158.0,NAME,Lou Williams,"The player's name is correct, but the last name is not provided.",llama_small,p3,2786.73
+T018,6,24,24 points,170.0,171.0,NUMBER,24,"The number of points is correct, but the unit is not necessary.",llama_small,p3,2786.73
+T018,6,25,7 - 12 FG,173.0,176.0,NUMBER,7-12,"The shooting statistics are correct, but the format is not standard.",llama_small,p3,2786.73
+T018,6,26,8 - 8 FT,178.0,181.0,,,,llama_small,p3,2786.73
+T019,1,1,The Atlanta Hawks ( 59 - 19 ),1.0,8.0,NUMBER,59-19,Incorrect win-loss record for the Hawks,llama_small,p3,2786.73
+T019,1,2,Brooklyn Nets ( 35 - 42 ),,,NUMBER,35-42,Incorrect win-loss record for the Nets,llama_small,p3,2786.73
+T019,1,3,on Wednesday in Brooklyn,,,NAME,on Friday,Incorrect day of the week,llama_small,p3,2786.73
+T019,2,4,the two teams went down to the wire,,,WORD,the two teams went down to the wire,"The phrase 'went down to the wire' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,3,5,Horford led the way for the Hawks,,,NAME,Horford led the way for the Hawks,"The phrase 'led the way' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,4,6,"posting 24 points ( 11 - 20 FG , 1 - 1 3Pt )",,,NUMBER,"posting 24 points (11-20 FG, 1-1 3Pt)",Incorrect number of 3-pointers made,llama_small,p3,2786.73
+T019,5,7,Teague recorded a double - double in the winning effort,,,WORD,Teague recorded a double-double in the winning effort,"The phrase 'winning effort' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,6,8,DeMarre Carroll was the other Atlanta starter to score in double figures,,,WORD,DeMarre Carroll was the other Atlanta starter to score in double figures,"The phrase 'double figures' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,7,9,"scoring 20 points ( 7 - 14 FG , 2 - 6 3Pt , 4 - 6 FT )",,,NUMBER,"scoring 20 points (7-14 FG, 2-6 3Pt, 4-6 FT)",Incorrect number of free throws made,llama_small,p3,2786.73
+T019,8,10,Paul Millsap was out once again with a shoulder injury,,,WORD,Paul Millsap was out once again with a shoulder injury,"The phrase 'once again' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,9,11,Brook Lopez as he has grown a habit of doing,,,WORD,"Brook Lopez, as he has grown a habit of doing","The phrase 'as he has grown a habit of doing' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,10,12,"scoring 26 points ( 8 - 17 FG , 10 - 10 FT )",,,NUMBER,"scoring 26 points (8-17 FG, 10-10 FT)",Incorrect number of free throws made,llama_small,p3,2786.73
+T019,11,13,Over his last two games now,,,WORD,Over his last two games now,"The phrase 'now' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,12,14,Lopez has put up 58 points and 19 rebounds,,,NUMBER,Lopez has put up 58 points and 19 rebounds,Incorrect number of rebounds,llama_small,p3,2786.73
+T019,13,15,Joe Johnson was not too far behind Lopez,,,WORD,Joe Johnson was not too far behind Lopez,"The phrase 'not too far' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,14,16,"scoring 21 points ( 9 - 15 FG , 3 - 9 3Pt )",,,NUMBER,"scoring 21 points (9-15 FG, 3-9 3Pt)",Incorrect number of 3-pointers made,llama_small,p3,2786.73
+T019,15,17,Deron Williams also continues to play well,,,WORD,Deron Williams also continues to play well,"The phrase 'continues to play well' is a common idiomatic expression, but it's not entirely accurate in this context",llama_small,p3,2786.73
+T019,16,18,posting a double - double of 10 points and 13 assists,,,,,,llama_small,p3,2786.73
+T020,1,1,Tuesday,22.0,22.0,NAME,Thursday,"The game was played on Thursday, not Tuesday.",llama_small,p3,2786.73
+T020,1,2,American Airlines Arena,,,NAME,AmericanAirlines Arena,The arena name is spelled with a capital 'A' in the box score.,llama_small,p3,2786.73
+T020,1,3,Miami,11.0,11.0,NAME,Charlotte,"The away team is the Hornets, not the Heat.",llama_small,p3,2786.73
+T020,1,4,109-106,,,NUMBER,109-106,"The score is correct, but the context is incorrect.",llama_small,p3,2786.73
+T020,2,5,Tuesday,22.0,22.0,NAME,Thursday,"The game was played on Thursday, not Tuesday.",llama_small,p3,2786.73
+T020,2,6,American Airlines Arena,,,NAME,AmericanAirlines Arena,The arena name is spelled with a capital 'A' in the box score.,llama_small,p3,2786.73
+T020,2,7,Miami,11.0,11.0,NAME,Charlotte,"The away team is the Hornets, not the Heat.",llama_small,p3,2786.73
+T020,2,8,109-106,,,NUMBER,109-106,"The score is correct, but the context is incorrect.",llama_small,p3,2786.73
+T020,3,9,down 72-68 at half,,,NUMBER,down 72-68 at halftime,"The correct term is 'halftime', not 'half'.",llama_small,p3,2786.73
+T020,4,10,third quarter,,,WORD,second half,"The correct term is'second half', not 'third quarter'.",llama_small,p3,2786.73
+T020,4,11,out-scoring,,,WORD,outscoring,"The correct term is 'outscoring', not 'out-scoring'.",llama_small,p3,2786.73
+T020,5,12,50 percent from the three-point line,,,NUMBER,50 percent from three-point land,"The correct phrase is 'three-point land', not 'three-point line'.",llama_small,p3,2786.73
+T020,5,13,53 percent from the floor,,,NUMBER,53 percent from the field,"The correct phrase is 'from the field', not 'from the floor'.",llama_small,p3,2786.73
+T020,5,14,50 percent from beyond the arc,,,NUMBER,50 percent from beyond the three-point line,"The correct phrase is 'beyond the three-point line', not 'beyond the arc'.",llama_small,p3,2786.73
+T020,6,15,19 points,,,NUMBER,19,"The correct score is 19, not '19 points'.",llama_small,p3,2786.73
+T020,6,16,"7-19 FG, 2-7 3Pt, 3-3 FT",,,NUMBER,"7-19 FG, 2-7 3PT, 3-3 FT","The correct abbreviation is '3PT', not '3Pt'.",llama_small,p3,2786.73
+T020,6,17,seven assists and five rebounds,,,NUMBER,seven assists and seven rebounds,"The correct number of rebounds is seven, not five.",llama_small,p3,2786.73
+T020,7,18,12 points,,,NUMBER,12,"The correct score is 12, not '12 points'.",llama_small,p3,2786.73
+T020,7,19,13 points,,,NUMBER,13,"The correct score is 13, not '13 points'.",llama_small,p3,2786.73
+T020,7,20,"3-6 FG, 2-3 3Pt, 5-6 FT",,,NUMBER,"3-6 FG, 2-3 3PT, 5-6 FT","The correct abbreviation is '3PT', not '3Pt'.",llama_small,p3,2786.73
+T020,7,21,three rebounds,,,NUMBER,three,"The correct number is 'three', not 'three rebounds'.",llama_small,p3,2786.73
+T020,8,22,16 points,,,NUMBER,16,"The correct score is 16, not '16 points'.",llama_small,p3,2786.73
+T020,8,23,"7-16 FG, 0-3 3Pt",,,NUMBER,"8-16 FG, 0-3 3PT","The correct number of field goals made is 8, not 7.",llama_small,p3,2786.73
+T020,8,24,seven rebounds,,,NUMBER,seven,"The correct number is'seven', not'seven rebounds'.",llama_small,p3,2786.73
+T020,8,25,eight assists,,,NUMBER,eight,"The correct number is 'eight', not 'eight assists'.",llama_small,p3,2786.73
+T020,8,26,two steals,,,,,,llama_small,p3,2786.73
+T021,1,1,The Portland Trail Blazers,1.0,4.0,NAME,Trail Blazers,Incorrect team name,llama_small,p3,2786.73
+T021,1,2,( 7 - 3 ),,,NUMBER,(6-3),Incorrect win-loss record,llama_small,p3,2786.73
+T021,1,3,Saturday,,,DAY,Saturday,"Correct day of the week, but context is incorrect",llama_small,p3,2786.73
+T021,2,4,four,28.0,28.0,NUMBER,three,Incorrect number of straight games won,llama_small,p3,2786.73
+T021,2,5,LaMarcus Aldridge,,,NAME,Damian Lillard,Incorrect player name,llama_small,p3,2786.73
+T021,2,6,illness,,,WORD,injury,Incorrect reason for player's absence,llama_small,p3,2786.73
+T021,2,7,Nicolas Batum,,,NAME,Meyers Leonard,Incorrect player name,llama_small,p3,2786.73
+T021,2,8,knee,,,WORD,injury,Incorrect reason for player's absence,llama_small,p3,2786.73
+T021,3,9,Allen Crabbe,,,NAME,Damian Lillard,Incorrect player name,llama_small,p3,2786.73
+T021,3,10,starting small forward,,,WORD,starting point guard,Incorrect position,llama_small,p3,2786.73
+T021,4,11,Meyers Leonard,,,NAME,LaMarcus Aldridge,Incorrect player name,llama_small,p3,2786.73
+T021,4,12,starting lineup,,,WORD,starting lineup,Redundant word,llama_small,p3,2786.73
+T021,5,13,12 rebounds,,,NUMBER,12 rebounds,Redundant number,llama_small,p3,2786.73
+T021,5,14,three-point shot,,,WORD,three-point shot,Redundant word,llama_small,p3,2786.73
+T021,5,15,1-of-3 attempts,,,NUMBER,1-of-3 attempts,Redundant number,llama_small,p3,2786.73
+T021,6,16,two,169.0,169.0,NUMBER,three,Incorrect number of games remaining,llama_small,p3,2786.73
+T021,6,17,New Orleans Pelicans,,,NAME,New Orleans Pelicans,Incorrect team name,llama_small,p3,2786.73
+T021,7,18,all three,,,NUMBER,all three,Redundant word,llama_small,p3,2786.73
+T021,7,19,Western Conference,,,WORD,Western Conference,Redundant word,llama_small,p3,2786.73
+T021,8,20,Monday,,,DAY,Monday,"Correct day of the week, but context is incorrect",llama_small,p3,2786.73
+T021,9,21,Portland's three-point shooting,,,WORD,Portland's three-point shooting,Redundant word,llama_small,p3,2786.73
+T021,9,22,too much,,,WORD,too much,Redundant word,llama_small,p3,2786.73
+T021,10,23,39 percent,,,NUMBER,39 percent,Redundant number,llama_small,p3,2786.73
+T021,10,24,five percent,,,NUMBER,five percent,Redundant number,llama_small,p3,2786.73
+T021,10,25,beyond the arc,,,WORD,beyond the arc,Redundant word,llama_small,p3,2786.73
+T021,11,26,Kevin Garnett,,,NAME,Joe Johnson,Incorrect player name,llama_small,p3,2786.73
+T021,11,27,double-double,,,WORD,double-double,"Correct term, but context is incorrect",llama_small,p3,2786.73
+T021,11,28,12 points,,,NUMBER,12 points,Redundant number,llama_small,p3,2786.73
+T021,11,29,12 rebounds,,,,,,llama_small,p3,2786.73
+T022,1,1,San Antonio Spurs,2.0,4.0,NAME,Utah,"The Spurs are actually the visiting team, not the home team.",llama_small,p3,2786.73
+T022,1,2,(26 - 16 ),,,NUMBER,(14-27),The Spurs' record is incorrect.,llama_small,p3,2786.73
+T022,1,3,89 - 69,19.0,21.0,NUMBER,69-89,The final score is incorrect.,llama_small,p3,2786.73
+T022,1,4,Sunday,,,NAME,Wednesday,The day of the week is incorrect.,llama_small,p3,2786.73
+T022,1,5,at the AT & T Center,,,NAME,at Energy Solutions Arena,The venue is incorrect.,llama_small,p3,2786.73
+T022,1,6,San Antonio,2.0,3.0,NAME,Salt Lake City,The city is incorrect.,llama_small,p3,2786.73
+T022,2,7,39 percent,70.0,71.0,NUMBER,33,The Spurs' field goal percentage is incorrect.,llama_small,p3,2786.73
+T022,2,8,47 percent,76.0,77.0,NUMBER,30,The Spurs' three-point percentage is incorrect.,llama_small,p3,2786.73
+T022,2,9,33 percent,89.0,90.0,NUMBER,39,The Jazz's field goal percentage is incorrect.,llama_small,p3,2786.73
+T022,2,10,30 percent,96.0,97.0,NUMBER,47,The Jazz's three-point percentage is incorrect.,llama_small,p3,2786.73
+T022,3,11,19 - of - 23,,,NUMBER,10-of-16,The Jazz's free throw attempts are incorrect.,llama_small,p3,2786.73
+T022,3,12,19 - of - 23,,,NUMBER,23-of-19,The Spurs' free throw attempts are incorrect.,llama_small,p3,2786.73
+T022,4,13,15,52.0,52.0,NUMBER,12,The Jazz's turnovers are incorrect.,llama_small,p3,2786.73
+T022,5,14,Tiago Splitter,,,NAME,Rudy Gobert,The player is incorrect.,llama_small,p3,2786.73
+T022,5,15,14 points,,,NUMBER,13,The player's points are incorrect.,llama_small,p3,2786.73
+T022,5,16,four rebounds,,,NUMBER,18,The player's rebounds are incorrect.,llama_small,p3,2786.73
+T022,6,17,six other times,,,NUMBER,seven,The number of times the player reached double figures is incorrect.,llama_small,p3,2786.73
+T022,7,18,Danny Green,,,NAME,Rudy Gobert,The player is incorrect.,llama_small,p3,2786.73
+T022,7,19,13 points,144.0,145.0,NUMBER,13,The player's points are incorrect.,llama_small,p3,2786.73
+T022,7,20,six rebounds,,,NUMBER,18,The player's rebounds are incorrect.,llama_small,p3,2786.73
+T022,8,21,Kawhi Leonard,171.0,172.0,NAME,Rudy Gobert,The player is incorrect.,llama_small,p3,2786.73
+T022,8,22,12 points,177.0,178.0,NUMBER,13,The player's points are incorrect.,llama_small,p3,2786.73
+T022,8,23,nine rebounds,196.0,197.0,NUMBER,18,The player's rebounds are incorrect.,llama_small,p3,2786.73
+T022,9,24,Aron Baynes,232.0,233.0,NAME,Derrick Favors,The player is incorrect.,llama_small,p3,2786.73
+T022,9,25,12 points,177.0,178.0,NUMBER,13,The player's points are incorrect.,llama_small,p3,2786.73
+T022,9,26,11 rebounds,256.0,257.0,NUMBER,18,The player's rebounds are incorrect.,llama_small,p3,2786.73
+T022,10,27,Rudy Gobert,112.0,113.0,NAME,Kawhi Leonard,The player is incorrect.,llama_small,p3,2786.73
+T022,10,28,13 points,144.0,145.0,,,,llama_small,p3,2786.73
+T023,1,1,Golden State,2.0,3.0,NAME,Warriors,"The team name is 'Warriors', not 'State'.",llama_small,p3,2786.73
+T023,1,2,20 - 2,6.0,8.0,NUMBER,20-2,"The correct record is '20-2', not '20-2'.",llama_small,p3,2786.73
+T023,1,3,Dallas,12.0,12.0,NAME,Mavericks,"The team name is 'Mavericks', not 'Dallas'.",llama_small,p3,2786.73
+T023,1,4,17 - 8,15.0,17.0,NUMBER,17-8,"The correct record is '17-8', not '17-8'.",llama_small,p3,2786.73
+T023,1,5,Saturday,,,NAME,Wednesday,"The day of the game is 'Wednesday', not 'Saturday'.",llama_small,p3,2786.73
+T023,2,6,American Airlines Arena,25.0,27.0,NAME,American Airlines Center,"The stadium name is 'American Airlines Center', not 'American Airlines Arena'.",llama_small,p3,2786.73
+T023,3,7,39 - 18,48.0,50.0,NUMBER,39-18,"The correct score is '39-18', not '39-18'.",llama_small,p3,2786.73
+T023,4,8,45 %,,,NUMBER,45%,"The correct percentage is '45%', not '45'.",llama_small,p3,2786.73
+T023,4,9,31 %,,,NUMBER,31%,"The correct percentage is '31%', not '31'.",llama_small,p3,2786.73
+T023,5,10,40 %,,,NUMBER,40%,"The correct percentage is '40%', not '40'.",llama_small,p3,2786.73
+T023,5,11,20 %,,,NUMBER,20%,"The correct percentage is '20%', not '20'.",llama_small,p3,2786.73
+T023,6,12,Stephen Curry,108.0,109.0,NAME,Stephen Curry,The player name is correct.,llama_small,p3,2786.73
+T023,6,13,29,143.0,143.0,NUMBER,29,"The correct points scored by Stephen Curry is '29', not '29'.",llama_small,p3,2786.73
+T023,6,14,8,17.0,17.0,NUMBER,8,"The correct assists by Stephen Curry is '8', not '8'.",llama_small,p3,2786.73
+T023,6,15,3,125.0,125.0,NUMBER,3,"The correct rebounds by Stephen Curry is '3', not '3'.",llama_small,p3,2786.73
+T023,7,16,9 - 22,,,NUMBER,9-22,"The correct field goal attempts by Stephen Curry is '9-22', not '9-22'.",llama_small,p3,2786.73
+T023,7,17,3 - 11,,,NUMBER,3-11,"The correct three-point attempts by Stephen Curry is '3-11', not '3-11'.",llama_small,p3,2786.73
+T023,8,18,13,199.0,199.0,NUMBER,13,"The correct points scored by Richard Jefferson is '13', not '13'.",llama_small,p3,2786.73
+T023,8,19,5 - 8,202.0,204.0,NUMBER,5-8,"The correct field goal attempts by Richard Jefferson is '5-8', not '5-8'.",llama_small,p3,2786.73
+T023,8,20,2 - 4,207.0,209.0,NUMBER,2-4,"The correct three-point attempts by Richard Jefferson is '2-4', not '2-4'.",llama_small,p3,2786.73
+T023,8,21,1 - 4,212.0,214.0,NUMBER,1-4,"The correct free throw attempts by Richard Jefferson is '1-4', not '1-4'.",llama_small,p3,2786.73
+T023,9,22,12,241.0,241.0,NUMBER,12,"The correct points scored by Harrison Barnes is '12', not '12'.",llama_small,p3,2786.73
+T023,9,23,6 - 11,244.0,246.0,NUMBER,6-11,"The correct field goal attempts by Harrison Barnes is '6-11', not '6-11'.",llama_small,p3,2786.73
+T023,9,24,9,116.0,116.0,NUMBER,9,"The correct rebounds by Harrison Barnes is '9', not '9'.",llama_small,p3,2786.73
+T023,10,25,Wednesday,23.0,23.0,NAME,Wednesday,The day of the game is correct.,llama_small,p3,2786.73
+T023,10,26,Friday,289.0,289.0,NAME,Friday,The day of the game is correct.,llama_small,p3,2786.73
+T024,1,1,Oklahoma City trailed,,,CONTEXT,,"The game was played on Friday, not Wednesday.",llama_small,p3,2786.73
+T024,1,2,Wednesday,23.0,23.0,DATE,,"The game was played on Friday, not Wednesday.",llama_small,p3,2786.73
+T024,1,3,99 -,19.0,20.0,NUMBER,94,"The Thunder defeated the Jazz 94-99, not 99-94.",llama_small,p3,2786.73
+T024,1,4,Chesapeake Energy Arena,25.0,27.0,NAME,,The arena is not mentioned in the box score.,llama_small,p3,2786.73
+T024,2,5,out-scoring,,,WORD,,"The Thunder outscored the Jazz 27-27, not out-scoring.",llama_small,p3,2786.73
+T024,3,6,46 %,,,NUMBER,49%,"The Thunder shot 49% from the field, not 46%.",llama_small,p3,2786.73
+T024,3,7,33 %,,,NUMBER,33%,"The Thunder shot 33% from beyond the arc, which is correct.",llama_small,p3,2786.73
+T024,3,8,33 %,,,NUMBER,33%,"The Jazz shot 33% from the three-point line, which is correct.",llama_small,p3,2786.73
+T024,4,9,14-for-21,,,NUMBER,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,4,10,2-for-7,,,NUMBER,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,4,11,five assists and five rebounds,147.0,151.0,NUMBER,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,5,12,53 points and 20 rebounds,169.0,173.0,NUMBER,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,6,13,20 points,197.0,198.0,NUMBER,20,The box score confirms this information.,llama_small,p3,2786.73
+T024,6,14,5 assists,,,NUMBER,5,The box score confirms this information.,llama_small,p3,2786.73
+T024,7,15,15 points,238.0,239.0,NUMBER,15,The box score confirms this information.,llama_small,p3,2786.73
+T024,7,16,four steals,267.0,268.0,NUMBER,4,The box score confirms this information.,llama_small,p3,2786.73
+T024,8,17,The Thunder 's next game,,,WORD,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,8,18,will be on the road,275.0,279.0,WORD,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,8,19,against the Denver Nuggets,280.0,283.0,NAME,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,8,20,on Wednesday,22.0,23.0,DATE,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,9,21,the Jazz will travel to,288.0,292.0,WORD,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,9,22,San Antonio,293.0,294.0,NAME,,The box score does not provide this information.,llama_small,p3,2786.73
+T024,9,23,to play the Spurs,295.0,298.0,,,,llama_small,p3,2786.73
+T025,1,1,Sunday,22.0,22.0,NAME,Friday,"The game was played on Friday, not Sunday.",llama_small,p3,2786.73
+T025,1,2,US Airways Center,,,NAME,US Airways Center is not the correct name of the arena. The Suns play at the Footprint Center.,"The Suns play at the Footprint Center, not the US Airways Center.",llama_small,p3,2786.73
+T025,1,3,Phoenix,2.0,2.0,NAME,"The Suns' home city is Phoenix, but the arena is in Phoenix, Arizona.","The arena is in Phoenix, Arizona, not just Phoenix.",llama_small,p3,2786.73
+T025,2,4,quick,37.0,37.0,WORD,"The Suns got off to a strong start, not a quick start.","The Suns got off to a strong start, not a quick start.",llama_small,p3,2786.73
+T025,2,5,34,48.0,48.0,NUMBER,The Suns out-scored the Sixers 34-29 in the first quarter alone.,The correct score is 34-29.,llama_small,p3,2786.73
+T025,3,6,superior,61.0,61.0,WORD,"The Suns were the better shooters, not the superior shooters.","The Suns were the better shooters, not the superior shooters.",llama_small,p3,2786.73
+T025,3,7,43,87.0,87.0,NUMBER,The Sixers shot 43 percent from the field.,The Sixers shot 43 percent from the field.,llama_small,p3,2786.73
+T025,3,8,27,16.0,16.0,NUMBER,The Sixers shot 27 percent from beyond the arc.,The Sixers shot 27 percent from beyond the arc.,llama_small,p3,2786.73
+T025,4,9,Tony Wroten,,,NAME,Gerald Green was the other player who led the Suns.,Gerald Green was the other player who led the Suns.,llama_small,p3,2786.73
+T025,5,10,19,5.0,5.0,NUMBER,Wroten went 10-for-19 from the field.,Wroten went 10-for-19 from the field.,llama_small,p3,2786.73
+T025,5,11,8,162.0,162.0,NUMBER,Wroten added three rebounds and three steals.,Wroten added three rebounds and three steals.,llama_small,p3,2786.73
+T025,6,12,19,5.0,5.0,NUMBER,Wroten is averaging 19 points and 8 rebounds on the season.,Wroten is averaging 19 points and 8 rebounds on the season.,llama_small,p3,2786.73
+T025,7,13,27,16.0,16.0,NUMBER,Bledsoe combined for 27 points and 16 rebounds over his last two games.,Bledsoe combined for 27 points and 16 rebounds over his last two games.,llama_small,p3,2786.73
+T025,8,14,12,309.0,309.0,NUMBER,Robert Covington finished with 10 points.,Robert Covington finished with 10 points.,llama_small,p3,2786.73
+T025,9,15,12,309.0,309.0,NUMBER,Goran Dragic finished with 12 points.,Goran Dragic finished with 12 points.,llama_small,p3,2786.73
+T025,10,16,16,7.0,7.0,NUMBER,Henry Sims chipped in 16 points.,Henry Sims chipped in 16 points.,llama_small,p3,2786.73
+T026,1,1,Detroit Pistons,2.0,3.0,NAME,Knicks,The Pistons should be the Knicks.,llama_small,p3,2786.73
+T026,1,2,2 -3,,,NUMBER,1-3,"The Pistons' record should be 1-3, not 2-3.",llama_small,p3,2786.73
+T026,1,3,98 -95,,,NUMBER,98-95,"The score should be 98-95, not 98-95.",llama_small,p3,2786.73
+T026,1,4,Wednesday,23.0,23.0,NAME,Wednesday night,"The day of the week should be 'Wednesday night', not just 'Wednesday'.",llama_small,p3,2786.73
+T026,1,5,Detroit,2.0,2.0,NAME,the Palace of Auburn Hills,"The location should be 'the Palace of Auburn Hills', not just 'Detroit'.",llama_small,p3,2786.73
+T026,2,6,25 - 20,50.0,52.0,NUMBER,20-25,"The score should be 20-25, not 25-20.",llama_small,p3,2786.73
+T026,3,7,37,70.0,70.0,NUMBER,37 percent,"The percentage should be '37 percent', not just '37'.",llama_small,p3,2786.73
+T026,3,8,45,76.0,76.0,NUMBER,45 percent,"The percentage should be '45 percent', not just '45'.",llama_small,p3,2786.73
+T026,3,9,45,76.0,76.0,NUMBER,45 percent,"The percentage should be '45 percent', not just '45'.",llama_small,p3,2786.73
+T026,3,10,43,89.0,89.0,NUMBER,43 percent,"The percentage should be '43 percent', not just '43'.",llama_small,p3,2786.73
+T026,3,11,45,76.0,76.0,NUMBER,45 percent,"The percentage should be '45 percent', not just '45'.",llama_small,p3,2786.73
+T026,4,12,Kentavious Caldwell-Pope,107.0,108.0,NAME,Greg Monroe,"The player should be Greg Monroe, not Kentavious Caldwell-Pope.",llama_small,p3,2786.73
+T026,4,13,20,52.0,52.0,NUMBER,23,"The points should be 23, not 20.",llama_small,p3,2786.73
+T026,4,14,18,,,NUMBER,18,"The rebounds should be 18, not 18.",llama_small,p3,2786.73
+T026,5,15,Kentavious Caldwell-Pope,107.0,108.0,NAME,Kentavious Caldwell-Pope,"The player's name should be 'Kentavious Caldwell-Pope', not just 'Kentavious'.",llama_small,p3,2786.73
+T026,5,16,20,52.0,52.0,NUMBER,20,"The points should be 20, not 20.",llama_small,p3,2786.73
+T026,5,17,four,,,WORD,three-pointers,"The type of shots should be 'three-pointers', not 'four'.",llama_small,p3,2786.73
+T026,6,18,DJ Augustin,,,NAME,D.J. Augustin,"The player's name should be 'D.J. Augustin', not just 'DJ'.",llama_small,p3,2786.73
+T026,6,19,12,219.0,219.0,NUMBER,12,"The points should be 12, not 12.",llama_small,p3,2786.73
+T026,7,20,Josh Smith,,,NAME,Josh Smith,"The player's name should be 'Josh Smith', not just 'Josh'.",llama_small,p3,2786.73
+T026,7,21,2-of-17,,,NUMBER,2-of-17,"The shot attempts should be 2-of-17, not 2-of-17.",llama_small,p3,2786.73
+T026,7,22,beyond the arc,98.0,100.0,WORD,beyond the arc,"The phrase should be 'beyond the arc', not 'beyond the arc'.",llama_small,p3,2786.73
+T026,8,23,Andre Drummond,,,NAME,Andre Drummond,"The player's name should be 'Andre Drummond', not just 'Andre'.",llama_small,p3,2786.73
+T026,8,24,seven,,,NUMBER,seven,"The points should be seven, not seven.",llama_small,p3,2786.73
+T026,8,25,13,236.0,236.0,NUMBER,13,"The rebounds should be 13, not 13.",llama_small,p3,2786.73
+T026,9,26,Knicks,13.0,13.0,,,,llama_small,p3,2786.73
+T027,1,1,New Orleans,,,NAME,Pelicans,Incorrect team name,llama_small,p3,2786.73
+T027,1,2,Friday,18.0,18.0,NAME,Wednesday,Incorrect day of the week,llama_small,p3,2786.73
+T027,2,3,Gregg Popovich,,,NAME,Pelicans,Incorrect team name,llama_small,p3,2786.73
+T027,3,4,29,96.0,96.0,NUMBER,122,Incorrect score,llama_small,p3,2786.73
+T027,3,5,7,26.0,26.0,NUMBER,20,Incorrect win-loss record,llama_small,p3,2786.73
+T027,4,6,Harden posted,,,WORD,Harden finished,Incorrect verb tense,llama_small,p3,2786.73
+T027,4,7,29,96.0,96.0,NUMBER,11,Incorrect number of rebounds,llama_small,p3,2786.73
+T027,4,8,block,113.0,113.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,5,9,Gordon Davis,115.0,116.0,NAME,Gordon,Incorrect player name,llama_small,p3,2786.73
+T027,5,10,19,52.0,52.0,NUMBER,5,Incorrect number of rebounds,llama_small,p3,2786.73
+T027,5,11,three,125.0,125.0,WORD,one,Incorrect number of assists,llama_small,p3,2786.73
+T027,5,12,block,113.0,113.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,6,13,Ariza,132.0,132.0,NAME,Trevor Ariza,Incorrect player name,llama_small,p3,2786.73
+T027,6,14,near,137.0,137.0,WORD,double,Incorrect word,llama_small,p3,2786.73
+T027,6,15,double,103.0,103.0,WORD,double-double,Incorrect phrase,llama_small,p3,2786.73
+T027,6,16,assist,102.0,102.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,6,17,three,125.0,125.0,WORD,three steals,Incorrect phrase,llama_small,p3,2786.73
+T027,7,18,Hield,155.0,155.0,NAME,Buddy Hield,Incorrect player name,llama_small,p3,2786.73
+T027,7,19,bench-leading,,,WORD,second unit,Incorrect word,llama_small,p3,2786.73
+T027,7,20,11,100.0,100.0,NUMBER,20,Incorrect number of points,llama_small,p3,2786.73
+T027,7,21,five,122.0,122.0,NUMBER,five rebounds,Incorrect phrase,llama_small,p3,2786.73
+T027,7,22,assist,102.0,102.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,7,23,block,113.0,113.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,8,24,Holiday,180.0,180.0,NAME,Jrue Holiday,Incorrect player name,llama_small,p3,2786.73
+T027,8,25,11,100.0,100.0,NUMBER,5,Incorrect number of rebounds,llama_small,p3,2786.73
+T027,8,26,one,235.0,235.0,WORD,one assist,Incorrect phrase,llama_small,p3,2786.73
+T027,8,27,block,113.0,113.0,WORD,rebounds,Incorrect word,llama_small,p3,2786.73
+T027,9,28,Ajinca,195.0,195.0,NAME,Alexis Ajinca,Incorrect player name,llama_small,p3,2786.73
+T027,9,29,20,24.0,24.0,NUMBER,5,Incorrect number of rebounds,llama_small,p3,2786.73
+T027,9,30,one,235.0,235.0,WORD,one assist,Incorrect phrase,llama_small,p3,2786.73
+T027,9,31,three,125.0,125.0,,,,llama_small,p3,2786.73
+T028,1,1,San Antonio,2.0,3.0,NAME,Los Angeles,"The Spurs are based in Los Angeles, not San Antonio.",llama_small,p3,2786.73
+T028,1,2,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,1,3,defeated,5.0,5.0,WORD,defeated the,"The Spurs defeated the Clippers, not just defeated.",llama_small,p3,2786.73
+T028,1,4,105 -,11.0,12.0,NUMBER,97,"The final score was 97-105, not 105-97.",llama_small,p3,2786.73
+T028,1,5,Staples,16.0,16.0,NAME,Crypto.com Arena,"The arena is now called Crypto.com Arena, not Staples Center.",llama_small,p3,2786.73
+T028,2,6,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,2,7,44 -,24.0,25.0,NUMBER,35,"The Spurs' win-loss record is 35-13, not 44-13.",llama_small,p3,2786.73
+T028,3,8,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,3,9,44 -,24.0,25.0,NUMBER,35,"The Spurs' win-loss record is 35-13, not 44-13.",llama_small,p3,2786.73
+T028,4,10,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,4,11,35 -,39.0,40.0,NUMBER,13,"The Spurs' win-loss record is 35-13, not 35-13.",llama_small,p3,2786.73
+T028,5,12,18 -,71.0,72.0,NUMBER,13,"The Spurs' lead after the first quarter was 13-18, not 18-13.",llama_small,p3,2786.73
+T028,6,13,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,6,14,35 -,39.0,40.0,NUMBER,13,"The Spurs' win-loss record is 35-13, not 35-13.",llama_small,p3,2786.73
+T028,7,15,Spurs,4.0,4.0,NAME,Clippers,"The opposing team is the Clippers, not the Spurs.",llama_small,p3,2786.73
+T028,7,16,44 -,24.0,25.0,NUMBER,13,"The Spurs' win-loss record is 35-13, not 44-13.",llama_small,p3,2786.73
+T028,8,17,Blake,124.0,124.0,NAME,LaMarcus,"The high-point man was LaMarcus Aldridge, not Blake Griffin.",llama_small,p3,2786.73
+T028,8,18,29,137.0,137.0,NUMBER,15,"LaMarcus Aldridge scored 15 points, not 29 points.",llama_small,p3,2786.73
+T028,8,19,points,138.0,138.0,WORD,points to go along with,The sentence should read 'points to go along with' instead of just 'points'.,llama_small,p3,2786.73
+T028,8,20,nine,144.0,144.0,NUMBER,11,"LaMarcus Aldridge had 11 rebounds, not 9 rebounds.",llama_small,p3,2786.73
+T028,8,21,five,147.0,147.0,NUMBER,one,"LaMarcus Aldridge had one assist, not 5 assists.",llama_small,p3,2786.73
+T028,8,22,one,89.0,89.0,NUMBER,one,"LaMarcus Aldridge had one steal, not one steal.",llama_small,p3,2786.73
+T028,9,23,Tony,178.0,178.0,NAME,LaMarcus,"The player was LaMarcus Aldridge, not Tony Parker.",llama_small,p3,2786.73
+T028,9,24,17,182.0,182.0,NUMBER,15,"LaMarcus Aldridge scored 15 points, not 17 points.",llama_small,p3,2786.73
+T028,9,25,points,138.0,138.0,WORD,points to go along with,The sentence should read 'points to go along with' instead of just 'points'.,llama_small,p3,2786.73
+T028,9,26,two,185.0,185.0,NUMBER,11,"LaMarcus Aldridge had 11 rebounds, not 2 rebounds.",llama_small,p3,2786.73
+T028,9,27,three,188.0,188.0,,,,llama_small,p3,2786.73
+T029,1,1,Phoenix Suns,2.0,3.0,NAME,Magic,The Suns should be the Magic.,llama_small,p3,2786.73
+T029,1,2,32 -,5.0,6.0,NUMBER,19,The Suns' win-loss record is incorrect.,llama_small,p3,2786.73
+T029,1,3,30,7.0,7.0,NUMBER,43,The Suns' win-loss record is incorrect.,llama_small,p3,2786.73
+T029,1,4,Wednesday,22.0,22.0,NAME,Monday,The day of the week is incorrect.,llama_small,p3,2786.73
+T029,2,5,Amway Center,25.0,26.0,NAME,"Amway Center is correct, but the city is missing.",The city of the Amway Center is missing.,llama_small,p3,2786.73
+T029,2,6,Orlando,11.0,11.0,NAME,"Orlando is correct, but the city is missing for the Suns.",The city of the Suns is missing.,llama_small,p3,2786.73
+T029,3,7,22 -,47.0,48.0,NUMBER,25,The Magic's score in the first quarter is incorrect.,llama_small,p3,2786.73
+T029,3,8,25,49.0,49.0,NUMBER,22,The Suns' score in the first quarter is incorrect.,llama_small,p3,2786.73
+T029,4,9,47,67.0,67.0,NUMBER,47,The Suns' field goal percentage is correct.,llama_small,p3,2786.73
+T029,4,10,38,73.0,73.0,NUMBER,25,The Suns' three-point percentage is incorrect.,llama_small,p3,2786.73
+T029,5,11,20,105.0,105.0,NUMBER,19,The Magic's turnovers are incorrect.,llama_small,p3,2786.73
+T029,5,12,20,105.0,105.0,NUMBER,20,The Suns' turnovers are incorrect.,llama_small,p3,2786.73
+T029,6,13,Victor Oladipo,124.0,125.0,NAME,Markieff Morris,The player who led the Suns is incorrect.,llama_small,p3,2786.73
+T029,6,14,28,159.0,159.0,NUMBER,19,The points scored by Markieff Morris are incorrect.,llama_small,p3,2786.73
+T029,6,15,7 -,132.0,133.0,NUMBER,4,The assists by Markieff Morris are incorrect.,llama_small,p3,2786.73
+T029,6,16,3,,,NUMBER,3,The steals by Markieff Morris are correct.,llama_small,p3,2786.73
+T029,7,17,PJ Tucker,184.0,185.0,NAME,"PJ Tucker is correct, but the points scored are incorrect.",The points scored by PJ Tucker are incorrect.,llama_small,p3,2786.73
+T029,7,18,7 -,132.0,133.0,NUMBER,10,The points scored by PJ Tucker are incorrect.,llama_small,p3,2786.73
+T029,7,19,1 -,209.0,210.0,NUMBER,2,The three-pointers made by PJ Tucker are incorrect.,llama_small,p3,2786.73
+T029,8,20,Wednesday,22.0,22.0,NAME,Friday,The day of the week is incorrect.,llama_small,p3,2786.73
+T029,8,21,Miami Heat,237.0,238.0,NAME,"Miami Heat is correct, but the day of the week is incorrect.",The day of the week is incorrect.,llama_small,p3,2786.73
+T029,9,22,Friday,254.0,254.0,NAME,Wednesday,The day of the week is incorrect.,llama_small,p3,2786.73
+T029,9,23,Miami Heat,237.0,238.0,NAME,"Miami Heat is correct, but the day of the week is incorrect.",The day of the week is incorrect.,llama_small,p3,2786.73
+T029,10,24,Friday,254.0,254.0,NAME,Wednesday,The day of the week is incorrect.,llama_small,p3,2786.73
+T029,10,25,New Orleans Pelicans,265.0,267.0,NAME,"New Orleans Pelicans is correct, but the day of the week is incorrect.",The day of the week is incorrect.,llama_small,p3,2786.73
+T029,10,26,Friday,254.0,254.0,NAME,Wednesday,The day of the week is incorrect.,llama_small,p3,2786.73
+T029,10,27,Miami Heat,237.0,238.0,,,,llama_small,p3,2786.73
+T030,1,1,Wednesday,22.0,22.0,NAME,Sunday,"The game was played on Sunday, not Wednesday.",llama_small,p3,2786.73
+T030,1,2,Fed Ex Forum Arena,,,NAME,FedExForum,The correct name of the arena is FedExForum.,llama_small,p3,2786.73
+T030,1,3,12 - 9,,,NUMBER,12-8,"The Grizzlies' record was 12-8, not 12-9.",llama_small,p3,2786.73
+T030,1,4,8 - 13,,,NUMBER,8-12,"The Suns' record was 8-12, not 8-13.",llama_small,p3,2786.73
+T030,1,5,95 - 93,,,NUMBER,95-92,"The final score was 95-92, not 95-93.",llama_small,p3,2786.73
+T030,2,6,40 percent,,,NUMBER,40.0%,"The Grizzlies' field goal percentage was 40.0%, not 40 percent.",llama_small,p3,2786.73
+T030,2,7,33 percent,,,NUMBER,33.0%,"The Grizzlies' three-point percentage was 33.0%, not 33 percent.",llama_small,p3,2786.73
+T030,2,8,44 percent,,,NUMBER,44.0%,"The Suns' field goal percentage was 44.0%, not 44 percent.",llama_small,p3,2786.73
+T030,2,9,29 percent,,,NUMBER,29.0%,"The Suns' three-point percentage was 29.0%, not 29 percent.",llama_small,p3,2786.73
+T030,3,10,double-double,,,WORD,double-double ( Gasol had 22 points and 8 rebounds ),The description of Gasol's performance was incomplete.,llama_small,p3,2786.73
+T030,3,11,37 minutes,,,NUMBER,36 minutes,"Knight played 36 minutes, not 37 minutes.",llama_small,p3,2786.73
+T030,4,12,Portland Trail Blazers,,,NAME,Trail Blazers,"The team name is Trail Blazers, not Portland Trail Blazers.",llama_small,p3,2786.73
+T030,4,13,Wednesday,22.0,22.0,NAME,Tuesday,"The Grizzlies' next game is on Tuesday, not Wednesday.",llama_small,p3,2786.73
+T030,5,14,Portland Trail Blazers,,,NAME,Trail Blazers,"The team name is Trail Blazers, not Portland Trail Blazers.",llama_small,p3,2786.73
+T030,5,15,Friday,240.0,240.0,NAME,Thursday,"The Suns' game against the Trail Blazers is on Thursday, not Friday.",llama_small,p3,2786.73
+T030,5,16,San Antonio,,,NAME,San Antonio Spurs,"The team name is San Antonio Spurs, not San Antonio.",llama_small,p3,2786.73
+T030,6,17,three of their last three games,,,CONTEXT,three of their last four games,"The Grizzlies have lost three of their last four games, not three of their last three games.",llama_small,p3,2786.73
+T030,7,18,8 - for - 22,,,NUMBER,8-22,"The correct notation is 8-22, not 8-for-22.",llama_small,p3,2786.73
+T030,7,19,2 - for - 6,,,NUMBER,2-6,"The correct notation is 2-6, not 2-for-6.",llama_small,p3,2786.73
+T030,7,20,12 points and 5 rebounds on the year,,,CONTEXT,12 points and 5 rebounds per game,The description of Bledsoe's average performance was incomplete.,llama_small,p3,2786.73
+T030,8,21,7 - 12,,,NUMBER,7-12,"The correct notation is 7-12, not 7-12 FG.",llama_small,p3,2786.73
+T030,8,22,2 - 2 3Pt,,,NUMBER,2-2,"The correct notation is 2-2, not 2-2 3Pt.",llama_small,p3,2786.73
+T030,8,23,2 - 2 FT,,,NUMBER,2-2,"The correct notation is 2-2, not 2-2 FT.",llama_small,p3,2786.73
+T030,9,24,Wednesday,22.0,22.0,NAME,Thursday,"The Grizzlies' next game is on Thursday, not Wednesday.",llama_small,p3,2786.73
+T030,9,25,Portland Trail Blazers,,,NAME,Trail Blazers,"The team name is Trail Blazers, not Portland Trail Blazers.",llama_small,p3,2786.73
+T030,9,26,Friday,240.0,240.0,,,,llama_small,p3,2786.73

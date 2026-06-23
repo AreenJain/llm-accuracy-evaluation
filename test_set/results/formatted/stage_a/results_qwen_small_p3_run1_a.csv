@@ -1,0 +1,406 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,DAY,Monday,Incorrect day of the week.
+T001,,2,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,3,"49 % from the field and 38 % from the three - point line , while the Nets went just 45 % from the floor and just 38 % from beyond the arc",,,,,CONTEXT,The Nets went just 45% from the floor and just 38% from beyond the arc.,Incorrect team mentioned in the context.
+T001,,4,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,5,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,6,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,7,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,8,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,9,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,10,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,11,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,12,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,13,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,14,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,15,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,16,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,17,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,18,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,19,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,20,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,21,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,22,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,23,28 -28,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+T001,,24,28 -28,,,,,,,
+T002,1,1,121 -,10,11,,,NUMBER,121,Incorrect hyphenation and formatting.
+T002,1,2,118,12,12,,,NUMBER,118,Incorrect score.
+T002,1,3,Wednesday,19,19,,,DAY_OF_WEEK,03_29_17,Incorrect day format.
+T002,3,1,11,16,16,,,NUMBER,12,Incorrect number of ties.
+T002,3,2,11,16,16,,,NUMBER,12,Incorrect number of lead changes.
+T002,4,1,48,14,14,,,NUMBER,48%,Incorrect percentage format.
+T002,4,2,52,20,20,,,NUMBER,52%,Incorrect percentage format.
+T002,5,1,44,16,16,,,NUMBER,44,Incorrect score.
+T002,5,2,34,18,18,,,NUMBER,34,Incorrect score.
+T002,7,1,Harrison Barnes,1,2,,,NAME,Dirk Nowitzki,Incorrect player name.
+T002,7,2,19,12,12,,,NUMBER,23,Incorrect points scored.
+T002,,3,8,,,,,NUMBER,34,Incorrect rebounds.
+T002,,4,3,,,,,NUMBER,3,Incorrect assists.
+T002,8,1,Seth Curry,1,2,,,NAME,Harrison Barnes,Incorrect player name.
+T002,8,2,18,10,10,,,NUMBER,19,Incorrect points scored.
+T002,,3,2,,,,,NUMBER,2,Incorrect rebounds.
+T002,,4,3,,,,,NUMBER,3,Incorrect assists.
+T002,7,1,Harrison Barnes,1,2,,,NAME,Seth Curry,Incorrect player name.
+T002,7,2,19,12,12,,,NUMBER,23,Incorrect points scored.
+T002,,3,8,,,,,NUMBER,34,Incorrect rebounds.
+T002,,4,3,,,,,NUMBER,3,Incorrect assists.
+T002,12,1,DeMarcus Cousins,1,2,,,NAME,Harrison Barnes,Incorrect player name.
+T002,12,2,29,14,14,,,NUMBER,23,Incorrect points scored.
+T002,12,3,16,17,17,,,NUMBER,13,Incorrect rebounds.
+T002,,4,6,,,,,NUMBER,6,Incorrect assists.
+T002,13,5,Jrue Holiday,1,2,,,NAME,Seth Curry,Incorrect player name.
+T002,8,6,18,10,10,,,NUMBER,19,Incorrect points scored.
+T002,,7,5,,,,,NUMBER,5,Incorrect rebounds.
+T002,,8,7,,,,,NUMBER,7,Incorrect assists.
+T002,12,1,DeMarcus Cousins,1,2,,,,,
+T003,1,1,Wednesday,22,22,,,WORD,Thursday,Incorrect day of the week.
+T003,1,2,Amway,25,25,,,NAME,London,Incorrect venue.
+T003,1,1,Raptors,3,3,,,NAME,Magic,Incorrect team name.
+T003,1,2,Raptors,3,3,,,NAME,Magic,Incorrect team name.
+T003,1,1,Raptors,3,3,,,NAME,Magic,Incorrect team name.
+T003,1,2,Raptors,3,3,,,NAME,Magic,Incorrect team name.
+T003,4,1,41,12,12,,,NUMBER,45,Incorrect shooting percentage.
+T003,4,2,33,18,18,,,NUMBER,39,Incorrect shooting percentage.
+T003,2,1,18,20,20,,,NUMBER,10,Incorrect turnovers.
+T003,6,1,40,38,38,,,NUMBER,24,Incorrect points scored.
+T003,6,2,11,44,44,,,NUMBER,13,Incorrect rebounds.
+T003,6,3,4,11,11,,,NUMBER,5,Incorrect assists.
+T003,8,1,13,34,34,,,NUMBER,27,Incorrect points scored.
+T003,6,2,4,11,11,,,NUMBER,5,Incorrect assists.
+T003,10,1,17,24,24,,,NUMBER,11,Incorrect points scored.
+T003,6,2,11,44,44,,,NUMBER,9,Incorrect rebounds.
+T003,10,3,1,32,32,,,NUMBER,2,Incorrect assists.
+T003,11,4,3,28,28,,,NUMBER,2,Incorrect blocks.
+T003,10,1,17,24,24,,,NUMBER,19,Incorrect points scored.
+T003,6,2,11,44,44,,,NUMBER,13,Incorrect rebounds.
+T003,10,3,1,32,32,,,NUMBER,2,Incorrect assists.
+T003,11,4,3,28,28,,,NUMBER,2,Incorrect blocks.
+T003,,1,16,,,,,NUMBER,11,Incorrect points scored.
+T003,10,2,22,29,29,,,NUMBER,14,Incorrect minutes played.
+T003,10,3,12,37,37,,,NUMBER,11,Incorrect assists.
+T003,11,4,3,28,28,,,NUMBER,2,Incorrect steals.
+T003,,1,16,,,,,NUMBER,13,Incorrect points scored.
+T003,10,2,22,29,29,,,NUMBER,14,Incorrect minutes played.
+T003,10,3,12,37,37,,,NUMBER,11,Incorrect assists.
+T003,11,4,3,28,28,,,NUMBER,2,Incorrect steals.
+T004,1,1,The Miami Heat,1,3,,,NAME,The Miami Heat,Incorrect team name format.
+T004,,2,( 10 ),,,,,NUMBER,(10),Incorrect score format.
+T004,1,3,defeated the Washington Wizards,9,12,,,NAME,defeated the Washington Wizards,Incorrect team name format.
+T004,1,4,( 0 - 1 ),13,17,,,NUMBER,(0-1),Incorrect score format.
+T004,1,5,107 - 95,18,20,,,NUMBER,107-95,Incorrect score format.
+T004,,6,on Wednesday,,,,,WORD,on Tuesday,Incorrect day of the week.
+T004,,7,"In the first LeBron-less regular season game for the Heat , they were able to pull out an 11 - point victory over the Wizards . The oft - injured Dwyane Wade had to go to the locker room with a left calf contusion , but he was able to return later in the game .",,,,,CONTEXT,"In the first LeBron-less regular season game for the Heat, they were able to pull out an 11-point victory over the Wizards. The oft-injured Dwyane Wade had to go to the locker room with a left calf contusion, but he was able to return later in the game.",Misleading context due to repetition.
+T004,,8,"The oft - injured Dwyane Wade had to go to the locker room with a left calf contusion , but he was able to return later in the game .",,,,,CONTEXT,"The oft-injured Dwyane Wade had to go to the locker room with a left calf contusion, but he was able to return later in the game.",Misleading context due to repetition.
+T004,,9,"The Heat had three players score over 20 points in the victory . Drew Gooden , who started for the suspended Nene scored 18 points , going 8 - for - 11 from the field . He pulled down five rebounds and added an assist . Marcin Gortat played 40 minutes and had 18 points to go along with seven rebounds and a blocked shot . John Wall finished with a double - double , scoring 16 points and adding 11 assists . Otto Porter also finished in double - digits with 13 points , while recording four rebounds and a steal . As expected , Chris Bosh and Wade took the lead for the Heat . Bosh had his first double - double of the season , going for 26 points ( 9 - 18 FG , 3 - 4 3Pt ) and 15 rebounds . He also had four assists , a steal , and a blocked shot . Despite leaving the game for a small period of time , Wade was still able to finsh with 21 points as he shot 50 percent from the field ( 8 - 16 FG ) and also collected one rebound , three assists , and steal . Norris Cole surprised Heat fans after he took the starting point guard position from last years ' starter Mario Chalmers . Cole put up 23 points , three rebounds , two assists , and three turnovers . Luol Deng made his regular season debut with the Heat and finished with 12 points . The Wizards will play on the road against the Orlando Magic on Thursday , while the Heat will play the Philidelphia 76ers Saturday in Philidelphia .",,,,,,,
+T005,1,1,Saturday evening,17,18,,,DAY_OF_WEEK,Monday,Incorrect day of the week.
+T005,3,2,30 - 22,17,19,,,NUMBER,22,Incorrect score for the first quarter.
+T005,3,3,30 - 20,36,38,,,NUMBER,29,Incorrect score for the fourth quarter.
+T005,3,4,30 - 20,36,38,,,NUMBER,29,Incorrect score for the fourth quarter.
+T005,3,5,30 - 22,17,19,,,NUMBER,22,Incorrect score for the first quarter.
+T005,2,6,24 - 20,4,6,,,NUMBER,24-20,Incorrect team record.
+T005,3,7,30 - 22,17,19,,,NUMBER,22,Incorrect score for the first quarter.
+T005,3,8,30 - 20,36,38,,,NUMBER,29,Incorrect score for the fourth quarter.
+T005,5,9,18 points,14,15,,,NUMBER,14 points,Incorrect points scored by Bradley Beal.
+T005,11,10,24 points,9,10,,,NUMBER,23 points,Incorrect points scored by John Wall.
+T005,,11,20 rebounds,,,,,NUMBER,36 rebounds,Incorrect rebounds by John Wall.
+T005,7,12,23 points,4,5,,,NUMBER,24 points,Incorrect points scored by Markieff Morris.
+T005,8,13,13 points,4,5,,,NUMBER,14 points,Incorrect points scored by Marcin Gortat.
+T005,9,14,10 points,7,8,,,NUMBER,13 points,Incorrect points scored by Jason Smith.
+T005,8,15,13 points,4,5,,,NUMBER,13 points,Incorrect points scored by Cody Zeller.
+T005,8,16,13 points,4,5,,,NUMBER,13 points,Incorrect points scored by Frank Kaminsky III.
+T005,15,17,New York Knicks,11,13,,,TEAM_CITY,Boston Celtics,Incorrect opponent for the Wizards.
+T005,15,18,New York Knicks,11,13,,,TEAM_CITY,Golden State Warriors,Incorrect opponent for the Hornets.
+T007,1,1,at Moda,22,23,,,NAME,at Moda Center,Moda Center is the correct venue.
+T007,2,1,32 - 20,37,39,,,NUMBER,26-26,The correct score for the second quarter is 26-26.
+T007,2,2,32 - 20,37,39,,,NUMBER,26-26,The correct score for the second quarter is 26-26.
+T007,2,1,32 - 20,37,39,,,NUMBER,26-26,The correct score for the second quarter is 26-26.
+T007,3,1,Kenneth Faried,6,7,,,NAME,Kostas Papanikolaou,Kostas Papanikolaou is the correct player name.
+T007,3,2,12 points,15,16,,,NUMBER,8 points,"Kostas Papanikolaou scored 8 points, not 12."
+T007,3,3,12 rebounds,29,30,,,NUMBER,12 rebounds,"Kostas Papanikolaou had 12 rebounds, not 12 rebounds."
+T007,,4,2 assists,,,,,NUMBER,3 assists,"Kostas Papanikolaou had 3 assists, not 2 assists."
+T007,,5,2 blocks,,,,,NUMBER,2 blocks,"Kostas Papanikolaou had 2 blocks, not 2 blocks."
+T007,3,1,Kenneth Faried,6,7,,,NAME,Kostas Papanikolaou,Kostas Papanikolaou is the correct player name.
+T007,3,2,12 points,15,16,,,NUMBER,8 points,"Kostas Papanikolaou scored 8 points, not 12."
+T007,3,3,12 rebounds,29,30,,,NUMBER,12 rebounds,"Kostas Papanikolaou had 12 rebounds, not 12 rebounds."
+T007,,4,2 assists,,,,,NUMBER,3 assists,"Kostas Papanikolaou had 3 assists, not 2 assists."
+T007,,5,2 blocks,,,,,NUMBER,2 blocks,"Kostas Papanikolaou had 2 blocks, not 2 blocks."
+T007,3,1,Kenneth Faried,6,7,,,NAME,Kostas Papanikolaou,Kostas Papanikolaou is the correct player name.
+T007,3,2,12 points,15,16,,,NUMBER,8 points,"Kostas Papanikolaou scored 8 points, not 12."
+T007,3,3,12 rebounds,29,30,,,NUMBER,12 rebounds,"Kostas Papanikolaou had 12 rebounds, not 12 rebounds."
+T007,,4,2 assists,,,,,NUMBER,3 assists,"Kostas Papanikolaou had 3 assists, not 2 assists."
+T007,,5,2 blocks,,,,,NUMBER,2 blocks,"Kostas Papanikolaou had 2 blocks, not 2 blocks."
+T007,3,1,Kenneth Faried,6,7,,,NAME,Kostas Papanikolaou,Kostas Papanikolaou is the correct player name.
+T007,5,2,13 points,5,6,,,NUMBER,8 points,"Kostas Papanikolaou scored 8 points, not 13."
+T007,3,3,12 rebounds,29,30,,,NUMBER,12 rebounds,"Kostas Papanikolaou had 12 rebounds, not 12 rebounds."
+T007,,4,2 assists,,,,,NUMBER,3 assists,"Kostas Papanikolaou had 3 assists, not 2 assists."
+T007,,5,2 blocks,,,,,,,
+T008,1,1,16 - 9,5,7,,,NUMBER,16-9,Incorrect hyphenation in the record.
+T008,1,2,7 - 19,14,16,,,NUMBER,7-19,Incorrect hyphenation in the record.
+T008,1,3,104 - 97,18,20,,,NUMBER,104-97,Incorrect hyphenation in the score.
+T008,,4,fourth straight loss,,,,,CONTEXT,fourth consecutive loss,Incorrect phrasing for consecutive losses.
+T008,,5,fourth win in five games,,,,,CONTEXT,fourth win in five games,Incorrect phrasing for consecutive wins.
+T008,,6,sixth man Rodney Stuckey racked up 15 points,,,,,NUMBER,15.0 points,Incorrect precision in points scored.
+T008,,7,"14 - point , 11 - rebound double - double",,,,,NUMBER,"14.0 points, 11.0 rebounds, double-double",Incorrect precision in points and rebounds scored.
+T008,,8,fourth win in five games,,,,,CONTEXT,fourth win in five games,Incorrect phrasing for consecutive wins.
+T008,,9,four game losing streak,,,,,NUMBER,four-game losing streak,Incorrect hyphenation in the losing streak.
+T008,,10,second - worst team in the Eastern Conference,,,,,NUMBER,second-worst team in the Eastern Conference,Incorrect hyphenation in the ranking.
+T008,,11,14 boards,,,,,NUMBER,14.0 rebounds,Incorrect precision in rebounds scored.
+T008,,12,nine rebounds per game on the season,,,,,NUMBER,9.0 rebounds per game on the season,Incorrect precision in rebounds per game.
+T008,,13,26 points,,,,,NUMBER,26.0 points,Incorrect precision in points scored.
+T008,,14,nine rebounds and six assists,,,,,NUMBER,9.0 rebounds and 6.0 assists,Incorrect precision in rebounds and assists.
+T008,11,15,"23 points , 11 rebounds and three assists",13,20,,,NUMBER,"23.0 points, 11.0 rebounds and 3.0 assists","Incorrect precision in points, rebounds, and assists."
+T008,,16,seven of 15 shooting,,,,,NUMBER,7-of-15 shooting,Incorrect precision in shooting percentage.
+T008,7,17,14 points and five rebounds,15,19,,,NUMBER,14.0 points and 5.0 rebounds,Incorrect precision in points and rebounds scored.
+T008,8,18,12 points and five rebounds,15,19,,,NUMBER,12.0 points and 5.0 rebounds,Incorrect precision in points and rebounds scored.
+T008,9,19,Atlanta Hawks,11,12,,,NAME,Atlanta Hawks,Incorrect capitalization of team name.
+T008,1,20,16 - 9,5,7,,,NUMBER,16-9,Incorrect hyphenation in the record.
+T008,12,21,14 points and four rebounds,15,19,,,NUMBER,14.0 points and 4.0 rebounds,Incorrect precision in points and rebounds scored.
+T008,13,22,15 points and seven rebounds,15,19,,,NUMBER,15.0 points and 7.0 rebounds,Incorrect precision in points and rebounds scored.
+T009,1,1,host Minnesota Timberwolves,6,8,,,NAME,Minnesota Timberwolves,The Timberwolves are not hosting themselves.
+T009,1,2,Saturday,18,18,,,WORD,Monday,"The game was played on Monday, not Saturday."
+T009,2,1,depleted Timberwolves,33,34,,,NAME,depleted Heat,"The Timberwolves are not depleted, the Heat are."
+T009,,1,31 -22,,,,,NUMBER,31-22,"The score difference is 31-22, not 31-22."
+T009,4,1,33 points,9,10,,,NUMBER,33 points,The correction is already correct.
+T009,4,2,nine assists,16,17,,,NUMBER,nine assists,The correction is already correct.
+T009,,1,13 of 17,,,,,NUMBER,13 of 17,The correction is already correct.
+T009,,1,55 percent,,,,,NUMBER,55%,The correction is already correct.
+T009,,2,five of his last six contests,,,,,CONTEXT,five of his last six games,"The context is misleading as it refers to games, not contests."
+T009,,1,60 percent,,,,,NUMBER,60%,The correction is already correct.
+T009,,2,75 percent,,,,,NUMBER,75%,The correction is already correct.
+T009,,1,8 assists,,,,,NUMBER,8 assists,The correction is already correct.
+T009,10,1,35 points,14,15,,,NUMBER,35 points,The correction is already correct.
+T009,11,1,27 points,5,6,,,NUMBER,27 points,The correction is already correct.
+T009,12,1,14 points,8,9,,,NUMBER,14 points,The correction is already correct.
+T009,,2,13 assist,,,,,NUMBER,13 assists,The correction is already correct.
+T009,5,1,12 points,5,6,,,NUMBER,12 points,The correction is already correct.
+T010,1,1,Wednesday,22,22,,,DAY,Monday,Incorrect day of the week.
+T010,1,2,Milwaukee,2,2,,,NAME,Houston,Incorrect city for the Rockets.
+T010,,1,barley,,,,,WORD,barely,Typo in the spelling of 'barely'.
+T010,,1,10th,,,,,NUMBER,10,Incorrect ordinal number.
+T010,1,1,Milwaukee,2,2,,,NAME,Houston,Incorrect city for the Rockets.
+T010,1,1,128,18,18,,,NUMBER,121,Incorrect score for the Rockets.
+T010,1,2,121,20,20,,,NUMBER,128,Incorrect score for the Bucks.
+T010,1,1,121,20,20,,,NUMBER,128,Incorrect score for the Bucks.
+T010,1,1,121,20,20,,,NUMBER,128,Incorrect score for the Bucks.
+T010,1,1,121,20,20,,,NUMBER,128,Incorrect score for the Bucks.
+T010,5,1,16,17,17,,,NUMBER,17,Incorrect number of turnovers for the Bucks.
+T010,3,1,17,10,10,,,NUMBER,16,Incorrect number of turnovers for the Bucks.
+T010,3,1,17,10,10,,,NUMBER,16,Incorrect number of turnovers for the Bucks.
+T010,6,1,James Harden,9,10,,,NAME,Jabari,
+T013,1,1,Saturday,17,17,,,DAY,Sunday,Incorrect day of the week.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,1,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,NUMBER,(24-16),Incorrect win-loss record for Grizzlies.
+T013,,2,Jazz (23-16),,,,,NUMBER,(23-16),Correct win-loss record for Jazz.
+T013,,1,Grizzlies (23-16),,,,,,,
+T015,1,1,Wednesday,23,23,,,WORD,Tuesday,Incorrect day of the week.
+T015,1,2,Palace of Auburn Hills,26,29,,,NAME,Joe Louis Arena,Incorrect venue name.
+T015,,1,three game,,,,,NUMBER,two-game,Incorrect number of games in the losing streak.
+T015,4,1,Nick Young,6,7,,,NAME,Kobe Bryant,Incorrect player name.
+T015,4,2,"5 - 13 FG , 3 - 6 3Pt , 6 - 7 FT",15,28,,,NUMBER,"5-13 FG, 3-6 3Pt, 6-7 FT",Incorrect shooting statistics.
+T015,5,1,Greg Monroe,1,2,,,NAME,Nick Young,Incorrect player name.
+T015,5,2,2 - for - 7 from the field and 4 - for - 6 from the free throw line,18,36,,,NUMBER,2-7 from the field and 4-6 from the free throw line,Incorrect shooting statistics.
+T015,7,1,Brandon Jennings,1,2,,,NAME,Greg Monroe,Incorrect player name.
+T015,,2,"10 points 2 - 10 FG , 0 - 1 3Pt , 6 - 6 FT",,,,,NUMBER,"10 points, 2-10 FG, 0-1 3Pt, 6-6 FT",Incorrect shooting statistics.
+T015,8,1,Friday,16,16,,,WORD,Wednesday,Incorrect day of the week.
+T015,8,2,Boston Celtics,13,14,,,NAME,Brooklyn Nets,Incorrect opponent name.
+T017,1,1,defeated the New Orleans Pelicans,9,13,,,NAME,took down the ailing New Orleans Pelicans,Incorrect team name for the defeat.
+T017,1,2,26 - 44,15,17,,,NUMBER,26-43,Incorrect win-loss record for the Pelicans.
+T017,1,3,Friday night,23,24,,,WORD,Tuesday,Incorrect day of the week.
+T017,2,1,out - scoring the Pelicans,13,17,,,CONTEXT,out-scoring the Pelicans,Redundant hyphen usage and unclear phrasing.
+T017,2,2,29 - 13,18,20,,,NUMBER,35-19,Incorrect score difference in the first quarter.
+T017,2,3,29 - 13,18,20,,,NUMBER,27-26,Incorrect score difference in the fourth quarter.
+T017,2,4,29 - 13,18,20,,,NUMBER,27-26,Incorrect score difference in the third quarter.
+T017,2,1,out - scoring the Pelicans,13,17,,,CONTEXT,out-scoring the Pelicans,Redundant hyphen usage and unclear phrasing.
+T017,2,2,29 - 13,18,20,,,NUMBER,27-26,Incorrect score difference in the second quarter.
+T017,5,1,24 points,12,13,,,NUMBER,25 points,Incorrect points for Dwyane Wade.
+T017,4,2,"10 - 21 FG , 0 - 0 3Pt , 5 - 6 FT",15,28,,,NUMBER,"10-21 FG, 0-0 3Pt, 5-6 FT",Incorrect shooting statistics for Dwyane Wade.
+T017,5,1,24 points,12,13,,,NUMBER,24 points,Incorrect points for Hassan Whiteside.
+T017,5,2,"10 - 11 FG , 4 - 6 FT",15,23,,,NUMBER,"10-11 FG, 4-6 FT",Incorrect shooting statistics for Hassan Whiteside.
+T017,7,1,Anthony Davis had a strong showing as well,1,8,,,NAME,Dante Cunningham had a strong showing as well,Incorrect player name for the strong showing.
+T017,5,2,24 points,12,13,,,NUMBER,24 points,Incorrect points for Anthony Davis.
+T017,5,3,"10 - 11 FG , 4 - 6 FT",15,23,,,NUMBER,"10-11 FG, 4-6 FT",Incorrect shooting statistics for Anthony Davis.
+T017,8,1,Wednesday,18,18,,,WORD,"Wednesday, while New Orleans will travel to Indiana on Thursday.",Incorrect day of the week and missing information about New Orleans' game.
+T018,,1,Wednesday night,,,,,WORD,Wednesday's,The word 'night' should be part of the possessive form.
+T018,,2,showdown,,,,,WORD,clash,The term 'showdown' is not commonly used in game summaries and is not accurate here.
+T018,,3,each team 's sixth man,,,,,WORD,each team's sixth man,The phrase 'each team's sixth man' is more accurate than 'each team sixth man'.
+T018,,4,Wednesday night,,,,,WORD,Wednesday's,The word 'night' should be part of the possessive form.
+T018,,1,Eric Gordon became a reserve upon the return of Patrick Beverley,,,,,NAME,Eric Gordon became a reserve upon the return of Patrick Beverley,"The sentence structure and names are correct, but the original phrasing is awkward."
+T018,4,2,24 minutes,37,38,,,NUMBER,29 minutes,"Eric Gordon played for 29 minutes, not 24."
+T018,,1,23 points per game,,,,,NUMBER,21 points per game,"Eric Gordon is averaging 21 points per game, not 23."
+T018,6,1,24 points,14,15,,,NUMBER,22 points,"Lou Williams scored 22 points, not 24."
+T018,,2,34 points,,,,,NUMBER,28 points,"Lou Williams averaged 28 points over his last three games, not 34."
+T018,7,1,29 minutes,40,41,,,NUMBER,37 minutes,"Julius Randle played for 37 minutes, not 29."
+T019,1,1,59 - 19,5,7,,,NUMBER,59-19,Incorrect score for the Hawks.
+T019,1,2,36 - 42,14,16,,,NUMBER,35-42,Incorrect score for the Nets.
+T019,1,3,Friday,26,26,,,WORD,Wednesday,Incorrect day of the week.
+T019,2,1,four,9,9,,,NUMBER,five,Incorrect number of games won in the last five games.
+T019,2,2,five,13,13,,,NUMBER,six,Incorrect number of games won in the last five games.
+T019,3,1,24,11,11,,,NUMBER,26,Incorrect points scored by Horford.
+T019,3,2,seven,14,14,,,NUMBER,nine,Incorrect rebounds for Horford.
+T019,2,3,four,9,9,,,NUMBER,five,Incorrect assists for Horford.
+T019,3,4,two,20,20,,,NUMBER,one,Incorrect steals for Horford.
+T019,3,5,one,23,23,,,NUMBER,zero,Incorrect blocks for Horford.
+T019,1,1,19,7,7,,,NUMBER,20,Incorrect points scored by Carroll.
+T019,3,2,seven,14,14,,,NUMBER,eight,Incorrect field goals made by Carroll.
+T019,5,3,three,34,34,,,NUMBER,four,Incorrect three-pointers made by Carroll.
+T019,2,4,five,13,13,,,NUMBER,nine,Incorrect rebounds for Carroll.
+T019,2,5,four,9,9,,,NUMBER,five,Incorrect assists for Carroll.
+T019,5,1,26,9,9,,,NUMBER,24,Incorrect points scored by Lopez.
+T019,,2,eight,,,,,NUMBER,seven,Incorrect field goals made by Lopez.
+T019,,3,ten,,,,,NUMBER,nine,Incorrect free throws made by Lopez.
+T019,,4,ten,,,,,NUMBER,nine,Incorrect rebounds for Lopez.
+T019,5,5,three,34,34,,,NUMBER,two,Incorrect blocks for Lopez.
+T019,4,1,nine,18,18,,,NUMBER,eight,Incorrect points scored by Scott.
+T019,3,2,seven,14,14,,,NUMBER,six,Incorrect field goals made by Scott.
+T019,3,3,two,20,20,,,NUMBER,one,Incorrect three-pointers made by Scott.
+T019,7,4,six,4,4,,,NUMBER,five,Incorrect free throws made by Scott.
+T019,,5,eight,,,,,NUMBER,seven,Incorrect rebounds for Scott.
+T019,3,1,one,23,23,,,NUMBER,zero,Incorrect games remaining in the regular season.
+T019,3,1,one,23,23,,,NUMBER,zero,Incorrect games remaining in the regular season.
+T019,6,1,14,5,5,,,NUMBER,12,Incorrect points scored by Jack.
+T019,,2,12,,,,,NUMBER,14,Incorrect points scored by Bogdanovic.
+T022,1,1,Wednesday,23,23,,,DAY,Sunday,Incorrect day of the week.
+T022,1,2,Energy Solutions Arena,25,27,,,STADIUM,AT&T Center,Incorrect arena name.
+T022,1,3,Salt Lake City,29,31,,,LOCATION,San Antonio,Incorrect location.
+T022,2,1,23 - 15,18,20,,,NUMBER,15-23,Incorrect order of quarters.
+T022,,2,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,3,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,NUMBER,5-12 from the field,Incorrect shooting statistics.
+T022,,2,0 - 0 from the three - point line,,,,,NUMBER,0-0 from the three-point line,Incorrect shooting statistics.
+T022,,1,5 - 10 from the field,,,,,,,
+T023,1,1,Wednesday,23,23,,,DAY,Saturday,Incorrect day of the week.
+T023,,2,American Airlines Arena,,,,,STADIUM,,Not checkable from the box score.
+T023,,1,39 - 18,,,,,NUMBER,18 - 26,Incorrect first quarter score difference.
+T023,,1,45 percent,,,,,PERCENTAGE,40 percent,Incorrect shooting percentage.
+T023,,2,31 percent,,,,,PERCENTAGE,30 percent,Incorrect three-point shooting percentage.
+T023,,1,game-high of 29 points,,,,,NUMBER,game-high of 29 points,Correct.
+T023,,2,eight assists and three rebounds,,,,,NUMBER,seven assists and three rebounds,Incorrect assists count.
+T023,,1,45 points and 21 rebounds over his last two games,,,,,NUMBER,45 points and 20 rebounds over his last two games,Incorrect rebounds count.
+T023,,1,"13 points ( 5 - 8 FG , 2 - 4 3Pt , 1 - 4 FT )",,,,,NUMBER,"13 points (5-8 FG, 2-4 3Pt, 1-4 FT)",Incorrect free throw attempts.
+T023,,2,13 rebounds in 35 minutes,,,,,NUMBER,13 rebounds in 34 minutes,Incorrect minutes played.
+T023,,1,"12 points ( 6 - 11 FG , 0 - 2 3Pt )",,,,,NUMBER,"12 points (6-11 FG, 0-2 3Pt)",Incorrect free throw attempts.
+T023,1,1,Wednesday,23,23,,,DAY,Sunday,Incorrect day of the week.
+T023,9,1,Friday,32,32,,,DAY,Thursday,Incorrect day of the week.
+T024,1,1,Wednesday,23,23,,,DAY_OF_WEEK,Friday,Incorrect day of the week.
+T024,1,2,99 - 94,19,21,,,NUMBER,99-94,Incorrect score difference.
+T024,2,1,27 - 27,18,20,,,NUMBER,27-27,Incorrect score difference.
+T024,,1,46 % from the field and 33 % from the three - point line,,,,,NUMBER,49% from the field and 33% from the three-point line,Incorrect shooting percentages.
+T024,,2,49 % from the floor and a meager 33 % from beyond the arc,,,,,NUMBER,49% from the floor and 33% from beyond the arc,Incorrect shooting percentages.
+T024,4,1,Kevin Durant and Russell Westbrook,9,13,,,NAME,Durant and Westbrook,Incorrect names.
+T024,5,2,14 - for - 21 from the field and 2 - for - 7 from the three - point line,3,22,,,NUMBER,14-for-21 from the field and 2-for-7 from the three-point line,Incorrect shooting statistics.
+T024,6,3,53 points and 20 rebounds,17,21,,,NUMBER,53 points and 20 rebounds,Incorrect statistics.
+T024,7,1,"20 points ( 8 - 15 FG , 2 - 4 3Pt , 2 - 2 FT )",18,35,,,NUMBER,"20 points (8-15 FG, 2-4 3Pt, 2-2 FT)",Incorrect shooting statistics.
+T024,,2,5 assists and 5 rebounds,,,,,NUMBER,6 assists and 5 rebounds,Incorrect statistics.
+T024,,1,27 points from Gordon Hayward and 20 from Trey Burke,,,,,NUMBER,27 points from Gordon Hayward and 20 from Trey Burke,Incorrect points scored.
+T024,,1,11 rebounds,,,,,NUMBER,11 rebounds,Incorrect rebounds.
+T024,,1,8 points and 9 rebounds off the bench,,,,,NUMBER,8 points and 9 rebounds off the bench,Incorrect statistics.
+T024,,1,four points but had seven rebounds and seven blocks,,,,,NUMBER,four points but had seven rebounds and seven blocks,Incorrect statistics.
+T024,1,1,Wednesday,23,23,,,DAY_OF_WEEK,Thursday,Incorrect day of the week.
+T025,1,1,Sunday,22,22,,,DAY,Friday,Incorrect day of the week.
+T025,2,1,34 - 29,18,20,,,NUMBER,34-29,Incorrect score difference in the first quarter.
+T025,4,1,Tony Wroten,9,10,,,NAME,Markieff Morris,Incorrect player name.
+T025,,2,10 - 19 from the field,,,,,NUMBER,10-19 from the field,Incorrect shooting statistics.
+T025,,3,4 - 9 from the three - point line,,,,,NUMBER,4-9 from the three-point line,Incorrect shooting statistics.
+T025,5,4,28 points,30,31,,,NUMBER,28 points,Incorrect points scored.
+T025,6,1,19 points,5,6,,,NUMBER,17 points,Incorrect points scored.
+T025,6,2,8 rebounds,8,9,,,NUMBER,7 rebounds,Incorrect rebounds.
+T025,11,1,10 points,4,5,,,NUMBER,12 points,Incorrect points scored.
+T025,11,2,3 - 7 FG,7,10,,,NUMBER,3-7 FG,Incorrect shooting statistics.
+T025,11,3,2 - 2 FT,17,20,,,NUMBER,2-2 FT,Incorrect free throw statistics.
+T025,,1,19 minutes,,,,,NUMBER,34 minutes,Incorrect playing time.
+T025,6,1,19 points,5,6,,,NUMBER,17 points,Incorrect points scored.
+T025,6,2,8 rebounds,8,9,,,NUMBER,7 rebounds,Incorrect rebounds.
+T025,,3,5 assists,,,,,NUMBER,4 assists,Incorrect assists.
+T025,,1,Tuesday,,,,,DAY,Friday,Incorrect day of the week.
+T025,,2,4 points,,,,,NUMBER,17 points,Incorrect points scored.
+T025,,3,38 minutes,,,,,NUMBER,34 minutes,Incorrect playing time.
+T025,11,1,10 points,4,5,,,NUMBER,16 points,Incorrect points scored.
+T025,12,2,0 - 0 3Pt,53,56,,,NUMBER,0-0 3Pt,Incorrect shooting statistics.
+T025,12,3,4 - 4 FT,58,61,,,NUMBER,4-4 FT,Incorrect free throw statistics.
+T027,,1,Houston Pelicans,,,,,NAME,"Rockets, Pelicans",Incorrect team names
+T027,2,2,20 - 7,4,6,,,NUMBER,20-7,Incorrect score format
+T027,2,3,9 - 19,30,32,,,NUMBER,9-19,Incorrect score format
+T027,2,4,Gregg Popovich,54,55,,,NAME,Mike D'Antoni,Incorrect coach name
+T027,3,1,"29 - point , 11 - assist double - double",11,20,,,NUMBER,"29 points, 11-assist triple-double",Incorrect stat description
+T027,,2,11 - rebound and a block,,,,,NUMBER,11 rebounds and a block,Incorrect stat description
+T027,4,3,Gordon Davis,1,2,,,NAME,"Gordon, Davis",Incorrect player names
+T027,4,4,"19 points , five rebounds , three assists and a block",5,15,,,NUMBER,"19 points, five rebounds, three assists and a block",Incorrect stat description
+T027,5,1,"20 points , five rebounds , an assist and three steals",12,22,,,NUMBER,"20 points, five rebounds, an assist and three steals",Incorrect stat description
+T027,6,2,Buddy Hield,1,2,,,NAME,Eric Gordon,Incorrect player name
+T027,,3,"11 points , five rebounds , one assist and one block",,,,,NUMBER,"11 points, five rebounds, one assist and one block",Incorrect stat description
+T027,10,1,"20 points , five rebounds , one assist and three steals",8,18,,,NUMBER,"20 points, five rebounds, one assist and three steals",Incorrect stat description
+T027,6,2,Buddy Hield,1,2,,,NAME,Alexis Ajinca,Incorrect player name
+T027,13,3,"11 points , five rebounds and one assist",8,15,,,NUMBER,"11 points, five rebounds and one assist",Incorrect stat description
+T027,10,4,"20 points , five rebounds , one assist and three steals",8,18,,,NUMBER,"20 points, five rebounds, one assist and three steals",Incorrect stat description
+T027,15,1,"10 points , seven rebounds , one assist and one block",5,15,,,NUMBER,"10 points, seven rebounds, one assist and one block",Incorrect stat description
+T027,6,2,Buddy Hield,1,2,,,NAME,Alexis Ajinca,Incorrect player name
+T027,13,3,"11 points , five rebounds and one assist",8,15,,,NUMBER,"11 points, five rebounds and one assist",Incorrect stat description
+T027,10,4,"20 points , five rebounds , one assist and three steals",8,18,,,NUMBER,"20 points, five rebounds, one assist and three steals",Incorrect stat description
+T027,,1,"11 points , one assist , one rebound and one steal",,,,,NUMBER,"11 points, one assist, one rebound and one steal",Incorrect stat description
+T027,7,2,Jrue Holiday,1,2,,,NAME,Eric Gordon,Incorrect player name
+T027,,3,"11 points , one assist and one block",,,,,NUMBER,"11 points, one assist and one block",Incorrect stat description
+T027,,4,"10 points , one assist and one block",,,,,,,
+T028,,1,"The San Antonio Spurs defeated the Los Angeles Clippers , 105 - 97 , at Staples Center on Friday .",,,,,NUMBER,"The San Antonio Spurs defeated the Los Angeles Clippers, 105-97, at Staples Center on Friday.",Incorrect team names and score format.
+T028,,2,"The San Antonio Spurs have been eliminated from playoff contention ,",,,,,NAME,"The San Antonio Spurs have been eliminated from playoff contention,",Incorrect team name.
+T028,,3,The San Antonio Spurs managed to hold on to the eighth seed in the Western Conference standings .,,,,,NUMBER,The San Antonio Spurs managed to hold on to the eighth seed in the Western Conference standings.,Incorrect team name and number format.
+T028,,1,"The Spurs jumped out of the gate to a 18 - 13 lead after the first quarter ,",,,,,NUMBER,"The Spurs jumped out of the gate to a 18-13 lead after the first quarter,",Incorrect team name and score format.
+T028,,2,"but the Spurs battled back to make it a one - point game with 2 : 56 to go ,",,,,,NUMBER,"but the Spurs battled back to make it a one-point game with 2:56 to go,",Incorrect team name and time format.
+T028,,3,but the Spurs held the lead for the rest of the way for the Spurs .,,,,,NAME,but the Spurs held the lead for the rest of the way for the Spurs.,Incorrect team name repetition.
+T028,4,1,"Blake Griffin was the high - point man for the Spurs , with 29 points , to go along with nine rebounds , five assists and one steal , in 38 minutes .",1,33,,,NUMBER,"Blake Griffin was the high-point man for the Spurs, with 29 points, to go along with nine rebounds, five assists and one steal, in 38 minutes.",Incorrect team name and score format.
+T028,5,1,"LaMarcus Aldridge followed up with 15 points , 11 rebounds , one assist and one steal , in 34 minutes .",1,21,,,NUMBER,"LaMarcus Aldridge followed up with 15 points, 11 rebounds, one assist and one steal, in 34 minutes.",Incorrect team name and score format.
+T028,6,1,"Tony Parker chipped in 17 points , two rebounds , three assists and two steals , in 31 minutes off the bench .",1,23,,,NUMBER,"Tony Parker chipped in 17 points, two rebounds, three assists and two steals, in 31 minutes off the bench.",Incorrect team name and score format.
+T028,7,1,"Meanwhile , Blake Griffin led the way for the Spurs with 29 points on 9 - of - 17 shooting , along with five assists , nine rebounds and one steal , in 38 minutes .",1,36,,,NUMBER,"Meanwhile, Blake Griffin led the way for the Spurs with 29 points on 9-of-17 shooting, along with five assists, nine rebounds and one steal, in 38 minutes.",Incorrect team name and score format.
+T028,8,1,"Austin Rivers followed up with 23 points on 8 - of - 14 shooting , in 27 minutes off the bench ,",1,22,,,NUMBER,"Austin Rivers followed up with 23 points on 8-of-14 shooting, in 27 minutes off the bench,",Incorrect team name and score format.
+T028,8,1,"while Chris Paul added 17 points , five assists , six rebounds and two steals , in 33 minutes .",23,42,,,NUMBER,"while Chris Paul added 17 points, five assists, six rebounds and two steals, in 33 minutes.",Incorrect team name and score format.
+T029,,1,105 -100,,,,,NUMBER,105-100,Incorrect score difference.
+T029,2,1,22 - 25,18,20,,,NUMBER,25-22,First quarter score difference reversed.
+T029,,2,47 % from the field and 38 % from the three - point line,,,,,NUMBER,47% from the field and 38% from the three-point line,Incorrect shooting percentages.
+T029,4,3,20 turnovers,8,9,,,NUMBER,20 turnovers,Incorrect number of turnovers.
+T029,5,1,Victor Oladipo and Markieff Morris,9,13,,,NAME,Victor Oladipo and Markieff Morris,Incorrect names.
+T029,6,2,7 - for - 15 from the field and 4 - for - 9 from the three - point line,3,22,,,NUMBER,7-for-15 from the field and 4-for-9 from the three-point line,Incorrect shooting statistics.
+T029,6,3,28 points,30,31,,,NUMBER,28 points,"Correct, no change needed."
+T029,6,4,4 - for - 9 from the three - point line,12,22,,,NUMBER,4-for-9 from the three-point line,Incorrect shooting statistics.
+T029,6,5,"28 points , while also adding seven assists and three steals",30,40,,,NUMBER,"28 points, while also adding seven assists and three steals","Correct, no change needed."
+T029,6,1,7 - for - 15 from the field and 4 - for - 9 from the three - point line,3,22,,,NUMBER,7-for-15 from the field and 4-for-9 from the three-point line,Incorrect shooting statistics.
+T029,6,2,28 points,30,31,,,NUMBER,28 points,"Correct, no change needed."
+T029,,3,7 rebounds and a block,,,,,NUMBER,4 rebounds and a block,Incorrect rebound count.
+T029,4,1,20 turnovers,8,9,,,NUMBER,20 turnovers,Incorrect number of turnovers.
+T029,6,1,7 - for - 15 from the field and 4 - for - 9 from the three - point line,3,22,,,NUMBER,7-for-15 from the field and 4-for-9 from the three-point line,Incorrect shooting statistics.
+T029,6,2,28 points,30,31,,,NUMBER,28 points,"Correct, no change needed."
+T029,,3,4 rebounds and a block,,,,,NUMBER,4 rebounds and a block,Incorrect rebound count.
+T029,,1,Wednesday 's game,,,,,WORD,Wednesday's game,Incorrect possessive form.
+T029,,2,Wednesday 's game,,,,,WORD,Wednesday's game,Incorrect possessive form.

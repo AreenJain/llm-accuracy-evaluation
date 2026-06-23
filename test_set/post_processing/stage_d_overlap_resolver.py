@@ -92,8 +92,8 @@ def process_file(input_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default="results/formatted/stage_abc")
-    parser.add_argument("--output_dir", default="results/formatted/stage_abcd")
+    parser.add_argument("--input_dir", default="test_set/results/formatted/stage_abc")
+    parser.add_argument("--output_dir", default="test_set/results/formatted/stage_abcd")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)

@@ -115,10 +115,10 @@ def process_file(input_path, output_a_path, output_ade_path, token_lookup):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default="results/formatted/ordered")
-    parser.add_argument("--output_dir", default="results/formatted/stage_a")
-    parser.add_argument("--output_e_dir", default="results/formatted/stage_ade")
-    parser.add_argument("--token_lookup", default="data/token_lookup.yaml")
+    parser.add_argument("--input_dir", default="test_set/results/formatted/ordered")
+    parser.add_argument("--output_dir", default="test_set/results/formatted/stage_a")
+    parser.add_argument("--output_e_dir", default="test_set/results/formatted/stage_ade")
+    parser.add_argument("--token_lookup", default="test_set/data/token_lookup.yaml")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)
