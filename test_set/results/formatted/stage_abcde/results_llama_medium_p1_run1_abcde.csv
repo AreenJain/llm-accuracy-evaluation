@@ -1,1 +1,198 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,NAME,Monday,Incorrect day of the week.
+T001,1,2,13 - 18,5,7,,,NUMBER,"13-18 is incorrect, the correct record is 14-16",Incorrect team record.
+T001,3,3,49 percent,12,13,,,NUMBER,45,Incorrect shooting percentage.
+T001,3,4,38 percent,18,19,,,NUMBER,38,Incorrect shooting percentage.
+T001,6,5,9 - for - 12,3,7,,,NUMBER,"9-for-12 is incorrect, the correct stats are 9-for-12 is not present in the box score",Incorrect shooting stats.
+T001,6,6,6 - for - 9,12,16,,,NUMBER,"6-for-9 is incorrect, the correct stats are 6-for-9 is not present in the box score",Incorrect shooting stats.
+T001,6,7,24,30,30,,,NUMBER,The correct stats are not present in the box score,Incorrect points scored.
+T001,6,9,four,39,39,,,NUMBER,The correct stats are not present in the box score,Incorrect number of blocked shots.
+T001,8,10,11,18,18,,,NUMBER,The correct stats are not present in the box score,Incorrect points scored.
+T001,8,11,4 - 9,21,23,,,NUMBER,The correct stats are not present in the box score,Incorrect shooting stats.
+T001,8,12,0 - 2,31,33,,,NUMBER,The correct stats are not present in the box score,Incorrect assists.
+T001,11,13,Friday,16,16,,,NAME,The correct day is not present in the box score,Incorrect day of the week.
+T002,1,1,Wednesday,19,19,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T002,4,2,48,14,14,,,NUMBER,43,"The Mavericks shot 43 percent from the field, not 48."
+T002,4,3,52,20,20,,,NUMBER,40,"The Mavericks shot 40 percent from three-point range, not 52."
+T002,5,4,44,16,16,,,NUMBER,38,"The Pelicans won the rebounding battle 38-34, not 44-34."
+T002,10,5,Sunday,15,15,,,NAME,Saturday,"The Pelicans have a home matchup against the Los Angeles Lakers on Saturday, not Sunday."
+T002,14,7,17,18,18,,,NUMBER,16,"DeMarcus Cousins accumulated 29 points, 16 rebounds and six assists, not 17 rebounds."
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,Incorrect day of the week.
+T003,1,2,Amway Center,25,26,,,NAME,Unknown,Unknown venue.
+T003,4,3,41,12,12,,,NUMBER,45,Incorrect shooting percentage.
+T003,4,4,33,18,18,,,NUMBER,39,Incorrect shooting percentage.
+T003,6,5,40,38,38,,,NUMBER,13,Incorrect points scored.
+T003,6,6,11,44,44,,,NUMBER,Unknown,Unknown rebounds.
+T003,6,7,four,47,47,,,NUMBER,Unknown,Unknown assists.
+T003,10,8,17,24,24,,,NUMBER,Unknown,Unknown points scored.
+T003,9,9,two,25,25,,,NUMBER,Unknown,Unknown rebounds.
+T003,8,11,13,34,34,,,NUMBER,Unknown,Unknown points scored.
+T003,11,12,nine,37,37,,,NUMBER,Unknown,Unknown rebounds.
+T003,4,14,three,22,22,,,NUMBER,Unknown,Unknown blocks.
+T003,12,15,Friday,16,16,,,NAME,Unknown,Unknown day of the week.
+T004,1,1,Tuesday,22,22,,,NAME,Wednesday,Incorrect day of the week.
+T004,1,2,1 - 0,5,7,,,NUMBER,10,Incorrect team record.
+T004,2,3,28 - 28,18,20,,,NUMBER,24,Incorrect score.
+T004,3,4,35 - 25,11,13,,,NUMBER,31,Incorrect score.
+T004,4,5,44 - 36,11,13,,,NUMBER,44,Incorrect rebounding margin.
+T004,5,6,48 percent,8,9,,,NUMBER,48,Incorrect shooting percentage.
+T004,5,7,32 percent,14,15,,,NUMBER,32,Incorrect three-point shooting percentage.
+T004,7,10,6 - for - 13,3,7,,,NUMBER,7,Incorrect shooting stats.
+T004,7,11,0 - for - 2,12,16,,,NUMBER,0,Incorrect three-point shooting stats.
+T004,7,12,16,30,30,,,NUMBER,16,Incorrect points scored.
+T004,7,13,11,36,36,,,NUMBER,11,Incorrect assists.
+T004,9,14,7 - for - 14,11,15,,,NUMBER,7,Incorrect shooting stats.
+T004,9,15,4 - for - 5,20,24,,,NUMBER,4,Incorrect three-point shooting stats.
+T004,11,16,21,9,9,,,NUMBER,21,Incorrect points scored.
+T004,11,17,3,19,19,,,NUMBER,3,Incorrect rebounds.
+T004,12,18,Friday,16,16,,,NAME,Thursday,Incorrect day of the week.
+T005,1,1,Saturday,17,17,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T005,2,2,Tuesday,11,11,,,NAME,Monday,"The Wizards head back home to face off with the New York Knicks on Monday evening, not Tuesday."
+T005,15,3,New York Knicks,11,13,,,NAME,Boston Celtics,"The Wizards head back home to face off with the Boston Celtics on Tuesday evening, not the New York Knicks."
+T006,1,1,Memphis Grizzlies ( 50 - 21 ),2,8,,,NAME,New York Knicks ( 14 - 57 ),The team name is incorrect.
+T006,11,2,52 percent from the field and 58 percent from beyond the arc,4,15,,,NUMBER,52 percent from the field and 22 percent from beyond the arc,The shooting percentages are incorrect.
+T006,12,3,The Grizzlies are off until Monday,1,6,,,CONTEXT,The Grizzlies are off until Wednesday,The sentence is misleading due to the incorrect day.
+T007,1,1,Wednesday,26,26,,,NAME,"Wednesday is correct, but the game was played on a different day","The story says the game was played on Wednesday, but the box score says it was played on a different day"
+T007,2,2,32,37,37,,,NUMBER,20,"The story says the Trail Blazers scored 32 points in the second half, but the box score says they scored 20"
+T007,1,3,Denver,12,12,,,NAME,Portland,"The story says the Nuggets were led by Kenneth Faried, but the box score says the Trail Blazers were led by a different player"
+T007,3,4,Kenneth,6,6,,,NAME,"Kenneth Faried is correct, but the box score says he played for a different team","The story says Kenneth Faried played for the Nuggets, but the box score says he played for the Trail Blazers"
+T007,1,5,12,15,15,,,NUMBER,13,"The story says Kenneth Faried scored 12 points, but the box score says he scored 13"
+T007,13,6,Sunday,10,10,,,NAME,Saturday,"The story says the Nuggets will host the Nuggets on Sunday, but the box score says they will host them on Saturday"
+T008,2,1,fourth,21,21,,,NUMBER,four,The text says 'fourth straight loss' but the correct word should be 'four'.
+T008,6,3,Brook,1,1,,,NAME,Brook Lopez,The text says 'Brook' but the correct name should be 'Brook Lopez'.
+T008,8,4,Andrea,1,1,,,NAME,Andrea Bargnani,The text says 'Andrea' but the correct name should be 'Andrea Bargnani'.
+T008,11,5,Paul,1,1,,,NAME,Paul George,The text says 'Paul' but the correct name should be 'Paul George'.
+T008,11,6,George,2,2,,,NAME,George Hill,The text says 'George' but the correct name should be 'George Hill'.
+T008,13,7,Myles,1,1,,,NAME,Myles Turner,The text says 'Myles' but the correct name should be 'Myles Turner'.
+T009,1,1,Minnesota Timberwolves,2,3,,,NAME,Heat,"The sentence says the Heat defeated the host Minnesota Timberwolves, but the Heat is the visiting team."
+T009,1,2,115 - 113,10,12,,,NUMBER,"115-113 is the correct score, but the teams are incorrect","The sentence says the Heat won 115-113, but the Heat is the visiting team."
+T009,2,3,Friday,28,28,,,NAME,Saturday,"The sentence says the Heat came into this game after Friday's contest, but the game was played on Saturday."
+T009,2,4,Heat,2,2,,,NAME,Timberwolves,"The sentence says the Heat were led by Goran Dragic's 33 points, but the Timberwolves were led by Karl-Anthony Towns' 35 points."
+T010,1,1,Wednesday,22,22,,,NAME,Monday,Incorrect day of the week.
+T010,1,2,BMO Harris Bradley Center in Milwaukee,25,30,,,CONTEXT,BMO Harris Bradley Center,"The sentence implies the game was played in Milwaukee, but the arena name already implies that."
+T010,4,3,42,28,28,,,NUMBER,17,Incorrect number of turnovers.
+T010,6,5,James Harden,9,10,,,CONTEXT,Jabari Parker,"The sentence implies Harden led the Bucks in scoring, but the story actually says Parker did."
+T010,7,6,8 - for - 16,3,7,,,NUMBER,16 - for - 25,Incorrect shooting stats.
+T010,7,7,nine assists,36,37,,,NUMBER,five assists,Incorrect number of assists.
+T010,7,8,six steals,39,40,,,NUMBER,two steals,Incorrect number of steals.
+T010,8,9,20 points,5,6,,,NUMBER,36 points,Incorrect number of points.
+T010,11,10,Trevor Ariza,12,13,,,CONTEXT,Jabari Parker,"The sentence implies Ariza had a solid game, but the story actually says Parker did."
+T010,11,11,6 - 9 FG,21,24,,,NUMBER,16 - for - 25,Incorrect shooting stats.
+T010,11,12,4 - 7 3Pt,26,29,,,NUMBER,1 - for - 1,Incorrect shooting stats.
+T010,11,13,4 - 4 FT,31,34,,,NUMBER,perfect 15 - 15,Incorrect shooting stats.
+T010,12,14,Friday,16,16,,,NAME,Wednesday,Incorrect day of the week.
+T011,1,1,Wednesday,18,18,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T011,4,2,42 - 18,4,6,,,NUMBER,"42-18 is the Cavaliers' record, not the Hawks'.",The Hawks did not have this record.
+T011,4,3,Kyrie Irving,14,15,,,NAME,Kyrie Irving did not play this game.,"The text says Irving did not play, but the stats are for him."
+T011,6,4,14 - of - 21,20,24,,,NUMBER,"14-21 is Irving's shooting, not his assists.","The text says Irving had 9 assists, but the stats are for his shooting."
+T011,7,5,Richard Jefferson,1,2,,,NAME,Richard Jefferson did not play for the Hawks.,"The text says Jefferson played for the Hawks, but he played for the Cavaliers."
+T011,7,6,Channing Frye,4,5,,,NAME,Channing Frye did not lead the bench in scoring.,"The text says Frye led the bench, but he played for the Cavaliers."
+T011,9,7,Orlando Magic,12,13,,,NAME,The Cavaliers do not play the Magic next.,"The text says the Cavaliers play the Magic, but they play the Heat."
+T011,9,8,Friday,15,15,,,NAME,The Cavaliers do not play the Heat on Friday.,"The text says the Cavaliers play the Heat on Friday, but they play on Saturday."
+T011,11,9,Paul Millsap,1,2,,,NAME,Paul Millsap did not play for the Hawks.,"The text says Millsap played for the Hawks, but he played for the Cavaliers."
+T011,12,10,Dennis Schroder,1,2,,,NAME,Dennis Schroder did not play for the Hawks.,"The text says Schroder played for the Hawks, but he played for the Cavaliers."
+T011,13,11,Dwight Howard,1,2,,,NAME,Dwight Howard did not play for the Hawks.,"The text says Howard played for the Hawks, but he played for the Cavaliers."
+T011,14,12,Ersan Ilyasova,1,2,,,NAME,Ersan Ilyasova did not play for the Hawks.,"The text says Ilyasova played for the Hawks, but he played for the Cavaliers."
+T012,1,1,48,5,5,,,NUMBER,32,The Raptors' win-loss record is incorrect.
+T012,1,2,35,14,14,,,NUMBER,45,The Heat's win-loss record is incorrect.
+T012,1,3,107,18,18,,,NUMBER,104,The Raptors' score is incorrect.
+T012,1,4,104,20,20,,,NUMBER,107,The Heat's score is incorrect.
+T012,2,5,strong,5,5,,,WORD,weak,The Raptors' first half performance is described incorrectly.
+T012,15,6,Friday,16,16,,,NAME,Wednesday,The day of the game is incorrect.
+T012,15,7,Cleveland,13,13,,,NAME,Cavaliers,The team the Raptors will play next is incorrect.
+T013,1,1,Saturday,17,17,,,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,2,2,Monday,11,11,,,NAME,Sunday,"The Grizzlies checked in to Sunday's contest, not Monday's."
+T013,2,4,American Airlines Arena,48,50,,,NAME,FedEx Forum,"The game was played at FedEx Forum, not American Airlines Arena."
+T013,1,5,Jazz,7,7,,,NAME,Grizzlies,"The Grizzlies outscored the Jazz, not the other way around."
+T013,14,8,Friday,33,33,,,NAME,Wednesday,"The Grizzlies head down to Central Florida for a showdown with the Orlando Magic on Wednesday, not Friday."
+T014,1,1,Knicks,4,4,,,NAME,Bucks,The team name is incorrect.
+T014,2,2,26 - 39,4,6,,,NUMBER,30-33,The Knicks' record is incorrect.
+T014,2,3,30 - 33,26,28,,,NUMBER,26-39,The Knicks' record is incorrect.
+T014,8,4,Giannis Antetokounmpo,1,2,,,NAME,"Giannis Antetokounmpo is correct, but the sentence is incorrect","The sentence is incorrect, Giannis Antetokounmpo is correct."
+T014,11,5,Matthew Dellavedova,1,2,,,NAME,"Matthew Dellavedova is correct, but the sentence is incorrect","The sentence is incorrect, Matthew Dellavedova is correct."
+T015,1,1,Wednesday,23,23,,,NAME,Tuesday,Incorrect day of the week.
+T015,1,2,Palace of Auburn Hills,26,29,,,NAME,"The Palace of Auburn Hills is in Auburn Hills, Michigan, but the game was played in Detroit.",Incorrect arena name.
+T015,2,3,three,9,9,,,NUMBER,two,Incorrect number of games.
+T015,4,4,Nick Young,6,7,,,NAME,Kobe Bryant,Incorrect player name.
+T015,1,5,13,8,8,,,NUMBER,12,Incorrect number of rebounds.
+T015,5,6,Greg Monroe,1,2,,,NAME,Kyle Singler,Incorrect player name.
+T015,6,7,52,6,6,,,NUMBER,Unknown,No information about Greg Monroe's points in the last two games.
+T015,7,8,Brandon Jennings,1,2,,,NAME,Unknown,No information about Brandon Jennings' points.
+T015,8,9,Friday,16,16,,,NAME,Unknown,No information about the Lakers' next game day.
+T015,8,10,Boston Celtics,13,14,,,NAME,Unknown,No information about the Lakers' next opponent.
+T015,8,12,Brooklyn,24,24,,,NAME,Unknown,No information about the Pistons' next opponent or location.
+T016,1,1,Friday,18,18,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T016,5,2,48,10,10,,,NUMBER,49,"The 76ers shot 49 percent from the field, not 48."
+T016,8,3,Sunday,17,17,,,NAME,Saturday,"The Kings will play the Magic on Saturday, not Sunday."
+T017,1,1,Friday,23,23,,,NAME,Tuesday,Incorrect day of the week.
+T017,1,2,26 - 44,15,17,,,NUMBER,26-43,Incorrect score.
+T017,4,3,"10 - 21 FG , 0 - 0 3Pt , 5 - 6 FT",15,28,,,NUMBER,"10-21 FG, 0-0 3Pt, 5-6 FT",Incorrect stats.
+T017,6,4,54,6,6,,,NUMBER,,Incorrect total points.
+T017,10,5,knee,8,8,,,WORD,,Incorrect injury type.
+T018,1,1,95,12,12,,,NUMBER,134,"The Rockets defeated the Lakers 134-95, not 95-134."
+T018,9,2,Friday,10,10,,,WORD,Saturday,"The Rockets will host the Timberwolves on Saturday, not Friday."
+T019,1,1,Friday,26,26,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T019,1,2,36,14,14,,,NUMBER,35,"The Nets scored 35 points in the first quarter, not 36."
+T019,1,3,Barclays Center,23,24,,,NAME,"Barclays is not mentioned in the text, but the game was played in Brooklyn.","The game was played in Brooklyn, not at the Barclays Center."
+T019,2,4,five,13,13,,,NUMBER,four,"The Hawks have won four of their last five games, not five."
+T019,7,5,48,15,15,,,NUMBER,47,"The Nets shot 47 percent from the field, not 48."
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,Incorrect day of the week.
+T020,11,2,Wednesday,16,16,,,NAME,Friday,Incorrect day of the week.
+T020,2,3,72 - 68,4,6,,,NUMBER,45-30,Incorrect score.
+T020,3,4,50,13,13,,,NUMBER,53,Incorrect percentage.
+T020,9,6,17,9,9,,,NUMBER,17,Incorrect number of points.
+T020,9,7,9,12,12,,,NUMBER,3,Incorrect number of assists.
+T021,1,1,Friday,23,23,,,NAME,Saturday,"The game was played on Saturday, not Friday."
+T021,1,2,7 - 3,6,8,,,NUMBER,6 - 3,"The Trail Blazers' record is 6-3, not 7-3."
+T021,1,3,4 - 5,15,17,,,NUMBER,4 - 4,"The Nets' record is 4-4, not 4-5."
+T022,1,1,Wednesday,23,23,,,NAME,Sunday,Incorrect day of the week.
+T022,1,2,Energy Solutions Arena,25,27,,,NAME,AT & T Center,Incorrect arena name.
+T022,1,3,Salt Lake City,29,31,,,NAME,San Antonio,Incorrect city name.
+T023,1,1,Wednesday,23,23,,,NAME,Saturday,Incorrect day of the week.
+T023,1,2,American Airlines Arena,25,27,,,NAME,Talking Stick Resort Arena,Incorrect arena name.
+T023,2,3,39 - 18,18,20,,,NUMBER,26,Incorrect score.
+T023,3,4,45,12,12,,,NUMBER,40,Incorrect shooting percentage.
+T023,3,5,31,18,18,,,NUMBER,20,Incorrect three-point shooting percentage.
+T023,5,6,9 - for - 22,3,7,,,NUMBER,8,Incorrect field goal attempts.
+T023,5,7,3 - for - 11,12,16,,,NUMBER,2,Incorrect three-point attempts.
+T023,7,8,Richard,12,12,,,NAME,Draymond,Incorrect player name.
+T023,7,9,Jefferson,13,13,,,NAME,Green,Incorrect player name.
+T023,9,10,Portland,13,13,,,NAME,New Orleans,Incorrect city name.
+T023,9,11,Friday,32,32,,,NAME,Wednesday,Incorrect day of the week.
+T024,1,1,Wednesday,23,23,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T024,1,2,Chesapeake Energy Arena,25,27,,,NAME,Unknown,The story does not mention the name of the arena.
+T024,3,3,49,31,31,,,NUMBER,46,"The Thunder shot 46 percent from the field, not 49."
+T024,3,4,33,18,18,,,NUMBER,33,"The Jazz shot 33 percent from the three-point line, which is correct, but the Thunder also shot 33 percent from the three-point line, not just the Jazz."
+T024,7,6,Trey,12,12,,,NAME,Trey Burke,"The story mentions Trey Burke, but the first name is not mentioned."
+T024,8,7,Dion,11,11,,,NAME,Dion Waiters,"The story mentions Dion Waiters, but the first name is not mentioned."
+T026,1,1,2,5,5,,,NUMBER,3,"The Knicks' record is actually 2-3, not 2-4."
+T026,1,2,98,19,19,,,NUMBER,95,"The Pistons' score is actually 95, not 98."
+T026,3,3,45,18,18,,,NUMBER,37,"The Pistons' three-point percentage is actually 37, not 45."
+T026,3,4,43,31,31,,,NUMBER,25,"Caldwell-Pope's points and rebounds over his last two games is actually 25, not 43."
+T026,8,5,12,5,5,,,NUMBER,2,"Augustin's points is actually 2, not 12."
+T026,10,6,Friday,16,16,,,NAME,Wednesday,"The Pistons' next game is actually on Wednesday, not Friday."
+T027,1,1,122,10,10,,,NUMBER,100,The Rockets' score is incorrect.
+T027,1,2,100,12,12,,,NUMBER,122,The Pelicans' score is incorrect.
+T027,2,3,Gregg,54,54,,,NAME,Gregg Popovich,The name is misspelled.
+T027,3,4,James,5,5,,,NAME,James Harden,The name is incomplete.
+T027,3,5,11,15,15,,,NUMBER,13,The number of assists is incorrect.
+T027,4,7,Gordon,1,1,,,NAME,Eric Gordon,The name is incomplete.
+T027,3,8,29,11,11,,,NUMBER,29,The number of points is correct but the context is incorrect.
+T027,2,10,19,32,32,,,NUMBER,19,The number of points is correct but the context is incorrect.
+T027,6,13,Buddy,1,1,,,NAME,Buddy Hield,The name is incomplete.
+T028,1,1,Friday,19,19,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T028,1,2,Spurs,4,4,,,NAME,Clippers,"The team that was eliminated from playoff contention is the Clippers, not the Spurs."
+T029,1,1,32,5,5,,,NUMBER,105,"The Suns' score is 105, not 32."
+T029,1,2,30,7,7,,,NUMBER,100,"The Magic's score is 100, not 30."
+T029,1,3,19,14,14,,,NUMBER,43,"The Magic's score is 43, not 19."
+T029,3,4,47,12,12,,,NUMBER,38,"The Suns' 3-point percentage is 38, not 47."
+T029,2,5,25,20,20,,,NUMBER,25,"The Magic's 3-point percentage is 25, not 25 (no mistake)."
+T029,6,6,7,3,3,,,NUMBER,4,"Morris' 3-pointers is 4, not 7."
+T029,6,7,9,16,16,,,NUMBER,2,"Tucker's 3-pointers is 2, not 9."
+T029,9,8,Friday,30,30,,,NAME,Wednesday,"The Suns' next game is on Wednesday, not Friday."
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,1,2,Fed Ex Forum Arena,24,27,,,NAME,"FedEx Forum Arena is not the correct arena, but the text does not provide the correct one.","The game was played in Memphis, but the text does not provide the correct arena."
+T030,2,3,40,12,12,,,NUMBER,43,"The Grizzlies shot 43 percent from the field, not 40."
+T030,2,4,33,18,18,,,NUMBER,29,"The Suns shot 29 percent from the three-point line, not 33."
+T030,7,5,Portland Trail Blazers,13,15,,,NAME,Denver Nuggets,"The Grizzlies' next game will be on the road against the Denver Nuggets, not the Portland Trail Blazers."
+T030,7,7,Friday,32,32,,,NAME,Monday,"The Suns will be at home against the Los Angeles Clippers on Monday, not Friday."

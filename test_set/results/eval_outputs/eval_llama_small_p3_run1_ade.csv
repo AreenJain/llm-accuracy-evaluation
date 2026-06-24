@@ -1,0 +1,8 @@
+categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
+NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.117,0.215,0.086,0.144,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+NAME,0.146,0.287,0.149,0.217,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+NUMBER,0.121,0.141,0.125,0.079,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+WORD,0.014,0.053,0.006,0.03,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+CONTEXT,None,None,None,None,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+NOT_CHECKABLE,None,None,None,None,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts
+OTHER,None,None,None,None,results/formatted/stage_ade/results_llama_small_p3_run1_ade.csv,data/gsml_30_rows.csv,data/texts

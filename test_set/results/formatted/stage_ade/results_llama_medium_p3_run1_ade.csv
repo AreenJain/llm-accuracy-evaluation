@@ -1,1 +1,61 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,3,Wednesday,22,22,,,NOT_CHECKABLE,The day of the week is not provided in the box score data,The day of the week is not provided in the box score data
+T001,2,4,28 - 28,18,20,,,NUMBER,The score is not provided in the box score data,The score is not provided in the box score data
+T001,3,5,49 percent,12,13,,,NUMBER,The shooting percentage is not provided in the box score data,The shooting percentage is not provided in the box score data
+T001,3,6,38 percent,18,19,,,NUMBER,The shooting percentage is not provided in the box score data,The shooting percentage is not provided in the box score data
+T001,5,7,DeMarcus Cousins,9,10,,,NAME,DeMarcus Cousins,The player's name is misspelled
+T001,6,10,24,30,30,,,NUMBER,The player's points are not provided in the box score data,The player's points are not provided in the box score data
+T001,8,11,Ben McLemore,12,13,,,NAME,Ben McLemore,The player's name is misspelled
+T001,8,12,4 - 9 FG,21,24,,,NUMBER,The player's field goal attempts are not provided in the box score data,The player's field goal attempts are not provided in the box score data
+T001,8,13,3 - 7 3Pt,26,29,,,NUMBER,The player's three-point attempts are not provided in the box score data,The player's three-point attempts are not provided in the box score data
+T001,8,14,11,18,18,,,NUMBER,The player's points are not provided in the box score data,The player's points are not provided in the box score data
+T003,1,2,106 -,18,19,,,NUMBER,106-103,Missing hyphen
+T003,4,3,41 percent,12,13,,,NUMBER,45,Incorrect shooting percentage
+T003,4,4,33 percent,18,19,,,NUMBER,39,Incorrect three-point shooting percentage
+T003,5,5,18 turnovers,11,12,,,NUMBER,10,Incorrect number of turnovers
+T003,6,6,40 points,38,39,,,NUMBER,13,Incorrect number of points
+T003,10,7,17 points,24,25,,,NUMBER,27,Incorrect number of points
+T003,12,8,Friday,16,16,,,CONTEXT,Monday,Incorrect day of the week
+T005,1,1,Saturday evening,17,18,,,CONTEXT,Monday,"The game was played on Monday, not Saturday."
+T005,15,4,Monday evening,15,16,,,CONTEXT,Tuesday,"The Hornets remain home to face off with the Golden State Warriors on Wednesday night, not the New York Knicks on Monday evening."
+T008,1,1,The Indiana Pacers ( 16 - 9 ),1,8,,,CONTEXT,"The Pacers are 16-9, but the context is that they are the home team, which is not clear from the sentence.",The sentence does not make it clear that the Pacers are the home team.
+T010,1,1,Wednesday at the BMO Harris Bradley Center,22,28,,,CONTEXT,Monday,Incorrect day of the week
+T010,2,2,32 - 26,15,17,,,NUMBER,38-26,Incorrect score
+T010,9,6,Jabari Parker,1,2,,,NAME,James Harden,Incorrect player name
+T010,10,8,54 points and 13 rebounds,17,21,,,NUMBER,"36 points, 5 rebounds and 5 assists",Incorrect stats
+T010,11,9,Trevor Ariza,12,13,,,NAME,Dwight Howard,Incorrect player name
+T010,11,10,"6 - 9 FG , 4 - 7 3Pt , 4 - 4 FT",21,34,,,NUMBER,"8-for-16 FG, 3-for-7 3Pt, 4-for-4 FT",Incorrect shooting stats
+T010,12,11,Friday,16,16,,,NAME,Wednesday,Incorrect day of the week
+T011,1,3,Wednesday,18,18,,,NAME,Friday,The story incorrectly states the day of the week the game was played.
+T013,1,1,Saturday,17,17,,,WORD,Sunday,Incorrect day of the week.
+T016,1,2,Friday,18,18,,,NOT_CHECKABLE,,The box score data does not provide the day of the week.
+T019,1,3,Friday,26,26,,,WORD,Wednesday,Incorrect day of the week
+T020,11,2,Friday,30,30,,,CONTEXT,Saturday,"The story says the Heat will be at home against the Miami Heat on Friday, but the box score says the Heat will be at home against the Cavaliers on Saturday."
+T023,1,1,Wednesday at American Airlines Arena in Dallas,23,29,,,CONTEXT,Saturday,Incorrect day of the week.
+T023,3,2,45 percent,12,13,,,NUMBER,40,Incorrect field goal percentage.
+T023,3,3,31 percent,18,19,,,NUMBER,20,Incorrect three-point percentage.
+T023,7,4,Richard Jefferson,12,13,,,NAME,Jameer Nelson,Incorrect player name.
+T023,7,5,13 points,18,19,,,NUMBER,6,Incorrect points scored.
+T023,7,6,13 rebounds,37,38,,,NUMBER,4,Incorrect rebounds.
+T023,9,7,Portland Trail Blazers,13,15,,,NAME,New Orleans Pelicans,Incorrect team name.
+T023,9,10,Friday,32,32,,,WORD,Sunday,Incorrect day of the week.
+T024,3,3,The Jazz were the superior shooters,1,6,,,WORD,The Thunder were the superior shooters,"The story says the Jazz were the superior shooters, but the box score says the Thunder were."
+T024,3,4,49 percent,31,32,,,NUMBER,46,"The story says the Thunder shot 49 percent from the field, but the box score says 46 percent."
+T024,3,5,33 percent,18,19,,,NUMBER,33,"The story says the Jazz shot 33 percent from the three-point line, but the box score says the Thunder shot 33 percent."
+T024,5,6,Durant went 14 - for - 21,1,7,,,NUMBER,14-for-21,"The story says Durant went 14-for-21 from the field, but the box score says Durant went 14-for-21 from the field."
+T024,5,7,2 - for - 7,12,16,,,NUMBER,2-for-7,"The story says Durant went 2-for-7 from the three-point line, but the box score says Durant went 2-for-7 from the three-point line."
+T024,7,8,Trey Burke,12,13,,,NAME,Trey Burke,"The story says Burke finished with 20 points, but the box score says Burke finished with 20 points (8-15 FG, 2-4 3Pt, 2-2 FT) and five assists in 38 minutes."
+T024,8,9,Dion Waiters,11,12,,,NAME,Dion Waiters,"The story says Waiters finished with 15 points and four steals, but the box score says Waiters finished with 15 points (7-14 FG, 1-4 3Pt, 0-1 FT, 0-4 3Pt, 0-1 FT) and four steals."
+T024,1,10,Wednesday,23,23,,,WORD,Friday,"The story says the Thunder's next game will be on Wednesday, but the box score says the game was played on Friday."
+T024,9,11,Denver Nuggets,13,14,,,NAME,Not mentioned,"The story says the Thunder's next game will be against the Denver Nuggets, but the box score does not mention the Nuggets."
+T025,1,1,Sunday at the US Airways Center in Phoenix,22,29,,,CONTEXT,Friday,"The game was played on Friday, not Sunday."
+T028,3,5,Spurs battled back to make it a one - point game with 2:56 to go,26,40,,,CONTEXT,The Spurs battled back to make it a one-point game with 2:56 to go,"The Spurs were behind, not the Clippers."
+T028,4,7,Blake Griffin was the high - point man for the Spurs,1,11,,,CONTEXT,Blake Griffin was the high-point man for the Clippers,"Blake Griffin is a Clipper, not a Spur."
+T028,5,8,LaMarcus Aldridge followed up with 15 points,1,7,,,NUMBER,"LaMarcus Aldridge followed up with 15 points, 11 rebounds, one assist and one steal","LaMarcus Aldridge had 15 points, but also had other stats."
+T028,6,9,Tony Parker chipped in 17 points,1,6,,,NUMBER,"Tony Parker chipped in 17 points, two rebounds, three assists and two steals","Tony Parker had 17 points, but also had other stats."
+T028,8,10,Austin Rivers followed up with 23 points,1,7,,,NUMBER,Austin Rivers followed up with 23 points on 8-of-14 shooting,"Austin Rivers had 23 points, but also had other stats."
+T028,8,11,Chris Paul added 17 points,24,28,,,NUMBER,"Chris Paul added 17 points, five assists, six rebounds and two steals","Chris Paul had 17 points, but also had other stats."
+T029,1,1,32 - 30,5,7,,,NUMBER,105,The story incorrectly states the Suns' score.
+T029,1,2,19 - 43,14,16,,,NUMBER,100,The story incorrectly states the Magic's score.
+T030,1,1,Wednesday,22,22,,,WORD,Sunday,Incorrect day of the week
+T030,7,8,Friday,32,32,,,WORD,Not available in the box score,Day of the week not provided in the box score

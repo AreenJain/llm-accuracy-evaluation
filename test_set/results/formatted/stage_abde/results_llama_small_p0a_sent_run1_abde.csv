@@ -1,1 +1,88 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,3,1,45,32,32,,,NUMBER,49,The home team's field goal percentage is 49%.
+T001,3,2,38,18,18,,,NUMBER,49,The visiting team's three-point percentage is 49%.
+T001,7,1,second,4,4,,,NOT_CHECKABLE,,The number of double-doubles a player has achieved in a row cannot be verified against the data tables.
+T001,7,2,54,17,17,,,NOT_CHECKABLE,,The player's last two games' combined points and rebounds cannot be verified against the data tables.
+T001,1,3,13,5,5,,,NOT_CHECKABLE,,The player's last two games' combined points and rebounds cannot be verified against the data tables.
+T001,7,4,two,25,25,,,NOT_CHECKABLE,,The number of games played cannot be verified against the data tables.
+T004,1,1,1 -,5,6,,,NUMBER,0,"The correct record for the Heat is 1-0, but the sentence says ( 1 - 0 )."
+T004,1,2,0 -,14,15,,,NUMBER,1,"The correct record for the Wizards is 0-1, but the sentence says ( 0 - 1 )."
+T004,1,3,107 -,18,19,,,NUMBER,95,"The correct score is 107-95, but the sentence says 107 - 95."
+T004,1,4,Tuesday,22,22,,,NAME,Wednesday,"The correct day of the week is Wednesday, but the sentence says Tuesday."
+T004,1,5,Miami,2,2,,,NAME,American Airlines Arena,"The correct arena is American Airlines Arena, but the sentence says American Airlines Arena in Miami."
+T005,2,1,20,6,6,,,NUMBER,10,The number of rebounds is incorrect.
+T005,5,2,four,24,24,,,NUMBER,0,The number of steals is incorrect.
+T005,9,1,bench,5,5,,,WORD,Washington Wizards,"The team Jason Smith played for is the Washington Wizards, not the bench."
+T005,8,1,13,4,4,,,NUMBER,8,The number of points Frank Kaminsky III scored is incorrect.
+T005,15,1,New York Knicks,11,13,,,NAME,Wizards,"The visiting team is actually the Wizards, not the New York Knicks."
+T005,15,3,Monday evening,15,16,,,NAME,Tuesday evening,"The Wizards head back home to face off with the Boston Celtics on Tuesday evening, not Monday evening."
+T006,7,1,one steal and one block,14,18,,,NUMBER,no information available,The box score data does not provide information on steals and blocks.
+T007,1,2,Nuggets,13,13,,,NAME,Denver Nuggets,The team name is incorrect.
+T007,5,1,13,5,5,,,NUMBER,8,The number of points scored by Kenneth Faried is incorrect.
+T007,6,2,4 - 12,15,17,,,NUMBER,4/12,The number of FG made by Kenneth Faried is incorrect.
+T007,6,3,5 - 6,25,27,,,NUMBER,0/0,The number of FT made by Kenneth Faried is incorrect.
+T008,11,1,23,13,13,,,NUMBER,9,The number of points Paul George accumulated is incorrect.
+T010,9,2,five,38,38,,,NUMBER,4,The box score data shows that Jabari Parker had 4 rebounds.
+T010,10,1,second,4,4,,,NOT_CHECKABLE,,The sentence says'second' which is a fact that cannot be verified against the box score data.
+T010,10,4,double,5,5,,,NOT_CHECKABLE,,The sentence says 'double' which is a fact that cannot be verified against the box score data.
+T010,10,6,row,10,10,,,NOT_CHECKABLE,,The sentence says 'row' which is a fact that cannot be verified against the box score data.
+T010,10,8,his,3,3,,,NOT_CHECKABLE,,The sentence says 'his' which is a fact that cannot be verified against the box score data.
+T010,10,12,as,12,12,,,NOT_CHECKABLE,,The sentence says 'as' which is a fact that cannot be verified against the box score data.
+T010,10,13,he,13,13,,,NOT_CHECKABLE,,The sentence says 'he' which is a fact that cannot be verified against the box score data.
+T010,10,14,combined for 54 points and 13 rebounds over his last two games,15,26,,,,,
+T010,7,1,six,39,39,,,NUMBER,7,The number of rebounds Trevor Ariza had is incorrect.
+T011,3,1,seven,22,22,,,NUMBER,25,"The Cavaliers led by 25 points at one point in the game, which is more than seven points."
+T011,7,1,Richard Jefferson,1,2,,,NAME,available in the box-score data,The correct score for Richard Jefferson is not available in the box-score data.
+T011,7,2,11,16,16,,,NUMBER,available in the box-score data,The correct score for Richard Jefferson is not available in the box-score data.
+T011,7,3,a piece,18,19,,,WORD,available in the box-score data,The correct score for Richard Jefferson is not available in the box-score data.
+T011,13,1,10,13,13,,,NUMBER,9,"The box score data shows that Ersan Ilyasova provided 9 points, not 10."
+T012,6,2,double -,5,6,,,WORD,,The word 'double-double' is not verified against the box score data.
+T012,9,1,Dwyane Dragic,12,13,,,NAME,Goran Dragic,The player's name is incorrect.
+T012,9,2,22,21,21,,,NUMBER,29,The points scored by Goran Dragic are incorrect.
+T012,13,3,8 - 16 FG,10,13,,,NUMBER,10 - 24 FG,The field goal attempts are incorrect.
+T012,9,4,3 - 7 3Pt,29,32,,,NUMBER,7 - 24 3Pt,The three-point attempts are incorrect.
+T012,9,5,3 - 3 FT,34,37,,,NUMBER,3 - 4 FT,The free throw attempts are incorrect.
+T013,1,1,Saturday,17,17,,,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,1,1,Jazz,7,7,,,NAME,Grizzlies,The team name is incorrect.
+T013,7,1,Rudy Gobert,1,2,,,NAME,Marc Gasol,"The box score data shows that Marc Gasol had 17 points, not Rudy Gobert."
+T013,8,2,12,11,11,,,NUMBER,13,"The box score data shows that Rudy Gobert had 13 rebounds, not 12."
+T014,1,1,New York,2,3,,,NAME,Knicks,The team name is incorrect.
+T017,1,1,26 - 44,15,17,,,NUMBER,26-43,"The Pelicans' win-loss record is (26-43), not (26-44)."
+T017,1,2,Friday,23,23,,,DAY_OF_WEEK,Tuesday,"The game was played on Tuesday, not Friday."
+T017,1,1,29,7,7,,,NUMBER,30,"The Heat out-scored the Pelicans 29-13 in the first quarter, but the Pelicans battled back in the second half, out-scoring the Pelicans 30-13."
+T017,3,2,31 -,19,20,,,NUMBER,19,"The correct score in the final quarter was 19, not 31-19."
+T017,4,1,25,12,12,,,NUMBER,23,The number of points scored by Dwyane Wade is incorrect.
+T017,4,2,10 - 21 FG,15,18,,,NUMBER,10 - 21 FG,"The number of field goals made by Dwyane Wade is correct, but the number of field goal attempts is not provided in the box score data."
+T017,4,3,0 - 0 3Pt,20,23,,,NUMBER,0 - 0 3Pt,The number of three-point field goals made by Dwyane Wade is not provided in the box score data.
+T017,7,1,Anthony Davis,1,2,,,NAME,Anthony Davis,The player's name is correct according to the box score data.
+T019,2,1,five,13,13,,,NUMBER,4,The number of assists is incorrect.
+T019,7,1,48,15,15,,,NUMBER,47,"The Nets shot 47% from the field, not 48%"
+T020,7,1,22,55,55,,,NUMBER,17,The number of points Hassan Whiteside scored is incorrect.
+T020,9,1,9,12,12,,,NUMBER,7,"The number of rebounds is incorrect. Hassan Whiteside grabbed 7 rebounds, not 9."
+T021,1,1,Friday,23,23,,,NAME,Saturday,The day of the week is incorrect.
+T021,3,1,10,26,26,,,NUMBER,11,The number of points scored by Jarrett Jack is incorrect.
+T022,1,1,Wednesday,23,23,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T022,4,3,13,42,42,,,NUMBER,18,The number of points scored by Rudy Gobert is incorrect.
+T022,4,4,18,48,48,,,NUMBER,4,The number of rebounds grabbed by Rudy Gobert is incorrect.
+T022,5,5,4,21,21,,,NUMBER,0,The number of blocked shots by Rudy Gobert is incorrect.
+T022,6,1,36 points and 10 rebounds,17,21,,,NUMBER,12 points and 9 rebounds,The box score data shows that Kawhi Leonard had 12 points and 9 rebounds in the game.
+T022,5,2,11,23,23,,,NUMBER,11,The number of rebounds scored by Aron Baynes is correct.
+T022,8,1,Portland Trail Blazers,13,15,,,NAME,Utah Jazz,"The visiting team in this game was actually the Utah Jazz, not the Portland Trail Blazers."
+T023,7,1,13,18,18,,,NUMBER,14,The number of rebounds Richard Jefferson had is incorrect.
+T023,7,2,35,40,40,,,NUMBER,28,The number of minutes Richard Jefferson played is incorrect.
+T024,3,1,The Jazz,1,2,,,CONTEXT,,"The sentence implies that the Jazz were led by Durant and Westbrook, but the box-score data shows that they played for the Thunder."
+T025,10,1,Robert Covington,12,13,,,NAME,TJ Warren,"The player's name is incorrect. According to the box score data, the player who reached double figures in points was TJ Warren, not Robert Covington."
+T026,1,1,2 - 3,5,7,,,NUMBER,1-3,The Pistons' record is incorrect.
+T026,3,1,The Pistons,1,2,,,NAME,Knicks,"The Pistons were the superior shooters in this game, going 37 percent from the field and 45 percent from the three - point line, while the Knicks went 43 percent from the floor and 45 percent from beyond the arc."
+T026,3,2,43,31,31,,,NUMBER,37,"The Pistons were the superior shooters in this game, going 37 percent from the field and 45 percent from the three - point line, while the Knicks went 43 percent from the floor and 45 percent from beyond the arc."
+T026,3,3,45,18,18,,,NUMBER,48,"The Pistons were the superior shooters in this game, going 37 percent from the field and 45 percent from the three - point line, while the Knicks went 43 percent from the floor and 45 percent from beyond the arc."
+T026,4,1,two blocked,42,43,,,NUMBER,0,"The sentence states that Caldwell-Pope added two rebounds and two blocked shots, but the box score data shows that he actually added 2 rebounds and 0 blocked shots."
+T026,7,1,"He went 8 - for - 15 from the field and 4 - for - 7 from the three - point line to score 20 points , while also adding three assists",1,32,,,NAME,Knicks,The team that the player played for is not mentioned in the sentence.
+T026,9,1,six,23,23,,,NOT_CHECKABLE,,The number of assists is not verifiable against the box score data.
+T027,2,1,Monday,11,11,,,NAME,Wednesday,"The game was played on Wednesday, not Monday."
+T027,4,1,Gordon Davis,1,2,,,NAME,Eric Gordon,The player's name is incorrect.
+T028,3,3,2:56,38,38,,,NOT_CHECKABLE,,The time remaining in the game is not verifiable against the provided box score data.
+T029,3,1,deep,41,41,,,WORD,three-point range,The word 'deep' is incorrect and should be replaced with 'three-point range'.
+T029,1,1,19,14,14,,,NUMBER,28,"The number 19 is incorrect, the correct number is 28."
+T030,4,1,17,37,37,,,NUMBER,16,"The correct number of points Brandon Knight finished with is 16, not 17."
+T030,6,2,37,39,39,,,NUMBER,36,"The correct number of minutes Brandon Knight played is 36, not 37."

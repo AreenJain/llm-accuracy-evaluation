@@ -1,1 +1,279 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Sacramento,2,2,,,NAME,Brooklyn,"The game was played in Brooklyn, not Sacramento."
+T001,1,2,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T001,1,5,Barclays,25,25,,,NAME,Barclays Center,The correct name of the arena is Barclays Center.
+T001,3,7,49 percent,12,13,,,NUMBER,45,"The Kings' field goal percentage was 45%, not 49%."
+T001,3,8,38 percent,18,19,,,NUMBER,45,"The Kings' three-point percentage was 45%, not 38%."
+T001,7,13,second,4,4,,,NUMBER,third,"Cousins' double-double was his third in a row, not second."
+T001,9,14,21 points,18,19,,,NUMBER,20,"Cousins' combined points over his last two games were 20, not 21."
+T001,6,15,13 rebounds,36,37,,,NUMBER,12,"Cousins' combined rebounds over his last two games were 12, not 13."
+T001,8,16,Ben,12,12,,,NAME,Brook,"The correct name of the player is Brook Lopez, not Ben McLemore."
+T001,8,17,11 points,18,19,,,NUMBER,10,"McLemore's points were 10, not 11."
+T001,9,23,12 rebounds,21,22,,,NUMBER,10,"McLemore's average rebounds over his last two games were 10, not 12."
+T001,11,24,Friday,16,16,,,NAME,Tuesday,"The Nets' next game was on Tuesday, not Friday."
+T002,1,1,New Orleans,2,3,,,NAME,Dallas,"The visiting team is actually the Dallas Mavericks, not the New Orleans Pelicans."
+T002,1,2,Smoothie King Center,15,17,,,NAME,American Airlines Center,"The game was played at the American Airlines Center in Dallas, not the Smoothie King Center in New Orleans."
+T002,2,3,opposite,7,7,,,WORD,opposite,"The teams are actually going in the same direction, not opposite directions."
+T002,3,4,12,10,10,,,NUMBER,11,"There were 11 ties and 11 lead changes, not 12."
+T002,4,5,48,14,14,,,NUMBER,52,"The Mavericks shot 52% from the field, not 48%."
+T002,4,6,52,20,20,,,NUMBER,40,"The Mavericks shot 40% from three-point range, not 52%."
+T002,5,7,44,16,16,,,NUMBER,34,"The Pelicans won the rebounding battle 34-44, not 44-34."
+T002,6,8,32,4,4,,,NUMBER,43,"The Pelicans have now lost four of their last six games, not won four of their last five games."
+T002,7,9,19,12,12,,,NUMBER,18,"Seth Curry finished second on the team with 18 points, not 19 points."
+T002,7,10,eight,15,15,,,NUMBER,two,"Seth Curry had two rebounds, not eight rebounds."
+T002,4,11,three,23,23,,,NUMBER,three,"Seth Curry had three assists, not three assists."
+T002,12,12,DeMarcus Cousins,1,2,,,NAME,DeMarcus Cousins,"The player's name is correct, but the stats are incorrect."
+T002,12,13,29,14,14,,,NUMBER,30,"DeMarcus Cousins scored 30 points, not 29 points."
+T002,12,14,16,17,17,,,NUMBER,17,"DeMarcus Cousins had 17 rebounds, not 16 rebounds."
+T002,11,15,six,15,15,,,NUMBER,six,"DeMarcus Cousins had six assists, not six assists."
+T002,13,16,Jrue Holiday,1,2,,,NAME,Jrue Holiday,"The player's name is correct, but the stats are incorrect."
+T002,8,17,18,10,10,,,NUMBER,18,"Jrue Holiday scored 18 points, not 18 points."
+T002,6,18,five,15,15,,,NUMBER,five,"Jrue Holiday had five rebounds, not five rebounds."
+T002,13,19,seven,18,18,,,NUMBER,seven,"Jrue Holiday had seven assists, not seven assists."
+T002,14,22,17,18,18,,,NUMBER,17,"DeMarcus Cousins had 17 rebounds, not 17 rebounds."
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Wednesday."
+T003,1,2,Raptors,3,3,,,NAME,Magic,"The home team was the Magic, not the Raptors."
+T003,1,3,Amway Center,25,26,,,NAME,Amway Center is not the home arena of the Magic,"The Magic's home arena is actually the Amway Center, but it's not the correct arena for this game."
+T003,4,8,41 percent,12,13,,,NUMBER,45 percent,"The Raptors shot 45% from the field, not 41%."
+T003,4,9,33 percent,18,19,,,NUMBER,39 percent,"The Raptors shot 39% from the three-point line, not 33%."
+T003,4,11,39 percent,38,39,,,NUMBER,39 percent,"The Magic shot 39% from beyond the arc, which is correct."
+T003,5,12,18 turnovers,11,12,,,NUMBER,15 turnovers,"The Magic committed 15 turnovers, not 18."
+T003,5,13,10 of their own,17,20,,,NUMBER,15 of their own,"The Raptors committed 15 turnovers, not 10."
+T003,6,16,40 points,38,39,,,NUMBER,13 points,"DeRozan scored 13 points, not 40."
+T003,8,19,13 points,34,35,,,NUMBER,40 points,"DeRozan scored 40 points, not 13."
+T003,10,20,17 points,24,25,,,NUMBER,11 points,"James Johnson scored 11 points, not 17."
+T004,1,1,The Miami Heat ( 1 - 0 ),1,8,,,NUMBER,The Miami Heat (0-0) defeated the Washington Wizards (0-1) 107-95 on Tuesday at American Airlines Arena in Miami.,The Heat's record is incorrect.
+T004,1,2,Washington Wizards ( 0 - 1 ),11,17,,,NUMBER,The Miami Heat (0-0) defeated the Washington Wizards (0-1) 107-95 on Tuesday at American Airlines Arena in Miami.,The Wizards' record is incorrect.
+T004,1,3,Tuesday,22,22,,,NAME,Wednesday,The day of the week is incorrect.
+T004,5,8,48,8,8,,,NUMBER,48.0,The percentage is incorrect.
+T004,5,9,32,14,14,,,NUMBER,32.0,The percentage is incorrect.
+T004,6,12,John Wall,9,10,,,NAME,Drew Gooden,The player who led the Heat is incorrect.
+T004,6,13,Bradley Beal,12,13,,,NAME,,The player who led the Heat is not mentioned in the box score.
+T004,7,16,16,30,30,,,NUMBER,18,The points scored by Wall are incorrect.
+T004,7,17,11,36,36,,,NUMBER,11,The assists by Wall are correct.
+T004,7,18,2,16,16,,,NUMBER,2,The steals by Wall are correct.
+T004,9,19,Marcin Gortat,1,2,,,NAME,,The player who had a solid showing is not mentioned in the box score.
+T004,9,22,18,33,33,,,NUMBER,18,The points scored by Gortat are correct.
+T004,9,23,seven,39,39,,,NUMBER,7,The rebounds by Gortat are incorrect.
+T004,2,24,a,6,6,,,WORD,a blocked shot,The type of shot blocked by Gortat is incorrect.
+T005,1,1,Saturday,17,17,,,NAME,Monday,"The game was played on Monday night, not Saturday evening."
+T005,7,8,23 points,4,5,,,NUMBER,13 points,"Cody Zeller scored 13 points, not 23 points."
+T005,12,9,nine rebounds,8,9,,,NUMBER,eight rebounds,"Cody Zeller had eight rebounds, not nine rebounds."
+T005,7,10,two assists,10,11,,,NUMBER,four assists,"Cody Zeller had four assists, not two assists."
+T005,12,11,three steals,14,15,,,NUMBER,two steals,"Cody Zeller had two steals, not three steals."
+T005,13,12,two blocks,20,21,,,NUMBER,one block,"Cody Zeller had one block, not two blocks."
+T005,8,13,13 points,4,5,,,NUMBER,13 points,Frank Kaminsky III scored 13 points.
+T005,11,14,four rebounds,15,16,,,NUMBER,four rebounds,Frank Kaminsky III had four rebounds.
+T005,8,15,one assist,10,11,,,NUMBER,one assist,Frank Kaminsky III had one assist.
+T005,5,16,one steal,27,28,,,NUMBER,one steal,Frank Kaminsky III had one steal.
+T005,15,17,New York Knicks,11,13,,,NAME,Boston Celtics,"The Wizards will face the Boston Celtics, not the New York Knicks."
+T007,1,1,Portland Trail Blazers,2,4,,,NAME,Trail Blazers,The team name is misspelled.
+T007,1,2,Denver Nuggets,12,13,,,NAME,Nuggets,The team name is misspelled.
+T007,1,3,Wednesday,26,26,,,NAME,Wednesday,"The day of the week is correct, but it's a name mistake."
+T007,9,14,31,13,13,,,NUMBER,29,The number of points is incorrect.
+T007,9,15,five,37,37,,,NUMBER,three,The number of rebounds is incorrect.
+T007,9,16,four,34,34,,,NUMBER,two,The number of assists is incorrect.
+T007,10,17,19,5,5,,,NUMBER,17,The number of points is incorrect.
+T007,10,19,41,34,34,,,NUMBER,36,The number of minutes is incorrect.
+T007,8,20,43,4,4,,,NUMBER,44,The percentage is incorrect.
+T007,8,21,44,10,10,,,NUMBER,43,The percentage is incorrect.
+T007,13,22,Sunday,10,10,,,NAME,Sunday,"The day of the week is correct, but it's a name mistake."
+T007,14,23,Memphis,7,7,,,NAME,Memphis,"The city name is correct, but it's a name mistake."
+T008,2,3,fourth,21,21,,,NUMBER,third,"The Nets have lost three games in a row, not four."
+T008,1,4,Friday,22,22,,,NAME,Saturday,"The game was played on Saturday, not Friday."
+T008,11,6,15,26,26,,,NUMBER,14,"Rodney Stuckey scored 14 points, not 15."
+T008,5,9,four,11,11,,,NUMBER,three,"The Nets have lost three games in a row, not four."
+T008,7,10,14,15,15,,,NUMBER,13,"Thaddeus Young pulled down 13 boards, not 14."
+T008,5,11,six,15,15,,,NUMBER,five,"Thaddeus Young pulled down five offensive boards, not six."
+T008,9,18,Saturday,14,14,,,NAME,Sunday,"The Pacers will play the Toronto Raptors on Sunday, not Saturday."
+T009,1,1,Minnesota Timberwolves,2,3,,,NAME,Heat,"The Heat played against the Timberwolves, not the Minnesota Timberwolves."
+T009,1,2,Saturday,18,18,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T009,4,6,two,19,19,,,WORD,one,"The Heat won by a one-point margin, not a two-point margin."
+T009,10,7,35,14,14,,,NUMBER,27,"Karl-Anthony Towns scored 27 points, not 35 points."
+T009,12,8,14,8,8,,,NUMBER,13,"Ricky Rubio posted a 14-point, 13-assist double-double, but the assist number is incorrect."
+T009,3,9,12,27,27,,,NUMBER,13,"Shabazz Muhammad paced the bench with 12 points, but the correct number is 13."
+T010,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T010,7,4,six,39,39,,,NUMBER,three,"The correct number of match-ups won by the Bucks is three, not six."
+T010,1,5,128,18,18,,,NUMBER,121,"The correct score is 121, not 128."
+T010,10,6,two,25,25,,,NUMBER,three,"The correct number of games lost by the Bucks is three, not two."
+T010,4,10,42,28,28,,,NUMBER,42,"The correct number of minutes played by Giannis Antetokounmpo is 42, not a comment on the mistake."
+T010,4,11,59,8,8,,,NUMBER,59,"The correct shooting percentage is 59, not a comment on the mistake."
+T010,4,12,53,14,14,,,NUMBER,53,"The correct shooting percentage is 53, not a comment on the mistake."
+T010,3,14,17,10,10,,,NUMBER,17,"The correct number of turnovers forced by the Bucks is 17, not a comment on the mistake."
+T010,5,15,16,17,17,,,NUMBER,16,"The correct number of turnovers committed by the Bucks is 16, not a comment on the mistake."
+T010,2,18,26,17,17,,,NUMBER,26,"The correct number of points scored by James Harden is 26, not a comment on the mistake."
+T010,11,19,9,23,23,,,NUMBER,9,"The correct number of assists by James Harden is 9, not a comment on the mistake."
+T010,11,20,6,21,21,,,NUMBER,6,"The correct number of rebounds by James Harden is 6, not a comment on the mistake."
+T010,8,23,20,5,5,,,NUMBER,20,"The correct number of points scored by Trevor Ariza is 20, not a comment on the mistake."
+T011,1,1,Wednesday,18,18,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T011,4,3,Kyrie Irving,14,15,,,NAME,LeBron James,"The player of the game was LeBron James, not Kyrie Irving."
+T011,7,5,11 points a piece,16,19,,,NUMBER,11 points each,"The stats for Richard Jefferson and Channing Frye are incorrect, it should be 11 points each."
+T011,7,6,Channing Frye,4,5,,,NAME,Richard Jefferson,"The player who led the bench in scoring was Richard Jefferson, not Channing Frye."
+T011,12,7,Dennis Schroder,1,2,,,NAME,Tim Hardaway Jr.,"The player who was second on the team was Tim Hardaway Jr., not Dennis Schroder."
+T011,13,8,Dwight Howard,1,2,,,NAME,Ersan Ilyasova,"The player who recorded a double-double was Ersan Ilyasova, not Dwight Howard."
+T011,14,10,Ersan Ilyasova,1,2,,,NAME,Dennis Schroder,"The player who was a nice spark off the bench was Dennis Schroder, not Ersan Ilyasova."
+T012,1,1,Toronto Raptors,2,3,,,NAME,Miami Heat,"The game was played by the Miami Heat, not the Toronto Raptors."
+T012,5,9,17,14,14,,,NUMBER,17 minutes,The number '17' is a part of the phrase '17 minutes'.
+T012,5,10,four,31,31,,,WORD,team-low,The word 'four' is a part of the phrase 'team-low four minutes'.
+T012,5,17,six,28,28,,,NUMBER,six rebounds,The number'six' is a part of the phrase'six rebounds'.
+T012,9,18,five,43,43,,,NUMBER,five assists,The number 'five' is a part of the phrase 'five assists'.
+T012,11,19,16,17,17,,,NUMBER,16 points,The number '16' is a part of the phrase '16 points'.
+T012,4,23,two,30,30,,,NUMBER,two days,The number 'two' is a part of the phrase 'two days'.
+T013,1,1,Saturday,17,17,,,NAME,Sunday,"The game was played on Sunday, not Saturday."
+T013,5,8,five,14,14,,,NUMBER,12,"Rudy Gobert hauled in 12 boards, not five."
+T013,9,9,11,12,12,,,NUMBER,13,"Zach Randolph posted a 13-point, 11-rebound double-double, not a 13-point, 11-rebound double-double with 13 points."
+T013,8,10,three,20,20,,,NUMBER,11,"Zach Randolph posted a 13-point, 11-rebound double-double, not a 13-point, 11-rebound double-double with three steals."
+T013,5,11,block,24,24,,,WORD,blocks,"Zach Randolph posted a 13-point, 11-rebound double-double, not a 13-point, 11-rebound double-double with a block."
+T013,2,12,Monday,11,11,,,NAME,Tuesday,"The Jazz will host the Cavaliers on Tuesday, not Monday."
+T013,14,13,Friday,33,33,,,NAME,Saturday,"The Grizzlies will face the Orlando Magic on Saturday, not Friday."
+T014,1,1,New York,2,3,,,NAME,Milwaukee,"The Knicks played at home, not away."
+T014,1,2,Milwaukee,7,7,,,NAME,Bucks,"The team name is Bucks, not Milwaukee."
+T014,1,3,BMO Harris Bradley Center,15,18,,,NAME,"BMO Harris Bradley Center is correct, but the arena is actually in Milwaukee, not New York.","The arena is in Milwaukee, not New York."
+T014,1,4,Friday,20,20,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T014,2,7,five of their last six games,33,38,,,NUMBER,five of their last six games,"The Knicks have actually won five of their last six games, not lost five of their last six games."
+T014,5,10,four rebounds and three assists,9,13,,,NUMBER,four rebounds and three assists,"Carmelo Anthony's stats are correct, but the sentence implies they're incorrect."
+T014,6,12,13 points and 12 rebounds,5,9,,,NUMBER,13 points and 12 rebounds,"Willy Hernangomez's stats are correct, but the sentence implies they're incorrect."
+T014,12,20,Friday evening,13,14,,,NAME,Wednesday evening,"The Knicks return home to face off with the Atlanta Hawks on Wednesday evening, not Friday evening."
+T015,1,1,Wednesday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Wednesday."
+T015,3,3,47,12,12,,,NUMBER,37,"The Lakers shot 37% from the field, not 47%."
+T015,3,4,37,23,23,,,NUMBER,29,"The Pistons shot 29% from beyond the arc, not 37%."
+T015,4,5,19,12,12,,,NUMBER,22,"Nick Young scored 22 points, not 19 points."
+T015,1,6,13,8,8,,,NUMBER,6,"Nick Young had 6 rebounds, not 13 rebounds."
+T015,6,9,52,6,6,,,NUMBER,40,"Greg Monroe has scored 40 points in the last two games, not 52 points."
+T015,7,10,10,6,6,,,NUMBER,10,"Brandon Jennings scored 10 points, which is correct."
+T015,8,14,Friday,16,16,,,NAME,Wednesday,"The Lakers' next game will be on Wednesday, not Friday."
+T016,1,1,Philadelphia,2,2,,,NAME,Sacramento,"The game was played in Sacramento, not Philadelphia."
+T016,1,2,76ers,3,3,,,NAME,Kings,"The visiting team was the Kings, not the 76ers."
+T016,1,3,100,9,9,,,NUMBER,102,"The final score was 102-100, not 100-100."
+T016,1,4,Friday,18,18,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T016,2,7,late in the fourth quarter,33,37,,,WORD,late in the game,"The correct phrase is 'late in the game', not 'late in the fourth quarter'."
+T016,4,9,18 points and five assists,14,18,,,NUMBER,18 points and four assists,"Sergio Rodriguez had four assists, not five."
+T016,4,10,20 minutes,24,25,,,NUMBER,20 minutes,"Jahlil Okafor logged 20 minutes off the bench, which is correct."
+T016,5,11,48 percent,10,11,,,NUMBER,45 percent,"The Sixers shot 45 percent from the field, not 48 percent."
+T016,6,13,30 points,14,15,,,NUMBER,30 points,"DeMarcus Cousins had 30 points, which is correct."
+T016,6,14,seven rebounds,21,22,,,NUMBER,seven rebounds,"DeMarcus Cousins had seven rebounds, which is correct."
+T016,6,16,three steals,27,28,,,NUMBER,three steals,"DeMarcus Cousins had three steals, which is correct."
+T016,6,17,two blocks,30,31,,,NUMBER,two blocks,"DeMarcus Cousins had two blocks, which is correct."
+T016,7,18,12 points,6,7,,,NUMBER,12 points,"Ty Lawson had 12 points, which is correct."
+T016,7,19,four rebounds,9,10,,,NUMBER,four rebounds,"Ty Lawson had four rebounds, which is correct."
+T016,7,20,four assists,12,13,,,NUMBER,four assists,"Ty Lawson had four assists, which is correct."
+T016,7,21,two steals,15,16,,,NUMBER,two steals,"Ty Lawson had two steals, which is correct."
+T016,7,22,nine points,23,24,,,NUMBER,nine points,"Darren Collison had nine points, which is correct."
+T016,9,25,The 76ers will host the Suns on Friday for their next game,1,12,,,NOT_CHECKABLE,,This statement is not checkable.
+T017,1,1,New Orleans,11,12,,,NAME,Miami,"The game was played in Miami, not New Orleans."
+T017,1,2,29,7,7,,,NUMBER,41,"The Heat's win-loss record is 41-29, not 29-29."
+T017,1,3,26,15,15,,,NUMBER,26-44,"The Pelicans' win-loss record is 26-44, not 26-43."
+T017,1,4,Smoothie King Center,27,29,,,NAME,American Airlines Arena,"The game was played at American Airlines Arena, not Smoothie King Center."
+T017,3,8,31,19,19,,,NUMBER,19,"The Pelicans out-scored the Heat 31-19 in the final quarter, not 31-31."
+T017,4,9,25,12,12,,,NUMBER,points,"Dwyane Wade scored 25 points, not just 25."
+T017,4,11,seven,31,31,,,NUMBER,rebounds,"Dwyane Wade pulled down seven rebounds, not just seven."
+T017,4,12,three,34,34,,,NUMBER,assists,"Dwyane Wade had three assists, not just three."
+T017,4,13,one,37,37,,,NUMBER,turnover,"Dwyane Wade committed one turnover, not just one."
+T017,5,14,24,12,12,,,NUMBER,points,"Hassan Whiteside scored 24 points, not just 24."
+T017,5,16,14,26,26,,,NUMBER,rebounds,"Hassan Whiteside pulled down 14 rebounds, not just 14."
+T017,6,18,54,6,6,,,NUMBER,points,"Hassan Whiteside combined for 54 points in the last two games, not just 54."
+T017,9,23,four,6,6,,,NUMBER,games,"The Pelicans have lost four games, not just four."
+T017,10,24,knee,8,8,,,NAME,ankle,"Anthony Davis missed the game with an ankle injury, not a knee injury."
+T018,1,1,Wednesday,17,17,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T018,1,2,Los Angeles,7,8,,,NAME,Houston,"The visiting team was the Los Angeles Lakers, but they were playing in Houston."
+T018,1,3,Toyota Center,14,15,,,NAME,Toyota Center is not the correct name of the arena where the game was played.,The correct name of the arena is not provided in the box score data.
+T018,3,5,25 points,10,11,,,NUMBER,21 points,"James Harden scored 21 points, not 25 points."
+T018,4,9,26 points,6,7,,,NUMBER,24 points,"Eric Gordon scored 24 points, not 26 points."
+T018,6,13,24 points,14,15,,,NUMBER,"24 points is correct, but the next sentence has a mistake","Lou Williams scored 24 points, which is correct."
+T018,9,19,Friday,10,10,,,NAME,"Friday is correct, but the next sentence has a mistake","The next game will be played on Friday, which is correct."
+T018,9,20,Timberwolves,8,8,,,NAME,"Timberwolves is correct, but the next sentence has a mistake","The next game will be played against the Timberwolves, which is correct."
+T018,1,21,Houston,2,2,,,NAME,"Houston is correct, but the next sentence has a mistake","The Rockets will host the Timberwolves in Houston, which is correct."
+T019,1,4,Brooklyn,11,11,,,NAME,Barclays Center,The venue is incorrect.
+T019,2,5,four,9,9,,,NUMBER,five,The number of games the Hawks won is incorrect.
+T019,2,6,five,13,13,,,NUMBER,four,The number of games the Hawks lost is incorrect.
+T019,3,7,24,11,11,,,NUMBER,26,The number of points Al Horford scored is incorrect.
+T019,3,8,seven,14,14,,,NUMBER,10,The number of rebounds Al Horford grabbed is incorrect.
+T019,3,10,two,20,20,,,NUMBER,one,The number of steals Al Horford had is incorrect.
+T019,3,11,one,23,23,,,NUMBER,three,The number of blocks Al Horford had is incorrect.
+T019,1,12,19,7,7,,,NUMBER,26,The number of points Brook Lopez scored is incorrect.
+T019,5,13,10,17,17,,,NUMBER,8,The number of rebounds Brook Lopez grabbed is incorrect.
+T019,5,16,three,34,34,,,NUMBER,one,The number of blocks Brook Lopez had is incorrect.
+T019,6,17,14,5,5,,,NUMBER,26,The number of points Jarrett Jack scored is incorrect.
+T019,7,21,six,4,4,,,NUMBER,six,The number of players who scored in double figures is correct.
+T019,7,22,48,15,15,,,NUMBER,47,The Nets' field goal percentage is incorrect.
+T019,1,23,Friday,26,26,,,NAME,Indiana,The location of the next game is incorrect.
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Tuesday."
+T020,1,2,American Airlines Arena,24,26,,,NAME,AmericanAirlines Arena,The correct spelling of the arena's name is AmericanAirlines Arena.
+T020,1,3,Miami,11,11,,,NAME,Charlotte,"The visiting team was the Charlotte Hornets, not the Miami Heat."
+T020,7,6,eight,24,24,,,NUMBER,nine,"The largest lead held by the Hornets was nine points, not eight points."
+T020,7,7,two,27,27,,,NUMBER,one,"The Heat pulled within one point with 5:22 to go, not two points."
+T020,5,14,19 points,9,10,,,NUMBER,19 (7-19 FG),"The correct phrase is '19 (7-19 FG)', not '19 points'."
+T020,5,15,seven assists,32,33,,,NUMBER,seven assists and seven rebounds,"The correct phrase is'seven assists and seven rebounds', not'seven assists'."
+T020,3,17,53 percent,7,8,,,NUMBER,53.0 percent,"The correct percentage is 53.0 percent, not 53 percent."
+T020,3,18,50 percent,13,14,,,NUMBER,50.0 percent,"The correct percentage is 50.0 percent, not 50 percent."
+T022,1,1,San Antonio,2,3,,,NAME,Utah,"The game was played in Utah, not San Antonio."
+T022,1,2,Energy Solutions Arena,25,27,,,NAME,AT & T Center,"The game was played at AT & T Center, not Energy Solutions Arena."
+T022,2,3,23 -,18,19,,,NUMBER,23-15,"The Spurs out-scored the Jazz 23-15 in the first quarter, not just 23."
+T022,2,10,15,20,20,,,NUMBER,15,"The Jazz committed 15 turnovers throughout the game, which is correct."
+T022,4,11,13,42,42,,,NUMBER,13,"Rudy Gobert scored a game-high of 13 points, which is correct."
+T022,4,12,18,48,48,,,NUMBER,18,"Rudy Gobert added 18 rebounds, which is correct."
+T022,5,13,4,21,21,,,NUMBER,4,"Rudy Gobert had four blocked shots, which is correct."
+T022,5,14,12,18,18,,,NUMBER,12,"Kawhi Leonard finished with 12 points, which is correct."
+T022,5,16,1,26,26,,,NUMBER,1,"Kawhi Leonard had one assist, which is correct."
+T022,5,18,11,23,23,,,NUMBER,11,"Aron Baynes added 11 rebounds, which is correct."
+T022,8,19,Friday,17,17,,,NAME,Tuesday,"The Spurs' next game will be on the road against the Portland Trail Blazers on Tuesday, not Friday."
+T023,1,1,Golden State,2,3,,,NAME,Warriors,The team name is misspelled.
+T023,1,3,American Airlines Arena,25,27,,,NAME,American Airlines Center,The arena name is incorrect.
+T023,2,4,39,18,18,,,NUMBER,39,"The number is correct, but the context is incorrect."
+T023,2,5,18,20,20,,,NUMBER,18,"The number is correct, but the context is incorrect."
+T023,3,6,45,12,12,,,NUMBER,45,"The number is correct, but the context is incorrect."
+T023,3,7,31,18,18,,,NUMBER,31,"The number is correct, but the context is incorrect."
+T023,5,8,29,30,30,,,NUMBER,29,"The number is correct, but the context is incorrect."
+T023,1,9,8,17,17,,,NUMBER,8,"The number is correct, but the context is incorrect."
+T023,5,10,3,12,12,,,NUMBER,3,"The number is correct, but the context is incorrect."
+T023,7,11,13,18,18,,,NUMBER,13,"The number is correct, but the context is incorrect."
+T023,7,12,5,21,21,,,NUMBER,5,"The number is correct, but the context is incorrect."
+T023,1,14,20,6,6,,,NUMBER,20,"The number is correct, but the context is incorrect."
+T023,1,15,2,8,8,,,NUMBER,2,"The number is correct, but the context is incorrect."
+T024,1,1,Oklahoma City,2,3,,,NAME,Utah,"The game was played in Utah, not Oklahoma City."
+T024,1,2,Wednesday,23,23,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T024,5,5,32,25,25,,,NUMBER,27,"Kevin Durant scored 27 points, not 32."
+T024,3,10,three,22,22,,,NUMBER,one,"The Thunder's lead was one, not three."
+T024,8,12,15 points,17,18,,,NUMBER,20 points,"Waiters finished with 20 points, not 15."
+T024,8,13,four steals,46,47,,,NUMBER,three steals,"Waiters had three steals, not four."
+T025,1,1,Sunday,22,22,,,NAME,Friday,"The game was played on Friday, not Sunday."
+T025,1,2,US Airways Center,25,27,,,NAME,US Airways Arena,"The arena was called US Airways Arena, not US Airways Center."
+T025,2,3,34,18,18,,,NUMBER,29,"The Suns out-scored the Sixers 34-29 in the first quarter, but the correct score is 29-29."
+T025,4,4,Wroten,10,10,,,NAME,Green,"The duo of Tony Wroten and Gerald Green led the Suns, but the correct name is Gerald Green and another player."
+T025,6,5,19 points and 8 rebounds,5,9,,,NUMBER,28 points and 7 rebounds,"Tony Wroten's average is 28 points and 7 rebounds, not 19 points and 8 rebounds."
+T025,9,7,27 points and 16 rebounds,17,21,,,NUMBER,27 points and 15 rebounds,"Eric Bledsoe's combined points and rebounds over his last two games is 27 points and 15 rebounds, not 27 points and 16 rebounds."
+T026,1,1,Detroit,2,2,,,NAME,New York,"The game was played in New York, not Detroit."
+T026,1,2,Knicks,13,13,,,NAME,Pistons,"The home team was the Pistons, not the Knicks."
+T026,2,3,25,18,18,,,NUMBER,20,"The Pistons out-scored the Knicks 25-20 in the first half, but the correct score is 20-25."
+T026,3,4,37,12,12,,,NUMBER,43,"The Pistons shot 43 percent from the field, not 37 percent."
+T026,3,5,45,18,18,,,NUMBER,45,"The Knicks shot 45 percent from the three-point line, which is correct."
+T026,4,6,Kentavious Caldwell-Pope,6,7,,,NAME,Carmelo Anthony,"The player who led the Knicks was Carmelo Anthony, not Kentavious Caldwell-Pope."
+T026,4,8,20 points,17,18,,,NUMBER,20 points,"Tim Hardaway Jr. scored 20 points, which is correct."
+T026,8,9,12 points and 2 rebounds on the year,5,12,,,NUMBER,12 points and 2 rebounds per game,"Tim Hardaway Jr.'s average stats are incorrect, he actually averages 12 points and 2 rebounds per game."
+T027,1,1,New Orleans,6,7,,,NAME,Houston,"The game was played in Houston, not New Orleans."
+T027,1,2,Friday,18,18,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+T027,2,5,122 points,63,64,,,NUMBER,123 points,"The Pelicans scored 123 points, not 122 points."
+T027,4,7,19 points,5,6,,,NUMBER,20 points,"Gordon Davis scored 20 points, not 19 points."
+T027,5,8,20 points,12,13,,,NUMBER,21 points,"Trevor Ariza scored 21 points, not 20 points."
+T027,6,9,11 points,10,11,,,NUMBER,10 points,"Buddy Hield scored 10 points, not 11 points."
+T027,11,14,29 points,8,9,,,NUMBER,28 points,"Eric Gordon scored 28 points, not 29 points."
+T027,15,17,10 points,5,6,,,NUMBER,9 points,"Cheick Diallo scored 9 points, not 10 points."
+T028,1,1,San Antonio,2,3,,,NAME,Los Angeles,"The game was played in Los Angeles, not San Antonio."
+T028,1,2,Spurs,4,4,,,NAME,Clippers,"The home team was the Clippers, not the Spurs."
+T029,1,1,Phoenix Suns,2,3,,,NAME,Orlando Magic,"The Suns are the visiting team, not the home team."
+T029,3,4,47 percent,12,13,,,NUMBER,47.1%,The correct percentage is 47.1%.
+T029,3,5,38 percent,18,19,,,NUMBER,38.1%,The correct percentage is 38.1%.
+T029,4,6,20 turnovers,8,9,,,NUMBER,19 turnovers,The correct number of turnovers is 19.
+T029,5,7,Victor Oladipo,9,10,,,NAME,Markieff Morris,"The player who led the Suns is Markieff Morris, not Victor Oladipo."
+T029,7,10,19 points,5,6,,,NUMBER,19.5 points,The correct average is 19.5 points.
+T029,7,11,7 rebounds,8,9,,,NUMBER,7.5 rebounds,The correct average is 7.5 rebounds.
+T029,1,14,Wednesday,22,22,,,NAME,Friday,"The Suns' next game is on Friday, not Wednesday."
+T029,9,15,Miami Heat,13,14,,,NAME,New Orleans Pelicans,"The Suns' next game is against the New Orleans Pelicans, not the Miami Heat."
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,1,2,Fed Ex Forum Arena,24,27,,,NAME,FedExForum,The correct name of the arena is FedExForum.
+T030,2,3,40 percent,12,13,,,NUMBER,43 percent,"The Grizzlies shot 43 percent from the field, not 40 percent."
+T030,2,4,33 percent,18,19,,,NUMBER,29 percent,"The Suns shot 29 percent from beyond the arc, not 33 percent."
+T030,3,5,Eric Bledsoe and Marc Gasol,9,13,,,NAME,Marc Gasol and Eric Bledsoe,The order of the names is incorrect.
+T030,6,10,37 minutes,39,40,,,NUMBER,37 minutes,"The number of minutes is correct, but the context is incorrect because it's a duplicate of the previous sentence."
+T030,8,11,three of their last three games,12,17,,,NUMBER,three of their last four games,"The Grizzlies have lost three of their last four games, not three of their last three games."
+T030,10,13,12 points and 5 rebounds on the year,5,12,,,NUMBER,12 points and 5 rebounds on the year,"The number of points and rebounds is correct, but the context is incorrect because it's a duplicate of the previous sentence."

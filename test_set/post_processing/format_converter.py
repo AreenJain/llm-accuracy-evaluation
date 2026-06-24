@@ -82,8 +82,8 @@ def convert_file(input_path, output_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--input_dir", default="test_set/results/llm_csv")
-    parser.add_argument("--output_dir", default="test_set/results/formatted/ordered")
+    parser.add_argument("--input_dir", default="results/llm_csv")
+    parser.add_argument("--output_dir", default="results/formatted/ordered")
     args = parser.parse_args()
 
     os.makedirs(args.output_dir, exist_ok=True)

@@ -1,1 +1,157 @@
 TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+T001,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T001,1,4,Brooklyn,11,11,,,NAME,Sacramento,"The visiting team was the Kings, not the Nets."
+T001,11,18,Friday,16,16,,,NAME,Tuesday,"The Nets' next game was on Tuesday, not Friday."
+T002,1,3,Wednesday,19,19,,,NAME,Wednesday,The day of the week is actually Wednesday.
+T003,1,1,Wednesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Wednesday."
+T003,1,3,Raptors,3,3,,,NAME,Raptors,The team name is correct.
+T003,2,11,18,20,20,,,NUMBER,18,The number of turnovers is correct.
+T003,5,12,10,17,17,,,NUMBER,10,The number of turnovers is correct.
+T003,6,19,DeRozan,7,7,,,NAME,DeRozan,The player name is correct.
+T004,1,1,Miami,2,2,,,NAME,Washington,The home team is incorrect.
+T004,1,2,Wizards,12,12,,,NAME,Heat,The visiting team is incorrect.
+T004,1,3,Tuesday,22,22,,,NAME,Wednesday,The day of the week is incorrect.
+T004,11,16,21,9,9,,,NUMBER,21,The number is incorrect.
+T004,12,27,Minnesota,24,24,,,NAME,,The team is correct.
+T005,1,1,Saturday,17,17,,,NAME,Monday,"The game was played on Monday night, not Saturday evening."
+T007,1,4,Nuggets,13,13,,,NAME,Trail Blazers,The home team is actually the Trail Blazers.
+T007,1,8,12,15,15,,,NUMBER,13,The player's points are actually 13.
+T007,5,14,13,5,5,,,NUMBER,12,The player's points are actually 12.
+T007,8,16,43,4,4,,,,,
+T008,1,1,16,5,5,,,NUMBER,17,"The Pacers' record is incorrect. According to the box score data, the Pacers' record is 16-9, but the text says 16-16."
+T008,1,2,9,7,7,,,NUMBER,10,"The Nets' record is incorrect. According to the box score data, the Nets' record is 7-19, but the text says 7-9."
+T008,1,3,Friday,22,22,,,NAME,Saturday,"The day of the week is incorrect. According to the box score data, the game was played on Saturday, not Friday."
+T008,3,4,42,16,16,,,NUMBER,52,"The Nets' field goal percentage is incorrect. According to the box score data, the Nets' field goal percentage is 42%, but the text says 50%."
+T008,3,5,50,22,22,,,NUMBER,25,"The Nets' three-point field goal percentage is incorrect. According to the box score data, the Nets' three-point field goal percentage is 25%, but the text says 50%."
+T008,2,6,fourth,21,21,,,WORD,third,"The Nets have lost four of their last six games, but the text says four of their last four games."
+T008,6,7,18,13,13,,,NUMBER,12,"Brook Lopez's points are incorrect. According to the box score data, Brook Lopez scored 12 points, not 18."
+T008,6,8,five,16,16,,,NUMBER,three,"Brook Lopez's rebounds are incorrect. According to the box score data, Brook Lopez had three rebounds, not five."
+T008,7,10,14,15,15,,,NUMBER,12,"Thaddeus Young's points are incorrect. According to the box score data, Thaddeus Young scored 12 points, not 14."
+T008,8,12,12,15,15,,,NUMBER,15,"Andrea Bargnani's points are incorrect. According to the box score data, Andrea Bargnani scored 15 points, not 12."
+T008,9,14,Saturday,14,14,,,NAME,Sunday,"The day of the week is incorrect. According to the box score data, the game was played on Sunday, not Saturday."
+T008,11,15,23,13,13,,,NUMBER,26,"Paul George's points are incorrect. According to the box score data, Paul George scored 26 points, not 23."
+T008,11,16,11,16,16,,,NUMBER,9,"Paul George's rebounds are incorrect. According to the box score data, Paul George had 9 rebounds, not 11."
+T008,3,17,three,25,25,,,NUMBER,four,"Paul George's assists are incorrect. According to the box score data, Paul George had 4 assists, not 3."
+T008,5,19,four,11,11,,,NUMBER,three,"George Hill's rebounds are incorrect. According to the box score data, George Hill had 3 rebounds, not 4."
+T008,11,20,15,26,26,,,NUMBER,12,"Myles Turner's points are incorrect. According to the box score data, Myles Turner scored 12 points, not 15."
+T008,13,21,seven,18,18,,,NUMBER,six,"Myles Turner's rebounds are incorrect. According to the box score data, Myles Turner had 6 rebounds, not 7."
+T009,1,1,Minnesota,2,2,,,NAME,Miami,"The Heat played in Miami, not Minnesota."
+T009,1,2,Saturday,18,18,,,NAME,Monday,"The game was played on Monday, not Saturday."
+T009,2,4,Friday,28,28,,,NAME,Monday,"The game was played on Monday, not Friday."
+T010,1,1,Wednesday,22,22,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+T011,1,1,Wednesday,18,18,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T012,1,1,Toronto Raptors,2,3,,,NAME,Miami Heat,"The Raptors should be the Heat, as the Heat are the home team."
+T012,5,9,17,14,14,,,NUMBER,4,The number of minutes played by James Johnson is incorrect.
+T012,5,17,six,28,28,,,NUMBER,seven,The number of rebounds scored by Dwyane Wade is incorrect.
+T012,9,18,five,43,43,,,NUMBER,four,The number of assists scored by Dwyane Wade is incorrect.
+T012,11,19,16,17,17,,,NUMBER,18,The number of points scored by Hassan Whiteside is incorrect.
+T012,4,23,two,30,30,,,NUMBER,three,The number of days off before finishing the season is incorrect.
+T013,1,1,Memphis,2,2,,,NAME,Utah,"The Grizzlies played at FedEx Forum, which is in Memphis, but the story says they played at FedEx Forum on Sunday evening, which is correct. However, the Grizzlies are the home team, so they should be the team playing at FedEx Forum."
+T013,5,8,22,7,7,,,NUMBER,22,"Gordon Hayward scored 22 points, which is correct."
+T013,6,9,15,6,6,,,NUMBER,15,"George Hill scored 15 points, which is correct."
+T013,9,12,11,12,12,,,NUMBER,11,"Trey Lyles scored 11 points, which is correct."
+T013,10,13,19,10,10,,,NUMBER,19,"Mike Conley scored 19 points, which is correct."
+T013,11,14,13,7,7,,,NUMBER,13,"Zach Randolph scored 13 points, which is correct."
+T013,2,16,17,43,43,,,NUMBER,17,"Marc Gasol scored 17 points, which is correct."
+T013,2,17,Monday,11,11,,,NAME,Tuesday,"The Jazz will host the Cavaliers on Tuesday, not Monday."
+T013,14,18,Friday,33,33,,,NAME,Saturday,"The Grizzlies will face the Orlando Magic on Saturday, not Friday."
+T014,1,12,Friday,20,20,,,NAME,Wednesday,"The day of the week is actually Wednesday, not Friday."
+T015,1,1,Wednesday,23,23,,,NAME,Tuesday,"The game was played on Tuesday, not Wednesday."
+T016,1,1,Philadelphia,2,2,,,NAME,Sacramento,"The game was played in Sacramento, not Philadelphia."
+T016,1,2,76ers,3,3,,,NAME,Kings,"The visiting team was the Kings, not the 76ers."
+T016,2,6,late in the fourth quarter,33,37,,,WORD,early,"The Sixers pulled away early in the game, not late."
+T016,3,7,late in the game,16,19,,,WORD,early,The Sixers staved off a late rally early in the game.
+T016,3,8,second half,36,37,,,WORD,first,"The Sixers pulled away in the first half, not the second."
+T016,4,9,18 points and five assists,14,18,,,NUMBER,18 points and 5 assists,The correction is already included in the sentence.
+T016,4,10,20 minutes,24,25,,,NUMBER,20 minutes,The correction is already included in the sentence.
+T016,5,11,48 percent,10,11,,,NUMBER,45%,"The Sixers shot 45% from the field, not 48%."
+T016,6,13,30 points,14,15,,,NUMBER,30 points,The correction is already included in the sentence.
+T016,6,14,seven rebounds,21,22,,,NUMBER,seven rebounds,The correction is already included in the sentence.
+T016,6,16,three steals,27,28,,,NUMBER,three steals,The correction is already included in the sentence.
+T016,6,17,two blocks,30,31,,,NUMBER,two blocks,The correction is already included in the sentence.
+T016,7,18,12 points,6,7,,,NUMBER,12 points,The correction is already included in the sentence.
+T016,7,19,four rebounds,9,10,,,NUMBER,four rebounds,The correction is already included in the sentence.
+T016,7,20,four assists,12,13,,,NUMBER,four assists,The correction is already included in the sentence.
+T016,7,21,two steals,15,16,,,NUMBER,two steals,The correction is already included in the sentence.
+T016,7,22,nine points,23,24,,,NUMBER,nine points,The correction is already included in the sentence.
+T016,7,24,28 minutes,30,31,,,NUMBER,28 minutes,The correction is already included in the sentence.
+T016,1,26,Friday,18,18,,,,,
+T018,1,0,Wednesday,17,17,,,NAME,Friday,"The game was played on Friday, not Wednesday."
+T018,9,18,Friday,10,10,,,NAME,Wednesday,"The Lakers will host the Timberwolves on Wednesday, not Friday."
+T019,1,1,Atlanta,2,2,,,NAME,Atlanta,The team name is incorrect.
+T019,1,2,Hawks,3,3,,,NAME,Hawks,The team name is incorrect.
+T019,1,3,59,5,5,,,NUMBER,59,The win-loss record is incorrect.
+T019,1,4,19,7,7,,,NUMBER,19,The win-loss record is incorrect.
+T019,1,5,36,14,14,,,NUMBER,36,The win-loss record is incorrect.
+T019,1,6,42,16,16,,,NUMBER,42,The win-loss record is incorrect.
+T019,1,7,114,18,18,,,NUMBER,114,The score is incorrect.
+T019,1,8,111,20,20,,,NUMBER,111,The score is incorrect.
+T019,1,9,Friday,26,26,,,NAME,Friday,The day of the week is incorrect.
+T019,3,10,24,11,11,,,NUMBER,24,The number of points scored by Al Horford is incorrect.
+T019,3,11,33,26,26,,,NUMBER,33,The number of minutes played by Al Horford is incorrect.
+T019,4,13,37,27,27,,,NUMBER,37,The number of minutes played by DeMarre Carroll is incorrect.
+T019,5,14,26,9,9,,,NUMBER,26,The number of points scored by Brook Lopez is incorrect.
+T019,5,15,39,38,38,,,NUMBER,39,The number of minutes played by Brook Lopez is incorrect.
+T019,6,16,14,5,5,,,NUMBER,14,The number of points scored by Jarrett Jack is incorrect.
+T019,6,17,21,31,31,,,NUMBER,21,The number of minutes played by Jarrett Jack is incorrect.
+T019,7,18,48,15,15,,,NUMBER,48,The shooting percentage is incorrect.
+T020,1,1,Tuesday,22,22,,,NAME,Thursday,"The game was played on Thursday, not Tuesday."
+T020,2,3,34,25,25,,,NUMBER,45,"The Heat's lead at the end of the second quarter was 45-30, not 34-19."
+T020,3,4,53,7,7,,,NUMBER,50,"The Heat's three-point percentage was 41%, not 53%."
+T020,3,5,50,13,13,,,NUMBER,50,"The Hornets' three-point percentage was 50%, which is correct."
+T020,2,6,19,27,27,,,NUMBER,21,"The number of points Nicolas Batum scored was 19, not 21."
+T020,5,9,5,61,61,,,NUMBER,7,"The number of rebounds Nicolas Batum grabbed was 5, not 7."
+T021,1,1,Portland,2,2,,,NAME,Portland Trail Blazers,The team name is incorrect.
+T021,1,2,7,6,6,,,NUMBER,6,The team's win-loss record is incorrect.
+T021,1,3,3,8,8,,,NUMBER,4,The team's win-loss record is incorrect.
+T021,1,4,97,19,19,,,NUMBER,87,The score is incorrect.
+T021,1,5,Friday,23,23,,,NAME,Saturday,The day of the week is incorrect.
+T021,2,6,four,4,4,,,NUMBER,six,The number of straight games won is incorrect.
+T021,2,7,five,12,12,,,NUMBER,three,The number of games lost in the last six games is incorrect.
+T021,3,8,28,7,7,,,NUMBER,28,The number of points scored by Damian Lillard is correct.
+T021,3,12,10,26,26,,,NUMBER,10,The number of assists by Damian Lillard is correct.
+T021,3,14,38,32,32,,,NUMBER,38,The number of minutes played by Damian Lillard is correct.
+T021,4,15,20,16,16,,,NUMBER,20,The number of points scored by Joe Johnson is correct.
+T021,2,19,six,16,16,,,,,
+T022,1,2,Wednesday,23,23,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T022,2,11,15,20,20,,,NUMBER,14,"The Jazz committed 14 turnovers, not 15."
+T023,1,18,Dallas,12,12,,,NAME,Dallas,The team name is correct.
+T024,1,1,The Oklahoma City Thunder,1,4,,,NAME,Utah Jazz,"The Thunder is actually the visiting team, not the home team."
+T024,1,2,Wednesday,23,23,,,DAY,Friday,"The game was played on Friday, not Wednesday."
+T024,1,3,Chesapeake Energy Arena,25,27,,,NAME,TBD,The arena is not specified in the box score data.
+T024,2,4,27,18,18,,,NUMBER,27,"The Thunder out-scored the Jazz 27-27 in the first quarter, which is correct."
+T024,3,5,46 percent,12,13,,,NUMBER,46,"The Jazz shot 46 percent from the field, which is correct."
+T024,3,6,33 percent,18,19,,,NUMBER,33,"The Jazz shot 33 percent from the three-point line, which is correct."
+T024,3,7,49 percent,31,32,,,NUMBER,49,"The Thunder shot 49 percent from the floor, which is correct."
+T024,4,9,Kevin Durant,9,10,,,NAME,,"Kevin Durant is actually a player for the Thunder, not the Jazz."
+T024,4,10,Russell Westbrook,12,13,,,NAME,,"Russell Westbrook is actually a player for the Thunder, not the Jazz."
+T024,5,11,14 - for - 21,3,7,,,NUMBER,14-21,"Durant went 14-for-21 from the field, which is correct."
+T024,5,12,2 - for - 7,12,16,,,NUMBER,2-7,"Durant went 2-for-7 from the three-point line, which is correct."
+T024,5,13,32,25,25,,,NUMBER,32,"Durant scored 32 points, which is correct."
+T024,6,15,53 points and 20 rebounds,17,21,,,NUMBER,53 points and 20 rebounds,"Durant combined for 53 points and 20 rebounds over his last two games, which is correct."
+T024,7,16,Trey Burke,12,13,,,NAME,,"Trey Burke is actually a player for the Jazz, not the Thunder."
+T024,7,17,20 points,18,19,,,NUMBER,20,"Burke finished with 20 points, which is correct."
+T024,5,18,five assists,31,32,,,WORD,,"Burke had five assists, which is correct."
+T024,8,19,Dion Waiters,11,12,,,NAME,,"Dion Waiters is actually a player for the Thunder, not the Jazz."
+T024,8,20,15 points,17,18,,,NUMBER,15,"Waiters finished with 15 points, which is correct."
+T024,8,21,four steals,46,47,,,WORD,,"Waiters had four steals, which is correct."
+T024,9,23,the Jazz will travel to San Antonio to play the Spurs on Wednesday,19,31,,,FACT,,"The Jazz will actually travel to San Antonio to play the Spurs on Wednesday, which is correct."
+T025,1,1,Sunday,22,22,,,NAME,Friday,"The game was played on Friday, not Sunday."
+T025,13,14,Friday,17,17,,,NAME,Friday,The correct day of the week is Friday.
+T026,1,1,Detroit,2,2,,,NAME,New York,The home team is incorrect.
+T026,1,4,Wednesday,23,23,,,NAME,Thursday,The day of the week is incorrect.
+T027,1,0,Houston,2,2,,,NAME,New Orleans,"The visiting team is actually the Pelicans, not the Rockets."
+T027,2,1,Monday,11,11,,,NAME,Wednesday,"The game was played on Wednesday, not Monday."
+T027,1,2,Pelicans,8,8,,,NAME,Pelicans,The visiting team is actually the Pelicans.
+T027,3,4,29,11,11,,,NUMBER,122,"The Rockets' score is actually 122, not 29."
+T027,3,5,11,15,15,,,NUMBER,11,"The number of rebounds is correct, but the number of assists is incorrect."
+T027,2,6,20,4,4,,,NUMBER,20,"The number of points is correct, but the number of rebounds is incorrect."
+T028,1,3,Spurs,4,4,,,NAME,Clippers,"The Spurs are the home team, but the text says they are the visiting team."
+T028,1,4,Clippers,9,9,,,NAME,Spurs,"The Spurs are the home team, but the text says they are the visiting team."
+T029,1,1,Phoenix Suns,2,3,,,NAME,Orlando,The home team is incorrect.
+T029,1,3,Wednesday,22,22,,,NAME,Friday,The day of the week is incorrect.
+T029,6,5,28,30,30,,,NUMBER,38,The points scored by Victor Oladipo are incorrect.
+T029,9,14,Friday,30,30,,,NAME,Wednesday,The day of the week is incorrect.
+T030,1,1,Wednesday,22,22,,,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+T030,2,3,40,12,12,,,NUMBER,43,"The Grizzlies shot 43% from the field, not 40%."
+T030,2,4,33,18,18,,,NUMBER,29,"The Suns shot 29% from beyond the arc, not 33%."
