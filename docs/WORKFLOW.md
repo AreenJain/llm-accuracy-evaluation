@@ -47,12 +47,12 @@ PRACTICUM/
 │   ├── stage_b_nearest_fixed_n.py ← Stage B + D+E → _ab, _abde
 │   ├── stage_c_strict_match.py  ← Stage C + D+E   → _abc, _abcde
 │   ├── stage_d_overlap_resolver.py ← helper (resolve_overlaps)
-│   └── stage_e_drop_unmatched.py   ← helper (drop_unmatched)
+│   ├── stage_e_drop_unmatched.py   ← helper (drop_unmatched + story-token validation)
+│   └── recover_csv_from_raw.py  ← rebuild a results CSV from its raw JSONL (no re-run)
 │
 ├── evaluation/                  ← scoring + comparison
 │   ├── evaluate.py              ← canonical shared-task scorer (NEVER MODIFY)
-│   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage) — flat Excel
-│   ├── batch_evaluate_format.py ← same run, but pivoted Excel (model groups across top)
+│   ├── batch_evaluate.py        ← runs evaluate.py over all (run × stage); writes pivoted Excel
 │   └── LLM_evaluate.py          ← legacy wrapper (kept for reference)
 │
 ├── results/                     ← all generated outputs
@@ -67,6 +67,11 @@ PRACTICUM/
 │   │   ├── stage_abc/           ← _abc.csv          (Stage C only — diagnostic)
 │   │   └── stage_abcde/         ← _abcde.csv        (A + B + C + D + E, final)
 │   └── eval_outputs/            ← per-(run, stage) eval CSVs + master comparison
+│
+├── test_set/                    ← SELF-CONTAINED held-out test set (its own data + code + results)
+│   ├── data/                    ← the 30 held-out games (TEXT_IDs T001–T030) + gold gsml
+│   ├── pipeline/ post_processing/ evaluation/   ← copies of the code
+│   └── results/                 ← test-set outputs (same structure as results/ above)
 │
 ├── venv/                        ← Python virtual env (gitignored)
 └── requirements.txt
@@ -258,12 +263,11 @@ wraps that:
    - Produces `results/eval_outputs/master_comparison.xlsx`.
    - Color-scaled (red → yellow → green) so visual comparison is instant.
 
-**Two report layouts:**
-- `batch_evaluate.py` → flat table, one row per (model, size, prompt, mode, stage).
-- `batch_evaluate_format.py` → pivoted table: left columns are **Prompt | Mode
-  | Stages**; across the top each **model** is a group (model name → size
-  small/medium → recall, token_recall, precision, token_precision). Stray runs
-  with no prompt in the filename are skipped automatically.
+**Report layout:** `batch_evaluate.py` writes a **pivoted** table — left columns
+are **Prompt | Mode | Stages**; across the top each **model** is a group (model
+name → size small/medium → recall, token_recall, precision, token_precision).
+Stray runs with no prompt in the filename are skipped automatically. (The old
+separate `batch_evaluate_format.py` has been folded into `batch_evaluate.py`.)
 
 ---
 
@@ -320,22 +324,55 @@ No CLI args needed — defaults are wired to the new folder layout.
 ```bash
 python3 evaluation/batch_evaluate.py
 ```
-Takes 5–10 min for 32 runs × 8 stages = ~256 attempts.
+Takes 5–10 min; one attempt per (run × stage).
 Final output: `results/eval_outputs/master_comparison.xlsx`.
+
+### Recovering an empty CSV (no model re-run)
+If a run left a valid raw JSONL but an empty CSV (p4 schema or a bare-object
+reply), rebuild the CSV straight from the raw file:
+```bash
+python3 post_processing/recover_csv_from_raw.py \
+  --raw   results/llm_raw/raw_outputs_qwen_medium_p4_run1.jsonl \
+  --games data/games_30_rows.csv \
+  --out   results/llm_csv/results_qwen_medium_p4_run1.csv \
+  --model qwen_medium --prompt_key p4
+```
+It re-parses with a forgiving `json.loads`, auto-numbers `ANNOTATION_ID` when
+missing, and recomputes `DOC_TOKEN_START/END` exactly like `grove_pipeline`.
+Then re-run Stages 2 and 3.
+
+### Running the held-out test set
+The `test_set/` folder is **self-contained** — it has its own `data/`, code, and
+`results/`. Run everything **from inside it** so the relative paths (and the
+story-token validation in Stage E) resolve to the test data, not the dev data:
+```bash
+cd test_set
+python3 post_processing/format_converter.py
+python3 post_processing/stage_a_sentence_only.py
+python3 post_processing/stage_b_nearest_fixed_n.py
+python3 post_processing/stage_c_strict_match.py
+python3 evaluation/batch_evaluate.py
+```
+> Running the test-set scripts from the project root instead loads the **dev**
+> texts in Stage E and silently drops every test row (empty `_ade`/`_abde`/
+> `_abcde`). Always `cd test_set` first.
 
 ---
 
 ## 9. Configuration Reference
 
 ### Models tested
-| Key | HF path | Size |
-|-----|---------|------|
-| `llama_small` | `meta-llama/Llama-3.1-8B-Instruct` | 8B |
-| `llama_medium` | `meta-llama/Llama-3.1-70B-Instruct` | 70B (4-bit quant) |
-| `qwen_small` | `Qwen/Qwen2.5-7B-Instruct` | 7B |
-| `qwen_medium` | `Qwen/Qwen2.5-72B-Instruct` | 72B (4-bit quant) |
+| Key | Size | Path on Grove (`MODELS` dict in grove_pipeline.py) |
+|-----|------|-----------------------------------------------------|
+| `llama_small` | 8B  | `/home/support/llm/Llama-3.1-8B-Instruct` (shared dir) |
+| `llama_medium` | 70B (4-bit quant) | `/home/support/llm/Llama-3.1-70B-Instruct` (shared dir) |
+| `qwen_small` | 7B  | `~/models/Qwen2.5-7B-Instruct` (download yourself; `~` resolves per user) |
+| `qwen_medium` | 72B (4-bit quant) | `/home/support/llm/Qwen2.5-72B-Instruct` (shared dir) |
 
 Medium models load with BitsAndBytes 4-bit NF4 quantization on 2× RTX A6000 GPUs.
+Most models live in the shared `/home/support/llm/` directory; Qwen-7B is **not**
+there, so each user downloads it into their own `~/models/` (the dict uses
+`os.path.expanduser` so it works for everyone).
 
 ### File naming pattern
 - Full-story:   `raw_outputs_llama_medium_p0_run1.jsonl` / `results_llama_medium_p0_run1.csv`
@@ -373,33 +410,44 @@ TYPE, CORRECTION, COMMENT
 
 ## 10. Current Status (as of June 2026)
 
-- **Pipeline:** working end-to-end for all 32 detected runs across the grid
-  (Llama-3.1 / Qwen-2.5 × small / medium × P0, P0a, P1–P4 × full / sentence).
-  Sentence mode is run for P0–P3 and P0a on the medium models; P4 is full-story
-  only (small + medium).
-- **Best metrics so far (full pipeline `_abcde`):**
-  - Highest token recall: Qwen-2.5-72B, P0, **sentence mode** — Token Recall 0.751, Mistake Precision 0.761.
-  - Best full-story: Qwen-2.5-72B, P0 — Token Recall 0.416, Mistake Precision 0.677.
-- **P0a (short-span prompt) result:** raises **token precision** as intended
-  (e.g. Qwen-72B sentence: token precision 0.122 → 0.234) but lowers recall —
-  shorter, more accurate spans but the model flags fewer errors.
+- **Pipeline:** working end-to-end on **both** the dev set (30 games, S001–S030)
+  and the held-out **test set** (30 games, T001–T030 in `test_set/`). Full grid:
+  Llama-3.1 / Qwen-2.5 × small / medium × P0, P0a, P1–P4 × full / sentence
+  (P4 is full-story only). Both produce a `master_comparison.xlsx`.
+
+### Key results (full pipeline `_abcde`, token recall)
+| Finding | Dev | Test |
+|---------|-----|------|
+| Best config: **Qwen-72B, P0, sentence** | 0.751 (prec 0.761) | 0.561 (prec 0.615) |
+| Same config, **full-story** | 0.416 | 0.362 |
+| **Sentence mode lifts recall a lot** (Llama-70B P0) | 0.031 → 0.493 | 0.040 → 0.267 |
+| **7B sentence ≈ 72B full-story** (Qwen) | small-sent 0.416 = medium-full 0.416 | — |
+
+### Headline findings (consistent across dev and test)
+1. **Sentence-by-sentence prompting is the biggest lever** and lets a 7B model
+   match a 72B model in full-story mode.
+2. **Detection vs localization gap:** models locate errors well (mistake
+   precision ~0.76) but over-extend the span (token precision ~0.12). **P0a**
+   confirms it — token precision roughly doubles (0.12 → 0.23) but recall halves.
+3. **Per-category:** strong on NAME (prec ~0.87) and NUMBER, weak on WORD;
+   CONTEXT precision collapses (~0.03) because the model over-predicts subjective
+   "misleading/redundant" judgments that aren't in the gold standard.
+4. **Findings generalise:** the best-config ranking is identical on the held-out
+   test set; absolute numbers drop ~25% but precision stays high.
+
 - **Known issues:**
-  - `results_llama_medium_p4_run1.csv` and `results_qwen_medium_p4_run1.csv` are
-    empty (CSV conversion failed); the raw JSONL is intact, so they can be
-    re-converted.
-  - Post-processing anomaly: `_abde` can score lower than `_ade` (and `_abcde`
-    lower than `_abde`) — Stage B/C are recovering low-quality rows (see Stage B
-    note above). Needs investigation.
-  - Models over-predict CONTEXT (precision ~0.07) and sometimes flag correct
-    statements; some runs show degenerate repetition (the same annotation many
-    times) — a decoding issue.
-- **Next steps (decided 12 June, before Grove goes offline on 22 June):**
-  - Run the **test set** on the HPC.
-  - Prioritise the run order by importance using the current results — most
-    important experiments first, since Grove time is limited.
-  - Run **all prompts on default settings first**; keep decoding fixes
-    (temperature, repetition penalty) for later.
-  - Still pending: sentence mode + P0a on the small models (Llama-8B, Qwen-7B).
+  - Some runs produced an **empty CSV from a valid raw JSONL** — the p4 prompt
+    omits `ANNOTATION_ID` (rejected by the strict parser), and a few sentence
+    runs returned a bare object. Fixed by re-running `recover_csv_from_raw.py`
+    (rebuilds the CSV from the raw JSONL, no model re-run). See Section 8.
+  - Post-processing anomaly: for some runs `_abde` scores lower than `_ade` —
+    Stage B/C recover low-quality rows that act as false positives. For the strong
+    runs the stages are neutral (ade = abde = abcde). Needs investigation.
+  - Degenerate repetition in some runs (the same annotation many times) — a
+    decoding issue, to be tackled with temperature / repetition-penalty later.
+- **Pending:**
+  - `test_set` `llama_small` runs (no raw was produced yet — re-run on Grove).
+  - Decoding-level ablation; the planned diagnostic metrics below.
 - **Diagnostic metrics to add** (planned):
   - % initially valid · % repaired by B · % blanked by C · % dropped by D/E
   - Mean repair shift distance (B)
@@ -458,5 +506,3 @@ python evaluation/evaluate.py \
 ```
 
 ---
-
-*End of workflow guide. Last updated 2026-06-12.*
