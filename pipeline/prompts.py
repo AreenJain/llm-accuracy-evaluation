@@ -100,6 +100,108 @@ COMMENT
 
 """
 ,
+ "p0b": """You are a fact-checking editor for an NBA news desk. Compare every checkable
+claim in this AI-written basketball recap against the official box score data, and flag
+every mismatch. You are scored equally on two things:
+
+- RECALL — Missing a wrong number, name, or word is a serious failure. A recap of this
+  length usually contains SEVERAL errors, not just one or two. Check every sentence,
+  every number, every name, every claim. Do not stop after the first few.
+
+- PRECISION — Flagging something that is actually correct, or flagging more words than
+  necessary, is also a failure. Every extra correct word you include costs you.
+
+=========================== ERROR CATEGORIES ===========================
+
+NUMBER — a wrong quantity: a stat, score, margin, record, or ordinal.
+  - "10-point victory" when the margin was 11.
+  - "six players reached double figures" when only four did.
+  - "third quarter" when it was the fourth.
+  - "9 rebounds" when the box score says 6.
+
+NAME — a wrong proper noun: player, team, city, arena, or day of the week.
+  Days of the week (Monday, Tuesday...) are ALWAYS Name errors, never Word errors.
+  - "on Monday" when the game was on Wednesday.
+  - "played in Boston" when the game was in Los Angeles.
+  - "Isaiah Thomas led the way" when it was actually Gerald Green.
+  - "at Talking Stick Resort Arena" when it was US Airways Arena.
+
+WORD — a wrong word or fixed phrase that is not a name or number.
+  - "off the bench" for a player who started.
+  - "outscored the Suns" when they were actually outscored BY the Suns.
+  - "strong first half" when the team played poorly in the first half.
+  - "cruised to a win" when the game went to overtime.
+
+CONTEXT — literally true in isolation but misleading because of the surrounding text.
+  Flag the specific phrase that causes the misreading.
+  - "The Suns had six players in double figures. Mike Conley led with 24."
+    -> "Mike Conley" is a context error: Conley played for the OTHER team, so the
+       sentence makes it sound like he was one of the six Suns.
+  - "Durant added 20 points" right after a sentence about the Cavs, when Durant
+    plays for the Warriors -> the placement implies he is on the Cavs.
+
+NOT_CHECKABLE — a specific, checkable-sounding fact that is NOT present in the data,
+  so it cannot be verified either way. Tag it with the same minimal-span rule.
+  - "Milwaukee will host Orlando on Friday" when no schedule data is provided.
+  - "this was their fifth straight road win" when only this game's data is given.
+  - "Davis is averaging 28 a game" when no season averages are in the data.
+
+OTHER — a clear error that fits none of the above. Last resort only.
+
+If a span could be tagged more than one way, pick ONE category using this priority:
+NUMBER > NAME > WORD > CONTEXT > NOT_CHECKABLE > OTHER.
+
+===================== THE RULE THAT MATTERS MOST: MINIMAL SPANS =====================
+TOKENS must contain ONLY the exact word(s) that are wrong — never the whole clause or
+sentence, never the surrounding correct words. CORRECTION must be just the replacement
+value, the same scope as TOKENS — never a rewritten sentence.
+
+  BAD : TOKENS = ["four","of","their","last","five","games"]  CORRECTION = "three of their last five games"
+  GOOD: TOKENS = ["four"]                                      CORRECTION = "three"
+
+  BAD : TOKENS = ["The","Hawks","were","led","by","John","Wall","and","Bradley","Beal"]
+  GOOD: two separate entries -> ["John","Wall"] (CORRECTION "Jeff Teague")
+                                 ["Bradley","Beal"] (CORRECTION "Kyle Korver")
+
+  BAD : TOKENS = ["Six","players","scored","in","double","digits"]  CORRECTION = "Five players scored..."
+  GOOD: TOKENS = ["Six"]                                            CORRECTION = "Five"
+
+HARD LIMIT: TOKENS is 1 to 3 words. Almost always 1 or 2. Four or more words is
+almost always wrong — shorten it. If one wrong digit sits in a longer phrase
+("32-36" when it should be "32-18"), tag only the wrong part (["36"]).
+
+=========================== HOW TO CHECK ===========================
+Go through the story one sentence at a time. For each sentence, list every checkable
+claim (each number, each name, each result, each superlative like "led the way" or
+"first on the team"). Check each claim against the box score data below. Numbers that
+are most often missed: rebounds, assists, which game of a streak, home vs road, which
+quarter, first vs second on a team. Do not skip these.
+
+If a sentence has multiple errors, output one separate object per error. Never merge
+two errors into one wide span. Never report the same error twice.
+
+=========================== MAIN BOX SCORE DATA ===========================
+{game_data}
+
+=========================== STORY (Text {text_id}) ===========================
+{story}
+
+=========================== OUTPUT ===========================
+{format_instructions}
+
+Return ONLY a JSON list of objects. No preamble, no scratchpad, no explanation, no
+markdown fences. If there are no errors, return [].
+
+Each object must contain EXACTLY:
+- TEXT_ID       : "{text_id}"
+- SENTENCE_ID   : integer, 1-indexed sentence number
+- ANNOTATION_ID : integer, sequential starting at 1
+- TOKENS        : list of 1-3 words copied EXACTLY from the story (verbatim spelling,
+                  capitalisation, punctuation) - only the wrong words
+- TYPE          : one of NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER
+- CORRECTION    : the correct value ONLY - short, never a sentence
+- COMMENT       : one short sentence explaining the error
+""",
 
     "p1": """Finding Mistakes in Basketball Stories: Text {text_id}
 
@@ -462,5 +564,5 @@ _SENT_HEADER = (
     "TOKENS must be copied EXACTLY from this sentence (not from any other text).\n\n"
 )
 
-for _k in ["p0", "p0a", "p1", "p2", "p3", "p4"]:
+for _k in ["p0", "p0a","p0b", "p1", "p2", "p3", "p4"]:
     PROMPTS[_k + "_sent"] = _SENT_HEADER + PROMPTS[_k].replace("{story}", "{sentence}")

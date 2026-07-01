@@ -54,7 +54,7 @@ arg_parser.add_argument("--jsonl", type=str, required=True,
 arg_parser.add_argument("--model", type=str, default="llama_medium")
 arg_parser.add_argument("--rows", type=int, default=20,
                         help="How many stories from the top of --games to process.")
-arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p0a", "p1", "p2", "p3", "p4"])
+arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p0a","p0b", "p1", "p2", "p3", "p4"])
 arg_parser.add_argument("--by_sent", type=str, default="no", choices=["yes", "no"],
                         help="yes = one LLM call per sentence; no = one LLM call per story")
 args = arg_parser.parse_args()
