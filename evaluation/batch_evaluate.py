@@ -440,18 +440,41 @@ def write_excel(df, out_path):
             ws.column_dimensions[get_column_letter(col_for(mi, ki))].width = metric_width
 
     # Heatmap colour scale per metric column 
+    # Heatmap colour scale PER PROMPT (not per model)
     last_row = row_idx - 1
-    for mi in range(len(present_models)):
-        for ki in range(len(METRICS)):
-            col_ltr = get_column_letter(col_for(mi, ki))
-            ws.conditional_formatting.add(
-                f"{col_ltr}{DATA_START}:{col_ltr}{last_row}",
-                ColorScaleRule(
-                    start_type="min",        start_color="F8D7DA",
-                    mid_type="percentile",   mid_value=50, mid_color="FFF3CD",
-                    end_type="max",          end_color="D4EDDA",
+
+    # Detect the row ranges for each prompt
+    prompt_ranges = []
+    start = DATA_START
+
+    while start <= last_row:
+        prompt = ws.cell(start, 1).value
+        end = start
+
+        while end + 1 <= last_row and ws.cell(end + 1, 1).value is None:
+            end += 1
+
+        prompt_ranges.append((start, end))
+        start = end + 1
+
+    # Apply colour scale separately inside each prompt block
+    for start_row, end_row in prompt_ranges:
+        for mi in range(len(present_models)):
+            for ki in range(len(METRICS)):
+                col = get_column_letter(col_for(mi, ki))
+
+                ws.conditional_formatting.add(
+                    f"{col}{start_row}:{col}{end_row}",
+                    ColorScaleRule(
+                        start_type="min",
+                        start_color="F8D7DA",
+                        mid_type="percentile",
+                        mid_value=50,
+                        mid_color="FFF3CD",
+                        end_type="max",
+                        end_color="D4EDDA",
+                    )
                 )
-            )
 
     # Row heights & freeze panes
     for r in (ROW_MODEL, ROW_SIZE, ROW_METRIC):
