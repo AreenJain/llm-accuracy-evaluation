@@ -1,0 +1,470 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,,1,defeated Los Angeles,,,,,NAME,Celtics,Incorrect team name
+S001,1,2,113 - 107,10,12,,,NUMBER,113-107,Score should be 113-107
+S001,1,3,Wednesday,18,18,,,DAY,Tuesday,Incorrect day of the week
+S001,2,1,32 - 18,4,6,,,NUMBER,32-18,Incorrect team record format
+S001,2,2,32 - 18,4,6,,,NUMBER,32-18,Incorrect team record format
+S001,3,1,38,9,9,,,NUMBER,33,"Isaiah Thomas scored 33 points, not 38."
+S001,,1,eight rebounds eight assists,,,,,NUMBER,11,"Al Horford had 11 points, 8 rebounds, 8 assists and a block."
+S001,,1,18 -point 12,,,,,NUMBER,"18-point, 12-rebound",Hyphenated stats should be written as one word.
+S001,6,1,18 points,6,7,,,NUMBER,13,Crowder scored 13 points instead of 18.
+S001,6,1,18 points,6,7,,,NUMBER,13,Crowder scored 13 points instead of 18.
+S001,,1,eight rebounds eight assists,,,,,NUMBER,"one, ten, ten","Al Horford had 10 points, 10 rebounds, and 10 assists."
+S001,9,1,Kelly Olynyk,1,2,,,NAME,Jordan Mickey,Incorrect player name
+S002,1,1,Atlanta Hawks defeated the Atlanta Hawks,2,7,,,NAME,Cleveland,"Home team is Cleveland, not Atlanta"
+S002,1,2,110 - 110,9,11,,,NUMBER,110-106,Incorrect score
+S002,1,3,Saturday night,18,19,,,WORD,Tuesday,"Game was on Tuesday, not Saturday"
+S002,5,1,three of their last five games,11,16,,,NUMBER,four of their last five games,The Hawks have won four of their last five games.
+S002,6,1,17 rebounds,16,17,,,NUMBER,17,The number of rebounds should match the number of points.
+S002,,1,wasn't far behind,,,,,WORD,was,"Incorrect phrasing, should be 'was'."
+S002,8,1,only other starter,5,7,,,NAME,all starters,Kent Bazemore is not the only starter in double figures.
+S002,10,1,6 - 1,4,6,,,NUMBER,5-2,"The Cavaliers have 5-2 record, not 6-1."
+S002,11,1,"LeBron James did all he could for Cleveland , as he led the team with 23 points , nine rebounds and five assists .",1,24,,,NUMBER,24,LeBron James scored 24 points according to the box score.
+S002,12,1,Kyrie Irving was second on the team,1,7,,,NAME,LeBron James,Kyrie Irving is not second on the team; LeBron James is.
+S002,13,1,11 rebounds,13,14,,,NUMBER,12,"Love had 12 rebounds, not 11."
+S003,1,1,Saturday evening,17,18,,,NAME,Sunday,Incorrect day of the week
+S003,1,2,109 - 79,9,11,,,NUMBER,109-79,No space between scores
+S003,2,1,19 - 8,4,6,,,NUMBER,12-17,Incorrect team record
+S003,2,2,19 - 8,4,6,,,NUMBER,12-17,Incorrect team record
+S003,,1,posted a game-high,,,,,NUMBER,recorded,Game-high should be replaced with recorded for accuracy.
+S003,4,1,"16 - point , 10 - assist",9,15,,,NUMBER,"16 points, 10 assists",Points and assists should be separated
+S003,5,1,"16 - point , 13 - rebound",7,13,,,NUMBER,"16 points, 13 rebounds",Incorrect format for double-double stats
+S003,5,1,"16 - point , 13 - rebound",7,13,,,NUMBER,16-13,Incorrect hyphenation in double-double stats
+S003,7,1,reserve role,7,8,,,CONTEXT,starting,Terrence Ross playing in a reserve role does not imply productivity in a reserve role.
+S003,10,1,Elfrid Payton,7,8,,,NAME,Elfrid Payton,Player name is correct but tokenized incorrectly.
+S003,11,1,10 - point,7,9,,,NUMBER,31,Incorrect points scored by DeMar DeRozan
+S003,11,2,12 - rebound,11,13,,,NUMBER,13,Incorrect rebounds by Jonas Valanciunas
+S003,11,1,10 - point,7,9,,,NUMBER,31,Incorrect points scored by DeMar DeRozan
+S003,11,2,12 - rebound,11,13,,,NUMBER,13,Incorrect rebounds by Jonas Valanciunas
+S003,,1,home again Friday,,,,,WORD,Sunday,Incorrect day of the week based on the box score.
+S004,1,1,Los Angeles Lakers,7,9,,,NAME,Los Angeles Lakers,Team name should be without space
+S004,1,2,96 - 89,11,13,,,NUMBER,96-89,Hyphen missing between scores
+S004,3,1,16,20,20,,,NUMBER,8,"The Jazz outscored the Lakers by 8, not 16, in the fourth quarter."
+S004,,1,38 %,,,,,NUMBER,38%,Incorrect shooting percentage
+S004,,2,24 %,,,,,NUMBER,24%,Incorrect shooting percentage
+S004,5,1,43 - 24,16,18,,,NUMBER,47-24,Incorrect rebound count for Jazz
+S004,,1,D' Angelo Russell,,,,,NAME,D'Angelo Russell,Misspelled name
+S004,7,2,17,12,12,,,NUMBER,3,Incorrect points scored
+S004,,3,5,,,,,NUMBER,14,Incorrect assists
+S004,,4,5,,,,,NUMBER,5,Incorrect rebounds
+S004,8,1,Luol Deng,1,2,,,NAME,Julius Randle,Incorrect player name mentioned.
+S004,,1,D' Angelo Russell,,,,,NAME,D'Angelo Russell,Typo in player name
+S004,7,2,17,12,12,,,NUMBER,3,Incorrect points scored by D'Angelo Russell
+S004,8,1,Luol Deng,1,2,,,NAME,Julius Randle,Incorrect player name mentioned.
+S004,12,1,four of their last five games,11,16,,,NUMBER,five,The Jazz have won all five games.
+S004,,1,23 points three rebounds and three assists,,,,,NUMBER,"23 points, 6 rebounds, 3 assists","Incorrect point, rebound, and assist totals."
+S004,,1,13 points 13 rebounds,,,,,NUMBER,"13, 13",Points and rebounds should be separated.
+S004,15,1,13 points and 13 rebounds,10,14,,,NUMBER,13 and 13,Points and rebounds should be separated by 'and'.
+S004,14,1,"13 points , 13 rebounds",10,14,,,NUMBER,6,Gobert's actual stats were 13 rebounds and 6 points.
+S005,1,1,35 percent,8,9,,,NUMBER,26,Incorrect shooting percentage from the floor
+S005,1,2,26 percent,16,17,,,NUMBER,35,Incorrect shooting percentage from three-point range
+S005,2,1,Paul Millsap led the way,1,5,,,NAME,Lamar Patterson,Paul Millsap did not lead the way; Lamar Patterson did.
+S005,3,1,Millsap was right behind him,1,5,,,NAME,Mike,"Millsap is a team statistic, not a player name."
+S005,4,1,three assists,18,19,,,NUMBER,one,Howard only had one assist.
+S005,5,1,Kent Bazemore led the bench,1,5,,,NAME,Malcolm Delaney,Incorrect player name
+S005,5,1,27 points,7,8,,,NUMBER,21,Incorrect points scored by Kent Bazemore.
+S005,2,1,Paul Millsap led the way,1,5,,,NAME,"Tim Hardaway, Jr",Incorrect player name
+S005,2,2,21 points,14,15,,,NUMBER,21,Incorrect points scored
+S005,2,3,five rebounds,21,22,,,NUMBER,12,Incorrect rebounds
+S005,2,4,four assists,24,25,,,NUMBER,five,Incorrect assists
+S005,2,5,one steal,27,28,,,NUMBER,one,Incorrect steals
+S005,4,6,one block,24,25,,,NUMBER,none,Incorrect blocks
+S005,4,1,three assists,18,19,,,NUMBER,one,Howard only had one assist.
+S005,5,1,Kent Bazemore,1,2,,,NAME,Malcolm Delaney,Incorrect player name
+S005,10,1,New York Knicks,11,13,,,NAME,Utah Jazz,Incorrect team name
+S005,10,2,Toronto Raptors,26,27,,,NAME,Monday,Incorrect day of the week
+S006,1,1,Friday,22,22,,,NAME,Tuesday,Incorrect day of the week
+S006,2,1,double - digit,9,11,,,NUMBER,ten,The correct margin was 11 points.
+S006,3,1,James Harden,5,6,,,NAME,Corey Brewer and Marcus Thornton,Harden did not lead the team in scoring.
+S006,4,1,Trevor Ariza,1,2,,,NAME,Clint Capela,Incorrect player name mentioned in the sentence.
+S006,6,1,Nets played this game without Brook Lopez,2,8,,,NAME,Brooklyn Nets,Brook Lopez plays for the Brooklyn Nets.
+S006,6,1,Brook Lopez,7,8,,,NAME,Clint Capela,Incorrect player name
+S006,7,2,24,18,18,,,NUMBER,6,Incorrect points scored
+S006,,3,8,,,,,NUMBER,9,Incorrect rebounds
+S006,,4,5,,,,,NUMBER,0,Incorrect blocks
+S006,8,1,Thaddeus Young,1,2,,,NAME,Clint Capela,Incorrect player name
+S006,8,2,20,15,15,,,NUMBER,10,Incorrect points scored
+S006,1,3,12,7,7,,,NUMBER,8,Incorrect rebounds
+S006,,4,5,,,,,NUMBER,0,Incorrect assists
+S007,2,1,36 points,4,5,,,NUMBER,36,Incorrect number of points.
+S007,2,2,11 rebounds,7,8,,,NUMBER,11,Incorrect number of rebounds.
+S007,,3,7 assists,,,,,NUMBER,7,Incorrect number of assists.
+S007,,4,4 steals,,,,,NUMBER,4,Incorrect number of steals.
+S007,,5,1 block,,,,,NUMBER,1,Incorrect number of blocks.
+S007,,6,11 of 21,,,,,NUMBER,11 of 21,Incorrect shooting percentage format.
+S007,3,1,Enes Kanter,1,2,,,NAME,Russell Westbrook,Kanter was not the only player to score in double digits.
+S007,5,1,DeMarcus Cousins led the way,1,5,,,NAME,Victor Oladipo,Incorrect player name
+S007,5,2,31 points on 11 - of - 20 shooting,11,19,,,NUMBER,34,Incorrect minutes played
+S007,2,3,11 rebounds,7,8,,,NUMBER,11,Incorrect rebounds
+S007,2,4,seven assists,10,11,,,NUMBER,seven,Incorrect assists
+S007,2,5,four steals,13,14,,,NUMBER,three,Incorrect steals
+S007,,1,10 of 21,,,,,NUMBER,11 of 21,"Westbrook had 11 rebounds, not 10."
+S008,1,1,Saturday,19,19,,,DAY,Wednesday,Game date mismatch
+S008,2,1,Tuesday,36,36,,,NAME,Saturday,Incorrect day of the week
+S008,3,1,Marc Gasol,11,12,,,NAME,Joe Ingles,Incorrect player name
+S008,3,2,22,20,20,,,NUMBER,13,Incorrect points scored
+S008,2,3,5,4,4,,,NUMBER,17,Incorrect shooting percentage denominator
+S008,4,1,18 points,6,7,,,NUMBER,22,Incorrect points scored by Mike Conley
+S008,,2,7 of 14,,,,,NUMBER,31,Incorrect minutes played by Mike Conley
+S008,,3,2 of 5,,,,,NUMBER,7,Incorrect field goals made from long range by Mike Conley
+S008,4,1,18 points,6,7,,,NUMBER,17,"Zach Randolph scored 17 points, not 18."
+S008,6,1,48 percent,4,5,,,NUMBER,48%,Incorrect percentage format
+S008,6,2,29 percent,10,11,,,NUMBER,29%,Incorrect percentage format
+S008,7,1,four of their last five games,11,16,,,NUMBER,three of their last five games,The Grizzlies have lost three of their last five games.
+S008,8,1,Gordon Hayward,1,2,,,NAME,Joe Ingles,Incorrect player leading the Grizzlies
+S008,5,2,13,12,12,,,NUMBER,20,Incorrect points scored by Joe Ingles
+S008,,1,9 of 17,,,,,NUMBER,10 of 17,"Zach Randolph scored 18 points, not 9."
+S008,6,1,48 percent from the field and 29 percent from long range,4,14,,,NUMBER,"48, 29",Incorrect percentages for both teams
+S009,3,1,led,6,6,,,NUMBER,"led for the majority of the game, as they led by double-digits for the entirety of the second half.",The Bucks did not lead for the majority of the game.
+S009,4,1,29,14,14,,,NUMBER,27,Incorrect shooting percentage for Q4
+S009,6,1,41 points,13,14,,,NUMBER,26,"Giannis Antetokounmpo scored 41 points, not D'Angelo Russell."
+S009,7,1,Luol Deng,1,2,,,NAME,Giannis Antetokounmpo,Incorrect player name
+S009,7,2,26,12,12,,,NUMBER,41,Incorrect points scored
+S009,6,1,D'Angelo Russell,1,2,,,NAME,Julius Randle,Incorrect player name mentioned.
+S009,10,1,three of their last five games,10,15,,,NUMBER,two,The Bucks have lost two of their last five games.
+S009,11,1,Giannis Antetokounmpo,1,2,,,NAME,D'Angelo Russell,Incorrect player name
+S010,1,1,host Orlando,6,7,,,NAME,home,"The game was played at the home team's arena, not the visiting team's."
+S010,4,1,43,12,12,,,NUMBER,32,"Orlando's shooting percentage was 32%, not 43%."
+S010,4,2,53,18,18,,,NUMBER,30,"Atlanta's three-point shooting percentage was 30%, not 53%."
+S010,5,1,27 assists,13,14,,,NUMBER,19,The correct number of assists for the Hawks is 19.
+S010,6,1,four of their last five games,11,16,,,NUMBER,three of their last five games,The Hawks have lost three of their last five games.
+S010,,1,7 of 13,,,,,NUMBER,5,Incorrect shooting percentage representation
+S010,7,2,13,26,26,,,NUMBER,18,Incorrect number of shots attempted
+S010,8,1,13 points and 12 rebounds,10,14,,,NUMBER,23,"Howard's double-double was 13+12, not 13+12."
+S010,9,1,Kent Bazemore,1,2,,,NAME,D.J. Augustin,Kent Bazemore did not score in double figures.
+S010,11,1,16 - 21,4,6,,,NUMBER,19-16,Home team wins should reflect the actual score difference.
+S010,12,1,Nikola Vucevic,1,2,,,NAME,Dennis Schroeder,Incorrect player name
+S010,13,1,Evan Fournier,1,2,,,NAME,Eflrid Payton,Incorrect player name
+S010,14,1,10 points and 10 rebounds,10,14,,,NUMBER,10 points and 10 rebounds,Vucevic's double-double stats are incorrect.
+S010,13,1,Evan Fournier,1,2,,,NAME,Eflrid Payton,Incorrect player name
+S011,1,1,Tuesday,22,22,,,WORD,Wednesday,Incorrect day of the week
+S011,2,1,29 - 18,18,20,,,NUMBER,30-18,"First quarter score is 30-18, not 29-18."
+S011,3,1,coast,25,25,,,WORD,lose,"The Wizards did not coast to victory, they lost."
+S011,,1,48 %,,,,,NUMBER,44,Hawks' shooting percentage was lower than stated.
+S011,,2,44 %,,,,,NUMBER,25,Wizards' three-point shooting percentage was lower than stated.
+S011,,1,14 turnovers while committing just 12,,,,,NUMBER,14,Incorrect number of turnovers.
+S011,,1,3 for 5,,,,,NUMBER,4,"Three three-point attempts is incorrect, should be four."
+S011,9,1,Paul Millsap,10,11,,,NAME,Millsap,Last name missing
+S011,9,2,4 - 7,17,19,,,NUMBER,4-7,Hyphen missing
+S011,9,3,2 - 3,22,24,,,NUMBER,2-3,Hyphen missing
+S011,,1,"8 -19 FG , 0 - 4 3Pt , 7 - 10 FT",,,,,NUMBER,"9-13, 0-2, 2-10",Incorrect shooting statistics
+S011,,2,8 -19 FG,,,,,NUMBER,9-13,Incorrect FG percentage
+S011,11,3,0 - 4 3Pt,22,25,,,NUMBER,0-2,Incorrect 3Pt attempts
+S011,11,4,7 - 10 FT,27,30,,,NUMBER,2-10,Incorrect FT percentage
+S011,,1,10 24 FG,,,,,NUMBER,9,Al Horford's field goals made should be 9.
+S011,14,1,New Orleans Pelicans,12,14,,,NAME,Atlanta Hawks,Incorrect team name for the Hawks' next game.
+S012,1,1,Friday,19,19,,,NAME,Saturday,Incorrect day of the week
+S012,2,1,21 - 25,4,6,,,NUMBER,21-32,Incorrect win-loss record for Suns
+S012,2,2,21 - 25,4,6,,,NUMBER,15-32,Incorrect win-loss record for Nuggets
+S012,3,1,Six players,1,2,,,NUMBER,Four,Only four players scored in double digits for Denver.
+S012,4,1,Wilson Chandler,19,20,,,NAME,"Chandler, Wilson","Names order should be last name, first name."
+S012,5,1,Jameer Nelson,1,2,,,NAME,Eric Bledsoe,Incorrect player name
+S012,5,2,17,5,5,,,NUMBER,41,Incorrect points scored
+S012,4,1,chipped in six,21,23,,,NUMBER,17,"Wilson Chandler scored 17 points, not 6."
+S012,,1,(15-32),,,,,NUMBER,(15-25),Incorrect win-loss record for the Suns
+S012,8,1,"Tyson Chandler finished with 15 points , 12 rebounds and two steals ,",1,13,,,NUMBER,23,"Tyson Chandler scored 23 points, not 15."
+S012,8,1,"Tyson Chandler finished with 15 points , 12 rebounds and two steals",1,12,,,NUMBER,23,"Tyson Chandler scored 23 points, not 15."
+S012,1,1,Phoenix Suns,6,7,,,NAME,Nuggets,Incorrect team name
+S012,1,2,Friday,19,19,,,DAY,Saturday,Incorrect day of the week
+S013,1,1,Wednesday,22,22,,,WORD,Saturday,Incorrect day of the week
+S013,,2,Quicken Loans Arena,,,,,NOT_CHECKABLE,,Arena name not provided in box score data
+S013,2,1,31 - 19,15,17,,,NUMBER,38-26,"Incorrect score difference, should be 38-26 based on box score."
+S013,3,1,Kyrie Irving,10,11,,,NAME,LeBron James,Kyrie Irving did not lead the charge for the home team.
+S013,4,1,11 -,7,8,,,NUMBER,10,LeBron James made 10 instead of 11 field goals.
+S013,,1,2 - 5,,,,,NUMBER,2/5,Field goals made should be a fraction.
+S013,,2,1 - 2,,,,,NUMBER,1/2,Three-pointers made should be a fraction.
+S013,,3,5 - 8,,,,,NUMBER,5/8,Free throws made should be a fraction.
+S013,,1,5 - 10,,,,,NUMBER,5-10,Hyphen missing in FG percentage range
+S014,1,1,Friday,24,24,,,NAME,Saturday,Incorrect day of the week
+S014,1,2,108 - 96,20,22,,,NUMBER,108-96,Score format is correct
+S014,2,1,34 - 21,19,21,,,NUMBER,34-21,First quarter score should be 34-21.
+S014,,1,49 % from the field and 40 % from the three - point line while the Lakers went 44 % from the floor and just 30 % from deep,,,,,NUMBER,49%,Incorrect shooting percentage for Trail Blazers
+S014,,2,44 % from the floor and just 30 % from deep,,,,,NUMBER,44%,Incorrect shooting percentage for Lakers
+S014,,1,9 for 19,,,,,NUMBER,19,Incorrect field goal percentage
+S014,,2,5 for 11,,,,,NUMBER,11,Incorrect three-point field goal percentage
+S014,5,3,19,7,7,,,NUMBER,19,Incorrect total points scored
+S014,,1,12 -for- 20,,,,,NUMBER,12-20,Incorrect field goal percentage format
+S014,,2,4 -for- 7,,,,,NUMBER,4-7,Incorrect three-point percentage format
+S014,9,1,Kobe Bryant,12,13,,,NAME,D'Angelo Russell,Kobe Bryant did not come off the bench.
+S014,,1,far -and- away,,,,,CONTEXT,one of his best games,Overstates the significance compared to other games
+S014,,1,8 - 15,,,,,NUMBER,8-15,Incorrect order of field goal attempts.
+S014,,2,2 - 5,,,,,NUMBER,2-5,Incorrect order of three-point attempts.
+S014,,3,1 - 2,,,,,NUMBER,1-2,Incorrect order of free throw attempts.
+S014,12,1,first time,4,5,,,NUMBER,first,"The sentence implies it was the first time, but the context suggests it might have happened before."
+S014,9,1,bench,19,19,,,NOT_CHECKABLE,benches,"Multiple benches mentioned, plural form required."
+S014,,1,8 - 15,,,,,NUMBER,8-15,Incorrect order of field goal attempts.
+S014,,2,2 - 5,,,,,NUMBER,2-5,Incorrect order of three-point attempts.
+S014,,3,1 - 2,,,,,NUMBER,1-2,Incorrect order of free throw attempts.
+S015,1,1,Wednesday,22,22,,,NAME,Friday,Incorrect day of the week
+S015,,1,7 - 15,,,,,NUMBER,5 - 15,Incorrect field goal percentage.
+S015,,2,5 - 10,,,,,NUMBER,5 - 10 3Pt,Missing 3Pt for three-pointers made.
+S016,1,1,Friday,25,25,,,WORD,Thursday,Incorrect day of the week
+S016,1,2,visiting,12,12,,,NAME,away,Incorrect team location
+S016,2,1,29 - 8,26,28,,,NUMBER,21-8,Incorrect score difference in the third quarter.
+S016,,1,out-scoring the Jazz,,,,,NUMBER,outscored,"Incorrect verb form, should be 'outscored'."
+S016,2,2,29 - 8,26,28,,,NUMBER,29-8,"Typo in score, should be '29-8'."
+S016,3,3,59 - 42,39,41,,,NUMBER,59-42,"Typo in score, should be '59-42'."
+S016,4,1,15 points,15,16,,,NUMBER,17,"Trey Burke scored 17 points, not 15."
+S016,5,1,20 points,6,7,,,NUMBER,22,"Durant scored 22 points, not 20."
+S016,6,1,six points,4,5,,,NUMBER,two,Incorrect field goal percentage and three-point attempts details
+S016,6,2,2 - 6,7,9,,,NUMBER,3,Incorrect field goal percentage details
+S016,6,3,0 - 3,12,14,,,NUMBER,0,Incorrect three-point attempts details
+S016,6,4,2 - 2,17,19,,,NUMBER,1,Incorrect free throw percentage details
+S016,6,1,six,4,4,,,NUMBER,five,Only five players scored in double figures.
+S016,6,1,six points,4,5,,,NUMBER,two points,"Hayward scored only 2 points, not 6."
+S016,5,1,30,38,38,,,NUMBER,29,"Favors played for 29 minutes, not 30."
+S016,7,1,six players,4,5,,,NUMBER,five,Only five players reached double figures.
+S016,6,1,six points,4,5,,,NUMBER,two,Incorrect field goal percentage and three-point attempts provided.
+S016,12,1,two in a row,6,9,,,NUMBER,one,The Jazz have lost only once.
+S016,13,1,Grizzlies on Saturday,7,9,,,NAME,Timberwolves,Incorrect team name
+S016,14,1,Tuesday in Denver,15,17,,,NOT_CHECKABLE,,No specific game date or location is mentioned in the box score data.
+S017,1,1,Saturday,18,18,,,NAME,Tuesday,Incorrect day of the week
+S017,,1,Monday's contest,,,,,NAME,Tuesday's,"Game was on Tuesday, not Monday."
+S017,5,1,Andre Drummond led the way,1,5,,,NAME,Reggie,"Reggie Jackson led the way, not Andre Drummond."
+S017,7,1,Kentavious Caldwell-Pope,1,2,,,NAME,Kentavious Caldwell-Pope,Full name required
+S017,8,1,matched Morris 's,3,5,,,NAME,Marcus,Incorrect player name
+S017,2,2,seven,16,16,,,NUMBER,eight,Incorrect number of rebounds
+S017,9,1,"12 points , three assists , one rebound and one steal",12,22,,,NUMBER,"12, 3, 1, 1","Incorrect points, assists, rebounds, and steals count"
+S017,,2,21 minutes,,,,,NUMBER,23 minutes,Incorrect minutes played
+S017,12,1,Kyle Korver,1,2,,,NAME,Tobias Harris,Incorrect player name
+S017,9,2,12,12,12,,,NUMBER,17,Incorrect points scored
+S017,10,1,Richard Jefferson,1,2,,,NAME,LeBron James,Incorrect player name
+S017,10,2,16,12,12,,,NUMBER,28,Incorrect points scored
+S017,10,3,16,12,12,,,NUMBER,12,Incorrect assists
+S017,7,4,11,7,7,,,NUMBER,11,Incorrect rebounds
+S017,,5,2,,,,,NUMBER,1,Incorrect steals
+S018,1,1,Wednesday,24,24,,,NAME,Thursday,"Game was on Thursday, not Wednesday"
+S018,1,2,114 - 98,20,22,,,NUMBER,114-98,Score order is reversed
+S018,1,3,64 - 7,6,8,,,NUMBER,64-7,Team record format is incorrect
+S018,1,4,43 - 27,16,18,,,NUMBER,43-27,Team record format is incorrect
+S018,3,1,duo of Stephen Curry,7,10,,,NAME,trio,"Only two players led the Warriors, not a duo."
+S018,,1,3 - 11 FG 3 - 4 FT,,,,,NUMBER,3-11,Incorrect field goal percentage format
+S018,,2,3 - 4,,,,,NUMBER,3-4,Incorrect free throw percentage format
+S018,,1,7 10 FG FT,,,,,NUMBER,10,Field goal and free throw percentages should be 100%
+S018,,2,4 11 FG,,,,,NUMBER,11,Field goal percentage should be 11/11
+S018,,3,2 4 FT,,,,,NUMBER,4,Free throw percentage should be 2/4
+S018,,1,4 - for - 16,,,,,NUMBER,4 for 16,Incorrect shooting percentage format
+S019,1,1,Saturday evening,18,19,,,WORD,night,"The sentence mentions 'Saturday night' in the cleaned text, but uses 'Saturday evening'."
+S019,2,1,easily and,9,10,,,WORD,easily and they,Sentence suggests Heat took care of business without specifying the outcome.
+S019,3,1,outscored the Pacers,17,19,,,WORD,"Pacers, 30-16",Incorrect order and missing quarter score.
+S019,4,1,16 turnovers,19,20,,,NUMBER,15,Incorrect turnover count
+S019,4,2,15 turnovers,25,26,,,NUMBER,16,Incorrect turnover count
+S019,5,1,five of their last six games,11,16,,,NUMBER,four,"The Pacers have won four of their last six games, not five."
+S019,6,1,Paul George,1,2,,,NAME,CJ Miles,Incorrect player name
+S019,6,2,10,12,12,,,NUMBER,8,Incorrect points scored
+S019,,1,three players,,,,,NUMBER,two,Only two players eclipsed the 20-point mark according to the box score.
+S019,8,1,Thaddeus Young,1,2,,,NAME,James Johnson,"Thaddeus Young was not in double figures, James Johnson was."
+S019,10,1,four of their last six games,11,16,,,NUMBER,two of their last six games,The box score shows the Heat have won two of their last six games.
+S019,11,1,"21 points , two rebounds and four assists",13,20,,,NUMBER,22,Dragic had 22 points instead of 21.
+S019,12,1,22 points and 17 rebounds,10,14,,,NUMBER,22 points and 10 rebounds,Whiteside's rebound total was incorrect.
+S019,8,1,other starter,6,7,,,NAME,only,Only James Johnson was the only starter in double figures.
+S020,1,1,host,6,6,,,NAME,Pelicans,Incorrect team name for the home team
+S020,2,1,Pelicans,2,2,,,NAME,Suns,Incorrect team name
+S020,3,1,34 - 18,20,22,,,NUMBER,18-34,Margin of victory is reversed.
+S020,2,1,Pelicans,2,2,,,NAME,Suns,Pelicans outscoring themselves
+S020,5,1,Eric Bledsoe,6,7,,,NAME,TJ Warren,Incorrect player name mentioned as leader.
+S020,6,1,right behind,4,5,,,CONTEXT,,"Context error, should refer to Anthony Davis instead of Devin Booker."
+S020,7,1,Marquese Chriss,1,2,,,NAME,TJ Warren,Incorrect player name
+S020,8,1,PJ Tucker,1,2,,,NAME,TJ Warren,PJ Tucker is not the leading scorer.
+S020,5,1,Eric Bledsoe,6,7,,,NAME,Anthony Davis,Incorrect player name mentioned.
+S020,7,1,Marquese Chriss,1,2,,,NAME,TJ Warren,Incorrect player name
+S020,5,1,14 points,9,10,,,NUMBER,34,"Chriss scored 34 points, not 14."
+S020,12,1,Brandon Knight,5,6,,,NAME,Anthony Davis,Incorrect player name
+S020,3,2,12,27,27,,,NUMBER,34,Incorrect points scored
+S020,5,1,Eric Bledsoe,6,7,,,NAME,Anthony Davis,"Eric Bledsoe is not the leading scorer, Anthony Davis is."
+S020,12,1,six assists,11,12,,,NUMBER,five,"Devin Booker and Eric Bledsoe each had five assists, not six."
+S020,15,1,Buddy Hield,1,2,,,NAME,Anthony Davis,"Buddy Hield is not mentioned in the box score, Anthony Davis is the leading player."
+S020,16,1,last place,5,6,,,NAME,first,Incorrect division position
+S020,16,2,Southwest Division,12,13,,,NAME,Pacific,Incorrect division name
+S020,17,1,Minnesota to take on the Timberwolves,4,9,,,NAME,New Orleans,"The game was played in New Orleans, not Minnesota."
+S020,8,1,an assist,13,14,,,WORD,an assist,The correction is the same as the token since it's correct.
+S020,19,1,"20 points , seven assists , four rebounds and three steals",5,15,,,NUMBER,30,Incorrect points total for Jrue Holiday
+S020,19,2,"20 points , seven assists , four rebounds and three steals",5,15,,,NUMBER,nine,Incorrect rebounds total for Jrue Holiday
+S020,19,3,"20 points , seven assists , four rebounds and three steals",5,15,,,NUMBER,three,Incorrect steals total for Jrue Holiday
+S020,15,1,Buddy Hield,1,2,,,NAME,Jrue Holiday,Incorrect player name
+S020,15,1,Buddy Hield,1,2,,,NAME,Solomon Hill,Incorrect player name
+S020,15,2,11,8,8,,,NUMBER,12,Incorrect points scored
+S020,,3,4,,,,,NUMBER,1,Incorrect assists
+S020,2,4,a,15,15,,,WORD,one,Incorrect word count for rebounds
+S020,16,1,last place,5,6,,,NAME,first,"Pelicans are last, not in last place"
+S021,1,1,Saturday,18,18,,,WORD,Friday,Incorrect day of the week
+S021,,1,38 -point first,,,,,NUMBER,68,"First half score was 68, not 38."
+S021,3,1,battled back,10,11,,,CONTEXT,,"The sentence implies both teams battled back, but only Rockets did."
+S021,,1,Kings (6-10),,,,,NAME,Sacramento,Incorrect team name
+S021,5,1,James Harden led the way,1,5,,,NAME,DeMarcus Cousins,Incorrect player leading the team
+S021,7,1,three rebounds,8,9,,,NUMBER,ten,"Clint Capela had 10 rebounds, not 3."
+S021,,1,double - double,,,,,WORD,triple - double,"Ariza did not have a double-double, but a triple-double."
+S021,,1,double - double,,,,,WORD,triple - double,"Ariza did not have a double-double, but a triple-double."
+S021,5,1,Harden led the way,2,5,,,NAME,Cousins,Incorrect player name
+S021,5,2,23,9,9,,,NUMBER,32,Incorrect points scored
+S021,,3,5,,,,,NUMBER,9,Incorrect blocks recorded
+S021,12,1,Rudy Gay,1,2,,,NAME,DeMarcus Cousins,Incorrect player name
+S021,2,2,10,4,4,,,NUMBER,4,Incorrect points scored
+S021,5,3,points,10,10,,,WORD,rebounds,Incorrect statistic
+S021,7,4,three,8,8,,,NUMBER,four,Incorrect number of steals
+S021,13,1,Darren Collison,1,2,,,NAME,DeMarcus Cousins,Incorrect player name mentioned.
+S022,1,1,Minnesota Timberwolves,7,8,,,NAME,Timberwolves,Home team name should not include location.
+S022,1,1,Friday,18,18,,,NAME,Wednesday,"Game was on Wednesday, not Friday."
+S022,4,1,46,14,14,,,NUMBER,60,Incorrect shooting percentage from the field
+S022,4,2,22,20,20,,,NUMBER,27,Incorrect three-point shooting percentage
+S022,5,1,43 - 34,16,18,,,NUMBER,43-34,Incorrect order of points difference
+S022,1,1,Timberwolves,8,8,,,NAME,Pelicans,"Anthony Davis led the Pelicans, not the Timberwolves."
+S022,7,1,second on the team,4,7,,,NAME,first,Incorrect ranking of Jrue Holiday
+S022,7,1,second on the team,4,7,,,NAME,first,Anthony Davis was actually the first on the team.
+S022,9,1,eight rebounds,8,9,,,NUMBER,six,Incorrect rebound count for Gorgui Dieng.
+S022,8,1,Buddy Hield,1,2,,,NAME,Anthony Davis,"Buddy Hield is from the Timberwolves, not the Pelicans."
+S022,,1,Gorgui Dieng amassed eight points and rebounds and steals,,,,,NUMBER,nine,Incorrect total points for Gorgui Dieng
+S022,9,2,eight rebounds,8,9,,,NUMBER,nine,Incorrect total rebounds for Gorgui Dieng
+S022,9,3,three steals,11,12,,,NUMBER,four,Incorrect total steals for Gorgui Dieng
+S022,13,1,Verizon Center,26,27,,,NAME,Target Center,Incorrect arena name
+S022,8,2,17,12,12,,,NUMBER,12,Incorrect number of wins
+S022,1,1,Minnesota,7,7,,,NAME,New Orleans,"Anthony Davis played for the Pelicans, not the Timberwolves."
+S022,7,1,second on the team,4,7,,,NUMBER,first,"Incorrect ranking, should be first on the team."
+S023,1,1,Wednesday,19,19,,,WORD,Sunday,Incorrect day of the week
+S023,1,2,122 - 73,10,12,,,NUMBER,122-73,Hyphen missing between scores
+S023,2,1,easily,8,8,,,NUMBER,49,"The margin of victory was 49 points, not 'easily'."
+S023,3,1,led for the entirety of the second half,6,13,,,CONTEXT,Mavericks led for the entirety of the second half,"The sentence implies the Lakers led, but the Mavericks led the entire second half."
+S023,,1,38 11,,,,,NUMBER,38-11,Quarter score format mismatch
+S023,,2,38 11,,,,,NUMBER,38-11,Quarter score format mismatch
+S023,5,1,Justin Anderson,1,2,,,NAME,Nicolas Brussino,Incorrect player name
+S023,5,1,dropped 19,13,14,,,NUMBER,15,"Lou Williams scored 15 points, not 19."
+S023,7,1,Deron Williams,1,2,,,NAME,Julius Randle,Incorrect player name
+S023,7,2,13,15,15,,,NUMBER,9,Incorrect points scored
+S023,6,3,5,18,18,,,NUMBER,6,Incorrect rebounds
+S023,,4,8,,,,,NUMBER,3,Incorrect assists
+S023,5,1,Justin Anderson,1,2,,,NAME,Dorian Finney-Smith,Incorrect player name
+S023,5,2,19,14,14,,,NUMBER,5,Incorrect points scored
+S023,7,3,five,18,18,,,NUMBER,6,Incorrect rebounds
+S023,8,4,two,17,17,,,NUMBER,2,Incorrect assists
+S023,10,1,Justin Anderson led the Lakers in scoring off the bench,1,10,,,NAME,Mavericks,Incorrect team name
+S023,10,2,19 points and five rebounds,15,19,,,NUMBER,"19, 5",Points and rebounds should be separated
+S023,9,1,Julius Randle,1,2,,,NAME,No other Laker in double figures,Incorrectly stated Julius Randle as the only other Laker in double figures
+S023,,1,36 minutes,,,,,NUMBER,30,Incorrect minutes played for Brandon Ingram
+S023,,2,2-of-12,,,,,NUMBER,2-of-11,Incorrect shooting percentage denominator for Brandon Ingram
+S023,7,1,five,18,18,,,NUMBER,six,"The Mavericks have won six straight games, not five."
+S023,,1,5 of 11,,,,,NUMBER,11,Shooting percentage should be 11-of-11.
+S023,,1,5 of 11,,,,,NUMBER,11 of 5,Incorrect shooting percentage format
+S024,1,1,Saturday,18,18,,,WORD,Friday,Incorrect day of the week
+S024,1,2,114 - 100,10,12,,,NUMBER,114-100,Hyphen missing between scores
+S024,2,1,Wednesday,10,10,,,NAME,Friday,Incorrect day of the week
+S024,,1,"27 points , 12 assists , 7 rebounds and 6 steals",,,,,NUMBER,"27 points, 12 assists, 7 rebounds and 6 steals",Incorrect count of assists and rebounds
+S024,3,2,12 assists,13,14,,,NUMBER,12,Incorrect count of assists
+S024,,3,7 rebounds,,,,,NUMBER,7,Incorrect count of rebounds
+S024,4,1,four rebounds,7,8,,,NUMBER,eight,"Green had eight rebounds, not four."
+S024,5,1,27 minutes,17,18,,,NUMBER,37,Incorrect playing time for Skal Labissiere
+S024,5,2,off the bench,19,21,,,NOT_CHECKABLE,,Playing time is not checkable from box score
+S024,6,1,Buddy Hield,6,7,,,NAME,Steph Curry,Buddy Hield is not leading the scoring; Steph Curry is.
+S024,,1,4 assist,,,,,NUMBER,37,Incorrect number of assists.
+S024,8,1,second unit,5,6,,,CONTEXT,bench,"Labissiere led the bench, not the second unit."
+S024,9,1,Ben McLemore,1,2,,,NAME,Arron Afflalo,Incorrect player name
+S024,1,1,Kings,8,8,,,NAME,Warriors,"Curry paced the Warriors, not the Kings."
+S024,,1,bench-leading,,,,,WORD,bench-high,"Hield's points were not leading, but highest among bench players."
+S024,4,1,23 points,4,5,,,NUMBER,27,"Curry scored 27 points, not 23."
+S024,13,1,reserve,11,11,,,WORD,starting,"Cauley-Stein was a starter, not a reserve."
+S025,1,1,defeated the Boston Celtics,5,8,,,NAME,the Boston Celtics,Home team should be mentioned first
+S025,1,2,109 - 103,10,12,,,NUMBER,103-109,Scores should be home team then away team
+S025,,1,9 points,,,,,NUMBER,32,Incorrect points difference in first quarter
+S025,,2,9 points,,,,,NUMBER,103,Incorrect points for Celtics
+S025,,3,13 points,,,,,NUMBER,109,Incorrect points for Spurs
+S025,,4,8 home,,,,,NUMBER,9,Incorrect number of home wins for Celtics
+S025,3,1,Kawhi Leonard,1,2,,,NAME,Danny Green,"Kawhi Leonard played for the Spurs, not leading the way."
+S025,4,1,Patty Mills,14,15,,,NAME,Danny Green,Patty Mills did not come off the bench.
+S025,5,1,David Lee,15,16,,,NAME,LaMarcus Aldridge,"David Lee played for the Celtics, not the Spurs."
+S025,6,1,Isaiah Thomas,1,2,,,NAME,Kawhi Leonard,Isaiah Thomas did not lead the scoring for the Celtics.
+S025,5,1,David Lee,15,16,,,NAME,LaMarcus Aldridge,David Lee is not mentioned in the box score.
+S025,8,1,10 points,5,6,,,NUMBER,32,Incorrect points total for LaMarcus Aldridge
+S025,8,2,four rebounds,8,9,,,NUMBER,2,Incorrect rebounds total for LaMarcus Aldridge
+S025,3,3,four assists,40,41,,,NUMBER,1,Incorrect assists total for LaMarcus Aldridge
+S025,,1,46 % percent from long range,,,,,NUMBER,35,Incorrect shooting percentage from 3-point range.
+S026,1,1,David West,11,12,,,NAME,Solomon Hill,Incorrect player name
+S026,1,2,116 - 0,18,20,,,NUMBER,116-99,Incorrect score
+S026,,1,out- scoring the Pacers 26 - 27,,,,,NUMBER,28-28,Incorrect score difference in the first quarter.
+S026,,1,5 - for - 6,,,,,NUMBER,4 - for - 6,Dragic made 4 out of 6 three-pointers instead of 5.
+S026,6,1,second double,15,16,,,NUMBER,third,"The annotation mentions a second double-double, but it should be a third."
+S026,,1,6 - 14,,,,,NUMBER,14,Incorrect field goal percentage representation
+S026,,2,0 - 0,,,,,NUMBER,0,Incorrect three-point percentage representation
+S026,,3,3 - 3,,,,,NUMBER,3,Incorrect free throw percentage representation
+S026,,1,6 - 14,,,,,NUMBER,14,Incorrect field goal percentage representation
+S026,,2,0 - 0,,,,,NUMBER,0,Incorrect three-point percentage representation
+S026,,3,3 - 3,,,,,NUMBER,3,Incorrect free throw percentage representation
+S026,9,1,15 points,10,11,,,NUMBER,14,"Bledsoe's average is 14 points, not 15."
+S026,11,1,CJ Miles,1,2,,,NAME,Gerald Green,Incorrect player name mentioned.
+S026,19,1,Toronto Raptors,12,13,,,NAME,Boston Celtics,Incorrect opponent for the Suns' next game
+S026,19,2,Brooklyn Nets,26,27,,,NAME,Charlotte Hornets,Incorrect opponent for the Pacers' next game
+S027,1,1,defeated the Houston Rockets,10,13,,,NAME,the New York Knicks,Houston Rockets were the home team
+S027,1,2,111 - 111,19,21,,,NUMBER,116-111,Incorrect score
+S027,1,3,Wednesday,23,23,,,DAY,Sunday,Game was on Sunday
+S027,1,4,Madison Square Garden,25,27,,,NAME,New York,Location of the game was in New York
+S027,2,1,got off to a quick start,3,8,,,WORD,lagged,Incorrect description of the game flow.
+S027,3,1,58 percent,12,13,,,NUMBER,58%,Incorrect shooting percentage format
+S027,3,2,58 percent,12,13,,,NUMBER,58%,Incorrect shooting percentage format
+S027,4,1,Arron Afflalo,6,7,,,NAME,Carmelo Anthony,Afflalo did not lead the Knicks in scoring.
+S027,4,1,31 points,38,39,,,NUMBER,26,Incorrect points total for Afflalo
+S027,,2,13 19,,,,,NUMBER,13,Incorrect FG percentage for Afflalo
+S027,,3,2 4,,,,,NUMBER,3,Incorrect 3Pt percentage for Afflalo
+S027,,4,2 4,,,,,NUMBER,4,Incorrect FT percentage for Afflalo
+S027,6,1,45 points,17,18,,,NUMBER,58,Incorrect shooting percentage mentioned
+S027,6,2,10 rebounds,20,21,,,NUMBER,11,Incorrect rebound count mentioned
+S027,7,1,20 points,14,15,,,NUMBER,13,"Porzingis scored 13 points, not 20."
+S028,1,1,Saturday evening,17,18,,,NAME,Wednesday,Game date mismatch
+S028,1,2,114 - 110,9,11,,,NUMBER,110-114,Score order reversed
+S028,,1,9 -21,,,,,NUMBER,9-44,Incorrect win-loss record for Nets
+S028,,2,31 -22,,,,,NUMBER,31-28,Incorrect score after first quarter
+S028,,1,31 -44,,,,,NUMBER,31-21,Incorrect win-loss record for Wizards
+S028,4,2,59 - 48,27,29,,,NUMBER,59-49,Incorrect scoring margin in second half
+S028,,1,2 rebounds,,,,,NUMBER,2 assists,Wall's assists count was incorrect.
+S028,,2,2 rebounds,,,,,NUMBER,6 rebounds,Beal's rebounds count was incorrect.
+S028,7,1,Sean Kilpatrick,1,2,,,NAME,Bojan Bogdanovic,Incorrect player name leading the second unit
+S028,5,1,Bradley Beal,17,18,,,NAME,John Wall,"Bradley Beal played for the Wizards, not the Nets."
+S028,7,1,Sean Kilpatrick,1,2,,,NAME,Bojan Bogdanovic,Incorrect player name leading the second unit
+S028,5,1,Bradley Beal,17,18,,,NAME,Isaiah Whitehead,"Beal led the Wizards, not the Nets."
+S028,9,1,one assist,20,21,,,NUMBER,one steal,"Gortat had one steal, not one assist."
+S028,7,1,Sean Kilpatrick,1,2,,,NAME,Bojan Bogdanovic,Incorrect player name leading the second unit
+S029,1,1,Wednesday,17,17,,,NAME,Monday,"Game was on Monday, not Wednesday."
+S029,,1,12 -26,,,,,NUMBER,101-92,Incorrect win-loss record
+S029,2,2,Friday,11,11,,,NAME,Monday,"Game was on Monday, not Friday"
+S029,,1,12 -26,,,,,NUMBER,101-92,Incorrect team scores
+S029,,2,11 -27,,,,,NUMBER,11-27,Incorrect team scores
+S029,,1,24 -21,,,,,NUMBER,21-24,Third quarter margin is reversed
+S029,2,2,19,30,30,,,NUMBER,21,Incorrect quarter score
+S029,5,1,game - high,10,12,,,NUMBER,highest,The term 'game-high' should be replaced with 'highest'.
+S029,6,1,"Deron Williams followed with 11 points , seven assists , two rebounds and one steal",1,15,,,NUMBER,"11 points, 7 assists, 2 rebounds and 1 steal",Incorrect number of points and assists
+S029,7,1,bench - leading,7,9,,,WORD,second,Wesley Matthews was not the bench-leading scorer.
+S029,6,1,11 points,5,6,,,NUMBER,7,"Deron Williams scored 7 points, not 11."
+S029,9,1,JJ Barea,1,2,,,NAME,J.J. Barea,Incorrect first name
+S029,9,2,14,7,7,,,NUMBER,24,Incorrect points scored
+S029,9,1,JJ Barea led the bench,1,5,,,NAME,D.J.,Incorrect player name
+S029,9,2,14 points,7,8,,,NUMBER,12,Incorrect points scored
+S029,11,1,JJ Barea led the second unit,1,6,,,NAME,J.J. Barea,Incorrect player name
+S029,11,2,12 points,8,9,,,NUMBER,13,Incorrect points scored
+S029,1,1,Wednesday,17,17,,,DAY,Monday,Game was on Monday according to the box score.
+S029,14,1,game - high 34 points,10,14,,,NUMBER,34,The actual game-high points for Karl-Anthony Towns is 34.
+S029,15,1,Andrew Wiggins,1,2,,,NAME,Dwight Powell,Incorrect player name
+S029,15,2,13,5,5,,,NUMBER,22,Incorrect points scored
+S029,7,3,four,20,20,,,NUMBER,five,Incorrect rebounds
+S029,2,4,one,33,33,,,NUMBER,two,Incorrect assists
+S029,2,5,one,33,33,,,NUMBER,two,Incorrect blocks
+S029,16,1,Shabazz Muhammad,1,2,,,NAME,Dirk Nowitzki,Incorrect player name
+S029,3,2,11,24,24,,,NUMBER,26,Incorrect points scored
+S029,,3,2,,,,,NUMBER,5,Incorrect rebounds
+S029,,4,2,,,,,NUMBER,4,Incorrect assists
+S029,,5,2,,,,,NUMBER,2,Incorrect steals
+S030,1,1,Wednesday,18,18,,,NAME,Monday,Incorrect day of the week
+S030,2,1,overtime,16,16,,,NOT_CHECKABLE,none,No information about overtime in the box score.
+S030,3,1,34 - 21,21,23,,,NUMBER,34-21,Incorrect score difference in the fourth quarter.
+S030,4,1,42 -,17,18,,,NUMBER,46,Incorrect rebound count for Pacers
+S030,3,2,34,21,21,,,NUMBER,38,Incorrect rebound count for Hornets
+S030,5,1,five of their last seven games,11,16,,,NUMBER,four,The Hornets have won four of their last seven games.
+S030,1,1,Charlotte Hornets,6,7,,,NAME,Indiana Pacers,Incorrect team name
+S030,6,2,12,16,16,,,NUMBER,11,Incorrect score
+S030,1,3,94,11,11,,,NUMBER,90,Incorrect score
+S030,7,1,Nicolas Batum,1,2,,,NAME,Paul George,Incorrect player name
+S030,7,2,13,12,12,,,NUMBER,22,Incorrect points scored
+S030,7,3,10,15,15,,,NUMBER,13,Incorrect rebounds
+S030,,4,3,,,,,NUMBER,2,Incorrect assists
+S030,8,1,Cody Zeller,1,2,,,NAME,Cody Zeller,"Cody Zeller is already a full name, no need to change anything."
+S030,,1,Los Angeles Clippers,,,,,NAME,Charlotte Hornets,Incorrect opponent for the next game
+S030,10,1,five of their last six games,11,16,,,NUMBER,six,"The Pacers have won six of their last six games, not five."
+S030,11,1,Paul George,1,2,,,NAME,CJ Miles,Paul George is not the player of the game.
+S030,7,1,second on the team,4,7,,,NUMBER,first,"Myles Turner was first on the team, not second."
+S030,12,1,"22 points , seven rebounds and four blocks",12,19,,,NUMBER,"22 points, 7 rebounds and 4 blocks","Incorrect count of points, rebounds, and blocks."

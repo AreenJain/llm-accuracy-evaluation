@@ -74,6 +74,11 @@ llama_small_p0a_sent_run1,ordered,CRASH,Exception: You must provide either docum
 llama_small_p0a_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_small_p0a_sent_run1_a.csv row 0
 llama_small_p0a_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_llama_small_p0a_sent_run1_ab.csv row 0
 llama_small_p0a_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_llama_small_p0a_sent_run1_abc.csv row 0
+llama_small_p0b_sent_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '6.0'
+llama_small_p0b_sent_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_llama_small_p0b_sent_run1_ordered.csv row 1
+llama_small_p0b_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_small_p0b_sent_run1_a.csv row 1
+llama_small_p0b_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_llama_small_p0b_sent_run1_ab.csv row 1
+llama_small_p0b_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_llama_small_p0b_sent_run1_abc.csv row 1
 llama_small_p1_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '54.0'
 llama_small_p1_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_llama_small_p1_run1_ordered.csv row 3
 llama_small_p1_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_llama_small_p1_run1_a.csv row 3
@@ -184,6 +189,11 @@ qwen_small_p0a_sent_run1,ordered,CRASH,Exception: You must provide either docume
 qwen_small_p0a_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_small_p0a_sent_run1_a.csv row 0
 qwen_small_p0a_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_qwen_small_p0a_sent_run1_ab.csv row 0
 qwen_small_p0a_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_qwen_small_p0a_sent_run1_abc.csv row 0
+qwen_small_p0b_sent_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: 'NAME'
+qwen_small_p0b_sent_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_qwen_small_p0b_sent_run1_ordered.csv row 0
+qwen_small_p0b_sent_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_small_p0b_sent_run1_a.csv row 0
+qwen_small_p0b_sent_run1,ab,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_ab/results_qwen_small_p0b_sent_run1_ab.csv row 0
+qwen_small_p0b_sent_run1,abc,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_abc/results_qwen_small_p0b_sent_run1_abc.csv row 0
 qwen_small_p1_run1,raw,CRASH,ValueError: invalid literal for int() with base 10: '46.0'
 qwen_small_p1_run1,ordered,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/ordered/results_qwen_small_p1_run1_ordered.csv row 1
 qwen_small_p1_run1,a,CRASH,Exception: You must provide either document or sentence based token ids on results/formatted/stage_a/results_qwen_small_p1_run1_a.csv row 1
