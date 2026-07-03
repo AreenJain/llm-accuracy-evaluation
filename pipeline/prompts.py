@@ -203,6 +203,81 @@ Each object must contain EXACTLY:
 - COMMENT       : one short sentence explaining the error
 """,
 
+"p0c" :"""You are a basketball fact-checker. Compare every checkable claim in an
+AI-generated game summary (Text {text_id}) against the official box score data and
+flag every factual error.
+
+You are scored equally on two things:
+- RECALL: missing a wrong number, name, or word is a failure. Most summaries of this
+  length contain SEVERAL errors, not one or two. Check every sentence, every number,
+  every name, every claim. Do not stop after the first few. Re-read once to catch any
+  you missed.
+- PRECISION: flagging a correct statement, or flagging more words than necessary, is
+  also a failure.
+
+=== ERROR CATEGORIES ===
+NUMBER — a wrong quantity: stat, score, margin, record, or ordinal (1st/2nd/third).
+  e.g. "10-point victory" when the margin was 11; "six players" when only four did.
+NAME — a wrong proper noun: player, team, city, arena, or day of the week.
+  Days of the week (Monday, Tuesday...) are ALWAYS Name errors, never Word errors.
+  e.g. "on Monday" when the game was Wednesday; "Isaiah Thomas" when it was Gerald Green.
+WORD — a wrong word or fixed phrase that is not a name or number.
+  e.g. "off the bench" for a starter; "outscored" when they were outscored.
+CONTEXT — literally true in isolation but misleading because of the surrounding text.
+  e.g. crediting a stat to a player who is actually on the other team.
+NOT_CHECKABLE — a specific fact not present in the data, so it cannot be verified.
+  e.g. an upcoming game date, or a streak, when no such data is provided.
+OTHER — a clear error that fits none of the above. Last resort only.
+
+When a span could be tagged more than one way, pick ONE using this priority:
+NUMBER > NAME > WORD > CONTEXT > NOT_CHECKABLE > OTHER.
+
+=== TOKEN RULES (these decide whether your annotation can be used) ===
+RULE 1 — MINIMAL SPAN: TOKENS contains ONLY the wrong word(s), never the surrounding
+  correct words. If one word is wrong, TOKENS has one word.
+
+RULE 2 — CONTIGUOUS ONLY (most important): the words in TOKENS must appear TOGETHER,
+  side by side, in that exact order in the text, with nothing between them. NEVER join
+  two words that are separated by other words.
+  Text: "Horford had 18 points, 12 rebounds and 8 assists."
+    If rebounds is wrong:  TOKENS = ["12"]   CORRECTION = "10"
+    If points AND rebounds are both wrong, output TWO separate annotations:
+       TOKENS = ["18"] CORRECTION = "16"   and   TOKENS = ["12"] CORRECTION = "10"
+    NEVER TOKENS = ["18","12"] — those numbers are not next to each other.
+
+RULE 3 — LENGTH LIMIT: TOKENS is 1 to 3 words, almost always 1 or 2. Four+ is wrong.
+
+RULE 4 — COPY VERBATIM: copy the word(s) EXACTLY as written — same spelling,
+  capitalisation, punctuation, spacing, hyphenation. If the text reads "30 - point"
+  with spaces, copy it exactly that way. Do not reformat.
+
+RULE 5 — SHORT CORRECTION: CORRECTION is ONLY the correct value, same scope as TOKENS.
+  No sentences. Put any explanation in COMMENT.
+  GOOD: CORRECTION = "Five"   BAD: CORRECTION = "The correct number is five, not six."
+
+RULE 6 — ONE ERROR = ONE ANNOTATION: if a sentence has 3 errors, output 3 objects.
+
+=== BOX SCORE DATA ===
+{game_data}
+
+=== STORY (Text {text_id}) ===
+{story}
+
+=== OUTPUT ===
+{format_instructions}
+
+Return ONLY a JSON list. No preamble, no explanation, no markdown fences. If there are
+no errors, return []. Each object must contain EXACTLY:
+- TEXT_ID: "{text_id}"
+- SENTENCE_ID: integer, 1-indexed sentence number
+- ANNOTATION_ID: integer, sequential starting at 1
+- TOKENS: list of 1-3 consecutive words copied EXACTLY from the story — only the wrong words
+- TYPE: one of NAME, NUMBER, WORD, CONTEXT, NOT_CHECKABLE, OTHER
+- CORRECTION: the correct value only — short, never a sentence
+- COMMENT: one short sentence explaining the error
+"""
+,
+
     "p1": """Finding Mistakes in Basketball Stories: Text {text_id}
 
 In this document you will find:

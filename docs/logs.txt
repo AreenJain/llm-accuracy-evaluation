@@ -14,3 +14,7 @@ log 13: As we were facing the same/ similar results, we just start thinking for 
 log 14: We didn't recieved that good results from p4: (context based search). Then we start looking at post-processing code, if we could get any changes to make it optimal. Also we found that p0 was giving high precision and low recall (due to LLM generating longer span).   
 log 15: After getting the same results and long span answers, we included a new prompt: p0a that basically allow llm to follow strict rules, now we were getting the low span results.  
 log 16: We started to implement our approaches on test_set. But we found out the same results as we were getting during development set. Now we are analysing the results and trying to find out the pattern, the prompt and LLM follows.
+log 17: Missing model dict entries + 70B/72B removed from Grove, so continuing the development on small model.
+log 18: master_comparison analysis: recall is the bottleneck (under-generation), not span position; sentence mode wins; stage C adds nothing. 
+log 19: Designed p0b (=p5): hard span limit, minimal correction rule, expanded CONTEXT/NOT_CHECKABLE examples, "find all errors". p0b results: span fix worked strongly (llama mean 1.26 tokens, token_precision 0.242 up from 0.088)
+log 20: Qwen finds more errors (recall of qwen 0.150 vs llama 0.089) but with messier spans (token_precision of qwen 0.189 vs llama 0.242). Llama is more precise but more conservative.
