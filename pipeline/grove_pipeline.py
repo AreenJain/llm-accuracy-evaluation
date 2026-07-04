@@ -54,7 +54,7 @@ arg_parser.add_argument("--jsonl", type=str, required=True,
 arg_parser.add_argument("--model", type=str, default="llama_medium")
 arg_parser.add_argument("--rows", type=int, default=20,
                         help="How many stories from the top of --games to process.")
-arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p0a","p0b","p0c", "p1", "p2", "p3", "p4"])
+arg_parser.add_argument("--prompt", type=str, default="p0", choices=["p0", "p0a","p0b","p0c","p0d", "p1", "p2", "p3", "p4"])
 arg_parser.add_argument("--by_sent", type=str, default="no", choices=["yes", "no"],
                         help="yes = one LLM call per sentence; no = one LLM call per story")
 args = arg_parser.parse_args()
@@ -67,6 +67,7 @@ MODELS = {
     # qwen 7B isn't in the shared dir, so each of us downloads it to our own
     # home — expanduser resolves ~ to whoever is running (ajain or hahire).
     "qwen_small":   os.path.expanduser("~/models/Qwen2.5-7B-Instruct"),
+    "qwen_14b":     "/home/support/llm/Qwen2.5-14B-Instruct",
 }
 
 

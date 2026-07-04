@@ -1,0 +1,268 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,1,1,Los,6,6,,,NAME,Boston,The home team is the Boston Celtics.
+S001,1,2,Wednesday,18,18,,,NAME,Friday,The game was played on Friday.
+S001,1,3,107,12,12,,,NUMBER,101,"The Lakers scored 101, not 107."
+S001,2,1,32,4,4,,,NUMBER,31,The Celtics' win-loss record was 31-18.
+S001,2,2,Friday,30,30,,,NAME,Thursday,"The game was played on Thursday, not Friday."
+S001,2,3,30,35,35,,,NUMBER,29,The Celtics' win over the Lakers was by 29 points.
+S001,1,4,Lakers,8,8,,,NAME,Celtics,"The Celtics were the visiting team, not the Lakers."
+S001,2,5,17,43,43,,,NUMBER,18,The Lakers' win-loss record was 18-36.
+S001,3,1,38,9,9,,,NUMBER,points,The sentence is missing the word 'points'.
+S001,4,1,11,8,8,,,NUMBER,8,"Al Horford accumulated 8 rebounds, not 11."
+S001,4,2,eight,11,11,,,NUMBER,eight,"The number is correct, but the context is incorrect because Al Horford accumulated 8 rebounds, not 8 assists."
+S001,4,4,block,18,18,,,WORD,,Al Horford did not block any shots.
+S001,2,1,18,6,6,,,NUMBER,12,"Jae Crowder's double-double included 12 rebounds, not 18."
+S001,5,2,12,11,11,,,NUMBER,assist,"Jae Crowder's double-double included an assist, not 12 rebounds."
+S001,5,2,assist,21,21,,,WORD,assists,"The correct verb is 'assists', not 'assist'."
+S001,6,3,pair,16,16,,,WORD,pairs,"The correct noun is 'pairs', not 'pair'."
+S001,5,1,Jae,1,1,,,NAME,Jaylen,The correct name of the player is Jaylen Brown.
+S001,5,2,Crowder,2,2,,,NAME,Brown,The correct name of the player is Jaylen Brown.
+S001,3,3,was,3,3,,,WORD,was not,"The sentence should indicate that Brown was not playing, but rather was injured or absent."
+S001,5,4,next,4,4,,,WORD,leading scorer,The sentence should indicate that Brown was the leading scorer.
+S001,3,6,six,16,16,,,NUMBER,three,"Brown had three rebounds, not six."
+S001,5,7,an,20,20,,,WORD,no,Brown did not have an assist.
+S001,3,8,two,19,19,,,NUMBER,no,Brown did not have two steals.
+S001,9,1,Kelly,1,1,,,NAME,Kelly Olynyk,The correct name of the player is Kelly Olynyk.
+S001,9,2,Olynyk,2,2,,,NAME,Olynyk,The correct spelling of the player's last name is Olynyk.
+S001,3,3,led,4,4,,,WORD,led the team,The sentence should specify that Olynyk led the second unit.
+S001,1,4,the,5,5,,,WORD,their,"The correct word is 'their', not 'the'."
+S001,9,5,second,5,5,,,WORD,bench,"The correct word is 'bench', not'second'."
+S001,9,6,unit,6,6,,,WORD,team,"The correct word is 'team', not 'unit'."
+S001,2,7,with,33,33,,,WORD,as,"The correct word is 'as', not 'with'."
+S001,9,8,10,8,8,,,NUMBER,9,"Olynyk scored 9 points, not 10."
+S001,9,9,nine,11,11,,,NUMBER,eight,"Olynyk had eight rebounds, not nine."
+S001,2,11,a,13,13,,,WORD,no,"Olynyk did not have a pair of steals, but rather one steal."
+S001,10,2,Detroit,11,11,,,NAME,Lakers,"The visiting team is the Lakers, not the Detroit Pistons."
+S001,10,3,Toronto,25,25,,,NAME,Raptors,"The visiting team is the Raptors, not the Toronto Raptors."
+S002,14,1,Tristan,1,1,,,NAME,,"Tristan Thompson is a player for the Cleveland Cavaliers, not a spark off the bench."
+S003,3,1,game,12,12,,,WORD,game-high,The sentence should read 'game-high' instead of 'game'.
+S003,4,1,16,9,9,,,NUMBER,10,"Kyle Lowry's double-double included 10 assists, not 16."
+S003,7,1,Terrence,1,1,,,NAME,,"Terrence Ross is a player, but the sentence should specify the team he played for."
+S003,10,1,Elfrid,7,7,,,NAME,Evan Fournier,"Evan Fournier led the team in scoring, not Elfrid Payton."
+S003,4,1,10,13,13,,,NUMBER,12,"Aaron Gordon's double-double included 12 rebounds, not 10."
+S003,14,1,Augustin,2,2,,,NAME,,"The player's name is D.J. Augustin, not DJ."
+S004,1,1,Los,7,7,,,NAME,Utah,The correct city name is Utah.
+S004,2,1,1,4,4,,,NUMBER,0,"The Jazz were 0-1, not 1-1."
+S004,2,1,in,15,15,,,WORD,for,"The correct preposition is 'for', not 'in'."
+S004,4,1,38,14,14,,,NUMBER,41,The Jazz held the Lakers to 41 percent from the field.
+S004,4,1,24,20,20,,,NUMBER,31,"The Jazz won the rebounding battle 47-31, not 43-24."
+S004,7,1,17,12,12,,,NUMBER,points,The correct number of points is not provided in the box score data.
+S004,7,2,five,15,15,,,NUMBER,rebounds,The correct number of rebounds is not provided in the box score data.
+S004,8,2,12,15,15,,,NUMBER,10,"Luol Deng totaled 12 points, but the correct number is 10."
+S004,7,1,D'Angelo,1,1,,,NAME,Russell,"The correct name of the player is Russell, not D'Angelo."
+S004,12,1,four,11,11,,,NUMBER,three,The Jazz have now won three of their last five games.
+S004,13,1,23,16,16,,,NUMBER,points,"George Hill scored 23 points, but the sentence should say 'points' instead of 'points, three rebounds and three assists'."
+S004,14,1,13,10,10,,,NUMBER,points,"Rudy Gobert scored 13 points, but the sentence should say 'points' instead of '13 points'."
+S005,1,1,15,27,27,,,NUMBER,21,"The Hawks had 21 losses, not 15."
+S005,1,1,21,35,35,,,NUMBER,20,"The correct score was 86, not 113."
+S005,4,1,11,5,5,,,NUMBER,13,"Dwight Howard posted a 13-rebound double-double, not 11."
+S005,5,1,Kent,1,1,,,NAME,Kent Bazemore,The correct name of the player is Kent Bazemore.
+S005,5,2,27,7,7,,,NUMBER,8,"The player scored 8 points, not 27."
+S005,1,3,three,19,19,,,NUMBER,one,"The player had one rebound, not three."
+S005,5,5,two,16,16,,,NUMBER,zero,"The player had zero steals, not two."
+S005,2,1,Paul,1,1,,,NAME,Tim,"The correct player who led the way for Orlando was Tim Hardaway, Jr."
+S005,1,2,point,21,21,,,NUMBER,point,"The sentence already mentions that it's a double-double, so the word 'point' is redundant."
+S005,4,3,13,9,9,,,NUMBER,11,"Dwight Howard posted an 11-point double-double, not 13."
+S005,2,5,one,27,27,,,NUMBER,one,"The sentence already mentions that Dwight Howard posted a double-double with one steal, so the word 'one' is redundant."
+S007,1,1,Russell Westbrook and Russell Westbrook,1,5,,,NAME,,"There are two instances of the same name, which is unnecessary."
+S007,3,1,Enes,1,1,,,NAME,,The other Thunder player to score in double digits is actually Victor Oladipo.
+S008,1,1,Saturday,19,19,,,NAME,Friday,The game was played on Friday.
+S008,11,1,Monday,17,17,,,NAME,Tuesday,"The game was played on Tuesday, not Monday."
+S009,1,1,122,10,10,,,NUMBER,114,"The final score was 114, not 122."
+S009,11,1,six,19,19,,,NUMBER,22,The Bucks had 22 road victories in 30 games away from Staples Center this season.
+S009,3,1,double,18,18,,,WORD,,"The Bucks led for the majority of the game, as they led by single-digits for the entirety of the second half."
+S009,4,1,29,14,14,,,NUMBER,53,"The Bucks' field goal percentage was 53%, not 29%."
+S009,6,1,D'Angelo,1,1,,,NAME,,D'Angelo Russell is the correct spelling of the player's name.
+S009,7,1,Luol,1,1,,,NAME,,"The player's name is spelled 'Luol Deng', not 'Luol'."
+S009,9,1,Sunday,16,16,,,NAME,Saturday,"The game was played on Saturday, not Sunday."
+S009,11,1,Giannis,1,1,,,NAME,,Giannis Antetokounmpo is the correct name of the player.
+S009,1,1,Milwaukee,2,2,,,NAME,Los Angeles,"The visiting team is the Lakers, not the Bucks."
+S010,1,1,Hawks,3,3,,,NAME,Magic,"The Hawks are the visiting team, but the home team is the Magic."
+S010,1,2,111,10,10,,,NUMBER,92,The final score was 92-111.
+S010,1,3,Amway,15,15,,,NAME,Center,The correct name of the venue is Amway Center.
+S010,1,4,Friday,18,18,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+S010,5,1,19,27,27,,,NUMBER,15,"The Hawks won by 15, not 19."
+S010,7,4,18,13,13,,,NUMBER,15,"Dennis Schroeder accumulated 15 points, not 18."
+S010,6,5,16,6,6,,,NUMBER,15,"Paul Millsap accumulated 15 points, not 16."
+S010,5,6,12,16,16,,,NUMBER,10,"Aaron Gordon accumulated 10 rebounds, not 12."
+S010,7,9,13,26,26,,,NUMBER,12,"Dwight Howard accumulated 12 rebounds, not 13."
+S010,7,10,7,22,22,,,NUMBER,6,"Dennis Schroeder accumulated 6 assists, not 7."
+S010,8,18,Dwight,1,1,,,NAME,Dwight,"The player's name is Dwight, not Dwight (with a space)."
+S010,12,19,Nikola,1,1,,,NAME,Nikola,"The player's name is Nikola, not Nikola (with a space)."
+S010,7,20,Dennis,1,1,,,NAME,Dennis,"The player's name is Dennis, not Dennis (with a space)."
+S010,3,1,11,6,6,,,NUMBER,11,There were indeed 11 ties and 11 lead changes in total.
+S010,4,1,53,18,18,,,NUMBER,32,"Atlanta's three-point field goal percentage was 53, but the correct percentage is 32."
+S010,5,1,27,13,13,,,NUMBER,12,"The Magic committed 17 turnovers, not 27."
+S010,7,1,Schroder,2,2,,,NAME,Schroder,"The player's name is Schroder, not Schroder was."
+S010,3,2,points,23,23,,,NUMBER,points,"The sentence is correct, but the context is incorrect because Howard recorded a double-double against his former team, implying he scored more than 13 points."
+S010,9,1,Kent,1,1,,,NAME,Bazemore,The correct name of the player is Bazemore.
+S010,5,2,17,23,23,,,NUMBER,points,"The player scored 17 points, but the sentence should say 'points' instead of the number."
+S010,6,3,four,11,11,,,NUMBER,rebounds,"The player had four rebounds, but the sentence should say'rebounds' instead of the number."
+S010,10,7,Saturday,15,15,,,NAME,Wednesday,"The game was played on Wednesday, not Saturday."
+S010,13,1,Evan,1,1,,,NAME,,"The player's name is Evan Fournier, not Evan Fournier."
+S010,13,2,14,12,12,,,NUMBER,15,"Evan Fournier accrued 15 points, not 14."
+S010,13,3,one,15,15,,,NUMBER,two,"Evan Fournier had two rebounds, not one."
+S010,8,1,double,5,5,,,WORD,,The player did not record a double-double.
+S010,3,2,in,12,12,,,WORD,on,The correct phrase is 'on the court' or 'in the game'.
+S010,9,3,double figures,9,10,,,WORD,,"Fournier is the only other Magic player in double figures, but the sentence should specify what 'double figures' means."
+S010,1,2,Atlanta,2,2,,,NAME,Orlando,"The home team is Orlando, not Atlanta."
+S011,1,1,Tuesday,22,22,,,NAME,Wednesday,The game was played on Wednesday.
+S011,2,1,29,18,18,,,NUMBER,18,The Hawks out-scored the Wizards 18-29 in the first quarter alone.
+S011,5,1,"The Hawks were also able to force the Wizards into 14 turnovers , while committing just 12 of their own",1,20,,,NUMBER,13,"The Hawks forced 13 turnovers, not 14."
+S011,8,1,second,4,4,,,WORD,first,"It was his first double-double, not second."
+S011,8,1,double,5,5,,,WORD,,It was not a double-double.
+S011,10,1,21,18,18,,,NUMBER,11,"The margin of victory was 11 points, not 21."
+S011,12,1,16,5,5,,,NUMBER,20,Al Horford has put up at least 20 points and 10 rebounds in three of his last five games.
+S012,1,1,Friday,19,19,,,NAME,Saturday,The game was played on Saturday evening.
+S012,2,1,21 - 25,4,6,,,NUMBER,15,"The Suns' record was 15-32, not 21-25."
+S012,4,1,six,23,23,,,NUMBER,four,Only four other players scored in double digits for the Nuggets.
+S012,4,1,Harris,2,2,,,NAME,,"The player's name is Gary Harris, but the first name is not mentioned in the box score data."
+S012,5,1,Jameer,1,1,,,NAME,Jameer Nelson,The player's name is Jameer Nelson.
+S012,2,1,The Nuggets,1,2,,,NAME,Suns,"The correct team name is Suns, not Nuggets."
+S012,8,1,Tyson,1,1,,,NAME,Tyson Chandler,The correct name of the player is Tyson Chandler.
+S013,1,1,Wednesday,22,22,,,NAME,Saturday,The game was played on Saturday.
+S013,2,1,31,15,15,,,NUMBER,19,"The Cavaliers out-scored the Magic 19-31, not 31-19."
+S013,4,1,29,4,4,,,NUMBER,28,"LeBron James played 29 minutes, but the correct number of minutes is 28."
+S014,2,1,The Trail Blazers,1,3,,,NAME,Trail Blazers,"The team name is 'Trail Blazers', not 'Trail' alone."
+S014,6,1,37,5,5,,,NUMBER,57,"The correct total points scored by Lillard and McCollum is 57, not 37."
+S014,7,1,12 -,7,8,,,NUMBER,13,"The correct number of points scored by Lillard is 28, not 12."
+S014,8,1,56,16,16,,,NUMBER,34,The player's last two games actually had a combined total of 34 points and 22 rebounds.
+S014,5,1,19,7,7,,,NUMBER,18,"Jordan Clarkson scored 18 points, not 19."
+S014,8,1,strong,5,5,,,WORD,weak,"The Lakers came out a little bit stronger in the second half, but the text says they came out strong."
+S015,1,1,Wednesday,22,22,,,NAME,Friday,The game was played on Friday.
+S015,2,1,64 - 52,18,20,,,NUMBER,58,"The Raptors outscored the Heat 58-39, not 64-52."
+S015,4,1,21,12,12,,,NUMBER,20,"Kyle Lowry finished with 20 points, not 21."
+S015,5,1,30,8,8,,,NUMBER,21,"DeRozan scored 21 points, not 30."
+S015,6,1,Gerald,29,29,,,NAME,Dwyane,Gerald Green is not the player who led the Heat in scoring.
+S015,11,1,Hassan,1,1,,,NAME,Gerald,"Gerald Green had 20 points, not Hassan Whiteside."
+S016,6,1,six,4,4,,,NUMBER,13,No player on Utah scored more than 17 points.
+S016,4,1,seven,39,39,,,NUMBER,six,"Derrick Favors scored six points, not seven."
+S017,1,1,Saturday,18,18,,,NAME,Tuesday,"The game was played on Tuesday, not Saturday."
+S017,2,1,Monday,11,11,,,NAME,Tuesday,"The game was played on Tuesday, not Monday."
+S017,4,1,63,12,12,,,NUMBER,37,The correct success rate from behind the arc is 37 percent.
+S017,5,1,Andre,1,1,,,NAME,Drummond,"The correct name of the player is Drummond, not Andre."
+S017,6,1,six,7,7,,,NUMBER,four,Only four players reached double figures.
+S017,8,1,Marcus,1,1,,,NAME,Morris,"The correct name is Morris, not Marcus."
+S017,9,1,productive,4,4,,,WORD,unproductive,"Ish Smith was not productive in a reserve role, but rather unproductive."
+S017,11,1,Deron,1,1,,,NAME,,"Deron Williams played for the Cleveland Cavaliers, not the Pistons."
+S017,12,1,Kyle,1,1,,,NAME,Korver,The correct name of the player is Kyle Korver.
+S017,10,1,Richard,1,1,,,NAME,LeBron,The correct name of the player is LeBron James.
+S017,14,1,Friday,13,13,,,NAME,Wednesday,The game was played on Wednesday.
+S018,2,1,game,9,9,,,WORD,high,The correct phrase is 'game-high'.
+S018,11,1,17,18,18,,,NUMBER,12,The correct average is 12 points and 12 rebounds.
+S019,3,1,30,21,21,,,NUMBER,16,"The Heat outscored the Pacers 30-16 in the third quarter, but the correct score is 30-16 in favor of the Heat, not the Pacers."
+S019,6,1,Paul,1,1,,,NAME,,"Paul George plays for the Indiana Pacers, not the team that won the game."
+S019,8,1,Thaddeus,1,1,,,NAME,,"Thaddeus Young is the only other starter in double figures, but the text does not specify the correct name of the other starter."
+S020,1,1,Phoenix,2,2,,,NAME,Pelicans,"The home team is the Pelicans, not the Suns."
+S020,1,2,Suns,3,3,,,NAME,Pelicans,"The home team is the Pelicans, not the Suns."
+S020,1,3,111,10,10,,,NUMBER,106,The correct score is 106-111.
+S020,1,5,Friday,19,19,,,NAME,Wednesday,"The game was played on Wednesday, not Friday."
+S020,2,1,Pelicans,2,2,,,NAME,Suns,"The visiting team was the Suns, not the Pelicans."
+S020,2,3,16 -,4,5,,,NUMBER,20,"The Pelicans' win-loss record was 20-32, not 16-32."
+S020,3,2,by a 34 -,18,21,,,NUMBER,by a 18,"The correct margin is 18, not 34."
+S020,5,1,14,9,9,,,NUMBER,20,"Bledsoe scored 20 points, not 14."
+S020,5,2,seven,16,16,,,NUMBER,four,"Bledsoe had four rebounds, not seven."
+S020,5,3,five,19,19,,,NUMBER,three,"Bledsoe had three assists, not five."
+S020,5,4,blocks,25,25,,,WORD,rebounds,"Bledsoe had rebounds, not blocks."
+S020,6,1,behind,5,5,,,WORD,ahead,Booker was ahead of Davis in the scoring.
+S020,7,1,Chriss,2,2,,,NAME,,"The player's name is Marquese Chriss, but the text does not provide a second name."
+S020,8,1,bench,5,5,,,WORD,as a starter,"The player came off the bench, but started the game."
+S020,3,2,12,27,27,,,NUMBER,points,"The player scored points, not 12 points."
+S020,8,4,an,13,13,,,WORD,a,"The player had a assist, not an assist."
+S020,6,5,steal,18,18,,,WORD,steals,"The player had steals, not a steal."
+S020,5,2,Bledsoe,7,7,,,NAME,Davis,"The player who scored 34 points was Anthony Davis, not Eric Bledsoe."
+S020,2,5,a,15,15,,,WORD,no,"Eric Bledsoe did not have a block, he had no blocks."
+S020,7,3,three,8,8,,,NUMBER,rebounds,The text should specify that Chriss had three rebounds.
+S020,6,4,two,14,14,,,NUMBER,assists,The text should specify that Chriss had two assists.
+S020,7,4,block,18,18,,,WORD,blocks,"TJ Warren had three blocks, not one block."
+S020,15,8,11,8,8,,,NUMBER,12,"Tyson Chandler totaled 12 rebounds, not 11."
+S020,14,10,nine,15,15,,,NUMBER,eight,"Anthony Davis tallied eight rebounds, not nine."
+S020,15,17,four,14,14,,,NUMBER,three,"E'Twaun Moore had three rebounds, not four."
+S020,14,1,Terrence,1,1,,,NAME,Anthony,"The player's name is Anthony Davis, not Terrence Jones."
+S020,15,1,Buddy,1,1,,,NAME,Anthony,"The player who led the second unit was Anthony Davis, not Buddy Hield."
+S020,19,6,20,5,5,,,NUMBER,14,"TJ Warren collected 14 points, not 20."
+S020,17,1,Minnesota,4,4,,,NAME,Phoenix,"The visiting team is the Suns, not the Timberwolves."
+S020,17,2,Timberwolves,9,9,,,NAME,Suns,"The visiting team is the Suns, not the Timberwolves."
+S020,18,1,Davis,1,1,,,NAME,Anthony,The correct name of the player is Anthony Davis.
+S020,15,1,Hield,2,2,,,NAME,Holiday,The correct name of the player is Jrue Holiday.
+S020,17,1,Monday,11,11,,,NAME,Wednesday,The game was played on Wednesday.
+S021,8,1,double,7,7,,,WORD,,It was not a double-double.
+S021,13,1,Collison,2,2,,,NAME,Collison,"The correct spelling is Collison, not Collison was."
+S022,1,1,Friday,18,18,,,NAME,Saturday,"The game was played on Saturday, not Friday."
+S022,3,1,8,7,7,,,NUMBER,10,"There were 10 lead changes, not 8."
+S022,5,1,34,18,18,,,NUMBER,43,The correct rebounding margin is 43-34.
+S022,7,1,six,15,15,,,NUMBER,four,Only four players reached double figures.
+S022,8,1,Hield,2,2,,,NAME,,"The player's name is Buddy Hield, not Minnesota."
+S022,9,1,Gorgui,1,1,,,NAME,Karl-Anthony,The correct name of the player is Karl-Anthony Towns.
+S022,13,1,17th,23,23,,,NUMBER,21st,"The Pelicans' win count is 21, not 17."
+S022,7,1,second,4,4,,,WORD,third,"Holiday finished third on the team with 25 points, 12 assists and five steals."
+S022,3,2,points,24,24,,,NUMBER,points,"Holiday finished with 25 points, not a different number of points."
+S022,7,3,assists,19,19,,,NUMBER,assists,"Holiday finished with 12 assists, not a different number of assists."
+S022,9,4,steals,12,12,,,NUMBER,steals,"Holiday finished with five steals, not a different number of steals."
+S023,1,1,Wednesday,19,19,,,NAME,Sunday,The game was played on Sunday.
+S023,3,1,in,22,22,,,WORD,for,"The Mavericks led for the entirety of the second half, not in the second half."
+S023,5,1,19,14,14,,,NUMBER,13,Justin Anderson actually scored 13 points.
+S023,7,1,Deron,1,1,,,NAME,,"Deron Williams is the only other starter in double figures, but the sentence should not imply that he is the only starter in double figures overall."
+S023,7,1,double,9,9,,,WORD,,It was not a double-double.
+S023,9,1,Randle,2,2,,,NAME,,"Julius Randle is a Laker, not the only other Laker in double figures."
+S023,7,1,five,18,18,,,NUMBER,three,"The Mavericks have won three straight games, not five."
+S023,9,1,six,13,13,,,NUMBER,four,"No starter scored in double figures for Los Angeles, as they combined for just 37 points."
+S024,4,1,Green,1,1,,,NAME,,"The player's name is not provided in the data, but it is likely Draymond Green."
+S024,5,1,Skal,1,1,,,NAME,Labissiere,"The correct name of the player is Labissiere, not Skal."
+S024,6,1,22,9,9,,,NUMBER,20,"Buddy Hield scored 20 points, not 22."
+S025,1,1,Spurs,4,4,,,NAME,Celtics,The correct team name is Celtics.
+S025,1,2,109,10,10,,,NUMBER,103,The correct score is 103-109.
+S025,1,3,Friday,18,18,,,NAME,Wednesday,The game was played on Wednesday.
+S025,2,2,9,23,23,,,NUMBER,7,"The Celtics' record is 9-7, not 9-9."
+S025,2,3,Thursday,11,11,,,NAME,Wednesday,"The game was played on Wednesday, not Thursday."
+S025,6,4,eight,20,20,,,NUMBER,seventh,"The Celtics had their seventh home victory, not eighth."
+S025,3,1,25,11,11,,,NUMBER,10,"Kawhi Leonard scored 10 rebounds, not 25."
+S025,3,2,8,14,14,,,NUMBER,18,"Kawhi Leonard shot 18 times, not 8."
+S025,2,3,3,6,6,,,NUMBER,7,"Kawhi Leonard made 7 three-pointers, not 3."
+S025,3,4,10,37,37,,,NUMBER,4,"Kawhi Leonard had 4 assists, not 10."
+S025,3,5,35,43,43,,,NUMBER,minutes,"Kawhi Leonard played 35 minutes, which is correct."
+S025,5,1,Avery Bradley,1,2,,,NAME,,"Avery Bradley is a player, but the sentence does not specify which team he is on."
+S025,5,2,8 - of - 15,7,11,,,,,
+S025,6,1,Isaiah,1,1,,,NAME,Thomas,"The player's name is Thomas, not Isaiah."
+S025,6,2,24,10,10,,,NUMBER,20,"Thomas scored 20 points, not 24."
+S025,6,3,rebound,18,18,,,WORD,rebounds,The correct plural form is rebounds.
+S025,6,5,36,24,24,,,NUMBER,35,"Thomas played 35 minutes, not 36."
+S025,3,3,three,28,28,,,NUMBER,two,Bradley had two assists.
+S025,7,5,6,23,23,,,NUMBER,7,David Lee made 7 shots out of 9.
+S025,7,6,0,31,31,,,,,
+S025,3,2,four,40,40,,,NUMBER,three,"Aldridge finished with three rebounds, not four rebounds."
+S025,9,1,47,4,4,,,NUMBER,46,"The Celtics shot 46 percent from the field, not 47."
+S026,4,1,Dragic,10,10,,,NAME,Bledsoe,"The correct name of the player is Eric Bledsoe, not Eric Dragic."
+S026,6,1,second,15,15,,,WORD,last,"The Suns had a season-high in points for the last five games, not the second five games."
+S026,6,1,double - double,16,18,,,WORD,,It was not a double-double.
+S026,9,1,Roy,1,1,,,NAME,Goran,"The player's name is Goran Dragic, not Roy."
+S026,11,1,17,12,12,,,NUMBER,14,"CJ Miles scored 14 points, not 17."
+S026,15,1,strong,5,5,,,WORD,solid,"CJ Miles had a solid showing off the bench, not a strong showing."
+S026,11,1,Miles,2,2,,,NAME,CJ Watson,"CJ Watson reached double figures in points, not CJ Miles."
+S027,1,1,New York,2,3,,,NAME,Houston,The home team is actually the Houston Rockets.
+S027,5,1,career - high,9,11,,,NUMBER,game-high,"The correct phrase is 'game-high', not 'career-high'."
+S028,1,1,Wizards,3,3,,,NAME,Nets,"The correct team name is Nets, not Wizards."
+S028,5,1,23 -,9,10,,,NUMBER,12,"The correct number of assists for John Wall is 12, not 23."
+S028,2,1,21,6,6,,,NUMBER,20,"Bogdanovic scored 20 points, not 21."
+S028,6,1,14,5,5,,,NUMBER,14,The number of points posted by Marcin Gortat is correct.
+S029,1,1,101,9,9,,,NUMBER,92,"The final score was 92, not 101."
+S029,1,2,Wednesday,17,17,,,NAME,Monday,"The game was played on Monday, not Wednesday."
+S029,2,1,12,4,4,,,NUMBER,26,The Timberwolves' actual record was 26-12.
+S029,2,2,Friday,11,11,,,NAME,Monday,"The game was played on Monday, not Friday."
+S029,2,2,19,30,30,,,NUMBER,24,"The margin in the third quarter was 24-19, not 24-19."
+S029,3,1,24,30,30,,,NUMBER,19,"The Mavericks outscored the Timberwolves by a 24-19 margin in the third quarter, but the correct margin is 19-24."
+S029,5,1,Harrison Barnes,1,2,,,NAME,,Harrison Barnes is a player on the Dallas team.
+S029,5,2,game - high,10,12,,,WORD,,The correct phrase is'season-high'.
+S029,5,3,30,13,13,,,NUMBER,points,"The correct unit is 'points', not just '30'."
+S029,5,4,two,20,20,,,NUMBER,three,"The correct number of rebounds is three, not two."
+S029,2,5,one,33,33,,,NUMBER,two,"The correct number of assists is two, not one."
+S029,7,1,bench,7,7,,,WORD,starting,Matthews started the game.
+S029,7,2,37,10,10,,,NUMBER,37,"Matthews scored 37 points, which is correct."
+S029,7,3,five,17,17,,,NUMBER,four,"Matthews had four assists, not five."
+S029,7,4,four,20,20,,,NUMBER,four,"Matthews had four rebounds, which is correct."
+S029,6,1,Deron,1,1,,,NAME,Williams,The correct name of the player is Deron Williams.
+S029,9,1,JJ,1,1,,,NAME,J.J.,The full name of the player is J.J. Barea.
+S029,12,2,Northwest,12,12,,,NAME,Pacific,"The division is called the Pacific, not the Northwest."
+S029,15,1,Wiggins,2,2,,,NAME,Andrew Bogut,"Andrew Wiggins is the player who scored 13 points, not Andrew Bogut."
+S029,16,1,Shabazz,1,1,,,NAME,Shabazz Muhammad,The player's name is Shabazz Muhammad.
+S029,3,2,11,24,24,,,NUMBER,11,The player indeed scored 11 points.

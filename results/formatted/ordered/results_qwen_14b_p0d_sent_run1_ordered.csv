@@ -1,0 +1,508 @@
+TEXT_ID,SENTENCE_ID,ANNOTATION_ID,TOKENS,SENT_TOKEN_START,SENT_TOKEN_END,DOC_TOKEN_START,DOC_TOKEN_END,TYPE,CORRECTION,COMMENT
+S001,2,1,30,,,54,54,NUMBER,6,"The Celtics won by 6 points, not 30."
+S001,3,1,six,,,82,82,NUMBER,five,"Isaiah Thomas had 38 points, six assists, two rebounds, and one steal, making the total number of stats five."
+S001,3,2,steal,,,89,89,WORD,,"Isaiah Thomas had one steal, but the sentence implies he had multiple steals."
+S001,5,1,18,,,25,25,NUMBER,17,"Jae Crowder scored 17 points, not 18."
+S001,5,2,12,,,120,120,NUMBER,11,"Jae Crowder had 11 rebounds, not 12."
+S001,7,1,18,,,25,25,NUMBER,17,"Jae Crowder scored 17 points, not 18."
+S001,7,2,six,,,82,82,NUMBER,five,"Jae Crowder had five rebounds, not six."
+S001,9,1,10,,,196,196,NUMBER,7,"Kelly Olynyk had 7 points, not 10."
+S001,9,2,nine,,,199,199,NUMBER,3,"Kelly Olynyk had 3 rebounds, not 9."
+S001,10,1,Detroit Pistons,,,220,221,NAME,Toronto Raptors,"The Lakers played against the Celtics, not the Detroit Pistons."
+S001,10,2,Toronto Raptors,,,234,235,NAME,Detroit Pistons,"The Celtics played against the Lakers, not the Toronto Raptors."
+S001,10,3,Wednesday,,,18,18,NAME,Friday,"The game was played on a Friday, not a Wednesday."
+S002,1,1,Atlanta Hawks,,,2,3,NAME,Cleveland Cavaliers,"The sentence incorrectly states that the Atlanta Hawks defeated the Atlanta Hawks, when it should be the Atlanta Hawks defeating the Cleveland Cavaliers."
+S002,1,2,Saturday,,,18,18,NAME,Tuesday,"The game was played on Tuesday, not Saturday."
+S002,2,1,struggling,,,26,26,WORD,,Neither team can be accurately described as 'struggling'.
+S002,2,2,huge road win,,,37,39,CONTEXT,home win,"The Hawks won the game as the visiting team, but the game was actually played in Cleveland, making it a home game for the Cavaliers."
+S002,4,1,21,,,75,75,NUMBER,22,"The Hawks recorded 22 assists, not 21."
+S002,4,2,19,,,78,78,NUMBER,6,"The Cavaliers committed 6 turnovers, not 19."
+S002,5,1,three of their last five,,,102,106,NUMBER,four of their last seven,The Hawks have won four of their last seven games.
+S002,6,1,17,,,127,127,NUMBER,7,"Dwight Howard had 7 points, not 17."
+S002,6,2,17,,,127,127,NUMBER,17,"Dwight Howard had 17 rebounds, but the sentence incorrectly states he had 17 points."
+S002,8,1,only,,,164,164,WORD,,"The sentence incorrectly states that only Bazemore was in double figures, when in fact, other players like Kyrie Irving, LeBron James, and Kevin Love also reached double figures."
+S002,10,1,three,,,102,102,NUMBER,six,"The Cavaliers have won 6 games out of their last 7, not 3 out of 5."
+S002,12,1,second,,,248,248,WORD,,Unclear if Kyrie Irving was definitively second on the team based on the provided metrics.
+S002,13,1,11,,,277,277,NUMBER,12,"Kevin Love recorded 12 rebounds, not 11."
+S002,14,1,25,,,151,151,NUMBER,0,Tristan Thompson did not provide 25 points.
+S002,14,2,two,,,25,25,NUMBER,12,"Tristan Thompson recorded 12 rebounds, not 2."
+S002,14,3,four,,,259,259,NUMBER,3,"Tristan Thompson had 3 assists, not 4."
+S002,15,1,Orlando Magic,,,317,318,NAME,Atlanta Hawks,"The visiting team was the Atlanta Hawks, not the Orlando Magic."
+S002,15,2,Sunday,,,188,188,NAME,Tuesday,"The game was played on Tuesday, not Sunday."
+S003,1,1,Saturday,,,17,17,NAME,Sunday,The game was played on Sunday.
+S003,2,1,Friday,,,51,51,NAME,Sunday,"The game was played on Sunday, not Friday."
+S003,3,1,steal,,,97,97,WORD,,DeMar DeRozan did not have any steals.
+S003,4,1,block,,,127,127,WORD,,Kyle Lowry did not record a block in the game.
+S003,5,1,block and a block and a block,,,,,WORD,,"Valanciunas recorded a double-double with 16 points and 13 rebounds, but there is no mention of him recording multiple blocks."
+S003,6,1,block and a block and a block,,,,,WORD,,"Valanciunas recorded a double-double with 16 points and 13 rebounds, but there is no mention of him recording multiple blocks."
+S003,7,1,11,,,194,194,NUMBER,8,"Terrence Ross scored 8 points, not 11."
+S003,9,1,Charlotte,,,236,236,NAME,Orlando,"The game was played in Orlando, not in Charlotte."
+S003,9,2,Hornets,,,241,241,NAME,Raptors,"The visiting team was the Toronto Raptors, not the Charlotte Hornets."
+S003,9,3,Friday,,,51,51,NAME,Sunday,"The game was played on Sunday, not on Friday."
+S003,10,1,Elfrid Payton,,,252,253,NAME,,Elfrid Payton did not lead the attack according to the box score data.
+S003,10,2,13,,,139,139,NUMBER,,Elfrid Payton's points are not listed in the box score data.
+S003,11,1,10,,,111,111,NUMBER,12,"Aaron Gordon had 12 rebounds, not 10."
+S003,11,2,assist,,,113,113,WORD,,Aaron Gordon did not record an assist.
+S003,11,3,steal,,,97,97,WORD,,Aaron Gordon did not record a steal.
+S003,11,4,block,,,127,127,WORD,,Aaron Gordon did not record a block.
+S003,12,1,13,,,139,139,NUMBER,8,"Elfrid Payton scored 8 points, not 13."
+S003,12,2,two rebounds,,,197,198,WORD,,"Elfrid Payton had 2 assists and 1 rebound, not 2 rebounds."
+S003,13,1,10,,,111,111,NUMBER,12,"Aaron Gordon had 12 rebounds, not 10."
+S003,13,2,12,,,64,64,NUMBER,10,"Aaron Gordon had 10 points, not 12."
+S003,14,1,11,,,194,194,NUMBER,3,"DJ Augustin scored 3 points, not 11."
+S003,15,1,Southeast,,,378,378,NAME,Atlantic,"The Raptors are part of the Atlantic Division, not the Southeast Division."
+S003,16,1,Friday,,,51,51,NAME,Sunday,The game was played on Sunday.
+S004,3,1,outscored,,,68,68,WORD,were outscored by,"The sentence incorrectly states that the Jazz outscored the Lakers in the fourth quarter, when in fact the Lakers were outscored by the Jazz."
+S004,4,1,38,,,91,91,NUMBER,41,"The Lakers shot 41% from the field, not 38%."
+S004,4,2,24,,,97,97,NUMBER,24,"The correction is actually the same as the original, but the sentence states that the Lakers were at 24% from three-point range, which is incorrect. According to the box score, the Lakers' three-point percentage was 39%. However, since the provided correction matches the original, this might indicate a need to verify the source data or clarify the intended correction."
+S004,5,1,43 -,,,120,121,NUMBER,47,"The Jazz had 47 rebounds, not 43."
+S004,5,2,24,,,97,97,NUMBER,27,"The Jazz had 27 rebounds, not 24."
+S004,7,1,17,,,164,164,NUMBER,7,"D'Angelo Russell scored 7 points, not 17."
+S004,8,1,Luol,,,173,173,NAME,Derrick,"Luol Deng was not the only starter in double figures, Derrick Favors was also in double figures."
+S004,8,2,12,,,187,187,NUMBER,15,"Luol Deng scored 12 points, but Derrick Favors scored 15 points."
+S004,9,1,17,,,164,164,NUMBER,7,"Lou Williams scored 17 points, not D'Angelo Russell."
+S004,9,2,D'Angelo Russell,,,153,154,NAME,Lou Williams,"Lou Williams led the Lakers in scoring, not D'Angelo Russell."
+S004,10,1,Luol,,,173,173,NAME,Derrick,"Luol Deng was not the only other starter in double figures, Derrick Favors was."
+S004,10,2,12,,,187,187,NUMBER,15,"Luol Deng did not score 12 points, Derrick Favors scored 15 points."
+S004,11,1,Portland,,,244,244,NAME,Thunder,The Lakers are scheduled to play the Thunder in Oklahoma City.
+S004,11,2,home,,,240,240,WORD,away,The Lakers are playing away in Oklahoma City.
+S004,12,1,four of their last five,,,260,264,WORD,,"The Jazz have only played two games based on the provided data, not five."
+S004,13,1,Jazz,,,4,4,NAME,Lakers,"George Hill plays for the Lakers, not the Jazz."
+S004,14,1,13,,,313,313,NUMBER,6,"Gobert had 6 offensive rebounds, not 13."
+S004,15,1,13,,,313,313,NUMBER,13,"The sentence correctly states that Rudy Gobert recorded 13 rebounds, but it does not mention his points accurately. However, since the task is to fact-check only the provided sentence and the sentence states that he recorded a double-double with 13 points and 13 rebounds, and the box score shows he indeed had 13 rebounds, the number of points is the only discrepancy. The box score indicates he had 13 points and 13 rebounds, making the sentence accurate."
+S004,17,1,Portland Trail Blazers,,,244,246,NAME,Los Angeles Clippers,"The Jazz are scheduled to play against the Los Angeles Clippers, not the Portland Trail Blazers."
+S005,1,1,Hawks,,,2,2,NAME,Magic,"The sentence incorrectly states that the Hawks elicited 15 turnovers, whereas the data indicates that the Magic had 15 turnovers."
+S005,1,2,30 - 21,,,33,35,NUMBER,20,"The Hawks' win-loss record is 30-21, not 30-21 as stated in the sentence."
+S005,2,1,game,,,48,48,WORD,,The sentence should not specify 'game-high' since it's implied.
+S005,2,2,21,,,35,35,NUMBER,21,"While the number is correct, it's redundant to mention 'game-high 21 points' without specifying it's tied with another player."
+S005,3,1,five,,,58,58,NUMBER,four,"Millsap recorded four rebounds, not five."
+S005,3,2,one,,,64,64,NUMBER,two,"Millsap recorded two steals, not one."
+S005,4,1,block,,,109,109,WORD,,Dwight Howard did not record a block in the game.
+S005,5,1,Bazemore,,,112,112,NAME,Kent Bazemore,The sentence correctly refers to Kent Bazemore.
+S005,5,2,27,,,117,117,NUMBER,8,"Kent Bazemore scored 8 points, not 27."
+S005,5,3,three rebounds,,,120,121,WORD,1,"Kent Bazemore had 1 rebound, not three."
+S005,5,4,three assists,,,102,103,NUMBER,3,"Kent Bazemore had 3 assists, not three."
+S005,5,5,two steals,,,126,127,NUMBER,2,"Kent Bazemore had 2 steals, not two."
+S005,6,1,Bazemore,,,112,112,NAME,Delaney,"Malcolm Delaney, not Kent Bazemore, led the second unit."
+S005,6,2,27,,,117,117,NUMBER,12,"Kent Bazemore scored 27 points in the game, but the sentence refers to the second unit scoring leader, which is Malcolm Delaney with 12 points."
+S005,7,1,Orlando,,,154,154,NAME,Atlanta,"Paul Millsap plays for Atlanta, not Orlando."
+S005,8,1,block,,,109,109,WORD,,Dwight Howard did not record a block in the game.
+S005,9,1,Bazemore,,,112,112,NAME,Malcolm Delaney,"Kent Bazemore did not lead the second unit with those stats, Malcolm Delaney did."
+S005,9,2,12,,,204,204,NUMBER,12,"While Kent Bazemore did score 12 points, the sentence incorrectly attributes the other stats to him. However, the number '12' itself is correct."
+S005,9,3,three rebounds,,,120,121,WORD,,"Kent Bazemore did not have three rebounds, this is incorrect."
+S005,9,4,three assists,,,102,103,WORD,,"Kent Bazemore did not have three assists, this is incorrect."
+S005,9,5,two steals,,,126,127,WORD,,"Kent Bazemore did not have two steals, this is incorrect."
+S005,9,6,one block,,,108,109,WORD,,"Kent Bazemore did not have a block, this is incorrect."
+S005,10,1,New York Knicks,,,229,231,NAME,Toronto Raptors,"The visiting team is the Toronto Raptors, not the New York Knicks."
+S005,10,2,Friday,,,247,247,NAME,Monday,"The Hawks are playing the Utah Jazz on Monday, not facing the Toronto Raptors on Friday."
+S006,2,1,double,,,32,32,WORD,single,"The Nets were a single-digit favorite, not a double-digit favorite."
+S006,3,1,win,,,64,64,CONTEXT,loss,"James Harden's performance was described as 'disappointing' and 'particularly disappointing', indicating that the sentence should reflect a loss rather than a win."
+S006,4,1,2,,,80,80,NUMBER,0,"Trevor Ariza scored 0 points, not 2."
+S006,4,2,defeat,,,90,90,CONTEXT,,"The sentence implies Trevor Ariza was part of the losing team, but the context suggests he was playing for the Houston Rockets, who lost the game."
+S006,5,1,Orlando Magic,,,102,103,NAME,Washington Wizards,"The next game is against the Washington Wizards, not the Orlando Magic."
+S006,5,2,Wednesday,,,105,105,NAME,Thursday,"The game is on Tuesday, so the next game is on Thursday, not Wednesday."
+S006,6,1,Nets,,,12,12,NAME,Rockets,"The sentence incorrectly states that the Nets played without Brook Lopez, while the data indicates that the Brooklyn Nets were the home team."
+S006,6,2,Nets,,,12,12,NAME,Rockets,"The sentence incorrectly states that the Nets did not have enough offense to keep up with themselves, which is nonsensical."
+S006,8,1,20,,,177,177,NUMBER,12,"Thaddeus Young scored 20 points, not 20 as the only other starter in double figures."
+S006,9,1,Atlanta Hawks,,,197,198,NAME,Houston Rockets,"The Nets played against the Houston Rockets, not the Atlanta Hawks."
+S006,9,2,Friday,,,22,22,NAME,Tuesday,"The game was played on Tuesday, not Friday."
+S007,1,1,Sleep,,,26,26,NAME,Golden 1 Center,"The game was played at Golden 1 Center, not Sleep Train Arena."
+S007,2,1,one,,,45,45,NUMBER,four,"The number of blocks Westbrook recorded was 1, not 4."
+S007,2,2,block,,,46,46,WORD,,"Westbrook did not record a block, only 1 steal."
+S007,3,1,only,,,92,92,WORD,,There were other Thunder players who scored in double digits.
+S007,4,1,Kings,,,124,124,NAME,,The sentence incorrectly repeats 'Kings' twice.
+S007,4,2,Kings,,,124,124,NAME,,The sentence incorrectly repeats 'Kings' twice.
+S007,5,1,11 - of - 20,,,167,171,NUMBER,14 - of - 17,DeMarcus Cousins shot 14 of 17 from the free throw line.
+S007,6,1,Steven,,,209,209,NAME,Russell,"Steven Adams did not contribute 21 points, four rebounds and one steal. Russell Westbrook did."
+S007,6,2,Adams,,,210,210,NAME,Westbrook,"Steven Adams did not contribute 21 points, four rebounds and one steal. Russell Westbrook did."
+S008,1,1,Saturday,,,19,19,NAME,Monday,"The game was played on Monday, not Saturday."
+S008,2,1,Saturday,,,19,19,NAME,Tuesday,The game was played on Tuesday.
+S008,2,2,33 - point,,,,,WORD,33,"The Grizzlies scored 33 points in the first quarter, not a 33-point lead over the Jazz."
+S008,3,1,Marc Gasol,,,95,96,NAME,,"Marc Gasol is a Grizzlies player, not a Jazz player."
+S008,3,2,22,,,104,104,NUMBER,,The details about Marc Gasol's performance are incorrect as he did not play for the Jazz.
+S008,3,3,five rebounds,,,118,119,NUMBER,,The details about Marc Gasol's performance are incorrect as he did not play for the Jazz.
+S008,3,4,five assists,,,121,122,NUMBER,,The details about Marc Gasol's performance are incorrect as he did not play for the Jazz.
+S008,3,5,one steal,,,124,125,NUMBER,,The details about Marc Gasol's performance are incorrect as he did not play for the Jazz.
+S008,3,6,33 minutes,,,128,129,NUMBER,,The details about Marc Gasol's performance are incorrect as he did not play for the Jazz.
+S008,4,1,Mike Conley,,,131,132,NAME,,"Conley is on the visiting team (Grizzlies), not the home team (Jazz)."
+S008,4,2,2 - of - 5,,,147,151,NUMBER,0,Conley made 2 of 5 from long range according to the box score.
+S008,5,1,Zach Randolph,,,173,174,NAME,Marc Gasol,"Marc Gasol played for the visiting team (Grizzlies), not Zach Randolph."
+S008,5,2,18,,,136,136,NUMBER,22,"Marc Gasol scored 22 points, not 18."
+S008,5,3,7 -of- 13,,,,,NUMBER,9-13,"Marc Gasol made 9 of 13 shots, not 7 of 13."
+S008,5,4,4 -of- 4,,,,,NUMBER,2-5,"Marc Gasol made 2 of 5 three-point shots, not 4 of 4."
+S008,5,5,off the bench,,,200,202,WORD,as a starter,"Marc Gasol started the game, not coming off the bench."
+S008,6,1,Jazz,,,7,7,NAME,Grizzlies,"The sentence incorrectly states that the Jazz shot percentages twice, instead of the Jazz and the Grizzlies."
+S008,6,2,Jazz,,,7,7,NAME,Grizzlies,"The sentence incorrectly states that the Jazz shot percentages twice, instead of the Jazz and the Grizzlies."
+S008,7,1,four,,,245,245,NUMBER,two,"The Grizzlies have lost two of their last five games, not four."
+S008,8,1,Grizzlies,,,3,3,NAME,Jazz,"Gordon Hayward plays for the Jazz, not the Grizzlies."
+S008,8,2,13,,,184,184,NUMBER,18,Gordon Hayward scored 18 points according to the box score.
+S008,9,1,22,,,104,104,NUMBER,6,"Rudy Gobert scored 6 points, not 22."
+S008,9,2,off the bench,,,200,202,WORD,,"Rudy Gobert started the game, so mentioning him as coming off the bench is incorrect."
+S008,10,1,Jazz,,,7,7,NAME,Grizzlies,"The sentence incorrectly states that the Jazz shot percentages twice, instead of comparing the Jazz and the Grizzlies."
+S008,10,2,Jazz,,,7,7,NAME,Grizzlies,"The sentence incorrectly states that the Jazz shot percentages twice, instead of comparing the Jazz and the Grizzlies."
+S008,11,1,Trail Blazers,,,376,377,NAME,Grizzlies,"The visiting team is the Memphis Grizzlies, not the Trail Blazers."
+S008,11,2,Monday,,,379,379,NAME,Tuesday,"The game was played on Tuesday, November 14, 2016."
+S009,1,1,122 - 122,,,10,12,NUMBER,114,"The final score was 122-114, not 122-122."
+S009,1,2,Tuesday,,,20,20,NAME,Friday,"The game was played on Friday, not Tuesday."
+S009,2,1,prevail,,,35,35,WORD,lose,"The Bucks lost the game, not prevailed."
+S009,2,2,huge,,,38,38,WORD,,"The Bucks did not win a 'huge road win', they lost the game."
+S009,2,3,road,,,39,39,WORD,,"The Bucks were playing at home, not on the road."
+S009,3,1,the,,,5,5,CONTEXT,,The Bucks did not lead for the majority of the game according to the box score.
+S009,3,2,double,,,59,59,WORD,,The Bucks did not lead by double digits for the entirety of the second half according to the box score.
+S009,4,1,Lakers,,,8,8,NAME,Bucks,"The sentence incorrectly states that the Lakers held the Lakers to 29% shooting, when it should refer to the Bucks."
+S009,5,1,four,,,104,104,NUMBER,,The Lakers' record shows they have not won four of their last five games.
+S009,6,1,41,,,129,129,NUMBER,14,"D'Angelo Russell scored 14 points, not 41."
+S009,6,2,three rebounds,,,132,133,WORD,,D'Angelo Russell did not record three rebounds.
+S009,6,3,five assists,,,135,136,WORD,,"D'Angelo Russell provided five assists, not five rebounds."
+S009,7,1,Luol Deng,,,145,146,NAME,,Luol Deng did not play in this game.
+S009,7,2,26,,,156,156,NUMBER,,Luol Deng did not score 26 points in this game.
+S009,8,1,three,,,132,132,NUMBER,five,"D'Angelo Russell had five rebounds, not three."
+S009,8,2,five,,,108,108,NUMBER,three,"D'Angelo Russell had three assists, not five."
+S009,9,1,New Orleans Pelicans,,,199,201,NAME,Sacramento Kings,The visiting team (Los Angeles Lakers) is scheduled to play the Sacramento Kings on Tuesday evening.
+S009,9,2,Sunday,,,203,203,NAME,Tuesday,The visiting team (Los Angeles Lakers) is scheduled to play the Sacramento Kings on Tuesday evening.
+S009,12,1,Khris,,,248,248,NAME,Malcolm,"Khris Middleton was not the second highest scorer, Malcolm Brogdon was."
+S009,12,2,Middleton,,,249,249,NAME,,The sentence incorrectly attributes the stats to Khris Middleton instead of Malcolm Brogdon.
+S009,13,1,Greg Monroe,,,268,269,NAME,Giannis Antetokounmpo,Giannis Antetokounmpo was the only Bucks starter to score in double figures.
+S009,13,2,18,,,259,259,NUMBER,41,"Giannis Antetokounmpo scored 41 points, which is the only double-digit score among the starters."
+S009,14,1,Orlando Magic,,,307,308,NAME,,"The story mentions an upcoming game against the Orlando Magic, but there is no information provided about such a game in the box-score data."
+S010,1,1,Friday,,,18,18,NAME,Saturday,"The game was played on April 1, 2017, which was a Saturday."
+S010,3,1,more than 11 points,,,59,62,WORD,more than 19 points,The Hawks led by more than 11 points at some point during the game.
+S010,4,1,43,,,75,75,NUMBER,40,"Orlando's field goal percentage was 40%, not 43%."
+S010,4,2,53,,,81,81,NUMBER,32,"Orlando's three-point percentage was 32%, not 53%."
+S010,7,1,7 - of - 13,,,162,166,NUMBER,6-of-13,Dennis Schroder shot 6-of-13 according to the box score.
+S010,8,1,13,,,166,166,NUMBER,12,"Dwight Howard recorded 12 rebounds, not 13."
+S010,9,1,17,,,111,111,NUMBER,6,"Kent Bazemore scored 6 points, not 17."
+S010,11,1,huge win,,,237,238,WORD,,"The Magic lost the game, so describing it as a 'huge win' is incorrect."
+S010,12,1,player of the game,,,145,148,CONTEXT,,Nikola Vucevic was not described as the player of the game in the provided summary.
+S010,12,2,12 rebounds,,,181,182,NUMBER,6,"According to the box score, Nikola Vucevic had 6 rebounds, not 12."
+S010,13,1,Evan,,,261,261,NAME,Aaron,"Aaron Gordon, not Evan Fournier, was second on the team in scoring."
+S010,13,2,14,,,272,272,NUMBER,15,"Aaron Gordon scored 15 points, not 14."
+S010,14,1,10,,,252,252,NUMBER,6,"Nikola Vucevic recorded 6 rebounds, not 10."
+S010,15,1,one,,,275,275,NUMBER,two,There were two Magic players in double figures: Evan Fournier and Elfrid Payton.
+S010,16,1,Toronto Raptors,,,331,332,NAME,Atlanta Hawks,"The visiting team was the Atlanta Hawks, not the Toronto Raptors."
+S011,1,1,Tuesday,,,22,22,NAME,Wednesday,The game was played on Wednesday.
+S011,3,1,coast to a victory,,,79,82,WORD,,"The Wizards did not win the game, so they could not have coasted to a victory."
+S011,4,1,Hawks,,,3,3,NAME,Wizards,The Wizards shot 44 percent from the field.
+S011,4,2,Wizards,,,12,12,NAME,Hawks,The Hawks shot 44 percent from the field.
+S011,6,1,John Wall,,,154,155,NAME,,"John Wall played for the visiting team (the Wizards), not the Hawks."
+S011,6,2,Bradley Beal,,,157,158,NAME,,"Bradley Beal played for the visiting team (the Wizards), not the Hawks."
+S011,7,1,9 - for - 15,,,162,166,NUMBER,8 - for - 15,"According to the box score, John Wall attempted 15 shots and made 8."
+S011,7,2,3 - for - 5,,,171,175,NUMBER,4 - for - 5,"According to the box score, John Wall attempted 5 three-point shots and made 4."
+S011,8,1,second double - double,,,205,208,NOT_CHECKABLE,,The claim of a second consecutive double-double cannot be verified with the provided data.
+S011,8,2,54 points and 14 rebounds,,,218,222,NOT_CHECKABLE,,The specific combination of 54 points and 14 rebounds over the last two games cannot be verified with the provided data.
+S011,9,1,11,,,242,242,NUMBER,10,"Paul Millsap finished with 10 points, not 11."
+S011,10,1,second double - double,,,205,208,WORD,,No player achieved a double-double in consecutive games.
+S011,10,2,21 points and 10 rebounds,,,,,NUMBER,,No player averaged exactly 21 points and 10 rebounds over the last five games.
+S011,11,1,8,,,303,303,NUMBER,7,"Bradley Beal recorded 7 rebounds, not 8."
+S011,13,1,21,,,281,281,NUMBER,14,"Al Horford scored 14 points, not 21."
+S011,14,1,New Orleans Pelicans,,,390,392,NAME,Golden State Warriors,The Hawks' next game is against the Golden State Warriors.
+S011,14,2,Cleveland Cavaliers,,,405,406,NAME,Charlotte Hornets,The Wizards' next game is against the Charlotte Hornets.
+S012,1,1,Friday,,,19,19,NAME,Saturday,The game was played on Saturday.
+S012,2,1,21 - 25,,,25,27,NUMBER,15-32,"The Suns' record is 15-32, not 21-25."
+S012,2,2,21 - 25,,,25,27,NUMBER,15-32,"The Suns' record is 15-32, not 21-25."
+S012,3,1,eight,,,78,78,NUMBER,7,"Danilo Gallinari had 7 rebounds, not 8."
+S012,5,1,Nelson,,,116,116,NAME,Bledsoe,"Jameer Nelson did not score 17 points, Eric Bledsoe did."
+S012,5,2,17,,,119,119,NUMBER,41,"Eric Bledsoe scored 41 points, not 17."
+S012,7,1,15 - 32,,,161,163,NUMBER,15-25,"The Suns' record is 15-25, not 15-32."
+S012,7,2,Nuggets,,,3,3,NAME,Suns,The sentence incorrectly attributes the performance to the Nuggets instead of the Suns.
+S012,8,1,Tyson Chandler,,,188,189,NAME,,The sentence incorrectly repeats the name Tyson Chandler.
+S012,8,2,steals,,,99,99,NUMBER,1,"Tyson Chandler had 2 steals, but the sentence states 'two steals', which is redundant and could be interpreted as a single steal."
+S012,9,1,steals,,,99,99,NUMBER,two,Tyson Chandler had exactly two steals according to the box score.
+S012,10,1,Phoenix,,,6,6,NAME,Grizzlies,"The sentence incorrectly states that the Suns are hosting the Phoenix Suns, when they are actually hosting the Memphis Grizzlies."
+S013,1,1,Wednesday,,,22,22,NAME,Saturday,The game was played on Saturday.
+S013,3,1,Kyrie Irving,,,58,59,NAME,Aaron Gordon,"Aaron Gordon was the leading scorer for the Magic, not Kyrie Irving."
+S013,3,2,13,,,64,64,NUMBER,11,"Aaron Gordon scored 11 points, not 13."
+S013,3,3,"4 - 12 FG , 0 - 4 3Pt , 5 - 7 FT",,,67,80,WORD,,This shooting line does not correspond to any player's stats in the box score.
+S013,3,4,bench,,,,,WORD,starter,"Kyrie Irving was listed as a starter for the Cavaliers, not coming off the bench."
+S013,7,1,4,,,67,67,NUMBER,7,"Aaron Gordon had 7 rebounds, not 4."
+S013,7,2,2,,,136,136,NUMBER,3,"Aaron Gordon had 3 assists, not 2."
+S013,7,3,29,,,95,95,NUMBER,28,"Aaron Gordon played 28 minutes, not 29."
+S013,8,1,five assists,,,83,84,NUMBER,0 assists,"Nikola Vucevic had 0 assists, not 5."
+S013,9,1,Magic,,,12,12,NAME,Pistons,"The visiting team is the Pistons, not the Magic."
+S014,1,1,Friday,,,24,24,NAME,Saturday,The game was played on Saturday.
+S014,5,1,9 - for - 19,,,120,124,NUMBER,12 - for - 20,"Lillard's field goal attempts were 12 - for - 20, not 9 - for - 19."
+S014,6,1,37,,,160,160,NUMBER,,"The sentence claims the player scored 37 points over his last two games, but no player in the box score data matches this claim."
+S014,7,1,12,,,185,185,NUMBER,9,"Lillard's field goal attempts were 19, not 20, making his shooting percentage 9-for-20."
+S014,7,2,20,,,189,189,NUMBER,19,"Lillard's field goal attempts were 19, not 20, making his shooting percentage 9-for-19."
+S014,9,1,Kobe,,,247,247,NAME,Kobe Bryant,The full name 'Kobe Bryant' should be used.
+S014,9,2,bench,,,254,254,WORD,starting lineup,"Kobe Bryant was listed as playing 34 minutes without specifying he came off the bench, implying he was a starter."
+S014,11,1,19,,,124,124,NUMBER,16,"Jordan Clarkson scored 16 points, not 19."
+S014,14,1,Clarkson had,,,424,425,NAME,Jordan Clarkson,The sentence incorrectly repeats 'Clarkson' without specifying 'Jordan'.
+S014,14,2,"19 points ( 8 - 15 FG , 2 - 5 3Pt , 1 - 2 FT )",,,328,345,WORD,,The sentence redundantly repeats the same stats twice.
+S014,15,1,Portland,,,2,2,NAME,Sacramento,"The Lakers will travel to Sacramento to play the Kings, not Portland."
+S015,1,1,Wednesday,,,22,22,NAME,Friday,The game was played on Friday.
+S015,2,1,64 -,,,47,48,NUMBER,58,"The Raptors outscored the Heat 58-39 in the second half, not 64-52 in the first half."
+S015,2,2,alone,,,54,54,WORD,,"The phrase 'alone' is unnecessary and could imply that the scoring advantage was only in the first half, which is not accurate."
+S015,3,1,50,,,66,66,NUMBER,58,"The Raptors outscored the Heat 58-39 the rest of the way, not 50-38."
+S015,5,1,0 - 1 3Pt,,,140,143,NUMBER,0 - 0 3Pt,DeMar DeRozan attempted 0 three-pointers and made 0.
+S015,6,1,13,,,147,147,NUMBER,20,"DeMarre Carroll scored 20 points, not 13."
+S015,6,2,five assists,,,184,185,WORD,,DeMarre Carroll did not have any assists mentioned in the box score.
+S015,8,1,off the bench,,,191,193,WORD,as a starter,Gerald Green started the game.
+S015,9,1,Cleveland,,,287,287,NAME,Portland,"The Heat's next game is against the Trail Blazers, not the Cavaliers."
+S015,9,2,Cavaliers,,,292,292,NAME,Trail Blazers,"The Heat's next game is against the Trail Blazers, not the Cavaliers."
+S015,10,1,lost,,,300,300,WORD,won,The Miami Heat won the game against the Toronto Raptors.
+S015,10,2,three straight games,,,301,303,WORD,,The Miami Heat did not lose three straight games; they won this game.
+S015,12,1,37,,,345,345,NUMBER,,No Heat player has combined for 37 points in the last two games.
+S015,13,1,Timberwolves,,,380,380,NAME,Trail Blazers,"The Miami Heat's next game is against the Trail Blazers, not the Timberwolves."
+S016,1,1,Friday,,,25,25,NAME,Thursday,The game was played on Thursday.
+S016,2,1,tight,,,35,35,WORD,,The game was not described as being tight throughout the first half.
+S016,2,2,came out strong,,,44,46,WORD,,"The sentence implies the Thunder performed strongly in the third quarter, which is not specified in the provided data."
+S016,4,1,15,,,128,128,NUMBER,20,"Russell Westbrook scored 20 points, not 15."
+S016,5,1,one,,,195,195,NUMBER,zero,"Kevin Durant had 0 blocks, not 1."
+S016,6,1,six,,,237,237,NUMBER,two,"Gordon Hayward had 6 points, 5 assists, and 2 rebounds, which totals 2 points in terms of scoring."
+S016,6,2,two,,,192,192,NUMBER,5,"Gordon Hayward had 5 rebounds, not 2."
+S016,7,1,Gordon Hayward,,,234,235,NAME,,"Gordon Hayward played for the Thunder, not the Jazz."
+S016,8,1,six,,,237,237,NUMBER,five,"Gordon Hayward had five points, not six."
+S016,10,1,Jazz,,,14,14,NAME,Thunder,"The sentence incorrectly states that the Jazz had players reaching double figures, while the Thunder were the home team."
+S016,10,2,six,,,237,237,NUMBER,five,The box score shows that only five players from the visiting team (Utah Jazz) reached double figures in points.
+S016,11,1,six,,,237,237,NUMBER,6,"Gordon Hayward had 6 points, not six."
+S016,11,2,seven,,,152,152,NUMBER,7,"Favors had 7 points, not seven."
+S016,13,1,host,,,444,444,CONTEXT,,"The Utah Jazz are the visiting team, not the home team."
+S016,14,1,Tuesday,,,464,464,WORD,,The day of the next game is not specified and seems unlikely to be the very next day.
+S017,1,1,Saturday,,,18,18,NAME,Tuesday,"The game was played on Tuesday, not Saturday."
+S017,2,1,Monday,,,31,31,NAME,Tuesday,"The game was played on Tuesday, not Monday."
+S017,3,1,33 - 34,,,52,54,NUMBER,44,"The Cavaliers' win-loss record is 44-22, not 33-34."
+S017,4,1,63,,,140,140,NUMBER,21,"Detroit's shooting percentage from beyond the arc was 21%, not 63%."
+S017,4,2,60,,,132,132,NUMBER,37,"Detroit's shooting percentage from the field was 37%, not 60%."
+S017,5,1,Drummond,,,165,165,NAME,Harris,"Andre Drummond played for the Pistons, not the Cavaliers."
+S017,5,2,Cavs,,,171,171,NAME,Pistons,"Andre Drummond played for the Pistons, not the Cavaliers."
+S017,6,1,six,,,193,193,NUMBER,five,"Reggie Jackson had five points, not six."
+S017,6,2,five assists,,,196,197,WORD,,"The sentence states that Reggie Jackson had five assists, but the box score shows he had six assists."
+S017,7,1,Maurice,,,,,NAME,Marcus,"The player's name is Marcus Morris, not Maurice Morris."
+S017,8,1,Marcus,,,223,223,NAME,Reggie,"The player referred to is Reggie Jefferson, not Marcus Morris."
+S017,8,2,Morris,,,224,224,NAME,Jefferson,"The player referred to is Reggie Jefferson, not Marcus Morris."
+S017,9,1,Ish,,,241,241,NAME,Tobias,"The player is Tobias Harris, not Ish Smith."
+S017,9,2,Smith,,,242,242,NAME,Harris,"The player is Tobias Harris, not Ish Smith."
+S017,10,1,Richard Jefferson and Richard Jefferson,,,264,268,NAME,Reggie Jefferson and Richard Jefferson,The sentence incorrectly repeats the name Richard Jefferson.
+S017,10,2,pair of 16 -point efforts,,,,,NUMBER,individual efforts,"The sentence incorrectly states that both players had 16-point efforts, when in fact only one did."
+S017,11,1,13,,,311,311,NUMBER,11,"Deron Williams scored 11 points, not 13."
+S017,12,1,Kyle Korver,,,323,324,NAME,,Kyle Korver did not play in this game.
+S017,12,2,12,,,252,252,NUMBER,,"Kyle Korver did not play in this game, so he could not have scored 12 points."
+S017,12,3,five boards,,,329,330,WORD,,"Kyle Korver did not play in this game, so he could not have grabbed five rebounds."
+S017,12,4,one assist,,,184,185,WORD,,"Kyle Korver did not play in this game, so he could not have recorded one assist."
+S017,12,5,one steal,,,202,203,WORD,,"Kyle Korver did not play in this game, so he could not have recorded one steal."
+S017,13,1,Richard,,,264,264,NAME,Reggie,"The player who scored 16 points was Reggie Jefferson, not Richard Jefferson."
+S017,14,1,Hawks,,,366,366,NAME,76ers,"The visiting team is the Philadelphia 76ers, not the Atlanta Hawks."
+S017,14,2,Friday,,,368,368,NAME,Thursday,"The game is scheduled for Thursday evening, not Friday night."
+S018,2,1,42,,,42,42,NUMBER,45,"The Warriors' field goal percentage was 45%, not 42%."
+S018,2,2,29,,,48,48,NUMBER,44,"The Warriors' three-point percentage was 44%, not 29%."
+S018,5,1,39,,,137,137,NUMBER,33,"Stephen Curry scored 33 points, not 39."
+S018,5,2,13,,,140,140,NUMBER,5,"Stephen Curry had 5 assists, not 13."
+S018,6,1,triple - double,,,151,153,WORD,,"Draymond Green did not come close to a triple-double as he only had 12 points, 12 rebounds, and 4 assists."
+S018,6,2,4 - 8 FG,,,164,167,NUMBER,4 - 8 FG,"Correctly stated, but no need to correct as it matches the box score."
+S018,6,3,0 - 2 3Pt,,,169,172,NUMBER,0 - 2 3Pt,"Correctly stated, but no need to correct as it matches the box score."
+S018,6,4,4 - 6 FT,,,174,177,NUMBER,4 - 6 FT,"Correctly stated, but no need to correct as it matches the box score."
+S018,7,1,29,,,48,48,NUMBER,,"The sentence claims a player has combined for 29 points and 12 rebounds over two games, but no such data is provided in the box score."
+S018,7,2,12,,,100,100,NUMBER,,"The sentence claims a player has combined for 29 points and 12 rebounds over two games, but no such data is provided in the box score."
+S018,9,1,Josh Smith,,,245,246,NAME,,Josh Smith is not listed in the box score as a player for the Clippers.
+S018,12,1,4 -,,,105,106,NUMBER,2,Jamal Crawford made 2 of his 4 three-point attempts.
+S018,13,1,Friday,,,398,398,NAME,Thursday,The Clippers' next game is on Thursday.
+S018,13,2,Minnesota Timberwolves,,,409,410,NAME,,"The Clippers' next game is against the Portland Trail Blazers, not the Minnesota Timberwolves."
+S019,1,1,evening,,,19,19,WORD,night,"The game was played on Saturday night, not evening."
+S019,3,1,30 - 16,,,65,67,NUMBER,35,The Heat outscored the Pacers 35-16 in the third quarter.
+S019,4,1,23,,,89,89,NUMBER,16,"The Pacers committed 15 turnovers, not 23."
+S019,4,2,16,,,67,67,NUMBER,21,"The Pacers had 21 assists, not 16."
+S019,5,1,five,,,115,115,NUMBER,one,"The Pacers have won one of their last six games, not five."
+S019,6,1,five,,,115,115,NUMBER,one,"Paul George had 1 rebound, not 5."
+S019,7,1,second,,,56,56,NUMBER,fourth,"Jeff Teague was fourth in points scored, not second."
+S019,8,1,13,,,181,181,NUMBER,2,"Thaddeus Young scored 2 points, not 13."
+S019,8,2,five,,,115,115,NUMBER,3,"Thaddeus Young had 3 rebounds, not 5."
+S019,8,3,four,,,187,187,NUMBER,4,"Thaddeus Young had 4 assists, not 4."
+S019,9,1,Friday,,,203,203,NAME,Saturday,"The game was played on Saturday, not Friday."
+S019,10,1,four,,,187,187,NUMBER,two,"The Heat have won two of their last six games, not four."
+S019,13,1,only,,,171,171,WORD,,"Hassan Whiteside also scored 22 points, making him another starter in double figures."
+S019,14,1,Toronto Raptors,,,306,307,NAME,Dallas Mavericks,"The Heat's next game is against the Dallas Mavericks, not the Toronto Raptors."
+S020,1,1,host,,,6,6,NAME,,"The home team was the Pelicans, not the Suns."
+S020,1,2,Phoenix,,,2,2,NAME,New Orleans,"The home team was the New Orleans Pelicans, not the Phoenix Suns."
+S020,3,1,34 - 18,,,78,80,NUMBER,34 - 32,"The final quarter score was 34 - 32, not 34 - 18."
+S020,4,1,Pelicans,,,22,22,NAME,Suns,"The sentence incorrectly states that the Pelicans outscored the Pelicans in the second half, when it should refer to the Suns."
+S020,5,1,Bledsoe,,,119,119,NAME,Anthony Davis,"Anthony Davis was the leading scorer for the Pelicans, not Eric Bledsoe."
+S020,5,2,seven,,,128,128,NUMBER,,"The sentence mentions seven rebounds and five assists for Bledsoe, but Bledsoe is not the leading scorer for the Pelicans."
+S020,5,3,five,,,131,131,NUMBER,,"The sentence mentions seven rebounds and five assists for Bledsoe, but Bledsoe is not the leading scorer for the Pelicans."
+S020,6,1,two,,,152,152,NUMBER,7,"Devin Booker had 7 rebounds, not 2."
+S020,7,1,12,,,85,85,NUMBER,6,"Marquese Chriss scored 6 points, not 12."
+S020,8,1,PJ Tucker,,,177,178,NAME,E'Twaun Moore,PJ Tucker did not lead the bench in scoring; E'Twaun Moore provided 12 points off the bench.
+S020,9,1,seven,,,128,128,NUMBER,five,"Eric Bledsoe had five rebounds, not seven."
+S020,9,2,steal,,,156,156,WORD,,"The sentence mentions Eric Bledsoe having a steal, but the box score shows no steals for him."
+S020,10,1,12,,,85,85,NUMBER,6,"Marquese Chriss scored 6 points, not 12."
+S020,11,1,14,,,121,121,NUMBER,6,"Marquese Chriss scored 6 points, not 14."
+S020,11,2,three,,,165,165,NUMBER,3,"Marquese Chriss had 3 rebounds, not 3."
+S020,12,1,12,,,85,85,NUMBER,20,"Brandon Knight scored 20 points, not 12."
+S020,12,2,six,,,270,270,NUMBER,five,"Brandon Knight had five assists, not six."
+S020,13,1,seven,,,128,128,NUMBER,five,"Eric Bledsoe had five rebounds, not seven."
+S020,14,1,Terrence Jones,,,302,303,NAME,,Terrence Jones did not play for the Pelicans in this game.
+S020,14,2,six assists,,,270,271,NUMBER,,Terrence Jones did not have six assists in this game.
+S020,15,1,Buddy Hield,,,328,329,NAME,,"Buddy Hield played for the visiting team (Suns), not the home team (Pelicans)."
+S020,15,2,11,,,335,335,NUMBER,12,"Buddy Hield scored 12 points, not 11."
+S020,17,1,Minnesota,,,364,364,NAME,New Orleans,"The game was played in New Orleans, not Minnesota."
+S020,17,2,Timberwolves,,,369,369,NAME,Suns,"The visiting team was the Phoenix Suns, not the Timberwolves."
+S020,17,3,Monday,,,371,371,NAME,Tuesday,"The game was played on February 6, 2017, which was a Tuesday."
+S020,18,1,an,,,189,189,WORD,,There is no mention of an assist in the box score.
+S020,19,1,20,,,397,397,NUMBER,30,Jrue Holiday scored 30 points.
+S020,19,2,4,,,,,NUMBER,9,Jrue Holiday grabbed 9 rebounds.
+S020,19,3,3,,,,,NUMBER,4,Jrue Holiday made 4 steals.
+S020,20,1,rebound,,,420,420,WORD,rebounds,"Buddy Hield had 3 rebounds, not 1."
+S020,20,2,steal,,,156,156,WORD,,"Buddy Hield had 0 steals, not 1."
+S020,21,1,11,,,335,335,NUMBER,12,"Buddy Hield scored 12 points, not 11."
+S020,23,1,Golden State Warriors,,,463,465,NAME,Phoenix Suns,"The visiting team is the Phoenix Suns, not the Golden State Warriors."
+S020,23,2,Monday,,,371,371,NAME,,The day of the week is correctly identified as Monday based on the date provided.
+S021,1,1,Saturday,,,18,18,NAME,Friday,The game was played on Friday.
+S021,2,1,Saturday,,,18,18,NAME,Friday,The game was played on Friday.
+S021,2,2,38,,,57,57,NUMBER,68,The Rockets scored 68 points in the first half.
+S021,3,1,Rockets,,,3,3,NAME,Kings,"The sentence incorrectly states that the Rockets battled back, when it should be the Kings."
+S021,3,2,Kings,,,7,7,NAME,Rockets,"The sentence incorrectly states that the Kings battled back, when it should be the Rockets."
+S021,4,1,Kings,,,7,7,NAME,Rockets,"The sentence incorrectly states that the Kings outscored the Kings in the fourth quarter, when it should refer to the Rockets."
+S021,5,1,blocks,,,181,181,WORD,,James Harden did not record any blocks according to the box score.
+S021,6,1,14,,,188,188,NUMBER,10,"Eric Gordon scored 10 points, not 14."
+S021,7,1,three,,,207,207,NUMBER,10,"Clint Capela had 10 rebounds, not 3."
+S021,7,2,three,,,207,207,NUMBER,4,"Clint Capela had 4 assists, not 3."
+S021,7,3,two,,,191,191,NUMBER,0,"Clint Capela had 0 blocks, not 2."
+S021,8,1,blocks,,,181,181,WORD,,Trevor Ariza did not have any blocks according to the box score.
+S021,9,1,10,,,23,23,NUMBER,9,"Trevor Ariza had 9 rebounds, not 10."
+S021,10,1,Sam Dekker,,,266,267,NAME,,Sam Dekker did not play in this game.
+S021,10,2,17,,,204,204,NUMBER,,"Sam Dekker did not play in this game, so he could not have scored 17 points."
+S021,11,1,blocks,,,181,181,WORD,,James Harden did not record any blocks in the game.
+S021,12,1,steals,,,214,214,WORD,,Rudy Gay did not have any steals according to the box score.
+S021,13,1,18,,,229,229,NUMBER,8,"Darren Collison scored 8 points, not 18."
+S021,13,2,10,,,23,23,NUMBER,4,"Darren Collison had 4 rebounds, not 10."
+S021,14,1,18,,,229,229,NUMBER,8,"Darren Collison scored 8 points, not 18."
+S021,15,1,10,,,23,23,NUMBER,12,"Rudy Gay recorded 12 rebounds, not 10."
+S021,15,2,three blocks,,,399,400,WORD,,Rudy Gay did not record any blocks in the game.
+S021,16,1,18,,,229,229,NUMBER,8,"Darren Collison scored 8 points, not 18."
+S021,17,1,Saturday,,,18,18,NAME,Friday,The game was played on Friday.
+S021,17,2,San Antonio Spurs,,,430,432,NAME,Portland Trail Blazers,The Rockets' next game is against the Portland Trail Blazers.
+S021,17,3,Saturday,,,18,18,NAME,Sunday,The Kings' next game is on Sunday against the Brooklyn Nets.
+S021,17,4,Golden State Warriors,,,445,447,NAME,Brooklyn Nets,The Kings' next game is against the Brooklyn Nets.
+S022,6,1,Timberwolves,,,8,8,NAME,Pelicans,"Anthony Davis played for the Pelicans, not the Timberwolves."
+S022,6,2,42,,,114,114,NUMBER,,"Anthony Davis scored 42 points, but he played for the Pelicans, not the Timberwolves."
+S022,8,1,second,,,141,141,WORD,,Buddy Hield was not second on the team in terms of points scored.
+S022,9,1,three,,,82,82,NUMBER,one,"Gorgui Dieng recorded 1 steal, not 3."
+S022,10,1,Minnesota,,,7,7,NAME,New Orleans,"Buddy Hield plays for the New Orleans Pelicans, not the Minnesota Timberwolves."
+S022,11,1,three,,,82,82,NUMBER,one,"Gorgui Dieng recorded 1 steal, not 3."
+S022,12,1,Friday,,,18,18,NAME,Sunday,The game was played on a day different from what is stated.
+S022,13,1,Verizon Center,,,275,276,NAME,Target Center,"The game was played at Target Center, not Verizon Center."
+S022,14,1,Anthony Davis,,,106,107,NAME,,"Anthony Davis played for the visiting New Orleans Pelicans, not the home team Minnesota Timberwolves."
+S022,14,2,Minnesota,,,7,7,NAME,New Orleans,"Anthony Davis played for the New Orleans Pelicans, not the Minnesota Timberwolves."
+S022,15,1,second,,,141,141,WORD,,Jrue Holiday did not finish second on the team in terms of points scored.
+S023,1,1,Wednesday,,,19,19,NAME,Sunday,The game was played on Sunday.
+S023,7,1,only,,,135,135,WORD,,Deron Williams was not the only starter in double figures.
+S023,9,1,double - double,,,177,179,WORD,,Julius Randle did not achieve a double-double as he did not reach double figures in points or assists.
+S023,10,1,Lakers,,,8,8,NAME,Mavericks,"Justin Anderson played for the Mavericks, not the Lakers."
+S023,10,2,led,,,43,43,WORD,,"Justin Anderson was playing for the Mavericks, not leading the Lakers."
+S023,11,1,Julius,,,173,173,NAME,Lou,"Lou Williams led the team in scoring, not Julius Randle."
+S023,11,2,collecting,,,222,222,WORD,,"The sentence incorrectly states that Julius Randle collected points, when in fact he accrued points."
+S023,12,1,home,,,239,239,WORD,away,"The Lakers are playing on the road, not at home."
+S023,15,1,second,,,49,49,WORD,third,Justin Anderson was actually third on the team in terms of points scored.
+S024,1,1,Saturday,,,18,18,NAME,Friday,The game was played on Friday.
+S024,3,1,12,,,88,88,NUMBER,7,"The correct number of assists for Stephen Curry is 12, but the box score shows he had 7 assists."
+S024,5,1,rebound,,,126,126,WORD,rebounds,"Labissiere recorded 10 rebounds, not a single rebound."
+S024,6,1,Warriors,,,4,4,NAME,Kings,"Buddy Hield played for the Sacramento Kings, not the Warriors."
+S024,7,1,4,,,169,169,NUMBER,8,"Draymond Green recorded 8 rebounds, not 4."
+S024,8,1,led,,,78,78,WORD,scored,"Labissiere did not lead the second unit, but scored 10 points."
+S024,8,2,one,,,184,184,NUMBER,zero,"Labissiere did not have a block, as the box score shows zero blocks."
+S024,9,1,Ben McLemore,,,206,207,NAME,,Ben McLemore did not lead the second unit in scoring.
+S024,9,2,11,,,213,213,NUMBER,8,"Ben McLemore scored 8 points, not 11."
+S024,10,1,Kings,,,8,8,NAME,Warriors,"Stephen Curry played for the Warriors, not the Kings."
+S024,10,2,27 - point,,,232,234,NUMBER,27,"Stephen Curry scored 27 points, not 27 points as part of a double-double."
+S024,10,3,12 -,,,236,237,NUMBER,,The sentence does not mention any assists for Stephen Curry.
+S024,10,4,seven rebounds,,,91,92,NUMBER,7,"Stephen Curry had 7 rebounds, not seven."
+S024,10,5,six steals,,,94,95,NUMBER,6,"Stephen Curry had 6 steals, not six."
+S024,11,1,eight,,,106,106,NUMBER,seven,"Hield recorded seven assists, not eight."
+S024,11,2,eight,,,106,106,NUMBER,ten,"Hield recorded ten rebounds, not eight."
+S024,13,1,12,,,88,88,NUMBER,8,"Willie Cauley-Stein scored 8 points, not 12."
+S024,13,2,four,,,103,103,NUMBER,4,"Willie Cauley-Stein had 4 rebounds, not four."
+S025,2,1,nine,,,36,36,NUMBER,eight,"The Spurs won by 6 points, not just 9."
+S025,2,2,Thursday,,,30,30,NAME,"November 25, 2016","The game was played on November 25, 2016, not Thursday."
+S025,2,3,eighth,,,65,65,WORD,,"The Celtics did not win this game, so they did not secure their eighth home victory."
+S025,4,1,off the bench,,,135,137,WORD,,Patty Mills was not a substitute for the Boston Celtics.
+S025,5,1,off the bench,,,135,137,WORD,as a starter,"David Lee was listed as a starter and played significant minutes, so he was not off the bench."
+S025,6,1,eight,,,182,182,NUMBER,ten,"Isaiah Thomas had 10 assists, not 8."
+S025,9,1,Spurs,,,4,4,NAME,Celtics,"The sentence mentions the Spurs shooting percentages, but the home team is the Celtics."
+S025,9,2,Celtics,,,8,8,NAME,Spurs,"The sentence mentions the Celtics shooting percentages, but the visiting team is the Spurs."
+S026,2,1,out- scoring,,,,,WORD,being out-scored by,The Suns actually scored fewer points (26) than the Pacers (27) in the first quarter.
+S026,3,1,12-for-12,,,,,WORD,,This detail is not relevant to the shooting percentages.
+S026,3,2,0-for-3,,,,,WORD,,This detail is not relevant to the shooting percentages.
+S026,4,1,Eric Dragic,,,114,115,NAME,Goran Dragic,"The sentence mentions Eric Dragic, but the correct player is Goran Dragic."
+S026,5,1,five,,,155,155,NUMBER,5,"Dragic had 5 rebounds, not 5."
+S026,5,2,three,,,78,78,NUMBER,4,"Dragic had 4 steals, not 3."
+S026,7,1,five,,,155,155,NUMBER,four,"Dragic had four rebounds, not five."
+S026,7,2,three,,,78,78,NUMBER,seven,"Dragic had seven assists, not three."
+S026,8,1,second double - double,,,175,178,WORD,,Roy Hibbert did not achieve a double-double in consecutive games.
+S026,8,2,42 points and 11 rebounds,,,256,260,NUMBER,15 points and 10 rebounds,Roy Hibbert scored 15 points and grabbed 10 rebounds in the game in question.
+S026,9,1,6 - 14,,,,,NUMBER,11 - 15,Hibbert's shooting stats were 11-15 from the field.
+S026,9,2,0 - 0,,,,,NUMBER,5 - 6,Hibbert's shooting stats were 5-6 from beyond the arc.
+S026,10,1,10 points and 16 rebounds,,,316,320,NOT_CHECKABLE,,The average points and rebounds are not verifiable based on the provided box-score data.
+S026,11,1,6 - 9,,,,,NUMBER,6 - 8,CJ Miles made 6 field goals out of 8 attempts.
+S026,11,2,1 - 3,,,,,NUMBER,1 - 4,CJ Miles made 1 three-pointer out of 4 attempts.
+S026,12,1,second double - double,,,175,178,WORD,,Roy Hibbert did not achieve a double-double in the previous game.
+S026,12,2,42 points and 12 rebounds,,,375,379,NUMBER,,The data does not support the claim that Roy Hibbert combined for 42 points and 12 rebounds over his last two games.
+S026,13,1,6 - 14,,,,,NUMBER,5 - 12,Roy Hibbert's field goal attempts were 5 out of 12.
+S026,13,2,0 - 0,,,,,NUMBER,,"Roy Hibbert attempted no three-point shots, so this statistic is unnecessary."
+S026,15,1,6 - 9,,,,,NUMBER,6 - 9,"The box score shows CJ Miles made 6 of 9 shots, so this is correct."
+S026,15,2,1 - 3,,,,,NUMBER,1 - 3,"The box score shows CJ Miles made 1 of 3 three-point shots, so this is correct."
+S026,15,3,4 - 4,,,,,NUMBER,3 - 3,"The box score shows CJ Miles made 3 of 3 free throws, not 4 of 4."
+S026,16,1,6,,,135,135,NUMBER,,"The sentence claims he averages 6 rebounds on the year, but this specific claim is not supported by the immediate context provided."
+S026,17,1,CJ,,,324,324,NAME,C.J.,"The name should be C.J., not CJ."
+S026,17,2,starter,,,492,492,WORD,reserve,"C.J. Miles was a reserve, not a starter."
+S026,18,1,steal,,,534,534,WORD,,The box score does not indicate that the player made a steal.
+S026,19,1,Toronto,,,547,547,NAME,Dallas,"The Suns' next game is against the Dallas Mavericks, not the Toronto Raptors."
+S026,19,2,Brooklyn,,,561,561,NAME,Portland,"The Pacers' next game is against the Trail Blazers in Portland, not the Brooklyn Nets."
+S027,1,1,111,,,19,19,NUMBER,116,"The final score was 111-116, not 111-111."
+S027,1,2,New York,,,2,3,NAME,Houston,"The Houston Rockets were the visiting team, not the New York Knicks."
+S027,1,3,Wednesday,,,23,23,NAME,Sunday,"The game was played on Sunday, not Wednesday."
+S027,2,1,Knicks,,,4,4,NAME,Rockets,"The sentence incorrectly states that the Knicks out-scored the Knicks, when it should refer to the Rockets."
+S027,3,1,58,,,69,69,NUMBER,45,"The Rockets' shooting percentage was 45%, not 58%."
+S027,3,2,33,,,75,75,NUMBER,28,"The Rockets' three-point shooting percentage was 28%, not 33%."
+S027,4,1,2 - for - 4,,,,,NUMBER,2 - for - 3,"According to the box score, Arron Afflalo attempted 3 three-point shots, making 2."
+S027,5,1,career,,,158,158,WORD,,"The sentence does not specify that this is a career-high, only a season-high."
+S027,5,2,31,,,138,138,NUMBER,31,"The number 31 is correct, but the sentence structure implies it is a career-high, which is not specified in the box score data."
+S027,6,1,45 points and 10 rebounds,,,206,210,NOT_CHECKABLE,,The claim about combining for 45 points and 10 rebounds over the last two games is not verifiable with the provided box score data.
+S027,7,1,only,,,221,221,WORD,,There were more starters in double figures besides Kristaps Porzingis.
+S027,8,1,Detroit,,,268,268,NAME,Pistons,The Rockets' next game is against the Pistons.
+S027,8,2,Charlotte,,,279,279,NAME,New York,The Knicks' next game is against the Sixers in New York.
+S027,8,3,Hornets,,,283,283,NAME,Sixers,The Knicks' next game is against the Sixers.
+S028,1,1,Saturday,,,17,17,NAME,Wednesday,The game was played on Wednesday.
+S028,2,1,Trust the Process,,,36,38,WORD,,"The 'Trust the Process' slogan is associated with the Philadelphia 76ers, not the Washington Wizards."
+S028,3,1,21,,,25,25,NUMBER,44,"The Nets' record is 9-44, not 9-21."
+S028,4,1,31 - 44,,,102,104,NUMBER,9,"The Wizards' record is 31-21, not 31-44."
+S028,5,1,23,,,140,140,NUMBER,12,"John Wall's stats show he had 12 rebounds, not 23."
+S028,5,2,six,,,167,167,NUMBER,two,"John Wall's stats show he had 2 assists, not six."
+S028,6,1,an assist,,,193,194,NUMBER,1 assist,"Gortat had 1 assist, not multiple assists."
+S028,6,2,a steal,,,196,197,NUMBER,1 steal,"Gortat had 1 steal, not multiple steals."
+S028,6,3,a block,,,199,200,NUMBER,1 block,"Gortat had 1 block, not multiple blocks."
+S028,8,1,Brooklyn,,,6,6,NAME,Washington,"Bradley Beal plays for the Washington Wizards, not the Brooklyn Nets."
+S028,8,2,31,,,23,23,NUMBER,23,"Bradley Beal scored 23 points, not 31."
+S028,11,1,a steal,,,196,197,WORD,,Jason Smith did not record a steal according to the box score.
+S028,12,1,led,,,135,135,WORD,paced,"Sean Kilpatrick paced the second unit, not led it."
+S028,13,1,Nets,,,7,7,NAME,Wizards,"Bradley Beal plays for the Washington Wizards, not the Brooklyn Nets."
+S028,13,2,31,,,23,23,NUMBER,23,"Bradley Beal scored 23 points, not 31."
+S028,16,1,led,,,135,135,WORD,paced,"Sean Kilpatrick paced the second unit, not led it."
+S028,17,1,Detroit,,,405,405,NAME,Phoenix,"The visiting team is the Phoenix Suns, not the Detroit Pistons."
+S028,17,2,Pistons,,,406,406,NAME,Suns,"The visiting team is the Phoenix Suns, not the Detroit Pistons."
+S029,1,1,Wednesday,,,17,17,NAME,Monday,The game was played on Monday.
+S029,2,1,Friday,,,29,29,NAME,Monday,The game was played on Monday.
+S029,3,1,11 - 27,,,77,79,NAME,27,"The Mavericks' record is 11-27, not 11-27 (wins-losses should be wins-losses)."
+S029,5,1,one steal,,,145,146,NUMBER,zero steals,"According to the box score, Harrison Barnes had 0 steals."
+S029,6,1,seven,,,155,155,NUMBER,five,"Deron Williams had five assists, not seven."
+S029,6,2,two,,,139,139,NUMBER,five,"Deron Williams had five rebounds, not two."
+S029,7,1,37,,,173,173,NUMBER,2,"Wesley Matthews scored 2 points, not 37."
+S029,7,2,bench,,,170,170,WORD,,"Wesley Matthews was not listed as a substitute, indicating he started the game."
+S029,10,1,14,,,210,210,NUMBER,0,JJ Barea scored 0 points.
+S029,10,2,one,,,51,51,NUMBER,4,JJ Barea had 4 steals.
+S029,11,1,12,,,22,22,NUMBER,0,JJ Barea had 0 points.
+S029,11,2,two rebounds,,,139,140,WORD,,JJ Barea had 0 rebounds.
+S029,11,3,one steal,,,145,146,WORD,,JJ Barea had 0 steals.
+S029,13,1,Wednesday,,,17,17,NAME,Monday,The game was played on Monday.
+S029,14,1,three blocks,,,310,311,NUMBER,two,"Karl-Anthony Towns recorded three blocks, but the sentence mentions 'three blocks' twice."
+S029,15,1,one assist,,,142,143,NUMBER,0 assists,Andrew Wiggins had 0 assists.
+S029,15,2,one block,,,329,330,NUMBER,0 blocks,Andrew Wiggins had 0 blocks.
+S029,19,1,Wednesday,,,17,17,NAME,Monday,The game was played on Monday.
+S029,19,2,Utah Jazz,,,393,394,NAME,Dallas Mavericks,"The visiting team was the Dallas Mavericks, not the Utah Jazz."
+S030,1,1,Wednesday,,,18,18,NAME,Monday,The game was played on Monday.
+S030,2,1,overtime,,,35,35,WORD,,The game was not an overtime game.
+S030,4,1,42 - 34,,,83,85,NUMBER,46-42,"The Pacers lost the rebounding battle, 42-46."
+S030,7,1,second,,,49,49,CONTEXT,,Nicolas Batum was not second on the team based on points.
+S030,8,1,11,,,92,92,NUMBER,8,"Cody Zeller scored 8 points, not 11."
+S030,9,1,Los Angeles Clippers,,,188,190,NAME,Washington Wizards,The Hornets' next game is against the Washington Wizards.
+S030,10,1,five of their last six,,,204,208,NOT_CHECKABLE,,The claim about winning five of their last six games is not verifiable with the provided box-score data.
+S030,12,1,second,,,49,49,CONTEXT,,The sentence is ambiguous since Paul George also scored 22 points.

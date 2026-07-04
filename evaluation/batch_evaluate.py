@@ -188,6 +188,7 @@ def parse_run_id(run_id):
         ("llama", "small"):  "Llama-3.1-8B",
         ("llama", "medium"): "Llama-3.1-70B",
         ("qwen",  "small"):  "Qwen-2.5-7B",
+        ("qwen",  "14b"):    "Qwen-2.5-14B",
         ("qwen",  "medium"): "Qwen-2.5-72B",
     }
     model_label = size_map.get((parts[0], parts[1]), run_id)
@@ -259,8 +260,8 @@ def build_master_excel(success_log):
     df = pd.DataFrame(rows)
     stage_order = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     df["_so"] = df["Stage"].map({s: i for i, s in enumerate(stage_order)})
-    size_order = {"Small": 0, "Medium": 1}
-    prompt_order = {"P0": 0, "P0A": 1, "P0B": 2, "P0C": 3, "P1": 4, "P2": 5, "P3": 6, "P4": 7}
+    size_order = {"Small": 0, "14B": 1, "Medium": 2}
+    prompt_order = {"P0": 0, "P0A": 1, "P0B": 2, "P0C": 3, "P0D": 4, "P1": 5, "P2": 6, "P3": 7, "P4": 8}
     mode_order = {"full": 0, "sent": 1}
     df["_sz"] = df["Size"].map(size_order)
     df["_pr"] = df["Prompt"].map(prompt_order)
@@ -317,11 +318,11 @@ def write_excel(df, out_path):
     # ── Determine column groups from data ─────────────────────────────────
     # Model order: Llama before Qwen; size order: small before medium.
     model_order = {"Llama-3.1-8B": (0, 0), "Llama-3.1-70B": (0, 1),
-                   "Qwen-2.5-7B":  (1, 0), "Qwen-2.5-72B":  (1, 1)}
+                   "Qwen-2.5-7B":  (1, 0), "Qwen-2.5-14B": (1, 1), "Qwen-2.5-72B": (1, 2)}
     size_label  = {"Llama-3.1-8B": "small", "Llama-3.1-70B": "medium",
-                   "Qwen-2.5-7B":  "small", "Qwen-2.5-72B":  "medium"}
+                   "Qwen-2.5-7B":  "small", "Qwen-2.5-14B": "14b", "Qwen-2.5-72B": "medium"}
     model_name  = {"Llama-3.1-8B": "Llama", "Llama-3.1-70B": "Llama",
-                   "Qwen-2.5-7B":  "Qwen",  "Qwen-2.5-72B":  "Qwen"}
+                   "Qwen-2.5-7B":  "Qwen",  "Qwen-2.5-14B": "Qwen", "Qwen-2.5-72B": "Qwen"}
 
     present_models = sorted(df["Model"].unique(),
                             key=lambda m: model_order.get(m, (99, 99)))
@@ -379,7 +380,7 @@ def write_excel(df, out_path):
 
     # ── Build row order: (prompt, mode, stage) ────────────────────────────
     stage_order  = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
-    prompt_order = {"P0": 0, "P0A": 1, "P0B": 2, "P0C": 3, "P1": 4, "P2": 5, "P3": 6, "P4": 7}
+    prompt_order = {"P0": 0, "P0A": 1, "P0B": 2, "P0C": 3, "P0D": 4, "P1": 5, "P2": 6, "P3": 7, "P4": 8}
     mode_order   = {"full": 0, "sent": 1}
 
     keys = (df[["Prompt", "Mode", "Stage"]]

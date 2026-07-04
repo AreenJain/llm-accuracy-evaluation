@@ -624,6 +624,55 @@ Any fact in the text that cannot be verified against the data tables should be m
 PROMPTS["p0a"] = PROMPTS["p0"] + _P0A_TAIL
 
 
+# p0d = p0 plus FEW-SHOT worked examples (Jul 2026). Unlike p0a (which only
+# states a rule to keep spans short), p0d SHOWS the model the exact granularity
+# with 3 worked examples: every error in a sentence is flagged (protects recall)
+# but each TOKENS span is minimal (lifts token precision). Aim: push both token
+# recall AND token precision toward >0.5. Literal JSON braces are doubled ({{ }})
+# because LangChain's PromptTemplate treats single { } as placeholders.
+_P0D_TAIL = """
+
+=========================== WORKED EXAMPLES ===========================
+The examples below show the EXACT output we want. In every example notice two things:
+(1) we flag EVERY error in the sentence — never stop after the first one; and
+(2) TOKENS contains ONLY the minimal wrong word(s), never the surrounding correct words.
+
+--- Example 1 ---
+SENTENCE: "The Boston Celtics defeated the Los Angeles Lakers 113 - 107 on Wednesday ."
+DATA: final score was 113 - 101; the game was played on Friday.
+CORRECT OUTPUT:
+[
+  {{"TOKENS": ["107"], "TYPE": "NUMBER", "CORRECTION": "101", "COMMENT": "The Lakers scored 101, not 107."}},
+  {{"TOKENS": ["Wednesday"], "TYPE": "NAME", "CORRECTION": "Friday", "COMMENT": "The game was played on Friday."}}
+]
+WRONG OUTPUT (span too long — DO NOT do this):
+[{{"TOKENS": ["113", "-", "107", "on", "Wednesday"], "TYPE": "NUMBER", "CORRECTION": "..."}}]
+
+--- Example 2 ---
+SENTENCE: "Isaiah Thomas came off the bench to post a 30 - point double - double ."
+DATA: Thomas STARTED the game, scored 20 points, and did NOT record a double-double.
+CORRECT OUTPUT:
+[
+  {{"TOKENS": ["off", "the", "bench"], "TYPE": "WORD", "CORRECTION": "as a starter", "COMMENT": "Thomas started the game."}},
+  {{"TOKENS": ["30"], "TYPE": "NUMBER", "CORRECTION": "20", "COMMENT": "Thomas scored 20 points."}},
+  {{"TOKENS": ["double", "-", "double"], "TYPE": "WORD", "CORRECTION": "", "COMMENT": "It was not a double-double."}}
+]
+
+--- Example 3 ---
+SENTENCE: "The Suns had six players in double figures ; Mike Conley led the way with 24 points ."
+DATA: Mike Conley plays for the OTHER team (the Grizzlies), not the Suns.
+CORRECT OUTPUT:
+[
+  {{"TOKENS": ["Mike", "Conley"], "TYPE": "CONTEXT", "CORRECTION": "", "COMMENT": "Conley is on the opposing team, so listing him among the Suns' scorers is misleading."}}
+]
+
+Now mark up the story the SAME way: find EVERY error, but keep each TOKENS span as
+SHORT as possible — only the exact wrong word(s), never the correct words around them.
+"""
+
+PROMPTS["p0d"] = PROMPTS["p0"] + _P0D_TAIL
+
+
 # Build the sentence-by-sentence variants programmatically. Each one is
 # the full-story prompt with two tweaks:
 #   1. A short header is prepended that tells the model it is seeing
@@ -639,5 +688,5 @@ _SENT_HEADER = (
     "TOKENS must be copied EXACTLY from this sentence (not from any other text).\n\n"
 )
 
-for _k in ["p0", "p0a","p0b","p0c", "p1", "p2", "p3", "p4"]:
+for _k in ["p0", "p0a", "p0b", "p0c", "p0d", "p1", "p2", "p3", "p4"]:
     PROMPTS[_k + "_sent"] = _SENT_HEADER + PROMPTS[_k].replace("{story}", "{sentence}")
