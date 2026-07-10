@@ -43,6 +43,7 @@ PROMPT_ORDER = ["p0", "p0a", "p0b", "p0c", "p0d", "p1", "p2", "p3", "p4"]
 
 def prep(df):
     df = df[df["prompt"].notna() & (df["prompt"].astype(str) != "")].copy()
+    df = df[df["size"] != "14b"].copy()          # exclude 14B from the analysis
     df["family"] = pd.Categorical(df["family"], ["llama", "qwen"])
     sizes = [s for s in ["small", "14b", "medium"] if s in set(df["size"])]
     df["size"] = pd.Categorical(df["size"], sizes)
