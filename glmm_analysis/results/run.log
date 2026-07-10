@@ -1,0 +1,98 @@
+
+=== Recall ===
+  rows=39766  base rate=0.147
+                           odds_ratio  p_value  sig
+term                                               
+Intercept                       0.102   0.0000  ***
+family[T.qwen]                  2.807   0.0000  ***
+size[T.14b]                     1.199   0.0240    *
+size[T.medium]                  2.433   0.0000  ***
+prompt[T.p0a]                   0.777   0.0000  ***
+prompt[T.p0b]                   0.545   0.0000  ***
+prompt[T.p0c]                   0.414   0.0000  ***
+prompt[T.p0d]                   0.678   0.0000  ***
+prompt[T.p1]                    0.483   0.0000  ***
+prompt[T.p2]                    0.534   0.0000  ***
+prompt[T.p3]                    0.766   0.0009  ***
+prompt[T.p4]                    0.437   0.0000  ***
+mode[T.sent]                    1.825   0.0000  ***
+category[T.CONTEXT]             0.599   0.0078   **
+category[T.NOT_CHECKABLE]       1.148   0.4786     
+category[T.NUMBER]              0.452   0.0000  ***
+category[T.OTHER]               0.251   0.0000  ***
+category[T.WORD]                0.327   0.0000  ***
+sent_pos                        0.630   0.0000  ***
+
+=== Precision ===
+  rows=15424  base rate=0.378
+                           odds_ratio  p_value  sig
+term                                               
+Intercept                       1.349   0.0609     
+family[T.qwen]                  1.473   0.0000  ***
+size[T.14b]                     1.634   0.0000  ***
+size[T.medium]                  1.823   0.0000  ***
+prompt[T.p0a]                   0.347   0.0000  ***
+prompt[T.p0b]                   0.278   0.0000  ***
+prompt[T.p0c]                   0.282   0.0000  ***
+prompt[T.p0d]                   0.250   0.0000  ***
+prompt[T.p1]                    0.301   0.0000  ***
+prompt[T.p2]                    0.329   0.0000  ***
+prompt[T.p3]                    0.355   0.0000  ***
+prompt[T.p4]                    0.416   0.0000  ***
+mode[T.sent]                    1.044   0.5279     
+category[T.CONTEXT]             0.999   0.9951     
+category[T.NOT_CHECKABLE]       2.187   0.0767     
+category[T.NUMBER]              0.465   0.0000  ***
+category[T.OTHER]               0.442   0.0000  ***
+category[T.WORD]                0.891   0.4090     
+sent_pos                        1.180   0.0001  ***
+
+=== Token Recall ===
+  rows=56581  base rate=0.167
+                           odds_ratio  p_value  sig
+term                                               
+Intercept                       0.189   0.0000  ***
+family[T.qwen]                  3.265   0.0000  ***
+size[T.14b]                     1.246   0.0264    *
+size[T.medium]                  2.999   0.0000  ***
+prompt[T.p0a]                   0.360   0.0000  ***
+prompt[T.p0b]                   0.170   0.0000  ***
+prompt[T.p0c]                   0.127   0.0000  ***
+prompt[T.p0d]                   0.211   0.0000  ***
+prompt[T.p1]                    0.173   0.0000  ***
+prompt[T.p2]                    0.204   0.0000  ***
+prompt[T.p3]                    0.344   0.0000  ***
+prompt[T.p4]                    0.212   0.0000  ***
+mode[T.sent]                    2.407   0.0000  ***
+category[T.CONTEXT]             0.386   0.0000  ***
+category[T.NOT_CHECKABLE]       0.608   0.0034   **
+category[T.NUMBER]              0.534   0.0000  ***
+category[T.OTHER]               0.083   0.0000  ***
+category[T.WORD]                0.279   0.0000  ***
+sent_pos                        0.729   0.0000  ***
+
+=== Token Precision ===
+  rows=58161  base rate=0.163
+                           odds_ratio  p_value  sig
+term                                               
+Intercept                       0.154   0.0000  ***
+family[T.qwen]                  1.232   0.0001  ***
+size[T.14b]                     1.556   0.0000  ***
+size[T.medium]                  1.485   0.0000  ***
+prompt[T.p0a]                   1.809   0.0000  ***
+prompt[T.p0b]                   2.834   0.0000  ***
+prompt[T.p0c]                   2.939   0.0000  ***
+prompt[T.p0d]                   2.811   0.0000  ***
+prompt[T.p1]                    2.564   0.0000  ***
+prompt[T.p2]                    2.498   0.0000  ***
+prompt[T.p3]                    2.001   0.0000  ***
+prompt[T.p4]                    2.685   0.0000  ***
+mode[T.sent]                    0.938   0.0988     
+category[T.CONTEXT]             0.502   0.0000  ***
+category[T.NOT_CHECKABLE]       0.824   0.3416     
+category[T.NUMBER]              0.374   0.0000  ***
+category[T.OTHER]               0.435   0.0000  ***
+category[T.WORD]                0.551   0.0000  ***
+sent_pos                        1.175   0.0001  ***
+
+saved -> glmm_analysis/results/GLMM_SUMMARY.md and per-outcome CSVs
