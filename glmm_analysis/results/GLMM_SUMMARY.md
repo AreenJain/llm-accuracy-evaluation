@@ -2,95 +2,83 @@
 
 Mixed-effects logistic regression (random intercept per game). Odds ratios from cluster-robust logistic; `mixed_OR` from the Bayesian mixed model cross-checks them. Baseline config = **Llama / small / P0 / full / NAME error**. OR > 1 helps, OR < 1 hurts. Sig: \*\*\* p<.001, \*\* p<.01, \* p<.05.
 
-## Recall  (base rate 0.146, game-SD 0.407)
+## Recall  (base rate 0.144, game-SD 0.395)
 
 | term | odds ratio | mixed OR | p | sig |
 |---|---|---|---|---|
-| Intercept | 0.101 | 0.099 | 0.0 | *** |
-| family[T.qwen] | 2.802 | 2.851 | 0.0 | *** |
-| size[T.medium] | 2.429 | 2.466 | 0.0 | *** |
-| prompt[T.p0a] | 0.777 | 0.774 | 0.0 | *** |
-| prompt[T.p0b] | 0.557 | 0.552 | 0.0 | *** |
-| prompt[T.p0c] | 0.447 | 0.44 | 0.0 | *** |
-| prompt[T.p0d] | 0.627 | 0.622 | 0.0 | *** |
+| Intercept | 0.096 | 0.094 | 0.0 | *** |
+| family[T.qwen] | 2.711 | 2.755 | 0.0 | *** |
+| size[T.medium] | 2.708 | 2.751 | 0.0 | *** |
+| prompt[T.p0a] | 0.777 | 0.773 | 0.0 | *** |
 | prompt[T.p1] | 0.484 | 0.478 | 0.0 | *** |
 | prompt[T.p2] | 0.534 | 0.528 | 0.0 | *** |
-| prompt[T.p3] | 0.766 | 0.763 | 0.0009 | *** |
+| prompt[T.p3] | 0.767 | 0.763 | 0.0009 | *** |
 | prompt[T.p4] | 0.437 | 0.431 | 0.0 | *** |
-| mode[T.sent] | 1.823 | 1.842 | 0.0 | *** |
-| category[T.CONTEXT] | 0.63 | 0.721 | 0.0169 | * |
-| category[T.NOT_CHECKABLE] | 1.206 | 1.112 | 0.3269 |  |
-| category[T.NUMBER] | 0.451 | 0.463 | 0.0 | *** |
-| category[T.OTHER] | 0.274 | 0.23 | 0.0 | *** |
-| category[T.WORD] | 0.339 | 0.32 | 0.0 | *** |
-| sent_pos | 0.633 | 0.614 | 0.0 | *** |
+| mode[T.sent] | 1.823 | 1.841 | 0.0 | *** |
+| category[T.CONTEXT] | 0.685 | 0.767 | 0.0325 | * |
+| category[T.NOT_CHECKABLE] | 1.107 | 1.01 | 0.5872 |  |
+| category[T.NUMBER] | 0.437 | 0.449 | 0.0 | *** |
+| category[T.OTHER] | 0.195 | 0.171 | 0.0 | *** |
+| category[T.WORD] | 0.384 | 0.368 | 0.0 | *** |
+| sent_pos | 0.645 | 0.63 | 0.0 | *** |
 
-## Precision  (base rate 0.379, game-SD 0.545)
-
-| term | odds ratio | mixed OR | p | sig |
-|---|---|---|---|---|
-| Intercept | 1.321 | 1.368 | 0.0793 |  |
-| family[T.qwen] | 1.471 | 1.445 | 0.0 | *** |
-| size[T.medium] | 1.815 | 1.822 | 0.0 | *** |
-| prompt[T.p0a] | 0.35 | 0.327 | 0.0 | *** |
-| prompt[T.p0b] | 0.278 | 0.253 | 0.0 | *** |
-| prompt[T.p0c] | 0.293 | 0.265 | 0.0 | *** |
-| prompt[T.p0d] | 0.247 | 0.225 | 0.0 | *** |
-| prompt[T.p1] | 0.303 | 0.274 | 0.0 | *** |
-| prompt[T.p2] | 0.332 | 0.305 | 0.0 | *** |
-| prompt[T.p3] | 0.357 | 0.333 | 0.0 | *** |
-| prompt[T.p4] | 0.417 | 0.41 | 0.0 | *** |
-| mode[T.sent] | 1.043 | 1.052 | 0.5355 |  |
-| category[T.CONTEXT] | 1.029 | 0.97 | 0.8006 |  |
-| category[T.NOT_CHECKABLE] | 2.226 | 2.248 | 0.0653 |  |
-| category[T.NUMBER] | 0.475 | 0.47 | 0.0 | *** |
-| category[T.OTHER] | 0.453 | 0.412 | 0.0 | *** |
-| category[T.WORD] | 0.932 | 0.906 | 0.6122 |  |
-| sent_pos | 1.182 | 1.129 | 0.0001 | *** |
-
-## Token Recall  (base rate 0.168, game-SD 0.391)
+## Precision  (base rate 0.407, game-SD 0.550)
 
 | term | odds ratio | mixed OR | p | sig |
 |---|---|---|---|---|
-| Intercept | 0.187 | 0.181 | 0.0 | *** |
-| family[T.qwen] | 3.254 | 3.317 | 0.0 | *** |
-| size[T.medium] | 2.99 | 3.043 | 0.0 | *** |
+| Intercept | 1.15 | 1.186 | 0.38 |  |
+| family[T.qwen] | 1.413 | 1.39 | 0.0 | *** |
+| size[T.medium] | 1.952 | 1.969 | 0.0 | *** |
+| prompt[T.p0a] | 0.365 | 0.338 | 0.0 | *** |
+| prompt[T.p1] | 0.308 | 0.276 | 0.0 | *** |
+| prompt[T.p2] | 0.338 | 0.31 | 0.0 | *** |
+| prompt[T.p3] | 0.362 | 0.334 | 0.0 | *** |
+| prompt[T.p4] | 0.408 | 0.401 | 0.0 | *** |
+| mode[T.sent] | 1.038 | 1.045 | 0.5743 |  |
+| category[T.CONTEXT] | 1.299 | 1.265 | 0.0312 | * |
+| category[T.NOT_CHECKABLE] | 2.562 | 2.561 | 0.0751 |  |
+| category[T.NUMBER] | 0.54 | 0.537 | 0.0 | *** |
+| category[T.OTHER] | 0.495 | 0.45 | 0.0 | *** |
+| category[T.WORD] | 1.18 | 1.171 | 0.2234 |  |
+| sent_pos | 1.192 | 1.136 | 0.0001 | *** |
+
+## Token Recall  (base rate 0.176, game-SD 0.375)
+
+| term | odds ratio | mixed OR | p | sig |
+|---|---|---|---|---|
+| Intercept | 0.172 | 0.167 | 0.0 | *** |
+| family[T.qwen] | 3.117 | 3.175 | 0.0 | *** |
+| size[T.medium] | 3.413 | 3.481 | 0.0 | *** |
 | prompt[T.p0a] | 0.361 | 0.355 | 0.0 | *** |
-| prompt[T.p0b] | 0.177 | 0.172 | 0.0 | *** |
-| prompt[T.p0c] | 0.14 | 0.135 | 0.0 | *** |
-| prompt[T.p0d] | 0.191 | 0.186 | 0.0 | *** |
 | prompt[T.p1] | 0.173 | 0.168 | 0.0 | *** |
-| prompt[T.p2] | 0.205 | 0.199 | 0.0 | *** |
+| prompt[T.p2] | 0.205 | 0.2 | 0.0 | *** |
 | prompt[T.p3] | 0.345 | 0.339 | 0.0 | *** |
 | prompt[T.p4] | 0.213 | 0.208 | 0.0 | *** |
-| mode[T.sent] | 2.402 | 2.436 | 0.0 | *** |
-| category[T.CONTEXT] | 0.4 | 0.445 | 0.0 | *** |
-| category[T.NOT_CHECKABLE] | 0.638 | 0.626 | 0.0074 | ** |
-| category[T.NUMBER] | 0.535 | 0.556 | 0.0 | *** |
-| category[T.OTHER] | 0.089 | 0.082 | 0.0 | *** |
-| category[T.WORD] | 0.289 | 0.267 | 0.0 | *** |
-| sent_pos | 0.734 | 0.708 | 0.0 | *** |
+| mode[T.sent] | 2.4 | 2.436 | 0.0 | *** |
+| category[T.CONTEXT] | 0.426 | 0.464 | 0.0 | *** |
+| category[T.NOT_CHECKABLE] | 0.65 | 0.616 | 0.0066 | ** |
+| category[T.NUMBER] | 0.532 | 0.554 | 0.0 | *** |
+| category[T.OTHER] | 0.078 | 0.076 | 0.0 | *** |
+| category[T.WORD] | 0.323 | 0.301 | 0.0 | *** |
+| sent_pos | 0.76 | 0.736 | 0.0 | *** |
 
-## Token Precision  (base rate 0.159, game-SD 0.471)
+## Token Precision  (base rate 0.149, game-SD 0.454)
 
 | term | odds ratio | mixed OR | p | sig |
 |---|---|---|---|---|
-| Intercept | 0.152 | 0.142 | 0.0 | *** |
-| family[T.qwen] | 1.23 | 1.212 | 0.0002 | *** |
-| size[T.medium] | 1.482 | 1.509 | 0.0 | *** |
-| prompt[T.p0a] | 1.811 | 1.864 | 0.0 | *** |
-| prompt[T.p0b] | 2.837 | 2.861 | 0.0 | *** |
-| prompt[T.p0c] | 2.999 | 3.048 | 0.0 | *** |
-| prompt[T.p0d] | 2.771 | 2.8 | 0.0 | *** |
-| prompt[T.p1] | 2.569 | 2.537 | 0.0 | *** |
-| prompt[T.p2] | 2.503 | 2.534 | 0.0 | *** |
-| prompt[T.p3] | 2.003 | 2.067 | 0.0 | *** |
-| prompt[T.p4] | 2.69 | 2.831 | 0.0 | *** |
-| mode[T.sent] | 0.939 | 0.928 | 0.0992 |  |
-| category[T.CONTEXT] | 0.511 | 0.485 | 0.0 | *** |
-| category[T.NOT_CHECKABLE] | 0.867 | 0.926 | 0.4633 |  |
-| category[T.NUMBER] | 0.382 | 0.384 | 0.0 | *** |
-| category[T.OTHER] | 0.442 | 0.427 | 0.0 | *** |
-| category[T.WORD] | 0.565 | 0.575 | 0.0 | *** |
-| sent_pos | 1.172 | 1.13 | 0.0001 | *** |
+| Intercept | 0.153 | 0.142 | 0.0 | *** |
+| family[T.qwen] | 1.17 | 1.158 | 0.0032 | ** |
+| size[T.medium] | 1.481 | 1.513 | 0.0 | *** |
+| prompt[T.p0a] | 1.803 | 1.861 | 0.0 | *** |
+| prompt[T.p1] | 2.527 | 2.5 | 0.0 | *** |
+| prompt[T.p2] | 2.473 | 2.512 | 0.0 | *** |
+| prompt[T.p3] | 1.978 | 2.043 | 0.0 | *** |
+| prompt[T.p4] | 2.65 | 2.793 | 0.0 | *** |
+| mode[T.sent] | 0.937 | 0.924 | 0.082 |  |
+| category[T.CONTEXT] | 0.538 | 0.514 | 0.0 | *** |
+| category[T.NOT_CHECKABLE] | 0.91 | 0.964 | 0.6344 |  |
+| category[T.NUMBER] | 0.415 | 0.415 | 0.0 | *** |
+| category[T.OTHER] | 0.447 | 0.431 | 0.0 | *** |
+| category[T.WORD] | 0.584 | 0.598 | 0.0 | *** |
+| sent_pos | 1.169 | 1.128 | 0.0001 | *** |
 
