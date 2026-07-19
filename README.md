@@ -35,7 +35,7 @@ deterministic post-processing pipeline that repairs misaligned spans.
 ├── post_processing/
 │   ├── format_converter.py       # Normalise raw LLM CSV to evaluator format
 │   ├── stage_a_sentence_only.py  # A: resolve to a single ID basis
-│   ├── stage_b_nearest_fixed_n.py# B: recover invalid spans by search
+│   ├── stage_b_nearest_fixed_n.py # B: recover invalid spans by search
 │   ├── stage_c_strict_match.py   # C: match-strictness (redundant, see notes)
 │   ├── stage_d_overlap_resolver.py # D: resolve overlapping spans
 │   └── stage_e_drop_unmatched.py # E: drop still-unresolved spans
@@ -43,7 +43,7 @@ deterministic post-processing pipeline that repairs misaligned spans.
 │   ├── evaluate.py               # 2021 shared-task scorer (mistake + token)
 │   └── batch_evaluate.py         # Batch-evaluate all runs/stages
 ├── glmm_analysis/                # Mixed-effects (GLMM) statistical analysis
-│   ├── 01_build_outcome_tables.py# Build per-observation 0/1 outcome tables
+│   ├── 01_build_outcome_tables.py # Build per-observation 0/1 outcome tables
 │   ├── 02_run_glmm.py            # Fit the GLMM for each of the four metrics
 │   ├── tables/                   # Per-observation outcome tables (CSV)
 │   └── results/                  # Fitted odds ratios + GLMM_SUMMARY.md
