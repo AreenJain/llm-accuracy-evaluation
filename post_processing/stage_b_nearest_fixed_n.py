@@ -75,7 +75,7 @@ def search_n_gram(sentence_tokens, target_tokens, anchor_start=None):
 
     # Build the list of starting positions to try, in priority order.
     if anchor_start is not None:
-        anchor = anchor_start - 1  # convert to 0-indexed
+        anchor = anchor_start - 1  # convert to 0 indexed
         candidates = []
         max_dist = max(anchor, max_start - anchor)
         for d in range(max_dist + 1):
@@ -91,13 +91,13 @@ def search_n_gram(sentence_tokens, target_tokens, anchor_start=None):
                 if 0 <= left < max_start:
                     candidates.append(left)
     else:
-        # No anchor — just walk through every possible position.
+        # No anchor, just walk through every possible position.
         candidates = list(range(max_start))
 
     # Try each starting position and return on the first exact match.
     for c in candidates:
         if sentence_tokens[c:c + n] == target_tokens:
-            return c + 1, c + n  # convert back to 1-indexed
+            return c + 1, c + n  # convert back to 1 indexed
     return None, None
 
 
@@ -109,7 +109,7 @@ def process_file(input_path, output_ab_path, output_abde_path, texts):
     recovered_via_doc_scan = 0
 
     for idx, row in df.iterrows():
-        # If the row already has a position, skip it — nothing to recover.
+        # If the row already has a position, skip it nothing to recover.
         if pd.notna(row["SENT_TOKEN_START"]) and pd.notna(row["SENT_TOKEN_END"]):
             continue
 
@@ -117,7 +117,6 @@ def process_file(input_path, output_ab_path, output_abde_path, texts):
         sentence_id = row["SENTENCE_ID"]
         tokens_str = row["TOKENS"]
 
-        # No TOKENS or unknown story — nothing to search for.
         if pd.isna(tokens_str) or text_id not in texts:
             continue
         target_tokens = str(tokens_str).split()

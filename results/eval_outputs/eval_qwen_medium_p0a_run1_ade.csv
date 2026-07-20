@@ -1,8 +1,0 @@
-categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
-NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.134,0.596,0.143,0.213,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-NAME,0.234,0.684,0.218,0.336,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-NUMBER,0.084,0.403,0.089,0.128,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-WORD,0.092,0.5,0.074,0.085,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-CONTEXT,None,None,None,None,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-NOT_CHECKABLE,None,None,None,None,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts
-OTHER,None,None,None,None,results/formatted/stage_ade/results_qwen_medium_p0a_run1_ade.csv,data/gsml_30_rows.csv,data/texts

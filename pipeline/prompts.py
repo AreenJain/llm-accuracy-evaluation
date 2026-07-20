@@ -1,21 +1,3 @@
-# All prompt templates live here, keyed by short names.
-#
-# Full-story versions (one LLM call per whole story):
-#   p0  - baseline. Shared-task instructions verbatim. Loose output rules.
-#   p1  - strict. Same content as p0 but with explicit "JSON only, no preamble" rules.
-#   p2  - JSON-context. Recasts the box score as a JSON schema and asks the
-#         model to fact-check sentence-by-sentence against it.
-#   p3  - persona / "LLM as judge". Casts the model as a senior fact-checker.
-#
-# Sentence-by-sentence versions are auto-derived at the bottom of this
-# file and named p0_sent, p1_sent, p2_sent, p3_sent. They share the body
-# of their parent prompt but add a small header telling the model it is
-# only being shown one sentence at a time.
-#
-# Inside each template the curly-brace placeholders are filled in by
-# LangChain's PromptTemplate. Doubled braces {{ }} are literal braces
-# (used in p2's JSON schema example).
-
 PROMPTS = {
     
     "p0": """Finding Mistakes in Basketball Stories: Text {text_id}

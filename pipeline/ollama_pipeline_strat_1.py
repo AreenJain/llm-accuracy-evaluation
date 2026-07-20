@@ -1,6 +1,5 @@
 import re
 from prompts import PROMPTS
-import time
 import json
 import argparse
 import pandas as pd

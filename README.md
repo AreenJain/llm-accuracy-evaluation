@@ -48,20 +48,16 @@ deterministic post-processing pipeline that repairs misaligned spans.
 │   ├── tables/                   # Per-observation outcome tables (CSV)
 │   └── results/                  # Fitted odds ratios + GLMM_SUMMARY.md
 ├── data/
-│   ├── games.csv                 # All summaries (TEXT_ID, GENERATED_TEXT)
-│   ├── games_30_rows.csv         # 30-summary development subset
-│   ├── shared_task.jsonl         # Box-score data per game
-│   ├── gsml.csv                  # Gold Standard error annotations (full)
-│   ├── gsml_30_rows.csv          # Gold Standard annotations (30-summary subset)
-│   ├── token_lookup.yaml         # Sentence-to-document token position map
-│   └── texts/                    # Per-summary .txt files (S001.txt …)
+│   ├── DRIVE LINK FOR DATA.docx   # Google Drive link: full summaries, GSML, per-summary texts
+│   ├── shared_task.jsonl          # Box-score data per game
+│   └── token_lookup.yaml          # Sentence-to-document token position map
 ├── results/
-│   ├── llm_raw/                  # Raw model output (JSONL)
-│   ├── llm_csv/                  # Parsed annotations (CSV)
-│   └── eval_outputs/             # Per-config evaluation results
-├── test_set/                     # Held-out test set (mirror of the pipeline)
-└── docs/
-    └── WORKFLOW.md               # Step-by-step pipeline walkthrough
+│   └── DRIVE LINK FOR RESULTS.docx # Google Drive link: all raw/parsed/evaluated run outputs
+├── test_set/                      # Held-out test set (mirrors the pipeline)
+│   ├── data/                      #   data on Google Drive (see its DRIVE LINK doc)
+│   ├── results/                   #   results on Google Drive (see its DRIVE LINK doc)
+│   └── pipeline/, post_processing/, evaluation/
+└── requirements.txt              # Python dependencies
 ```
 
 ---
@@ -74,6 +70,11 @@ basketball summaries, each with box-score data and a human Gold Standard
 error annotation. Development set = 30 summaries (674 gold errors); a
 separate held-out test set (30 summaries, 622 gold errors) is used for the
 final evaluation.
+
+Because of their size, the full datasets and all run outputs are hosted on
+Google Drive rather than in the repository. The `DRIVE LINK FOR ...`
+documents in `data/`, `results/`, `test_set/data/` and `test_set/results/`
+contain the links.
 
 ---
 

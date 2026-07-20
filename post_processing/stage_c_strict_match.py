@@ -66,7 +66,6 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
     blanked = 0
 
     for idx, row in df.iterrows():
-        # Skip rows that are already blank — Stage B already gave up on them.
         if pd.isna(row["SENT_TOKEN_START"]) or pd.isna(row["SENT_TOKEN_END"]):
             continue
 
@@ -74,7 +73,6 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
         sentence_id = row["SENTENCE_ID"]
         tokens_str = row["TOKENS"]
 
-        # Sanity check: must know which story, which sentence, and what tokens.
         if text_id not in texts or pd.isna(sentence_id) or pd.isna(tokens_str):
             df.at[idx, "SENT_TOKEN_START"] = pd.NA
             df.at[idx, "SENT_TOKEN_END"] = pd.NA
@@ -82,7 +80,6 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
             blanked += 1
             continue
 
-        # Cast ids to int. If any of them is garbage, blank the row.
         try:
             sid = int(sentence_id)
             start = int(row["SENT_TOKEN_START"])
@@ -94,11 +91,9 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
             blanked += 1
             continue
 
-        # Pull the actual word list from the story at the claimed position.
         sentence_tokens = get_sentence_tokens(texts[text_id], sid)
         target_tokens = str(tokens_str).split()
 
-        # Bounds check.
         if start < 1 or end > len(sentence_tokens) or start > end:
             df.at[idx, "SENT_TOKEN_START"] = pd.NA
             df.at[idx, "SENT_TOKEN_END"] = pd.NA
@@ -106,7 +101,6 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
             blanked += 1
             continue
 
-        # Final word-for-word check.
         actual = sentence_tokens[start - 1:end]
         if actual == target_tokens:
             kept += 1
@@ -121,10 +115,8 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
     for col in int_cols:
         df[col] = df[col].astype("Int64")
 
-    # Diagnostic copy.
     df.to_csv(output_abc_path, index=False)
 
-    # Evaluator-ready copy — final stage output.
     df_de, _, _ = resolve_overlaps(df.copy())
     df_de = drop_unmatched(df_de)
     df_de.to_csv(output_abcde_path, index=False)

@@ -2,7 +2,7 @@
 Rebuild a results CSV from its raw JSONL.
 
 Some runs produced a valid raw JSONL but an empty CSV. This happens when
-grove_pipeline's strict Pydantic parser rejects the model's output — e.g.
+grove_pipeline's strict Pydantic parser rejects the model's output, e.g.
 the p4 prompt returns TOKENS + LEFT/RIGHT_CONTEXT but no ANNOTATION_ID, or
 a model returned a bare JSON object instead of a list. The raw text is still
 saved, so we can re-parse it here with a forgiving json.loads and rebuild the
@@ -10,7 +10,7 @@ CSV without re-running the model.
 
 The output columns and the DOC_TOKEN_START/END computation match exactly what
 grove_pipeline writes, so the recovered CSV drops straight into the normal
-post-processing pipeline.
+post processing pipeline.
 
 Usage:
     python3 post_processing/recover_csv_from_raw.py \
@@ -122,7 +122,7 @@ def main():
                     continue
                 # Sentence mode: trust our loop's sentence id, not the model's.
                 sent_id = line_sent_id if line_sent_id is not None else ann.get("SENTENCE_ID")
-                # ANNOTATION_ID: use the model's if given, else auto-number.
+                # ANNOTATION_ID: use the model's if given, else auto number.
                 if ann.get("ANNOTATION_ID") is not None:
                     aid = ann["ANNOTATION_ID"]
                 else:

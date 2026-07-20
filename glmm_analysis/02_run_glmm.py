@@ -1,6 +1,6 @@
 """
-STEP 2 — Fit a GLMM (mixed-effects logistic regression) for each of the four
-outcomes, following the UCLA tutorial / Craig's request.
+STEP 2: Fit a GLMM (mixed-effects logistic regression) for each of the four
+outcomes, following the UCLA tutorial.
 
 For each outcome (Recall, Precision, Token Recall, Token Precision):
   outcome ~ family + size + prompt + mode + category + sent_pos
@@ -40,7 +40,7 @@ OUTCOMES = [
 
 PROMPT_ORDER = ["p0", "p0a", "p0b", "p0c", "p0d", "p1", "p2", "p3", "p4"]
 
-# Confirmatory grid (Craig, Meeting 16): p0-p4 + the p0a span-control variant.
+# Confirmatory grid: p0-p4 + the p0a span-control variant.
 # p0b/p0c/p0d and the 14B model are exploratory (Section 8) and excluded here.
 CONFIRMATORY_PROMPTS = ["p0", "p0a", "p1", "p2", "p3", "p4"]
 
@@ -66,7 +66,7 @@ def fit_one(name, df, y):
     df = df.rename(columns={y: "y"})
     formula = "y ~ family + size + prompt + mode + category + sent_pos"
 
-    # cluster-robust logistic (fast, gives p-values)
+    # cluster robust logistic (fast, gives p-values)
     log = smf.logit(formula, df).fit(disp=0, cov_type="cluster",
                                      cov_kwds={"groups": df["text_id"]})
     tab = pd.DataFrame({"odds_ratio": np.exp(log.params).round(3),
@@ -75,7 +75,7 @@ def fit_one(name, df, y):
                  np.where(tab.p_value < .01, "**",
                  np.where(tab.p_value < .05, "*", "")))
 
-    # mixed model (random intercept per game) — OR to cross-check
+    # mixed model (random intercept per game) OR to cross check
     try:
         mm = BinomialBayesMixedGLM.from_formula(
             formula, {"game": "0 + C(text_id)"}, df).fit_vb()
@@ -104,7 +104,7 @@ def main():
         results[name] = (tab, sd, base)
         print(tab[["odds_ratio", "p_value", "sig"]].to_string())
 
-    # ---- combined paper-ready markdown -------------------------------
+    # combined paper-ready markdown
     with open(f"{OUT}/GLMM_SUMMARY.md", "w") as fh:
         fh.write("# GLMM Analysis — Which dimensions drive performance?\n\n")
         fh.write("Mixed-effects logistic regression (random intercept per game). "

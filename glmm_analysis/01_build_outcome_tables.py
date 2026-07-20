@@ -1,7 +1,5 @@
 """
-STEP 1 — Build the four per-observation outcome tables for the GLMM analysis
-(Craig's meeting-16 request: separate analysis for Recall, Precision,
-Token Recall, Token Precision).
+STEP 1: Build the four per observation outcome tables for the GLMM analysis
 
 Everything here reuses the SAME matching rules as the official scorer
 evaluate.py, so the per-observation 1/0 outcomes aggregate back to the exact
@@ -46,7 +44,7 @@ def parse_run(run_id):
 def main():
     os.makedirs(OUTDIR, exist_ok=True)
 
-    # ---- gold mistakes: spans + per-mistake metadata -------------------
+    # gold mistakes: spans + per-mistake metadata 
     g = pd.read_csv(GSML)
     g["TID"] = g["TEXT_ID"].str.replace(".txt", "", regex=False)
     gold = {}                       # text_id -> list of mistakes
@@ -111,7 +109,7 @@ def main():
             subs_by_text.setdefault(t, []).append((i, sdat))
             sub_tokens.setdefault(t, set()).update(sdat["set"])
 
-        # ---- greedy 1-to-1 matching (recall + precision) --------------
+        # greedy 1-to-1 matching (recall + precision)
         matched_sub_idx = set()
         for tid, mistakes in gold.items():
             avail = {i: s["set"] for i, s in subs_by_text.get(tid, [])}
@@ -124,14 +122,14 @@ def main():
                                  "sentence_id": m["sentence_id"], **cfg,
                                  "detected": int(hit is not None)})
 
-        # precision: each submission -> was it matched?
+        # precision: each submission - was it matched?
         for tid, lst in subs_by_text.items():
             for i, sdat in lst:
                 prec_rows.append({"text_id": tid, "category": sdat["category"],
                                   "sentence_id": sdat["sentence_id"], **cfg,
                                   "correct": int((tid, i) in matched_sub_idx)})
 
-        # ---- token level (union membership) ---------------------------
+        # token level (union membership) 
         # token recall: each gold token -> is it in the submitted union?
         for tid, mistakes in gold.items():
             su = sub_tokens.get(tid, set())

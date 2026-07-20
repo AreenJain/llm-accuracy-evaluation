@@ -1,8 +1,0 @@
-categories,recall,precision,token_recall,token_precision,submitted_filename,gsml_filename,token_lookup_filename,text_dir
-NAME|NUMBER|WORD|CONTEXT|NOT_CHECKABLE|OTHER,0.117,0.312,0.077,0.225,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-NAME,0.156,0.485,0.136,0.421,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-NUMBER,0.134,0.199,0.134,0.132,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-WORD,None,None,None,None,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-CONTEXT,None,None,None,None,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-NOT_CHECKABLE,None,None,None,None,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts
-OTHER,None,None,None,None,results/formatted/stage_abcde/results_llama_medium_p1_sent_run1_abcde.csv,data/gsml_30_rows.csv,data/texts

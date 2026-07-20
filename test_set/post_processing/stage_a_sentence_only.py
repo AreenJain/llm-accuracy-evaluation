@@ -68,7 +68,7 @@ def process_file(input_path, output_a_path, output_ade_path, token_lookup):
 
     # Walk row by row. For each annotation, translate the start and end
     # doc-ids into sentence-level ids. Both ends must live in the same
-    # sentence for us to accept the row — otherwise the span is unusable.
+    # sentence for us to accept the row, otherwise the span is unusable.
     for _, row in df.iterrows():
         text_id = row["TEXT_ID"]
         doc_start = row["DOC_TOKEN_START"]
@@ -82,12 +82,12 @@ def process_file(input_path, output_a_path, output_ade_path, token_lookup):
             sent_starts.append(s_tok)
             sent_ends.append(e_tok)
         else:
-            # Cross-sentence span or lookup failure — leave blank for Stage B.
+            # Cross-sentence span or lookup failure, leave blank for Stage B.
             sentence_ids.append(pd.NA)
             sent_starts.append(pd.NA)
             sent_ends.append(pd.NA)
 
-    # Write the new sentence-level columns back and clear the doc-level ones.
+    # Write the new sentence-level columns back and clear the doc level ones.
     df["SENTENCE_ID"] = sentence_ids
     df["SENT_TOKEN_START"] = sent_starts
     df["SENT_TOKEN_END"] = sent_ends
@@ -100,10 +100,10 @@ def process_file(input_path, output_a_path, output_ade_path, token_lookup):
     for col in int_cols:
         df[col] = df[col].astype("Int64")
 
-    # Diagnostic copy — keeps every row, even the unmapped ones.
+    # Diagnostic copy keeps every row, even the unmapped ones.
     df.to_csv(output_a_path, index=False)
 
-    # Evaluator-ready copy — apply D and E, then save.
+    # Evaluator ready copy apply D and E, then save.
     df_de, _, _ = resolve_overlaps(df.copy())
     df_de = drop_unmatched(df_de)
     df_de.to_csv(output_ade_path, index=False)

@@ -68,7 +68,7 @@ def _row_matches_story(row, story_tokens, sent_to_doc):
 
     doc_start = row.get("DOC_TOKEN_START")
     if pd.isna(doc_start):
-        # No doc id — derive it from the sentence position, like the scorer.
+        # No doc id, derive it from the sentence position, like the scorer.
         try:
             doc_start = sent_to_doc[text_id][int(row["SENTENCE_ID"])][int(row["SENT_TOKEN_START"])]
         except (KeyError, TypeError, ValueError):

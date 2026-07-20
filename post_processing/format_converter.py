@@ -1,5 +1,5 @@
 """
-Stage 0 — Format Converter.
+Stage 0: Format Converter.
 
 The LLM saves its annotations in a CSV that does not match the column
 layout the official evaluator expects (the GSML format). This script
@@ -77,7 +77,7 @@ def main():
 
     os.makedirs(args.output_dir, exist_ok=True)
 
-    # Pick up only raw LLM CSVs — skip anything that's already been processed.
+    # Pick up only raw LLM CSVs, skip anything that's already been processed.
     files = sorted(
         f for f in os.listdir(args.input_dir)
         if f.startswith("results_") and f.endswith(".csv")

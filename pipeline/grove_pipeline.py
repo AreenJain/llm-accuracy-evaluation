@@ -45,7 +45,7 @@ from langchain_core.output_parsers import PydanticOutputParser
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 import torch
 
-# ----- CLI args --------------------------------------------------------------
+# CLI args
 arg_parser = argparse.ArgumentParser()
 arg_parser.add_argument("--games", type=str, required=True,
                         help="CSV with TEXT_ID + GENERATED_TEXT columns (the stories).")
@@ -64,14 +64,12 @@ MODELS = {
     "llama_medium": "/home/support/llm/Llama-3.1-70B-Instruct",
     "qwen_medium":  "/home/support/llm/Qwen2.5-72B-Instruct",
     "llama_small":  "/home/support/llm/Llama-3.1-8B-Instruct",
-    # qwen 7B isn't in the shared dir, so each of us downloads it to our own
-    # home — expanduser resolves ~ to whoever is running (ajain or hahire).
     "qwen_small":   os.path.expanduser("~/models/Qwen2.5-7B-Instruct"),
     "qwen_14b":     "/home/support/llm/Qwen2.5-14B-Instruct",
 }
 
 
-# ----- Pydantic schema for parsing the LLM's JSON output ---------------------
+# Pydantic schema for parsing the LLM's JSON output 
 class Annotation(BaseModel):
     """One mistake the LLM has found in a story."""
     TEXT_ID: str
@@ -139,7 +137,7 @@ def extract_json(text):
     return match.group() if match else "[]"
 
 
-# ----- Token mapping helpers (used to fill DOC_TOKEN_START/END columns) ------
+# Token mapping helpers (used to fill DOC_TOKEN_START/END columns) 
 def build_doc_token_map(text_id, story):
     """Walk the story word by word and build a dict that maps each
     document-level token id (1-indexed) to its sentence id and the
@@ -169,7 +167,7 @@ def find_token_span(doc_map, target_tokens):
     return None, None
 
 
-# ----- Load the model --------------------------------------------------------
+# Load the model 
 model_key = args.model
 model_name = MODELS[model_key]
 
@@ -210,12 +208,12 @@ def prompt_fn(prompt_key, **vars):
     template = build_prompt(prompt_key)
     prompt = template.format(**vars)
 
-    # Wrap in the chat-template the model was trained on.
+    # Wrap in the chat template the model was trained on.
     messages = [{"role": "user", "content": prompt}]
     text = tokenizer.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = tokenizer(text, return_tensors="pt").to(llm.device)
 
-    # Greedy decoding, no sampling — deterministic outputs make re-runs comparable.
+    # Greedy decoding, no sampling: deterministic outputs make re-runs comparable.
     with torch.no_grad():
         outputs = llm.generate(**inputs, max_new_tokens=2048, do_sample=False)
 
@@ -235,14 +233,14 @@ def prompt_fn(prompt_key, **vars):
     try:
         parsed = parser.parse(extracted)
     except Exception:
-        # Parser couldn't make sense of it — fall back to an empty list
+        # Parser couldn't make sense of it, fall back to an empty list
         # so the caller can still proceed without crashing.
         parsed = parser.parse("[]")
 
     return parsed, raw_text, is_valid_json
 
 
-# ----- Load the stories + game data into one DataFrame -----------------------
+# Load the stories + game data into one DataFrame 
 games_df = pd.read_csv(args.games)
 game_data_lines = []
 with open(args.jsonl, "r") as f:
@@ -253,7 +251,7 @@ with open(args.jsonl, "r") as f:
 games_df["game_data"] = game_data_lines[:len(games_df)]
 
 
-# ----- Run -------------------------------------------------------------------
+# Run 
 all_results = []
 
 # Build the prompt key once. In sentence mode this adds "_sent" so the
@@ -283,7 +281,7 @@ for i, row in games_df.head(args.rows).iterrows():
     doc_map = build_doc_token_map(text_id, story)
 
     if by_sent:
-        # ----- Sentence-by-sentence mode ---------------------------------
+        # Sentence-by-sentence mode 
         sentences = re.split(r'(?<=[.!?]) +', story)
         for sent_id, sent_text in enumerate(sentences, start=1):
             try:
@@ -306,7 +304,7 @@ for i, row in games_df.head(args.rows).iterrows():
                         "raw_output": raw_text,
                     }) + "\n")
 
-                # The LLM sometimes mislabels SENTENCE_ID — force our loop
+                # The LLM sometimes mislabels SENTENCE_ID force our loop
                 # value because we know exactly which sentence we sent.
                 for ann in parsed.root:
                     start, end = find_token_span(doc_map, ann.TOKENS)
@@ -325,14 +323,14 @@ for i, row in games_df.head(args.rows).iterrows():
             except Exception as e:
                 print(f"  sent {sent_id} failed: {e}")
 
-            # Free GPU memory between sentence calls — these add up fast.
+            # Free GPU memory between sentence calls, these add up fast.
             import gc
             gc.collect()
             torch.cuda.empty_cache()
         print("Done")
 
     else:
-        # ----- Full-story mode ------------------------------------------
+        # Full-story mode 
         try:
             parsed, raw_text, is_valid_json = prompt_fn(
                 prompt_key,
@@ -374,7 +372,7 @@ for i, row in games_df.head(args.rows).iterrows():
         torch.cuda.empty_cache()
 
 
-# ----- Save CSV --------------------------------------------------------------
+# Save CSV 
 elapsed = round(time.time() - start_time, 2)
 df_result = pd.DataFrame(all_results)
 df_result["MODEL"] = model_key

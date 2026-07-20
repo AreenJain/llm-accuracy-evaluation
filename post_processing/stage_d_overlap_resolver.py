@@ -53,7 +53,7 @@ def resolve_overlaps(df):
     for text_id, sent_id, start, idx in sortable:
         end = int(df.at[idx, "SENT_TOKEN_END"])
 
-        # First time we see this story — give it a fresh set of used tokens.
+        # First time we see this story give it a fresh set of used tokens.
         if text_id not in used_per_doc:
             used_per_doc[text_id] = set()
 
@@ -61,13 +61,13 @@ def resolve_overlaps(df):
         span_tokens = {(sent_id, t) for t in range(start, end + 1)}
 
         if span_tokens & used_per_doc[text_id]:
-            # Conflict — an earlier (kept) row already owns one of these tokens.
+            # Conflict an earlier (kept) row already owns one of these tokens.
             df.at[idx, "SENT_TOKEN_START"] = pd.NA
             df.at[idx, "SENT_TOKEN_END"] = pd.NA
             df.at[idx, "SENTENCE_ID"] = pd.NA
             blanked_overlap += 1
         else:
-            # No conflict — claim these tokens.
+            # No conflict claim these tokens.
             used_per_doc[text_id].update(span_tokens)
             kept += 1
 

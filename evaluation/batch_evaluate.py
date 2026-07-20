@@ -8,16 +8,16 @@ combination and then builds a single Excel report comparing them all.
 How it works:
   1. Discover what runs we have. We look at results/llm_csv/ and pull
      the run id out of each "results_<run_id>.csv" filename. This
-     means full-story runs and sentence-mode runs are both picked up
+     means full story runs and sentence mode runs are both picked up
      automatically as long as their CSVs are present.
   2. For each run, try every stage in STAGES. If the CSV for that
      stage exists, hand it to evaluate.py. If it doesn't, mark as
      MISSING. If evaluate.py errors out, mark as CRASH.
-  3. Save every per-(run, stage) eval CSV to results/eval_outputs/.
+  3. Save every per (run, stage) eval CSV to results/eval_outputs/.
   4. Read back the "combined" row from each successful eval CSV (the
      one whose `categories` column joins multiple types with '|'),
      pull recall / precision / token recall / token precision out of
-     it, and write a colour-coded Excel comparing every run at every
+     it, and write a colour coded Excel comparing every run at every
      stage.
 
 Stages evaluated (in order):
@@ -113,7 +113,6 @@ def run_evaluation(submitted_path, output_csv):
     try:
         result = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
         if result.returncode != 0:
-            # Keep only the last line of stderr — usually the actual error.
             return False, result.stderr.strip().split("\n")[-1][:200]
         if not os.path.exists(output_csv):
             return False, "No output CSV produced"
@@ -201,7 +200,7 @@ def parse_run_id(run_id):
         if tok == "sent":
             mode = "sent"
         elif tok.startswith("run"):
-            break           # run number — stop here
+            break           
         else:
             prompt_parts.append(tok)
 
@@ -239,7 +238,7 @@ def build_master_excel(success_log):
             r = combined.iloc[0]
             model, size, prompt, mode = parse_run_id(run_id)
             # Skip stray runs that have no prompt in their name (e.g.
-            # "qwen_medium_run1") — they would add empty/garbage rows.
+            # "qwen_medium_run1") they would add empty/garbage rows.
             if not prompt:
                 continue
             rows.append({
@@ -296,7 +295,7 @@ def write_excel(df, out_path):
     ws = wb.active
     ws.title = "Master Comparison"
 
-    # ── Styling shortcuts ──────────────────────────────────────────────────
+    # Styling shortcuts 
     h_font_white = Font(bold=True, color="FFFFFF", size=10)
     h_font_dark  = Font(bold=True, color="FFFFFF", size=10)
     h_fill_dark  = PatternFill("solid", start_color="2C3E50")
@@ -315,7 +314,7 @@ def write_excel(df, out_path):
     METRICS = ["recall", "token_recall", "precision", "token_precision"]
     METRIC_LABELS = ["recall", "token_recall", "precision", "token_precision"]
 
-    # ── Determine column groups from data ─────────────────────────────────
+    # Determine column groups from data 
     # Model order: Llama before Qwen; size order: small before medium.
     model_order = {"Llama-3.1-8B": (0, 0), "Llama-3.1-70B": (0, 1),
                    "Qwen-2.5-7B":  (1, 0), "Qwen-2.5-14B": (1, 1), "Qwen-2.5-72B": (1, 2)}
@@ -327,7 +326,7 @@ def write_excel(df, out_path):
     present_models = sorted(df["Model"].unique(),
                             key=lambda m: model_order.get(m, (99, 99)))
 
-    # Fixed row structure  ─────────────────────────────────────────────────
+    # Fixed row structure  
     # Rows 1-3 = headers; data starts at row 4.
     ROW_MODEL  = 1
     ROW_SIZE   = 2
@@ -341,7 +340,7 @@ def write_excel(df, out_path):
         """1-based Excel column for a given model group and metric."""
         return LEFT_COLS + 1 + model_idx * len(METRICS) + metric_idx
 
-    # ── Row 1: model names (merged across 4 metric cols each) ─────────────
+    # Row 1: model names (merged across 4 metric cols each) 
     # Rows 1-2: left three cells are empty but styled.
     for r in (ROW_MODEL, ROW_SIZE, ROW_METRIC):
         for c in range(1, LEFT_COLS + 1):
@@ -349,7 +348,7 @@ def write_excel(df, out_path):
             cell.fill = h_fill_dark
             cell.border = thin
 
-    # Write the left-column headers in row 3: Prompt | Mode | Stages.
+    # Write the left column headers in row 3: Prompt | Mode | Stages.
     # These must line up with the data rows below (A=Prompt, B=Mode, C=Stages).
     for col_no, label in ((1, "Prompt"), (2, "Mode"), (3, "Stages")):
         c = ws.cell(row=ROW_METRIC, column=col_no, value=label)
@@ -363,12 +362,12 @@ def write_excel(df, out_path):
         start_ltr = get_column_letter(start_col)
         end_ltr   = get_column_letter(end_col)
 
-        # Row 1: model family name, merged.
+        # Row 1: model family name, merged
         ws.merge_cells(f"{start_ltr}{ROW_MODEL}:{end_ltr}{ROW_MODEL}")
         c1 = ws.cell(row=ROW_MODEL, column=start_col, value=model_name[model])
         c1.font = h_font_white; c1.fill = h_fill_dark; c1.alignment = center; c1.border = thin
 
-        # Row 2: size label, merged.
+        # Row 2: size label, merged
         ws.merge_cells(f"{start_ltr}{ROW_SIZE}:{end_ltr}{ROW_SIZE}")
         c2 = ws.cell(row=ROW_SIZE, column=start_col, value=size_label[model])
         c2.font = h_font_white; c2.fill = h_fill_mid; c2.alignment = center; c2.border = thin
@@ -378,7 +377,7 @@ def write_excel(df, out_path):
             c3 = ws.cell(row=ROW_METRIC, column=col_for(mi, ki), value=label)
             c3.font = h_font_dark; c3.fill = h_fill_light; c3.alignment = center; c3.border = thin
 
-    # ── Build row order: (prompt, mode, stage) ────────────────────────────
+    # Build row order: (prompt, mode, stage) 
     stage_order  = ["raw", "ordered", "a", "ade", "ab", "abde", "abc", "abcde"]
     prompt_order = {"P0": 0, "P0A": 1, "P0B": 2, "P0C": 3, "P0D": 4, "P1": 5, "P2": 6, "P3": 7, "P4": 8}
     mode_order   = {"full": 0, "sent": 1}
@@ -392,7 +391,7 @@ def write_excel(df, out_path):
             .drop(columns=["_pr", "_mo", "_so"])
             .itertuples(index=False))
 
-    # Index the df for fast lookup: (Prompt, Mode, Stage, Model) → row
+    # Index the df for fast lookup: (Prompt, Mode, Stage, Model) - row
     lookup = {(r.Prompt, r.Mode, r.Stage, r.Model): r
               for r in df.itertuples(index=False)}
 
@@ -407,7 +406,7 @@ def write_excel(df, out_path):
         mode_val   = mode   if (prompt, mode) != (prev_prompt, prev_mode) else None
         prev_prompt, prev_mode = prompt, mode
 
-        # Col A – Prompt
+        # Col A - Prompt
         ca = ws.cell(row=row_idx, column=1, value=prompt_val)
         ca.font = body_font; ca.border = thin; ca.alignment = left
 

@@ -66,7 +66,7 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
     blanked = 0
 
     for idx, row in df.iterrows():
-        # Skip rows that are already blank — Stage B already gave up on them.
+        # Skip rows that are already blank, Stage B already gave up on them.
         if pd.isna(row["SENT_TOKEN_START"]) or pd.isna(row["SENT_TOKEN_END"]):
             continue
 
@@ -124,7 +124,7 @@ def process_file(input_path, output_abc_path, output_abcde_path, texts):
     # Diagnostic copy.
     df.to_csv(output_abc_path, index=False)
 
-    # Evaluator-ready copy — final stage output.
+    # Evaluator ready copy, final stage output.
     df_de, _, _ = resolve_overlaps(df.copy())
     df_de = drop_unmatched(df_de)
     df_de.to_csv(output_abcde_path, index=False)
