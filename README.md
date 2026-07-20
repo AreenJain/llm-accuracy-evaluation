@@ -31,6 +31,8 @@ deterministic post-processing pipeline that repairs misaligned spans.
 ├── pipeline/
 │   ├── grove_pipeline.py         # HuggingFace inference (HPC / GPU)
 │   ├── ollama_pipeline.py        # Ollama inference (local, small models)
+│   ├── ollama_pipeline_sent.py   # Ollama, sentence by sentence mode
+│   ├── ollama_pipeline_strat_1.py # Ollama, alternate prompting strategy
 │   └── prompts.py                # All prompt templates (p0–p4, p0a–p0d)
 ├── post_processing/
 │   ├── format_converter.py       # Normalise raw LLM CSV to evaluator format
@@ -41,7 +43,8 @@ deterministic post-processing pipeline that repairs misaligned spans.
 │   └── stage_e_drop_unmatched.py # E: drop still unresolved spans
 ├── evaluation/
 │   ├── evaluate.py               # 2021 shared task scorer (mistake + token)
-│   └── batch_evaluate.py         # Batch evaluate all runs/stages
+│   ├── batch_evaluate.py         # Batch evaluate all runs/stages
+│   └── LLM_evaluate.py           # LLM based evaluation helper
 ├── glmm_analysis/                # Mixed effects (GLMM) statistical analysis
 │   ├── 01_build_outcome_tables.py # Build per observation 0/1 outcome tables
 │   ├── 02_run_glmm.py            # Fit the GLMM for each of the four metrics
@@ -54,9 +57,11 @@ deterministic post-processing pipeline that repairs misaligned spans.
 ├── results/
 │   └── DRIVE LINK FOR RESULTS.docx # Google Drive link: all raw/parsed/evaluated run outputs
 ├── test_set/                      # Held-out test set (mirrors the pipeline)
+│   ├── pipeline/                  #   same inference scripts as above
+│   ├── post_processing/           #   same 5 stage pipeline
+│   ├── evaluation/                #   evaluate.py, batch_evaluate.py, LLM_evaluate.py
 │   ├── data/                      #   data on Google Drive (see its DRIVE LINK doc)
-│   ├── results/                   #   results on Google Drive (see its DRIVE LINK doc)
-│   └── pipeline/, post_processing/, evaluation/
+│   └── results/                   #   results on Google Drive (see its DRIVE LINK doc)
 └── requirements.txt              # Python dependencies
 ```
 
