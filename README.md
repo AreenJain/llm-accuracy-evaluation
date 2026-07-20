@@ -1,7 +1,7 @@
 # LLM-Based Factual Error Detection in Basketball Game Summaries
 
 Evaluating modern open-weight Large Language Models (LLMs) as automatic
-factual-error annotators for AI-generated basketball game summaries, scored
+factual error annotators for AI generated basketball game summaries, scored
 against the human Gold Standard from the [2021 Accuracy Evaluation Shared
 Task](https://aclanthology.org/2021.inlg-1.23/) (Thomson & Reiter, 2021).
 
@@ -13,13 +13,13 @@ Given an AI-generated basketball game summary and its underlying box-score
 data, the task is to find every factual error, categorise it
 (`NAME` / `NUMBER` / `WORD` / `CONTEXT` / `NOT_CHECKABLE` / `OTHER`), and
 report the exact text span and a correction. Submitted annotations are scored
-against the human Gold Standard (GSML) using the unmodified 2021 shared-task
+against the human Gold Standard (GSML) using the unmodified 2021 shared task
 evaluation script, at both **mistake level** and **token level**
 (precision / recall).
 
 We evaluate two open-weight families (**Llama 3.1** 8B/70B, **Qwen 2.5**
 7B/72B, plus an exploratory 14B) across a grid of prompting strategies and
-two generation modes (full-story vs sentence-by-sentence), with a
+two generation modes (full story vs sentence by sentence), with a
 deterministic post-processing pipeline that repairs misaligned spans.
 
 ---
@@ -35,17 +35,17 @@ deterministic post-processing pipeline that repairs misaligned spans.
 ├── post_processing/
 │   ├── format_converter.py       # Normalise raw LLM CSV to evaluator format
 │   ├── stage_a_sentence_only.py  # A: resolve to a single ID basis
-│   ├── stage_b_nearest_fixed_n.py# B: recover invalid spans by search
-│   ├── stage_c_strict_match.py   # C: match-strictness (redundant, see notes)
+│   ├── stage_b_nearest_fixed_n.py # B: recover invalid spans by search
+│   ├── stage_c_strict_match.py   # C: match strictness (redundant, see notes)
 │   ├── stage_d_overlap_resolver.py # D: resolve overlapping spans
-│   └── stage_e_drop_unmatched.py # E: drop still-unresolved spans
+│   └── stage_e_drop_unmatched.py # E: drop still unresolved spans
 ├── evaluation/
-│   ├── evaluate.py               # 2021 shared-task scorer (mistake + token)
-│   └── batch_evaluate.py         # Batch-evaluate all runs/stages
-├── glmm_analysis/                # Mixed-effects (GLMM) statistical analysis
-│   ├── 01_build_outcome_tables.py# Build per-observation 0/1 outcome tables
+│   ├── evaluate.py               # 2021 shared task scorer (mistake + token)
+│   └── batch_evaluate.py         # Batch evaluate all runs/stages
+├── glmm_analysis/                # Mixed effects (GLMM) statistical analysis
+│   ├── 01_build_outcome_tables.py # Build per observation 0/1 outcome tables
 │   ├── 02_run_glmm.py            # Fit the GLMM for each of the four metrics
-│   ├── tables/                   # Per-observation outcome tables (CSV)
+│   ├── tables/                   # Per observation outcome tables (CSV)
 │   └── results/                  # Fitted odds ratios + GLMM_SUMMARY.md
 ├── data/
 │   ├── DRIVE LINK FOR DATA.docx   # Google Drive link: full summaries, GSML, per-summary texts
@@ -65,10 +65,10 @@ deterministic post-processing pipeline that repairs misaligned spans.
 ## Data
 
 Built on the corpus from the [2021 Accuracy Evaluation Shared
-Task](https://github.com/ehudreiter/accuracySharedTask): AI-generated
+Task](https://github.com/ehudreiter/accuracySharedTask): AI generated
 basketball summaries, each with box-score data and a human Gold Standard
 error annotation. Development set = 30 summaries (674 gold errors); a
-separate held-out test set (30 summaries, 622 gold errors) is used for the
+separate held out test set (30 summaries, 622 gold errors) is used for the
 final evaluation.
 
 Because of their size, the full datasets and all run outputs are hosted on
@@ -132,7 +132,7 @@ python3 post_processing/stage_d_overlap_resolver.py
 python3 post_processing/stage_e_drop_unmatched.py
 ```
 
-Each stage emits a diagnostic file and an evaluator-ready file, so the
+Each stage emits a diagnostic file and an evaluator ready file, so the
 marginal effect of each stage can be measured.
 
 ### 3. Evaluate
@@ -141,7 +141,7 @@ marginal effect of each stage can be measured.
 python3 evaluation/batch_evaluate.py
 ```
 
-Produces per-config mistake-level and token-level precision/recall in
+Produces per config mistake level and token level precision/recall in
 `results/eval_outputs/`.
 
 ---
@@ -153,19 +153,19 @@ Produces per-config mistake-level and token-level precision/recall in
 | Prompt | Description |
 |---|---|
 | `p0`  | Baseline: task description, minimal formatting |
-| `p1`  | Rule-tuned: explicit span-selection constraints |
-| `p2`  | JSON-structure-focused variant of p1 |
-| `p3`  | LLM-as-judge persona |
-| `p4`  | Context-anchored: returns context windows instead of numeric positions |
-| `p0a` | Early span-control variant of p0 |
+| `p1`  | Rule tuned: explicit span-selection constraints |
+| `p2`  | JSON structure focused variant of p1 |
+| `p3`  | LLM as judge persona |
+| `p4`  | Context anchored: returns context windows instead of numeric positions |
+| `p0a` | Early span control variant of p0 |
 
 **Exploratory extensions** (developed later):
 
 | Prompt | Description |
 |---|---|
-| `p0b` | Hard 1–3 word span limit + minimal-correction rule |
-| `p0c` | Adds contiguous-only + copy-verbatim rules; cleaned of legacy annotator text |
-| `p0d` | Few-shot worked examples demonstrating error density |
+| `p0b` | Hard 1 - 3 word span limit + minimal correction rule |
+| `p0c` | Adds contiguous-only + copy verbatim rules; cleaned of legacy annotator text |
+| `p0d` | Few shot worked examples demonstrating error density |
 
 ---
 
@@ -181,5 +181,5 @@ Produces per-config mistake-level and token-level precision/recall in
 
 > **Note:** Stage C was found to be empirically redundant: in 50 of 51
 > configurations its output is identical to skipping it, because Stage E's
-> document-position check subsumes it. It is kept in the repo for
+> document position check subsumes it. It is kept in the repo for
 > completeness but can be omitted.
